@@ -19,6 +19,7 @@ assignees: ""
 - [ ] unrouted net
 - [ ] placement defect
 - [ ] routing quality defect
+- [ ] manufacturing export blocker
 - [ ] power path concern
 - [ ] RF/antenna keepout concern
 - [ ] mechanical concern
@@ -36,6 +37,7 @@ assignees: ""
 - visual path:
 - DRC output:
 - live project state path:
+- PCB hash before or current:
 
 ## Requested Outcome
 
@@ -49,3 +51,4 @@ assignees: ""
 - backup required before edit: `YES`
 - design-file edit allowed by task: `YES/NO`
 - fabrication approval requested: `NO`
+- manufacturing outputs already generated: `YES/NO`

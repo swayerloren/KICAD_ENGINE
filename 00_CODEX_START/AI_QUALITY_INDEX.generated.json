@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T16:39:04",
-  "record_count": 837,
+  "generated": "2026-05-08T16:53:45",
+  "record_count": 842,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -316,6 +316,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SELF_REVIEW.md",
       "size_bytes": 1088,
       "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_GITHUB_DEV_INFRA_SETUP_SELF_REVIEW.md",
+      "size_bytes": 593,
+      "title": "AI Self Review - GitHub Dev Infrastructure Setup"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1068,6 +1075,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_GITHUB_DEV_INFRA_SETUP_SCORECARD.md",
+      "size_bytes": 638,
+      "title": "AI Response Scorecard - GitHub Dev Infrastructure Setup"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-08T15:16:09",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
       "size_bytes": 696,
@@ -1810,6 +1824,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_DEV_INFRA_SETUP_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 384,
+      "title": "Hallucination Risk Log - GitHub Dev Infrastructure Setup"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-08T15:16:09",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 567,
@@ -2542,6 +2563,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 924,
       "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_DEV_INFRA_SETUP_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 909,
+      "title": "Claim / Evidence Matrix - GitHub Dev Infrastructure Setup"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3473,6 +3501,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md",
       "size_bytes": 337,
       "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_GITHUB_DEV_INFRA_SETUP_UNCERTAINTY_LOG.md",
+      "size_bytes": 514,
+      "title": "Uncertainty Log - GitHub Dev Infrastructure Setup"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:39:04",
+  "generated_at": "2026-05-08T16:53:45",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -314,6 +314,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SCORECARD.md",
       "title": "AI Response Scorecard",
       "size_bytes": 278,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_GITHUB_DEV_INFRA_SETUP_SCORECARD.md",
+      "title": "AI Response Scorecard - GitHub Dev Infrastructure Setup",
+      "size_bytes": 638,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1067,6 +1074,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_GITHUB_DEV_INFRA_SETUP_SELF_REVIEW.md",
+      "title": "AI Self Review - GitHub Dev Infrastructure Setup",
+      "size_bytes": 593,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
       "title": "AI Self Review - Live State Authority Hardening",
       "size_bytes": 765,
@@ -1812,6 +1826,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim Evidence Matrix",
       "size_bytes": 924,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_DEV_INFRA_SETUP_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - GitHub Dev Infrastructure Setup",
+      "size_bytes": 909,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3093,6 +3114,13 @@
       "path": "02_HISTORY\\command_logs\\FULL_REPO_PRODUCTION_QUALITY_AUDIT_COMMANDS.md",
       "title": "Full Repo Production Quality Audit Commands",
       "size_bytes": 3705,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\GITHUB_DEV_INFRA_SETUP_COMMANDS.md",
+      "title": "GitHub Dev Infrastructure Setup Commands",
+      "size_bytes": 3972,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -4553,6 +4581,13 @@
       "bucket": "failed_attempts"
     },
     {
+      "path": "02_HISTORY\\failed_attempts\\20260508_COMPILE_SCOPE_TOO_BROAD_FOR_DEV_INFRA_CI.md",
+      "title": "Failed Attempt - Compile Scope Too Broad For Dev Infra CI",
+      "size_bytes": 750,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
       "path": "02_HISTORY\\failed_attempts\\20260508_GITHUB_INDEXING_PATCH_CONTEXT_MISMATCH.md",
       "title": "Failed Attempt",
       "size_bytes": 453,
@@ -4570,6 +4605,13 @@
       "path": "02_HISTORY\\failed_attempts\\20260508_PLACEMENT_READINESS_STAGING_ANDAND_POWERSHELL_ERROR.md",
       "title": "Failed Attempt",
       "size_bytes": 558,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260508_POWERSHELL_YAML_VALIDATOR_NOT_AVAILABLE.md",
+      "title": "Failed Attempt - PowerShell YAML Validator Not Available",
+      "size_bytes": 448,
       "scope": "global",
       "bucket": "failed_attempts"
     },
@@ -5333,6 +5375,13 @@
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log",
       "size_bytes": 337,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_DEV_INFRA_SETUP_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - GitHub Dev Infrastructure Setup",
+      "size_bytes": 384,
       "scope": "global",
       "bucket": "hallucination_risk_logs"
     },
@@ -6228,7 +6277,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 234250,
+      "size_bytes": 235024,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -7465,6 +7514,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\GITHUB_DEV_INFRA_SETUP_SESSION.md",
+      "title": "GitHub Dev Infrastructure Setup Session",
+      "size_bytes": 866,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\GITHUB_REPO_INDEXING_SESSION.md",
       "title": "GITHUB_REPO_INDEXING_SESSION",
       "size_bytes": 1436,
@@ -8546,6 +8602,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log",
       "size_bytes": 337,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_GITHUB_DEV_INFRA_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - GitHub Dev Infrastructure Setup",
+      "size_bytes": 514,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

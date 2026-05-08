@@ -1,0 +1,80 @@
+name: KiCad Engine repository hygiene
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - hardening/**
+      - github/**
+
+jobs:
+  repo-hygiene:
+    name: repo-hygiene
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Confirm no KiCad lock files are tracked
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files '*.lck' '~*.lck' | grep .; then
+            echo "Tracked KiCad lock files found."
+            exit 1
+          fi
+
+      - name: Confirm no env or obvious secret files are tracked
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files '.env' '.env.*' 'secrets.*' 'api_keys.*' 'local_credentials.*' 'private_config.*' | grep .; then
+            echo "Tracked env or secret-like files found."
+            exit 1
+          fi
+
+      - name: Confirm no accidental manufacturing outputs are tracked
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import subprocess
+
+          tracked = subprocess.check_output(
+              ["git", "ls-files", "*.gbr", "*.drl", "*.xln", "*.step", "*.stp", "*.zip", "*.7z", "*.rar"],
+              text=True,
+          ).splitlines()
+          approved_prefixes = (
+              "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/",
+          )
+          bad = [path for path in tracked if not path.replace("\\", "/").startswith(approved_prefixes)]
+          if bad:
+              raise SystemExit("Tracked manufacturing or release artifact files found outside approved sample paths:\n" + "\n".join(bad))
+          print("MANUFACTURING_ARTIFACT_ALLOWLIST_PASS")
+          PY
+
+      - name: Confirm no excluded local-only folders are tracked
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import subprocess
+
+          tracked = subprocess.check_output(["git", "ls-files"], text=True).splitlines()
+          bad = []
+          for path in tracked:
+              normalized = path.replace("\\", "/")
+              if normalized.startswith("99_BACKUPS/") or normalized.startswith("T_E_M_P/"):
+                  bad.append(path)
+              elif "/routing_work/" in normalized and "/copied" in normalized:
+                  bad.append(path)
+              elif "/routing_rehearsals/" in normalized:
+                  bad.append(path)
+              elif "/imported_originals/" in normalized:
+                  bad.append(path)
+          if bad:
+              raise SystemExit("Tracked local-only paths found:\n" + "\n".join(bad))
+          print("REPO_HYGIENE_PASS")
+          PY

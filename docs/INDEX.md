@@ -24,3 +24,11 @@ AI-readable index for current public documentation files.
 
 ## PUBLIC_RELEASE_NOTES
 - Public docs should be beginner-readable and technically accurate.
+
+## RECOMMENDED ENTRY DOCS
+
+- [GITHUB_SETUP.md](GITHUB_SETUP.md)
+- [CODESPACES_SETUP.md](CODESPACES_SETUP.md)
+- [LOCAL_DEV_SETUP.md](LOCAL_DEV_SETUP.md)
+- [BRANCH_AND_PR_WORKFLOW.md](BRANCH_AND_PR_WORKFLOW.md)
+- [REPO_MAINTENANCE_WORKFLOW.md](REPO_MAINTENANCE_WORKFLOW.md)

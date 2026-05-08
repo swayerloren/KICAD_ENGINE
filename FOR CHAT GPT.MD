@@ -40,6 +40,18 @@ The root GitHub front page was rewritten again so `README.md` explains the repo 
 - `.github/README.md` was narrowed to GitHub collaboration metadata only, with the root docs kept as the canonical project entry point
 - one remaining hardening gap was exposed rather than hidden: the execution-contract layer is currently strongest for PCB work and still does not have a dedicated schematic-edit task type
 
+## Latest GitHub dev infrastructure setup - 2026-05-08
+
+The repo now has a first-pass GitHub developer-infrastructure layer for Codespaces, PR hygiene, and read-only CI validation:
+
+- `.devcontainer/` now exists with `devcontainer.json`, `postCreateCommand.ps1`, and a local README
+- GitHub workflows now include `ci.yml`, `docs-check.yml`, and `kicad-engine-checks.yml`
+- those workflows are intentionally read-only: they validate scripts, task-contract examples, routing geometry fixtures, placement readiness in read-only mode, docs links, and repo hygiene without editing KiCad files or generating manufacturing outputs
+- `.github/BRANCH_PROTECTION_RECOMMENDATIONS.md` now documents the recommended `main` protection settings, but no browser settings were changed automatically
+- `.github/CODEOWNERS` now exists with a simple owner mapping for the current repo owner
+- docs now include `docs/GITHUB_SETUP.md`, `CODESPACES_SETUP.md`, `LOCAL_DEV_SETUP.md`, `BRANCH_AND_PR_WORKFLOW.md`, and `REPO_MAINTENANCE_WORKFLOW.md`
+- one important CI constraint was made explicit during validation: Python syntax checks must stay scoped to tracked first-party repo scripts and must not recurse into vendored repos or embedded Python-2 examples under tool bundles
+
 ## Latest task-type execution contract hardening - 2026-05-08
 
 KiCad Engine now has a dedicated execution-contract layer under `03_TOOLS\scripts\execution_contract` to stop false completion of edit-required PCB tasks:

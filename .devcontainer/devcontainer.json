@@ -1,0 +1,34 @@
+{
+  "name": "KiCad Engine Dev Workspace",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/powershell:1": {}
+  },
+  "postCreateCommand": "pwsh -File .devcontainer/postCreateCommand.ps1",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "redhat.vscode-yaml",
+        "davidanson.vscode-markdownlint",
+        "github.vscode-github-actions"
+      ]
+    }
+  },
+  "containerEnv": {
+    "KICAD_ENGINE_DEVCONTAINER": "1"
+  },
+  "remoteUser": "vscode",
+  "workspaceFolder": "/workspaces/KICAD_ENGINE"
+}
