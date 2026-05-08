@@ -118,11 +118,28 @@ jobs:
           print("ROUTING_GEOMETRY_FIXTURE_PASS")
           PY
 
-      - name: Run placement readiness scoring in read-only mode
+      - name: Run placement readiness scoring in read-only mode when pcbnew is available
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p .ci/placement
+
+          set +e
+          python - <<'PY'
+          try:
+              import pcbnew  # type: ignore
+          except Exception:
+              raise SystemExit(2)
+          raise SystemExit(0)
+          PY
+          pcbnew_code=$?
+          set -e
+
+          if [ "$pcbnew_code" -eq 2 ]; then
+            echo "PLACEMENT_READINESS_SKIPPED_NO_PCBNEW"
+            exit 0
+          fi
+
           set +e
           python 14_LAYOUT_AUTOMATION/scripts/score_placement_readiness.py \
             04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_pcb \
