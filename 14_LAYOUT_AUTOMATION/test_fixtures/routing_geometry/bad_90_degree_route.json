@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "project": "bad_90_degree_route",
+  "board_outline": {
+    "shape": "rectangle",
+    "width_mm": 20.0,
+    "height_mm": 20.0,
+    "allowed_signal_layers": ["F.Cu", "B.Cu"]
+  },
+  "components": [],
+  "pads": [],
+  "net_classes": {
+    "DEFAULT": {"width_mm": 0.2, "clearance_mm": 0.15, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 2}
+  },
+  "nets": [
+    {"name": "BUCK_SW", "role": "BUCK_SW", "net_class": "DEFAULT", "routing_priority": 90, "routing_status": "ROUTED", "critical": true},
+    {"name": "EN", "role": "EN_BOOT", "net_class": "DEFAULT", "routing_priority": 40, "routing_status": "ROUTED", "critical": true}
+  ],
+  "keepouts": [],
+  "layer_rules": {
+    "available_layers": ["F.Cu", "B.Cu"],
+    "default_signal_layer": "F.Cu"
+  },
+  "via_rules": {
+    "critical_reason_required": true,
+    "default_allowed": true,
+    "max_default_vias": 2
+  },
+  "trace_rules": {
+    "default_width_mm": 0.2,
+    "default_clearance_mm": 0.15,
+    "avoid_right_angles": true
+  },
+  "ground_strategy": {
+    "present": true,
+    "strategy": "fixture_ground"
+  },
+  "routing_status": {
+    "phase": "geometry_bad",
+    "drc_risk": "LOW",
+    "all_critical_planned": true
+  },
+  "traces": [
+    {
+      "id": "T1",
+      "net": "BUCK_SW",
+      "routing_status": "ROUTED",
+      "critical": true,
+      "via_count": 0,
+      "via_reason": "",
+      "segments": [
+        {"x1": 11.0, "y1": 12.0, "x2": 14.0, "y2": 12.0, "layer": "F.Cu", "width_mm": 0.2}
+      ]
+    },
+    {
+      "id": "T2",
+      "net": "EN",
+      "routing_status": "ROUTED",
+      "critical": true,
+      "via_count": 0,
+      "via_reason": "",
+      "segments": [
+        {"x1": 2.0, "y1": 2.0, "x2": 6.0, "y2": 2.0, "layer": "F.Cu", "width_mm": 0.2},
+        {"x1": 6.0, "y1": 2.0, "x2": 6.0, "y2": 6.0, "layer": "F.Cu", "width_mm": 0.2}
+      ]
+    }
+  ]
+}

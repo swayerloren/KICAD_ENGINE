@@ -30,6 +30,31 @@ If maintenance is due, block new engineering work until the maintenance cycle ru
 
 `python 03_TOOLS/scripts/maintenance/run_maintenance_cycle.py --project <ACTIVE_PROJECT_PATH>`
 
+Before meaningful work begins, declare exactly one task type using the execution-contract layer:
+
+- `DOCS_ONLY`
+- `AUDIT_ONLY`
+- `LIVE_STATE_RECONCILE`
+- `PLACEMENT_EDIT_REQUIRED`
+- `ROUTING_EDIT_REQUIRED`
+- `PCB_EDIT_REQUIRED`
+- `GITHUB_DOCS_ONLY`
+
+Execution-contract files:
+
+- `03_TOOLS/scripts/execution_contract/README.md`
+- `03_TOOLS/scripts/execution_contract/task_contract.schema.json`
+- `03_TOOLS/scripts/execution_contract/validate_task_contract.py`
+- `03_TOOLS/scripts/execution_contract/enforce_edit_required.py`
+
+Live-state authority files:
+
+- `03_TOOLS/scripts/project_state/live_state_authority.py`
+- `03_TOOLS/scripts/project_state/validate_live_state_before_gate.py`
+- `03_TOOLS/scripts/project_state/live_state_gate_wrapper.py`
+
+If the task type is `PLACEMENT_EDIT_REQUIRED`, `ROUTING_EDIT_REQUIRED`, or `PCB_EDIT_REQUIRED`, the session must prove the required engineering artifact change before closeout or explicitly fail with `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`.
+
 For supplier, distributor, stock, pricing, SKU, lifecycle, sourcing, or supplier datasheet-link work, also read:
 
 - `../28_SUPPLIER_INGESTION/SOURCE_POLICY.md`
@@ -93,9 +118,15 @@ For KiCad project work that moves from schematic review into PCB update, placeme
 
 Before starting the requested phase, run:
 
+`python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>`
+
+Then run:
+
 `python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project <ACTIVE_PROJECT_PATH> --phase <PHASE>`
 
-The phase checker now rebuilds or reads `reports/LIVE_PROJECT_STATE.json`, runs stale-report detection, and prints whether each blocker came from `LIVE_FILE_EVIDENCE`, `FRESH_GATE_REPORT`, `STALE_REPORT_IGNORED`, or `HUMAN_REVIEW_REQUIRED`.
+`LIVE_PROJECT_STATE.json` is the top authority for phase, placement, routing, and closeout status claims. Reports without source hashes are weak, and stale `NO_PCB`, `0 footprints`, or `no routing` claims cannot overrule live KiCad file evidence.
+
+The phase checker now routes through the live-state authority wrapper, rebuilds or reads fresh `reports/LIVE_PROJECT_STATE.json`, reruns stale-report detection, and prints whether each blocker came from `LIVE_FILE_EVIDENCE`, `FRESH_GATE_REPORT`, `STALE_REPORT_IGNORED`, `TASK_CONTRACT_FAILURE`, or `HUMAN_REVIEW_REQUIRED`.
 
 If the result is `BLOCKED`, stop and report the missing prerequisite. Do not create future-phase blocked review reports unless LJ specifically asked for a blocker audit.
 

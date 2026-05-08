@@ -5,7 +5,8 @@ from __future__ import annotations
 
 import argparse
 
-from _routing_common import angle_degrees, dump_json, dump_markdown, get_keepouts, get_traces, make_markdown, markdown_table, normalized_nets, parse_args_markdown, segment_crosses_keepout, load_json
+from _routing_common import dump_json, dump_markdown, get_keepouts, get_traces, load_json, make_markdown, markdown_table, normalized_nets, parse_args_markdown
+from route_quality_common import analyze_trace_geometry, coordinates_text
 
 
 def classify_trace(trace: dict, net_info: dict, keepouts: list[dict]) -> dict:
@@ -21,30 +22,10 @@ def classify_trace(trace: dict, net_info: dict, keepouts: list[dict]) -> dict:
         issues.append("no_segments")
     if critical and routing_status != "ROUTED":
         issues.append("critical_trace_unrouted")
-    if via_count > 0 and critical and not via_reason:
-        issues.append("vias_without_reason")
+    geometry = analyze_trace_geometry(trace, net_info, keepouts)
+    issues.extend(geometry["issue_codes"])
 
     widths = sorted({round(float(seg.get("width_mm", 0.0)), 4) for seg in segments})
-    if net_info.get("power") and widths and min(widths) + 1e-9 < float(net_info.get("width_mm", 0.2)):
-        issues.append("power_trace_too_narrow")
-
-    angles: list[float] = []
-    for left, right in zip(segments, segments[1:]):
-        ang = round(angle_degrees(left, right), 3)
-        angles.append(ang)
-        if abs(ang - 90.0) < 0.01:
-            issues.append("right_angle_turn")
-        elif 0.0 < ang < 90.0 and abs(ang - 45.0) > 0.01:
-            issues.append("acute_or_nonstandard_angle")
-
-    for segment in segments:
-        for keepout in keepouts:
-            if segment_crosses_keepout(segment, keepout):
-                keepout_type = str(keepout.get("type", "")).upper()
-                if keepout_type == "RF_KEEPOUT":
-                    issues.append("trace_crosses_rf_keepout")
-                if keepout_type == "ANTENNA_KEEPOUT":
-                    issues.append("trace_crosses_antenna_keepout")
 
     return {
         "net": net,
@@ -54,8 +35,12 @@ def classify_trace(trace: dict, net_info: dict, keepouts: list[dict]) -> dict:
         "via_count": via_count,
         "via_reason": via_reason,
         "widths_mm": widths,
-        "angles_deg": angles,
+        "trace_length_mm": geometry["trace_length_mm"],
+        "direct_length_mm": geometry["direct_length_mm"],
+        "length_ratio": geometry["length_ratio"],
         "issues": sorted(set(issues)),
+        "hard_fail_statuses": geometry["hard_fail_statuses"],
+        "findings": geometry["findings"],
         "review_required": bool(trace.get("review_required", net_info.get("review_required", False))),
     }
 
@@ -78,17 +63,13 @@ def main() -> int:
     missing_trace_nets = sorted(routed_trace_nets - audited_nets)
 
     flagged = [item for item in audits if item["issues"]]
-    hard_fails: list[str] = []
+    hard_fail_statuses = sorted({status for item in audits for status in item["hard_fail_statuses"]})
+    hard_fails: list[str] = list(hard_fail_statuses)
     if missing_trace_nets:
         hard_fails.append("trace-by-trace audit missing")
-    if any("vias_without_reason" in item["issues"] for item in audits if item["critical"]):
-        hard_fails.append("via used without reason on critical net")
-    if any("trace_crosses_rf_keepout" in item["issues"] for item in audits):
-        hard_fails.append("trace crosses RF keepout")
-    if any("trace_crosses_antenna_keepout" in item["issues"] for item in audits):
-        hard_fails.append("trace crosses antenna keepout")
 
     status = "PASS" if not flagged and not missing_trace_nets and audits else "AUTO_BLOCKED_BAD_LAYOUT"
+    detailed_findings = [finding for item in audits for finding in item["findings"]]
     result = {
         "schema_version": "1.0",
         "tool": "trace_by_trace_audit",
@@ -105,21 +86,47 @@ def main() -> int:
         "audit_complete": not missing_trace_nets,
         "missing_trace_nets": missing_trace_nets,
         "traces": audits,
+        "detailed_findings": detailed_findings,
+        "hard_fail_statuses": hard_fail_statuses,
         "hard_fails": sorted(set(hard_fails)),
     }
     dump_json(args.output_json, result)
 
     if args.markdown:
         rows = [
-            [item["net"], item["critical"], item["segment_count"], item["via_count"], ",".join(item["issues"]) or "_none_"]
+            [
+                item["net"],
+                item["critical"],
+                item["segment_count"],
+                item["via_count"],
+                ",".join(item["hard_fail_statuses"]) or "_none_",
+            ]
             for item in audits
+        ]
+        finding_rows = [
+            [
+                finding["net"],
+                finding["status"],
+                finding["layer"],
+                coordinates_text(finding["segment_coordinates"]),
+                finding["reason"],
+                finding["recommended_fix"],
+            ]
+            for finding in detailed_findings
         ]
         text = make_markdown(
             "Trace By Trace Audit",
             {"project": payload.get("project", ""), "status": status},
             [
-                ("Trace Audit", markdown_table(["net", "critical", "segments", "vias", "issues"], rows)),
+                ("Trace Audit", markdown_table(["net", "critical", "segments", "vias", "hard_fail_statuses"], rows)),
                 ("Hard Fails", "\n".join(f"- {item}" for item in sorted(set(hard_fails))) if hard_fails else "_none_"),
+                (
+                    "Detailed Findings",
+                    markdown_table(
+                        ["net", "status", "layer", "segment_coordinates", "reason", "recommended_fix"],
+                        finding_rows,
+                    ),
+                ),
             ],
         )
         dump_markdown(args.markdown, text)

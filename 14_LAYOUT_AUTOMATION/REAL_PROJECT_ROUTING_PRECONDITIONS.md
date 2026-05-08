@@ -15,12 +15,13 @@ Real routing may only start when all of these are true:
 3. PCB exists and is synced to the schematic
 4. placement pass 1 is exact `PASS`
 5. placement orientation pass is exact `PASS`
-6. board outline exists on the real PCB
-7. keepouts and any required zones/ground strategy exist
-8. routing plan exists
-9. critical nets are explicitly identified
-10. net classes are defined
-11. DRC precheck passes
+6. placement readiness scorecard is exact `PLACEMENT_READY_FOR_ROUTING`
+7. board outline exists on the real PCB
+8. keepouts and any required zones/ground strategy exist
+9. routing plan exists
+10. critical nets are explicitly identified
+11. net classes are defined
+12. DRC precheck passes
 
 ## Routing-Engine-Specific Preconditions
 
@@ -43,6 +44,7 @@ Do not start real routing if any of these are true:
 - sandbox or auto-PCB-start gates still block project progression
 - footprints are missing or candidate-only where exact verification is required
 - placement is not approved
+- placement readiness scorecard is not exact `PLACEMENT_READY_FOR_ROUTING`
 - board outline is not final enough for routing
 - RF or antenna keepouts are undefined
 - routing plan does not exist
@@ -61,6 +63,7 @@ At minimum, real routing should point to:
 - `reports/PCB_SYNC_STATUS.md`
 - `reports/PCB_PLACEMENT_PASS_1_REPORT.md`
 - placement orientation pass report
+- `reports/PLACEMENT_READINESS_SCORECARD.md`
 - DRC precheck report
 - routing plan report
 - critical-net routing plan report

@@ -1,0 +1,167 @@
+name: Python and repo validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - hardening/**
+      - github/**
+
+jobs:
+  python-and-contracts:
+    name: python-and-contracts
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile tracked first-party Python scripts
+        run: |
+          python - <<'PY'
+          import py_compile
+          import subprocess
+          import sys
+
+          tracked = subprocess.check_output(["git", "ls-files", "*.py"], text=True).splitlines()
+          excluded_prefixes = (
+              "03_TOOLS/python_envs/",
+              "03_TOOLS/node_envs/",
+              "03_TOOLS/repos/",
+              "03_TOOLS/windows/repos/",
+              "03_TOOLS/linux/repos/",
+          )
+          errors = []
+
+          for path in tracked:
+              normalized = path.replace("\\", "/")
+              if normalized.startswith(excluded_prefixes):
+                  continue
+              try:
+                  py_compile.compile(path, doraise=True)
+              except Exception as exc:  # pragma: no cover - CI guard
+                  errors.append(f"{path}: {exc}")
+
+          if errors:
+              raise SystemExit("\n".join(errors))
+          print("PYTHON_COMPILE_PASS")
+          PY
+
+      - name: Validate task-contract examples
+        run: |
+          python 03_TOOLS/scripts/execution_contract/validate_task_contract.py --contract 03_TOOLS/scripts/execution_contract/examples/docs_only.json
+          python 03_TOOLS/scripts/execution_contract/validate_task_contract.py --contract 03_TOOLS/scripts/execution_contract/examples/audit_only.json
+          python 03_TOOLS/scripts/execution_contract/validate_task_contract.py --contract 03_TOOLS/scripts/execution_contract/examples/pcb_edit_required.json
+          python 03_TOOLS/scripts/execution_contract/validate_task_contract.py --contract 03_TOOLS/scripts/execution_contract/examples/routing_edit_required.json
+
+      - name: Run routing geometry fixtures
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .ci/routing-geometry
+
+          python 14_LAYOUT_AUTOMATION/scripts/routing_geometry_quality.py \
+            14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/good_45_degree_route.json \
+            .ci/routing-geometry/good_45_degree_route.json \
+            --markdown .ci/routing-geometry/good_45_degree_route.md
+
+          set +e
+          python 14_LAYOUT_AUTOMATION/scripts/routing_geometry_quality.py \
+            14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_90_degree_route.json \
+            .ci/routing-geometry/bad_90_degree_route.json \
+            --markdown .ci/routing-geometry/bad_90_degree_route.md
+          code_90=$?
+          python 14_LAYOUT_AUTOMATION/scripts/routing_geometry_quality.py \
+            14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_acute_jog_route.json \
+            .ci/routing-geometry/bad_acute_jog_route.json \
+            --markdown .ci/routing-geometry/bad_acute_jog_route.md
+          code_acute=$?
+          python 14_LAYOUT_AUTOMATION/scripts/routing_geometry_quality.py \
+            14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_pad_entry_route.json \
+            .ci/routing-geometry/bad_pad_entry_route.json \
+            --markdown .ci/routing-geometry/bad_pad_entry_route.md
+          code_pad=$?
+          python 14_LAYOUT_AUTOMATION/scripts/routing_geometry_quality.py \
+            14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_zigzag_route.json \
+            .ci/routing-geometry/bad_zigzag_route.json \
+            --markdown .ci/routing-geometry/bad_zigzag_route.md
+          code_zigzag=$?
+          set -e
+
+          test "$code_90" -eq 1
+          test "$code_acute" -eq 1
+          test "$code_pad" -eq 1
+          test "$code_zigzag" -eq 1
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          expected = {
+              "good_45_degree_route": "PASS",
+              "bad_90_degree_route": "AUTO_BLOCKED_BAD_LAYOUT",
+              "bad_acute_jog_route": "AUTO_BLOCKED_BAD_LAYOUT",
+              "bad_pad_entry_route": "AUTO_BLOCKED_BAD_LAYOUT",
+              "bad_zigzag_route": "AUTO_BLOCKED_BAD_LAYOUT",
+          }
+          for name, status in expected.items():
+              path = Path(".ci/routing-geometry") / f"{name}.json"
+              data = json.loads(path.read_text(encoding="utf-8"))
+              if data["status"] != status:
+                  raise SystemExit(f"{name}: expected {status}, got {data['status']}")
+          print("ROUTING_GEOMETRY_FIXTURE_PASS")
+          PY
+
+      - name: Run placement readiness scoring in read-only mode when pcbnew is available
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .ci/placement
+
+          set +e
+          python - <<'PY'
+          try:
+              import pcbnew  # type: ignore
+          except Exception:
+              raise SystemExit(2)
+          raise SystemExit(0)
+          PY
+          pcbnew_code=$?
+          set -e
+
+          if [ "$pcbnew_code" -eq 2 ]; then
+            echo "PLACEMENT_READINESS_SKIPPED_NO_PCBNEW"
+            exit 0
+          fi
+
+          set +e
+          python 14_LAYOUT_AUTOMATION/scripts/score_placement_readiness.py \
+            04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_pcb \
+            .ci/placement/placement_score.json \
+            --markdown .ci/placement/placement_score.md
+          code=$?
+          set -e
+          if [ "$code" -ne 0 ] && [ "$code" -ne 1 ]; then
+            exit "$code"
+          fi
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path(".ci/placement/placement_score.json").read_text(encoding="utf-8"))
+          allowed = {
+              "PLACEMENT_READY_FOR_ROUTING",
+              "PLACEMENT_REPAIR_REQUIRED",
+              "PLACEMENT_BLOCKED_HUMAN_REVIEW",
+          }
+          if data["status"] not in allowed:
+              raise SystemExit(f"Unexpected placement status: {data['status']}")
+          print(f"PLACEMENT_STATUS={data['status']}")
+          PY

@@ -23,6 +23,9 @@ Use this checklist before ending a meaningful Codex or Claude session.
 - [ ] AI quality index updated.
 - [ ] `CURRENT_KNOWN_PROBLEMS.md` rebuilt.
 - [ ] Prompt counter incremented for the session, or maintenance cycle run if due.
+- [ ] Exactly one task type was declared for the run.
+- [ ] Task contract was validated when the session was meaningful.
+- [ ] If the task type was `PLACEMENT_EDIT_REQUIRED`, `ROUTING_EDIT_REQUIRED`, or `PCB_EDIT_REQUIRED`, engineering artifact change was proven or the session closed with `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE` or `NO_DESIGN_CHANGE_NEEDED` as allowed.
 - [ ] `FOR CHAT GPT.MD` updated if repo structure or workflow changed.
 - [ ] No secrets were recorded.
 - [ ] No KiCad design files were edited without the required gates.

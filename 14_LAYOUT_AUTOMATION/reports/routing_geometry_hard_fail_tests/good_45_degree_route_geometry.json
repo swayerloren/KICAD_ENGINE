@@ -1,0 +1,36 @@
+{
+  "finding_counts": {},
+  "findings": [],
+  "hard_fail_statuses": [],
+  "project": "good_45_degree_route",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "finding_count": 0,
+    "hard_fail_status_count": 0,
+    "trace_count": 2
+  },
+  "tool": "routing_geometry_quality",
+  "trace_reports": [
+    {
+      "direct_length_mm": 3.0,
+      "findings": [],
+      "hard_fail_statuses": [],
+      "issue_codes": [],
+      "length_ratio": 1.0,
+      "net": "BUCK_SW",
+      "trace_id": "T1",
+      "trace_length_mm": 3.0
+    },
+    {
+      "direct_length_mm": 7.211,
+      "findings": [],
+      "hard_fail_statuses": [],
+      "issue_codes": [],
+      "length_ratio": 1.062,
+      "net": "EN",
+      "trace_id": "T2",
+      "trace_length_mm": 7.657
+    }
+  ]
+}

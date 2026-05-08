@@ -1,0 +1,58 @@
+{
+  "findings": [
+    {
+      "critical": true,
+      "issue_code": "unnecessary_zigzag_found",
+      "layer": "F.Cu",
+      "net": "EN",
+      "reason": "Trace length is 9.657 mm versus 8.0 mm direct with repeated geometry reversals.",
+      "recommended_fix": "Collapse the jog sequence into a simpler 45-degree path with fewer bends and no unnecessary reversals.",
+      "segment_coordinates": [
+        {
+          "x1_mm": 2.0,
+          "x2_mm": 3.0,
+          "y1_mm": 2.0,
+          "y2_mm": 2.0
+        },
+        {
+          "x1_mm": 3.0,
+          "x2_mm": 5.0,
+          "y1_mm": 2.0,
+          "y2_mm": 4.0
+        },
+        {
+          "x1_mm": 5.0,
+          "x2_mm": 7.0,
+          "y1_mm": 4.0,
+          "y2_mm": 4.0
+        },
+        {
+          "x1_mm": 7.0,
+          "x2_mm": 9.0,
+          "y1_mm": 4.0,
+          "y2_mm": 2.0
+        },
+        {
+          "x1_mm": 9.0,
+          "x2_mm": 10.0,
+          "y1_mm": 2.0,
+          "y2_mm": 2.0
+        }
+      ],
+      "status": "UNNECESSARY_ZIGZAG_FOUND",
+      "trace_id": "T2"
+    }
+  ],
+  "hard_fail_statuses": [
+    "UNNECESSARY_ZIGZAG_FOUND"
+  ],
+  "project": "bad_zigzag_route",
+  "schema_version": "1.0",
+  "status": "UNNECESSARY_ZIGZAG_FOUND",
+  "summary": {
+    "finding_count": 1,
+    "hard_fail_status_count": 1,
+    "trace_count": 2
+  },
+  "tool": "detect_unnecessary_zigzags"
+}

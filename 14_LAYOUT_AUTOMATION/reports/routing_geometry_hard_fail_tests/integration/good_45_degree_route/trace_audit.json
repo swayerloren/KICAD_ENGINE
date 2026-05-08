@@ -1,0 +1,57 @@
+{
+  "audit_complete": true,
+  "critical_trace_count": 2,
+  "detailed_findings": [],
+  "flagged_count": 0,
+  "hard_fail_statuses": [],
+  "hard_fails": [],
+  "missing_trace_nets": [],
+  "project": "good_45_degree_route",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "critical_trace_count": 2,
+    "flagged_count": 0,
+    "trace_count": 2
+  },
+  "tool": "trace_by_trace_audit",
+  "trace_count": 2,
+  "traces": [
+    {
+      "critical": true,
+      "direct_length_mm": 3.0,
+      "findings": [],
+      "hard_fail_statuses": [],
+      "issues": [],
+      "length_ratio": 1.0,
+      "net": "BUCK_SW",
+      "review_required": true,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "trace_length_mm": 3.0,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.2
+      ]
+    },
+    {
+      "critical": true,
+      "direct_length_mm": 7.211,
+      "findings": [],
+      "hard_fail_statuses": [],
+      "issues": [],
+      "length_ratio": 1.062,
+      "net": "EN",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 3,
+      "trace_length_mm": 7.657,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.2
+      ]
+    }
+  ]
+}

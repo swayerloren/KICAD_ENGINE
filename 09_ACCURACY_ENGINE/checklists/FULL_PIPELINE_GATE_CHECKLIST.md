@@ -76,6 +76,8 @@ Use this checklist to determine whether a KiCad project may move to the next pip
 
 - [ ] Placement pass 1 report exists.
 - [ ] Placement pass 2 orientation report exists.
+- [ ] Placement readiness scorecard exists.
+- [ ] Placement readiness scorecard is exact `PLACEMENT_READY_FOR_ROUTING` before routing.
 - [ ] Connectors face correct board edges/directions.
 - [ ] Pin 1 and polarity orientation are reviewed.
 - [ ] Courtyards and board-edge clearances are acceptable.
@@ -86,6 +88,7 @@ Use this checklist to determine whether a KiCad project may move to the next pip
 
 - [ ] Hole/test-pad/via strategy exists and passes.
 - [ ] Copper zone strategy exists and passes.
+- [ ] Placement readiness scorecard still matches the current board hash.
 - [ ] Routing plan is `ROUTING_PLAN_READY`.
 - [ ] Critical routing report passes or is accepted with documented non-blocking warnings.
 - [ ] Full routing report exists.

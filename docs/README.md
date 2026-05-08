@@ -23,3 +23,11 @@ Current public/end-user documentation implementation root.
 
 ## PUBLIC_RELEASE_NOTES
 - Docs must avoid unsupported competitive claims and private local details.
+
+## KEY GITHUB / DEV DOCS
+
+- [GITHUB_SETUP.md](GITHUB_SETUP.md)
+- [CODESPACES_SETUP.md](CODESPACES_SETUP.md)
+- [LOCAL_DEV_SETUP.md](LOCAL_DEV_SETUP.md)
+- [BRANCH_AND_PR_WORKFLOW.md](BRANCH_AND_PR_WORKFLOW.md)
+- [REPO_MAINTENANCE_WORKFLOW.md](REPO_MAINTENANCE_WORKFLOW.md)

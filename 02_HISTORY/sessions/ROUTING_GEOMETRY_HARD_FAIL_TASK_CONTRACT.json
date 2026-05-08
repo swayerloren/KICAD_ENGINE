@@ -1,0 +1,28 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Implement hard-fail routing geometry checks in the layout automation layer without editing KiCad design files.",
+  "project_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE",
+  "target_pcb": null,
+  "changed_files": [
+    "14_LAYOUT_AUTOMATION/ROUTING_GEOMETRY_HARD_FAIL_RULES.md",
+    "14_LAYOUT_AUTOMATION/scripts/route_quality_common.py",
+    "14_LAYOUT_AUTOMATION/scripts/routing_geometry_quality.py",
+    "14_LAYOUT_AUTOMATION/scripts/detect_right_angle_traces.py",
+    "14_LAYOUT_AUTOMATION/scripts/detect_acute_jogs.py",
+    "14_LAYOUT_AUTOMATION/scripts/detect_bad_pad_entry.py",
+    "14_LAYOUT_AUTOMATION/scripts/detect_unnecessary_zigzags.py",
+    "14_LAYOUT_AUTOMATION/scripts/trace_by_trace_audit.py",
+    "14_LAYOUT_AUTOMATION/scripts/score_routing_plan.py",
+    "14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/good_45_degree_route.json",
+    "14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_90_degree_route.json",
+    "14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_acute_jog_route.json",
+    "14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_pad_entry_route.json",
+    "14_LAYOUT_AUTOMATION/test_fixtures/routing_geometry/bad_zigzag_route.json"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "This run changed repo scripts, rules, fixtures, reports, and handoff docs only. No KiCad design files were edited.",
+  "evidence": {
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

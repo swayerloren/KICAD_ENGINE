@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T14:49:56",
+  "generated_at": "2026-05-08T17:00:26",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -276,6 +276,13 @@
       "bucket": "ai_scorecards"
     },
     {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_SCORECARD.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 660,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
       "path": "02_HISTORY\\ai_scorecards\\20260508_150300_GITHUB_REPO_INDEXING_SCORECARD.md",
       "title": "AI Response Scorecard",
       "size_bytes": 408,
@@ -283,9 +290,72 @@
       "bucket": "ai_scorecards"
     },
     {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_155333_PLACEMENT_READINESS_SCORING_SCORECARD.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 206,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_161753_STAGED_ROUTING_RUNNER_SCORECARD.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 303,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_162242_HARDENING_PR_SCORECARD.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 176,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
       "path": "02_HISTORY\\ai_scorecards\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SCORECARD.md",
       "title": "AI Response Scorecard",
       "size_bytes": 278,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_SCORECARD.md",
+      "title": "AI Response Scorecard - GitHub Actions And Ruleset Limitations",
+      "size_bytes": 623,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_GITHUB_DEV_INFRA_SETUP_SCORECARD.md",
+      "title": "AI Response Scorecard - GitHub Dev Infrastructure Setup",
+      "size_bytes": 638,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
+      "title": "AI Response Scorecard - Live State Authority Hardening",
+      "size_bytes": 696,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_PR_BRANCH_UPDATE_SCORECARD.md",
+      "title": "AI Response Scorecard - PR Branch Update",
+      "size_bytes": 595,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_README_WORKFLOW_REWRITE_SCORECARD.md",
+      "title": "AI Response Scorecard - README Workflow Rewrite",
+      "size_bytes": 607,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SCORECARD.md",
+      "title": "AI Response Scorecard - Routing Geometry Hard Fail",
+      "size_bytes": 666,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -969,6 +1039,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_SELF_REVIEW.md",
+      "title": "AI Self-Review",
+      "size_bytes": 777,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_150300_GITHUB_REPO_INDEXING_SELF_REVIEW.md",
       "title": "AI Self Review",
       "size_bytes": 1020,
@@ -976,9 +1053,72 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_155333_PLACEMENT_READINESS_SCORING_SELF_REVIEW.md",
+      "title": "AI Self Review",
+      "size_bytes": 345,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_161753_STAGED_ROUTING_RUNNER_SELF_REVIEW.md",
+      "title": "AI Self Review",
+      "size_bytes": 669,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_162242_HARDENING_PR_SELF_REVIEW.md",
+      "title": "AI Self Review",
+      "size_bytes": 454,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SELF_REVIEW.md",
       "title": "AI Self Review",
       "size_bytes": 1088,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_SELF_REVIEW.md",
+      "title": "AI Self Review - GitHub Actions And Ruleset Limitations",
+      "size_bytes": 436,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_GITHUB_DEV_INFRA_SETUP_SELF_REVIEW.md",
+      "title": "AI Self Review - GitHub Dev Infrastructure Setup",
+      "size_bytes": 593,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
+      "title": "AI Self Review - Live State Authority Hardening",
+      "size_bytes": 765,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_PR_BRANCH_UPDATE_SELF_REVIEW.md",
+      "title": "AI Self Review - PR Branch Update",
+      "size_bytes": 585,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_README_WORKFLOW_REWRITE_SELF_REVIEW.md",
+      "title": "AI Self Review - README Workflow Rewrite",
+      "size_bytes": 694,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SELF_REVIEW.md",
+      "title": "AI Self Review - Routing Geometry Hard Fail",
+      "size_bytes": 642,
       "scope": "global",
       "bucket": "ai_self_reviews"
     },
@@ -1662,6 +1802,13 @@
       "bucket": "claim_evidence_matrices"
     },
     {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix",
+      "size_bytes": 884,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_150300_GITHUB_REPO_INDEXING_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim Evidence Matrix",
       "size_bytes": 1145,
@@ -1669,9 +1816,72 @@
       "bucket": "claim_evidence_matrices"
     },
     {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_155333_PLACEMENT_READINESS_SCORING_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix",
+      "size_bytes": 1073,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_161753_STAGED_ROUTING_RUNNER_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim Evidence Matrix",
+      "size_bytes": 691,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_162242_HARDENING_PR_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim Evidence Matrix",
+      "size_bytes": 629,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim Evidence Matrix",
       "size_bytes": 924,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - GitHub Actions And Ruleset Limitations",
+      "size_bytes": 737,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_DEV_INFRA_SETUP_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - GitHub Dev Infrastructure Setup",
+      "size_bytes": 909,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_LIVE_STATE_AUTHORITY_HARDENING_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - Live State Authority Hardening",
+      "size_bytes": 1045,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_PR_BRANCH_UPDATE_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - PR Branch Update",
+      "size_bytes": 720,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_README_WORKFLOW_REWRITE_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - README Workflow Rewrite",
+      "size_bytes": 1128,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_ROUTING_GEOMETRY_HARD_FAIL_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - Routing Geometry Hard Fail",
+      "size_bytes": 1055,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -2085,6 +2295,13 @@
       "path": "02_HISTORY\\command_logs\\2026-05-08_PCB_BATCH_04_REPLAY_REQUEST_ALREADY_APPLIED_COMMANDS.md",
       "title": "PCB Batch 04 Replay Request Commands",
       "size_bytes": 828,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\20260508_GITHUB_README_WORKFLOW_REWRITE_COMMANDS.md",
+      "title": "GitHub README Workflow Rewrite Commands",
+      "size_bytes": 1987,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -2922,9 +3139,23 @@
       "bucket": "command_logs"
     },
     {
+      "path": "02_HISTORY\\command_logs\\GITHUB_ACTIONS_RULESET_LIMITATIONS_COMMANDS.md",
+      "title": "GitHub Actions And Ruleset Limitations Commands",
+      "size_bytes": 1518,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\GITHUB_DEV_INFRA_SETUP_COMMANDS.md",
+      "title": "GitHub Dev Infrastructure Setup Commands",
+      "size_bytes": 3972,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
       "path": "02_HISTORY\\command_logs\\GITHUB_REPO_INDEXING_COMMANDS.md",
       "title": "GITHUB_REPO_INDEXING_COMMANDS",
-      "size_bytes": 1670,
+      "size_bytes": 2171,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -2946,6 +3177,13 @@
       "path": "02_HISTORY\\command_logs\\GOLDEN_PATH_SAMPLE_PROMOTION_COMMANDS.md",
       "title": "Command Log - Golden Path Sample Promotion",
       "size_bytes": 4108,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\HARDENING_PR_COMMANDS.md",
+      "title": "Hardening PR Commands",
+      "size_bytes": 820,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -3037,6 +3275,13 @@
       "path": "02_HISTORY\\command_logs\\LICENSE_ATTRIBUTION_AUDIT_COMMANDS.md",
       "title": "License Attribution Audit Commands",
       "size_bytes": 2764,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\LIVE_STATE_AUTHORITY_HARDENING_COMMANDS.md",
+      "title": "Live State Authority Hardening Commands",
+      "size_bytes": 1499,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -3188,6 +3433,13 @@
       "bucket": "command_logs"
     },
     {
+      "path": "02_HISTORY\\command_logs\\PLACEMENT_READINESS_SCORING_COMMANDS.md",
+      "title": "Placement Readiness Scoring Commands",
+      "size_bytes": 1629,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
       "path": "02_HISTORY\\command_logs\\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_COMMANDS.md",
       "title": "Command Log: Playwright Batch Research Expansion",
       "size_bytes": 2161,
@@ -3223,6 +3475,13 @@
       "bucket": "command_logs"
     },
     {
+      "path": "02_HISTORY\\command_logs\\PR_BRANCH_UPDATE_COMMANDS.md",
+      "title": "PR Branch Update Commands",
+      "size_bytes": 3403,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
       "path": "02_HISTORY\\command_logs\\PROJECT_GATE_RUNNER_COMMANDS.md",
       "title": "Project Gate Runner Command Log",
       "size_bytes": 3692,
@@ -3254,6 +3513,13 @@
       "path": "02_HISTORY\\command_logs\\REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_COMMANDS.md",
       "title": "REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_COMMANDS",
       "size_bytes": 3157,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\ROUTING_GEOMETRY_HARD_FAIL_COMMANDS.md",
+      "title": "Routing Geometry Hard Fail Commands",
+      "size_bytes": 3004,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -3296,6 +3562,13 @@
       "path": "02_HISTORY\\command_logs\\SCHEMATIC_TO_PCB_GATE_SYSTEM_COMMANDS.md",
       "title": "Schematic To PCB Gate System Commands",
       "size_bytes": 3946,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\STAGED_ROUTING_RUNNER_COMMANDS.md",
+      "title": "Staged Routing Runner Commands",
+      "size_bytes": 1152,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -3380,6 +3653,13 @@
       "path": "02_HISTORY\\command_logs\\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_COMMANDS.md",
       "title": "Supplier Ingestion System Revalidation Command Log",
       "size_bytes": 2242,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\TASK_TYPE_EXECUTION_CONTRACT_COMMANDS.md",
+      "title": "Task-Type Execution Contract Commands",
+      "size_bytes": 1460,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -3853,6 +4133,13 @@
       "bucket": "design_reviews"
     },
     {
+      "path": "02_HISTORY\\design_reviews\\LIVE_STATE_AUTHORITY_HARDENING_AUDIT.md",
+      "title": "Live State Authority Hardening Audit",
+      "size_bytes": 2951,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
       "path": "02_HISTORY\\design_reviews\\MACOS_INSTALLER_SUPPORT_STATUS.md",
       "title": "macOS Installer Support Status",
       "size_bytes": 4800,
@@ -3961,6 +4248,13 @@
       "path": "02_HISTORY\\design_reviews\\PILL_STYLE_PCB_PLACEMENT_RULE_PATCH_AUDIT.md",
       "title": "Pill-Style PCB Placement Rule Patch Audit",
       "size_bytes": 3731,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
+      "path": "02_HISTORY\\design_reviews\\PLACEMENT_READINESS_SCORING_AUDIT.md",
+      "title": "Placement Readiness Scoring Audit",
+      "size_bytes": 2338,
       "scope": "global",
       "bucket": "design_reviews"
     },
@@ -4091,6 +4385,13 @@
       "bucket": "design_reviews"
     },
     {
+      "path": "02_HISTORY\\design_reviews\\ROUTING_GEOMETRY_HARD_FAIL_AUDIT.md",
+      "title": "Routing Geometry Hard Fail Audit",
+      "size_bytes": 1777,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
       "path": "02_HISTORY\\design_reviews\\SAMPLE_KICAD_TEST_PROJECT_REVIEW.md",
       "title": "SAMPLE_KICAD_TEST_PROJECT Review",
       "size_bytes": 2001,
@@ -4129,6 +4430,13 @@
       "path": "02_HISTORY\\design_reviews\\SETUP_HEALTH_CHECK_SYSTEM_STATUS.md",
       "title": "Setup And Health Check System Status",
       "size_bytes": 3477,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
+      "path": "02_HISTORY\\design_reviews\\STAGED_ROUTING_RUNNER_AUDIT.md",
+      "title": "Staged Routing Runner Audit",
+      "size_bytes": 1943,
       "scope": "global",
       "bucket": "design_reviews"
     },
@@ -4224,6 +4532,13 @@
       "bucket": "design_reviews"
     },
     {
+      "path": "02_HISTORY\\design_reviews\\TASK_TYPE_EXECUTION_CONTRACT_AUDIT.md",
+      "title": "Task-Type Execution Contract Audit",
+      "size_bytes": 3101,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
       "path": "02_HISTORY\\design_reviews\\TEST_EXAMPLES_BENCHMARKS_SETUP_AUDIT.md",
       "title": "Test Examples Benchmarks Setup Audit",
       "size_bytes": 3647,
@@ -4294,6 +4609,13 @@
       "bucket": "failed_attempts"
     },
     {
+      "path": "02_HISTORY\\failed_attempts\\20260508_COMPILE_SCOPE_TOO_BROAD_FOR_DEV_INFRA_CI.md",
+      "title": "Failed Attempt - Compile Scope Too Broad For Dev Infra CI",
+      "size_bytes": 750,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
       "path": "02_HISTORY\\failed_attempts\\20260508_GITHUB_INDEXING_PATCH_CONTEXT_MISMATCH.md",
       "title": "Failed Attempt",
       "size_bytes": 453,
@@ -4304,6 +4626,41 @@
       "path": "02_HISTORY\\failed_attempts\\20260508_GITHUB_REPO_INDEXING_FOR_CHAT_GPT_PATH_QUOTING.md",
       "title": "Failed Attempt",
       "size_bytes": 364,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260508_PLACEMENT_READINESS_STAGING_ANDAND_POWERSHELL_ERROR.md",
+      "title": "Failed Attempt",
+      "size_bytes": 558,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260508_POWERSHELL_YAML_VALIDATOR_NOT_AVAILABLE.md",
+      "title": "Failed Attempt - PowerShell YAML Validator Not Available",
+      "size_bytes": 448,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260508_README_LINK_VALIDATION_FALSE_NEGATIVE.md",
+      "title": "Failed Attempt - README Link Validation False Negative",
+      "size_bytes": 561,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260508_ROUTING_GEOMETRY_INTEGRATION_FIXTURE_CONTEXT_MISS.md",
+      "title": "Failed Attempt - Routing Geometry Integration Fixture Context Miss",
+      "size_bytes": 898,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260508_STAGED_ROUTING_RUNNER_PARSER_FALSE_POSITIVES.md",
+      "title": "Failed Attempt",
+      "size_bytes": 541,
       "scope": "global",
       "bucket": "failed_attempts"
     },
@@ -5008,6 +5365,13 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 510,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_150300_GITHUB_REPO_INDEXING_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log",
       "size_bytes": 436,
@@ -5015,9 +5379,72 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_155333_PLACEMENT_READINESS_SCORING_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 311,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_161753_STAGED_ROUTING_RUNNER_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 437,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_162242_HARDENING_PR_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 193,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log",
       "size_bytes": 337,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - GitHub Actions And Ruleset Limitations",
+      "size_bytes": 347,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_DEV_INFRA_SETUP_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - GitHub Dev Infrastructure Setup",
+      "size_bytes": 384,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Live State Authority Hardening",
+      "size_bytes": 567,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_PR_BRANCH_UPDATE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - PR Branch Update",
+      "size_bytes": 374,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_README_WORKFLOW_REWRITE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - README Workflow Rewrite",
+      "size_bytes": 526,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Routing Geometry Hard Fail",
+      "size_bytes": 440,
       "scope": "global",
       "bucket": "hallucination_risk_logs"
     },
@@ -5442,6 +5869,27 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\20260508_HARDENING_PR_FOLLOWUP_REMAINING.md",
+      "title": "Open Issue",
+      "size_bytes": 293,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\20260508_SCHEMATIC_EXECUTION_CONTRACT_GAP.md",
+      "title": "Issue Log - Schematic Execution Contract Gap",
+      "size_bytes": 864,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\20260508_STAGED_ROUTING_RUNNER_REPORT_SCHEMA_RISK.md",
+      "title": "Open Issue",
+      "size_bytes": 505,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN.md",
       "title": "AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN",
       "size_bytes": 804,
@@ -5659,6 +6107,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\LIVE_STATE_AUTHORITY_HARDENING_RESIDUAL_GAPS.md",
+      "title": "Live State Authority Hardening Residual Gaps",
+      "size_bytes": 570,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\MCU_DATASHEET_SUPPORT_FOLDERS_REMAIN_WEAK.md",
       "title": "Issue Log: MCU Datasheet Support Folders Remain Weak",
       "size_bytes": 1194,
@@ -5757,6 +6212,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\ROUTING_GEOMETRY_HARD_FAIL_LIMITATIONS.md",
+      "title": "Routing Geometry Hard Fail Limitations",
+      "size_bytes": 464,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\SAMPLE_PROJECT_PUBLIC_PAYLOAD_BLOCKED_PENDING_REVIEW.md",
       "title": "Issue Log - Sample Project Public Payload Blocked Pending Review",
       "size_bytes": 1508,
@@ -5806,6 +6268,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\TASK_TYPE_EXECUTION_CONTRACT_RUNTIME_AUTOMATION_GAP.md",
+      "title": "Task Type Execution Contract Runtime Automation Gap",
+      "size_bytes": 719,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\known_agent_mistakes\\BARREL_JACK_ORIENTATION_CONFUSION.md",
       "title": "Barrel Jack Orientation Confusion",
       "size_bytes": 938,
@@ -5843,7 +6312,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 222622,
+      "size_bytes": 236233,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -6075,6 +6544,13 @@
       "path": "02_HISTORY\\sessions\\20260502_230010_AI_quality_gate_setup_completed.md",
       "title": "AI quality gate setup completed",
       "size_bytes": 951,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
+      "path": "02_HISTORY\\sessions\\20260508_GITHUB_README_WORKFLOW_REWRITE_SESSION.md",
+      "title": "GitHub README Workflow Rewrite Session",
+      "size_bytes": 1404,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -7073,9 +7549,23 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\GITHUB_ACTIONS_RULESET_LIMITATIONS_SESSION.md",
+      "title": "GitHub Actions And Ruleset Limitations Session",
+      "size_bytes": 762,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
+      "path": "02_HISTORY\\sessions\\GITHUB_DEV_INFRA_SETUP_SESSION.md",
+      "title": "GitHub Dev Infrastructure Setup Session",
+      "size_bytes": 866,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\GITHUB_REPO_INDEXING_SESSION.md",
       "title": "GITHUB_REPO_INDEXING_SESSION",
-      "size_bytes": 1351,
+      "size_bytes": 1436,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -7104,6 +7594,13 @@
       "path": "02_HISTORY\\sessions\\GOLDEN_PATH_SAMPLE_PROMOTED.md",
       "title": "Session Log - Golden Path Sample Promoted",
       "size_bytes": 1843,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
+      "path": "02_HISTORY\\sessions\\HARDENING_PR_SESSION.md",
+      "title": "Hardening PR Session",
+      "size_bytes": 520,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -7290,6 +7787,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\LIVE_STATE_AUTHORITY_HARDENING_SESSION.md",
+      "title": "Live State Authority Hardening Session",
+      "size_bytes": 1331,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\LOCAL_ENVIRONMENT_CHECK_SESSION.md",
       "title": "Local Environment Check Session",
       "size_bytes": 1195,
@@ -7451,6 +7955,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\PLACEMENT_READINESS_SCORING_SESSION.md",
+      "title": "Placement Readiness Scoring Session",
+      "size_bytes": 1099,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\PLATFORM_CONTROL_LAYERS_AUDIT_SESSION.md",
       "title": "Platform Control Layers Audit Session",
       "size_bytes": 2115,
@@ -7503,6 +8014,13 @@
       "path": "02_HISTORY\\sessions\\POWER_COMPONENT_DATABASE_SESSION.md",
       "title": "Power Component Database Session",
       "size_bytes": 1692,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
+      "path": "02_HISTORY\\sessions\\PR_BRANCH_UPDATE_SESSION.md",
+      "title": "PR Branch Update Session",
+      "size_bytes": 789,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -7577,6 +8095,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\ROUTING_GEOMETRY_HARD_FAIL_SESSION.md",
+      "title": "Routing Geometry Hard Fail Session",
+      "size_bytes": 1030,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\SAMPLE_PIPELINE_FIX_SESSION.md",
       "title": "Sample Pipeline Fix Session",
       "size_bytes": 2695,
@@ -7622,6 +8147,13 @@
       "path": "02_HISTORY\\sessions\\SETUP_HEALTH_CHECK_SYSTEM_SESSION.md",
       "title": "Setup And Health Check System Session",
       "size_bytes": 3198,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
+      "path": "02_HISTORY\\sessions\\STAGED_ROUTING_RUNNER_SESSION.md",
+      "title": "Staged Routing Runner Session",
+      "size_bytes": 1033,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -7734,6 +8266,13 @@
       "path": "02_HISTORY\\sessions\\SUPPORT_PARTS_DATABASE_SESSION.md",
       "title": "Support Parts Database Session",
       "size_bytes": 1653,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
+      "path": "02_HISTORY\\sessions\\TASK_TYPE_EXECUTION_CONTRACT_SESSION.md",
+      "title": "Task-Type Execution Contract Session",
+      "size_bytes": 1080,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -8067,6 +8606,13 @@
       "bucket": "uncertainty_logs"
     },
     {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 562,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
       "path": "02_HISTORY\\uncertainty_logs\\20260508_150300_GITHUB_REPO_INDEXING_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log",
       "size_bytes": 480,
@@ -8074,9 +8620,72 @@
       "bucket": "uncertainty_logs"
     },
     {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_155333_PLACEMENT_READINESS_SCORING_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 415,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_161753_STAGED_ROUTING_RUNNER_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 382,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_162242_HARDENING_PR_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 168,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
       "path": "02_HISTORY\\uncertainty_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log",
       "size_bytes": 337,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - GitHub Actions And Ruleset Limitations",
+      "size_bytes": 359,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_GITHUB_DEV_INFRA_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - GitHub Dev Infrastructure Setup",
+      "size_bytes": 514,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Live State Authority Hardening",
+      "size_bytes": 565,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_PR_BRANCH_UPDATE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - PR Branch Update",
+      "size_bytes": 319,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_README_WORKFLOW_REWRITE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - README Workflow Rewrite",
+      "size_bytes": 562,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Routing Geometry Hard Fail",
+      "size_bytes": 525,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

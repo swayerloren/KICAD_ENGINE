@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T21:00:22",
+  "generated_at": "2026-05-08T15:33:34",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -14,7 +14,7 @@
       "name": ".github",
       "path": ".github",
       "type": "directory",
-      "item_count": 4,
+      "item_count": 6,
       "has_readme": true,
       "has_index": true
     },
@@ -22,7 +22,7 @@
       "name": ".gitignore",
       "path": ".gitignore",
       "type": "file",
-      "size_bytes": 1403
+      "size_bytes": 1820
     },
     {
       "name": ".prompts",
@@ -44,7 +44,7 @@
       "name": "00_CODEX_START",
       "path": "00_CODEX_START",
       "type": "directory",
-      "item_count": 49,
+      "item_count": 52,
       "has_readme": true,
       "has_index": true
     },
@@ -52,7 +52,7 @@
       "name": "01_MEMORY",
       "path": "01_MEMORY",
       "type": "directory",
-      "item_count": 20,
+      "item_count": 21,
       "has_readme": true,
       "has_index": true
     },
@@ -60,7 +60,7 @@
       "name": "02_HISTORY",
       "path": "02_HISTORY",
       "type": "directory",
-      "item_count": 21,
+      "item_count": 22,
       "has_readme": true,
       "has_index": true
     },
@@ -68,7 +68,7 @@
       "name": "03_TOOLS",
       "path": "03_TOOLS",
       "type": "directory",
-      "item_count": 14,
+      "item_count": 15,
       "has_readme": true,
       "has_index": true
     },
@@ -76,7 +76,7 @@
       "name": "04_KICAD_PROJECTS",
       "path": "04_KICAD_PROJECTS",
       "type": "directory",
-      "item_count": 5,
+      "item_count": 6,
       "has_readme": true,
       "has_index": true
     },
@@ -84,7 +84,7 @@
       "name": "05_OUTPUTS",
       "path": "05_OUTPUTS",
       "type": "directory",
-      "item_count": 26,
+      "item_count": 27,
       "has_readme": true,
       "has_index": true
     },
@@ -116,7 +116,7 @@
       "name": "09_ACCURACY_ENGINE",
       "path": "09_ACCURACY_ENGINE",
       "type": "directory",
-      "item_count": 7,
+      "item_count": 8,
       "has_readme": true,
       "has_index": true
     },
@@ -156,7 +156,7 @@
       "name": "14_LAYOUT_AUTOMATION",
       "path": "14_LAYOUT_AUTOMATION",
       "type": "directory",
-      "item_count": 43,
+      "item_count": 45,
       "has_readme": true,
       "has_index": true
     },
@@ -316,7 +316,7 @@
       "name": "34_PCB_LAYOUT_SANDBOX",
       "path": "34_PCB_LAYOUT_SANDBOX",
       "type": "directory",
-      "item_count": 22,
+      "item_count": 23,
       "has_readme": true,
       "has_index": true
     },
@@ -332,7 +332,7 @@
       "name": "AGENTS.md",
       "path": "AGENTS.md",
       "type": "file",
-      "size_bytes": 28957
+      "size_bytes": 30209
     },
     {
       "name": "CHANGELOG.md",
@@ -350,7 +350,13 @@
       "name": "CONTRIBUTING.md",
       "path": "CONTRIBUTING.md",
       "type": "file",
-      "size_bytes": 2284
+      "size_bytes": 2884
+    },
+    {
+      "name": "CURRENT_STATUS.md",
+      "path": "CURRENT_STATUS.md",
+      "type": "file",
+      "size_bytes": 1771
     },
     {
       "name": "DATASHEET_REDISTRIBUTION_AUDIT.md",
@@ -379,10 +385,16 @@
       "size_bytes": 2174
     },
     {
+      "name": "FOLDER_MAP.md",
+      "path": "FOLDER_MAP.md",
+      "type": "file",
+      "size_bytes": 2514
+    },
+    {
       "name": "FOR CHAT GPT.MD",
       "path": "FOR CHAT GPT.MD",
       "type": "file",
-      "size_bytes": 113705
+      "size_bytes": 126561
     },
     {
       "name": "health_check.ps1",
@@ -435,10 +447,22 @@
       "size_bytes": 1059
     },
     {
+      "name": "PROJECTS_INDEX.md",
+      "path": "PROJECTS_INDEX.md",
+      "type": "file",
+      "size_bytes": 2729
+    },
+    {
       "name": "PUBLIC_RELEASE_CHECKLIST.md",
       "path": "PUBLIC_RELEASE_CHECKLIST.md",
       "type": "file",
       "size_bytes": 3088
+    },
+    {
+      "name": "PUBLIC_RELEASE_STATUS.md",
+      "path": "PUBLIC_RELEASE_STATUS.md",
+      "type": "file",
+      "size_bytes": 1490
     },
     {
       "name": "PUBLIC_REPO_RISK_REGISTER.md",
@@ -468,13 +492,19 @@
       "name": "README.md",
       "path": "README.md",
       "type": "file",
-      "size_bytes": 15673
+      "size_bytes": 5999
     },
     {
       "name": "README_GPT.md",
       "path": "README_GPT.md",
       "type": "file",
-      "size_bytes": 110089
+      "size_bytes": 112116
+    },
+    {
+      "name": "REPO_INDEX.md",
+      "path": "REPO_INDEX.md",
+      "type": "file",
+      "size_bytes": 7389
     },
     {
       "name": "ROADMAP.md",
@@ -492,7 +522,7 @@
       "name": "SECURITY.md",
       "path": "SECURITY.md",
       "type": "file",
-      "size_bytes": 2026
+      "size_bytes": 2038
     },
     {
       "name": "setup",
@@ -501,6 +531,12 @@
       "item_count": 6,
       "has_readme": true,
       "has_index": true
+    },
+    {
+      "name": "START_HERE.md",
+      "path": "START_HERE.md",
+      "type": "file",
+      "size_bytes": 1173
     },
     {
       "name": "START_HERE_FOR_AI_AGENTS.md",
@@ -529,6 +565,12 @@
       "size_bytes": 7648
     },
     {
+      "name": "TOOLS_INDEX.md",
+      "path": "TOOLS_INDEX.md",
+      "type": "file",
+      "size_bytes": 4572
+    },
+    {
       "name": "TROUBLESHOOTING.md",
       "path": "TROUBLESHOOTING.md",
       "type": "file",
@@ -539,6 +581,12 @@
       "path": "USER_MANUAL.md",
       "type": "file",
       "size_bytes": 2527
+    },
+    {
+      "name": "WORKFLOWS_INDEX.md",
+      "path": "WORKFLOWS_INDEX.md",
+      "type": "file",
+      "size_bytes": 3134
     }
   ],
   "generated_indexes": [

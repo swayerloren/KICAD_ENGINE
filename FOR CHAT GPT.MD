@@ -30,6 +30,105 @@ The GitHub-facing navigation layer was tightened a second time so the root docs 
 - `00_CODEX_START/GITHUB_NAVIGATION.md` now has a dedicated `Start Here For Routing Work` section
 - future GitHub-facing doc updates should preserve that level of specificity instead of collapsing back to pointer-only summaries
 
+## Latest GitHub README workflow rewrite - 2026-05-08
+
+The root GitHub front page was rewritten again so `README.md` explains the repo as an AI-assisted KiCad engineering workflow instead of reading mainly like a repo index:
+
+- `README.md` now explicitly covers what KiCad Engine is, what it is not, why it exists, how the workflow works, how to use it with VS Code plus Codex/Claude, routing rules, manufacturing/export guardrails, current board status, and example AI-agent prompts
+- the README now explicitly states that AI does not replace KiCad, ERC/DRC, or human visual review before fabrication
+- the README now calls out the core routing rules directly: no 90-degree bends, no acute angles, avoid acid traps, and require clean inspectable routing
+- `.github/README.md` was narrowed to GitHub collaboration metadata only, with the root docs kept as the canonical project entry point
+- one remaining hardening gap was exposed rather than hidden: the execution-contract layer is currently strongest for PCB work and still does not have a dedicated schematic-edit task type
+
+## Latest GitHub dev infrastructure setup - 2026-05-08
+
+The repo now has a first-pass GitHub developer-infrastructure layer for Codespaces, PR hygiene, and read-only CI validation:
+
+- `.devcontainer/` now exists with `devcontainer.json`, `postCreateCommand.ps1`, and a local README
+- GitHub workflows now include `ci.yml`, `docs-check.yml`, and `kicad-engine-checks.yml`
+- those workflows are intentionally read-only: they validate scripts, task-contract examples, routing geometry fixtures, placement readiness in read-only mode, docs links, and repo hygiene without editing KiCad files or generating manufacturing outputs
+- `.github/BRANCH_PROTECTION_RECOMMENDATIONS.md` now documents the recommended `main` protection settings, but no browser settings were changed automatically
+- `.github/CODEOWNERS` now exists with a simple owner mapping for the current repo owner
+- docs now include `docs/GITHUB_SETUP.md`, `CODESPACES_SETUP.md`, `LOCAL_DEV_SETUP.md`, `BRANCH_AND_PR_WORKFLOW.md`, and `REPO_MAINTENANCE_WORKFLOW.md`
+- one important CI constraint was made explicit during validation: Python syntax checks must stay scoped to tracked first-party repo scripts and must not recurse into vendored repos or embedded Python-2 examples under tool bundles
+
+## Latest private-repo ruleset limitation doc pass - 2026-05-08
+
+The GitHub setup docs and repo-hygiene workflow were tightened again to match the current private personal repo limitations:
+
+- `.github/BRANCH_PROTECTION_RECOMMENDATIONS.md` now explicitly says rulesets may not enforce on this private personal repo until it moves to a GitHub Team or organization context
+- the intended ruleset / branch target pattern is explicitly documented as `main`
+- `docs/GITHUB_SETUP.md` now explicitly says GitHub Environments are not needed right now, Codespaces is optional, and empty Codespaces prebuild settings are acceptable
+- `docs/BRANCH_AND_PR_WORKFLOW.md` now includes the explicit manual fallback flow: create branch, push branch, open PR, wait for Actions, review files, merge PR, then pull `main` locally
+- `.github/workflows/kicad-engine-checks.yml` now scans for obvious live secret-token patterns in tracked text files, not just `.env` or secret-like filenames
+
+## Latest task-type execution contract hardening - 2026-05-08
+
+KiCad Engine now has a dedicated execution-contract layer under `03_TOOLS\scripts\execution_contract` to stop false completion of edit-required PCB tasks:
+
+- every meaningful run must declare exactly one task type
+- supported task types are `DOCS_ONLY`, `AUDIT_ONLY`, `LIVE_STATE_RECONCILE`, `PLACEMENT_EDIT_REQUIRED`, `ROUTING_EDIT_REQUIRED`, `PCB_EDIT_REQUIRED`, and `GITHUB_DOCS_ONLY`
+- non-edit task types may not change `.kicad_sch`, `.kicad_pcb`, or `.kicad_pro`
+- edit-required task types must prove backup creation, `.kicad_pcb` hash evidence, DRC evidence, and visual-export attempt
+- `ROUTING_EDIT_REQUIRED` also requires unrouted/unconnected before/after counts plus `TRACE_CHANGE_LOG` proof
+- `PLACEMENT_EDIT_REQUIRED` also requires placement-report proof
+- `PCB_EDIT_REQUIRED` may end `NO_DESIGN_CHANGE_NEEDED` only when that outcome is explicit in the contract
+- if an edit-required run ends with only docs/reports and no real engineering artifact change, the required final status is `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`
+- future startup, workflow, and closeout changes must keep `AGENTS.md`, `00_CODEX_START`, and this handoff aligned with the execution-contract rules
+
+## Latest live-state authority hardening - 2026-05-08
+
+KiCad Engine now has a canonical live-state authority layer under `03_TOOLS\scripts\project_state` so stale gate markdown cannot outrank the actual KiCad files:
+
+- new authority files: `live_state_authority.py`, `validate_live_state_before_gate.py`, and `live_state_gate_wrapper.py`
+- `LIVE_PROJECT_STATE.json` is now the top authority for phase gates, placement/routing-start decisions, and closeout status claims
+- `check_phase_allowed.py` is now a compatibility wrapper around the live-state gate wrapper instead of maintaining its own gate logic
+- `run_maintenance_cycle.py` now consumes the same authority bundle used by gate checks
+- reports without source hashes are weak context only
+- reports older than the current `.kicad_pcb` or `.kicad_sch` evidence are stale blockers
+- stale `NO_PCB`, `0 footprints`, or `no routing` narratives cannot override live file evidence
+- gate output may now explicitly cite `TASK_CONTRACT_FAILURE` alongside `LIVE_FILE_EVIDENCE`, `FRESH_GATE_REPORT`, `STALE_REPORT_IGNORED`, and `HUMAN_REVIEW_REQUIRED`
+- before any future gate, routing-start, placement-start, or closeout status claim, run `python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>` first
+
+## Latest routing geometry hard-fail layer - 2026-05-08
+
+KiCad Engine routing audits now hard-fail ugly geometry instead of treating it as a soft comment:
+
+- new rule file: `14_LAYOUT_AUTOMATION\\ROUTING_GEOMETRY_HARD_FAIL_RULES.md`
+- new shared script: `14_LAYOUT_AUTOMATION\\scripts\\route_quality_common.py`
+- new aggregate checker: `14_LAYOUT_AUTOMATION\\scripts\\routing_geometry_quality.py`
+- new focused detectors: `detect_right_angle_traces.py`, `detect_acute_jogs.py`, `detect_bad_pad_entry.py`, and `detect_unnecessary_zigzags.py`
+- `trace_by_trace_audit.py` now carries detailed per-finding net name, segment coordinates, layer, reason, and recommended fix
+- `score_routing_plan.py` now blocks routing pass status when the trace audit contains `RIGHT_ANGLE_FOUND`, `ACUTE_JOG_FOUND`, `PAD_ENTRY_GEOMETRY_POOR`, `UNNECESSARY_ZIGZAG_FOUND`, `CRITICAL_LOOP_DETOUR_FOUND`, `KEEP_OUT_CROSSING_FOUND`, `UNJUSTIFIED_VIA_FOUND`, or `TRACE_WIDTH_MISMATCH_FOUND`
+- `REAL_PROJECT_ROUTING_WORKFLOW.md`, `REAL_PROJECT_ROUTING_STOP_CONDITIONS.md`, and `TRACE_BY_TRACE_VERIFICATION_RULES.md` now treat bad geometry as a stop condition even if DRC is otherwise clean
+- future routing work must not claim success with only DRC pass if the geometry checker or trace audit still reports hard-fail statuses
+
+## Latest placement readiness scoring layer - 2026-05-08
+
+KiCad Engine now has a real-board placement-readiness scorecard so routing cannot rely on vague placement PASS claims:
+
+- new rule file: `14_LAYOUT_AUTOMATION\PLACEMENT_READINESS_SCORECARD.md`
+- new scorer: `14_LAYOUT_AUTOMATION\scripts\score_placement_readiness.py`
+- new focused detectors: `detect_connector_orientation_risks.py`, `detect_power_path_placement_risks.py`, `detect_usb_cluster_placement_risks.py`, `detect_antenna_keepout_placement_risks.py`, and `detect_testpad_accessibility_risks.py`
+- the scorer reads a live or copied `.kicad_pcb` in read-only mode, infers board-fit, connector orientation, ESP32 antenna keepout, power-cluster adjacency, USB-cluster compactness, test-pad accessibility, clearance, and routing-feasibility risk
+- required output statuses are `PLACEMENT_READY_FOR_ROUTING`, `PLACEMENT_REPAIR_REQUIRED`, and `PLACEMENT_BLOCKED_HUMAN_REVIEW`
+- hard-fail statuses include connector-orientation unknown, antenna keepout blocked, scattered power path, spread USB cluster, inaccessible test pads, footprints outside board, courtyard/body overlap, and impossible-route placement
+- `REAL_PROJECT_ROUTING_PRECONDITIONS.md`, `REAL_PROJECT_ROUTING_WORKFLOW.md`, and `FULL_PIPELINE_GATE_CHECKLIST.md` now require a fresh placement readiness scorecard with exact result `PLACEMENT_READY_FOR_ROUTING` before routing is treated as eligible
+- copied-board validation on `ESP32_CSI_WIFI_NODE` scored the current placement `98 / 100` with exact status `PLACEMENT_READY_FOR_ROUTING`; routing is still blocked by live connectivity work, not by placement quality
+
+## Latest staged routing runner and no-progress detector - 2026-05-08
+
+KiCad Engine now has a stage-gated routing runner plus repair-mode detector so routing cannot drift into report loops or out-of-order passes:
+
+- new routing workflow docs: `14_LAYOUT_AUTOMATION\STAGED_ROUTING_RUNNER.md` and `14_LAYOUT_AUTOMATION\NO_PROGRESS_DETECTOR.md`
+- new scripts: `routing_stage_contracts.py`, `staged_routing_runner.py`, `detect_no_progress.py`, and `routing_kpi_dashboard.py`
+- routing must now advance through ten explicit stages: `placement_readiness`, `power_critical`, `ground_strategy`, `USB_support`, `boot_enable_control`, `USB_data`, `low_speed_remaining`, `trace_geometry_cleanup`, `final_connectivity`, and `final_visual_review`
+- every stage now declares required inputs, allowed and forbidden nets, DRC/geometry requirements, hash-delta requirement, copied-board rehearsal requirement, pass/fail outputs, and next allowed stage
+- if two consecutive edit-required runs stall by unchanged hashes, no reduction, DRC regression, or repeated blockers, the no-progress detector raises `BLOCKED_REPAIR_MODE`
+- `BLOCKED_REPAIR_MODE` is a hard stop on broad routing; only the recommended targeted repair stage may continue
+- the initial KPI dashboard now lives at `05_OUTPUTS\reliability\ROUTING_RELIABILITY_DASHBOARD.md` and `.json`
+- the initial ESP32 history replay shows one real no-progress event between `PCB_BATCH_04_CONTROL_NET_ROUTING_REPORT.md` and `PCB_BATCH_05_USB_DATA_ROUTING_REPORT.md`, with the repeated blocker set `/BOOT0`, `/ESP_EN`, `/DM_C`, `/DM_E`, `/DP_C`, `/DP_E` and recommended targeted repair stage `boot_enable_control`
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:

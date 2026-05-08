@@ -1,0 +1,40 @@
+{
+  "findings": [
+    {
+      "critical": true,
+      "issue_code": "right_angle_turn",
+      "layer": "F.Cu",
+      "net": "EN",
+      "reason": "Found a 90.0 degree bend. Routing requires 45-degree or smoother geometry.",
+      "recommended_fix": "Replace the 90-degree corner with a 45-degree bend or a smoother critical-net path.",
+      "segment_coordinates": [
+        {
+          "x1_mm": 2.0,
+          "x2_mm": 6.0,
+          "y1_mm": 2.0,
+          "y2_mm": 2.0
+        },
+        {
+          "x1_mm": 6.0,
+          "x2_mm": 6.0,
+          "y1_mm": 2.0,
+          "y2_mm": 6.0
+        }
+      ],
+      "status": "RIGHT_ANGLE_FOUND",
+      "trace_id": "T2"
+    }
+  ],
+  "hard_fail_statuses": [
+    "RIGHT_ANGLE_FOUND"
+  ],
+  "project": "bad_90_degree_route",
+  "schema_version": "1.0",
+  "status": "RIGHT_ANGLE_FOUND",
+  "summary": {
+    "finding_count": 1,
+    "hard_fail_status_count": 1,
+    "trace_count": 2
+  },
+  "tool": "detect_right_angle_traces"
+}

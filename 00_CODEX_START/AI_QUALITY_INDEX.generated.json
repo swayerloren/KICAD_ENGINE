@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T14:49:57",
-  "record_count": 797,
+  "generated": "2026-05-08T17:00:27",
+  "record_count": 847,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -277,9 +277,37 @@
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T15:02:47",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_SELF_REVIEW.md",
+      "size_bytes": 777,
+      "title": "AI Self-Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
       "modified": "2026-05-08T14:34:05",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_150300_GITHUB_REPO_INDEXING_SELF_REVIEW.md",
       "size_bytes": 1020,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T15:54:28",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_155333_PLACEMENT_READINESS_SCORING_SELF_REVIEW.md",
+      "size_bytes": 345,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:18:41",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_161753_STAGED_ROUTING_RUNNER_SELF_REVIEW.md",
+      "size_bytes": 669,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_162242_HARDENING_PR_SELF_REVIEW.md",
+      "size_bytes": 454,
       "title": "AI Self Review"
     },
     {
@@ -288,6 +316,48 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SELF_REVIEW.md",
       "size_bytes": 1088,
       "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T17:00:13",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_SELF_REVIEW.md",
+      "size_bytes": 436,
+      "title": "AI Self Review - GitHub Actions And Ruleset Limitations"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_GITHUB_DEV_INFRA_SETUP_SELF_REVIEW.md",
+      "size_bytes": 593,
+      "title": "AI Self Review - GitHub Dev Infrastructure Setup"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T15:16:09",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
+      "size_bytes": 765,
+      "title": "AI Self Review - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_PR_BRANCH_UPDATE_SELF_REVIEW.md",
+      "size_bytes": 585,
+      "title": "AI Self Review - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_README_WORKFLOW_REWRITE_SELF_REVIEW.md",
+      "size_bytes": 694,
+      "title": "AI Self Review - README Workflow Rewrite"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SELF_REVIEW.md",
+      "size_bytes": 642,
+      "title": "AI Self Review - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -970,9 +1040,37 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T15:02:47",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_SCORECARD.md",
+      "size_bytes": 660,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-08T14:34:05",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_150300_GITHUB_REPO_INDEXING_SCORECARD.md",
       "size_bytes": 408,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T15:54:28",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_155333_PLACEMENT_READINESS_SCORING_SCORECARD.md",
+      "size_bytes": 206,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:18:41",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_161753_STAGED_ROUTING_RUNNER_SCORECARD.md",
+      "size_bytes": 303,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_162242_HARDENING_PR_SCORECARD.md",
+      "size_bytes": 176,
       "title": "AI Response Scorecard"
     },
     {
@@ -981,6 +1079,48 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SCORECARD.md",
       "size_bytes": 278,
       "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T17:00:13",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_SCORECARD.md",
+      "size_bytes": 623,
+      "title": "AI Response Scorecard - GitHub Actions And Ruleset Limitations"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_GITHUB_DEV_INFRA_SETUP_SCORECARD.md",
+      "size_bytes": 638,
+      "title": "AI Response Scorecard - GitHub Dev Infrastructure Setup"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T15:16:09",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
+      "size_bytes": 696,
+      "title": "AI Response Scorecard - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_PR_BRANCH_UPDATE_SCORECARD.md",
+      "size_bytes": 595,
+      "title": "AI Response Scorecard - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_README_WORKFLOW_REWRITE_SCORECARD.md",
+      "size_bytes": 607,
+      "title": "AI Response Scorecard - README Workflow Rewrite"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SCORECARD.md",
+      "size_bytes": 666,
+      "title": "AI Response Scorecard - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
@@ -1656,9 +1796,37 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T15:02:47",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 510,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-08T14:34:05",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_150300_GITHUB_REPO_INDEXING_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 436,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T15:54:28",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_155333_PLACEMENT_READINESS_SCORING_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 311,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:18:41",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_161753_STAGED_ROUTING_RUNNER_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 437,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_162242_HARDENING_PR_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 193,
       "title": "Hallucination Risk Log"
     },
     {
@@ -1667,6 +1835,48 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 337,
       "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T17:00:13",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 347,
+      "title": "Hallucination Risk Log - GitHub Actions And Ruleset Limitations"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_DEV_INFRA_SETUP_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 384,
+      "title": "Hallucination Risk Log - GitHub Dev Infrastructure Setup"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T15:16:09",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 567,
+      "title": "Hallucination Risk Log - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_PR_BRANCH_UPDATE_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 374,
+      "title": "Hallucination Risk Log - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_README_WORKFLOW_REWRITE_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 526,
+      "title": "Hallucination Risk Log - README Workflow Rewrite"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 440,
+      "title": "Hallucination Risk Log - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
@@ -2335,9 +2545,37 @@
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T15:02:47",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 884,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
       "modified": "2026-05-08T14:34:05",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_150300_GITHUB_REPO_INDEXING_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1145,
+      "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T15:54:28",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_155333_PLACEMENT_READINESS_SCORING_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1073,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:18:41",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_161753_STAGED_ROUTING_RUNNER_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 691,
+      "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_162242_HARDENING_PR_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 629,
       "title": "Claim Evidence Matrix"
     },
     {
@@ -2346,6 +2584,48 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 924,
       "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T17:00:13",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 737,
+      "title": "Claim / Evidence Matrix - GitHub Actions And Ruleset Limitations"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_DEV_INFRA_SETUP_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 909,
+      "title": "Claim / Evidence Matrix - GitHub Dev Infrastructure Setup"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T15:16:09",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_LIVE_STATE_AUTHORITY_HARDENING_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1045,
+      "title": "Claim / Evidence Matrix - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_PR_BRANCH_UPDATE_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 720,
+      "title": "Claim / Evidence Matrix - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_README_WORKFLOW_REWRITE_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1128,
+      "title": "Claim / Evidence Matrix - README Workflow Rewrite"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_ROUTING_GEOMETRY_HARD_FAIL_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1055,
+      "title": "Claim / Evidence Matrix - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3210,9 +3490,37 @@
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T15:02:47",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_UNCERTAINTY_LOG.md",
+      "size_bytes": 562,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
       "modified": "2026-05-08T14:34:05",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_150300_GITHUB_REPO_INDEXING_UNCERTAINTY_LOG.md",
       "size_bytes": 480,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T15:54:28",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_155333_PLACEMENT_READINESS_SCORING_UNCERTAINTY_LOG.md",
+      "size_bytes": 415,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:18:41",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_161753_STAGED_ROUTING_RUNNER_UNCERTAINTY_LOG.md",
+      "size_bytes": 382,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_162242_HARDENING_PR_UNCERTAINTY_LOG.md",
+      "size_bytes": 168,
       "title": "Uncertainty Log"
     },
     {
@@ -3221,6 +3529,48 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md",
       "size_bytes": 337,
       "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T17:00:13",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_UNCERTAINTY_LOG.md",
+      "size_bytes": 359,
+      "title": "Uncertainty Log - GitHub Actions And Ruleset Limitations"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:53:31",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_GITHUB_DEV_INFRA_SETUP_UNCERTAINTY_LOG.md",
+      "size_bytes": 514,
+      "title": "Uncertainty Log - GitHub Dev Infrastructure Setup"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T15:16:09",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
+      "size_bytes": 565,
+      "title": "Uncertainty Log - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_PR_BRANCH_UPDATE_UNCERTAINTY_LOG.md",
+      "size_bytes": 319,
+      "title": "Uncertainty Log - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_README_WORKFLOW_REWRITE_UNCERTAINTY_LOG.md",
+      "size_bytes": 562,
+      "title": "Uncertainty Log - README Workflow Rewrite"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md",
+      "size_bytes": 525,
+      "title": "Uncertainty Log - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

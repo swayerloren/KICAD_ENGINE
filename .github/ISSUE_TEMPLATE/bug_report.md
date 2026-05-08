@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a tooling, documentation, workflow, or state-management bug
+about: Report a repo, tooling, validation, workflow, or documentation bug
 title: "[Bug] "
 labels: bug
 assignees: ""
@@ -12,10 +12,12 @@ Describe the bug clearly.
 
 ## Area
 
-- [ ] repo docs/navigation
-- [ ] maintenance/state layer
+- [ ] repo docs or navigation
+- [ ] devcontainer or Codespaces
+- [ ] GitHub Actions or workflow validation
+- [ ] maintenance or live-state layer
+- [ ] execution contract
 - [ ] project gating
-- [ ] KiCad validation scripts
 - [ ] release-readiness workflow
 - [ ] other
 
@@ -32,13 +34,8 @@ What happened instead?
 - files involved:
 - command run:
 - report path:
+- workflow run URL if applicable:
 - screenshots or logs:
-
-## Safety Notes
-
-- Were any KiCad design files edited?
-- Were any secrets involved?
-- Did the bug affect staged or pushed content?
 
 ## Reproduction Steps
 
@@ -46,9 +43,16 @@ What happened instead?
 2.
 3.
 
+## Safety Notes
+
+- KiCad design files edited during reproduction: `YES/NO`
+- `.env`, secrets, or credentials involved: `YES/NO`
+- lock files, backups, or temp artifacts involved: `YES/NO`
+
 ## Environment
 
 - OS:
+- VS Code / Codespaces:
 - Python version:
-- KiCad version:
-- Branch:
+- KiCad version if relevant:
+- branch:

@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 
 from _routing_common import dump_json, dump_markdown, make_markdown, markdown_table, normalized_nets, parse_args_markdown, regulator_loop_present, usb_pair_names, load_json
+from route_quality_common import HARD_FAIL_STATUSES
 
 
 def capped(value: int, low: int = 0, high: int = 100) -> int:
@@ -39,6 +40,13 @@ def main() -> int:
     critical_nets = [item for item in normalized if item["critical"]]
     usb_nets = usb_pair_names(fixture)
     audit_lookup = {item["net"]: item for item in trace_audit.get("traces", [])}
+    geometry_hard_fails = sorted(
+        {
+            status
+            for status in trace_audit.get("hard_fail_statuses", [])
+            if status in HARD_FAIL_STATUSES
+        }
+    )
 
     if any(item["name"] in unrouted.get("unrouted_power_nets", []) for item in power_nets if item["critical"]):
         hard_fails.append("critical power net missing")
@@ -55,10 +63,9 @@ def main() -> int:
         hard_fails.append("GND strategy missing")
     if not regulator_loop_present(fixture):
         hard_fails.append("regulator critical loop not planned")
-    if any("vias_without_reason" in item.get("issues", []) for item in trace_audit.get("traces", []) if item.get("critical")):
-        hard_fails.append("via used without reason on critical net")
     if not trace_audit.get("audit_complete", False):
         hard_fails.append("trace-by-trace audit missing")
+    hard_fails.extend(geometry_hard_fails)
 
     if plan.get("status") != "PASS":
         blocked_reasons.append("routing plan did not pass")
@@ -70,6 +77,8 @@ def main() -> int:
         blocked_reasons.append(f"{keepouts.get('violation_count', 0)} keepout violations detected")
     if trace_audit.get("flagged_count", 0):
         blocked_reasons.append(f"{trace_audit.get('flagged_count', 0)} trace audit entries flagged")
+    if geometry_hard_fails:
+        blocked_reasons.append("routing geometry hard fails detected: " + ", ".join(geometry_hard_fails))
     blocked_reasons.extend(hard_fails)
     blocked_reasons = sorted(dict.fromkeys(blocked_reasons))
 
@@ -121,7 +130,7 @@ def main() -> int:
         drc_risk_score -= 3
     elif drc_risk == "HIGH":
         drc_risk_score -= 6
-    if keepouts.get("violation_count", 0):
+    if keepouts.get("violation_count", 0) or geometry_hard_fails:
         drc_risk_score = 0
     drc_risk_score = capped(drc_risk_score, 0, 10)
 
@@ -181,6 +190,7 @@ def main() -> int:
             "trace_audit_completeness": trace_audit_score,
             "human_review_risk": human_review_penalty,
         },
+        "geometry_hard_fails": geometry_hard_fails,
         "hard_fails": sorted(dict.fromkeys(hard_fails)),
         "blocked_reasons": blocked_reasons,
         "readiness": readiness,

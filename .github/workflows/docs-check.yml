@@ -1,0 +1,79 @@
+name: Docs and markdown sanity
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - hardening/**
+      - github/**
+
+jobs:
+  docs-and-links:
+    name: docs-and-links
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate required repo docs exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f CURRENT_STATUS.md
+          test -f START_HERE.md
+          test -f PROJECTS_INDEX.md
+          test -f TOOLS_INDEX.md
+          test -f WORKFLOWS_INDEX.md
+          test -f docs/GITHUB_SETUP.md
+          test -f docs/CODESPACES_SETUP.md
+          test -f docs/LOCAL_DEV_SETUP.md
+          test -f docs/BRANCH_AND_PR_WORKFLOW.md
+          test -f docs/REPO_MAINTENANCE_WORKFLOW.md
+          test -f .devcontainer/devcontainer.json
+
+      - name: Validate local Markdown links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          tracked = [
+              Path("README.md"),
+              Path("CURRENT_STATUS.md"),
+              Path("START_HERE.md"),
+              Path("PROJECTS_INDEX.md"),
+              Path("TOOLS_INDEX.md"),
+              Path("WORKFLOWS_INDEX.md"),
+              Path(".github/README.md"),
+          ]
+          tracked.extend(sorted(Path("docs").glob("*.md")))
+
+          link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+          problems = []
+
+          for file in tracked:
+              text = file.read_text(encoding="utf-8")
+              for match in link_re.finditer(text):
+                  target = match.group(1).strip()
+                  if target.startswith("<") and target.endswith(">"):
+                      target = target[1:-1]
+                  if "://" in target or target.startswith("#") or target.startswith("mailto:"):
+                      continue
+                  candidate = (file.parent / target).resolve()
+                  if not candidate.exists():
+                      problems.append(f"{file}: missing link target {target}")
+
+          if problems:
+              raise SystemExit("\n".join(problems))
+          print("DOC_LINK_CHECK_PASS")
+          PY
