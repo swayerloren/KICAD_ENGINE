@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T19:03:53",
+  "generated_at": "2026-05-08T19:13:41",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -340,7 +340,7 @@
       "name": "AGENT_STARTER_PROMPTS.md",
       "path": "AGENT_STARTER_PROMPTS.md",
       "type": "file",
-      "size_bytes": 1255
+      "size_bytes": 1185
     },
     {
       "name": "AGENTS.md",
@@ -370,7 +370,7 @@
       "name": "CURRENT_STATUS.md",
       "path": "CURRENT_STATUS.md",
       "type": "file",
-      "size_bytes": 1771
+      "size_bytes": 2164
     },
     {
       "name": "DATASHEET_REDISTRIBUTION_AUDIT.md",
@@ -396,7 +396,7 @@
       "name": "DOWNLOAD_ZIP_START_HERE.md",
       "path": "DOWNLOAD_ZIP_START_HERE.md",
       "type": "file",
-      "size_bytes": 2002
+      "size_bytes": 1833
     },
     {
       "name": "EXTERNAL_DEPENDENCIES.md",
@@ -420,7 +420,7 @@
       "name": "FOR CHAT GPT.MD",
       "path": "FOR CHAT GPT.MD",
       "type": "file",
-      "size_bytes": 137112
+      "size_bytes": 137941
     },
     {
       "name": "health_check.ps1",
@@ -482,7 +482,7 @@
       "name": "ONE_PROMPT_START.md",
       "path": "ONE_PROMPT_START.md",
       "type": "file",
-      "size_bytes": 1671
+      "size_bytes": 1408
     },
     {
       "name": "PORTABILITY_AUDIT.md",
@@ -494,7 +494,7 @@
       "name": "PROJECTS_INDEX.md",
       "path": "PROJECTS_INDEX.md",
       "type": "file",
-      "size_bytes": 2729
+      "size_bytes": 1907
     },
     {
       "name": "PUBLIC_RELEASE_CHECKLIST.md",
@@ -542,7 +542,7 @@
       "name": "README.md",
       "path": "README.md",
       "type": "file",
-      "size_bytes": 17001
+      "size_bytes": 6101
     },
     {
       "name": "README_GPT.md",
@@ -598,7 +598,7 @@
       "name": "START_HERE.md",
       "path": "START_HERE.md",
       "type": "file",
-      "size_bytes": 1918
+      "size_bytes": 1489
     },
     {
       "name": "START_HERE_FOR_AI_AGENTS.md",
@@ -630,7 +630,7 @@
       "name": "TOOLS_INDEX.md",
       "path": "TOOLS_INDEX.md",
       "type": "file",
-      "size_bytes": 4689
+      "size_bytes": 5723
     },
     {
       "name": "TROUBLESHOOTING.md",
@@ -648,7 +648,7 @@
       "name": "WORKFLOWS_INDEX.md",
       "path": "WORKFLOWS_INDEX.md",
       "type": "file",
-      "size_bytes": 3134
+      "size_bytes": 3205
     }
   ],
   "generated_indexes": [

@@ -1,50 +1,57 @@
 # Current Status
 
-## GitHub Status
+## Repo Identity
 
-- Repo push status: `SUCCESS`
-- Repo visibility: `PRIVATE`
-- Repo URL: `https://github.com/swayerloren/KICAD_ENGINE`
-- Latest local commit hash at last status refresh: `aed2d9f75dfcd53df27c99936d0b5c351075d3f5`
-- Latest remote HEAD hash at last status refresh: `aed2d9f75dfcd53df27c99936d0b5c351075d3f5`
+- Repo name: `KiCad Engine`
+- Repo role: general AI-assisted KiCad workflow engine
+- Main use: local VS Code + Codex or Claude + local KiCad
+- Repo status: `PRIVATE / EXPERIMENTAL / NOT_PUBLIC_RELEASE_READY`
 
-## Active Project
+This repo is not only the `ESP32_CSI_WIFI_NODE` board. That project is just the current example/current active project inside the larger KiCad Engine workspace.
 
-- Project: `ESP32_CSI_WIFI_NODE`
+## Workspace Model
+
+- `04_KICAD_PROJECTS/active` is for current working KiCad projects
+- `04_KICAD_PROJECTS/archive` is for older, reference, or historical projects
+- `04_KICAD_PROJECTS/templates` is for new-project starting points
+- `03_TOOLS` contains scripts and helpers used by the workflow engine
+- `00_CODEX_START` contains the startup rules the AI agent should read first
+
+## Repo Capability Snapshot
+
+- ZIP-download and local-clone onboarding docs exist
+- one-prompt startup docs exist
+- KiCad discovery and health-check scripts exist
+- task-contract, live-state, and validation workflows are included
+- routing rules and manufacturing-review workflows are included
+
+## Current Example Project
+
+- Current active example project: `ESP32_CSI_WIFI_NODE`
 - Path: `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE`
-- Status: `LIVE_PCB_EXISTS_NOT_FAB_READY`
+- Role in repo: current example/work-in-progress project only
+- Fabrication-ready: `NO`
 
-## Current PCB State
+Current example-project notes:
 
-- PCB exists: `YES`
-- Placement exists: `YES`
-- Partial routing exists: `YES`
-- Footprints: `43`
-- Tracks: `74`
-- Vias: `32`
-- Zones: `2`
-- DRC: `0` violations, `17` unconnected items
-- Detectable unrouted nets: `/DM_C`, `/DM_E`, `/DP_C`, `/DP_E`
+- a live PCB exists
+- placement exists
+- partial routing exists
+- unresolved connectivity and review work remain
+- human KiCad review is still required before fabrication-style claims
 
-## Remaining PCB Blockers
+## Current Repo Limitations
 
-- `0` DRC violations exist, but `17` unconnected items remain
-- `/DM_C`, `/DM_E`, `/DP_C`, and `/DP_E` remain explicitly unrouted
-- `/+5V_PROTECTED`, `/BOOT0`, and `/ESP_EN` still require connectivity review/closure per current reports
-- human visual review is still required before fabrication-style claims
+- KiCad Engine is not a replacement for KiCad
+- it does not guarantee perfect schematic or PCB results
+- fabrication outputs still require human review
+- optional helper tools may exist, but they are not required for the baseline ZIP -> VS Code -> prompt workflow
 
-## Remaining Public-Release Blockers
+## Recommended Start
 
-- `PUBLIC_RELEASE_CHECKLIST.md` is not complete
-- `21_LICENSE_ATTRIBUTION/LICENSE_AUDIT.md` still requires human review
-- placeholder-token and workflow-secret reference strings still need public-hygiene cleanup
-- fabrication outputs are not approved
-- the active PCB is not fabrication-ready
+If you are new to the repo:
 
-## Next Recommended Codex Task
-
-If continuing PCB work, do not start fabrication outputs. Start with live connectivity closure and review of the remaining unresolved nets and open items, then regenerate the final visual and blocker packet.
-
-## Warning
-
-This repository is not public-release-ready and the active PCB is not fabrication-ready.
+1. Read [README.md](README.md).
+2. Read [ONE_PROMPT_START.md](ONE_PROMPT_START.md) if present.
+3. Read [WORKFLOWS_INDEX.md](WORKFLOWS_INDEX.md) and [TOOLS_INDEX.md](TOOLS_INDEX.md).
+4. Use the current active project as an example, or create your own project under `04_KICAD_PROJECTS/active`.

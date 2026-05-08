@@ -8,6 +8,16 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Latest GitHub front-page identity rewrite - 2026-05-08
+
+The GitHub-facing front-door docs now present `KiCad Engine` as the general product and workflow engine, not as a repo whose identity is the current `ESP32_CSI_WIFI_NODE` board.
+
+- root `README.md` now reads like a clean GitHub front page for a portable AI-assisted KiCad workflow engine
+- the root startup path now emphasizes `ZIP -> VS Code -> one prompt -> 00_CODEX_START`
+- `CURRENT_STATUS.md`, `PROJECTS_INDEX.md`, `WORKFLOWS_INDEX.md`, and `TOOLS_INDEX.md` were rewritten so the repo identity is the engine and the project workspace model, not only the current board
+- `ESP32_CSI_WIFI_NODE` is now framed as the current example/current active project only
+- future front-door docs should preserve the distinction between repo identity and current example project
+
 ## Latest ZIP portability and one-prompt onboarding pass - 2026-05-08
 
 The repo now has an explicit ZIP-first local onboarding layer so a new user does not need private env folders, extra cloned repos, or a manual path hunt before starting an AI-assisted workflow.

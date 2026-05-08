@@ -1,0 +1,25 @@
+{
+  "task_type": "GITHUB_DOCS_ONLY",
+  "task_summary": "Rewrite the GitHub-facing README and key index docs so KICAD_ENGINE is presented as a general AI-assisted KiCad automation engine instead of a repo centered on ESP32_CSI_WIFI_NODE.",
+  "project_path": ".",
+  "target_pcb": null,
+  "changed_files": [
+    "README.md",
+    "START_HERE.md",
+    "CURRENT_STATUS.md",
+    "PROJECTS_INDEX.md",
+    "WORKFLOWS_INDEX.md",
+    "TOOLS_INDEX.md",
+    "ONE_PROMPT_START.md",
+    "DOWNLOAD_ZIP_START_HERE.md",
+    "AGENT_STARTER_PROMPTS.md",
+    ".github/README.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Docs-only repo identity and onboarding rewrite. No KiCad design files are allowed to change.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}
