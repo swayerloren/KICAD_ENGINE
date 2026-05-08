@@ -1167,6 +1167,9 @@ COMMAND LINK lessons have been added to memory as evidence-backed observations o
   - Private remote created at `https://github.com/swayerloren/KICAD_ENGINE.git`
   - Initial workspace commit pushed on `2026-05-08`
   - Public release remains blocked by `PUBLIC_RELEASE_CHECKLIST.md` and `21_LICENSE_ATTRIBUTION\LICENSE_AUDIT.md`
+  - Hardening branch `hardening/execution-contract` was merged into `main` on `2026-05-08`; GitHub README/docs/workflows/devcontainer/hardening scripts now live on `main`
+  - Current private-repo workflow is direct-owner updates to `main` after local validation and file review; PRs are optional for routine maintenance
+  - GitHub Actions placement-readiness validation now skips cleanly on hosted runners when `pcbnew` is unavailable instead of failing the workflow
 
 ## When to update this file
 
