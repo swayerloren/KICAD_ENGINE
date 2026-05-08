@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T19:13:42",
-  "record_count": 887,
+  "generated": "2026-05-08T19:18:44",
+  "record_count": 892,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -330,6 +330,13 @@
       "path": "02_HISTORY/ai_self_reviews/20260508_191329_README_identity_rewrite_self_review.md",
       "size_bytes": 1227,
       "title": "README identity rewrite self review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T19:18:20",
+      "path": "02_HISTORY/ai_self_reviews/20260508_191746_README_front_page_refocus_self_review.md",
+      "size_bytes": 736,
+      "title": "AI Self Review"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1152,6 +1159,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T19:18:20",
+      "path": "02_HISTORY/ai_scorecards/20260508_191746_README_front_page_refocus_response_scorecard.md",
+      "size_bytes": 456,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-08T17:30:50",
       "path": "02_HISTORY/ai_scorecards/20260508_DIRECT_MAIN_UPDATE_SCORECARD.md",
       "size_bytes": 314,
@@ -1964,6 +1978,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T19:18:20",
+      "path": "02_HISTORY/hallucination_risk_logs/20260508_191746_README_front_page_refocus_hallucination_risk_log.md",
+      "size_bytes": 433,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-08T17:30:50",
       "path": "02_HISTORY/hallucination_risk_logs/20260508_DIRECT_MAIN_UPDATE_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 291,
@@ -2766,6 +2787,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/20260508_191329_README_identity_rewrite_claim_evidence_matrix.md",
       "size_bytes": 1115,
       "title": "README identity rewrite claim evidence matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T19:18:20",
+      "path": "02_HISTORY/claim_evidence_matrices/20260508_191746_README_front_page_refocus_claim_evidence_matrix.md",
+      "size_bytes": 455,
+      "title": "Claim Evidence Matrix"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3767,6 +3795,13 @@
       "path": "02_HISTORY/uncertainty_logs/20260508_191329_README_identity_rewrite_uncertainty_log.md",
       "size_bytes": 1183,
       "title": "README identity rewrite uncertainty log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T19:18:20",
+      "path": "02_HISTORY/uncertainty_logs/20260508_191746_README_front_page_refocus_uncertainty_log.md",
+      "size_bytes": 364,
+      "title": "Uncertainty Log"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

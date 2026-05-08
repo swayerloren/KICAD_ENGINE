@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T19:13:41",
+  "generated_at": "2026-05-08T19:18:39",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -328,6 +328,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_191329_README_identity_rewrite_response_scorecard.md",
       "title": "README identity rewrite response scorecard",
       "size_bytes": 1000,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_191746_README_front_page_refocus_response_scorecard.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 456,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1151,6 +1158,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_191746_README_front_page_refocus_self_review.md",
+      "title": "AI Self Review",
+      "size_bytes": 736,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_DIRECT_MAIN_UPDATE_SELF_REVIEW.md",
       "title": "AI Self-Review",
       "size_bytes": 637,
@@ -1966,6 +1980,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_191329_README_identity_rewrite_claim_evidence_matrix.md",
       "title": "README identity rewrite claim evidence matrix",
       "size_bytes": 1115,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_191746_README_front_page_refocus_claim_evidence_matrix.md",
+      "title": "Claim Evidence Matrix",
+      "size_bytes": 455,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3716,6 +3737,13 @@
       "path": "02_HISTORY\\command_logs\\PUBLIC_RELEASE_STRUCTURE_COMMANDS.md",
       "title": "Public Release Structure Commands",
       "size_bytes": 1685,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\README_FRONT_PAGE_REFOCUS_COMMANDS.md",
+      "title": "README Front Page Refocus Commands",
+      "size_bytes": 1026,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -5673,6 +5701,13 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_191746_README_front_page_refocus_hallucination_risk_log.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 433,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_DIRECT_MAIN_UPDATE_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log",
       "size_bytes": 291,
@@ -6627,7 +6662,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 243502,
+      "size_bytes": 244400,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -8431,6 +8466,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\README_FRONT_PAGE_REFOCUS_SESSION.md",
+      "title": "README Front Page Refocus Session",
+      "size_bytes": 1012,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\README_GPT_CREATED_OR_UPDATED.md",
       "title": "README_GPT Created Or Updated",
       "size_bytes": 1132,
@@ -9029,6 +9071,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_191329_README_identity_rewrite_uncertainty_log.md",
       "title": "README identity rewrite uncertainty log",
       "size_bytes": 1183,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_191746_README_front_page_refocus_uncertainty_log.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 364,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

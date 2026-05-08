@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T19:13:41",
+  "generated_at": "2026-05-08T19:18:33",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -542,7 +542,7 @@
       "name": "README.md",
       "path": "README.md",
       "type": "file",
-      "size_bytes": 6101
+      "size_bytes": 6059
     },
     {
       "name": "README_GPT.md",

@@ -12,7 +12,7 @@ AI-assisted KiCad workflow engine for using Codex or Claude inside VS Code with 
 
 KiCad Engine is a repo you can download, open in VS Code, and give to Codex or Claude so the AI agent has structured rules, prompts, tools, and workflows for working on KiCad schematic and PCB projects. It is designed for people who already like KiCad and want AI assistance without switching to Flux or another paid PCB design platform.
 
-This repo is not just one PCB project. It is not only `ESP32_CSI_WIFI_NODE`. That board is only the current example/current active project. The repo itself is the AI-agent operating system for KiCad work, and you can create your own projects under `04_KICAD_PROJECTS/active`.
+The repo is the AI-agent operating system for KiCad work. It gives the agent a repeatable workspace, startup rules, task contracts, validation gates, and project structure so it can help with real KiCad projects without depending on hidden local folders or improvised workflow assumptions.
 
 ## Fast Start: ZIP -> VS Code -> One Prompt
 
@@ -51,7 +51,6 @@ KiCad Engine is an AI-agent rule and workflow engine for KiCad work.
 - It is not a replacement for KiCad.
 - It is not an automatic perfect PCB designer.
 - It is not a guarantee of fabrication-ready boards.
-- It is not only the `ESP32_CSI_WIFI_NODE` project.
 - It is not a cloud SaaS PCB tool.
 
 ## How It Works
@@ -75,8 +74,6 @@ KiCad Engine is an AI-agent rule and workflow engine for KiCad work.
 `04_KICAD_PROJECTS/templates`
 
 - starting templates for new projects
-
-`ESP32_CSI_WIFI_NODE` is the current active example/work-in-progress project, not the purpose of the whole repo.
 
 ## Using Your Own KiCad Project
 
@@ -124,7 +121,7 @@ Fabrication outputs still require human review before anything is treated as ord
 
 ## Current Example Project
 
-The repo currently includes `ESP32_CSI_WIFI_NODE` as an active example/work-in-progress project. It is not fabrication-ready unless its own project reports say so.
+The repo currently includes `ESP32_CSI_WIFI_NODE` as an active example workspace. It is there to demonstrate how KiCad Engine organizes and reviews a live project. It is not the identity of the repo, and it is not fabrication-ready unless that project's own reports say so.
 
 ## Requirements
 

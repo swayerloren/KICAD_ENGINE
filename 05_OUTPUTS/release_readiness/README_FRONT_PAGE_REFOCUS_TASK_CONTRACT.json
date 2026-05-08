@@ -1,0 +1,16 @@
+{
+  "task_type": "GITHUB_DOCS_ONLY",
+  "task_summary": "Refocus the root README so KiCad Engine is presented as a general AI workflow engine for KiCad, with ESP32_CSI_WIFI_NODE reduced to an example workspace only.",
+  "project_path": ".",
+  "target_pcb": null,
+  "changed_files": [
+    "README.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Docs-only wording correction. No KiCad design files are allowed to change.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}
