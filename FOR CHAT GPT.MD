@@ -30,6 +30,16 @@ The GitHub-facing navigation layer was tightened a second time so the root docs 
 - `00_CODEX_START/GITHUB_NAVIGATION.md` now has a dedicated `Start Here For Routing Work` section
 - future GitHub-facing doc updates should preserve that level of specificity instead of collapsing back to pointer-only summaries
 
+## Latest GitHub README workflow rewrite - 2026-05-08
+
+The root GitHub front page was rewritten again so `README.md` explains the repo as an AI-assisted KiCad engineering workflow instead of reading mainly like a repo index:
+
+- `README.md` now explicitly covers what KiCad Engine is, what it is not, why it exists, how the workflow works, how to use it with VS Code plus Codex/Claude, routing rules, manufacturing/export guardrails, current board status, and example AI-agent prompts
+- the README now explicitly states that AI does not replace KiCad, ERC/DRC, or human visual review before fabrication
+- the README now calls out the core routing rules directly: no 90-degree bends, no acute angles, avoid acid traps, and require clean inspectable routing
+- `.github/README.md` was narrowed to GitHub collaboration metadata only, with the root docs kept as the canonical project entry point
+- one remaining hardening gap was exposed rather than hidden: the execution-contract layer is currently strongest for PCB work and still does not have a dedicated schematic-edit task type
+
 ## Latest task-type execution contract hardening - 2026-05-08
 
 KiCad Engine now has a dedicated execution-contract layer under `03_TOOLS\scripts\execution_contract` to stop false completion of edit-required PCB tasks:

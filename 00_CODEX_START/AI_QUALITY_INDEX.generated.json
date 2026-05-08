@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T16:23:36",
-  "record_count": 827,
+  "generated": "2026-05-08T16:39:04",
+  "record_count": 837,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -323,6 +323,20 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
       "size_bytes": 765,
       "title": "AI Self Review - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_PR_BRANCH_UPDATE_SELF_REVIEW.md",
+      "size_bytes": 585,
+      "title": "AI Self Review - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_README_WORKFLOW_REWRITE_SELF_REVIEW.md",
+      "size_bytes": 694,
+      "title": "AI Self Review - README Workflow Rewrite"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1061,6 +1075,20 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_PR_BRANCH_UPDATE_SCORECARD.md",
+      "size_bytes": 595,
+      "title": "AI Response Scorecard - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_README_WORKFLOW_REWRITE_SCORECARD.md",
+      "size_bytes": 607,
+      "title": "AI Response Scorecard - README Workflow Rewrite"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-08T15:31:49",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SCORECARD.md",
       "size_bytes": 666,
@@ -1789,6 +1817,20 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_PR_BRANCH_UPDATE_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 374,
+      "title": "Hallucination Risk Log - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_README_WORKFLOW_REWRITE_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 526,
+      "title": "Hallucination Risk Log - README Workflow Rewrite"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-08T15:31:49",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 440,
@@ -2507,6 +2549,20 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_LIVE_STATE_AUTHORITY_HARDENING_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1045,
       "title": "Claim / Evidence Matrix - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_PR_BRANCH_UPDATE_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 720,
+      "title": "Claim / Evidence Matrix - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_README_WORKFLOW_REWRITE_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1128,
+      "title": "Claim / Evidence Matrix - README Workflow Rewrite"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3424,6 +3480,20 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
       "size_bytes": 565,
       "title": "Uncertainty Log - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:38:53",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_PR_BRANCH_UPDATE_UNCERTAINTY_LOG.md",
+      "size_bytes": 319,
+      "title": "Uncertainty Log - PR Branch Update"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:32:14",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_README_WORKFLOW_REWRITE_UNCERTAINTY_LOG.md",
+      "size_bytes": 562,
+      "title": "Uncertainty Log - README Workflow Rewrite"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

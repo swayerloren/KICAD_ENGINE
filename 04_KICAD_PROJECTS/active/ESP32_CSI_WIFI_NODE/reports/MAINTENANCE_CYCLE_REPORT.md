@@ -4,7 +4,7 @@ Generated: `2026-05-08T14:49:56-04:00`
 
 Project: `ESP32_CSI_WIFI_NODE`
 
-Prompt counter before: `1`
+Prompt counter before: `5`
 Prompt counter after reset: `0`
 
 Live-state source: `READ_FRESH_LIVE_PROJECT_STATE`

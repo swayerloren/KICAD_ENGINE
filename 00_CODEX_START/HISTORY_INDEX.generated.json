@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:23:35",
+  "generated_at": "2026-05-08T16:39:04",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -321,6 +321,20 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
       "title": "AI Response Scorecard - Live State Authority Hardening",
       "size_bytes": 696,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_PR_BRANCH_UPDATE_SCORECARD.md",
+      "title": "AI Response Scorecard - PR Branch Update",
+      "size_bytes": 595,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_README_WORKFLOW_REWRITE_SCORECARD.md",
+      "title": "AI Response Scorecard - README Workflow Rewrite",
+      "size_bytes": 607,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1060,6 +1074,20 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_PR_BRANCH_UPDATE_SELF_REVIEW.md",
+      "title": "AI Self Review - PR Branch Update",
+      "size_bytes": 585,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_README_WORKFLOW_REWRITE_SELF_REVIEW.md",
+      "title": "AI Self Review - README Workflow Rewrite",
+      "size_bytes": 694,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SELF_REVIEW.md",
       "title": "AI Self Review - Routing Geometry Hard Fail",
       "size_bytes": 642,
@@ -1795,6 +1823,20 @@
       "bucket": "claim_evidence_matrices"
     },
     {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_PR_BRANCH_UPDATE_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - PR Branch Update",
+      "size_bytes": 720,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_README_WORKFLOW_REWRITE_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - README Workflow Rewrite",
+      "size_bytes": 1128,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_ROUTING_GEOMETRY_HARD_FAIL_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim / Evidence Matrix - Routing Geometry Hard Fail",
       "size_bytes": 1055,
@@ -2211,6 +2253,13 @@
       "path": "02_HISTORY\\command_logs\\2026-05-08_PCB_BATCH_04_REPLAY_REQUEST_ALREADY_APPLIED_COMMANDS.md",
       "title": "PCB Batch 04 Replay Request Commands",
       "size_bytes": 828,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\20260508_GITHUB_README_WORKFLOW_REWRITE_COMMANDS.md",
+      "title": "GitHub README Workflow Rewrite Commands",
+      "size_bytes": 1987,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -3370,6 +3419,13 @@
       "bucket": "command_logs"
     },
     {
+      "path": "02_HISTORY\\command_logs\\PR_BRANCH_UPDATE_COMMANDS.md",
+      "title": "PR Branch Update Commands",
+      "size_bytes": 3403,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
       "path": "02_HISTORY\\command_logs\\PROJECT_GATE_RUNNER_COMMANDS.md",
       "title": "Project Gate Runner Command Log",
       "size_bytes": 3692,
@@ -4518,6 +4574,13 @@
       "bucket": "failed_attempts"
     },
     {
+      "path": "02_HISTORY\\failed_attempts\\20260508_README_LINK_VALIDATION_FALSE_NEGATIVE.md",
+      "title": "Failed Attempt - README Link Validation False Negative",
+      "size_bytes": 561,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
       "path": "02_HISTORY\\failed_attempts\\20260508_ROUTING_GEOMETRY_INTEGRATION_FIXTURE_CONTEXT_MISS.md",
       "title": "Failed Attempt - Routing Geometry Integration Fixture Context Miss",
       "size_bytes": 898,
@@ -5281,6 +5344,20 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_PR_BRANCH_UPDATE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - PR Branch Update",
+      "size_bytes": 374,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_README_WORKFLOW_REWRITE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - README Workflow Rewrite",
+      "size_bytes": 526,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log - Routing Geometry Hard Fail",
       "size_bytes": 440,
@@ -5715,6 +5792,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\20260508_SCHEMATIC_EXECUTION_CONTRACT_GAP.md",
+      "title": "Issue Log - Schematic Execution Contract Gap",
+      "size_bytes": 864,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\20260508_STAGED_ROUTING_RUNNER_REPORT_SCHEMA_RISK.md",
       "title": "Open Issue",
       "size_bytes": 505,
@@ -6144,7 +6228,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 232314,
+      "size_bytes": 234250,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -6376,6 +6460,13 @@
       "path": "02_HISTORY\\sessions\\20260502_230010_AI_quality_gate_setup_completed.md",
       "title": "AI quality gate setup completed",
       "size_bytes": 951,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
+      "path": "02_HISTORY\\sessions\\20260508_GITHUB_README_WORKFLOW_REWRITE_SESSION.md",
+      "title": "GitHub README Workflow Rewrite Session",
+      "size_bytes": 1404,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -7829,6 +7920,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\PR_BRANCH_UPDATE_SESSION.md",
+      "title": "PR Branch Update Session",
+      "size_bytes": 789,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\PROJECT_GATE_RUNNER_CREATED.md",
       "title": "Project Gate Runner Created",
       "size_bytes": 2029,
@@ -8455,6 +8553,20 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log - Live State Authority Hardening",
       "size_bytes": 565,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_PR_BRANCH_UPDATE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - PR Branch Update",
+      "size_bytes": 319,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_README_WORKFLOW_REWRITE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - README Workflow Rewrite",
+      "size_bytes": 562,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },
