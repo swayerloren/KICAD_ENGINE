@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T15:33:34",
+  "generated_at": "2026-05-08T17:56:30",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -11,10 +11,18 @@
       "has_index": true
     },
     {
+      "name": ".devcontainer",
+      "path": ".devcontainer",
+      "type": "directory",
+      "item_count": 3,
+      "has_readme": true,
+      "has_index": false
+    },
+    {
       "name": ".github",
       "path": ".github",
       "type": "directory",
-      "item_count": 6,
+      "item_count": 8,
       "has_readme": true,
       "has_index": true
     },
@@ -22,7 +30,7 @@
       "name": ".gitignore",
       "path": ".gitignore",
       "type": "file",
-      "size_bytes": 1820
+      "size_bytes": 2102
     },
     {
       "name": ".prompts",
@@ -84,7 +92,7 @@
       "name": "05_OUTPUTS",
       "path": "05_OUTPUTS",
       "type": "directory",
-      "item_count": 27,
+      "item_count": 28,
       "has_readme": true,
       "has_index": true
     },
@@ -156,7 +164,7 @@
       "name": "14_LAYOUT_AUTOMATION",
       "path": "14_LAYOUT_AUTOMATION",
       "type": "directory",
-      "item_count": 45,
+      "item_count": 48,
       "has_readme": true,
       "has_index": true
     },
@@ -332,7 +340,7 @@
       "name": "AGENTS.md",
       "path": "AGENTS.md",
       "type": "file",
-      "size_bytes": 30209
+      "size_bytes": 30467
     },
     {
       "name": "CHANGELOG.md",
@@ -374,7 +382,7 @@
       "name": "docs",
       "path": "docs",
       "type": "directory",
-      "item_count": 18,
+      "item_count": 23,
       "has_readme": true,
       "has_index": true
     },
@@ -394,7 +402,7 @@
       "name": "FOR CHAT GPT.MD",
       "path": "FOR CHAT GPT.MD",
       "type": "file",
-      "size_bytes": 126561
+      "size_bytes": 135540
     },
     {
       "name": "health_check.ps1",
@@ -492,13 +500,13 @@
       "name": "README.md",
       "path": "README.md",
       "type": "file",
-      "size_bytes": 5999
+      "size_bytes": 18853
     },
     {
       "name": "README_GPT.md",
       "path": "README_GPT.md",
       "type": "file",
-      "size_bytes": 112116
+      "size_bytes": 114456
     },
     {
       "name": "REPO_INDEX.md",
@@ -536,7 +544,7 @@
       "name": "START_HERE.md",
       "path": "START_HERE.md",
       "type": "file",
-      "size_bytes": 1173
+      "size_bytes": 1843
     },
     {
       "name": "START_HERE_FOR_AI_AGENTS.md",
@@ -554,7 +562,7 @@
       "name": "T_E_M_P",
       "path": "T_E_M_P",
       "type": "directory",
-      "item_count": 1,
+      "item_count": 3,
       "has_readme": false,
       "has_index": false
     },

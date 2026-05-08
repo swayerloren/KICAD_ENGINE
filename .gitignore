@@ -34,11 +34,20 @@ node_modules/
 03_TOOLS/python_envs/
 03_TOOLS/node_envs/
 installer/node_modules/
+!03_TOOLS/python_envs/
+03_TOOLS/python_envs/*
+!03_TOOLS/python_envs/README.md
+!03_TOOLS/node_envs/
+03_TOOLS/node_envs/*
+!03_TOOLS/node_envs/README.md
 
 # Third-party cloned/tool repositories kept out of public payload by default
 03_TOOLS/repos/
 03_TOOLS/windows/repos/
 03_TOOLS/linux/repos/
+!03_TOOLS/repos/
+03_TOOLS/repos/*
+!03_TOOLS/repos/README.md
 
 # Generated outputs, build products, smoke-test installs, and backups
 05_OUTPUTS/*
@@ -66,6 +75,9 @@ installer/payload/PAYLOAD_BUILD_REPORT.md
 .DS_Store
 Thumbs.db
 fp-info-cache
+!03_TOOLS/tool_logs/
+03_TOOLS/tool_logs/*
+!03_TOOLS/tool_logs/README.md
 
 # Local Codex config
 .codex/config.toml

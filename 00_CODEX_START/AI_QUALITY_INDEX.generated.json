@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T17:44:15",
-  "record_count": 867,
+  "generated": "2026-05-08T17:56:31",
+  "record_count": 872,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -526,6 +526,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\FULL_REPO_PRODUCTION_QUALITY_AUDIT_SELF_REVIEW.md",
       "size_bytes": 1610,
       "title": "AI Self Review - Full Repo Production Quality Audit"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T17:54:33",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\GITHUB_LOCAL_REMOTE_SYNC_AUDIT_SELF_REVIEW.md",
+      "size_bytes": 1183,
+      "title": "GITHUB_LOCAL_REMOTE_SYNC_AUDIT_SELF_REVIEW"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1320,6 +1327,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T17:54:33",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\GITHUB_LOCAL_REMOTE_SYNC_AUDIT_SCORECARD.md",
+      "size_bytes": 930,
+      "title": "GITHUB_LOCAL_REMOTE_SYNC_AUDIT_SCORECARD"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-03T15:06:53",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\GOLDEN_PATH_SAMPLE_GATE_RUN_SCORECARD.md",
       "size_bytes": 1160,
@@ -2104,6 +2118,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T17:54:33",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\GITHUB_LOCAL_REMOTE_SYNC_AUDIT_HALLUCINATION_RISK.md",
+      "size_bytes": 1149,
+      "title": "GITHUB_LOCAL_REMOTE_SYNC_AUDIT_HALLUCINATION_RISK"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-03T15:06:53",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\GOLDEN_PATH_SAMPLE_GATE_RUN_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 762,
@@ -2878,6 +2899,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\FULL_REPO_PRODUCTION_QUALITY_AUDIT_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1708,
       "title": "Claim Evidence Matrix - Full Repo Production Quality Audit"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T17:54:33",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\GITHUB_LOCAL_REMOTE_SYNC_AUDIT_CLAIM_EVIDENCE.md",
+      "size_bytes": 1453,
+      "title": "GITHUB_LOCAL_REMOTE_SYNC_AUDIT_CLAIM_EVIDENCE"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3851,6 +3879,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\FULL_REPO_PRODUCTION_QUALITY_AUDIT_UNCERTAINTY_LOG.md",
       "size_bytes": 1299,
       "title": "Uncertainty Log - Full Repo Production Quality Audit"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T17:54:33",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\GITHUB_LOCAL_REMOTE_SYNC_AUDIT_UNCERTAINTY.md",
+      "size_bytes": 1300,
+      "title": "GITHUB_LOCAL_REMOTE_SYNC_AUDIT_UNCERTAINTY"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

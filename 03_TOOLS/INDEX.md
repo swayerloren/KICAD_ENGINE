@@ -26,3 +26,4 @@ AI-readable routing index for tools and scripts.
 
 ## PUBLIC_RELEASE_NOTES
 - Public payloads should not include large dependency folders unless intentionally packaged.
+- `node_envs/`, `python_envs/`, `repos/`, and `tool_logs/` are intentionally local-only and should be represented on GitHub by placeholder docs rather than real local contents.

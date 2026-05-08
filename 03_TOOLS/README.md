@@ -24,3 +24,4 @@ Tooling, scripts, read-only analyzers, external tool notes, and platform control
 
 ## PUBLIC_RELEASE_NOTES
 - Exclude large environments, node modules, and private logs from clean payloads.
+- `node_envs/`, `python_envs/`, `repos/`, and `tool_logs/` are local-only by default and appear on GitHub via placeholder `README.md` files only.

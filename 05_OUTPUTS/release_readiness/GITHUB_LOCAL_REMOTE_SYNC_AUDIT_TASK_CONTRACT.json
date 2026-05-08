@@ -1,0 +1,43 @@
+{
+  "task_type": "GITHUB_DOCS_ONLY",
+  "task_summary": "Audit why local-only 03_TOOLS folders are absent on GitHub and document the safe placeholder strategy.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [
+    ".gitignore",
+    "00_CODEX_START/AI_QUALITY_INDEX.generated.json",
+    "00_CODEX_START/AI_QUALITY_INDEX.generated.md",
+    "00_CODEX_START/CURRENT_KNOWN_PROBLEMS.md",
+    "00_CODEX_START/HISTORY_INDEX.generated.json",
+    "00_CODEX_START/HISTORY_INDEX.generated.md",
+    "00_CODEX_START/MEMORY_INDEX.generated.json",
+    "00_CODEX_START/MEMORY_INDEX.generated.md",
+    "00_CODEX_START/REPO_INDEX.generated.json",
+    "00_CODEX_START/REPO_INDEX.generated.md",
+    "01_MEMORY/MASTER_MEMORY_INDEX.md",
+    "02_HISTORY/MASTER_HISTORY_INDEX.md",
+    "02_HISTORY/ai_scorecards/GITHUB_LOCAL_REMOTE_SYNC_AUDIT_SCORECARD.md",
+    "02_HISTORY/ai_self_reviews/GITHUB_LOCAL_REMOTE_SYNC_AUDIT_SELF_REVIEW.md",
+    "02_HISTORY/claim_evidence_matrices/GITHUB_LOCAL_REMOTE_SYNC_AUDIT_CLAIM_EVIDENCE.md",
+    "03_TOOLS/README.md",
+    "03_TOOLS/INDEX.md",
+    "03_TOOLS/TOOLS_INDEX.md",
+    "03_TOOLS/node_envs/README.md",
+    "03_TOOLS/python_envs/README.md",
+    "03_TOOLS/repos/README.md",
+    "03_TOOLS/tool_logs/README.md",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/memory/PROMPT_COUNTER.md",
+    "05_OUTPUTS/release_readiness/GITHUB_LOCAL_REMOTE_SYNC_AUDIT.md",
+    "02_HISTORY/command_logs/GITHUB_LOCAL_REMOTE_SYNC_AUDIT_COMMANDS.md",
+    "02_HISTORY/hallucination_risk_logs/GITHUB_LOCAL_REMOTE_SYNC_AUDIT_HALLUCINATION_RISK.md",
+    "02_HISTORY/sessions/GITHUB_LOCAL_REMOTE_SYNC_AUDIT_SESSION.md",
+    "02_HISTORY/uncertainty_logs/GITHUB_LOCAL_REMOTE_SYNC_AUDIT_UNCERTAINTY.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "GitHub/docs-only remediation. No KiCad design files, manufacturing files, or local dependency trees are to be committed.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

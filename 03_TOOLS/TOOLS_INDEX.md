@@ -4,6 +4,8 @@
 
 `03_TOOLS/` contains scripts, wrappers, and tool-support assets. Some tools are read-only, some update reports and memory, and some can edit project files when explicitly used for real PCB work.
 
+GitHub note: `03_TOOLS/node_envs`, `03_TOOLS/python_envs`, `03_TOOLS/repos`, and `03_TOOLS/tool_logs` are intentionally local-only working folders. Git tracks placeholder `README.md` files there, not the real local environments, clones, or logs.
+
 ## Project State Tools
 
 | Tool | Run | Effect |
