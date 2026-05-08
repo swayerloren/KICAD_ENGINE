@@ -1170,6 +1170,9 @@ COMMAND LINK lessons have been added to memory as evidence-backed observations o
   - Hardening branch `hardening/execution-contract` was merged into `main` on `2026-05-08`; GitHub README/docs/workflows/devcontainer/hardening scripts now live on `main`
   - Current private-repo workflow is direct-owner updates to `main` after local validation and file review; PRs are optional for routine maintenance
   - GitHub Actions placement-readiness validation now skips cleanly on hosted runners when `pcbnew` is unavailable instead of failing the workflow
+  - First private/internal GitHub release created: `v0.1.0` on `2026-05-08`
+  - Release URL: `https://github.com/swayerloren/KICAD_ENGINE/releases/tag/v0.1.0`
+  - Release notes explicitly warn that `ESP32_CSI_WIFI_NODE` is not fabrication-ready and still requires human KiCad review before ordering boards
 
 ## When to update this file
 
