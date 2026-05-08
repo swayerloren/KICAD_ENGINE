@@ -15,6 +15,18 @@
 5. push the branch
 6. open or update a pull request to `main`
 
+## Recommended Manual Workflow
+
+When GitHub ruleset enforcement is limited on a private personal repo, use this manual workflow:
+
+1. create or switch to the task branch
+2. push the branch to GitHub
+3. open a pull request to `main`
+4. wait for GitHub Actions checks to finish
+5. review the changed files and check outputs
+6. merge the PR only after the checks and review are acceptable
+7. pull `main` locally after merge
+
 ## PR Expectations
 
 Each PR should clearly state:

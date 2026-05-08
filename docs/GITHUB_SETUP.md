@@ -25,6 +25,15 @@ This repo is designed to work cleanly on GitHub without pretending that GitHub r
 4. Use issue templates for bugs, routing problems, PCB problems, and feature requests.
 5. Use the devcontainer or Codespaces only for repo tooling, docs, and safe validation.
 
+## Current GitHub Limitations For This Repo
+
+- GitHub shows that rulesets may not enforce on this private personal repository unless it is moved to a GitHub Team or organization account.
+- If the GitHub UI shows a main ruleset targeting `0` branches, the intended branch target pattern is `main`.
+- If enforcement is unavailable, use manual pull-request discipline plus Actions checks.
+- GitHub Environments are not needed right now for this repo.
+- Codespaces is optional; it is a convenience layer, not a required engineering dependency.
+- Codespaces prebuilds can remain empty until the repo actually needs them.
+
 ## Current Infrastructure Added
 
 - `.devcontainer/` for local container or Codespaces work

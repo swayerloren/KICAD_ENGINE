@@ -20,6 +20,22 @@ Use the job names rather than only the workflow names when selecting required ch
 - `docs-and-links`
 - `repo-hygiene`
 
+## Private Personal Repo Ruleset Limitation
+
+GitHub currently shows that rulesets may not enforce on this private personal repository until the repo is moved to a GitHub Team or organization context.
+
+That means:
+
+- ruleset documentation is still worth keeping
+- GitHub Actions checks still provide useful protection
+- PR discipline still matters even when ruleset enforcement is unavailable
+
+If the UI shows a ruleset targeting `0` branches, the intended branch target pattern here is:
+
+- `main`
+
+If enforcement is unavailable, use the manual PR workflow plus required Actions checks until the repo is moved to a GitHub plan or owner context that can enforce the ruleset.
+
 ## Merge Strategy Guidance
 
 - Prefer squash merge or rebase merge for repo infrastructure and documentation branches.
@@ -31,7 +47,7 @@ Use the job names rather than only the workflow names when selecting required ch
 The following must still be enabled manually in the GitHub repository settings:
 
 1. open `Settings -> Branches`
-2. add a protection rule for `main`
+2. add a protection rule or ruleset target for `main`
 3. require pull requests before merge
 4. require the selected status checks
 5. enable conversation resolution

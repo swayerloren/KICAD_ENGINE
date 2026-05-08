@@ -52,6 +52,16 @@ The repo now has a first-pass GitHub developer-infrastructure layer for Codespac
 - docs now include `docs/GITHUB_SETUP.md`, `CODESPACES_SETUP.md`, `LOCAL_DEV_SETUP.md`, `BRANCH_AND_PR_WORKFLOW.md`, and `REPO_MAINTENANCE_WORKFLOW.md`
 - one important CI constraint was made explicit during validation: Python syntax checks must stay scoped to tracked first-party repo scripts and must not recurse into vendored repos or embedded Python-2 examples under tool bundles
 
+## Latest private-repo ruleset limitation doc pass - 2026-05-08
+
+The GitHub setup docs and repo-hygiene workflow were tightened again to match the current private personal repo limitations:
+
+- `.github/BRANCH_PROTECTION_RECOMMENDATIONS.md` now explicitly says rulesets may not enforce on this private personal repo until it moves to a GitHub Team or organization context
+- the intended ruleset / branch target pattern is explicitly documented as `main`
+- `docs/GITHUB_SETUP.md` now explicitly says GitHub Environments are not needed right now, Codespaces is optional, and empty Codespaces prebuild settings are acceptable
+- `docs/BRANCH_AND_PR_WORKFLOW.md` now includes the explicit manual fallback flow: create branch, push branch, open PR, wait for Actions, review files, merge PR, then pull `main` locally
+- `.github/workflows/kicad-engine-checks.yml` now scans for obvious live secret-token patterns in tracked text files, not just `.env` or secret-like filenames
+
 ## Latest task-type execution contract hardening - 2026-05-08
 
 KiCad Engine now has a dedicated execution-contract layer under `03_TOOLS\scripts\execution_contract` to stop false completion of edit-required PCB tasks:

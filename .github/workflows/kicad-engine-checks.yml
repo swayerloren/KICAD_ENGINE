@@ -35,6 +35,41 @@ jobs:
             exit 1
           fi
 
+      - name: Confirm no obvious live secret tokens are tracked
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re
+          import subprocess
+          from pathlib import Path
+
+          tracked = subprocess.check_output(["git", "ls-files"], text=True).splitlines()
+          patterns = {
+              "github_pat": re.compile(r"github_pat_[A-Za-z0-9_]{20,}"),
+              "ghp_token": re.compile(r"\bgh[pousr]_[A-Za-z0-9]{20,}\b"),
+              "openai_like": re.compile(r"\bsk-[A-Za-z0-9]{20,}\b"),
+          }
+          excluded_suffixes = {".png", ".jpg", ".jpeg", ".gif", ".pdf", ".zip", ".7z", ".rar", ".stp", ".step", ".gbr", ".drl", ".xln"}
+          findings = []
+
+          for item in tracked:
+              path = Path(item)
+              if path.suffix.lower() in excluded_suffixes:
+                  continue
+              try:
+                  text = path.read_text(encoding="utf-8")
+              except Exception:
+                  continue
+              for label, pattern in patterns.items():
+                  if pattern.search(text):
+                      findings.append(f"{item}: matched {label}")
+
+          if findings:
+              raise SystemExit("Tracked obvious secret tokens found:\n" + "\n".join(findings))
+          print("SECRET_PATTERN_SCAN_PASS")
+          PY
+
       - name: Confirm no accidental manufacturing outputs are tracked
         shell: bash
         run: |
