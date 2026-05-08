@@ -1175,6 +1175,8 @@ COMMAND LINK lessons have been added to memory as evidence-backed observations o
   - Release notes explicitly warn that `ESP32_CSI_WIFI_NODE` is not fabrication-ready and still requires human KiCad review before ordering boards
   - Branch cleanup complete: only `main` remains on `origin`; `hardening/execution-contract` was deleted locally and remotely after merge
   - PR `#1` remains as a merged historical record and should no longer appear as an open PR
+  - Root docs now explicitly support `Download ZIP` / local VS Code usage with Codex or Claude
+  - `.github/README.md` now explicitly says it documents only the `.github/` folder and is not the main project documentation
 
 ## When to update this file
 

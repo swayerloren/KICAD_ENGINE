@@ -2,6 +2,16 @@
 
 This file is the shortest GitHub-facing entry point for new humans. It does not replace the AI startup stack in `00_CODEX_START/`.
 
+## If You Downloaded The Repo ZIP Or Cloned It Locally
+
+1. Open the extracted or cloned `KICAD_ENGINE` folder in VS Code.
+2. Read [README.md](README.md) first to understand what the repo is and how it is meant to be used locally.
+3. Read [00_CODEX_START/START_HERE.md](00_CODEX_START/START_HERE.md) before asking Codex or Claude to edit anything.
+4. Start the AI agent from the repo root, not from a random subfolder.
+5. Do not assume the `.github/` folder explains the whole project; it only covers GitHub metadata.
+
+No extra GitHub repositories are required for basic local use unless a specific optional workflow explicitly documents them.
+
 ## If You Want The Big Picture
 
 1. Read [README.md](README.md).

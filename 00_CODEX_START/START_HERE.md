@@ -2,6 +2,8 @@
 
 This is the first startup instruction file after the root `AGENTS.md`.
 
+This repo is designed to be opened locally in VS Code after a normal `git clone` or GitHub `Download ZIP` extraction. The startup flow assumes the AI agent begins at the repo root and reads the local repo docs before touching KiCad files. Extra external GitHub repositories are optional helpers only; they are not required for first use unless a specific workflow explicitly calls for them.
+
 ## Required Startup Sequence
 Codex and Claude must complete this production startup sequence before touching KiCad project files:
 

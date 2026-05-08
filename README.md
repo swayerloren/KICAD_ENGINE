@@ -2,6 +2,8 @@
 
 KiCad Engine is a local-first AI-assisted workflow for building, reviewing, validating, and preparing KiCad schematic and PCB projects. It gives Codex, Claude, and similar VS Code agents a strict operating environment so they can help with real engineering work without pretending to replace KiCad, ERC/DRC, or human review.
 
+This repo is intended to be downloaded or cloned locally, opened in VS Code, and used as the working toolkit for AI-assisted KiCad engineering.
+
 ## Status
 
 - Repository status: `PRIVATE / INTERNAL / EXPERIMENTAL`
@@ -50,6 +52,22 @@ This repo exists to close that gap by giving the agent:
 
 The result should be small, auditable engineering changes instead of random edits, stale reports, or messy PCB routing.
 
+## Download ZIP / Local VS Code Use
+
+You can use KiCad Engine without setting up any extra GitHub repositories first.
+
+1. On GitHub, click `Code -> Download ZIP`.
+2. Extract the ZIP locally.
+3. Open the extracted `KICAD_ENGINE` folder in VS Code.
+4. Open Codex, Claude, or another AI coding agent inside that VS Code workspace.
+5. Start the agent from the repo root and give it this starter prompt:
+
+```text
+You are working inside the KICAD_ENGINE repo. First read README.md, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, and 00_CODEX_START/START_HERE.md. Follow the repo rules before editing any KiCad files. Do not edit schematic or PCB files until you understand the active project, the live project state, the task type, and the validation requirements.
+```
+
+For local GUI review or live design editing, KiCad itself still must be installed on the local machine. The repo gives the rules, workflows, prompts, validation scripts, and project structure around KiCad; it does not replace the KiCad application.
+
 ## How The Workflow Works
 
 1. A human opens the repo in VS Code and identifies the active project.
@@ -68,11 +86,39 @@ Important hardening layers now in this repo:
 - placement readiness scoring
 - staged routing runner and no-progress detection
 
+## What Is Included
+
+This repo includes:
+
+- KiCad project structure under `04_KICAD_PROJECTS/`
+- AI agent startup instructions and repo operating rules
+- schematic workflows, checks, and gate guidance
+- PCB placement workflows and readiness scoring
+- PCB routing rules and staged routing workflows
+- 45-degree / no-acute-angle routing enforcement
+- live project state tools and live-state-first phase gating
+- stale report detection and gate reconciliation
+- task execution contracts for docs, audits, placement, routing, and PCB-edit work
+- routing geometry checks and hard-fail geometry reporting
+- staged routing runner and no-progress detector logic
+- JLCPCB and PCBWay export guidance
+- optional GitHub / Codespaces / devcontainer setup for repo tooling
+
+## What Is Not Included
+
+This repo does not include:
+
+- the KiCad application installer
+- guaranteed automatic schematic or PCB completion
+- fabrication approval without human review
+- vendor ordering automation
+- secrets, credentials, or embedded private tokens
+
 ## Using Codex Or Claude With This Repo
 
 1. Open the repo in VS Code from the repository root.
 2. Start Codex, Claude, or another AI coding agent from the repo root, not from a random subfolder.
-3. Tell the agent to read [`README.md`](README.md), [`CURRENT_STATUS.md`](CURRENT_STATUS.md), [`AGENTS.md`](AGENTS.md), and the relevant rules files before editing anything.
+3. Tell the agent to first read [`00_CODEX_START/START_HERE.md`](00_CODEX_START/START_HERE.md), [`README.md`](README.md), [`CURRENT_STATUS.md`](CURRENT_STATUS.md), [`WORKFLOWS_INDEX.md`](WORKFLOWS_INDEX.md), and [`TOOLS_INDEX.md`](TOOLS_INDEX.md) before editing anything.
 4. The AI should inspect the real KiCad project files before changing them.
 5. The AI should make small, auditable changes instead of broad unreviewed rewrites.
 6. The AI should run or document ERC/DRC checks, routing audits, and visual review steps after engineering changes.
@@ -160,6 +206,8 @@ High-level map:
 - `14_LAYOUT_AUTOMATION/` - placement/routing rules, scorecards, staged runner logic
 - `34_PCB_LAYOUT_SANDBOX/` - layout-variant and pre-edit sandbox workflow
 - `99_BACKUPS/` - local-only backups before AI edits, intentionally excluded from Git
+
+You do not need to install extra GitHub repos just to get started locally with the core documentation, prompts, checks, and workflow logic in this repo. Optional external helpers should only be used when a specific documented workflow calls for them.
 
 See:
 
@@ -306,6 +354,8 @@ Before any board is treated as ready for fabrication:
 - perform human visual review inside KiCad before ordering boards
 
 If any of those are missing, the board should be treated as not ready.
+
+The active example board is not fabrication-ready unless the final live checks, remaining blockers, and human review explicitly say otherwise.
 
 ## What Is Excluded By `.gitignore`
 

@@ -4,6 +4,8 @@ KiCad Engine supports GitHub Codespaces and VS Code devcontainers for repo tooli
 
 Codespaces is optional. It is not required for local KiCad engineering work, and empty Codespaces prebuild settings are acceptable for this repo right now.
 
+If you do not want Codespaces, you can download the repo ZIP or clone the repo, open it locally in VS Code, and use the same startup docs and workflow rules from the local checkout.
+
 ## Good Uses For Codespaces
 
 - reading the repo and startup docs
