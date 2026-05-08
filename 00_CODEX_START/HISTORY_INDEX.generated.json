@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:19:00",
+  "generated_at": "2026-05-08T16:23:35",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -300,6 +300,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_161753_STAGED_ROUTING_RUNNER_SCORECARD.md",
       "title": "AI Response Scorecard",
       "size_bytes": 303,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_162242_HARDENING_PR_SCORECARD.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 176,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1032,6 +1039,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_162242_HARDENING_PR_SELF_REVIEW.md",
+      "title": "AI Self Review",
+      "size_bytes": 454,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SELF_REVIEW.md",
       "title": "AI Self Review",
       "size_bytes": 1088,
@@ -1756,6 +1770,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_161753_STAGED_ROUTING_RUNNER_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim Evidence Matrix",
       "size_bytes": 691,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_162242_HARDENING_PR_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim Evidence Matrix",
+      "size_bytes": 629,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3051,6 +3072,13 @@
       "path": "02_HISTORY\\command_logs\\GOLDEN_PATH_SAMPLE_PROMOTION_COMMANDS.md",
       "title": "Command Log - Golden Path Sample Promotion",
       "size_bytes": 4108,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\HARDENING_PR_COMMANDS.md",
+      "title": "Hardening PR Commands",
+      "size_bytes": 820,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -5232,6 +5260,13 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_162242_HARDENING_PR_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 193,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log",
       "size_bytes": 337,
@@ -5673,6 +5708,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\20260508_HARDENING_PR_FOLLOWUP_REMAINING.md",
+      "title": "Open Issue",
+      "size_bytes": 293,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\20260508_STAGED_ROUTING_RUNNER_REPORT_SCHEMA_RISK.md",
       "title": "Open Issue",
       "size_bytes": 505,
@@ -6102,7 +6144,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 230235,
+      "size_bytes": 232314,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -7367,6 +7409,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\HARDENING_PR_SESSION.md",
+      "title": "Hardening PR Session",
+      "size_bytes": 520,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\INSTALLER_PAYLOAD_TEMPLATE_SESSION.md",
       "title": "Installer Payload Template Session",
       "size_bytes": 2123,
@@ -8385,6 +8434,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_161753_STAGED_ROUTING_RUNNER_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log",
       "size_bytes": 382,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_162242_HARDENING_PR_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 168,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

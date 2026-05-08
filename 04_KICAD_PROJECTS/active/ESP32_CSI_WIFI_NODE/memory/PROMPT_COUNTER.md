@@ -1,8 +1,8 @@
 # Prompt Counter
 
-Status: `ACTIVE_EVIDENCE`
+Status: `MAINTENANCE_DUE`
 
-Generated date/time: `2026-05-08T16:19:00`
+Generated date/time: `2026-05-08T16:23:35`
 
 Project: `ESP32_CSI_WIFI_NODE`
 
@@ -14,13 +14,13 @@ Evidence files: `00_CODEX_START/PROMPT_COUNTER_RULES.md`
 
 Current relevance: project-specific trigger for maintenance and live-state rebuilds.
 
-Prompt count: `4`
+Prompt count: `5`
 
 Maintenance threshold: `5`
 
-Maintenance due: `NO`
+Maintenance due: `YES`
 
-Last increment reason: `Add staged routing runner and no-progress detector`
+Last increment reason: `Open hardening PR`
 
 Maintenance command:
 

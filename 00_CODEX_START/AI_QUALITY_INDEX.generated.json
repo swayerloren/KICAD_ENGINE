@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T16:19:00",
-  "record_count": 822,
+  "generated": "2026-05-08T16:23:36",
+  "record_count": 827,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -301,6 +301,13 @@
       "modified": "2026-05-08T16:18:41",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_161753_STAGED_ROUTING_RUNNER_SELF_REVIEW.md",
       "size_bytes": 669,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_162242_HARDENING_PR_SELF_REVIEW.md",
+      "size_bytes": 454,
       "title": "AI Self Review"
     },
     {
@@ -1033,6 +1040,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_162242_HARDENING_PR_SCORECARD.md",
+      "size_bytes": 176,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-08T14:49:20",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SCORECARD.md",
       "size_bytes": 278,
@@ -1754,6 +1768,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_162242_HARDENING_PR_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 193,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-08T14:49:20",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 337,
@@ -2464,6 +2485,13 @@
       "modified": "2026-05-08T16:18:41",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_161753_STAGED_ROUTING_RUNNER_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 691,
+      "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_162242_HARDENING_PR_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 629,
       "title": "Claim Evidence Matrix"
     },
     {
@@ -3374,6 +3402,13 @@
       "modified": "2026-05-08T16:18:41",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_161753_STAGED_ROUTING_RUNNER_UNCERTAINTY_LOG.md",
       "size_bytes": 382,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T16:23:22",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_162242_HARDENING_PR_UNCERTAINTY_LOG.md",
+      "size_bytes": 168,
       "title": "Uncertainty Log"
     },
     {
