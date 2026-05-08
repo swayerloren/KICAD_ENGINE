@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T14:06:43",
-  "record_count": 47,
+  "generated": "2026-05-08T14:34:31",
+  "record_count": 48,
   "records": [
     {
       "modified": "2026-05-03T00:29:49",
@@ -73,10 +73,10 @@
       "title": "Global Hallucination Risks"
     },
     {
-      "modified": "2026-05-08T14:06:06",
+      "modified": "2026-05-08T14:30:58",
       "name": "GLOBAL_MEMORY.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\GLOBAL_MEMORY.md",
-      "size_bytes": 1940,
+      "size_bytes": 2282,
       "title": "Global Memory"
     },
     {
@@ -106,6 +106,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\MASTER_MEMORY_INDEX.md",
       "size_bytes": 6480,
       "title": "Master Memory Index"
+    },
+    {
+      "modified": "2026-05-08T14:29:09",
+      "name": "MEMORY_INDEX.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\MEMORY_INDEX.md",
+      "size_bytes": 531,
+      "title": "Memory Index"
     },
     {
       "modified": "2026-05-07T12:45:06",
@@ -276,10 +283,10 @@
       "title": "Project Hallucination Risks"
     },
     {
-      "modified": "2026-05-08T14:06:06",
+      "modified": "2026-05-08T14:30:58",
       "name": "PROJECT_MEMORY.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_MEMORY.md",
-      "size_bytes": 8320,
+      "size_bytes": 8522,
       "title": "ESP32_CSI_WIFI_NODE Project Memory"
     },
     {
