@@ -84,6 +84,19 @@ KiCad Engine now has a real-board placement-readiness scorecard so routing canno
 - `REAL_PROJECT_ROUTING_PRECONDITIONS.md`, `REAL_PROJECT_ROUTING_WORKFLOW.md`, and `FULL_PIPELINE_GATE_CHECKLIST.md` now require a fresh placement readiness scorecard with exact result `PLACEMENT_READY_FOR_ROUTING` before routing is treated as eligible
 - copied-board validation on `ESP32_CSI_WIFI_NODE` scored the current placement `98 / 100` with exact status `PLACEMENT_READY_FOR_ROUTING`; routing is still blocked by live connectivity work, not by placement quality
 
+## Latest staged routing runner and no-progress detector - 2026-05-08
+
+KiCad Engine now has a stage-gated routing runner plus repair-mode detector so routing cannot drift into report loops or out-of-order passes:
+
+- new routing workflow docs: `14_LAYOUT_AUTOMATION\STAGED_ROUTING_RUNNER.md` and `14_LAYOUT_AUTOMATION\NO_PROGRESS_DETECTOR.md`
+- new scripts: `routing_stage_contracts.py`, `staged_routing_runner.py`, `detect_no_progress.py`, and `routing_kpi_dashboard.py`
+- routing must now advance through ten explicit stages: `placement_readiness`, `power_critical`, `ground_strategy`, `USB_support`, `boot_enable_control`, `USB_data`, `low_speed_remaining`, `trace_geometry_cleanup`, `final_connectivity`, and `final_visual_review`
+- every stage now declares required inputs, allowed and forbidden nets, DRC/geometry requirements, hash-delta requirement, copied-board rehearsal requirement, pass/fail outputs, and next allowed stage
+- if two consecutive edit-required runs stall by unchanged hashes, no reduction, DRC regression, or repeated blockers, the no-progress detector raises `BLOCKED_REPAIR_MODE`
+- `BLOCKED_REPAIR_MODE` is a hard stop on broad routing; only the recommended targeted repair stage may continue
+- the initial KPI dashboard now lives at `05_OUTPUTS\reliability\ROUTING_RELIABILITY_DASHBOARD.md` and `.json`
+- the initial ESP32 history replay shows one real no-progress event between `PCB_BATCH_04_CONTROL_NET_ROUTING_REPORT.md` and `PCB_BATCH_05_USB_DATA_ROUTING_REPORT.md`, with the repeated blocker set `/BOOT0`, `/ESP_EN`, `/DM_C`, `/DM_E`, `/DP_C`, `/DP_E` and recommended targeted repair stage `boot_enable_control`
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:

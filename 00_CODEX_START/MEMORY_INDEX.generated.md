@@ -1,53 +1,68 @@
-# Generated Memory Index
+# Master Memory Index
 
-Generated: `2026-05-08T15:55:49`
-Record count: `48`
+Status: `AUTO_BUILT`
 
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\AGENT_LESSONS_LEARNED.md` - Agent Lessons Learned
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\AGENT_MISTAKES_TO_AVOID.md` - Agent Mistakes To Avoid
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\AI_RELIABILITY_MEMORY.md` - AI Reliability Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\CODING_AND_SCRIPTING_RULES.md` - Coding And Scripting Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\COMPONENT_PREFERENCES.md` - Component Preferences
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\DESIGN_RULES_MEMORY.md` - Design Rules Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\EXAMPLE_ONLY_UNVERIFIED_CONNECTOR_FOOTPRINT_WARNING.md` - EXAMPLE_ONLY Global Warning: Unverified Connector Footprints
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\FAB_HOUSE_PREFERENCES.md` - Fabrication House Preferences
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\FAILED_WORKFLOWS.md` - Failed Workflows
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\GLOBAL_HALLUCINATION_RISKS.md` - Global Hallucination Risks
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\GLOBAL_MEMORY.md` - Global Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\GLOBAL_QUALITY_GATE_RULES.md` - Global Quality Gate Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\GLOBAL_UNVERIFIED_CLAIMS.md` - Global Unverified Claims
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\INDEX.md` - 01_MEMORY Index
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\MASTER_MEMORY_INDEX.md` - Master Memory Index
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\MEMORY_INDEX.md` - Memory Index
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\MEMORY_UPDATE_RULES.md` - Memory Update Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\projects\CLEAN_KICAD_PASSING_SAMPLE\PROJECT_MEMORY.md` - ﻿# CLEAN_KICAD_PASSING_SAMPLE Project Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\projects\COMMAND_LINK_VERIFIED_REFERENCE\PROJECT_MEMORY.md` - COMMAND_LINK_VERIFIED_REFERENCE Project Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\projects\ESP32_CSI_WIFI_NODE\PROJECT_MEMORY.md` - ESP32_CSI_WIFI_NODE Project Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\projects\SAMPLE_KICAD_TEST_PROJECT\PROJECT_MEMORY.md` - SAMPLE_KICAD_TEST_PROJECT Project Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\README.md` - 01_MEMORY
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\USER_CORRECTIONS_MEMORY.md` - User Corrections Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\01_MEMORY\VERIFIED_WORKFLOWS.md` - Verified Workflows
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\AGENT_MISTAKES_TO_AVOID.md` - Agent Mistakes To Avoid
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\AI_RELIABILITY_MEMORY.md` - AI Reliability Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\COMPONENT_DECISIONS.md` - Component Decisions
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\CURRENT_BLOCKERS.md` - Current Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\CURRENT_PROJECT_STATE.md` - Current Project State
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\DATASHEET_DECISIONS.md` - Datasheet Decisions
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\DESIGN_RULES.md` - Project Design Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\EXAMPLE_ONLY_USB_C_CONNECTOR_MEMORY_UPDATE.md` - EXAMPLE_ONLY Project Memory Update: USB-C Connector Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\EXAMPLE_ONLY_USB_C_GENERIC_FOOTPRINT_WARNING.md` - EXAMPLE_ONLY Project Warning: Generic USB-C Footprints
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\FALSE_PASS_INCIDENTS.md` - False Pass Incidents
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\FOOTPRINT_DECISIONS.md` - Footprint Decisions
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\J1_BARREL_JACK_ORIENTATION_LESSON.md` - J1 Barrel Jack Orientation Lesson
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\MEMORY_UPDATE_RULES.md` - Project Memory Update Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\NEXT_ALLOWED_PHASE.md` - Next Allowed Phase
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_MEMORY.md` - ESP32_CSI_WIFI_NODE Project Memory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_MEMORY_INDEX.md` - Project Memory Index
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_QUALITY_GATE_RULES.md` - Project Quality Gate Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROMPT_COUNTER.md` - Prompt Counter
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\RESOLVED_BLOCKERS.md` - Resolved Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\SUPERSEDED_REPORTS.md` - Superseded Reports
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\USER_CORRECTIONS.md` - User Corrections
+Generated: `2026-05-08T16:19:00`
+
+This file is generated by `03_TOOLS/scripts/indexing/build_memory_index.py`.
+
+## Rules
+
+- Memory stores durable lessons, preferences, verified workflows, and reusable project decisions.
+- Commands, transient failures, and raw verification output belong in history, not memory.
+- Do not store secrets, credentials, API keys, private tokens, or license keys.
+- Mark entries `UNVERIFIED` unless backed by file evidence, command output, datasheets, or human confirmation.
+
+## Global Memory Files (24)
+
+- `01_MEMORY\AGENT_LESSONS_LEARNED.md` - Agent Lessons Learned
+- `01_MEMORY\AGENT_MISTAKES_TO_AVOID.md` - Agent Mistakes To Avoid
+- `01_MEMORY\AI_RELIABILITY_MEMORY.md` - AI Reliability Memory
+- `01_MEMORY\CODING_AND_SCRIPTING_RULES.md` - Coding And Scripting Rules
+- `01_MEMORY\COMPONENT_PREFERENCES.md` - Component Preferences
+- `01_MEMORY\DESIGN_RULES_MEMORY.md` - Design Rules Memory
+- `01_MEMORY\EXAMPLE_ONLY_UNVERIFIED_CONNECTOR_FOOTPRINT_WARNING.md` - EXAMPLE_ONLY Global Warning: Unverified Connector Footprints
+- `01_MEMORY\FAB_HOUSE_PREFERENCES.md` - Fabrication House Preferences
+- `01_MEMORY\FAILED_WORKFLOWS.md` - Failed Workflows
+- `01_MEMORY\GLOBAL_HALLUCINATION_RISKS.md` - Global Hallucination Risks
+- `01_MEMORY\GLOBAL_MEMORY.md` - Global Memory
+- `01_MEMORY\GLOBAL_QUALITY_GATE_RULES.md` - Global Quality Gate Rules
+- `01_MEMORY\GLOBAL_UNVERIFIED_CLAIMS.md` - Global Unverified Claims
+- `01_MEMORY\INDEX.md` - 01_MEMORY Index
+- `01_MEMORY\MASTER_MEMORY_INDEX.md` - Master Memory Index
+- `01_MEMORY\MEMORY_INDEX.md` - Memory Index
+- `01_MEMORY\MEMORY_UPDATE_RULES.md` - Memory Update Rules
+- `01_MEMORY\projects\CLEAN_KICAD_PASSING_SAMPLE\PROJECT_MEMORY.md` - Project Memory
+- `01_MEMORY\projects\COMMAND_LINK_VERIFIED_REFERENCE\PROJECT_MEMORY.md` - COMMAND_LINK_VERIFIED_REFERENCE Project Memory
+- `01_MEMORY\projects\ESP32_CSI_WIFI_NODE\PROJECT_MEMORY.md` - ESP32_CSI_WIFI_NODE Project Memory
+- `01_MEMORY\projects\SAMPLE_KICAD_TEST_PROJECT\PROJECT_MEMORY.md` - SAMPLE_KICAD_TEST_PROJECT Project Memory
+- `01_MEMORY\README.md` - 01_MEMORY
+- `01_MEMORY\USER_CORRECTIONS_MEMORY.md` - User Corrections Memory
+- `01_MEMORY\VERIFIED_WORKFLOWS.md` - Verified Workflows
+
+## Project Memory Files (24)
+
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\AGENT_MISTAKES_TO_AVOID.md` - Agent Mistakes To Avoid
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\AI_RELIABILITY_MEMORY.md` - AI Reliability Memory
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\COMPONENT_DECISIONS.md` - Component Decisions
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\CURRENT_BLOCKERS.md` - Current Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\CURRENT_PROJECT_STATE.md` - Current Project State
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\DATASHEET_DECISIONS.md` - Datasheet Decisions
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\DESIGN_RULES.md` - Project Design Rules
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\EXAMPLE_ONLY_USB_C_CONNECTOR_MEMORY_UPDATE.md` - EXAMPLE_ONLY Project Memory Update: USB-C Connector Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\EXAMPLE_ONLY_USB_C_GENERIC_FOOTPRINT_WARNING.md` - EXAMPLE_ONLY Project Warning: Generic USB-C Footprints
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\FALSE_PASS_INCIDENTS.md` - False Pass Incidents
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\FOOTPRINT_DECISIONS.md` - Footprint Decisions
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\J1_BARREL_JACK_ORIENTATION_LESSON.md` - J1 Barrel Jack Orientation Lesson
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\MEMORY_UPDATE_RULES.md` - Project Memory Update Rules
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\NEXT_ALLOWED_PHASE.md` - Next Allowed Phase
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_MEMORY.md` - ESP32_CSI_WIFI_NODE Project Memory
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_MEMORY_INDEX.md` - Project Memory Index
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_QUALITY_GATE_RULES.md` - Project Quality Gate Rules
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROMPT_COUNTER.md` - Prompt Counter
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\RESOLVED_BLOCKERS.md` - Resolved Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\SUPERSEDED_REPORTS.md` - Superseded Reports
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\USER_CORRECTIONS.md` - User Corrections

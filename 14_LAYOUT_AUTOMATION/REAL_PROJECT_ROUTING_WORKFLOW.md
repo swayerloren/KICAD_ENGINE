@@ -16,10 +16,11 @@ Before the first trace is edited:
 4. confirm a fresh backup exists
 5. run `python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>`
 6. run `python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project <ACTIVE_PROJECT_PATH> --phase 8`
-7. confirm routing preconditions are exact `PASS` by live-state authority, not by stale markdown alone
-8. confirm a fresh placement readiness scorecard exists with exact result `PLACEMENT_READY_FOR_ROUTING`
-9. confirm the normalized routing input export exists for the current board state
-10. generate:
+7. run `python 14_LAYOUT_AUTOMATION/scripts/staged_routing_runner.py --project <ACTIVE_PROJECT_PATH> --stage placement_readiness`
+8. confirm routing preconditions are exact `PASS` by live-state authority, not by stale markdown alone
+9. confirm a fresh placement readiness scorecard exists with exact result `PLACEMENT_READY_FOR_ROUTING`
+10. confirm the normalized routing input export exists for the current board state
+11. generate:
    - routing plan
    - critical-net plan
    - unrouted-net report
@@ -57,19 +58,24 @@ Placement is not considered approved for routing unless a fresh scorecard from
 `score_placement_readiness.py` returns exact status
 `PLACEMENT_READY_FOR_ROUTING`.
 
+Broad routing is not allowed when `detect_no_progress.py` reports
+`BLOCKED_REPAIR_MODE`. In that case, only the recommended targeted repair stage
+may proceed.
+
 ## Routing Pass Order
 
-Routing must proceed in these passes:
+Routing must proceed in these stage-gated passes:
 
-1. power and protection
-2. regulator critical loop
-3. 3V3 rail
-4. USB D+/D-
-5. ESD and protection connections
-6. ESP32 EN/BOOT
-7. decoupling
-8. LEDs, buttons, and test pads
-9. remaining low-risk nets
+1. `placement_readiness`
+2. `power_critical`
+3. `ground_strategy`
+4. `USB_support`
+5. `boot_enable_control`
+6. `USB_data`
+7. `low_speed_remaining`
+8. `trace_geometry_cleanup`
+9. `final_connectivity`
+10. `final_visual_review`
 
 Do not skip ahead to later passes while earlier critical passes remain incomplete or low quality.
 

@@ -37,6 +37,8 @@ Stop the current pass and re-plan if:
 - power path quality degrades
 - geometry hard-fail status appears in the trace audit
 - routing scorecard drops to blocked state
+- staged routing runner reports `STAGE_BLOCKED`
+- no-progress detector reports `BLOCKED_REPAIR_MODE`
 
 ## Stop And Escalate Conditions
 
@@ -56,6 +58,8 @@ When routing stops, create or update evidence showing:
 - exact stop reason
 - current routing pass
 - affected nets
+- blocker source
+- recommended targeted repair stage when `BLOCKED_REPAIR_MODE` applies
 - whether reroute, placement repair, or human review is required
 
 ## Rule

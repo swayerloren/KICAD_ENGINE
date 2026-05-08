@@ -2,7 +2,7 @@
 
 Status: `AUTO_BUILT`
 
-Generated: `2026-05-08T15:56:50`
+Generated: `2026-05-08T16:19:00`
 
 This startup file summarizes risk signals so the next AI agent sees what not to repeat.
 
@@ -12,7 +12,6 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `01_MEMORY\FAILED_WORKFLOWS.md` - Failed Workflows
 - `01_MEMORY\GLOBAL_HALLUCINATION_RISKS.md` - Global Hallucination Risks
 - `01_MEMORY\GLOBAL_UNVERIFIED_CLAIMS.md` - Global Unverified Claims
-- `02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PROJECT_BOOL_SCHEMA_BUG.md` - Failed Attempt - Auto Variant Scoring Engine Project Bool Schema Bug
 - `02_HISTORY\failed_attempts\AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README.md` - AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README
 - `02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH.md` - REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH
 - `02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS.md` - REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS
@@ -32,7 +31,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\failed_attempts\20260508_GITHUB_INDEXING_PATCH_CONTEXT_MISMATCH.md` - Failed Attempt
 - `02_HISTORY\failed_attempts\20260508_ROUTING_GEOMETRY_INTEGRATION_FIXTURE_CONTEXT_MISS.md` - Failed Attempt - Routing Geometry Integration Fixture Context Miss
 - `02_HISTORY\failed_attempts\20260508_PLACEMENT_READINESS_STAGING_ANDAND_POWERSHELL_ERROR.md` - Failed Attempt
-- `02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS.md` - AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS
+- `02_HISTORY\failed_attempts\20260508_STAGED_ROUTING_RUNNER_PARSER_FALSE_POSITIVES.md` - Failed Attempt
 - `02_HISTORY\issue_logs\REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN.md` - REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN
 - `02_HISTORY\issue_logs\REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS
 - `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS
@@ -52,11 +51,11 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\issue_logs\TASK_TYPE_EXECUTION_CONTRACT_RUNTIME_AUTOMATION_GAP.md` - Task Type Execution Contract Runtime Automation Gap
 - `02_HISTORY\issue_logs\LIVE_STATE_AUTHORITY_HARDENING_RESIDUAL_GAPS.md` - Live State Authority Hardening Residual Gaps
 - `02_HISTORY\issue_logs\ROUTING_GEOMETRY_HARD_FAIL_LIMITATIONS.md` - Routing Geometry Hard Fail Limitations
+- `02_HISTORY\issue_logs\20260508_STAGED_ROUTING_RUNNER_REPORT_SCHEMA_RISK.md` - Open Issue
 - `02_HISTORY\known_agent_mistakes\README.md` - Known Agent Mistakes
 - `02_HISTORY\known_agent_mistakes\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint
 - `02_HISTORY\known_agent_mistakes\BARREL_JACK_ORIENTATION_CONFUSION.md` - Barrel Jack Orientation Confusion
 - `02_HISTORY\known_agent_mistakes\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md` - Crude 90-Degree Scripted Routing
-- `02_HISTORY\hallucination_risk_logs\AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG
 - `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_HALLUCINATION_RISK.md` - Hallucination Risk Log
@@ -76,6 +75,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\hallucination_risk_logs\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Live State Authority Hardening
 - `02_HISTORY\hallucination_risk_logs\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Routing Geometry Hard Fail
 - `02_HISTORY\hallucination_risk_logs\20260508_155333_PLACEMENT_READINESS_SCORING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260508_161753_STAGED_ROUTING_RUNNER_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY\quality_gate_failures\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Quality Gate Failure: Playwright Batch Live Capture Blocked
 - `02_HISTORY\quality_gate_failures\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md` - Quality Gate Failure: Public Release Remains Blocked
 - `02_HISTORY\quality_gate_failures\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md` - Quality Gate Failure - Open KiCad Samples Not Promotion Ready
@@ -96,7 +96,6 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
 - `02_HISTORY\quality_gate_failures\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md` - Quality Gate Failure
-- `02_HISTORY\uncertainty_logs\AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG.md` - AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG
 - `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
 - `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
 - `02_HISTORY\uncertainty_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_UNCERTAINTY.md` - Uncertainty Log
@@ -116,6 +115,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\uncertainty_logs\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md` - Uncertainty Log - Live State Authority Hardening
 - `02_HISTORY\uncertainty_logs\20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md` - Uncertainty Log - Routing Geometry Hard Fail
 - `02_HISTORY\uncertainty_logs\20260508_155333_PLACEMENT_READINESS_SCORING_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260508_161753_STAGED_ROUTING_RUNNER_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims
