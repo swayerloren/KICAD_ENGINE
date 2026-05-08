@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T17:36:43",
-  "record_count": 857,
+  "generated": "2026-05-08T17:40:34",
+  "record_count": 862,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -343,6 +343,13 @@
       "modified": "2026-05-08T17:36:30",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_GITHUB_RELEASE_V0_1_0_SELF_REVIEW.md",
       "size_bytes": 531,
+      "title": "AI Self-Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T17:40:20",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_SELF_REVIEW.md",
+      "size_bytes": 701,
       "title": "AI Self-Review"
     },
     {
@@ -1124,6 +1131,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T17:40:20",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_SCORECARD.md",
+      "size_bytes": 215,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-08T17:28:42",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
       "size_bytes": 709,
@@ -1894,6 +1908,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T17:40:20",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 279,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-08T17:28:42",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 585,
@@ -2653,6 +2674,13 @@
       "modified": "2026-05-08T17:36:30",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_RELEASE_V0_1_0_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 743,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T17:40:20",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 957,
       "title": "Claim / Evidence Matrix"
     },
     {
@@ -3612,6 +3640,13 @@
       "modified": "2026-05-08T17:36:30",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_GITHUB_RELEASE_V0_1_0_UNCERTAINTY_LOG.md",
       "size_bytes": 347,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T17:40:20",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_UNCERTAINTY_LOG.md",
+      "size_bytes": 278,
       "title": "Uncertainty Log"
     },
     {

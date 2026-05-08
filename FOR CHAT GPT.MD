@@ -1173,6 +1173,8 @@ COMMAND LINK lessons have been added to memory as evidence-backed observations o
   - First private/internal GitHub release created: `v0.1.0` on `2026-05-08`
   - Release URL: `https://github.com/swayerloren/KICAD_ENGINE/releases/tag/v0.1.0`
   - Release notes explicitly warn that `ESP32_CSI_WIFI_NODE` is not fabrication-ready and still requires human KiCad review before ordering boards
+  - Branch cleanup complete: only `main` remains on `origin`; `hardening/execution-contract` was deleted locally and remotely after merge
+  - PR `#1` remains as a merged historical record and should no longer appear as an open PR
 
 ## When to update this file
 

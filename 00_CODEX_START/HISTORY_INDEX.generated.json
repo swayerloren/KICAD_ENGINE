@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T17:36:44",
-  "record_count": 1691,
+  "generated": "2026-05-08T17:40:34",
+  "record_count": 1699,
   "records": [
     {
       "modified": "2026-05-02T23:00:04",
@@ -343,6 +343,13 @@
       "name": "20260508_GITHUB_RELEASE_V0_1_0_SCORECARD.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_GITHUB_RELEASE_V0_1_0_SCORECARD.md",
       "size_bytes": 305,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "modified": "2026-05-08T17:40:20",
+      "name": "20260508_GITHUB_SIMPLE_MAIN_CLEANUP_SCORECARD.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_SCORECARD.md",
+      "size_bytes": 215,
       "title": "AI Response Scorecard"
     },
     {
@@ -1123,6 +1130,13 @@
       "title": "AI Self-Review"
     },
     {
+      "modified": "2026-05-08T17:40:20",
+      "name": "20260508_GITHUB_SIMPLE_MAIN_CLEANUP_SELF_REVIEW.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_SELF_REVIEW.md",
+      "size_bytes": 701,
+      "title": "AI Self-Review"
+    },
+    {
       "modified": "2026-05-08T17:28:42",
       "name": "20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
@@ -1897,6 +1911,13 @@
       "name": "20260508_GITHUB_RELEASE_V0_1_0_CLAIM_EVIDENCE_MATRIX.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_RELEASE_V0_1_0_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 743,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "modified": "2026-05-08T17:40:20",
+      "name": "20260508_GITHUB_SIMPLE_MAIN_CLEANUP_CLAIM_EVIDENCE_MATRIX.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 957,
       "title": "Claim / Evidence Matrix"
     },
     {
@@ -3221,6 +3242,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\command_logs\\GITHUB_REPO_PUSH_COMMANDS.md",
       "size_bytes": 2668,
       "title": "GitHub Repo Push Commands"
+    },
+    {
+      "modified": "2026-05-08T17:40:20",
+      "name": "GITHUB_SIMPLE_MAIN_CLEANUP_COMMANDS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\command_logs\\GITHUB_SIMPLE_MAIN_CLEANUP_COMMANDS.md",
+      "size_bytes": 1113,
+      "title": "GitHub Simple Main Cleanup Commands"
     },
     {
       "modified": "2026-05-03T15:07:53",
@@ -4700,6 +4728,13 @@
       "title": "Failed Attempt"
     },
     {
+      "modified": "2026-05-08T17:40:20",
+      "name": "20260508_GITHUB_SIMPLE_MAIN_CLEANUP_PR_ALREADY_MERGED.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\failed_attempts\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_PR_ALREADY_MERGED.md",
+      "size_bytes": 567,
+      "title": "Failed Attempt Log"
+    },
+    {
       "modified": "2026-05-08T17:28:42",
       "name": "20260508_PLACEMENT_READINESS_STAGING_ANDAND_POWERSHELL_ERROR.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\failed_attempts\\20260508_PLACEMENT_READINESS_STAGING_ANDAND_POWERSHELL_ERROR.md",
@@ -5502,6 +5537,13 @@
       "name": "20260508_GITHUB_RELEASE_V0_1_0_HALLUCINATION_RISK_LOG.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_RELEASE_V0_1_0_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 306,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "modified": "2026-05-08T17:40:20",
+      "name": "20260508_GITHUB_SIMPLE_MAIN_CLEANUP_HALLUCINATION_RISK_LOG.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 279,
       "title": "Hallucination Risk Log"
     },
     {
@@ -7675,6 +7717,13 @@
       "title": "GitHub Repo Push Session"
     },
     {
+      "modified": "2026-05-08T17:40:20",
+      "name": "GITHUB_SIMPLE_MAIN_CLEANUP_SESSION.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\sessions\\GITHUB_SIMPLE_MAIN_CLEANUP_SESSION.md",
+      "size_bytes": 1158,
+      "title": "GitHub Simple Main Cleanup Session"
+    },
+    {
       "modified": "2026-04-30T16:47:15",
       "name": "GLOBAL_CODEX_AGENTS_UPDATED.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\sessions\\GLOBAL_CODEX_AGENTS_UPDATED.md",
@@ -8771,6 +8820,13 @@
       "name": "20260508_GITHUB_RELEASE_V0_1_0_UNCERTAINTY_LOG.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_GITHUB_RELEASE_V0_1_0_UNCERTAINTY_LOG.md",
       "size_bytes": 347,
+      "title": "Uncertainty Log"
+    },
+    {
+      "modified": "2026-05-08T17:40:20",
+      "name": "20260508_GITHUB_SIMPLE_MAIN_CLEANUP_UNCERTAINTY_LOG.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_UNCERTAINTY_LOG.md",
+      "size_bytes": 278,
       "title": "Uncertainty Log"
     },
     {
