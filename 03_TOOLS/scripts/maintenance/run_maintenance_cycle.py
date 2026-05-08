@@ -4,10 +4,10 @@
 from __future__ import annotations
 
 import argparse
-import json
 import subprocess
 import sys
 from pathlib import Path
+import json
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = next((path for path in [SCRIPT_DIR, *SCRIPT_DIR.parents] if (path / "AGENTS.md").exists()), SCRIPT_DIR).resolve()
@@ -15,19 +15,8 @@ PROJECT_STATE_DIR = REPO_ROOT / "03_TOOLS" / "scripts" / "project_state"
 if str(PROJECT_STATE_DIR) not in sys.path:
     sys.path.insert(0, str(PROJECT_STATE_DIR))
 
-from project_state_common import (  # type: ignore  # noqa: E402
-    build_live_state_outputs,
-    detect_stale_reports_data,
-    reconcile_gate_data,
-    render_gate_reconciliation_markdown,
-    render_live_project_state_markdown,
-    render_stale_reports_markdown,
-    repo_root_from,
-    resolve_project_path,
-    update_phase_status_outputs,
-    write_gate_reconciliation_outputs,
-    write_stale_reports_outputs,
-)
+from live_state_authority import build_live_state_authority_bundle  # type: ignore  # noqa: E402
+from project_state_common import repo_root_from, resolve_project_path, update_phase_status_outputs  # type: ignore  # noqa: E402
 from prompt_counter import counter_path, read_count, repo_root_from as prompt_repo_root_from, threshold, write_counter  # type: ignore  # noqa: E402
 
 
@@ -53,6 +42,7 @@ def maintenance_report(summary: dict[str, object]) -> str:
         f"Prompt counter before: `{summary['prompt_counter_before']}`",
         f"Prompt counter after reset: `{summary['prompt_counter_after']}`",
         "",
+        f"Live-state source: `{summary['live_state_source']}`",
         f"Live classification: `{summary['classification']}`",
         f"Stale report count: `{summary['stale_report_count']}`",
         "",
@@ -85,19 +75,16 @@ def main() -> int:
 
     before = read_count(counter_path(project))
 
-    live_state = build_live_state_outputs(project, repo_root, write_supporting=apply)
-    stale_audit = detect_stale_reports_data(project, repo_root, live_state)
-    reconciliation = reconcile_gate_data(project, repo_root, live_state, stale_audit)
+    authority_bundle = build_live_state_authority_bundle(project, repo_root, write_supporting=apply)
+    live_state = authority_bundle["live_state"]
+    stale_audit = authority_bundle["stale_audit"]
+    reconciliation = authority_bundle["reconciliation"]
 
     if apply:
-        write_stale_reports_outputs(project, repo_root, stale_audit)
-        write_gate_reconciliation_outputs(project, reconciliation)
         update_phase_status_outputs(project, repo_root, live_state, reconciliation)
 
     steps = [
-        {"name": "build_live_project_state", "returncode": 0},
-        {"name": "detect_stale_reports", "returncode": 0},
-        {"name": "reconcile_project_gates", "returncode": 0},
+        {"name": "build_live_state_authority_bundle", "returncode": 0},
         {"name": "update_phase_status_from_live_state", "returncode": 0},
     ]
 
@@ -125,6 +112,7 @@ def main() -> int:
             "project": project.name,
             "prompt_counter_before": before,
             "prompt_counter_after": after,
+            "live_state_source": authority_bundle["live_state_source"]["mode"],
             "classification": live_state["classification"],
             "stale_report_count": len(stale_audit["stale_rows"]),
             "phase_results": reconciliation["phase_results"],
@@ -141,6 +129,7 @@ def main() -> int:
                 "project": project.name,
                 "prompt_counter_before": before,
                 "prompt_counter_after": after,
+                "live_state_source": authority_bundle["live_state_source"],
                 "classification": live_state["classification"],
                 "stale_report_count": len(stale_audit["stale_rows"]),
                 "phase_results": reconciliation["phase_results"],

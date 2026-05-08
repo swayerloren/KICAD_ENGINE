@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T15:03:10",
+  "generated_at": "2026-05-08T15:16:25",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -293,6 +293,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SCORECARD.md",
       "title": "AI Response Scorecard",
       "size_bytes": 278,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
+      "title": "AI Response Scorecard - Live State Authority Hardening",
+      "size_bytes": 696,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -997,6 +1004,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
+      "title": "AI Self Review - Live State Authority Hardening",
+      "size_bytes": 765,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md",
       "title": "Accuracy Engine And AI Quality Setup AI Self-Review",
       "size_bytes": 752,
@@ -1693,6 +1707,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim Evidence Matrix",
       "size_bytes": 924,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_LIVE_STATE_AUTHORITY_HARDENING_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - Live State Authority Hardening",
+      "size_bytes": 1045,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3062,6 +3083,13 @@
       "bucket": "command_logs"
     },
     {
+      "path": "02_HISTORY\\command_logs\\LIVE_STATE_AUTHORITY_HARDENING_COMMANDS.md",
+      "title": "Live State Authority Hardening Commands",
+      "size_bytes": 1499,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
       "path": "02_HISTORY\\command_logs\\LOCAL_ENVIRONMENT_CHECK_COMMANDS.md",
       "title": "Local Environment Check Commands",
       "size_bytes": 4456,
@@ -3877,6 +3905,13 @@
       "path": "02_HISTORY\\design_reviews\\LINUX_INSTALLER_SUPPORT_STATUS.md",
       "title": "Linux Installer Support Status",
       "size_bytes": 5297,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
+      "path": "02_HISTORY\\design_reviews\\LIVE_STATE_AUTHORITY_HARDENING_AUDIT.md",
+      "title": "Live State Authority Hardening Audit",
+      "size_bytes": 2951,
       "scope": "global",
       "bucket": "design_reviews"
     },
@@ -5064,6 +5099,13 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Live State Authority Hardening",
+      "size_bytes": 567,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "title": "Accuracy Engine And AI Quality Setup Hallucination Risk Log",
       "size_bytes": 721,
@@ -5701,6 +5743,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\LIVE_STATE_AUTHORITY_HARDENING_RESIDUAL_GAPS.md",
+      "title": "Live State Authority Hardening Residual Gaps",
+      "size_bytes": 570,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\MCU_DATASHEET_SUPPORT_FOLDERS_REMAIN_WEAK.md",
       "title": "Issue Log: MCU Datasheet Support Folders Remain Weak",
       "size_bytes": 1194,
@@ -5892,7 +5941,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 226676,
+      "size_bytes": 227744,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -7339,6 +7388,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\LIVE_STATE_AUTHORITY_HARDENING_SESSION.md",
+      "title": "Live State Authority Hardening Session",
+      "size_bytes": 1331,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\LOCAL_ENVIRONMENT_CHECK_SESSION.md",
       "title": "Local Environment Check Session",
       "size_bytes": 1195,
@@ -8140,6 +8196,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log",
       "size_bytes": 337,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Live State Authority Hardening",
+      "size_bytes": 565,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

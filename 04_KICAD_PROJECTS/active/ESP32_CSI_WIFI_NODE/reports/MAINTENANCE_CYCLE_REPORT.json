@@ -1,8 +1,9 @@
 {
   "generated_at": "2026-05-08T14:49:56-04:00",
   "project": "ESP32_CSI_WIFI_NODE",
-  "prompt_counter_before": 5,
+  "prompt_counter_before": 1,
   "prompt_counter_after": 0,
+  "live_state_source": "READ_FRESH_LIVE_PROJECT_STATE",
   "classification": "PCB_EXISTS_PARTIAL_ROUTING_EXISTS_NEEDS_AUDIT",
   "stale_report_count": 17,
   "phase_results": {
@@ -81,15 +82,7 @@
   "next_action": "Repair or explicitly accept the current routed geometry, approve live placement/orientation, and resolve GND strategy plus critical unrouted nets before new routing.",
   "steps": [
     {
-      "name": "build_live_project_state",
-      "returncode": 0
-    },
-    {
-      "name": "detect_stale_reports",
-      "returncode": 0
-    },
-    {
-      "name": "reconcile_project_gates",
+      "name": "build_live_state_authority_bundle",
       "returncode": 0
     },
     {

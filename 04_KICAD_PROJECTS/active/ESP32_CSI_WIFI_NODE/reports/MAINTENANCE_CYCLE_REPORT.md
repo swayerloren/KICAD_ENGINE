@@ -4,9 +4,10 @@ Generated: `2026-05-08T14:49:56-04:00`
 
 Project: `ESP32_CSI_WIFI_NODE`
 
-Prompt counter before: `5`
+Prompt counter before: `1`
 Prompt counter after reset: `0`
 
+Live-state source: `READ_FRESH_LIVE_PROJECT_STATE`
 Live classification: `PCB_EXISTS_PARTIAL_ROUTING_EXISTS_NEEDS_AUDIT`
 Stale report count: `17`
 
@@ -20,9 +21,7 @@ Stale report count: `17`
 
 ## Steps
 
-- `build_live_project_state`: returncode `0`
-- `detect_stale_reports`: returncode `0`
-- `reconcile_project_gates`: returncode `0`
+- `build_live_state_authority_bundle`: returncode `0`
 - `update_phase_status_from_live_state`: returncode `0`
 - `build_memory_index`: returncode `0`
 - `build_history_index`: returncode `0`

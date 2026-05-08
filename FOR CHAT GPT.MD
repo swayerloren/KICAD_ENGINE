@@ -44,6 +44,20 @@ KiCad Engine now has a dedicated execution-contract layer under `03_TOOLS\script
 - if an edit-required run ends with only docs/reports and no real engineering artifact change, the required final status is `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`
 - future startup, workflow, and closeout changes must keep `AGENTS.md`, `00_CODEX_START`, and this handoff aligned with the execution-contract rules
 
+## Latest live-state authority hardening - 2026-05-08
+
+KiCad Engine now has a canonical live-state authority layer under `03_TOOLS\scripts\project_state` so stale gate markdown cannot outrank the actual KiCad files:
+
+- new authority files: `live_state_authority.py`, `validate_live_state_before_gate.py`, and `live_state_gate_wrapper.py`
+- `LIVE_PROJECT_STATE.json` is now the top authority for phase gates, placement/routing-start decisions, and closeout status claims
+- `check_phase_allowed.py` is now a compatibility wrapper around the live-state gate wrapper instead of maintaining its own gate logic
+- `run_maintenance_cycle.py` now consumes the same authority bundle used by gate checks
+- reports without source hashes are weak context only
+- reports older than the current `.kicad_pcb` or `.kicad_sch` evidence are stale blockers
+- stale `NO_PCB`, `0 footprints`, or `no routing` narratives cannot override live file evidence
+- gate output may now explicitly cite `TASK_CONTRACT_FAILURE` alongside `LIVE_FILE_EVIDENCE`, `FRESH_GATE_REPORT`, `STALE_REPORT_IGNORED`, and `HUMAN_REVIEW_REQUIRED`
+- before any future gate, routing-start, placement-start, or closeout status claim, run `python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>` first
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:

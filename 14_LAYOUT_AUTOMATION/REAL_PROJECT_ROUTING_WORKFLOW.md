@@ -14,9 +14,11 @@ Before the first trace is edited:
 2. confirm the active project path
 3. confirm target files are inside the active project
 4. confirm a fresh backup exists
-5. confirm routing preconditions are exact `PASS`
-6. confirm the normalized routing input export exists for the current board state
-7. generate:
+5. run `python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>`
+6. run `python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project <ACTIVE_PROJECT_PATH> --phase 8`
+7. confirm routing preconditions are exact `PASS` by live-state authority, not by stale markdown alone
+8. confirm the normalized routing input export exists for the current board state
+9. generate:
    - routing plan
    - critical-net plan
    - unrouted-net report
@@ -44,6 +46,10 @@ treated as complete:
 If a routing pass ends with only Markdown/report changes and no real PCB hash
 change, the required final status is
 `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`.
+
+`LIVE_PROJECT_STATE.json` is the top authority for whether routing may continue.
+Reports without source hashes are weak, and stale `NO_PCB`, `0 footprints`, or
+`no routing` narratives cannot override live board evidence.
 
 ## Routing Pass Order
 
