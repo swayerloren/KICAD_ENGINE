@@ -1,0 +1,11 @@
+# Core portability, discovery, and health-check scripts use only the Python
+# standard library.
+#
+# Fresh ZIP or clone users do not need a hidden repo venv for the basic
+# workflow.
+#
+# Optional Windows GUI helper packages are declared in pyproject.toml extras:
+#   python -m pip install ".[windows-gui]"
+#
+# Board-aware pcbnew workflows require a local KiCad install because pcbnew is
+# provided by KiCad, not by PyPI.

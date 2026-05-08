@@ -153,7 +153,7 @@ For this repo, GUI automation starts with passive discovery only.
 
 ## Installed KiCad App Knowledge
 
-The installed KiCad app audit found KiCad 9 under:
+The installed KiCad app audit found a common Windows KiCad 9 layout under:
 
 - `C:\Program Files\KiCad\9.0\bin`
 - `C:\Program Files\KiCad\9.0\etc`
@@ -162,7 +162,7 @@ The installed KiCad app audit found KiCad 9 under:
 
 `kicad-cli version` reported `9.0.7` during the audit.
 
-Agents should use this as a known local baseline, but still detect paths dynamically where possible. Future KiCad versions can change CLI options, library locations, output formats, and Python behavior.
+Treat this as an example baseline, not a required absolute path. Agents should still detect paths dynamically where possible. Future KiCad versions can change CLI options, library locations, output formats, and Python behavior.
 
 Read from installed KiCad folders:
 

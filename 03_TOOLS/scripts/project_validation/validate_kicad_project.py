@@ -20,6 +20,16 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+DISCOVERY_DIR = SCRIPT_DIR.parent / "kicad_discovery"
+if str(DISCOVERY_DIR) not in sys.path:
+    sys.path.insert(0, str(DISCOVERY_DIR))
+
+try:
+    from find_kicad import detect_kicad_environment  # type: ignore
+except Exception:  # noqa: BLE001
+    detect_kicad_environment = None
+
 
 STATUS_RANK = {"PASS": 0, "WARN": 1, "FAIL": 2}
 CHECK_IDS = [
@@ -99,7 +109,15 @@ def safe_output_dir(output_dir: Path, project_dir: Path | None, allow_project_ou
     return resolved
 
 
-def detect_kicad_cli(explicit: str | None = None) -> Path | None:
+def detect_kicad_cli(explicit: str | None = None, explicit_root: str | None = None) -> Path | None:
+    if detect_kicad_environment is not None:
+        try:
+            payload = detect_kicad_environment(explicit_root=explicit_root, explicit_cli=explicit, probe_pcbnew=False)
+            detected = payload.get("kicad_cli", {}).get("path")
+            if detected:
+                return Path(detected).resolve()
+        except Exception:
+            pass
     candidates: list[Path] = []
     if explicit:
         candidates.append(Path(explicit))
@@ -117,6 +135,18 @@ def detect_kicad_cli(explicit: str | None = None) -> Path | None:
     for candidate in candidates:
         if candidate.exists() and candidate.is_file():
             return candidate.resolve()
+    return None
+
+
+def detect_kicad_root(explicit_root: str | None = None, explicit_cli: str | None = None) -> Path | None:
+    if detect_kicad_environment is not None:
+        try:
+            payload = detect_kicad_environment(explicit_root=explicit_root, explicit_cli=explicit_cli, probe_pcbnew=False)
+            detected = payload.get("kicad_root", {}).get("path")
+            if detected:
+                return Path(detected).resolve()
+        except Exception:
+            pass
     return None
 
 
@@ -193,8 +223,8 @@ def make_context(args: argparse.Namespace) -> tuple[ProjectContext, list[str]]:
     project_input = Path(args.project).resolve()
     project_dir, project_file, schematics, pcbs, main_sch, main_pcb, warnings = resolve_project(project_input)
     project_name = project_file.stem if project_file else project_input.stem
-    kicad_cli = detect_kicad_cli(args.kicad_cli)
-    kicad_root = kicad_root_from_cli(kicad_cli)
+    kicad_cli = detect_kicad_cli(args.kicad_cli, args.kicad_root)
+    kicad_root = detect_kicad_root(args.kicad_root, args.kicad_cli) or kicad_root_from_cli(kicad_cli)
     kicad_version = args.kicad_version or detect_kicad_version(kicad_root)
     default_output = root / "05_OUTPUTS" / "project_validation" / f"{now_stamp()}_{safe_name(project_name)}"
     output_dir = safe_output_dir(Path(args.output_dir).resolve() if args.output_dir else default_output, project_dir, args.allow_project_output)
@@ -350,18 +380,34 @@ def parse_lib_table(path: Path) -> list[dict[str, str]]:
 
 
 def variable_map(ctx: ProjectContext) -> dict[str, str]:
-    kicad_root = ctx.kicad_root or Path(r"C:\Program Files\KiCad\9.0")
-    share = kicad_root / "share" / "kicad"
     project_dir = ctx.project_dir or Path.cwd()
-    return {
+    mapping = {
         "KIPRJMOD": str(project_dir),
-        "KICAD9_SYMBOL_DIR": str(share / "symbols"),
-        "KICAD9_FOOTPRINT_DIR": str(share / "footprints"),
-        "KICAD9_3DMODEL_DIR": str(share / "3dmodels"),
-        "KICAD_SYMBOL_DIR": str(share / "symbols"),
-        "KICAD_FOOTPRINT_DIR": str(share / "footprints"),
-        "KICAD_3DMODEL_DIR": str(share / "3dmodels"),
     }
+    if ctx.kicad_root:
+        share = ctx.kicad_root / "share" / "kicad"
+        mapping.update(
+            {
+                "KICAD9_SYMBOL_DIR": str(share / "symbols"),
+                "KICAD9_FOOTPRINT_DIR": str(share / "footprints"),
+                "KICAD9_3DMODEL_DIR": str(share / "3dmodels"),
+                "KICAD_SYMBOL_DIR": str(share / "symbols"),
+                "KICAD_FOOTPRINT_DIR": str(share / "footprints"),
+                "KICAD_3DMODEL_DIR": str(share / "3dmodels"),
+            }
+        )
+    for key in (
+        "KICAD9_SYMBOL_DIR",
+        "KICAD9_FOOTPRINT_DIR",
+        "KICAD9_3DMODEL_DIR",
+        "KICAD_SYMBOL_DIR",
+        "KICAD_FOOTPRINT_DIR",
+        "KICAD_3DMODEL_DIR",
+    ):
+        value = os.environ.get(key)
+        if value:
+            mapping[key] = value
+    return mapping
 
 
 def resolve_uri(uri: str, ctx: ProjectContext) -> Path | None:
@@ -379,8 +425,7 @@ def resolve_uri(uri: str, ctx: ProjectContext) -> Path | None:
 
 def library_tables(ctx: ProjectContext) -> dict[str, Any]:
     project_dir = ctx.project_dir
-    kicad_root = ctx.kicad_root or Path(r"C:\Program Files\KiCad\9.0")
-    share = kicad_root / "share" / "kicad"
+    share = ctx.kicad_root / "share" / "kicad" if ctx.kicad_root else None
     appdata = os.environ.get("APPDATA")
     user_root = Path(appdata) / "kicad" / ctx.kicad_version if appdata else Path.home() / "AppData" / "Roaming" / "kicad" / ctx.kicad_version
     paths = {
@@ -390,8 +435,8 @@ def library_tables(ctx: ProjectContext) -> dict[str, Any]:
         "user_sym": user_root / "sym-lib-table",
         "user_fp": user_root / "fp-lib-table",
         "user_design_block": user_root / "design-block-lib-table",
-        "stock_sym": share / "template" / "sym-lib-table",
-        "stock_fp": share / "template" / "fp-lib-table",
+        "stock_sym": share / "template" / "sym-lib-table" if share else None,
+        "stock_fp": share / "template" / "fp-lib-table" if share else None,
     }
     sym_entries = []
     fp_entries = []
@@ -991,6 +1036,7 @@ def build_parser(description: str | None = None) -> argparse.ArgumentParser:
     parser.add_argument("project", nargs="?", help="Path to a KiCad project folder or .kicad_pro file.")
     parser.add_argument("--output-dir", help="Report output directory. Defaults to 05_OUTPUTS/project_validation/<timestamp>_<project>.")
     parser.add_argument("--allow-project-output", action="store_true", help="Allow writing reports inside the project folder. Avoid unless explicitly approved.")
+    parser.add_argument("--kicad-root", help="Optional KiCad install root.")
     parser.add_argument("--kicad-cli", help="Path to kicad-cli.exe.")
     parser.add_argument("--kicad-version", default="", help="KiCad config version for user-global paths. Default inferred from install root or 9.0.")
     parser.add_argument("--component-db-root", help="Component database root. Default: 08_COMPONENT_DATABASE.")

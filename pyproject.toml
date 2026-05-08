@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kicad-engine-workspace"
+version = "0.0.0"
+description = "Optional dependency metadata for portable KiCad Engine workflows."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+windows-gui = [
+  "Pillow>=10.0",
+  "psutil>=5.9",
+  "PyAutoGUI>=0.9.54",
+  "PyGetWindow>=0.0.9",
+  "pywinauto>=0.6.8",
+]
+
+[tool.setuptools]
+py-modules = []

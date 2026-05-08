@@ -1,7 +1,7 @@
 # Generated AI Quality Index
 
-Generated: `2026-05-08T18:18:40`
-Record count: `877`
+Generated: `2026-05-08T19:03:54`
+Record count: `882`
 
 - `02_HISTORY/ai_self_reviews/20260502_230004_AI_quality_gate_setup_self_review.md` - AI quality gate setup self review
 - `02_HISTORY/ai_self_reviews/20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SELF_REVIEW.md` - AI Self-Review: Schematic Annotation/Completeness Checkers
@@ -48,6 +48,7 @@ Record count: `877`
 - `02_HISTORY/ai_self_reviews/20260508_161753_STAGED_ROUTING_RUNNER_SELF_REVIEW.md` - AI Self Review
 - `02_HISTORY/ai_self_reviews/20260508_162242_HARDENING_PR_SELF_REVIEW.md` - AI Self Review
 - `02_HISTORY/ai_self_reviews/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260508_190331_ZIP_portability_and_local_toolchain_setup_self_review.md` - ZIP portability and local toolchain setup self review
 - `02_HISTORY/ai_self_reviews/20260508_DIRECT_MAIN_UPDATE_SELF_REVIEW.md` - AI Self-Review
 - `02_HISTORY/ai_self_reviews/20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_SELF_REVIEW.md` - AI Self Review - GitHub Actions And Ruleset Limitations
 - `02_HISTORY/ai_self_reviews/20260508_GITHUB_DEV_INFRA_SETUP_SELF_REVIEW.md` - AI Self Review - GitHub Dev Infrastructure Setup
@@ -163,6 +164,7 @@ Record count: `877`
 - `02_HISTORY/ai_scorecards/20260508_161753_STAGED_ROUTING_RUNNER_SCORECARD.md` - AI Response Scorecard
 - `02_HISTORY/ai_scorecards/20260508_162242_HARDENING_PR_SCORECARD.md` - AI Response Scorecard
 - `02_HISTORY/ai_scorecards/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260508_190331_ZIP_portability_and_local_toolchain_setup_response_scorecard.md` - ZIP portability and local toolchain setup response scorecard
 - `02_HISTORY/ai_scorecards/20260508_DIRECT_MAIN_UPDATE_SCORECARD.md` - AI Response Scorecard
 - `02_HISTORY/ai_scorecards/20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_SCORECARD.md` - AI Response Scorecard - GitHub Actions And Ruleset Limitations
 - `02_HISTORY/ai_scorecards/20260508_GITHUB_DEV_INFRA_SETUP_SCORECARD.md` - AI Response Scorecard - GitHub Dev Infrastructure Setup
@@ -277,6 +279,7 @@ Record count: `877`
 - `02_HISTORY/hallucination_risk_logs/20260508_161753_STAGED_ROUTING_RUNNER_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/20260508_162242_HARDENING_PR_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260508_190332_ZIP_portability_and_local_toolchain_setup_hallucination_risk_log.md` - ZIP portability and local toolchain setup hallucination risk log
 - `02_HISTORY/hallucination_risk_logs/20260508_DIRECT_MAIN_UPDATE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - GitHub Actions And Ruleset Limitations
 - `02_HISTORY/hallucination_risk_logs/20260508_GITHUB_DEV_INFRA_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - GitHub Dev Infrastructure Setup
@@ -390,6 +393,7 @@ Record count: `877`
 - `02_HISTORY/claim_evidence_matrices/20260508_161753_STAGED_ROUTING_RUNNER_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/20260508_162242_HARDENING_PR_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260508_190332_ZIP_portability_and_local_toolchain_setup_claim_evidence_matrix.md` - ZIP portability and local toolchain setup claim evidence matrix
 - `02_HISTORY/claim_evidence_matrices/20260508_DIRECT_MAIN_UPDATE_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix - GitHub Actions And Ruleset Limitations
 - `02_HISTORY/claim_evidence_matrices/20260508_GITHUB_DEV_INFRA_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix - GitHub Dev Infrastructure Setup
@@ -531,6 +535,7 @@ Record count: `877`
 - `02_HISTORY/uncertainty_logs/20260508_161753_STAGED_ROUTING_RUNNER_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY/uncertainty_logs/20260508_162242_HARDENING_PR_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY/uncertainty_logs/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260508_190331_ZIP_portability_and_local_toolchain_setup_uncertainty_log.md` - ZIP portability and local toolchain setup uncertainty log
 - `02_HISTORY/uncertainty_logs/20260508_DIRECT_MAIN_UPDATE_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY/uncertainty_logs/20260508_GITHUB_ACTIONS_RULESET_LIMITATIONS_UNCERTAINTY_LOG.md` - Uncertainty Log - GitHub Actions And Ruleset Limitations
 - `02_HISTORY/uncertainty_logs/20260508_GITHUB_DEV_INFRA_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - GitHub Dev Infrastructure Setup

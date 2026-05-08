@@ -49,7 +49,7 @@ Typical Windows user-global KiCad 9 library table paths:
 - `%APPDATA%\kicad\9.0\fp-lib-table`
 - `%APPDATA%\kicad\9.0\design-block-lib-table`
 
-Observed on this machine:
+Observed on the maintainer machine that produced this note:
 
 - `C:\Users\LJ\AppData\Roaming\kicad\9.0\sym-lib-table`
 - `C:\Users\LJ\AppData\Roaming\kicad\9.0\fp-lib-table`

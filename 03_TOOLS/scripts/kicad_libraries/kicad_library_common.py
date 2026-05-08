@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,6 +13,15 @@ from typing import Any
 
 
 UNKNOWN = "Unknown - requires source verification"
+SCRIPT_DIR = Path(__file__).resolve().parent
+DISCOVERY_DIR = SCRIPT_DIR.parent / "kicad_discovery"
+if str(DISCOVERY_DIR) not in sys.path:
+    sys.path.insert(0, str(DISCOVERY_DIR))
+
+try:
+    from find_kicad import detect_kicad_environment  # type: ignore
+except Exception:  # noqa: BLE001
+    detect_kicad_environment = None
 
 
 def repo_root() -> Path:
@@ -27,6 +37,14 @@ def default_output_dir() -> Path:
 
 
 def detect_kicad_root(explicit_root: str | None = None, version_preference: str = "9.0") -> Path | None:
+    if detect_kicad_environment is not None:
+        try:
+            payload = detect_kicad_environment(explicit_root=explicit_root, probe_pcbnew=False)
+            detected = payload.get("kicad_root", {}).get("path")
+            if detected:
+                return Path(detected).resolve()
+        except Exception:
+            pass
     candidates: list[Path] = []
     if explicit_root:
         candidates.append(Path(explicit_root))
@@ -44,6 +62,11 @@ def detect_kicad_root(explicit_root: str | None = None, version_preference: str 
             candidates.extend(version_dirs)
     else:
         candidates.extend([Path("/usr/share/kicad"), Path("/usr/local/share/kicad")])
+
+    for command in ("kicad-cli", "kicad-cli.exe", "kicad", "kicad.exe"):
+        found = shutil.which(command)
+        if found:
+            candidates.append(Path(found).resolve().parent.parent)
 
     for candidate in candidates:
         if (candidate / "share" / "kicad").exists():

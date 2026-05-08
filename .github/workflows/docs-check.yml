@@ -29,15 +29,29 @@ jobs:
           test -f README.md
           test -f CURRENT_STATUS.md
           test -f START_HERE.md
+          test -f ONE_PROMPT_START.md
           test -f PROJECTS_INDEX.md
           test -f TOOLS_INDEX.md
           test -f WORKFLOWS_INDEX.md
+          test -f DOWNLOAD_ZIP_START_HERE.md
+          test -f LOCAL_SETUP_REQUIREMENTS.md
+          test -f AGENT_STARTER_PROMPTS.md
+          test -f EXTERNAL_DEPENDENCIES.md
+          test -f PORTABILITY_AUDIT.md
           test -f docs/GITHUB_SETUP.md
           test -f docs/CODESPACES_SETUP.md
           test -f docs/LOCAL_DEV_SETUP.md
+          test -f docs/PYTHON_SETUP.md
+          test -f docs/HEALTH_CHECK.md
           test -f docs/BRANCH_AND_PR_WORKFLOW.md
           test -f docs/REPO_MAINTENANCE_WORKFLOW.md
           test -f .devcontainer/devcontainer.json
+
+      - name: Confirm README points to one-prompt onboarding
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'ONE_PROMPT_START.md' README.md
 
       - name: Validate local Markdown links
         shell: bash

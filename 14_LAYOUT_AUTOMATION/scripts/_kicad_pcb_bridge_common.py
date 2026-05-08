@@ -10,6 +10,16 @@ import sys
 from pathlib import Path
 from typing import Any
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+DISCOVERY_DIR = SCRIPT_DIR.parents[1] / "03_TOOLS" / "scripts" / "kicad_discovery"
+if str(DISCOVERY_DIR) not in sys.path:
+    sys.path.insert(0, str(DISCOVERY_DIR))
+
+try:
+    from find_kicad import detect_kicad_environment  # type: ignore
+except Exception:  # noqa: BLE001
+    detect_kicad_environment = None
+
 
 REEXEC_ENV = "KICAD_ENGINE_PCB_BRIDGE_ACTIVE"
 KICAD_PYTHON_CANDIDATES = [
@@ -37,6 +47,16 @@ def ensure_parent(path: str | Path) -> None:
 
 
 def find_kicad_python() -> Path | None:
+    if detect_kicad_environment is not None:
+        try:
+            payload = detect_kicad_environment(probe_pcbnew=False)
+            root = payload.get("kicad_root", {}).get("path")
+            if root:
+                candidate = Path(root) / "bin" / "python.exe"
+                if candidate.exists():
+                    return candidate.resolve()
+        except Exception:
+            pass
     for candidate in KICAD_PYTHON_CANDIDATES:
         if candidate.exists():
             return candidate
@@ -180,4 +200,3 @@ def infer_pair_name(name: str) -> str:
     if upper.endswith("D-") or upper in {"USB_D-", "USB_DM", "D-", "DM"}:
         return "USB_D+"
     return ""
-

@@ -5,7 +5,8 @@ param(
     [string]$PythonPath = '',
     [switch]$NoWrite,
     [switch]$FailOnFail,
-    [switch]$FailOnWarn
+    [switch]$FailOnWarn,
+    [switch]$RequireKiCad
 )
 
 Set-StrictMode -Version 2.0
@@ -45,6 +46,9 @@ if ($FailOnFail) {
 }
 if ($FailOnWarn) {
     $argsList += '--fail-on-warn'
+}
+if ($RequireKiCad) {
+    $argsList += '--require-kicad'
 }
 
 & $PythonPath @argsList

@@ -9,7 +9,7 @@ active user designs.
 
 ## Start Codex In The Repo
 
-Open `C:\Users\LJ\GitHub\KICAD_ENGINE` in VS Code, then ask Codex to read:
+Open your local `KICAD_ENGINE` repo root in VS Code, then ask Codex to read:
 
 1. `AGENTS.md`
 2. `README_GPT.md`

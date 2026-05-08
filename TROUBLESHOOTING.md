@@ -46,7 +46,7 @@ kicad-cli version
 On Windows, KiCad may be installed but not on `PATH`. The repo scripts try common install paths first. If needed, use the full path:
 
 ```powershell
-& "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" version
+python 03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py
 ```
 
 Do not copy files into the KiCad install folder to fix `PATH`.

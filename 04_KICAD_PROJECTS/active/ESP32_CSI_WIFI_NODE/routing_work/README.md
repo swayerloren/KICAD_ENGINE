@@ -20,3 +20,5 @@ This folder records routing-work evidence and copied-board rehearsal artifacts f
 - start from the active project
 - follow the repo routing workflow and backup rules
 - create a fresh local timestamped routing-work run only when the task explicitly needs copied-board rehearsal evidence
+
+ZIP users do not need this folder populated for the basic workflow.

@@ -8,6 +8,18 @@ GitHub note: `03_TOOLS/node_envs`, `03_TOOLS/python_envs`, `03_TOOLS/repos`, and
 
 Portability note: a new user should be able to open this repo in VS Code, read the included startup docs, and use the included scripts without first cloning extra helper repos or restoring someone else's private env folders.
 
+## Portability And Setup Tools
+
+| Tool | Run | Effect |
+|---|---|---|
+| `health_check.py` | `python health_check.py --no-write` | read-only repo portability and toolchain check |
+| `health_check.ps1` | `powershell -ExecutionPolicy Bypass -File .\health_check.ps1 -NoWrite` | PowerShell wrapper around the same read-only health check |
+| `find_kicad.py` | `python 03_TOOLS/scripts/kicad_discovery/find_kicad.py` | auto-detects KiCad install roots, `kicad-cli`, GUI executable, and `pcbnew` readiness |
+| `validate_kicad_install.py` | `python 03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py` | returns a readable PASS/WARN/FAIL KiCad install summary |
+| `python_env_check.py` | `python 03_TOOLS/scripts/python_env_check.py` | checks Python, pip, optional modules, and confirms no hidden repo venv is required |
+
+Safety: read-only setup validation only.
+
 ## Project State Tools
 
 | Tool | Run | Effect |

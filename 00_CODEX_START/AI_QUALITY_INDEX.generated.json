@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T18:18:40",
-  "record_count": 877,
+  "generated": "2026-05-08T19:03:54",
+  "record_count": 882,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -316,6 +316,13 @@
       "path": "02_HISTORY/ai_self_reviews/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SELF_REVIEW.md",
       "size_bytes": 1088,
       "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T19:03:31",
+      "path": "02_HISTORY/ai_self_reviews/20260508_190331_ZIP_portability_and_local_toolchain_setup_self_review.md",
+      "size_bytes": 1562,
+      "title": "ZIP portability and local toolchain setup self review"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1124,6 +1131,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T19:03:31",
+      "path": "02_HISTORY/ai_scorecards/20260508_190331_ZIP_portability_and_local_toolchain_setup_response_scorecard.md",
+      "size_bytes": 1123,
+      "title": "ZIP portability and local toolchain setup response scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-08T17:30:50",
       "path": "02_HISTORY/ai_scorecards/20260508_DIRECT_MAIN_UPDATE_SCORECARD.md",
       "size_bytes": 314,
@@ -1922,6 +1936,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T19:03:32",
+      "path": "02_HISTORY/hallucination_risk_logs/20260508_190332_ZIP_portability_and_local_toolchain_setup_hallucination_risk_log.md",
+      "size_bytes": 1363,
+      "title": "ZIP portability and local toolchain setup hallucination risk log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-08T17:30:50",
       "path": "02_HISTORY/hallucination_risk_logs/20260508_DIRECT_MAIN_UPDATE_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 291,
@@ -2710,6 +2731,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 924,
       "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T19:03:32",
+      "path": "02_HISTORY/claim_evidence_matrices/20260508_190332_ZIP_portability_and_local_toolchain_setup_claim_evidence_matrix.md",
+      "size_bytes": 1205,
+      "title": "ZIP portability and local toolchain setup claim evidence matrix"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3697,6 +3725,13 @@
       "path": "02_HISTORY/uncertainty_logs/20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md",
       "size_bytes": 337,
       "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T19:03:31",
+      "path": "02_HISTORY/uncertainty_logs/20260508_190331_ZIP_portability_and_local_toolchain_setup_uncertainty_log.md",
+      "size_bytes": 1321,
+      "title": "ZIP portability and local toolchain setup uncertainty log"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

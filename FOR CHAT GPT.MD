@@ -2,11 +2,22 @@
 
 ## Repo path
 
-Current inspected workspace path:
+Current inspected workspace path should be treated generically as:
 
-`C:\Users\LJ\GitHub\KICAD_ENGINE`
+`<LOCAL_CHECKOUT>\KICAD_ENGINE`
 
-Some historical docs and tool configs still reference an older non-GitHub checkout path. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or `C:\Users\LJ\GitHub\KICAD_ENGINE`.
+Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
+
+## Latest ZIP portability and one-prompt onboarding pass - 2026-05-08
+
+The repo now has an explicit ZIP-first local onboarding layer so a new user does not need private env folders, extra cloned repos, or a manual path hunt before starting an AI-assisted workflow.
+
+- new top-level entry docs now include `ONE_PROMPT_START.md`, `DOWNLOAD_ZIP_START_HERE.md`, `LOCAL_SETUP_REQUIREMENTS.md`, `AGENT_STARTER_PROMPTS.md`, `SELF_CONTAINED_REPO_CHECKLIST.md`, and `EXTERNAL_DEPENDENCIES.md`
+- the default startup prompt now tells the agent to read `README.md`, `ONE_PROMPT_START.md`, `CURRENT_STATUS.md`, `WORKFLOWS_INDEX.md`, `TOOLS_INDEX.md`, and `00_CODEX_START/START_HERE.md`
+- the repo now includes read-only toolchain checks: `health_check.py`, `health_check.ps1`, `03_TOOLS/scripts/kicad_discovery/find_kicad.py`, `03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py`, and `03_TOOLS/scripts/python_env_check.py`
+- GitHub Actions now run the portability health check in a no-KiCad-safe mode, plus script syntax, task-contract examples, routing-geometry fixtures, and stronger repo-hygiene guards
+- local-only folders such as `03_TOOLS/node_envs`, `03_TOOLS/python_envs`, `03_TOOLS/repos`, `03_TOOLS/tool_logs`, `99_BACKUPS`, `routing_work`, and `routing_rehearsals` are now explicitly documented as placeholders rather than implied dependencies
+- future onboarding or setup docs must preserve the rule that a basic user can download the ZIP, open the repo in VS Code, paste one prompt, and let the agent discover KiCad and explain the next step
 
 ## Latest GitHub repo indexing layer - 2026-05-08
 

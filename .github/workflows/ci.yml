@@ -22,6 +22,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Run repo health check in no-KiCad-safe mode
+        run: |
+          python health_check.py --no-write --fail-on-fail
+          python 03_TOOLS/scripts/python_env_check.py
+
       - name: Compile tracked first-party Python scripts
         run: |
           python - <<'PY'

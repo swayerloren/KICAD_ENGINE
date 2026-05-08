@@ -7,6 +7,7 @@ This repo is designed to be opened locally in VS Code after a normal `git clone`
 Portable startup references for new users:
 
 - `README.md`
+- `ONE_PROMPT_START.md`
 - `CURRENT_STATUS.md`
 - `WORKFLOWS_INDEX.md`
 - `TOOLS_INDEX.md`
@@ -14,6 +15,14 @@ Portable startup references for new users:
 - `LOCAL_SETUP_REQUIREMENTS.md`
 - `AGENT_STARTER_PROMPTS.md`
 - `EXTERNAL_DEPENDENCIES.md`
+
+Portable bootstrap helpers:
+
+- `health_check.py`
+- `health_check.ps1`
+- `03_TOOLS/scripts/kicad_discovery/find_kicad.py`
+- `03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py`
+- `03_TOOLS/scripts/python_env_check.py`
 
 ## Required Startup Sequence
 Codex and Claude must complete this production startup sequence before touching KiCad project files:

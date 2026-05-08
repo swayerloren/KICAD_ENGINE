@@ -33,3 +33,5 @@ Local-only Python virtual environments for KiCad Engine helper tools, isolated C
 ## PUBLIC_RELEASE_NOTES
 
 GitHub should show this folder as a placeholder only. The actual local environments remain ignored on purpose.
+
+ZIP users do not need this folder populated for the basic workflow.

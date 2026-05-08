@@ -60,10 +60,11 @@ You can use KiCad Engine without cloning any extra GitHub repositories first.
 2. Extract or clone the repo locally.
 3. Open the `KICAD_ENGINE` folder in VS Code.
 4. Open Codex, Claude, or another AI coding agent from the repo root.
-5. Give the agent this starter prompt:
+5. Run `python health_check.py --no-write`.
+6. Give the agent the starter prompt from [ONE_PROMPT_START.md](ONE_PROMPT_START.md):
 
 ```text
-You are working inside the KICAD_ENGINE repo. First read README.md, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, and 00_CODEX_START/START_HERE.md. Use repo-relative paths. Do not assume C:\Users\LJ paths. Do not edit KiCad schematic or PCB files until you understand the active project, task type, live project state, and validation requirements. For PCB/routing work, obey 45-degree/no-acute-angle routing rules, run DRC/checks, and require human review before fabrication.
+You are working inside the KICAD_ENGINE repo. First read README.md, ONE_PROMPT_START.md, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, and 00_CODEX_START/START_HERE.md. Run the repo health check if available. Detect local KiCad automatically if needed. Use repo-relative paths only. Do not assume C:\Users\LJ paths. Do not edit KiCad schematic or PCB files until you identify the active project, task type, live project state, and validation requirements. For PCB/routing work, obey the hard-fail routing geometry rules: no 90-degree bends, no acute angles, no ugly zig-zag traces, no bad pad-entry geometry, and no fabrication outputs without human review. After reading the repo, summarize current project status and ask what task to run next.
 ```
 
 Local install requirements:
@@ -75,11 +76,14 @@ Local install requirements:
 
 Helpful onboarding docs:
 
+- [`ONE_PROMPT_START.md`](ONE_PROMPT_START.md)
 - [`DOWNLOAD_ZIP_START_HERE.md`](DOWNLOAD_ZIP_START_HERE.md)
 - [`LOCAL_SETUP_REQUIREMENTS.md`](LOCAL_SETUP_REQUIREMENTS.md)
 - [`AGENT_STARTER_PROMPTS.md`](AGENT_STARTER_PROMPTS.md)
 - [`EXTERNAL_DEPENDENCIES.md`](EXTERNAL_DEPENDENCIES.md)
 - [`PORTABILITY_AUDIT.md`](PORTABILITY_AUDIT.md)
+- [`docs/PYTHON_SETUP.md`](docs/PYTHON_SETUP.md)
+- [`docs/HEALTH_CHECK.md`](docs/HEALTH_CHECK.md)
 
 For local GUI review or live design editing, KiCad itself still must be installed on the local machine. The repo gives the AI-agent rules, workflows, validation scripts, prompts, indexes, manufacturing checklists, and example/active KiCad project structure around KiCad; it does not replace the KiCad application.
 

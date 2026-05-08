@@ -8,7 +8,7 @@ Project: `N/A`
 
 ## Summary
 
-The repo is now better documented for clone-or-ZIP portability, but some older tracked artifacts still weaken the self-contained story.
+The repo is now better documented and tooled for ZIP-first portability, but some older tracked artifacts still weaken the self-contained story.
 
 ## Details
 
@@ -19,7 +19,10 @@ The repo is now better documented for clone-or-ZIP portability, but some older t
 
 ## Source Or Evidence
 
-`05_OUTPUTS/release_readiness/PORTABILITY_AUDIT_REPORT.md`; git inventory commands; path-search results
+- `05_OUTPUTS/release_readiness/PORTABILITY_TOOLCHAIN_AUDIT_REPORT.md`
+- `05_OUTPUTS/release_readiness/HARDCODED_PATH_PORTABILITY_AUDIT.md`
+- git inventory commands
+- hardcoded-path scan results
 
 ## Verification Status
 

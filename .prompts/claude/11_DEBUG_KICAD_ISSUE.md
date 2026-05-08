@@ -2,7 +2,7 @@
 
 You are Claude working from VS Code in:
 
-`C:\Users\LJ\GitHub\KICAD_ENGINE`
+your local `KICAD_ENGINE` repo root
 
 ## Read First
 

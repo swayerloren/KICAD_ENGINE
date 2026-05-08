@@ -7,7 +7,7 @@ GitHub is the distribution and collaboration layer. A user should still be able 
 ## What GitHub Should Provide Here
 
 - pull requests for all meaningful changes to `main`
-- read-only validation through GitHub Actions
+- read-only validation through GitHub Actions, including no-KiCad-safe portability checks
 - issue templates for repo, PCB, and routing work
 - a predictable devcontainer / Codespaces setup for documentation, automation, and review scripts
 - branch protection on `main`
@@ -39,7 +39,7 @@ GitHub is the distribution and collaboration layer. A user should still be able 
 ## Current Infrastructure Added
 
 - `.devcontainer/` for local container or Codespaces work
-- GitHub Actions workflows under `.github/workflows/`
+- GitHub Actions workflows under `.github/workflows/`, including portability-safe health checks
 - issue templates plus PR template
 - CODEOWNERS
 - branch protection recommendations

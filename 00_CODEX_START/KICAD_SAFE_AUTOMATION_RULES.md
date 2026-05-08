@@ -112,11 +112,11 @@ The installed KiCad app is read-only source material for agents.
 
 Never write to:
 
-- `C:\Program Files\KiCad\9.0\bin`
-- `C:\Program Files\KiCad\9.0\etc`
-- `C:\Program Files\KiCad\9.0\lib`
-- `C:\Program Files\KiCad\9.0\share`
-- Any future `C:\Program Files\KiCad\<version>` install folder
+- `C:\Program Files\KiCad\<version>\bin`
+- `C:\Program Files\KiCad\<version>\etc`
+- `C:\Program Files\KiCad\<version>\lib`
+- `C:\Program Files\KiCad\<version>\share`
+- Any future KiCad install folder under `Program Files`
 
 Allowed:
 
@@ -162,8 +162,10 @@ Rules:
 Use explicit, quoted paths:
 
 ```powershell
-& "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" version
+kicad-cli version
 ```
+
+If KiCad is installed but not on `PATH`, use `03_TOOLS/scripts/kicad_discovery/find_kicad.py` or `validate_kicad_install.py` to locate the actual CLI path first.
 
 For real project workflows, prefer repo wrappers:
 

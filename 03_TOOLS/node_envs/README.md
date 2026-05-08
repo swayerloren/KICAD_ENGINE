@@ -33,3 +33,5 @@ Local-only Node workspaces and npm build sandboxes for tool evaluation, isolated
 ## PUBLIC_RELEASE_NOTES
 
 GitHub should show this folder as a placeholder only. The actual local contents remain ignored on purpose.
+
+ZIP users do not need this folder populated for the basic workflow.

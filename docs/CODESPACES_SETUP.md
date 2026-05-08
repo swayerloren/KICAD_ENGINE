@@ -27,8 +27,11 @@ If you do not want Codespaces, you can download the repo ZIP or clone the repo, 
 2. Choose `Code -> Codespaces`.
 3. Create a new Codespace on the target branch.
 4. Wait for the devcontainer bootstrap to complete.
-5. Open the repo root and read `README.md`, `CURRENT_STATUS.md`, and `AGENTS.md` before changing anything significant.
+5. Run `python health_check.py --no-write`.
+6. Open the repo root and read `README.md`, `ONE_PROMPT_START.md`, `CURRENT_STATUS.md`, and `AGENTS.md` before changing anything significant.
 
 ## Important Limitation
 
 KiCad GUI review still happens on the user's local machine with KiCad installed. Codespaces should be treated as a docs/script environment, not as full KiCad workstation replacement.
+
+Missing KiCad in Codespaces is expected. `health_check.py` should report that as a warning, not a failure, unless `--require-kicad` is explicitly requested.

@@ -23,3 +23,5 @@ This placeholder marks a local-only scratch area for future routing rehearsal ru
 
 - copied `.kicad_pcb`, `.kicad_pro`, or `.kicad_prl` files
 - caches, locks, screenshots, or temporary route search trees
+
+ZIP users do not need this folder populated for the basic workflow.

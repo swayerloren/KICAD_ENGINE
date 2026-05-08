@@ -19,6 +19,14 @@
 - Node/npm only when a specific optional helper workflow calls for it
 - FreeRouting only when a routing-feasibility workflow explicitly calls for it
 
+## First Commands For A Fresh Checkout
+
+```powershell
+python health_check.py --no-write
+python 03_TOOLS/scripts/python_env_check.py
+python 03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py
+```
+
 ## Not Required For First Use
 
 - extra cloned GitHub repos

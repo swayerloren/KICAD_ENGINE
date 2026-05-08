@@ -15,9 +15,9 @@ These are installed templates. Agents may read them. Agents must not edit them.
 
 ## User-Global Tables
 
-Observed KiCad 9 user-global path:
+Typical KiCad 9 user-global path on Windows:
 
-`C:\Users\LJ\AppData\Roaming\kicad\9.0`
+`%APPDATA%\kicad\9.0`
 
 Observed user-global files:
 

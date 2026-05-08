@@ -33,3 +33,5 @@ Local-only tool reports, install notes, health-check outputs, and machine-specif
 ## PUBLIC_RELEASE_NOTES
 
 GitHub should show this folder as a placeholder only. The actual local log files remain ignored on purpose.
+
+ZIP users do not need this folder populated for the basic workflow.

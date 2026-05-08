@@ -8,6 +8,7 @@ Tooling, scripts, read-only analyzers, external tool notes, and platform control
 - Tool logs.
 - External repositories under controlled subfolders.
 - Platform roots for common, Windows, and Linux automation.
+- KiCad discovery helpers and environment checks.
 - Placeholder docs for local-only environments, clones, and logs.
 
 ## WHAT_DOES_NOT_BELONG_HERE
@@ -28,3 +29,4 @@ Tooling, scripts, read-only analyzers, external tool notes, and platform control
 - `node_envs/`, `python_envs/`, `repos/`, and `tool_logs/` are local-only by default and appear on GitHub via placeholder `README.md` files only.
 - A portable clone or ZIP user should be able to use the repo docs, rules, prompts, and included scripts without these local-only folders being populated.
 - Extra cloned GitHub repos under `03_TOOLS/repos/` are optional helper sources only. They are not required for basic repo use.
+- Portability helpers live under `03_TOOLS/scripts/kicad_discovery/` and `03_TOOLS/scripts/python_env_check.py`.

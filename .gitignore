@@ -58,6 +58,10 @@ installer/node_modules/
 !05_OUTPUTS/release_readiness/*.csv
 !05_OUTPUTS/release_readiness/*.json
 99_BACKUPS/
+!99_BACKUPS/
+99_BACKUPS/*
+!99_BACKUPS/README.md
+!99_BACKUPS/INDEX.md
 T_E_M_P/
 installer/build/
 installer/dist/

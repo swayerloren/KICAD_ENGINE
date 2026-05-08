@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T18:18:39",
+  "generated_at": "2026-05-08T19:03:53",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -30,7 +30,7 @@
       "name": ".gitignore",
       "path": ".gitignore",
       "type": "file",
-      "size_bytes": 2303
+      "size_bytes": 2372
     },
     {
       "name": ".prompts",
@@ -340,7 +340,7 @@
       "name": "AGENT_STARTER_PROMPTS.md",
       "path": "AGENT_STARTER_PROMPTS.md",
       "type": "file",
-      "size_bytes": 888
+      "size_bytes": 1255
     },
     {
       "name": "AGENTS.md",
@@ -388,7 +388,7 @@
       "name": "docs",
       "path": "docs",
       "type": "directory",
-      "item_count": 23,
+      "item_count": 25,
       "has_readme": true,
       "has_index": true
     },
@@ -396,13 +396,13 @@
       "name": "DOWNLOAD_ZIP_START_HERE.md",
       "path": "DOWNLOAD_ZIP_START_HERE.md",
       "type": "file",
-      "size_bytes": 1587
+      "size_bytes": 2002
     },
     {
       "name": "EXTERNAL_DEPENDENCIES.md",
       "path": "EXTERNAL_DEPENDENCIES.md",
       "type": "file",
-      "size_bytes": 1694
+      "size_bytes": 2415
     },
     {
       "name": "FAQ.md",
@@ -420,19 +420,19 @@
       "name": "FOR CHAT GPT.MD",
       "path": "FOR CHAT GPT.MD",
       "type": "file",
-      "size_bytes": 135540
+      "size_bytes": 137112
     },
     {
       "name": "health_check.ps1",
       "path": "health_check.ps1",
       "type": "file",
-      "size_bytes": 1286
+      "size_bytes": 1371
     },
     {
       "name": "health_check.py",
       "path": "health_check.py",
       "type": "file",
-      "size_bytes": 18536
+      "size_bytes": 12416
     },
     {
       "name": "HEALTH_CHECK_REPORT_TEMPLATE.md",
@@ -476,13 +476,19 @@
       "name": "LOCAL_SETUP_REQUIREMENTS.md",
       "path": "LOCAL_SETUP_REQUIREMENTS.md",
       "type": "file",
-      "size_bytes": 715
+      "size_bytes": 918
+    },
+    {
+      "name": "ONE_PROMPT_START.md",
+      "path": "ONE_PROMPT_START.md",
+      "type": "file",
+      "size_bytes": 1671
     },
     {
       "name": "PORTABILITY_AUDIT.md",
       "path": "PORTABILITY_AUDIT.md",
       "type": "file",
-      "size_bytes": 1288
+      "size_bytes": 1641
     },
     {
       "name": "PROJECTS_INDEX.md",
@@ -509,6 +515,12 @@
       "size_bytes": 7576
     },
     {
+      "name": "pyproject.toml",
+      "path": "pyproject.toml",
+      "type": "file",
+      "size_bytes": 484
+    },
+    {
       "name": "QUICKSTART_LINUX.md",
       "path": "QUICKSTART_LINUX.md",
       "type": "file",
@@ -530,19 +542,25 @@
       "name": "README.md",
       "path": "README.md",
       "type": "file",
-      "size_bytes": 16495
+      "size_bytes": 17001
     },
     {
       "name": "README_GPT.md",
       "path": "README_GPT.md",
       "type": "file",
-      "size_bytes": 114456
+      "size_bytes": 114439
     },
     {
       "name": "REPO_INDEX.md",
       "path": "REPO_INDEX.md",
       "type": "file",
       "size_bytes": 7389
+    },
+    {
+      "name": "requirements.txt",
+      "path": "requirements.txt",
+      "type": "file",
+      "size_bytes": 420
     },
     {
       "name": "ROADMAP.md",
@@ -566,7 +584,7 @@
       "name": "SELF_CONTAINED_REPO_CHECKLIST.md",
       "path": "SELF_CONTAINED_REPO_CHECKLIST.md",
       "type": "file",
-      "size_bytes": 507
+      "size_bytes": 613
     },
     {
       "name": "setup",
@@ -580,7 +598,7 @@
       "name": "START_HERE.md",
       "path": "START_HERE.md",
       "type": "file",
-      "size_bytes": 1817
+      "size_bytes": 1918
     },
     {
       "name": "START_HERE_FOR_AI_AGENTS.md",
@@ -618,7 +636,7 @@
       "name": "TROUBLESHOOTING.md",
       "path": "TROUBLESHOOTING.md",
       "type": "file",
-      "size_bytes": 4426
+      "size_bytes": 4435
     },
     {
       "name": "USER_MANUAL.md",

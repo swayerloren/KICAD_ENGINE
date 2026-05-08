@@ -33,3 +33,5 @@ Local-only clones of third-party tool repositories used for inspection, safe loc
 ## PUBLIC_RELEASE_NOTES
 
 GitHub should show this folder as a placeholder only. The actual local clones remain ignored on purpose.
+
+ZIP users do not need this folder populated for the basic workflow.

@@ -1,6 +1,6 @@
 ﻿# KiCad Engine â€” ChatGPT / Codex Context README
 
-This file is the high-level context handoff for ChatGPT, Codex, and future AI agents working in the current checkout at `C:\Users\LJ\GitHub\KICAD_ENGINE`. It explains the workspace layout, safety gates, toolchain state, and expected workflow so an agent can operate without guessing.
+This file is the high-level context handoff for ChatGPT, Codex, and future AI agents working in the current local `KICAD_ENGINE` checkout. It explains the workspace layout, safety gates, toolchain state, and expected workflow so an agent can operate without guessing.
 
 Historical records may still mention an older non-GitHub checkout path. Treat older absolute paths as historical unless a current file explicitly proves the path exists and the user selects it. For new work, prefer repo-relative paths or the current checkout path above.
 

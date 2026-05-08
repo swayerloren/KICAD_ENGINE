@@ -1,6 +1,6 @@
 # Codex Prompt: Export NOT_FINAL Package
 
-You are working in `C:\Users\LJ\GitHub\KICAD_ENGINE` from VS Code.
+You are working in your local `KICAD_ENGINE` repo root from VS Code.
 
 ## Read First
 

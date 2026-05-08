@@ -1,22 +1,24 @@
 # Start Here
 
-This is the shortest GitHub-facing entry point for new humans. It does not replace the AI startup stack in `00_CODEX_START/`.
+This is the shortest public entry point for humans. It does not replace the full AI startup stack in `00_CODEX_START/`.
 
 ## Fast Start
 
 1. Download the GitHub ZIP or clone the repo locally.
-2. Open the repo root in VS Code.
-3. Read [README.md](README.md).
-4. If you plan to use Codex or Claude, read [AGENT_STARTER_PROMPTS.md](AGENT_STARTER_PROMPTS.md).
-5. If you downloaded the ZIP, read [DOWNLOAD_ZIP_START_HERE.md](DOWNLOAD_ZIP_START_HERE.md).
-6. If you want the full AI startup sequence, read [00_CODEX_START/START_HERE.md](00_CODEX_START/START_HERE.md).
+2. Extract it if needed.
+3. Open the `KICAD_ENGINE` folder in VS Code.
+4. Read [README.md](README.md).
+5. Read [ONE_PROMPT_START.md](ONE_PROMPT_START.md).
+6. Run `python health_check.py --no-write`.
+7. If you downloaded the ZIP, read [DOWNLOAD_ZIP_START_HERE.md](DOWNLOAD_ZIP_START_HERE.md).
+8. If you want the full AI startup sequence, read [00_CODEX_START/START_HERE.md](00_CODEX_START/START_HERE.md).
 
-No extra GitHub repositories are required for basic local use unless a specific optional workflow explicitly documents them.
+No extra GitHub repositories are required for the basic local workflow unless a specific optional workflow explicitly documents them.
 
 ## What You Need Installed
 
 - KiCad for live schematic or PCB GUI work
-- Python for repo scripts
+- Python for repo scripts and health checks
 - VS Code recommended
 - Git optional for ZIP users
 
@@ -29,6 +31,7 @@ See also:
 ## Read These First
 
 - [README.md](README.md)
+- [ONE_PROMPT_START.md](ONE_PROMPT_START.md)
 - [CURRENT_STATUS.md](CURRENT_STATUS.md)
 - [WORKFLOWS_INDEX.md](WORKFLOWS_INDEX.md)
 - [TOOLS_INDEX.md](TOOLS_INDEX.md)
