@@ -4,8 +4,9 @@
 
 - Repo push status: `SUCCESS`
 - Repo visibility: `PRIVATE`
-- Latest known pushed commit before this closeout sync: `81910186a7e55e5f795171dedc732dcbc4fee1cd`
 - Repo URL: `https://github.com/swayerloren/KICAD_ENGINE`
+- Latest local commit hash at last status refresh: `aed2d9f75dfcd53df27c99936d0b5c351075d3f5`
+- Latest remote HEAD hash at last status refresh: `aed2d9f75dfcd53df27c99936d0b5c351075d3f5`
 
 ## Active Project
 
@@ -25,12 +26,20 @@
 - DRC: `0` violations, `17` unconnected items
 - Detectable unrouted nets: `/DM_C`, `/DM_E`, `/DP_C`, `/DP_E`
 
-## Current Blockers
+## Remaining PCB Blockers
 
-- USB data nets are not yet completed
-- some control and power connectivity still needs review
-- human visual review is still required
-- final fabrication outputs are not approved
+- `0` DRC violations exist, but `17` unconnected items remain
+- `/DM_C`, `/DM_E`, `/DP_C`, and `/DP_E` remain explicitly unrouted
+- `/+5V_PROTECTED`, `/BOOT0`, and `/ESP_EN` still require connectivity review/closure per current reports
+- human visual review is still required before fabrication-style claims
+
+## Remaining Public-Release Blockers
+
+- `PUBLIC_RELEASE_CHECKLIST.md` is not complete
+- `21_LICENSE_ATTRIBUTION/LICENSE_AUDIT.md` still requires human review
+- placeholder-token and workflow-secret reference strings still need public-hygiene cleanup
+- fabrication outputs are not approved
+- the active PCB is not fabrication-ready
 
 ## Next Recommended Codex Task
 

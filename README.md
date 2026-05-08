@@ -9,6 +9,7 @@ KiCad Engine is a local-first workspace for AI-assisted KiCad engineering, revie
 - Public release status: `NOT_READY`
 - Fabrication status: `NOT_FABRICATION_READY`
 - Active project: [ESP32_CSI_WIFI_NODE](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/README.md)
+- Active project path: `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE`
 - Exact PCB warning: `ESP32_CSI_WIFI_NODE is not fabrication-ready.`
 
 ## What Is Complete
@@ -27,6 +28,7 @@ KiCad Engine is a local-first workspace for AI-assisted KiCad engineering, revie
 - Unconnected items remain on the live PCB.
 - Final fabrication outputs are not approved.
 - The repository is not ready for public release.
+- Remaining blockers must always be rechecked against the current live reports before making engineering or release claims.
 
 ## Start Here
 
@@ -80,6 +82,7 @@ See:
 - [PROJECTS_INDEX.md](PROJECTS_INDEX.md)
 - [CURRENT_PROJECT_STATE.md](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/memory/CURRENT_PROJECT_STATE.md)
 - [CURRENT_BLOCKERS.md](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/memory/CURRENT_BLOCKERS.md)
+- [PCB_FINAL_UNCONNECTED_ITEMS_REVIEW.md](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/PCB_FINAL_UNCONNECTED_ITEMS_REVIEW.md)
 
 ## Safety Rules
 
@@ -95,6 +98,15 @@ See:
 - Public GitHub release ready: `NO`
 - Large local-only artifacts are intentionally excluded from Git.
 - Backups, copied-board rehearsals, raw imports, caches, and env/config files remain excluded by `.gitignore`.
+
+Common excluded classes:
+
+- backups under `99_BACKUPS/`
+- copied-board routing rehearsals under `routing_work/*/copied*/`
+- routing rehearsal workspaces under `routing_rehearsals/`
+- raw imported sample originals under `32_OPEN_KICAD_SAMPLE_INTAKE/imported_originals/`
+- local credentials and env/config files
+- caches, lock files, temp folders, and large binary/manufacturing artifacts
 
 See:
 

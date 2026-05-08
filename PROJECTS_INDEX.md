@@ -5,6 +5,7 @@
 ### ESP32_CSI_WIFI_NODE
 
 - Path: [04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE)
+- Active project path: `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE`
 - KiCad files: `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/`
 - Reports: `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/`
 - Visual review: `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/_verification/pcb_visual/`
@@ -37,6 +38,11 @@ Primary status files:
 - [CURRENT_BLOCKERS.md](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/memory/CURRENT_BLOCKERS.md)
 - [FINAL_PCB_VISUAL_REVIEW_PACKET.md](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/FINAL_PCB_VISUAL_REVIEW_PACKET.md)
 - [LJ_FINAL_PCB_REVIEW_CHECKLIST.md](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/LJ_FINAL_PCB_REVIEW_CHECKLIST.md)
+- [PCB_FINAL_UNCONNECTED_ITEMS_REVIEW.md](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/PCB_FINAL_UNCONNECTED_ITEMS_REVIEW.md)
+
+Current next action:
+
+- Continue human-reviewed connectivity closure planning for `/+5V_PROTECTED`, `/BOOT0`, `/ESP_EN`, `/DM_C`, `/DM_E`, `/DP_C`, and `/DP_E` only after the current live blockers are rechecked against the latest reports.
 
 ## Archived Projects
 

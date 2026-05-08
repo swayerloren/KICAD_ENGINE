@@ -1,1586 +1,1643 @@
-# Generated History Index
+# Master History Index
 
-Generated: `2026-05-08T14:34:32`
-Record count: `1581`
+Status: `AUTO_BUILT`
 
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260502_230004_AI_quality_gate_setup_scorecard.md` - AI quality gate setup scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SCORECARD.md` - AI Response Scorecard: Schematic Annotation/Completeness Checkers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_SCORECARD.md` - AI Response Scorecard: Schematic Visual Autocrop Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_170041_Strict_visual_gate_patch_response_scorecard.md` - Strict visual gate patch response scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_SCORECARD.md` - AI Response Scorecard: KiCad Engine Schematic Failure Root-Cause Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_SCORECARD.md` - AI Response Scorecard: ESP32_CSI Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_SCORECARD.md` - AI Response Scorecard: ESP32 CSI Actual KiCad Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_SCORECARD.md` - AI Response Scorecard: ESP32 CSI GUI Annotation Diagnosis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_SCORECARD.md` - AI Response Scorecard: KiCad GUI Automation Layer
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_AI_Response_Scorecard.md` - PCB Layout Sandbox Layer Setup AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_172119_PCB_Variant_Scoring_System_AI_Response_Scorecard.md` - PCB Variant Scoring System AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_AI_Response_Scorecard.md` - ESP32 Dev Board Layout Intelligence AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_AI_Response_Scorecard.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_175002_FreeRouting_Feasibility_Integration_AI_Response_Scorecard.md` - FreeRouting Feasibility Integration AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_175826_PCB_Layout_Sandbox_Gate_Added_AI_Response_Scorecard.md` - PCB Layout Sandbox Gate Added AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_210012_Real_KiCad_PCB_Routing_Bridge_AI_Response_Scorecard.md` - Real KiCad PCB Routing Bridge AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Scorecard.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Scorecard.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Scorecard.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Scorecard.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Scorecard.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE BOM Sourcing Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Final Production Signoff
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Mechanical 3D Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE PCB Create From Schematic
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Production Fix Pass
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Real-World Failure Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260508_140404_GITHUB_REPO_PUSH_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260508_150300_GITHUB_REPO_INDEXING_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md` - Accuracy Engine And AI Quality Setup Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD.md` - AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD.md` - AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\AUTO_ROUTING_ENGINE_AI_RESPONSE_SCORECARD.md` - AUTO_ROUTING_ENGINE_AI_RESPONSE_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\AUTO_SANDBOX_APPROVAL_SYSTEM_AI_RESPONSE_SCORECARD.md` - AI Response Scorecard - Auto Sandbox Approval System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\AUTO_VARIANT_SCORING_ENGINE_AI_RESPONSE_SCORECARD.md` - AI Response Scorecard - Auto Variant Scoring Engine
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\COMPONENT_DATABASE_CORE_SETUP_AI_RESPONSE_SCORECARD.md` - Component Database Core Setup AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\CORE_PLACEHOLDER_CONTENT_UPGRADE_SCORECARD.md` - AI Response Scorecard: Core Placeholder Content Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Full Routing And Copper
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE GUI Native Annotation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Schematic Audit Only
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Schematic Safe Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_AI_RESPONSE_SCORECARD.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\FINAL_PRODUCTION_STRUCTURE_AUDIT_SCORECARD.md` - AI Response Scorecard: Final Production Structure Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\FOOTPRINT_GAP_ANALYSIS_SCORECARD.md` - AI Response Scorecard - Footprint Gap Analysis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\FULL_KICAD_PIPELINE_PROMPT_PACK_SCORECARD.md` - AI Response Scorecard: Full KiCad Pipeline Prompt Pack
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\FULL_REPO_PRODUCTION_QUALITY_AUDIT_SCORECARD.md` - AI Response Scorecard - Full Repo Production Quality Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\GOLDEN_PATH_SAMPLE_GATE_RUN_SCORECARD.md` - AI Response Scorecard - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\GOLDEN_PATH_SAMPLE_PROMOTION_SCORECARD.md` - AI Response Scorecard - Golden Path Sample Promotion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_SCORECARD.md` - AI Response Scorecard: KiCad Auto-Open Project Workflow
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_SCORECARD.md` - AI Response Scorecard: KiCad Native Annotation Workflow Documentation Update
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\KICAD_PHASE_GATE_PATCH_SCORECARD.md` - AI Response Scorecard - KiCad Phase Gate Patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_SCORECARD.md` - AI Response Scorecard - Knowledge Base Reference Design Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\LIBRARY_FACTORY_SETUP_SCORECARD.md` - AI Response Scorecard - Library Factory Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\MCU_DATASHEET_TREE_UPGRADE_SCORECARD.md` - AI Response Scorecard: MCU Datasheet Tree Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_SCORECARD.md` - Microcontroller Family Content Generator Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Candidate Discovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Intake System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Project Import
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Projects Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\P0_P1_REPAIR_SCORECARD.md` - AI Response Scorecard: P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\PACKAGE_FAB_VENDOR_PROFILE_SETUP_SCORECARD.md` - AI Response Scorecard - Package Fab Vendor Profile Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\PCB_TRACE_ANGLE_RULE_PATCH_AI_RESPONSE_SCORECARD.md` - PCB Trace Angle Rule Patch AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_SCORECARD.md` - AI Response Scorecard: Playwright Batch Research Expansion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\PLAYWRIGHT_PILOT_RESEARCH_SCORECARD.md` - AI Response Scorecard: Playwright Pilot Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\PLAYWRIGHT_RESEARCH_PIPELINE_SCORECARD.md` - AI Response Scorecard: Playwright Research Pipeline
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\POST_SAMPLE_P0_P1_REPAIR_SCORECARD.md` - AI Response Scorecard - Post Sample P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_SCORECARD.md` - AI Response Scorecard - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\PROJECT_GATE_RUNNER_SCORECARD.md` - AI Response Scorecard - Project Gate Runner
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\PUBLIC_RELEASE_STRUCTURE_SCORECARD.md` - AI Response Scorecard - Public Release Structure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\README.md` - AI Scorecards
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SAMPLE_PROJECT_PAYLOAD_RULES_SCORECARD.md` - AI Response Scorecard - Sample Project Payload Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SAMPLE_PROJECT_PUBLIC_DOCS_SCORECARD.md` - AI Response Scorecard - Sample Project Public Docs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SCHEMATIC_TO_PCB_GATE_SYSTEM_SCORECARD.md` - AI Response Scorecard - Schematic To PCB Gate System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\STARTUP_CLOSEOUT_INDEX_WIRING_RESPONSE_SCORECARD.md` - AI Response Scorecard: Startup Closeout Index Wiring
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\STM32_DATASHEET_TREE_CONTENT_COMPLETION_SCORECARD.md` - AI Response Scorecard - STM32 Datasheet Tree Content Completion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\STM32_SOURCE_LINK_RESEARCH_SCORECARD.md` - AI Response Scorecard - STM32 Source Link Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\STM32F1_PILOT_CONTENT_COMPLETION_SCORECARD.md` - STM32F1 Pilot Content Completion Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\STRUCTURE_EXPANSION_AI_RESPONSE_SCORECARD.md` - Structure Expansion AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SUPPLIER_CONNECTOR_STUBS_SCORECARD.md` - AI Response Scorecard: Supplier Connector Stubs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_SCORECARD.md` - AI Response Scorecard: Supplier Datasheet Footprint Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SUPPLIER_FOOTPRINT_MATCH_SCORECARD.md` - AI Response Scorecard - Supplier Footprint Match System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_SCORECARD.md` - AI Response Scorecard: Supplier Ingestion System Revalidation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\SUPPLIER_INGESTION_SYSTEM_SCORECARD.md` - AI Response Scorecard: Supplier Ingestion System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\TEST_EXAMPLES_BENCHMARKS_SETUP_SCORECARD.md` - AI Response Scorecard - Test Examples Benchmarks Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260502_230004_AI_quality_gate_setup_self_review.md` - AI quality gate setup self review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SELF_REVIEW.md` - AI Self-Review: Schematic Annotation/Completeness Checkers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_SELF_REVIEW.md` - AI Self-Review: Schematic Visual Autocrop Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_170041_Strict_human_readable_schematic_visual_gate_patch.md` - Strict human-readable schematic visual gate patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_SELF_REVIEW.md` - AI Self-Review: KiCad Engine Schematic Failure Root-Cause Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_SELF_REVIEW.md` - AI Self-Review: ESP32 CSI Actual KiCad Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_SELF_REVIEW.md` - AI Self-Review: ESP32 CSI GUI Annotation Diagnosis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_SELF_REVIEW.md` - AI Self-Review: KiCad GUI Automation Layer
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Self_Review.md` - PCB Layout Sandbox Layer Setup Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_172119_PCB_Variant_Scoring_System_Self_Review.md` - PCB Variant Scoring System Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Self_Review.md` - ESP32 Dev Board Layout Intelligence Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Self_Review.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_175002_FreeRouting_Feasibility_Integration_Self_Review.md` - FreeRouting Feasibility Integration Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Self_Review.md` - PCB Layout Sandbox Gate Added Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Self_Review.md` - Real KiCad PCB Routing Bridge Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Self_Review.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_210741_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Self_Review.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Self_Review.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Self_Review.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Self_Review.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE BOM Sourcing Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Final Production Signoff
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Mechanical 3D Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE PCB Create From Schematic
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Production Fix Pass
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Real-World Failure Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260508_140404_GITHUB_REPO_PUSH_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260508_150300_GITHUB_REPO_INDEXING_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md` - Accuracy Engine And AI Quality Setup AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\AUTO_PCB_START_WORKFLOW_SELF_REVIEW.md` - AUTO_PCB_START_WORKFLOW_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\AUTO_PLACEMENT_ENGINE_SELF_REVIEW.md` - AUTO_PLACEMENT_ENGINE_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\AUTO_ROUTING_ENGINE_SELF_REVIEW.md` - AUTO_ROUTING_ENGINE_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\AUTO_SANDBOX_APPROVAL_SYSTEM_SELF_REVIEW.md` - AI Self Review - Auto Sandbox Approval System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\AUTO_VARIANT_SCORING_ENGINE_SELF_REVIEW.md` - AI Self Review - Auto Variant Scoring Engine
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\COMPONENT_DATABASE_CORE_SETUP_AI_SELF_REVIEW.md` - Component Database Core Setup AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\CORE_PLACEHOLDER_CONTENT_UPGRADE_SELF_REVIEW.md` - AI Self-Review: Core Placeholder Content Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Full Routing And Copper
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE GUI Native Annotation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Schematic Audit Only
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_AI_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Schematic Safe Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\FINAL_PRODUCTION_STRUCTURE_AUDIT_AI_SELF_REVIEW.md` - AI Self-Review: Final Production Structure Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\FOOTPRINT_GAP_ANALYSIS_SELF_REVIEW.md` - AI Self-Review - Footprint Gap Analysis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\FULL_KICAD_PIPELINE_PROMPT_PACK_SELF_REVIEW.md` - AI Self-Review: Full KiCad Pipeline Prompt Pack
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\FULL_REPO_PRODUCTION_QUALITY_AUDIT_SELF_REVIEW.md` - AI Self Review - Full Repo Production Quality Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\GOLDEN_PATH_SAMPLE_GATE_RUN_SELF_REVIEW.md` - AI Self Review - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\GOLDEN_PATH_SAMPLE_PROMOTION_SELF_REVIEW.md` - AI Self-Review - Golden Path Sample Promotion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_SELF_REVIEW.md` - AI Self-Review: KiCad Auto-Open Project Workflow
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_SELF_REVIEW.md` - AI Self-Review: KiCad Native Annotation Workflow Documentation Update
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\KICAD_PHASE_GATE_PATCH_SELF_REVIEW.md` - AI Self-Review - KiCad Phase Gate Patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Knowledge Base Reference Design Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\LIBRARY_FACTORY_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Library Factory Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\MCU_DATASHEET_TREE_UPGRADE_SELF_REVIEW.md` - AI Self-Review: MCU Datasheet Tree Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_SELF_REVIEW.md` - Microcontroller Family Content Generator Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Candidate Discovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Intake System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Project Import
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Projects Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\P0_P1_REPAIR_SELF_REVIEW.md` - AI Self-Review: P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\PACKAGE_FAB_VENDOR_PROFILE_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Package Fab Vendor Profile Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\PCB_TRACE_ANGLE_RULE_PATCH_SELF_REVIEW.md` - PCB Trace Angle Rule Patch Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_SELF_REVIEW.md` - AI Self Review: Playwright Batch Research Expansion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\PLAYWRIGHT_PILOT_RESEARCH_SELF_REVIEW.md` - AI Self Review: Playwright Pilot Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\PLAYWRIGHT_RESEARCH_PIPELINE_SELF_REVIEW.md` - AI Self Review: Playwright Research Pipeline
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\POST_SAMPLE_P0_P1_REPAIR_SELF_REVIEW.md` - AI Self-Review - Post Sample P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_AI_SELF_REVIEW.md` - AI Self-Review - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\PROJECT_GATE_RUNNER_SELF_REVIEW.md` - AI Self-Review - Project Gate Runner
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\PUBLIC_RELEASE_STRUCTURE_AI_SELF_REVIEW.md` - AI Self Review - Public Release Structure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\README.md` - AI Self Reviews
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SAMPLE_PROJECT_PAYLOAD_RULES_AI_SELF_REVIEW.md` - AI Self-Review - Sample Project Payload Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SAMPLE_PROJECT_PUBLIC_DOCS_SELF_REVIEW.md` - AI Self-Review - Sample Project Public Docs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SCHEMATIC_TO_PCB_GATE_SYSTEM_AI_SELF_REVIEW.md` - AI Self Review - Schematic To PCB Gate System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\STARTUP_CLOSEOUT_INDEX_WIRING_AI_SELF_REVIEW.md` - AI Self-Review: Startup Closeout Index Wiring
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\STM32_DATASHEET_TREE_CONTENT_COMPLETION_SELF_REVIEW.md` - AI Self Review - STM32 Datasheet Tree Content Completion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\STM32_SOURCE_LINK_RESEARCH_SELF_REVIEW.md` - AI Self Review - STM32 Source Link Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\STM32F1_PILOT_CONTENT_COMPLETION_SELF_REVIEW.md` - STM32F1 Pilot Content Completion Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\STRUCTURE_EXPANSION_AI_SELF_REVIEW.md` - Structure Expansion AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SUPPLIER_CONNECTOR_STUBS_SELF_REVIEW.md` - AI Self-Review: Supplier Connector Stubs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_SELF_REVIEW.md` - AI Self Review: Supplier Datasheet Footprint Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SUPPLIER_FOOTPRINT_MATCH_SELF_REVIEW.md` - AI Self-Review - Supplier Footprint Match System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_SELF_REVIEW.md` - AI Self-Review: Supplier Ingestion System Revalidation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\SUPPLIER_INGESTION_SYSTEM_SELF_REVIEW.md` - AI Self-Review: Supplier Ingestion System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\TEST_EXAMPLES_BENCHMARKS_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Test Examples Benchmarks Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260502_230004_AI_quality_gate_setup_claim_evidence_matrix.md` - AI quality gate setup claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_CLAIMS.md` - Claim/Evidence Matrix: Schematic Annotation/Completeness Checkers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_CLAIMS.md` - Claim/Evidence Matrix: Schematic Visual Autocrop Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_170057_Strict_visual_gate_patch_claim_evidence_matrix.md` - Strict visual gate patch claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_CLAIMS.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_CLAIMS.md` - Claim Evidence Matrix: KiCad Engine Schematic Failure Root-Cause Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_CLAIMS.md` - Claim Evidence Matrix: ESP32_CSI Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_CLAIMS.md` - Claim/Evidence Matrix: ESP32 CSI Actual KiCad Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_CLAIMS.md` - Claim/Evidence Matrix: ESP32 CSI GUI Annotation Diagnosis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_CLAIMS.md` - Claim Evidence Matrix: KiCad GUI Automation Layer
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_CLAIMS.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Claim_Evidence_Matrix.md` - PCB Layout Sandbox Layer Setup Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_172119_PCB_Variant_Scoring_System_Claim_Evidence_Matrix.md` - PCB Variant Scoring System Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Claim_Evidence_Matrix.md` - ESP32 Dev Board Layout Intelligence Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_175002_FreeRouting_Feasibility_Integration_Claim_Evidence_Matrix.md` - FreeRouting Feasibility Integration Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Claim_Evidence_Matrix.md` - PCB Layout Sandbox Gate Added Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Claim_Evidence_Matrix.md` - Real KiCad PCB Routing Bridge Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Claim_Evidence_Mat.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE BOM Sourcing Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE Final Production Signoff
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Mechanical 3D Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE PCB Create From Schematic
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Production Fix Pass
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Real-World Failure Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260508_140404_GITHUB_REPO_PUSH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260508_150300_GITHUB_REPO_INDEXING_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Accuracy Engine And AI Quality Setup Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\AUTO_ROUTING_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - AUTO_ROUTING_ENGINE_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\AUTO_SANDBOX_APPROVAL_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix - Auto Sandbox Approval System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\AUTO_VARIANT_SCORING_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix - Auto Variant Scoring Engine
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\COMPONENT_DATABASE_CORE_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Component Database Core Setup Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\CORE_PLACEHOLDER_CONTENT_UPGRADE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Core Placeholder Content Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Full Routing And Copper
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_CLAIMS.md` - Claim/Evidence Matrix - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE GUI Native Annotation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_CLAIM_EVIDENCE.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE Schematic Audit Only
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_CLAIM_EVIDENCE.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE Schematic Safe Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\FINAL_PRODUCTION_STRUCTURE_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Final Production Structure Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\FOOTPRINT_GAP_ANALYSIS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Footprint Gap Analysis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\FULL_KICAD_PIPELINE_PROMPT_PACK_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Full KiCad Pipeline Prompt Pack
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\FULL_REPO_PRODUCTION_QUALITY_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Full Repo Production Quality Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\GOLDEN_PATH_SAMPLE_GATE_RUN_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\GOLDEN_PATH_SAMPLE_PROMOTION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Golden Path Sample Promotion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: KiCad Auto-Open Project Workflow
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: KiCad Native Annotation Workflow Documentation Update
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\KICAD_PHASE_GATE_PATCH_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - KiCad Phase Gate Patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Knowledge Base Reference Design Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\LIBRARY_FACTORY_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Library Factory Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\MCU_DATASHEET_TREE_UPGRADE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: MCU Datasheet Tree Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_CLAIM_EVIDENCE_MATRIX.md` - Microcontroller Family Content Generator Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Open KiCad Sample Candidate Discovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Open KiCad Sample Intake System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_CLAIM_EVIDENCE_MATRIX.md` - Claim/Evidence Matrix - Open KiCad Sample Project Import
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Open KiCad Sample Projects Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\P0_P1_REPAIR_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\PACKAGE_FAB_VENDOR_PROFILE_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Package Fab Vendor Profile Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\PCB_TRACE_ANGLE_RULE_PATCH_CLAIM_EVIDENCE_MATRIX.md` - PCB Trace Angle Rule Patch Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Batch Research Expansion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\PLAYWRIGHT_PILOT_RESEARCH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Pilot Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\PLAYWRIGHT_RESEARCH_PIPELINE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Research Pipeline
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\POST_SAMPLE_P0_P1_REPAIR_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Post Sample P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\PROJECT_GATE_RUNNER_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Project Gate Runner
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\PUBLIC_RELEASE_STRUCTURE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Public Release Structure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\README.md` - Claim Evidence Matrices
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SAMPLE_PROJECT_PAYLOAD_RULES_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Sample Project Payload Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SAMPLE_PROJECT_PUBLIC_DOCS_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Sample Project Public Docs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SCHEMATIC_TO_PCB_GATE_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Schematic To PCB Gate System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\STARTUP_CLOSEOUT_INDEX_WIRING_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Startup Closeout Index Wiring
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\STM32_DATASHEET_TREE_CONTENT_COMPLETION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - STM32 Datasheet Tree Content Completion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\STM32_SOURCE_LINK_RESEARCH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - STM32 Source Link Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\STM32F1_PILOT_CONTENT_COMPLETION_CLAIM_EVIDENCE_MATRIX.md` - STM32F1 Pilot Content Completion Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\STRUCTURE_EXPANSION_CLAIM_EVIDENCE_MATRIX.md` - Structure Expansion Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SUPPLIER_CONNECTOR_STUBS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Connector Stubs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Datasheet Footprint Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SUPPLIER_FOOTPRINT_MATCH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Supplier Footprint Match System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SUPPLIER_INGESTION_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Ingestion System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Ingestion System Revalidation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\TEST_EXAMPLES_BENCHMARKS_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Test Examples Benchmarks Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\2026-05-08_PCB_BATCH_04_REPLAY_REQUEST_ALREADY_APPLIED_COMMANDS.md` - PCB Batch 04 Replay Request Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_COMMANDS.md` - Accuracy Engine And AI Quality Setup Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AI_QUALITY_GATE_SETUP_COMMANDS.md` - AI Quality Gate Setup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AUTO_PCB_START_WORKFLOW_COMMANDS.md` - AUTO_PCB_START_WORKFLOW_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AUTO_PLACEMENT_ENGINE_COMMANDS.md` - AUTO_PLACEMENT_ENGINE_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AUTO_ROUTING_ENGINE_COMMANDS.md` - AUTO_ROUTING_ENGINE_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_COMMANDS.md` - AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_COMMANDS.md` - Auto Sandbox Approval System Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AUTO_VARIANT_SCORING_ENGINE_COMMANDS.md` - Auto Variant Scoring Engine Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\AUTOMATIC_SCHEMATIC_CLOSEUP_CROPS_COMMANDS.md` - Automatic Schematic Close-Up Crops Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\BARREL_JACK_USB_C_ORIENTATION_RULE_PATCH_COMMANDS.md` - Barrel Jack And USB-C Orientation Rule Patch Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\CLEAN_SAMPLE_SUCCESS_PATH_COMMANDS.md` - Clean Sample Success Path Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\CODEX_MCP_CONFIG_COMMANDS.md` - Codex MCP Config Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\COMMAND_LINK_DIRECT_EDIT_COMMANDS.md` - COMMAND LINK Direct Edit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\COMMAND_LINK_DRC_CONTINUATION_COMMANDS.md` - COMMAND LINK DRC Continuation Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT_COMMANDS.md` - COMMAND LINK Final Fabrication Readiness Audit Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\COMPONENT_DATABASE_CORE_SETUP_COMMANDS.md` - Component Database Core Setup Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\CORE_PLACEHOLDER_CONTENT_UPGRADE_COMMANDS.md` - Core Placeholder Content Upgrade Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\CROSS_PLATFORM_INSTALLER_PROJECT_COMMANDS.md` - Cross-Platform Installer Project Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\DATASHEET_LIBRARY_RESTRUCTURE_COMMANDS.md` - Datasheet Library Restructure Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ACTUAL_KICAD_ANNOTATION_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Actual KiCad Annotation Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_BOM_FOOTPRINT_LOCK_COMMANDS.md` - Command Log - ESP32_CSI_WIFI_NODE BOM And Footprint Lock
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE BOM Sourcing Review Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_BOTTOM_EDGE_CONNECTOR_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Bottom Edge Connector Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST_COMMANDS.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPPER_POUR_COMMANDS.md` - ESP32 CSI WiFi Node Copper Pour Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_COMMANDS.md` - ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_CRITICAL_NETS_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE Critical Nets Routing Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_CRITICAL_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE Critical Routing Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_EMERGENCY_ANNOTATION_REPAIR_COMMANDS.md` - Command Log: ESP32_CSI_WIFI_NODE Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_EMERGENCY_SCHEMATIC_TRUTH_AUDIT_COMMANDS.md` - Command Log - ESP32_CSI_WIFI_NODE Emergency Schematic Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final PCB Audit Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VERIFICATION_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final PCB Verification Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_PACKAGE_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Package Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final Production Signoff Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_ROUTED_PCB_REVIEW_COMMANDS.md` - ESP32 CSI WiFi Node Final Routed PCB Review Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_SCHEMATIC_READINESS_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final Schematic Readiness Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_TRACE_BY_TRACE_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final Trace By Trace Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_COMMANDS.md` - ESP32_CSI_WIFI_NODE Full Routing And Copper Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE Full Routing Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_GUI_ANNOTATION_DIAGNOSIS_COMMANDS.md` - ESP32_CSI_WIFI_NODE GUI Annotation Diagnosis Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_COMMANDS.md` - ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_HUMAN_READABLE_SCHEMATIC_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Human-Readable Schematic Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_INTELLIGENCE_BASED_PLACEMENT_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Intelligence-Based Placement Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_AUDIT_COMMANDS.md` - ESP32 CSI WiFi Node J1 Barrel Jack Orientation Audit Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE J1 Barrel Jack Orientation Repair Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback Review Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_COMMANDS.md` - ESP32 CSI WiFi Node KiCad GUI Native Annotation Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_VARIANTS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE Mechanical 3D Review Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_NOT_FINAL_FAB_EXPORT_COMMANDS.md` - ESP32_CSI_WIFI_NODE NOT_FINAL Fab Export Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_COMMANDS.md` - ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_01_DRC_AND_GND_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 01 DRC And GND Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_03_USB_CONTROL_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 03 USB Control Routing Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_04_CONTROL_NET_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 04 Control Net Routing Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_05_USB_DATA_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 05 USB Data Routing Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Create From Schematic Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_FINAL_CONNECTIVITY_CLEANUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Final Connectivity Cleanup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_INTELLIGENCE_LAYER_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Intelligence Layer Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_PLAN_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Layout Plan Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_SPEC_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Layout Specification Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Mechanical Setup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Placement Audit Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_STRICT_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Placement Strict Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_UPDATE_FROM_SCHEMATIC_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Update From Schematic Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_ZONE_SETUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Zone Setup Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_COMMANDS.md` - Command Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Repair Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_POST_COPPER_DRC_REPAIR_COMMANDS.md` - ESP32 CSI WiFi Node Post-Copper DRC Repair Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_POWER_ROUTING_REPAIR_BATCH_02_COMMANDS.md` - ESP32_CSI_WIFI_NODE Power Routing Repair Batch 02 Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PRE_ROUTING_PRE_COPPER_POUR_READINESS_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Pre-Routing And Pre-Copper-Pour Readiness Audit Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Production Fix Pass Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_Q1_PMOS_PIN_MAPPING_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Q1 PMOS Pin Mapping Repair Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_CRITICAL_ROUTING_PASS_1_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real PCB Critical Routing Pass 1 Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real PCB Full Routing Pass Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_COMMANDS.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_COMMANDS.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real-World Failure Review Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_REPAIR_PASS_COMMANDS.md` - ESP32 CSI WiFi Node Routing Repair Pass Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_CLEANUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Cleanup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_PROFESSIONAL_CLEANUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Professional Cleanup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 1 Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_2_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 2 Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_3_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 3 Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_4_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 4 Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_COMMANDS.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Audit-Only Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_FOOTPRINT_GATE_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Footprint Gate Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_HUMAN_REVIEW_PACKET_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Human Review Packet Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_REAL_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Real Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Safe Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_STAGE_3_USB_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Stage 3 USB Blocked Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_STRICT_VISUAL_READABILITY_REAUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\ESP32_DEV_BOARD_LAYOUT_INTELLIGENCE_COMMANDS.md` - ESP32 Dev Board Layout Intelligence Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\FAB_FILE_FORMAT_RULES_INTEGRATION_COMMANDS.md` - Fab File Format Rules Integration Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\FINAL_PRODUCTION_STRUCTURE_AUDIT_COMMANDS.md` - Final Production Structure Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\FOOTPRINT_GAP_ANALYSIS_COMMANDS.md` - Footprint Gap Analysis Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE_COMMANDS.md` - FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\FREEROUTING_FEASIBILITY_INTEGRATION_COMMANDS.md` - FreeRouting Feasibility Integration Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\FULL_KICAD_PIPELINE_PROMPT_PACK_COMMANDS.md` - Full KiCad Pipeline Prompt Pack Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\FULL_REPO_PRODUCTION_QUALITY_AUDIT_COMMANDS.md` - Full Repo Production Quality Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\GITHUB_REPO_INDEXING_COMMANDS.md` - GITHUB_REPO_INDEXING_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\GITHUB_REPO_PUSH_COMMANDS.md` - GitHub Repo Push Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\GOLDEN_PATH_SAMPLE_GATE_COMMANDS.md` - Command Log - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\GOLDEN_PATH_SAMPLE_PROMOTION_COMMANDS.md` - Command Log - Golden Path Sample Promotion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\INSTALLER_PAYLOAD_TEMPLATE_COMMANDS.md` - Installer Payload Template Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KIBOT_INSTALL_COMMANDS.md` - KiBot Install Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_COMMANDS.md` - KiCad Auto-Open Project Workflow Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_AUDIT_COMMANDS.md` - KiCad Engine Schematic Failure Root-Cause Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_GUI_AUTOMATION_LAYER_COMMANDS.md` - Command Log: KiCad GUI Automation Layer
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_HAPPY_INSTALL_COMMANDS.md` - ﻿# kicad-happy Install Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_INSTALLED_APP_DEEP_AUDIT_COMMANDS.md` - KiCad Installed App Deep Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_MCP_PRO_INSTALL_COMMANDS.md` - ﻿# kicad-mcp-pro Install Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_COMMANDS.md` - KiCad Native Annotation Workflow Doc Update Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KICAD_PHASE_GATE_PATCH_COMMANDS.md` - Command Log - KiCad Phase Gate Patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_COMMANDS.md` - Knowledge Base Reference Design Setup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\LIBRARY_FACTORY_SETUP_COMMANDS.md` - Library Factory Setup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\LICENSE_ATTRIBUTION_AUDIT_COMMANDS.md` - License Attribution Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\LOCAL_ENVIRONMENT_CHECK_COMMANDS.md` - Local Environment Check Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_COMMANDS.md` - MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\MAINTENANCE_LAYER_TEST_COMMANDS.md` - MAINTENANCE_LAYER_TEST_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\MCU_DATASHEET_TREE_UPGRADE_COMMANDS.md` - Command Log: MCU Datasheet Tree Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\MEMORY_HISTORY_CLEANUP_COMMANDS.md` - Memory History Cleanup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\MEMORY_HISTORY_MAINTENANCE_UPGRADE_COMMANDS.md` - Memory History Maintenance Upgrade Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\MEMORY_HISTORY_SYSTEM_COMMANDS.md` - Memory History System Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_COMMANDS.md` - Microcontroller Family Content Generator Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_COMMANDS.md` - Command Log - Open KiCad Sample Candidate Discovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_COMMANDS.md` - Command Log - Open KiCad Sample Intake System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_COMMANDS.md` - Command Log - Open KiCad Sample Project Import
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_COMMANDS.md` - Open KiCad Sample Projects Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\P0_P1_REPAIR_COMMANDS.md` - P0/P1 Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PACKAGE_FAB_VENDOR_PROFILE_SETUP_COMMANDS.md` - Package Fab Vendor Profile Setup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PATH_FIX_COMMANDS.md` - PATH Fix Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PAYLOAD_TEMPLATE_REFRESH_COMMANDS.md` - Payload Template Refresh Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PCB_LAYOUT_SANDBOX_GATE_ADDED_COMMANDS.md` - PCB Layout Sandbox Gate Added Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PCB_LAYOUT_SANDBOX_LAYER_SETUP_COMMANDS.md` - PCB Layout Sandbox Layer Setup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PCB_TRACE_ANGLE_RULE_PATCH_COMMANDS.md` - PCB Trace Angle Rule Patch Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PCB_VARIANT_SCORING_SYSTEM_COMMANDS.md` - PCB Variant Scoring System Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PILL_STYLE_PCB_PLACEMENT_RULE_PATCH_COMMANDS.md` - Pill-Style PCB Placement Rule Patch Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_COMMANDS.md` - Command Log: Playwright Batch Research Expansion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PLAYWRIGHT_PILOT_RESEARCH_COMMANDS.md` - Command Log: Playwright Pilot Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PLAYWRIGHT_RESEARCH_PIPELINE_COMMANDS.md` - Playwright Research Pipeline Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\POST_SAMPLE_P0_P1_REPAIR_COMMANDS.md` - Command Log - Post Sample P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_COMMANDS.md` - Command Log - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PROJECT_GATE_RUNNER_COMMANDS.md` - Project Gate Runner Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PROMPT_COUNTER_RULE_UPGRADE_COMMANDS.md` - Prompt Counter Rule Upgrade Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\PUBLIC_RELEASE_STRUCTURE_COMMANDS.md` - Public Release Structure Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\REAL_KICAD_PCB_ROUTING_BRIDGE_COMMANDS.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_COMMANDS.md` - REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_COMMANDS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SAMPLE_PIPELINE_FIX_COMMANDS.md` - ﻿# Sample Pipeline Fix Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SAMPLE_PIPELINE_TEST_COMMANDS.md` - ﻿# Sample Pipeline Test Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SAMPLE_PROJECT_PAYLOAD_RULES_COMMANDS.md` - Command Log - Sample Project Payload Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SAMPLE_PROJECT_PUBLIC_DOCS_COMMANDS.md` - Sample Project Public Docs Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_COMMANDS.md` - Schematic Annotation/Completeness Checkers Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SCHEMATIC_TO_PCB_GATE_SYSTEM_COMMANDS.md` - Schematic To PCB Gate System Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\START_HERE_AI_AGENT_ROUTER_UPGRADE_COMMANDS.md` - START_HERE AI Agent Router Upgrade Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\STARTUP_CLOSEOUT_INDEX_WIRING_COMMANDS.md` - Startup Closeout Index Wiring Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\STM32_DATASHEET_TREE_CONTENT_COMPLETION_COMMANDS.md` - STM32 Datasheet Tree Content Completion Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\STM32_SOURCE_LINK_RESEARCH_COMMANDS.md` - STM32 Source Link Research Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\STM32F1_PILOT_CONTENT_COMPLETION_COMMANDS.md` - STM32F1 Pilot Content Completion Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\STRICT_HUMAN_READABLE_SCHEMATIC_RULE_COMMANDS.md` - Strict Human Readable Schematic Rule Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\STRUCTURE_EXPANSION_COMMANDS.md` - Structure Expansion Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SUPPLIER_CONNECTOR_STUBS_COMMANDS.md` - Supplier Connector Stubs Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_COMMANDS.md` - Supplier Datasheet Footprint Final Audit Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SUPPLIER_FOOTPRINT_MATCH_COMMANDS.md` - Supplier Footprint Match Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SUPPLIER_INGESTION_SYSTEM_COMMANDS.md` - Supplier Ingestion System Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_COMMANDS.md` - Supplier Ingestion System Revalidation Command Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\TEST_EXAMPLES_BENCHMARKS_SETUP_COMMANDS.md` - Test Examples Benchmarks Setup Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\TOOL_REPOS_CLONED.md` - Tool Repositories Cloned
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\VISUAL_TOOLS_INSTALL_COMMANDS.md` - Visual Review Tools Install Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\WINDOWS_GUI_AUTOMATION_INSTALL_COMMANDS.md` - Windows GUI Automation Install Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\WINDOWS_GUI_REPOS_CLONED_COMMANDS.md` - Windows GUI Repos Cloned Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\command_logs\WINDOWS_INSTALLER_BUILD_COMMANDS.md` - Windows Installer Build Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AUDIT.md` - Accuracy Engine And AI Quality Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\AI_QUALITY_GATE_SETUP_AUDIT.md` - AI Quality Gate Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\AUTO_PCB_START_WORKFLOW_AUDIT.md` - AUTO_PCB_START_WORKFLOW_AUDIT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\AUTO_PLACEMENT_ENGINE_AUDIT.md` - AUTO_PLACEMENT_ENGINE_AUDIT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\AUTO_ROUTING_ENGINE_AUDIT.md` - AUTO_ROUTING_ENGINE_AUDIT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\AUTO_ROUTING_ENGINE_LIVE_READINESS_AUDIT.md` - AUTO_ROUTING_ENGINE_LIVE_READINESS_AUDIT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\AUTO_SANDBOX_APPROVAL_SYSTEM_AUDIT.md` - Auto Sandbox Approval System Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\AUTO_VARIANT_SCORING_ENGINE_AUDIT.md` - Auto Variant Scoring Engine Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\BARREL_JACK_USB_C_ORIENTATION_RULE_PATCH_AUDIT.md` - Barrel Jack And USB-C Orientation Rule Patch Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\CLEAN_KICAD_PASSING_SAMPLE_REVIEW.md` - CLEAN_KICAD_PASSING_SAMPLE Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\CODEX_START_CONTROL_PLANES_AUDIT.md` - Codex Start Control Planes Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\COMMAND_LINK_DIRECT_EDIT_REVIEW.md` - COMMAND LINK Direct Edit Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\COMMAND_LINK_DRC_CONTINUATION_REVIEW.md` - COMMAND LINK DRC Continuation Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT.md` - COMMAND LINK Final Fabrication Readiness Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\COMMAND_LINK_FINISHED_PCB_INVENTORY.md` - COMMAND LINK Finished PCB Inventory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\COMMAND_LINK_READ_ONLY_REVIEW.md` - COMMAND LINK Read-Only Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\COMMUNICATION_COMPONENT_RESEARCH_STATUS.md` - Communication Component Research Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\COMPONENT_DATABASE_CORE_SETUP_AUDIT.md` - Component Database Core Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\CONNECTOR_DATABASE_STATUS.md` - Connector Database Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\CORE_PLACEHOLDER_CONTENT_UPGRADE_AUDIT.md` - Core Placeholder Content Upgrade Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\CROSS_PLATFORM_INSTALLER_BUILD_STATUS.md` - Cross-Platform Installer Build Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\DEEP_KICAD_APP_FOLDER_AUDIT_REPORT.md` - Deep KiCad App Folder Audit Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\END_USER_README_SYSTEM_STATUS.md` - End User README System Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_REVIEW.md` - ESP32_CSI_WIFI_NODE Existing Trace Audit Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_VARIANTS_AUDIT.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_PCB_INTELLIGENCE_LAYER_AUDIT.md` - ESP32_CSI_WIFI_NODE PCB Intelligence Layer Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_DRAFT_REVIEW.md` - ESP32_CSI_WIFI_NODE Schematic Draft Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_STALE_GATE_RECONCILIATION_AUDIT.md` - ESP32_CSI_WIFI_NODE Stale Gate Reconciliation Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ESP32_DEV_BOARD_LAYOUT_INTELLIGENCE_AUDIT.md` - ESP32 Dev Board Layout Intelligence Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\ESPRESSIF_RESEARCH_STATUS.md` - Espressif Research Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\FAB_FILE_FORMAT_RULES_INTEGRATION_AUDIT.md` - Fab File Format Rules Integration Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\FINAL_PRODUCTION_STRUCTURE_AUDIT.md` - Final Production Structure Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\FLUX_LEVEL_FEATURE_GAP_ANALYSIS.md` - Flux-Level Feature Gap Analysis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\FREEROUTING_FEASIBILITY_INTEGRATION_AUDIT.md` - FreeRouting Feasibility Integration Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\FULL_KICAD_PIPELINE_SETUP_AUDIT.md` - Full KiCad Pipeline Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\FULL_REPO_PRODUCTION_QUALITY_AUDIT.md` - Full Repo Production Quality Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\GITHUB_ACTIONS_RELEASE_WORKFLOWS_STATUS.md` - GitHub Actions Release Workflows Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\GOLDEN_PATH_SAMPLE_FINAL_AUDIT.md` - Golden Path Sample Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\GOLDEN_PATH_SAMPLE_PROMOTION_AUDIT.md` - Golden Path Sample Promotion Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\INSTALLER_PLAN_STATUS.md` - Installer Plan Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_ACCURACY_ENGINE_STATUS.md` - KiCad Accuracy Engine Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_AUDIT.md` - KiCad Auto-Open Project Workflow Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_BENCHMARKS_STATUS.md` - KiCad Benchmarks Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_ENGINE_FINAL_SETUP_AUDIT.md` - KICAD_ENGINE Final Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_ENGINE_PRODUCT_GAP_AUDIT.md` - KiCad Engine Product Gap Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_AUDIT.md` - KiCad Engine Schematic Failure Root-Cause Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_FOOTPRINT_GAP_ANALYSIS_REPORT.md` - KiCad Footprint Gap Analysis Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_GUI_AUTOMATION_LAYER_SETUP_AUDIT.md` - KiCad GUI Automation Layer Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_INSTALLED_APP_DEEP_AUDIT.md` - KiCad Installed App Deep Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_KNOWLEDGE_BASE_DATA_LAYER_STATUS.md` - KiCad Knowledge Base Data Layer Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_LIBRARY_FACTORY_STATUS.md` - KiCad Library Factory Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_LIBRARY_INTELLIGENCE_STATUS.md` - KiCad Library Intelligence Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_AUDIT.md` - KiCad Native Annotation Workflow Documentation Update Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_PART_INGESTION_WORKFLOW_STATUS.md` - KiCad Part Ingestion Workflow Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_PHASE_GATE_PATCH_AUDIT.md` - KiCad Phase Gate Patch Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_PROJECT_VALIDATION_SCRIPTS_STATUS.md` - KiCad Project Validation Scripts Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KICAD_REFERENCE_DESIGN_LIBRARY_STATUS.md` - KiCad Reference Design Library Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_AUDIT.md` - Knowledge Base And Reference Design Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\LAYOUT_AUTOMATION_REALITY_CHECK.md` - Layout Automation Reality Check
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\LIBRARY_FACTORY_SETUP_AUDIT.md` - Library Factory Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\LINUX_INSTALLER_SUPPORT_STATUS.md` - Linux Installer Support Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\MACOS_INSTALLER_SUPPORT_STATUS.md` - macOS Installer Support Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\MAINTENANCE_LAYER_ROOT_CAUSE_AUDIT.md` - MAINTENANCE_LAYER_ROOT_CAUSE_AUDIT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\MCU_DATASHEET_TREE_UPGRADE_REPORT.md` - MCU Datasheet Tree Upgrade Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\MEMORY_HISTORY_MAINTENANCE_UPGRADE_AUDIT.md` - Memory History Maintenance Upgrade Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\MICROCHIP_RESEARCH_STATUS.md` - Microchip PIC, dsPIC, And AVR Research Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_AUDIT.md` - Microcontroller Family Content Generator Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\OPEN_KICAD_SAMPLE_IMPORT_AUDIT.md` - Open KiCad Sample Import Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_AUDIT.md` - Open KiCad Sample Intake System Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\OPEN_KICAD_SAMPLE_PROJECTS_MASTER_AUDIT.md` - Open KiCad Sample Projects Master Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\P0_P1_REPAIR_AUDIT.md` - P0/P1 Repair Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PACKAGE_FAB_VENDOR_PROFILE_SETUP_AUDIT.md` - Package Fab Vendor Profile Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PCB_LAYOUT_SANDBOX_GATE_ADDED_AUDIT.md` - PCB Layout Sandbox Gate Added Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PCB_LAYOUT_SANDBOX_LAYER_SETUP_AUDIT.md` - PCB Layout Sandbox Layer Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PCB_TRACE_ANGLE_RULE_PATCH_AUDIT.md` - PCB Trace Angle Rule Patch Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PCB_VARIANT_SCORING_SYSTEM_AUDIT.md` - PCB Variant Scoring System Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PILL_STYLE_PCB_PLACEMENT_RULE_PATCH_AUDIT.md` - Pill-Style PCB Placement Rule Patch Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PLATFORM_CONTROL_LAYERS_AUDIT.md` - Platform Control Layers Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PLAYWRIGHT_RESEARCH_PIPELINE_SETUP_AUDIT.md` - Playwright Research Pipeline Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\POST_SAMPLE_P0_P1_REPAIR_AUDIT.md` - Post Sample P0/P1 Repair Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT.md` - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\POWER_COMPONENT_RESEARCH_STATUS.md` - Power Component Research Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_AI_SELF_REVIEW.md` - AI Self-Review: Project Gate Runner Creation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_CLAIM_EVIDENCE_MATRIX.md` - Project Gate Runner - Claim/Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_HALLUCINATION_RISK_LOG.md` - Project Gate Runner - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_QUALITY_GATE.md` - Project Gate Runner - AI Response Quality Gate
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_SETUP_AUDIT.md` - Project Gate Runner Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_UNCERTAINTY_LOG.md` - Project Gate Runner - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROMPT_COUNTER_RULE_UPGRADE_AUDIT.md` - Prompt Counter Rule Upgrade Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PROMPT_PACK_SYSTEM_STATUS.md` - Prompt Pack System Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PUBLIC_GITHUB_RELEASE_READINESS_STATUS.md` - Public GitHub Release Readiness Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PUBLIC_RELEASE_FINAL_AUDIT.md` - Public Release Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\PUBLIC_RELEASE_STRUCTURE_AUDIT.md` - Public Release Structure Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\REAL_KICAD_PCB_ROUTING_BRIDGE_AUDIT.md` - Real KiCad PCB Routing Bridge Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\REAL_PROJECT_ROUTING_WORKFLOW_AUDIT.md` - REAL_PROJECT_ROUTING_WORKFLOW_AUDIT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SAMPLE_KICAD_TEST_PROJECT_REVIEW.md` - SAMPLE_KICAD_TEST_PROJECT Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SAMPLE_PROJECT_DOCS_AUDIT.md` - Sample Project Docs Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKER_SETUP_AUDIT.md` - Schematic Annotation/Completeness Checker Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SCHEMATIC_TO_PCB_GATE_SYSTEM_AUDIT.md` - Schematic To PCB Gate System Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SCHEMATIC_VISUAL_AUTOCROP_SETUP_AUDIT.md` - Schematic Visual Autocrop Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SETUP_HEALTH_CHECK_SYSTEM_STATUS.md` - Setup And Health Check System Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\START_HERE_AI_AGENT_ROUTER_UPGRADE_AUDIT.md` - START_HERE AI Agent Router Upgrade Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\STARTUP_CLOSEOUT_INDEX_WIRING_AUDIT.md` - Startup Closeout Index Wiring Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\STM32_DATASHEET_TREE_CONTENT_COMPLETION_AUDIT.md` - STM32 Datasheet Tree Content Completion Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\STM32_RESEARCH_STATUS.md` - STM32 Research Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\STM32_SOURCE_LINK_RESEARCH_REPORT.md` - STM32 Source Link Research Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\STM32F1_PILOT_CONTENT_COMPLETION_REPORT.md` - STM32F1 Pilot Content Completion Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\STRICT_VISUAL_GATE_PATCH_AUDIT.md` - Strict Visual Gate Patch Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\STRUCTURE_EXPANSION_AUDIT.md` - Structure Expansion Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SUPPLIER_CONNECTOR_STUBS_AUDIT.md` - Supplier Connector Stubs Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT.md` - Supplier Datasheet Footprint Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SUPPLIER_FOOTPRINT_MATCH_SYSTEM_AUDIT.md` - Supplier Footprint Match System Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SUPPLIER_INGESTION_SYSTEM_SETUP_AUDIT.md` - Supplier Ingestion System Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\SUPPORT_PARTS_DATABASE_STATUS.md` - Support Parts Database Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\TEST_EXAMPLES_BENCHMARKS_SETUP_AUDIT.md` - Test Examples Benchmarks Setup Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\VSCODE_WORKSPACE_SUPPORT_STATUS.md` - VS Code Workspace Support Status
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\design_reviews\WINDOWS_INSTALLER_SMOKE_TEST_REPORT.md` - Windows Installer Smoke Test Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\erc_drc_reports\CLEAN_KICAD_PASSING_SAMPLE_VERIFICATION.md` - CLEAN_KICAD_PASSING_SAMPLE Verification
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\erc_drc_reports\COMMAND_LINK_DIRECT_EDIT_ERC_DRC_REPORT.md` - COMMAND LINK Direct Edit ERC/DRC Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\erc_drc_reports\COMMAND_LINK_DRC_CONTINUATION_ERC_DRC_REPORT.md` - COMMAND LINK DRC Continuation ERC/DRC Report
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\erc_drc_reports\COMMAND_LINK_ERC_DRC_REVIEW.md` - COMMAND LINK ERC/DRC Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\erc_drc_reports\SAMPLE_KICAD_TEST_PROJECT_VERIFICATION.md` - SAMPLE_KICAD_TEST_PROJECT Verification
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\20260502_224812_PowerShell_wildcard_py_compile_invocation_failed.md` - PowerShell wildcard py_compile invocation failed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_FAILED_COMMANDS.md` - Failed Attempts - ESP32_CSI_WIFI_NODE Real-World Failure Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\20260508_GITHUB_REPO_INDEXING_FOR_CHAT_GPT_PATH_QUOTING.md` - Failed Attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README.md` - AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\AUTO_SANDBOX_APPROVAL_RG_GLOB_SEARCH_ERROR.md` - Failed Attempt - Auto Sandbox Approval RG Glob Search Error
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PARALLEL_DRY_RUN_RACE.md` - Failed Attempt - Auto Variant Scoring Engine Parallel Dry Run Race
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PROJECT_BOOL_SCHEMA_BUG.md` - Failed Attempt - Auto Variant Scoring Engine Project Bool Schema Bug
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\COMPONENT_DATABASE_CORE_SETUP_FAILED_ATTEMPTS.md` - Component Database Core Setup Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_ERC_PROJECT_PATH_ATTEMPT.md` - Failed Attempt: ERC Invoked With Project Path
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt: Git Status Unavailable During Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_BATCH_01_DETACHED_BOARD_DRC_REHEARSAL_RULE_MISMATCH.md` - ESP32_CSI_WIFI_NODE Batch 01 Detached Board DRC Rehearsal Rule Mismatch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_CONNECTIVITY_CLEANUP_REJECTED_USB_LOCAL_REHEARSAL.md` - ESP32_CSI_WIFI_NODE Final Connectivity Cleanup Rejected USB Local Rehearsal
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_RENDER_PIVOT_FAILURE.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Render Pivot Failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_EXTRACTION_AND_TRIAL_MISPATH.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Extraction And Trial Mismatch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_FAILED_ATTEMPTS.md` - Failed Attempts - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Live PCB Truth Audit Git Status Unavailable
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_MISSING_PROMPT_INPUT_FILES.md` - Failed Attempt - Missing Prompt Input Files
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_NEW_ITEM_LITERALPATH_FAILED.md` - Failed Attempt - New-Item LiteralPath For PCB Visual Directory
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_GIT_DIFF_UNAVAILABLE.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Git Diff Unavailable
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_SELECT_STRING_QUOTING.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Select-String Quoting
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_UPDATE_FROM_SCHEMATIC_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - Git Status Unavailable During PCB Update Blocked Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PHASE2_PCBNEW_IMPORT_WITH_SYSTEM_PYTHON_FAILED.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Phase 2 pcbnew Import With System Python Failed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PHASE2_POWERSHELL_HEREDOC_FAILED.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Phase 2 PowerShell Heredoc Failed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_PRECONDITION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Precondition Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_PRECONDITION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Precondition Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_BASELINE_EXTRACTION_RETRIES.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Baseline Extraction Retries
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_SCHEMATIC_GATE_CHECKER_OPTION_MISMATCH.md` - Failed Attempt: Schematic Gate Checker Option Mismatch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_ENCODING_WRITE_ATTEMPT.md` - Failed Attempt: PowerShell Encoding Write Attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_BY_PHASE_GATE.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked By Phase Gate
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\FOOTPRINT_GAP_ANALYSIS_SECRET_SCAN_FALSE_POSITIVES.md` - Footprint Gap Analysis Secret Scan False Positives
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\FREEROUTING_FEASIBILITY_INTEGRATION_APPLYPATCH_CONTEXT_MISMATCH.md` - FreeRouting Feasibility Integration ApplyPatch Context Mismatch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\GOLDEN_PATH_SAMPLE_GATE_RUN_TOOLING_ATTEMPTS.md` - Failed Attempts - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\GOLDEN_PATH_SAMPLE_PROMOTION_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - Git Status Unavailable During Golden Path Sample Promotion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\KICAD_AUTO_OPEN_PROJECT_DRY_RUN_REPORT_FORMAT_HICCUP.md` - Failed Attempt: Auto-Open Dry-Run Report Formatting Hiccup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\KICAD_ENGINE_ROOT_CAUSE_AUDIT_COMMAND_HICCUPS.md` - Failed Attempt: Root-Cause Audit Validation Command Hiccups
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\KICAD_PHASE_GATE_PATCH_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - KiCad Phase Gate Patch Git Status Unavailable
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_FAILED_ATTEMPTS.md` - Knowledge Base Reference Design Setup Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\MCU_TREE_UPGRADE_POWERSHELL_HEREDOC_FAILED.md` - Failed Attempt: PowerShell Heredoc Syntax
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\MCU_TREE_UPGRADE_RG_DOLLAR_QUOTING.md` - Failed Attempt: rg Dollar Pattern Quoting
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\OPEN_KICAD_SAMPLE_IMPORT_FAILED_ATTEMPTS.md` - Failed Attempts - Open KiCad Sample Import
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\P0_P1_REPAIR_VALIDATION_COMMAND_MISTAKES.md` - Failed Attempt: P0/P1 Repair Validation Command Mistakes
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\PCB_TRACE_ANGLE_RULE_PATCH_COMBINED_APPLYPATCH_CONTEXT_MISMATCH.md` - PCB Trace Angle Rule Patch Combined ApplyPatch Context Mismatch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\PLAYWRIGHT_BATCH_MARKDOWN_REPORT_GENERATION_QUOTING.md` - Failed Attempt: Playwright Batch Markdown Report Generation Quoting
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\PLAYWRIGHT_LIVE_CAPTURE_BLOCKED_20260503.md` - Failed Attempt: Playwright Live Capture Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\PLAYWRIGHT_RESEARCH_PIPELINE_LIVE_ARTIFACT_SCAN_QUOTING.md` - Failed Attempt: Playwright Live Artifact Scan Quoting
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\POST_SAMPLE_P0_P1_REPAIR_COMMAND_HICCUPS.md` - Failed Attempt - Post Sample P0/P1 Repair Command Hiccups
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_VALIDATION_HICCUPS.md` - Failed Attempt - Post Sample Audit Validation Hiccups
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\README.md` - Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS.md` - REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH.md` - REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\SAMPLE_PROJECT_PAYLOAD_RULES_VALIDATION_COMMAND_FAILURES.md` - Failed Attempt - Sample Payload Validation Command Syntax
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\SCHEMATIC_CHECKERS_VISUAL_WORKFLOW_FILE_MISSING.md` - Failed Attempt: Visual Verification Workflow File Missing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\SCHEMATIC_TO_PCB_GATE_GIT_DIFF_UNAVAILABLE.md` - Failed Attempt - Git Diff Unavailable
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\SCHEMATIC_VISUAL_AUTOCROP_SETUP_FAILED_ATTEMPTS.md` - Failed Attempts: Schematic Visual Autocrop Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\STARTUP_CLOSEOUT_INDEX_WIRING_FAILED_ATTEMPTS.md` - Startup Closeout Index Wiring Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\STM32_SOURCE_LINK_RESEARCH_VALIDATION_COMMAND_FAILURE.md` - STM32 Source Link Research Validation Command Failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\STM32F1_PILOT_BAD_RG_QUOTING.md` - STM32F1 Pilot Bad rg Quoting
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\STRUCTURE_EXPANSION_FAILED_ATTEMPTS.md` - Structure Expansion Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\SUPPLIER_CONNECTOR_STUBS_GIT_DIFF_NOT_REPO.md` - Failed Attempt: Optional Git Diff Check
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\SUPPLIER_INGESTION_SECRET_SCAN_QUOTING_FAILURE.md` - Failed Attempt: Supplier Ingestion Secret Scan Quoting Failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\failed_attempts\TEST_EXAMPLES_BENCHMARKS_SETUP_FAILED_ATTEMPTS.md` - Test Examples Benchmarks Setup Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_RISK_LOG.md` - Hallucination Risk Log: Schematic Annotation/Completeness Checkers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_RISK_LOG.md` - Hallucination Risk Log: Schematic Visual Autocrop Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_170057_Risk_of_confusing_automated_visual_artifacts_with_human_readable_schematic_appro.md` - Risk of confusing automated visual artifacts with human-readable schematic approval
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_RISK_LOG.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_RISK_LOG.md` - Hallucination Risk Log: KiCad Engine Schematic Failure Root-Cause
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_RISK.md` - Hallucination Risk Log: ESP32_CSI Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_RISK.md` - Hallucination Risk Log: ESP32 CSI Actual KiCad Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_RISK.md` - Hallucination Risk Log: ESP32 CSI GUI Annotation Diagnosis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_RISK.md` - Hallucination Risk Log: KiCad GUI Automation Layer
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Hallucination_Risk_Log.md` - PCB Layout Sandbox Layer Setup Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_172119_PCB_Variant_Scoring_System_Hallucination_Risk_Log.md` - PCB Variant Scoring System Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Hallucination_Risk_Log.md` - ESP32 Dev Board Layout Intelligence Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_175002_FreeRouting_Feasibility_Integration_Hallucination_Risk_Log.md` - FreeRouting Feasibility Integration Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Hallucination_Risk_Log.md` - PCB Layout Sandbox Gate Added Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Hallucination_Risk_Log.md` - Real KiCad PCB Routing Bridge Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Hallucination_Risk_Lo.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Hallucination_Risk.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_HALLUCINATION_RISK.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE BOM Sourcing Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Final Production Signoff
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Mechanical 3D Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE PCB Create From Schematic
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Production Fix Pass
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Real-World Failure Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_HALLUCINATION_RISK.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260508_140404_GITHUB_REPO_PUSH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260508_150300_GITHUB_REPO_INDEXING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md` - Accuracy Engine And AI Quality Setup Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md` - AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Sandbox Approval System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\AUTO_VARIANT_SCORING_ENGINE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Variant Scoring Engine
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\COMPONENT_DATABASE_CORE_SETUP_HALLUCINATION_RISK_LOG.md` - Component Database Core Setup Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\CORE_PLACEHOLDER_CONTENT_UPGRADE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Core Placeholder Content Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Full Routing And Copper
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE GUI Native Annotation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Schematic Audit Only
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Schematic Safe Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\FINAL_PRODUCTION_STRUCTURE_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Final Production Structure Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\FOOTPRINT_GAP_ANALYSIS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Footprint Gap Analysis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\FULL_KICAD_PIPELINE_PROMPT_PACK_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Full KiCad Pipeline Prompt Pack
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\FULL_REPO_PRODUCTION_QUALITY_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Full Repo Production Quality Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\GOLDEN_PATH_SAMPLE_GATE_RUN_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\GOLDEN_PATH_SAMPLE_PROMOTION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Golden Path Sample Promotion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: KiCad Auto-Open Project Workflow
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: KiCad Native Annotation Workflow Documentation Update
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\KICAD_PHASE_GATE_PATCH_HALLUCINATION_RISK.md` - Hallucination Risk Log - KiCad Phase Gate Patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Knowledge Base Reference Design Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\MCU_DATASHEET_TREE_UPGRADE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: MCU Datasheet Tree Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_HALLUCINATION_RISK_LOG.md` - Microcontroller Family Content Generator Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Open KiCad Sample Candidate Discovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Open KiCad Sample Project Import
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Open KiCad Sample Projects Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\P0_P1_REPAIR_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\PACKAGE_FAB_VENDOR_PROFILE_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Package Fab Vendor Profile Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\PCB_TRACE_ANGLE_RULE_PATCH_HALLUCINATION_RISK_LOG.md` - PCB Trace Angle Rule Patch Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Batch Research Expansion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\PLAYWRIGHT_PILOT_RESEARCH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Pilot Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\PLAYWRIGHT_RESEARCH_PIPELINE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Research Pipeline
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\POST_SAMPLE_P0_P1_REPAIR_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Post Sample P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\PROJECT_GATE_RUNNER_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Project Gate Runner
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\PUBLIC_RELEASE_STRUCTURE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Public Release Structure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\README.md` - Hallucination Risk Logs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SAMPLE_PROJECT_PAYLOAD_RULES_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Sample Project Payload Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SAMPLE_PROJECT_PUBLIC_DOCS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Sample Project Public Docs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SCHEMATIC_TO_PCB_GATE_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Schematic To PCB Gate System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\STARTUP_CLOSEOUT_INDEX_WIRING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Startup Closeout Index Wiring
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\STM32_DATASHEET_TREE_CONTENT_COMPLETION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - STM32 Datasheet Tree Content Completion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\STM32_SOURCE_LINK_RESEARCH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - STM32 Source Link Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\STM32F1_PILOT_CONTENT_COMPLETION_HALLUCINATION_RISK_LOG.md` - STM32F1 Pilot Content Completion Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\STRUCTURE_EXPANSION_HALLUCINATION_RISK_LOG.md` - Structure Expansion Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SUPPLIER_CONNECTOR_STUBS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Connector Stubs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Datasheet Footprint Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SUPPLIER_FOOTPRINT_MATCH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Supplier Footprint Match System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SUPPLIER_INGESTION_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Ingestion System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Ingestion System Revalidation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\TEST_EXAMPLES_BENCHMARKS_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Test Examples Benchmarks Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\HISTORY_INDEX.md` - History Index
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\INDEX.md` - 02_HISTORY Index
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\20260508_GITHUB_PUBLIC_RELEASE_BLOCKERS_REMAIN_OPEN.md` - Issue Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS.md` - AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\AUTO_VARIANT_SCORING_ENGINE_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - Auto Variant Scoring Engine Needs First Live Project Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_CONTROL_NET_CRITICAL_ROUTING_DEFERRED_AFTER_COPIED_BOARD_DRC_CROSSINGS.md` - ESP32_CSI_WIFI_NODE Control-Net Critical Routing Deferred After Copied-Board DRC Crossings
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_SELECTION_PENDING_LJ_REVIEW.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Selection Pending LJ Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_SANDBOX_GATE_BLOCKED.md` - ESP32_CSI_WIFI_NODE PCB Layout Sandbox Gate Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REMAINING_CONNECTIVITY_BLOCKERS_AFTER_FINAL_CLEANUP.md` - ESP32_CSI_WIFI_NODE Remaining Connectivity Blockers After Final Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_ROUTING_GATE_CONFLICT_REMAINS_OPEN.md` - Issue Log - ESP32_CSI_WIFI_NODE Routing Gate Conflict Remains Open
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_SANDBOX_AUTO_APPROVAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE Sandbox Auto Approval Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_REMAIN_OPEN.md` - Issue Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers Remain Open
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\ESP32_DEV_BOARD_PLACEMENT_INTELLIGENCE_NEEDS_FIRST_PROJECT_ADOPTION.md` - ESP32 Dev Board Placement Intelligence Needs First Project Adoption
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\FINAL_PRODUCTION_STRUCTURE_PUBLIC_RELEASE_BLOCKERS.md` - Issue Log: Final Production Structure Public Release Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\FOOTPRINT_GAP_ANALYSIS_VERIFICATION_BACKLOG_OPEN.md` - Issue Log - Footprint Gap Analysis Verification Backlog
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\FREEROUTING_FEASIBILITY_INTEGRATION_NEEDS_FIRST_LIVE_DRY_RUN.md` - FreeRouting Feasibility Integration Needs First Live Dry Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\GOLDEN_PATH_SAMPLE_FIXTURE_REMAINS_BLOCKED.md` - Issue Log - Golden Path Sample Fixture Remains Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\GOLDEN_PATH_SAMPLE_REMAINING_BLOCKERS.md` - Issue Log - Golden Path Sample Remaining Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\KICAD_ENGINE_PUBLIC_RELEASE_BLOCKERS_20260508.md` - KICAD_ENGINE Public Release Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\KICAD_ENGINE_VISUAL_GATE_REPAIR_REMAINING.md` - Issue Log: KiCad Engine Visual Gate Repair Remaining
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\KICAD_PHASE_SKIPPING_DOWNSTREAM_REVIEWS_BEFORE_PCB.md` - Issue Log - KiCad Phase Skipping Downstream Reviews Before PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\MCU_DATASHEET_SUPPORT_FOLDERS_REMAIN_WEAK.md` - Issue Log: MCU Datasheet Support Folders Remain Weak
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\MISSING_VISUAL_VERIFICATION_WORKFLOW_DOC.md` - Issue: Missing Visual Verification Workflow Document
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\OPEN_KICAD_SAMPLE_IMPORT_REVIEW_BACKLOG.md` - Issue Log - Open KiCad Sample Import Review Backlog
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_BLOCKERS.md` - Issue Log - Open KiCad Sample Projects Audit Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\PCB_LAYOUT_SANDBOX_REQUIRES_PROJECT_LEVEL_ADOPTION.md` - PCB Layout Sandbox Requires Project-Level Adoption
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\PCB_VARIANT_SCORING_SYSTEM_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - PCB Variant Scoring System Needs First Live Project Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Issue Log: Playwright Batch Live Capture Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\PLAYWRIGHT_RESEARCH_PIPELINE_LIVE_MODE_UNTESTED.md` - Issue: Playwright Research Pipeline Live Mode Untested
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_BLOCKERS.md` - Issue Log - Post Sample Project Production Audit Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\POST_SAMPLE_PUBLIC_RELEASE_BLOCKERS_AFTER_P0_P1_REPAIR.md` - Issue Log - Post Sample Public Release Blockers After P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\PROJECT_GATE_RUNNER_SAMPLE_BLOCKERS.md` - Issue Log - ATtiny85 Sample Gate Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\README.md` - Issue Logs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN.md` - REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\SAMPLE_PROJECT_PUBLIC_PAYLOAD_BLOCKED_PENDING_REVIEW.md` - Issue Log - Sample Project Public Payload Blocked Pending Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\SCHEMATIC_TO_PCB_GATE_BLOCKED_ESP32_CSI_WIFI_NODE.md` - Issue Log - ESP32_CSI_WIFI_NODE Schematic To PCB Gate Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK.md` - STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\STARTUP_CLOSEOUT_INDEX_WIRING_GIT_METADATA_UNAVAILABLE.md` - Issue Log: Git Metadata Unavailable During Startup Wiring
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\STM32F1_PILOT_REMAINING_VERIFICATION_BACKLOG.md` - STM32F1 Pilot Remaining Verification Backlog
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\SUPPLIER_CONNECTOR_LIVE_API_IMPLEMENTATION_PENDING.md` - Issue: Supplier Connector Live API Implementation Pending
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\issue_logs\SUPPLIER_DATASHEET_FOOTPRINT_PUBLIC_RELEASE_BLOCKERS.md` - Supplier Datasheet Footprint Public Release Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\known_agent_mistakes\BARREL_JACK_ORIENTATION_CONFUSION.md` - Barrel Jack Orientation Confusion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\known_agent_mistakes\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md` - Crude 90-Degree Scripted Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\known_agent_mistakes\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\known_agent_mistakes\README.md` - Known Agent Mistakes
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\lessons_learned\README.md` - Lessons Learned
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\MASTER_HISTORY_INDEX.md` - Master History Index
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\project_history\CLEAN_KICAD_PASSING_SAMPLE\README.md` - ﻿# CLEAN_KICAD_PASSING_SAMPLE Project History
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\project_history\ESP32_CSI_WIFI_NODE\README.md` - ﻿# ESP32_CSI_WIFI_NODE Project History
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\project_history\SAMPLE_KICAD_TEST_PROJECT\README.md` - SAMPLE_KICAD_TEST_PROJECT Project History
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260503_0754_ESP32_CSI_WIFI_NODE_SCHEMATIC_CHECKERS_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE Schematic Checker Reports
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md` - Quality Gate Failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE BOM Sourcing Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Mechanical 3D Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Production Fix Pass
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Real-World Failure Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_FILE_EDIT_ANNOTATION_REJECTED.md` - Quality Gate Failure: Codex File-Edit Annotation Rejected
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_TEXT_EDIT_ANNOTATION_FAILED.md` - Quality Gate Failure: Codex Text-Edit Annotation Did Not Resolve GUI State
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\ESP32_CSI_FALSE_ANNOTATION_PASS.md` - Quality Gate Failure: ESP32_CSI_FALSE_ANNOTATION_PASS
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\ESP32_CSI_PRIOR_FALSE_ANNOTATION_PASS_CONFIRMED.md` - Quality Gate Failure: Prior False Annotation Pass Confirmed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\ESP32_CSI_WIFI_NODE_CLOSE_UP_VISUAL_REVIEW_FAIL.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE Close-Up Visual Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\ESP32_CSI_WIFI_NODE_SCHEMATIC_TO_PCB_GATE_FAIL_AFTER_ELECTRICAL_REPAIR.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Schematic To PCB Gate
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_FIXTURE_NOT_CLEAN_PASS.md` - Quality Gate Failure - Golden Path Sample Fixture Not Clean Pass
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_GATE_RUN_BLOCKED.md` - Quality Gate Failure - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\KICAD_ENGINE_VISUAL_GATE_ROOT_CAUSE_CONFIRMED.md` - Quality Gate Failure: Visual Gate Evidence Was Overclaimed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md` - Quality Gate Failure - Open KiCad Samples Not Promotion Ready
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md` - Quality Gate Failure: Public Release Remains Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Quality Gate Failure: Playwright Batch Live Capture Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\POST_SAMPLE_P0_P1_REPAIR_PUBLIC_RELEASE_STILL_BLOCKED.md` - Quality Gate Failure - Public Release Still Blocked After P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\PROJECT_GATE_RUNNER_SAMPLE_BLOCKED.md` - Quality Gate Failure - ATtiny85 Gate Runner Sample
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\README.md` - Quality Gate Failures
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\SCHEMATIC_TO_PCB_GATE_BLOCKED_ESP32_CSI_WIFI_NODE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Schematic To PCB Gate
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\quality_gate_failures\SUPPLIER_DATASHEET_FOOTPRINT_NOT_PRODUCTION_READY.md` - Quality Gate Failure: Supplier Datasheet Footprint Not Production Ready
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\README.md` - 02_HISTORY
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\2026-05-08_PCB_BATCH_04_REPLAY_REQUEST_ALREADY_APPLIED_SESSION.md` - PCB Batch 04 Replay Request Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\20260502_224838_Memory_history_learning_system_created.md` - Memory history learning system created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\20260502_230010_AI_quality_gate_setup_completed.md` - AI quality gate setup completed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SESSION.md` - Accuracy Engine And AI Quality Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\AUTO_PCB_START_WORKFLOW_CREATED.md` - AUTO_PCB_START_WORKFLOW_CREATED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\AUTO_PLACEMENT_ENGINE_CREATED.md` - AUTO_PLACEMENT_ENGINE_CREATED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\AUTO_ROUTING_ENGINE_CREATED.md` - AUTO_ROUTING_ENGINE_CREATED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SESSION.md` - AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\AUTO_SANDBOX_APPROVAL_SYSTEM_CREATED.md` - Auto Sandbox Approval System Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\AUTO_VARIANT_SCORING_ENGINE_CREATED.md` - Auto Variant Scoring Engine Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\AUTOMATIC_SCHEMATIC_CLOSEUP_CROPS_ADDED.md` - Automatic Schematic Close-Up Crops Added
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\BARREL_JACK_USB_C_ORIENTATION_RULE_PATCH_SESSION.md` - Barrel Jack And USB-C Orientation Rule Patch Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CLEAN_SAMPLE_SUCCESS_PATH_SESSION.md` - Clean Sample Success Path Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CODEX_MCP_CONFIG_SESSION.md` - Codex MCP Config Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CODEX_PROMPTS_CREATED.md` - Codex Prompts Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CODEX_START_CONTROL_PLANES_AUDIT_SESSION.md` - Codex Start Control Planes Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CODEX_START_CONTROL_PLANES_SYNCED.md` - Codex Startup Control Planes Synced
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMAND_LINK_DIRECT_EDIT_SESSION.md` - COMMAND LINK Direct Edit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMAND_LINK_DRC_CONTINUATION_SESSION.md` - COMMAND LINK DRC Continuation Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT_SESSION.md` - COMMAND LINK Final Fabrication Readiness Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMAND_LINK_FINISHED_PCB_INDEXED.md` - COMMAND LINK Finished PCB Indexed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMAND_LINK_LEARNING_UPDATE_SESSION.md` - COMMAND LINK Learning Update Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMAND_LINK_READ_ONLY_REVIEW_SESSION.md` - COMMAND LINK Read-Only Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMAND_LINK_REFERENCE_COPY_CREATED.md` - COMMAND LINK Reference Copy Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMMUNICATION_COMPONENT_DATABASE_SESSION.md` - Communication Component Database Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMPONENT_DATABASE_CORE_SETUP_SESSION.md` - Component Database Core Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\COMPONENT_DATABASE_SCAFFOLD_SESSION.md` - Component Database Scaffold Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CONNECTOR_DATABASE_SESSION.md` - Connector Database Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CONTROL_PLANES_RULES_UPDATED.md` - Control Planes Rules Updated
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CORE_PLACEHOLDER_CONTENT_UPGRADE_SESSION.md` - Core Placeholder Content Upgrade Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\CROSS_PLATFORM_INSTALLER_PROJECT_SESSION.md` - Cross-Platform Installer Project Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\DATASHEET_LIBRARY_RESTRUCTURE_SESSION.md` - Datasheet Library Restructure Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\DATASHEET_METADATA_RULES_SESSION.md` - Datasheet Metadata Rules Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\DATASHEET_RESEARCH_PIPELINE_SESSION.md` - Datasheet Research Pipeline Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ACTUAL_KICAD_ANNOTATION_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Actual KiCad Annotation Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOM_FOOTPRINT_LOCK_CREATED.md` - Session Log - ESP32_CSI_WIFI_NODE BOM And Footprint Lock Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE BOM Sourcing Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOTTOM_EDGE_CONNECTOR_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Bottom Edge Connector Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOTTOM_EDGE_CONNECTOR_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Bottom Edge Connector Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COMPONENT_SELECTION_REVIEW.md` - ESP32_CSI_WIFI_NODE Component Selection Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPPER_POUR_SESSION.md` - ESP32 CSI WiFi Node Copper Pour Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_CRITICAL_NETS_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Critical Nets Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_CRITICAL_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE Critical Routing Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_DEV_BOARD_LAYOUT_SPEC_SESSION.md` - ESP32_CSI_WIFI_NODE Dev-Board Layout Spec Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_EMERGENCY_ANNOTATION_REPAIR_SESSION.md` - Session Log: ESP32_CSI_WIFI_NODE Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_EMERGENCY_SCHEMATIC_TRUTH_AUDIT_SESSION.md` - Session Log - ESP32_CSI_WIFI_NODE Emergency Schematic Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PCB_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final PCB Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PCB_VERIFICATION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Final PCB Verification Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_PACKAGE_SESSION.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Package Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final Production Signoff Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_ROUTED_PCB_REVIEW_SESSION.md` - ESP32 CSI WiFi Node Final Routed PCB Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_SCHEMATIC_READINESS_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final Schematic Readiness Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_TRACE_BY_TRACE_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final Trace By Trace Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SESSION.md` - ESP32_CSI_WIFI_NODE Full Routing And Copper Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Full Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FULL_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE Full Routing Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_GUI_ANNOTATION_DIAGNOSIS_SESSION.md` - ESP32_CSI_WIFI_NODE GUI Annotation Diagnosis Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_BLOCKED.md` - ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_HUMAN_READABLE_SCHEMATIC_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Human-Readable Schematic Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_INTELLIGENCE_BASED_PLACEMENT_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Intelligence-Based Placement Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_AUDIT_SESSION.md` - ESP32 CSI WiFi Node J1 Barrel Jack Orientation Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE J1 Barrel Jack Orientation Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE J1/J2 Orientation Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SESSION.md` - ESP32 CSI WiFi Node KiCad GUI Native Annotation Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_VARIANTS_CREATED.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE Mechanical 3D Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_NOT_FINAL_FAB_EXPORT_BLOCKED.md` - ESP32_CSI_WIFI_NODE NOT_FINAL Fab Export Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_SESSION.md` - ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_01_DRC_AND_GND_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 01 DRC And GND Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_03_USB_CONTROL_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 03 USB Control Routing Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_04_CONTROL_NET_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 04 Control Net Routing Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_05_USB_DATA_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 05 USB Data Routing Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Create From Schematic Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_FINAL_CONNECTIVITY_CLEANUP_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Final Connectivity Cleanup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_INTELLIGENCE_LAYER_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Intelligence Layer Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_PLAN_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Layout Plan Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_SPEC_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Layout Specification Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Mechanical Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Placement Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_STRICT_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Placement Strict Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_BLOCKED.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE.md` - ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_UPDATE_FROM_SCHEMATIC_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Update From Schematic Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_ZONE_SETUP_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Zone Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_SESSION.md` - Session - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_REPAIR_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Repair Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_POST_COPPER_DRC_REPAIR_SESSION.md` - ESP32 CSI WiFi Node Post-Copper DRC Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_POWER_ROUTING_REPAIR_BATCH_02_SESSION.md` - ESP32_CSI_WIFI_NODE Power Routing Repair Batch 02 Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PRE_ROUTING_PRE_COPPER_POUR_READINESS_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Pre-Routing And Pre-Copper-Pour Readiness Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SESSION.md` - ESP32_CSI_WIFI_NODE Production Fix Pass Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_Q1_PMOS_PIN_MAPPING_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Q1 PMOS Pin Mapping Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_CRITICAL_ROUTING_PASS_1_SESSION.md` - ESP32_CSI_WIFI_NODE Real PCB Critical Routing Pass 1 Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SESSION.md` - ESP32_CSI_WIFI_NODE Real PCB Full Routing Pass Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_SESSION.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SESSION.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE Real-World Failure Review Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_REPAIR_PASS_SESSION.md` - ESP32 CSI WiFi Node Routing Repair Pass Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_CLEANUP_SESSION.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Cleanup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_PROFESSIONAL_CLEANUP_SESSION.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Professional Cleanup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 1 Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_2_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 2 Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_3_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 3 Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_4_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 4 Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_SESSION.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Audit-Only Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_DRAFT_CREATED.md` - ESP32_CSI_WIFI_NODE Schematic Draft Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_REVIEWED.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers Reviewed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_FOOTPRINT_GATE_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Footprint Gate Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_HUMAN_REVIEW_PACKET_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Human Review Packet Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_REAL_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Real Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Safe Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_SESSION.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_STAGE_3_USB_BLOCKED_SESSION.md` - ESP32_CSI_WIFI_NODE Stage 3 USB Blocked Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_STRICT_VISUAL_READABILITY_REAUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_WORKSPACE_CREATED.md` - ESP32_CSI_WIFI_NODE Workspace Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESP32_DEV_BOARD_LAYOUT_INTELLIGENCE_CREATED.md` - ESP32 Dev Board Layout Intelligence Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\ESPRESSIF_RESEARCH_SESSION.md` - Espressif Research Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FAB_FILE_FORMAT_RULES_INTEGRATED_SESSION.md` - Fab File Format Rules Integrated Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FINAL_PRODUCTION_STRUCTURE_AUDIT_SESSION.md` - Final Production Structure Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FOOTPRINT_GAP_ANALYSIS_SYSTEM_CREATED.md` - Footprint Gap Analysis System Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE.md` - FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FOR_CHAT_GPT_REFRESHED.md` - FOR CHAT GPT Refreshed
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FREEROUTING_FEASIBILITY_INTEGRATION_CREATED.md` - FreeRouting Feasibility Integration Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FULL_KICAD_PIPELINE_PROMPT_PACK_ADDED.md` - Full KiCad Pipeline Prompt Pack Added
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\FULL_REPO_PRODUCTION_QUALITY_AUDIT_SESSION.md` - Full Repo Production Quality Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\GITHUB_REPO_INDEXING_SESSION.md` - GITHUB_REPO_INDEXING_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\GITHUB_REPO_PUSH_SESSION.md` - GitHub Repo Push Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\GLOBAL_CODEX_AGENTS_UPDATED.md` - Global Codex AGENTS Updated
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\GOLDEN_PATH_SAMPLE_GATE_RUN.md` - Session Log - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\GOLDEN_PATH_SAMPLE_PROMOTED.md` - Session Log - Golden Path Sample Promoted
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\INSTALLER_PAYLOAD_TEMPLATE_SESSION.md` - Installer Payload Template Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\INSTALLER_PLAN_SESSION.md` - Installer Plan Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KIBOT_INSTALL_SESSION.md` - KiBot Install Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_AGENT_OPERATING_MANUAL_SESSION.md` - KiCad Agent Operating Manual Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_CREATED.md` - KiCad Auto-Open Project Workflow Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_ENGINE_FINAL_SETUP_AUDIT_SESSION.md` - KICAD_ENGINE Final Setup Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_ENGINE_HEALTH_CHECK_SESSION.md` - KiCad Engine Health Check Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_ENGINE_PRODUCT_VISION_ARCHITECTURE_SESSION.md` - KiCad Engine Product Vision And Architecture Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_AUDIT_SESSION.md` - KiCad Engine Schematic Failure Root-Cause Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_GUI_AUTOMATION_LAYER_CREATED.md` - Session Log: KiCad GUI Automation Layer Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_GUI_DISCOVERY_CONFIRMED_RUN_SESSION.md` - KiCad GUI Discovery Confirmed Run Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_GUI_DISCOVERY_FILTER_FIX_SESSION.md` - KiCad GUI Discovery Filter Fix Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_GUI_DISCOVERY_RUN_SESSION.md` - KiCad GUI Discovery Run Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_GUI_DISCOVERY_WORKFLOW_CREATED.md` - KiCad GUI Discovery Workflow Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_HAPPY_INSTALL_SESSION.md` - kicad-happy Install Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_INSTALLED_APP_DEEP_AUDIT_SESSION.md` - KiCad Installed App Deep Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_LIBRARY_INTELLIGENCE_SESSION.md` - KiCad Library Intelligence Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_MCP_PRO_INSTALL_SESSION.md` - kicad-mcp-pro Install Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOCUMENTED.md` - KiCad Native Annotation Workflow Documented
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_PHASE_GATE_PATCH_SESSION.md` - Session - KiCad Phase Gate Patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_PROJECT_VALIDATION_SCRIPTS_SESSION.md` - KiCad Project Validation Scripts Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KICAD_VERIFICATION_SCRIPTS_CREATED.md` - KiCad Verification Scripts Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_SESSION.md` - Knowledge Base Reference Design Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\LIBRARY_FACTORY_SETUP_SESSION.md` - Library Factory Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\LICENSE_ATTRIBUTION_AUDIT_SESSION.md` - License Attribution Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\LINUX_AUTOMATION_PLAN_CREATED.md` - Linux Automation Plan Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\LOCAL_ENVIRONMENT_CHECK_SESSION.md` - Local Environment Check Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_SESSION.md` - MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MAINTENANCE_LAYER_TEST_SESSION.md` - MAINTENANCE_LAYER_TEST_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MCU_DATASHEET_TREE_UPGRADE_SESSION.md` - Session Log: MCU Datasheet Tree Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MCU_FAMILY_GUIDES_SESSION.md` - MCU Family Guides Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MEMORY_HISTORY_CLEANUP_SESSION.md` - Memory History Cleanup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MEMORY_HISTORY_MAINTENANCE_UPGRADE_SESSION.md` - Memory History Maintenance Upgrade Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MEMORY_STARTERS_CREATED.md` - Memory Starters Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MICROCHIP_RESEARCH_SESSION.md` - Microchip Research Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_CREATED.md` - Microcontroller Family Content Generator Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_SESSION.md` - Session Log - Open KiCad Sample Candidate Discovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_CREATED.md` - Session Log - Open KiCad Sample Intake System Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\OPEN_KICAD_SAMPLE_PROJECTS_AUDITED.md` - Session Log - Open KiCad Sample Projects Audited
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\OPEN_KICAD_SAMPLE_PROJECTS_IMPORTED.md` - Session Log - Open KiCad Sample Projects Imported
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\P0_P1_REPAIR_SESSION.md` - P0/P1 Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PACKAGE_FAB_VENDOR_PROFILE_SETUP_SESSION.md` - Package Fab Vendor Profile Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PATH_FIX_SESSION.md` - PATH Fix Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PAYLOAD_TEMPLATE_REFRESH_SESSION.md` - Payload Template Refresh Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PCB_LAYOUT_SANDBOX_GATE_ADDED.md` - PCB Layout Sandbox Gate Added
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PCB_LAYOUT_SANDBOX_LAYER_CREATED.md` - PCB Layout Sandbox Layer Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PCB_TRACE_ANGLE_RULE_PATCH_SESSION.md` - PCB Trace Angle Rule Patch Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PCB_VARIANT_SCORING_SYSTEM_CREATED.md` - PCB Variant Scoring System Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PILL_STYLE_PCB_PLACEMENT_RULES_UPDATED.md` - Pill-Style PCB Placement Rules Updated
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PLATFORM_CONTROL_LAYERS_AUDIT_SESSION.md` - Platform Control Layers Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PLATFORM_TOOL_ROOTS_CREATED.md` - Platform Tool Roots Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION.md` - Session Log: Playwright Batch Research Expansion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PLAYWRIGHT_PILOT_RESEARCH_RUN.md` - Session Log: Playwright Pilot Research Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PLAYWRIGHT_RESEARCH_PIPELINE_CREATED.md` - Playwright Research Pipeline Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\POST_SAMPLE_P0_P1_REPAIR_SESSION.md` - Session Log - Post Sample P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_SESSION.md` - Session Log - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\POWER_COMPONENT_DATABASE_SESSION.md` - Power Component Database Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PROJECT_GATE_RUNNER_CREATED.md` - Project Gate Runner Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PROJECT_TEMPLATE_SYSTEM_CREATED.md` - Project Template System Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PROMPT_COUNTER_RULE_UPGRADE_SESSION.md` - Prompt Counter Rule Upgrade Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PROMPT_PACK_SYSTEM_SESSION.md` - Prompt Pack System Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PUBLIC_GITHUB_RELEASE_READINESS_SESSION.md` - Public GitHub Release Readiness Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\PUBLIC_RELEASE_STRUCTURE_SESSION.md` - Public Release Structure Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\README_GPT_CREATED_OR_UPDATED.md` - README_GPT Created Or Updated
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\REAL_KICAD_PCB_ROUTING_BRIDGE_CREATED.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_CREATED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\REAL_PROJECT_ROUTING_WORKFLOW_DEFINED.md` - REAL_PROJECT_ROUTING_WORKFLOW_DEFINED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\REAL_PROJECT_WORKFLOW_CREATED.md` - Real Project Workflow Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SAMPLE_PIPELINE_FIX_SESSION.md` - Sample Pipeline Fix Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SAMPLE_PIPELINE_TEST_SESSION.md` - Sample Pipeline Test Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SAMPLE_PROJECT_PAYLOAD_RULES_UPDATED.md` - Session Log - Sample Project Payload Rules Updated
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SAMPLE_PROJECT_PUBLIC_DOCS_ADDED.md` - Sample Project Public Docs Added
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_ADDED.md` - Schematic Annotation/Completeness Checkers Added
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SCHEMATIC_TO_PCB_GATE_SYSTEM_ADDED.md` - Schematic To PCB Gate System Added
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SETUP_HEALTH_CHECK_SYSTEM_SESSION.md` - Setup And Health Check System Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\START_HERE_AI_AGENT_ROUTER_UPGRADE_SESSION.md` - START_HERE AI Agent Router Upgrade Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\START_HERE_CHATGPT_HANDOFF_RULE_UPDATED.md` - START_HERE ChatGPT Handoff Rule Updated
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STARTUP_CLOSEOUT_INDEX_WIRING_SESSION.md` - Startup Closeout Index Wiring Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STARTUP_INSTRUCTIONS_CREATED.md` - Startup Instructions Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STM32_DATASHEET_TREE_CONTENT_COMPLETION_SESSION.md` - STM32 Datasheet Tree Content Completion Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STM32_RESEARCH_SESSION.md` - STM32 Research Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STM32_SOURCE_LINK_RESEARCH_SESSION.md` - STM32 Source Link Research Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STM32F1_PILOT_CONTENT_COMPLETION_SESSION.md` - STM32F1 Pilot Content Completion Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STRICT_HUMAN_READABLE_SCHEMATIC_RULE_ADDED.md` - Strict Human Readable Schematic Rule Added
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\STRUCTURE_EXPANSION_SESSION.md` - Structure Expansion Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SUPPLIER_CONNECTOR_STUBS_CREATED.md` - Supplier Connector Stubs Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_SESSION.md` - Supplier Datasheet Footprint Final Audit Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SUPPLIER_FOOTPRINT_MATCH_SYSTEM_CREATED.md` - Supplier Footprint Match System Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SUPPLIER_INGESTION_SYSTEM_CREATED.md` - Supplier Ingestion System Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SUPPLIER_INGESTION_SYSTEM_REVALIDATED.md` - Supplier Ingestion System Revalidated
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\SUPPORT_PARTS_DATABASE_SESSION.md` - Support Parts Database Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\TEST_EXAMPLES_BENCHMARKS_SETUP_SESSION.md` - Test Examples Benchmarks Setup Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\TOOL_INSTALL_PLAN_CREATED.md` - Tool Install Plan Created
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\TOOL_REPOS_CLONED_SESSION.md` - Tool Repositories Cloned Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\VISUAL_TOOLS_INSTALL_SESSION.md` - Visual Tools Install Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\VSCODE_WORKSPACE_SUPPORT_SESSION.md` - VS Code Workspace Support Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\WINDOWS_GUI_AUTOMATION_INSTALL_SESSION.md` - Windows GUI Automation Install Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\WINDOWS_GUI_REPOS_CLONED_SESSION.md` - Windows GUI Repos Cloned Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\sessions\WORKSPACE_BOOTSTRAP_SESSION.md` - ﻿# Workspace Bootstrap Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260502_230004_AI_quality_scripts_not_real_project_proven.md` - AI quality scripts not real project proven
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_UNCERTAINTY.md` - Uncertainty Log: Schematic Annotation/Completeness Checkers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_UNCERTAINTY.md` - Uncertainty Log: Schematic Visual Autocrop Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_170057_Strict_visual_gate_patch_uncertainty_log.md` - Strict visual gate patch uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_UNCERTAINTY.md` - Uncertainty Log: KiCad Engine Schematic Failure Root-Cause Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI Emergency Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_UNCERTAINTY.md` - Uncertainty Log: ESP32 CSI Actual KiCad Annotation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_UNCERTAINTY.md` - Uncertainty Log: ESP32 CSI GUI Annotation Diagnosis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_UNCERTAINTY.md` - Uncertainty Log: KiCad GUI Automation Layer
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Uncertainty_Log.md` - PCB Layout Sandbox Layer Setup Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_172119_PCB_Variant_Scoring_System_Uncertainty_Log.md` - PCB Variant Scoring System Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Uncertainty_Log.md` - ESP32 Dev Board Layout Intelligence Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_175002_FreeRouting_Feasibility_Integration_Uncertainty_Log.md` - FreeRouting Feasibility Integration Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Uncertainty_Log.md` - PCB Layout Sandbox Gate Added Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Uncertainty_Log.md` - Real KiCad PCB Routing Bridge Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_UNCERTAINTY.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE BOM Sourcing Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Final Production Signoff
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Mechanical 3D Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE PCB Create From Schematic
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Production Fix Pass
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Real-World Failure Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_UNCERTAINTY.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260508_140404_GITHUB_REPO_PUSH_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260508_150300_GITHUB_REPO_INDEXING_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md` - Accuracy Engine And AI Quality Setup Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md` - AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG.md` - AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG.md` - AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Sandbox Approval System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\AUTO_VARIANT_SCORING_ENGINE_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Variant Scoring Engine
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\COMPONENT_DATABASE_CORE_SETUP_UNCERTAINTY_LOG.md` - Component Database Core Setup Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\CORE_PLACEHOLDER_CONTENT_UPGRADE_UNCERTAINTY_LOG.md` - Uncertainty Log: Core Placeholder Content Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Full Routing And Copper
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_UNCERTAINTY_LOG.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE GUI Native Annotation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_UNCERTAINTY_LOG.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Schematic Audit Only
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_UNCERTAINTY_LOG.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Schematic Safe Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\FINAL_PRODUCTION_STRUCTURE_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log: Final Production Structure Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\FOOTPRINT_GAP_ANALYSIS_UNCERTAINTY_LOG.md` - Uncertainty Log - Footprint Gap Analysis
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\FULL_KICAD_PIPELINE_PROMPT_PACK_UNCERTAINTY_LOG.md` - Uncertainty Log: Full KiCad Pipeline Prompt Pack
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\FULL_REPO_PRODUCTION_QUALITY_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log - Full Repo Production Quality Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\GOLDEN_PATH_SAMPLE_GATE_RUN_UNCERTAINTY_LOG.md` - Uncertainty Log - Golden Path Sample Gate Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\GOLDEN_PATH_SAMPLE_PROMOTION_UNCERTAINTY_LOG.md` - Uncertainty Log - Golden Path Sample Promotion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_UNCERTAINTY_LOG.md` - Uncertainty Log: KiCad Auto-Open Project Workflow
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_UNCERTAINTY_LOG.md` - Uncertainty Log: KiCad Native Annotation Workflow Documentation Update
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\KICAD_PHASE_GATE_PATCH_UNCERTAINTY_LOG.md` - Uncertainty Log - KiCad Phase Gate Patch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Knowledge Base Reference Design Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\LIBRARY_FACTORY_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Library Factory Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\MCU_DATASHEET_TREE_UPGRADE_UNCERTAINTY_LOG.md` - Uncertainty Log: MCU Datasheet Tree Upgrade
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_UNCERTAINTY_LOG.md` - Microcontroller Family Content Generator Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Candidate Discovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Intake System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Project Import
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Projects Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\P0_P1_REPAIR_UNCERTAINTY_LOG.md` - Uncertainty Log: P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\PACKAGE_FAB_VENDOR_PROFILE_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Package Fab Vendor Profile Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\PCB_TRACE_ANGLE_RULE_PATCH_UNCERTAINTY_LOG.md` - PCB Trace Angle Rule Patch Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Batch Research Expansion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\PLAYWRIGHT_PILOT_RESEARCH_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Pilot Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\PLAYWRIGHT_RESEARCH_PIPELINE_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Research Pipeline
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\POST_SAMPLE_P0_P1_REPAIR_UNCERTAINTY_LOG.md` - Uncertainty Log - Post Sample P0/P1 Repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log - Post Sample Project Production Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\PROJECT_GATE_RUNNER_UNCERTAINTY_LOG.md` - Uncertainty Log - Project Gate Runner
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\PUBLIC_RELEASE_STRUCTURE_UNCERTAINTY_LOG.md` - Uncertainty Log - Public Release Structure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\README.md` - Uncertainty Logs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SAMPLE_PROJECT_PAYLOAD_RULES_UNCERTAINTY_LOG.md` - Uncertainty Log - Sample Project Payload Rules
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SAMPLE_PROJECT_PUBLIC_DOCS_UNCERTAINTY_LOG.md` - Uncertainty Log - Sample Project Public Docs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SCHEMATIC_TO_PCB_GATE_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Schematic To PCB Gate System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\STARTUP_CLOSEOUT_INDEX_WIRING_UNCERTAINTY_LOG.md` - Uncertainty Log: Startup Closeout Index Wiring
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\STM32_DATASHEET_TREE_CONTENT_COMPLETION_UNCERTAINTY_LOG.md` - Uncertainty Log - STM32 Datasheet Tree Content Completion
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\STM32_SOURCE_LINK_RESEARCH_UNCERTAINTY_LOG.md` - Uncertainty Log - STM32 Source Link Research
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\STM32F1_PILOT_CONTENT_COMPLETION_UNCERTAINTY_LOG.md` - STM32F1 Pilot Content Completion Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\STRUCTURE_EXPANSION_UNCERTAINTY_LOG.md` - Structure Expansion Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SUPPLIER_CONNECTOR_STUBS_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Connector Stubs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Datasheet Footprint Final Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SUPPLIER_FOOTPRINT_MATCH_UNCERTAINTY_LOG.md` - Uncertainty Log - Supplier Footprint Match System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Ingestion System Revalidation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SUPPLIER_INGESTION_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Ingestion System
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\TEST_EXAMPLES_BENCHMARKS_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Test Examples Benchmarks Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\20260506_170041_Automated_schematic_visual_pass_was_not_human_readable.md` - Automated schematic visual pass was not human-readable
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\AUTO_SANDBOX_APPROVAL_MUST_REPLACE_GENERIC_LJ_APPROVAL.md` - User Correction - Sandbox Approval Must Be Evidence-Based
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\ESP32_CSI_VISIBLE_QUESTION_MARK_REFERENCES_CORRECTION.md` - User Correction: ESP32_CSI_VISIBLE_QUESTION_MARK_REFERENCES_CORRECTION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_CORRECTION.md` - ESP32_CSI_WIFI_NODE J1 Barrel Jack Orientation Correction
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\J1_BARREL_JACK_FRONT_BACK_ORIENTATION_CORRECTION.md` - J1 Barrel Jack Front/Back Orientation Correction
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\KICAD_ENGINE_AUTOMATED_VISUAL_PASS_USER_CORRECTION.md` - User Correction: Automated Visual Pass Was Not Human Readability
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\PCB_TRACE_ANGLE_ROUTING_CORRECTION.md` - PCB Trace Angle Routing Correction
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\user_corrections\README.md` - User Corrections
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\workflow_runs\MCU_DATASHEET_TREE_STUB_GENERATION_WORKFLOW.md` - Workflow Run: MCU Datasheet Tree Stub Generation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\workflow_runs\README.md` - Workflow Runs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\workflow_runs\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKER_SMOKE_TEST.md` - Workflow Run: Schematic Annotation/Completeness Checker Smoke Test
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\workflow_runs\SCHEMATIC_VISUAL_AUTOCROP_ACTIVE_PROJECT_SMOKE_TEST.md` - Workflow Run: Schematic Visual Autocrop Active Project Smoke Test
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_critical_routing_scorecard.md` - AI Response Scorecard - Critical Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_final_pcb_audit_scorecard.md` - AI Response Scorecard - Final PCB Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_full_routing_scorecard.md` - AI Response Scorecard - Full Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_pcb_placement_pass_1_scorecard.md` - AI Response Scorecard - PCB Placement Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_pcb_placement_strict_audit_scorecard.md` - AI Response Scorecard - PCB Placement Strict Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_pcb_zone_setup_scorecard.md` - AI Response Scorecard - PCB Zone Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_existing_trace_audit_scorecard.md` - AI Response Scorecard - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_live_pcb_truth_audit_scorecard.md` - AI Response Scorecard - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_stage_1_2_cleanup_scorecard.md` - AI Response Scorecard - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_stage_3_usb_blocked_scorecard.md` - AI Response Scorecard - Stage 3 USB Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_final_pcb_visual_review_package_scorecard.md` - AI Response Scorecard - Final PCB Visual Review Package
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_final_trace_by_trace_audit_scorecard.md` - AI Response Scorecard: Final Trace By Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_03_usb_control_routing_scorecard.md` - AI Scorecard: PCB Batch 03 USB Control Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_04_control_net_routing_scorecard.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_04_replay_request_scorecard.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_05_usb_data_routing_scorecard.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_final_connectivity_cleanup_scorecard.md` - AI Response Scorecard: PCB Final Connectivity Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_scorecard.md` - ESP32 CSI schematic electrical footprint gate scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_155328_ESP32_CSI_schematic_human_review_packet_scorecard.md` - ESP32 CSI schematic human review packet scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_160715_Emergency_schematic_truth_audit_scorecard.md` - Emergency schematic truth audit scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_161816_BOM_and_footprint_lock_response_scorecard.md` - BOM and footprint lock response scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_164153_ESP32_schematic_real_repair_scorecard.md` - ESP32 schematic real repair scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_164758_ESP32_final_schematic_readiness_audit_scorecard.md` - ESP32 final schematic readiness audit scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_173109_Human_readable_schematic_repair_response_scorecard.md` - Human-readable schematic repair response scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_220744_PCB_update_blocked_scorecard.md` - AI Response Scorecard - PCB Update Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_221131_PCB_layout_plan_scorecard.md` - AI Response Scorecard - PCB Layout Plan
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_221529_PCB_mechanical_setup_scorecard.md` - AI Response Scorecard - PCB Mechanical Setup Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260507_maintenance_layer_investigation_and_repair_scorecard.md` - Maintenance Layer Investigation And Repair Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260507_maintenance_layer_test_scorecard.md` - Maintenance Layer Test Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_pcb_batch_01_drc_and_gnd_repair_scorecard.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_SCORECARD.md` - AI Response Scorecard - REAL PCB Critical Routing Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_real_pcb_repair_pass_1_scorecard.md` - Real PCB Repair Pass 1 Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_routing_work_prep_scorecard.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\COPPER_ZONE_STRATEGY_BLOCKED_SCORECARD.md` - COPPER_ZONE_STRATEGY_BLOCKED_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SCORECARD.md` - AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_SCORECARD.md` - EXAMPLE_ONLY AI Response Scorecard: USB-C Footprint Recommended Without Drawing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\FINAL_PCB_VERIFICATION_SCORECARD.md` - Final PCB Verification AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\FOOTPRINT_PACKAGE_AUDIT_SCORECARD.md` - FOOTPRINT_PACKAGE_AUDIT_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\HOLE_PAD_VIA_STRATEGY_BLOCKED_SCORECARD.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\NOT_FINAL_FAB_EXPORT_SCORECARD.md` - NOT_FINAL Fab Export AI Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_BATCH_02_POWER_ROUTING_REPAIR_SCORECARD.md` - PCB Batch 02 Power Routing Repair Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_CRITICAL_NETS_ROUTING_SCORECARD.md` - PCB Critical Nets Routing Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_FULL_ROUTING_SCORECARD.md` - PCB Full Routing Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_MECHANICAL_SETUP_BLOCKED_SCORECARD.md` - PCB_MECHANICAL_SETUP_BLOCKED_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_PLACEMENT_PASS_1_BLOCKED_SCORECARD.md` - PCB_PLACEMENT_PASS_1_BLOCKED_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_PLACEMENT_PASS_2_BLOCKED_SCORECARD.md` - PCB_PLACEMENT_PASS_2_BLOCKED_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_ROUTING_PLAN_BLOCKED_SCORECARD.md` - PCB Routing Plan Response Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SCORECARD.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SCORECARD
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\README.md` - AI Scorecards
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\STAGE_1_2_PROFESSIONAL_CLEANUP_SCORECARD.md` - Stage 1/2 Professional Cleanup Scorecard
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_critical_routing_self_review.md` - AI Self Review - Critical Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_final_pcb_audit_self_review.md` - AI Self Review - Final PCB Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_full_routing_self_review.md` - AI Self Review - Full Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_pcb_placement_pass_1_self_review.md` - AI Self Review - PCB Placement Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_pcb_placement_strict_audit_self_review.md` - AI Self Review - PCB Placement Strict Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_pcb_zone_setup_self_review.md` - AI Self Review - PCB Zone Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_existing_trace_audit_self_review.md` - AI Self Review - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_live_pcb_truth_audit_self_review.md` - AI Self Review - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_stage_1_2_cleanup_self_review.md` - AI Self Review - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_stage_3_usb_blocked_self_review.md` - AI Self Review - Stage 3 USB Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_final_pcb_visual_review_package_ai_self_review.md` - AI Self Review - Final PCB Visual Review Package
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_final_trace_by_trace_audit_ai_self_review.md` - AI Self Review: Final Trace By Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_03_usb_control_routing_self_review.md` - AI Self Review: PCB Batch 03 USB Control Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_04_control_net_routing_self_review.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_04_replay_request_self_review.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_05_usb_data_routing_self_review.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_final_connectivity_cleanup_ai_self_review.md` - AI Self Review: PCB Final Connectivity Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_self_review.md` - ESP32 CSI schematic electrical footprint gate self-review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_155328_ESP32_CSI_schematic_human_review_packet_self_review.md` - ESP32 CSI schematic human review packet self-review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_160715_Emergency_schematic_truth_audit_self_review.md` - Emergency schematic truth audit self-review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_161816_BOM_and_footprint_lock_self_review.md` - BOM and footprint lock self-review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_164134_ESP32_schematic_real_repair_self_review.md` - ESP32 schematic real repair self-review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_164758_ESP32_final_schematic_readiness_audit_self_review.md` - ESP32 final schematic readiness audit self-review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_173109_Human_readable_schematic_repair_self_review.md` - Human-readable schematic repair self-review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_220744_PCB_update_blocked_self_review.md` - AI Self Review - PCB Update Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_221131_PCB_layout_plan_self_review.md` - AI Self Review - PCB Layout Plan
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_221529_PCB_mechanical_setup_self_review.md` - AI Self Review - PCB Mechanical Setup Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260507_maintenance_layer_investigation_and_repair_ai_self_review.md` - Maintenance Layer Investigation And Repair AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260507_maintenance_layer_test_ai_self_review.md` - Maintenance Layer Test AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_pcb_batch_01_drc_and_gnd_repair_ai_self_review.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_AI_SELF_REVIEW.md` - AI Self Review - REAL PCB Critical Routing Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_real_pcb_repair_pass_1_ai_self_review.md` - Real PCB Repair Pass 1 AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_routing_work_prep_ai_self_review.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\COPPER_ZONE_STRATEGY_BLOCKED_SELF_REVIEW.md` - COPPER_ZONE_STRATEGY_BLOCKED_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SELF_REVIEW.md` - AI Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\FINAL_PCB_VERIFICATION_SELF_REVIEW.md` - Final PCB Verification AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\FOOTPRINT_PACKAGE_AUDIT_SELF_REVIEW.md` - FOOTPRINT_PACKAGE_AUDIT_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\HOLE_PAD_VIA_STRATEGY_BLOCKED_SELF_REVIEW.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\NOT_FINAL_FAB_EXPORT_SELF_REVIEW.md` - NOT_FINAL Fab Export AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_BATCH_02_POWER_ROUTING_REPAIR_SELF_REVIEW.md` - PCB Batch 02 Power Routing Repair Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_CRITICAL_NETS_ROUTING_SELF_REVIEW.md` - PCB Critical Nets Routing AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_FULL_ROUTING_SELF_REVIEW.md` - PCB Full Routing AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_MECHANICAL_SETUP_BLOCKED_SELF_REVIEW.md` - PCB_MECHANICAL_SETUP_BLOCKED_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_PLACEMENT_PASS_1_BLOCKED_SELF_REVIEW.md` - PCB_PLACEMENT_PASS_1_BLOCKED_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_PLACEMENT_PASS_2_BLOCKED_SELF_REVIEW.md` - PCB_PLACEMENT_PASS_2_BLOCKED_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_ROUTING_PLAN_BLOCKED_SELF_REVIEW.md` - PCB Routing Plan AI Self-Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SELF_REVIEW.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SELF_REVIEW
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\README.md` - AI Self Reviews
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\STAGE_1_2_PROFESSIONAL_CLEANUP_SELF_REVIEW.md` - Stage 1/2 Professional Cleanup Self Review
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_critical_routing_claims.md` - Claim Evidence Matrix - Critical Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_final_pcb_audit_claims.md` - Claim Evidence Matrix - Final PCB Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_full_routing_claims.md` - Claim Evidence Matrix - Full Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_pcb_placement_pass_1_claims.md` - Claim Evidence Matrix - PCB Placement Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_pcb_placement_strict_audit_claims.md` - Claim Evidence Matrix - PCB Placement Strict Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_pcb_zone_setup_claims.md` - Claim Evidence Matrix - PCB Zone Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_existing_trace_audit_claims.md` - Claim Evidence Matrix - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_live_pcb_truth_audit_claims.md` - Claim Evidence Matrix - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_stage_1_2_cleanup_claims.md` - Claim Evidence Matrix - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_stage_3_usb_blocked_claims.md` - Claim Evidence Matrix - Stage 3 USB Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_final_pcb_visual_review_package_claim_evidence_matrix.md` - Claim Evidence Matrix - Final PCB Visual Review Package
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_final_trace_by_trace_audit_claim_evidence_matrix.md` - Claim Evidence Matrix: Final Trace By Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_03_usb_control_routing_claims.md` - Claim Evidence Matrix: PCB Batch 03 USB Control Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_04_control_net_routing_claims.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_04_replay_request_claims.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_05_usb_data_routing_claims.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_final_connectivity_cleanup_claim_evidence_matrix.md` - Claim Evidence Matrix: PCB Final Connectivity Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_claim_evidence_matrix.md` - ESP32 CSI schematic electrical footprint gate claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_155328_ESP32_CSI_schematic_human_review_packet_claim_evidence_matrix.md` - ESP32 CSI schematic human review packet claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_160715_Emergency_schematic_truth_audit_claim_evidence_matrix.md` - Emergency schematic truth audit claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_161816_BOM_and_footprint_lock_claim_evidence_matrix.md` - BOM and footprint lock claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_164153_ESP32_schematic_real_repair_claim_evidence_matrix.md` - ESP32 schematic real repair claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_164758_ESP32_final_schematic_readiness_audit_claim_evidence_matrix.md` - ESP32 final schematic readiness audit claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_173126_Human_readable_schematic_repair_claim_evidence_matrix.md` - Human-readable schematic repair claim evidence matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_220744_PCB_update_blocked_claim_evidence.md` - PCB Update Blocked Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_221131_PCB_layout_plan_claim_evidence.md` - PCB Layout Plan Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_221529_PCB_mechanical_setup_claim_evidence.md` - PCB Mechanical Setup Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260507_maintenance_layer_investigation_and_repair_claim_matrix.md` - Maintenance Layer Investigation And Repair Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260507_maintenance_layer_test_claim_matrix.md` - Maintenance Layer Test Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_pcb_batch_01_drc_and_gnd_repair_claim_evidence_matrix.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - REAL PCB Critical Routing Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_real_pcb_repair_pass_1_claim_matrix.md` - Real PCB Repair Pass 1 Claim / Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_routing_work_prep_claim_evidence_matrix.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\COPPER_ZONE_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - COPPER_ZONE_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_MATRIX.md` - EXAMPLE_ONLY Claim Evidence Matrix: USB-C Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\FINAL_PCB_VERIFICATION_CLAIM_EVIDENCE_MATRIX.md` - Final PCB Verification Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\FOOTPRINT_PACKAGE_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - FOOTPRINT_PACKAGE_AUDIT_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\HOLE_PAD_VIA_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\NOT_FINAL_FAB_EXPORT_CLAIM_EVIDENCE_MATRIX.md` - NOT_FINAL Fab Export Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_BATCH_02_POWER_ROUTING_REPAIR_CLAIM_EVIDENCE_MATRIX.md` - PCB Batch 02 Power Routing Repair Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_CRITICAL_NETS_ROUTING_CLAIM_EVIDENCE_MATRIX.md` - PCB Critical Nets Routing Claim/Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_FULL_ROUTING_CLAIM_EVIDENCE_MATRIX.md` - PCB Full Routing Claim/Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_MECHANICAL_SETUP_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_MECHANICAL_SETUP_BLOCKED_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_PLACEMENT_PASS_1_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_PLACEMENT_PASS_1_BLOCKED_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_PLACEMENT_PASS_2_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_PLACEMENT_PASS_2_BLOCKED_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_ROUTING_PLAN_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB Routing Plan Claim/Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_CLAIM_EVIDENCE_MATRIX
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\README.md` - Claim Evidence Matrices
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\STAGE_1_2_PROFESSIONAL_CLEANUP_CLAIM_EVIDENCE_MATRIX.md` - Stage 1/2 Professional Cleanup Claim Evidence Matrix
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_existing_trace_audit_commands.md` - Command Log - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_live_pcb_truth_audit_commands.md` - Command Log - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_stage_1_2_cleanup_commands.md` - Command Log - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_stage_3_usb_blocked_commands.md` - Command Log - Stage 3 USB Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-08_final_pcb_visual_review_package_commands.md` - Final PCB Visual Review Package Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-08_pcb_batch_01_drc_and_gnd_repair_commands.md` - PCB Batch 01 DRC And GND Repair Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-08_routing_work_prep_commands.md` - Routing Work Prep Commands
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-07_live_pcb_truth_audit_git_status_unavailable.md` - Failed Attempt - Live PCB Truth Audit Git Status Unavailable
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-07_stage_1_2_cleanup_failed_attempts.md` - Failed Attempts - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_final_pcb_visual_render_pivot_failure.md` - Final PCB Visual Render Pivot Failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_pcb_batch_03_usb_control_routing_failed_attempts.md` - PCB Batch 03 USB Control Routing Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_pcb_batch_04_control_net_routing_failed_attempts.md` - Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_real_pcb_repair_pass_1_failed_attempts.md` - Real PCB Repair Pass 1 Failed Attempts
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_160734_Emergency_truth_audit_initial_SVG_text_regex_mismatch.md` - Emergency truth audit initial SVG text regex mismatch
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_161816_PowerShell_footprint_candidate_pipeline_syntax_mistake.md` - PowerShell footprint candidate pipeline syntax mistake
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_161934_Git_status_unavailable_during_BOM_footprint_lock_validation.md` - Git status unavailable during BOM footprint lock validation
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_164134_PowerShell_command_syntax_failures_during_schematic_repair.md` - PowerShell command syntax failures during schematic repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_164134_Schematic_rewrite_inserted_invalid_KiCad_syntax_before_recovery.md` - Schematic rewrite inserted invalid KiCad syntax before recovery
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_173109_Failed_broad_regex_schematic_relayout_attempt.md` - Failed broad regex schematic relayout attempt
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Failed Attempt: USB-C Connector Footprint Was Wrong
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\FINAL_PCB_VERIFICATION_SELECT_STRING_QUOTING.md` - Final PCB Verification Select-String Quoting Failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\NOT_FINAL_FAB_EXPORT_BLOCKED_PRECONDITION.md` - NOT_FINAL Fab Export Blocked By Precondition
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\NOT_FINAL_FAB_EXPORT_SELECT_STRING_QUOTING.md` - NOT_FINAL Fab Export Select-String Quoting Failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_BATCH_02_KICAD_PYTHON_RUNTIME_QUIRKS.md` - PCB Batch 02 KiCad Python Runtime Quirks
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md` - PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_critical_routing_hallucination_risk.md` - Hallucination Risk Log - Critical Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_final_pcb_audit_hallucination_risk.md` - Hallucination Risk Log - Final PCB Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_full_routing_hallucination_risk.md` - Hallucination Risk Log - Full Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_pcb_placement_pass_1_hallucination_risk.md` - Hallucination Risk Log - PCB Placement Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_pcb_placement_strict_audit_hallucination_risk.md` - Hallucination Risk Log - PCB Placement Strict Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_pcb_zone_setup_hallucination_risk.md` - Hallucination Risk Log - PCB Zone Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_existing_trace_audit_hallucination_risk.md` - Hallucination Risk Log - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_live_pcb_truth_audit_hallucination_risk.md` - Hallucination Risk Log - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_stage_1_2_cleanup_hallucination_risk.md` - Hallucination Risk Log - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_final_pcb_visual_review_package_hallucination_risk_log.md` - Hallucination Risk Log - Final PCB Visual Review Package
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_final_trace_by_trace_audit_hallucination_risk_log.md` - Hallucination Risk Log: Final Trace By Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_03_usb_control_routing_hallucination_risk.md` - Hallucination Risk Log: PCB Batch 03 USB Control Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_04_control_net_routing_hallucination_risk.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_04_replay_request_hallucination_risk.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_05_usb_data_routing_hallucination_risk.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_final_connectivity_cleanup_hallucination_risk_log.md` - Hallucination Risk Log: PCB Final Connectivity Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_154747_ESP32_CSI_schematic_electrical_footprint_gate_hallucination_risk_log.md` - ESP32 CSI schematic electrical footprint gate hallucination risk log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_155334_ESP32_CSI_schematic_human_review_packet_hallucination_risk_log.md` - ESP32 CSI schematic human review packet hallucination risk log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_160734_Prior_automated_visual_pass_overconfidence_risk.md` - Prior automated visual pass overconfidence risk
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_161816_Candidate_footprint_hallucination_risk.md` - Candidate footprint hallucination risk
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_164153_ESP32_schematic_real_repair_hallucination_risk_log.md` - ESP32 schematic real repair hallucination risk log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_164822_ESP32_final_schematic_readiness_audit_hallucination_risk.md` - ESP32 final schematic readiness audit hallucination risk
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_173126_Human_readable_visual_pass_risk_log.md` - Human-readable visual pass risk log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_220744_PCB_update_blocked_hallucination_risk.md` - PCB Update Blocked Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_221131_PCB_layout_plan_hallucination_risk.md` - PCB Layout Plan Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_221529_PCB_mechanical_setup_hallucination_risk.md` - PCB Mechanical Setup Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260507_maintenance_layer_investigation_and_repair_hallucination_risk_log.md` - Maintenance Layer Investigation And Repair Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260507_maintenance_layer_test_hallucination_risk_log.md` - Maintenance Layer Test Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_pcb_batch_01_drc_and_gnd_repair_hallucination_risk_log.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - REAL PCB Critical Routing Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_real_pcb_repair_pass_1_hallucination_risk_log.md` - Real PCB Repair Pass 1 Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_routing_work_prep_hallucination_risk_log.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\COPPER_ZONE_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG.md` - COPPER_ZONE_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_RISK.md` - EXAMPLE_ONLY Hallucination Risk: USB-C Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\FINAL_PCB_VERIFICATION_HALLUCINATION_RISK_LOG.md` - Final PCB Verification Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\FOOTPRINT_PACKAGE_AUDIT_HALLUCINATION_RISK_LOG.md` - FOOTPRINT_PACKAGE_AUDIT_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\NOT_FINAL_FAB_EXPORT_HALLUCINATION_RISK_LOG.md` - NOT_FINAL Fab Export Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_BATCH_02_POWER_ROUTING_REPAIR_HALLUCINATION_RISK_LOG.md` - PCB Batch 02 Power Routing Repair Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_CRITICAL_NETS_ROUTING_HALLUCINATION_RISK_LOG.md` - PCB Critical Nets Routing Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_FULL_ROUTING_HALLUCINATION_RISK_LOG.md` - PCB Full Routing Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_MECHANICAL_SETUP_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB_MECHANICAL_SETUP_BLOCKED_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_PLACEMENT_PASS_1_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB_PLACEMENT_PASS_1_BLOCKED_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_PLACEMENT_PASS_2_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB_PLACEMENT_PASS_2_BLOCKED_HALLUCINATION_RISK_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_ROUTING_PLAN_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB Routing Plan Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\README.md` - Hallucination Risk Logs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\STAGE_1_2_PROFESSIONAL_CLEANUP_HALLUCINATION_RISK_LOG.md` - Stage 1/2 Professional Cleanup Hallucination Risk Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_final_pcb_visual_review_remaining_blockers.md` - Final PCB Visual Review Remaining Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_04_control_net_remaining_blockers.md` - Remaining Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_05_usb_data_blocked.md` - Remaining Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_real_pcb_full_routing_pass_remaining_blockers.md` - Real PCB Full Routing Pass Remaining Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_real_pcb_repair_pass_1_remaining_blockers.md` - Real PCB Repair Pass 1 Remaining Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_REVIEW.md` - EXAMPLE_ONLY Open Issue: Verify USB-C Connector Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\EXAMPLE_ONLY_USB_C_EXACT_FOOTPRINT_REVIEW_REQUIRED.md` - EXAMPLE_ONLY Open Issue: USB-C Exact Footprint Review Required
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\EXISTING_TRACE_AUDIT_ROUTING_CONTINUATION_BLOCKED.md` - Existing Trace Audit - Routing Continuation Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md` - FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\FOOTPRINT_PACKAGE_AUDIT_OPEN_ISSUES.md` - FOOTPRINT_PACKAGE_AUDIT_OPEN_ISSUES
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\LIVE_PCB_TRUTH_AUDIT_BLOCKERS.md` - Live PCB Truth Audit - Current Blockers
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\NOT_FINAL_FAB_EXPORT_BLOCKED.md` - NOT_FINAL_FAB_EXPORT_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_BATCH_02_REMAINING_ROUTING_WORK.md` - PCB Batch 02 Remaining Routing Work
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md` - PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE.md` - PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_SYNC_BLOCKED_Q1_PIN_MAPPING.md` - PCB Sync Blocked - Q1 Pin Mapping
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\ROUTING_STAGE_1_2_BUCK_SW_BST_CROSSING_REMAINS.md` - Routing Stage 1/2 - Buck SW/BST Crossing Remains
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_AUDIT_ONLY_BLOCKERS_REMAIN_OPEN.md` - Issue Log: Schematic Audit-Only Blockers Remain Open
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_ELECTRICAL_BLOCKERS_REMAIN_OPEN.md` - Issue Log - Schematic Electrical Blockers Remain Open
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_SAFE_REPAIR_BLOCKERS_REMAIN_OPEN.md` - Issue Log: Schematic Safe Repair Blockers Remain Open
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_TO_PCB_GATE_BLOCKED.md` - Issue Log - Schematic To PCB Gate Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\MEMORY_MAINTENANCE_LAST_RUN.md` - Memory Maintenance Last Run
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_critical_routing_blocked.md` - Quality Gate Failure - Critical Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_final_pcb_audit_blocked.md` - Quality Gate Failure - Final PCB Audit Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_full_routing_blocked.md` - Quality Gate Failure - Full Routing Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_placement_pass_1_blocked.md` - Quality Gate Failure - PCB Placement Pass 1 Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_placement_strict_audit_blocked.md` - Quality Gate Failure - PCB Placement Strict Audit Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_zone_setup_blocked.md` - Quality Gate Failure - PCB Zone Setup Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_existing_trace_audit_blocked.md` - Quality Gate Failure - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_live_pcb_truth_audit_blocked.md` - Quality Gate Failure - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-08_real_pcb_repair_pass_1_user_override_exception.md` - Quality Gate Exception - Real PCB Repair Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_154747_ESP32_CSI_schematic_to_PCB_gate_remains_failed_after_electrical_footprint_gate.md` - ESP32 CSI schematic to PCB gate remains failed after electrical footprint gate
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_160734_Emergency_schematic_truth_audit_gate_failure.md` - Emergency schematic truth audit gate failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_161816_Footprint_assignment_gate_remains_blocked.md` - Footprint assignment gate remains blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_164153_ESP32_schematic_to_PCB_gate_remains_blocked_after_real_repair.md` - ESP32 schematic to PCB gate remains blocked after real repair
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_164822_ESP32_final_schematic_readiness_audit_gate_failure.md` - ESP32 final schematic readiness audit gate failure
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_220744_PCB_update_blocked_gate_fail.md` - PCB Update Blocked By Schematic-To-PCB Gate
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_221529_PCB_mechanical_setup_blocked_no_pcb.md` - PCB Mechanical Setup Blocked - No PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260507_pcb_sync_blocked_q1_pin_mapping.md` - Quality Gate Failure - PCB Sync Blocked By Q1 Pin Mapping
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_GATE_FAILURE.md` - EXAMPLE_ONLY Quality Gate Failure: USB-C Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md` - FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\FOOTPRINT_PACKAGE_AUDIT_QUALITY_GATE_FAILURE.md` - FOOTPRINT_PACKAGE_AUDIT_QUALITY_GATE_FAILURE
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\NOT_FINAL_FAB_EXPORT_BLOCKED.md` - NOT_FINAL_FAB_EXPORT_BLOCKED
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md` - PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE.md` - PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\README.md` - Quality Gate Failures
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\SCHEMATIC_SAFE_REPAIR_GATE_STILL_BLOCKED.md` - Quality Gate Failure: Schematic Safe Repair Gate Still Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\README.md` - ESP32_CSI_WIFI_NODE Project History
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_existing_trace_audit_session.md` - Session - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_live_pcb_truth_audit_session.md` - Session - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_stage_1_2_cleanup_session.md` - Session - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_stage_3_usb_blocked_session.md` - Session - Stage 3 USB Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-08_final_pcb_visual_review_package_session.md` - Final PCB Visual Review Package Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-08_pcb_batch_01_drc_and_gnd_repair_session.md` - PCB Batch 01 DRC And GND Repair Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-08_routing_work_prep_session.md` - Routing Work Prep Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_critical_routing_uncertainty.md` - Uncertainty Log - Critical Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_final_pcb_audit_uncertainty.md` - Uncertainty Log - Final PCB Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_full_routing_uncertainty.md` - Uncertainty Log - Full Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_pcb_placement_pass_1_uncertainty.md` - Uncertainty Log - PCB Placement Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_pcb_placement_strict_audit_uncertainty.md` - Uncertainty Log - PCB Placement Strict Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_pcb_zone_setup_uncertainty.md` - Uncertainty Log - PCB Zone Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_existing_trace_audit_uncertainty.md` - Uncertainty Log - Existing Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_live_pcb_truth_audit_uncertainty.md` - Uncertainty Log - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_1_2_cleanup_uncertainty.md` - Uncertainty Log - Stage 1/2 Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_3_usb_blocked_uncertainty.md` - Uncertainty Log - Stage 3 USB Blocked
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_pcb_visual_review_package_uncertainty_log.md` - Uncertainty Log - Final PCB Visual Review Package
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_trace_by_trace_audit_uncertainty_log.md` - Uncertainty Log: Final Trace By Trace Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_03_usb_control_routing_uncertainty.md` - Uncertainty Log: PCB Batch 03 USB Control Routing
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_04_control_net_routing_uncertainty.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_04_replay_request_uncertainty.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_05_usb_data_routing_uncertainty.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_final_connectivity_cleanup_uncertainty_log.md` - Uncertainty Log: PCB Final Connectivity Cleanup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_uncertainty_log.md` - ESP32 CSI schematic electrical footprint gate uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_155328_ESP32_CSI_schematic_human_review_packet_uncertainty_log.md` - ESP32 CSI schematic human review packet uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_160734_Emergency_schematic_truth_audit_uncertainty_log.md` - Emergency schematic truth audit uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_161816_BOM_and_footprint_lock_uncertainty_log.md` - BOM and footprint lock uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_164134_ESP32_schematic_real_repair_uncertainty_log.md` - ESP32 schematic real repair uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_164758_ESP32_final_schematic_readiness_audit_uncertainty_log.md` - ESP32 final schematic readiness audit uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_173126_Human_readable_schematic_repair_uncertainty_log.md` - Human-readable schematic repair uncertainty log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_220744_PCB_update_blocked_uncertainty_log.md` - PCB Update Blocked Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_221131_PCB_layout_plan_uncertainty_log.md` - PCB Layout Plan Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_221529_PCB_mechanical_setup_uncertainty_log.md` - PCB Mechanical Setup Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260507_maintenance_layer_investigation_and_repair_uncertainty_log.md` - Maintenance Layer Investigation And Repair Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260507_maintenance_layer_test_uncertainty_log.md` - Maintenance Layer Test Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_pcb_batch_01_drc_and_gnd_repair_uncertainty_log.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_UNCERTAINTY_LOG.md` - Uncertainty Log - REAL PCB Critical Routing Pass 1
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_real_pcb_repair_pass_1_uncertainty_log.md` - Real PCB Repair Pass 1 Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_routing_work_prep_uncertainty_log.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG.md` - COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_UNCERTAINTY.md` - EXAMPLE_ONLY Uncertainty Log: USB-C Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\FINAL_PCB_VERIFICATION_UNCERTAINTY_LOG.md` - Final PCB Verification Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\FOOTPRINT_PACKAGE_AUDIT_UNCERTAINTY_LOG.md` - FOOTPRINT_PACKAGE_AUDIT_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_UNCERTAINTY_LOG.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\NOT_FINAL_FAB_EXPORT_UNCERTAINTY_LOG.md` - NOT_FINAL Fab Export Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_BATCH_02_POWER_ROUTING_REPAIR_UNCERTAINTY_LOG.md` - PCB Batch 02 Power Routing Repair Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_CRITICAL_NETS_ROUTING_UNCERTAINTY_LOG.md` - PCB Critical Nets Routing Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_FULL_ROUTING_UNCERTAINTY_LOG.md` - PCB Full Routing Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_MECHANICAL_SETUP_BLOCKED_UNCERTAINTY_LOG.md` - PCB_MECHANICAL_SETUP_BLOCKED_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_PLACEMENT_PASS_1_BLOCKED_UNCERTAINTY_LOG.md` - PCB_PLACEMENT_PASS_1_BLOCKED_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_PLACEMENT_PASS_2_BLOCKED_UNCERTAINTY_LOG.md` - PCB_PLACEMENT_PASS_2_BLOCKED_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_ROUTING_PLAN_BLOCKED_UNCERTAINTY_LOG.md` - PCB Routing Plan Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_UNCERTAINTY_LOG.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_UNCERTAINTY_LOG
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\README.md` - Uncertainty Logs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\STAGE_1_2_PROFESSIONAL_CLEANUP_UNCERTAINTY_LOG.md` - Stage 1/2 Professional Cleanup Uncertainty Log
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_live_pcb_truth_audit_user_correction.md` - User Correction - Live PCB Truth Audit
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_routing_quality_correction.md` - User Correction - Routing Quality
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY User Correction: USB-C Connector Footprint
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\COPPER_ZONE_STRATEGY_SESSION.md` - COPPER_ZONE_STRATEGY_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\EXISTING_TRACE_AUDIT_SESSION.md` - EXISTING_TRACE_AUDIT_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\FINAL_PCB_VERIFICATION_BEFORE_FAB_SESSION.md` - Final PCB Verification Before Fab Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\FOOTPRINT_PACKAGE_AUDIT_SESSION.md` - FOOTPRINT_PACKAGE_AUDIT_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\HOLE_PAD_VIA_STRATEGY_SESSION.md` - HOLE_PAD_VIA_STRATEGY_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\LIVE_PCB_TRUTH_AUDIT_SESSION.md` - LIVE_PCB_TRUTH_AUDIT_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\NOT_FINAL_FAB_EXPORT_BLOCKED_SESSION.md` - NOT_FINAL Fab Export Blocked Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_CRITICAL_NETS_ROUTING_SESSION.md` - PCB Critical Nets Routing Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_FULL_ROUTING_SESSION.md` - PCB Full Routing Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_MECHANICAL_SETUP_SESSION.md` - PCB_MECHANICAL_SETUP_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_PLACEMENT_PASS_1_SESSION.md` - PCB_PLACEMENT_PASS_1_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_PLACEMENT_PASS_2_ORIENTATION_SESSION.md` - PCB_PLACEMENT_PASS_2_ORIENTATION_SESSION
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_ROUTING_PLAN_SESSION.md` - PCB Routing Plan Session
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_UPDATE_FROM_SCHEMATIC_SESSION.md` - PCB_UPDATE_FROM_SCHEMATIC_SESSION
+Generated: `2026-05-08T14:49:56`
+
+This file is generated by `03_TOOLS/scripts/indexing/build_history_index.py`.
+
+## Rules
+
+- History stores evidence of what happened: sessions, commands, audits, verification runs, failures, issues, and AI quality records.
+- Durable reusable lessons belong in memory after evidence exists.
+- Do not store secrets, credentials, API keys, private tokens, or license keys.
+- Do not delete prior history records.
+
+## Buckets
+
+- `HISTORY_INDEX.md`: 1 markdown files
+- `INDEX.md`: 1 markdown files
+- `MASTER_HISTORY_INDEX.md`: 1 markdown files
+- `README.md`: 1 markdown files
+- `ai_scorecards`: 99 markdown files
+- `ai_self_reviews`: 99 markdown files
+- `claim_evidence_matrices`: 99 markdown files
+- `command_logs`: 192 markdown files
+- `design_reviews`: 117 markdown files
+- `erc_drc_reports`: 5 markdown files
+- `failed_attempts`: 66 markdown files
+- `hallucination_risk_logs`: 96 markdown files
+- `issue_logs`: 54 markdown files
+- `known_agent_mistakes`: 4 markdown files
+- `lessons_learned`: 1 markdown files
+- `project/MEMORY_MAINTENANCE_LAST_RUN.md`: 1 markdown files
+- `project/README.md`: 1 markdown files
+- `project/ai_scorecards`: 50 markdown files
+- `project/ai_self_reviews`: 49 markdown files
+- `project/claim_evidence_matrices`: 50 markdown files
+- `project/command_logs`: 7 markdown files
+- `project/failed_attempts`: 24 markdown files
+- `project/hallucination_risk_logs`: 48 markdown files
+- `project/issue_logs`: 28 markdown files
+- `project/quality_gate_failures`: 32 markdown files
+- `project/sessions`: 7 markdown files
+- `project/uncertainty_logs`: 50 markdown files
+- `project/user_corrections`: 3 markdown files
+- `project/verification_runs`: 14 markdown files
+- `project_history`: 3 markdown files
+- `quality_gate_failures`: 26 markdown files
+- `sessions`: 248 markdown files
+- `uncertainty_logs`: 99 markdown files
+- `user_corrections`: 8 markdown files
+- `workflow_runs`: 4 markdown files
+
+## Records
+
+- `02_HISTORY\ai_scorecards\20260502_230004_AI_quality_gate_setup_scorecard.md` - AI quality gate setup scorecard
+- `02_HISTORY\ai_scorecards\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SCORECARD.md` - AI Response Scorecard: Schematic Annotation/Completeness Checkers
+- `02_HISTORY\ai_scorecards\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_SCORECARD.md` - AI Response Scorecard: Schematic Visual Autocrop Setup
+- `02_HISTORY\ai_scorecards\20260506_170041_Strict_visual_gate_patch_response_scorecard.md` - Strict visual gate patch response scorecard
+- `02_HISTORY\ai_scorecards\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
+- `02_HISTORY\ai_scorecards\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_SCORECARD.md` - AI Response Scorecard: KiCad Engine Schematic Failure Root-Cause Audit
+- `02_HISTORY\ai_scorecards\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_SCORECARD.md` - AI Response Scorecard: ESP32_CSI Emergency Annotation Repair
+- `02_HISTORY\ai_scorecards\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_SCORECARD.md` - AI Response Scorecard: ESP32 CSI Actual KiCad Annotation Repair
+- `02_HISTORY\ai_scorecards\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_SCORECARD.md` - AI Response Scorecard: ESP32 CSI GUI Annotation Diagnosis
+- `02_HISTORY\ai_scorecards\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_SCORECARD.md` - AI Response Scorecard: KiCad GUI Automation Layer
+- `02_HISTORY\ai_scorecards\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
+- `02_HISTORY\ai_scorecards\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_AI_Response_Scorecard.md` - PCB Layout Sandbox Layer Setup AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_172119_PCB_Variant_Scoring_System_AI_Response_Scorecard.md` - PCB Variant Scoring System AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_AI_Response_Scorecard.md` - ESP32 Dev Board Layout Intelligence AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_AI_Response_Scorecard.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_175002_FreeRouting_Feasibility_Integration_AI_Response_Scorecard.md` - FreeRouting Feasibility Integration AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_175826_PCB_Layout_Sandbox_Gate_Added_AI_Response_Scorecard.md` - PCB Layout Sandbox Gate Added AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_210012_Real_KiCad_PCB_Routing_Bridge_AI_Response_Scorecard.md` - Real KiCad PCB Routing Bridge AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Scorecard.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Scorecard
+- `02_HISTORY\ai_scorecards\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Scorecard.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Scorecard
+- `02_HISTORY\ai_scorecards\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Scorecard.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Scorecard
+- `02_HISTORY\ai_scorecards\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Scorecard.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Scorecard
+- `02_HISTORY\ai_scorecards\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Scorecard.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Scorecard
+- `02_HISTORY\ai_scorecards\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE BOM Sourcing Review
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Final Production Signoff
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Mechanical 3D Review
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE PCB Create From Schematic
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Production Fix Pass
+- `02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\ai_scorecards\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260508_140404_GITHUB_REPO_PUSH_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260508_150300_GITHUB_REPO_INDEXING_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY\ai_scorecards\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md` - Accuracy Engine And AI Quality Setup Scorecard
+- `02_HISTORY\ai_scorecards\AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD.md` - AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD
+- `02_HISTORY\ai_scorecards\AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD.md` - AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD
+- `02_HISTORY\ai_scorecards\AUTO_ROUTING_ENGINE_AI_RESPONSE_SCORECARD.md` - AUTO_ROUTING_ENGINE_AI_RESPONSE_SCORECARD
+- `02_HISTORY\ai_scorecards\AUTO_SANDBOX_APPROVAL_SYSTEM_AI_RESPONSE_SCORECARD.md` - AI Response Scorecard - Auto Sandbox Approval System
+- `02_HISTORY\ai_scorecards\AUTO_VARIANT_SCORING_ENGINE_AI_RESPONSE_SCORECARD.md` - AI Response Scorecard - Auto Variant Scoring Engine
+- `02_HISTORY\ai_scorecards\COMPONENT_DATABASE_CORE_SETUP_AI_RESPONSE_SCORECARD.md` - Component Database Core Setup AI Response Scorecard
+- `02_HISTORY\ai_scorecards\CORE_PLACEHOLDER_CONTENT_UPGRADE_SCORECARD.md` - AI Response Scorecard: Core Placeholder Content Upgrade
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Full Routing And Copper
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE GUI Native Annotation
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Schematic Audit Only
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE Schematic Safe Repair
+- `02_HISTORY\ai_scorecards\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_AI_RESPONSE_SCORECARD.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked AI Response Scorecard
+- `02_HISTORY\ai_scorecards\FINAL_PRODUCTION_STRUCTURE_AUDIT_SCORECARD.md` - AI Response Scorecard: Final Production Structure Audit
+- `02_HISTORY\ai_scorecards\FOOTPRINT_GAP_ANALYSIS_SCORECARD.md` - AI Response Scorecard - Footprint Gap Analysis
+- `02_HISTORY\ai_scorecards\FULL_KICAD_PIPELINE_PROMPT_PACK_SCORECARD.md` - AI Response Scorecard: Full KiCad Pipeline Prompt Pack
+- `02_HISTORY\ai_scorecards\FULL_REPO_PRODUCTION_QUALITY_AUDIT_SCORECARD.md` - AI Response Scorecard - Full Repo Production Quality Audit
+- `02_HISTORY\ai_scorecards\GOLDEN_PATH_SAMPLE_GATE_RUN_SCORECARD.md` - AI Response Scorecard - Golden Path Sample Gate Run
+- `02_HISTORY\ai_scorecards\GOLDEN_PATH_SAMPLE_PROMOTION_SCORECARD.md` - AI Response Scorecard - Golden Path Sample Promotion
+- `02_HISTORY\ai_scorecards\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_SCORECARD.md` - AI Response Scorecard: KiCad Auto-Open Project Workflow
+- `02_HISTORY\ai_scorecards\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_SCORECARD.md` - AI Response Scorecard: KiCad Native Annotation Workflow Documentation Update
+- `02_HISTORY\ai_scorecards\KICAD_PHASE_GATE_PATCH_SCORECARD.md` - AI Response Scorecard - KiCad Phase Gate Patch
+- `02_HISTORY\ai_scorecards\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_SCORECARD.md` - AI Response Scorecard - Knowledge Base Reference Design Setup
+- `02_HISTORY\ai_scorecards\LIBRARY_FACTORY_SETUP_SCORECARD.md` - AI Response Scorecard - Library Factory Setup
+- `02_HISTORY\ai_scorecards\MCU_DATASHEET_TREE_UPGRADE_SCORECARD.md` - AI Response Scorecard: MCU Datasheet Tree Upgrade
+- `02_HISTORY\ai_scorecards\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_SCORECARD.md` - Microcontroller Family Content Generator Scorecard
+- `02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Candidate Discovery
+- `02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Intake System
+- `02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Project Import
+- `02_HISTORY\ai_scorecards\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Projects Audit
+- `02_HISTORY\ai_scorecards\P0_P1_REPAIR_SCORECARD.md` - AI Response Scorecard: P0/P1 Repair
+- `02_HISTORY\ai_scorecards\PACKAGE_FAB_VENDOR_PROFILE_SETUP_SCORECARD.md` - AI Response Scorecard - Package Fab Vendor Profile Setup
+- `02_HISTORY\ai_scorecards\PCB_TRACE_ANGLE_RULE_PATCH_AI_RESPONSE_SCORECARD.md` - PCB Trace Angle Rule Patch AI Response Scorecard
+- `02_HISTORY\ai_scorecards\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_SCORECARD.md` - AI Response Scorecard: Playwright Batch Research Expansion
+- `02_HISTORY\ai_scorecards\PLAYWRIGHT_PILOT_RESEARCH_SCORECARD.md` - AI Response Scorecard: Playwright Pilot Research
+- `02_HISTORY\ai_scorecards\PLAYWRIGHT_RESEARCH_PIPELINE_SCORECARD.md` - AI Response Scorecard: Playwright Research Pipeline
+- `02_HISTORY\ai_scorecards\POST_SAMPLE_P0_P1_REPAIR_SCORECARD.md` - AI Response Scorecard - Post Sample P0/P1 Repair
+- `02_HISTORY\ai_scorecards\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_SCORECARD.md` - AI Response Scorecard - Post Sample Project Production Audit
+- `02_HISTORY\ai_scorecards\PROJECT_GATE_RUNNER_SCORECARD.md` - AI Response Scorecard - Project Gate Runner
+- `02_HISTORY\ai_scorecards\PUBLIC_RELEASE_STRUCTURE_SCORECARD.md` - AI Response Scorecard - Public Release Structure
+- `02_HISTORY\ai_scorecards\README.md` - AI Scorecards
+- `02_HISTORY\ai_scorecards\SAMPLE_PROJECT_PAYLOAD_RULES_SCORECARD.md` - AI Response Scorecard - Sample Project Payload Rules
+- `02_HISTORY\ai_scorecards\SAMPLE_PROJECT_PUBLIC_DOCS_SCORECARD.md` - AI Response Scorecard - Sample Project Public Docs
+- `02_HISTORY\ai_scorecards\SCHEMATIC_TO_PCB_GATE_SYSTEM_SCORECARD.md` - AI Response Scorecard - Schematic To PCB Gate System
+- `02_HISTORY\ai_scorecards\STARTUP_CLOSEOUT_INDEX_WIRING_RESPONSE_SCORECARD.md` - AI Response Scorecard: Startup Closeout Index Wiring
+- `02_HISTORY\ai_scorecards\STM32_DATASHEET_TREE_CONTENT_COMPLETION_SCORECARD.md` - AI Response Scorecard - STM32 Datasheet Tree Content Completion
+- `02_HISTORY\ai_scorecards\STM32_SOURCE_LINK_RESEARCH_SCORECARD.md` - AI Response Scorecard - STM32 Source Link Research
+- `02_HISTORY\ai_scorecards\STM32F1_PILOT_CONTENT_COMPLETION_SCORECARD.md` - STM32F1 Pilot Content Completion Scorecard
+- `02_HISTORY\ai_scorecards\STRUCTURE_EXPANSION_AI_RESPONSE_SCORECARD.md` - Structure Expansion AI Response Scorecard
+- `02_HISTORY\ai_scorecards\SUPPLIER_CONNECTOR_STUBS_SCORECARD.md` - AI Response Scorecard: Supplier Connector Stubs
+- `02_HISTORY\ai_scorecards\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_SCORECARD.md` - AI Response Scorecard: Supplier Datasheet Footprint Final Audit
+- `02_HISTORY\ai_scorecards\SUPPLIER_FOOTPRINT_MATCH_SCORECARD.md` - AI Response Scorecard - Supplier Footprint Match System
+- `02_HISTORY\ai_scorecards\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_SCORECARD.md` - AI Response Scorecard: Supplier Ingestion System Revalidation
+- `02_HISTORY\ai_scorecards\SUPPLIER_INGESTION_SYSTEM_SCORECARD.md` - AI Response Scorecard: Supplier Ingestion System
+- `02_HISTORY\ai_scorecards\TEST_EXAMPLES_BENCHMARKS_SETUP_SCORECARD.md` - AI Response Scorecard - Test Examples Benchmarks Setup
+- `02_HISTORY\ai_self_reviews\20260502_230004_AI_quality_gate_setup_self_review.md` - AI quality gate setup self review
+- `02_HISTORY\ai_self_reviews\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SELF_REVIEW.md` - AI Self-Review: Schematic Annotation/Completeness Checkers
+- `02_HISTORY\ai_self_reviews\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_SELF_REVIEW.md` - AI Self-Review: Schematic Visual Autocrop Setup
+- `02_HISTORY\ai_self_reviews\20260506_170041_Strict_human_readable_schematic_visual_gate_patch.md` - Strict human-readable schematic visual gate patch
+- `02_HISTORY\ai_self_reviews\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
+- `02_HISTORY\ai_self_reviews\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_SELF_REVIEW.md` - AI Self-Review: KiCad Engine Schematic Failure Root-Cause Audit
+- `02_HISTORY\ai_self_reviews\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI Emergency Annotation Repair
+- `02_HISTORY\ai_self_reviews\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_SELF_REVIEW.md` - AI Self-Review: ESP32 CSI Actual KiCad Annotation Repair
+- `02_HISTORY\ai_self_reviews\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_SELF_REVIEW.md` - AI Self-Review: ESP32 CSI GUI Annotation Diagnosis
+- `02_HISTORY\ai_self_reviews\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_SELF_REVIEW.md` - AI Self-Review: KiCad GUI Automation Layer
+- `02_HISTORY\ai_self_reviews\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
+- `02_HISTORY\ai_self_reviews\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Self_Review.md` - PCB Layout Sandbox Layer Setup Self Review
+- `02_HISTORY\ai_self_reviews\20260507_172119_PCB_Variant_Scoring_System_Self_Review.md` - PCB Variant Scoring System Self Review
+- `02_HISTORY\ai_self_reviews\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Self_Review.md` - ESP32 Dev Board Layout Intelligence Self Review
+- `02_HISTORY\ai_self_reviews\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Self_Review.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Self Review
+- `02_HISTORY\ai_self_reviews\20260507_175002_FreeRouting_Feasibility_Integration_Self_Review.md` - FreeRouting Feasibility Integration Self Review
+- `02_HISTORY\ai_self_reviews\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Self_Review.md` - PCB Layout Sandbox Gate Added Self Review
+- `02_HISTORY\ai_self_reviews\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Self_Review.md` - Real KiCad PCB Routing Bridge Self Review
+- `02_HISTORY\ai_self_reviews\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Self_Review.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Self Review
+- `02_HISTORY\ai_self_reviews\20260507_210741_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Self_Review.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Self Review
+- `02_HISTORY\ai_self_reviews\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Self_Review.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Self Review
+- `02_HISTORY\ai_self_reviews\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Self_Review.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Self Review
+- `02_HISTORY\ai_self_reviews\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Self_Review.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Self Review
+- `02_HISTORY\ai_self_reviews\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE BOM Sourcing Review
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Final Production Signoff
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Mechanical 3D Review
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE PCB Create From Schematic
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Production Fix Pass
+- `02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\ai_self_reviews\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260508_140404_GITHUB_REPO_PUSH_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260508_150300_GITHUB_REPO_INDEXING_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY\ai_self_reviews\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md` - Accuracy Engine And AI Quality Setup AI Self-Review
+- `02_HISTORY\ai_self_reviews\AUTO_PCB_START_WORKFLOW_SELF_REVIEW.md` - AUTO_PCB_START_WORKFLOW_SELF_REVIEW
+- `02_HISTORY\ai_self_reviews\AUTO_PLACEMENT_ENGINE_SELF_REVIEW.md` - AUTO_PLACEMENT_ENGINE_SELF_REVIEW
+- `02_HISTORY\ai_self_reviews\AUTO_ROUTING_ENGINE_SELF_REVIEW.md` - AUTO_ROUTING_ENGINE_SELF_REVIEW
+- `02_HISTORY\ai_self_reviews\AUTO_SANDBOX_APPROVAL_SYSTEM_SELF_REVIEW.md` - AI Self Review - Auto Sandbox Approval System
+- `02_HISTORY\ai_self_reviews\AUTO_VARIANT_SCORING_ENGINE_SELF_REVIEW.md` - AI Self Review - Auto Variant Scoring Engine
+- `02_HISTORY\ai_self_reviews\COMPONENT_DATABASE_CORE_SETUP_AI_SELF_REVIEW.md` - Component Database Core Setup AI Self-Review
+- `02_HISTORY\ai_self_reviews\CORE_PLACEHOLDER_CONTENT_UPGRADE_SELF_REVIEW.md` - AI Self-Review: Core Placeholder Content Upgrade
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Full Routing And Copper
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE GUI Native Annotation
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Schematic Audit Only
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_AI_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE Schematic Safe Repair
+- `02_HISTORY\ai_self_reviews\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
+- `02_HISTORY\ai_self_reviews\FINAL_PRODUCTION_STRUCTURE_AUDIT_AI_SELF_REVIEW.md` - AI Self-Review: Final Production Structure Audit
+- `02_HISTORY\ai_self_reviews\FOOTPRINT_GAP_ANALYSIS_SELF_REVIEW.md` - AI Self-Review - Footprint Gap Analysis
+- `02_HISTORY\ai_self_reviews\FULL_KICAD_PIPELINE_PROMPT_PACK_SELF_REVIEW.md` - AI Self-Review: Full KiCad Pipeline Prompt Pack
+- `02_HISTORY\ai_self_reviews\FULL_REPO_PRODUCTION_QUALITY_AUDIT_SELF_REVIEW.md` - AI Self Review - Full Repo Production Quality Audit
+- `02_HISTORY\ai_self_reviews\GOLDEN_PATH_SAMPLE_GATE_RUN_SELF_REVIEW.md` - AI Self Review - Golden Path Sample Gate Run
+- `02_HISTORY\ai_self_reviews\GOLDEN_PATH_SAMPLE_PROMOTION_SELF_REVIEW.md` - AI Self-Review - Golden Path Sample Promotion
+- `02_HISTORY\ai_self_reviews\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_SELF_REVIEW.md` - AI Self-Review: KiCad Auto-Open Project Workflow
+- `02_HISTORY\ai_self_reviews\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_SELF_REVIEW.md` - AI Self-Review: KiCad Native Annotation Workflow Documentation Update
+- `02_HISTORY\ai_self_reviews\KICAD_PHASE_GATE_PATCH_SELF_REVIEW.md` - AI Self-Review - KiCad Phase Gate Patch
+- `02_HISTORY\ai_self_reviews\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Knowledge Base Reference Design Setup
+- `02_HISTORY\ai_self_reviews\LIBRARY_FACTORY_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Library Factory Setup
+- `02_HISTORY\ai_self_reviews\MCU_DATASHEET_TREE_UPGRADE_SELF_REVIEW.md` - AI Self-Review: MCU Datasheet Tree Upgrade
+- `02_HISTORY\ai_self_reviews\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_SELF_REVIEW.md` - Microcontroller Family Content Generator Self Review
+- `02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Candidate Discovery
+- `02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Intake System
+- `02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Project Import
+- `02_HISTORY\ai_self_reviews\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Projects Audit
+- `02_HISTORY\ai_self_reviews\P0_P1_REPAIR_SELF_REVIEW.md` - AI Self-Review: P0/P1 Repair
+- `02_HISTORY\ai_self_reviews\PACKAGE_FAB_VENDOR_PROFILE_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Package Fab Vendor Profile Setup
+- `02_HISTORY\ai_self_reviews\PCB_TRACE_ANGLE_RULE_PATCH_SELF_REVIEW.md` - PCB Trace Angle Rule Patch Self Review
+- `02_HISTORY\ai_self_reviews\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_SELF_REVIEW.md` - AI Self Review: Playwright Batch Research Expansion
+- `02_HISTORY\ai_self_reviews\PLAYWRIGHT_PILOT_RESEARCH_SELF_REVIEW.md` - AI Self Review: Playwright Pilot Research
+- `02_HISTORY\ai_self_reviews\PLAYWRIGHT_RESEARCH_PIPELINE_SELF_REVIEW.md` - AI Self Review: Playwright Research Pipeline
+- `02_HISTORY\ai_self_reviews\POST_SAMPLE_P0_P1_REPAIR_SELF_REVIEW.md` - AI Self-Review - Post Sample P0/P1 Repair
+- `02_HISTORY\ai_self_reviews\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_AI_SELF_REVIEW.md` - AI Self-Review - Post Sample Project Production Audit
+- `02_HISTORY\ai_self_reviews\PROJECT_GATE_RUNNER_SELF_REVIEW.md` - AI Self-Review - Project Gate Runner
+- `02_HISTORY\ai_self_reviews\PUBLIC_RELEASE_STRUCTURE_AI_SELF_REVIEW.md` - AI Self Review - Public Release Structure
+- `02_HISTORY\ai_self_reviews\README.md` - AI Self Reviews
+- `02_HISTORY\ai_self_reviews\SAMPLE_PROJECT_PAYLOAD_RULES_AI_SELF_REVIEW.md` - AI Self-Review - Sample Project Payload Rules
+- `02_HISTORY\ai_self_reviews\SAMPLE_PROJECT_PUBLIC_DOCS_SELF_REVIEW.md` - AI Self-Review - Sample Project Public Docs
+- `02_HISTORY\ai_self_reviews\SCHEMATIC_TO_PCB_GATE_SYSTEM_AI_SELF_REVIEW.md` - AI Self Review - Schematic To PCB Gate System
+- `02_HISTORY\ai_self_reviews\STARTUP_CLOSEOUT_INDEX_WIRING_AI_SELF_REVIEW.md` - AI Self-Review: Startup Closeout Index Wiring
+- `02_HISTORY\ai_self_reviews\STM32_DATASHEET_TREE_CONTENT_COMPLETION_SELF_REVIEW.md` - AI Self Review - STM32 Datasheet Tree Content Completion
+- `02_HISTORY\ai_self_reviews\STM32_SOURCE_LINK_RESEARCH_SELF_REVIEW.md` - AI Self Review - STM32 Source Link Research
+- `02_HISTORY\ai_self_reviews\STM32F1_PILOT_CONTENT_COMPLETION_SELF_REVIEW.md` - STM32F1 Pilot Content Completion Self Review
+- `02_HISTORY\ai_self_reviews\STRUCTURE_EXPANSION_AI_SELF_REVIEW.md` - Structure Expansion AI Self-Review
+- `02_HISTORY\ai_self_reviews\SUPPLIER_CONNECTOR_STUBS_SELF_REVIEW.md` - AI Self-Review: Supplier Connector Stubs
+- `02_HISTORY\ai_self_reviews\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_SELF_REVIEW.md` - AI Self Review: Supplier Datasheet Footprint Final Audit
+- `02_HISTORY\ai_self_reviews\SUPPLIER_FOOTPRINT_MATCH_SELF_REVIEW.md` - AI Self-Review - Supplier Footprint Match System
+- `02_HISTORY\ai_self_reviews\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_SELF_REVIEW.md` - AI Self-Review: Supplier Ingestion System Revalidation
+- `02_HISTORY\ai_self_reviews\SUPPLIER_INGESTION_SYSTEM_SELF_REVIEW.md` - AI Self-Review: Supplier Ingestion System
+- `02_HISTORY\ai_self_reviews\TEST_EXAMPLES_BENCHMARKS_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Test Examples Benchmarks Setup
+- `02_HISTORY\claim_evidence_matrices\20260502_230004_AI_quality_gate_setup_claim_evidence_matrix.md` - AI quality gate setup claim evidence matrix
+- `02_HISTORY\claim_evidence_matrices\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_CLAIMS.md` - Claim/Evidence Matrix: Schematic Annotation/Completeness Checkers
+- `02_HISTORY\claim_evidence_matrices\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_CLAIMS.md` - Claim/Evidence Matrix: Schematic Visual Autocrop Setup
+- `02_HISTORY\claim_evidence_matrices\20260506_170057_Strict_visual_gate_patch_claim_evidence_matrix.md` - Strict visual gate patch claim evidence matrix
+- `02_HISTORY\claim_evidence_matrices\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_CLAIMS.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
+- `02_HISTORY\claim_evidence_matrices\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_CLAIMS.md` - Claim Evidence Matrix: KiCad Engine Schematic Failure Root-Cause Audit
+- `02_HISTORY\claim_evidence_matrices\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_CLAIMS.md` - Claim Evidence Matrix: ESP32_CSI Emergency Annotation Repair
+- `02_HISTORY\claim_evidence_matrices\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_CLAIMS.md` - Claim/Evidence Matrix: ESP32 CSI Actual KiCad Annotation Repair
+- `02_HISTORY\claim_evidence_matrices\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_CLAIMS.md` - Claim/Evidence Matrix: ESP32 CSI GUI Annotation Diagnosis
+- `02_HISTORY\claim_evidence_matrices\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_CLAIMS.md` - Claim Evidence Matrix: KiCad GUI Automation Layer
+- `02_HISTORY\claim_evidence_matrices\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_CLAIMS.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
+- `02_HISTORY\claim_evidence_matrices\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Claim_Evidence_Matrix.md` - PCB Layout Sandbox Layer Setup Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_172119_PCB_Variant_Scoring_System_Claim_Evidence_Matrix.md` - PCB Variant Scoring System Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Claim_Evidence_Matrix.md` - ESP32 Dev Board Layout Intelligence Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_175002_FreeRouting_Feasibility_Integration_Claim_Evidence_Matrix.md` - FreeRouting Feasibility Integration Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Claim_Evidence_Matrix.md` - PCB Layout Sandbox Gate Added Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Claim_Evidence_Matrix.md` - Real KiCad PCB Routing Bridge Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Claim_Evidence_Matrix.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Claim_Evidence_Mat.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE BOM Sourcing Review
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE Final Production Signoff
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Mechanical 3D Review
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_CLAIMS.md` - Claim/Evidence Matrix: ESP32_CSI_WIFI_NODE PCB Create From Schematic
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Production Fix Pass
+- `02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\claim_evidence_matrices\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260508_140404_GITHUB_REPO_PUSH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260508_150300_GITHUB_REPO_INDEXING_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Accuracy Engine And AI Quality Setup Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX
+- `02_HISTORY\claim_evidence_matrices\AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX
+- `02_HISTORY\claim_evidence_matrices\AUTO_ROUTING_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - AUTO_ROUTING_ENGINE_CLAIM_EVIDENCE_MATRIX
+- `02_HISTORY\claim_evidence_matrices\AUTO_SANDBOX_APPROVAL_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix - Auto Sandbox Approval System
+- `02_HISTORY\claim_evidence_matrices\AUTO_VARIANT_SCORING_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix - Auto Variant Scoring Engine
+- `02_HISTORY\claim_evidence_matrices\COMPONENT_DATABASE_CORE_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Component Database Core Setup Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\CORE_PLACEHOLDER_CONTENT_UPGRADE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Core Placeholder Content Upgrade
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Full Routing And Copper
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_CLAIMS.md` - Claim/Evidence Matrix - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE GUI Native Annotation
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_CLAIM_EVIDENCE.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE Schematic Audit Only
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_CLAIM_EVIDENCE.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE Schematic Safe Repair
+- `02_HISTORY\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
+- `02_HISTORY\claim_evidence_matrices\FINAL_PRODUCTION_STRUCTURE_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Final Production Structure Audit
+- `02_HISTORY\claim_evidence_matrices\FOOTPRINT_GAP_ANALYSIS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Footprint Gap Analysis
+- `02_HISTORY\claim_evidence_matrices\FULL_KICAD_PIPELINE_PROMPT_PACK_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Full KiCad Pipeline Prompt Pack
+- `02_HISTORY\claim_evidence_matrices\FULL_REPO_PRODUCTION_QUALITY_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Full Repo Production Quality Audit
+- `02_HISTORY\claim_evidence_matrices\GOLDEN_PATH_SAMPLE_GATE_RUN_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Golden Path Sample Gate Run
+- `02_HISTORY\claim_evidence_matrices\GOLDEN_PATH_SAMPLE_PROMOTION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Golden Path Sample Promotion
+- `02_HISTORY\claim_evidence_matrices\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: KiCad Auto-Open Project Workflow
+- `02_HISTORY\claim_evidence_matrices\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: KiCad Native Annotation Workflow Documentation Update
+- `02_HISTORY\claim_evidence_matrices\KICAD_PHASE_GATE_PATCH_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - KiCad Phase Gate Patch
+- `02_HISTORY\claim_evidence_matrices\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Knowledge Base Reference Design Setup
+- `02_HISTORY\claim_evidence_matrices\LIBRARY_FACTORY_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Library Factory Setup
+- `02_HISTORY\claim_evidence_matrices\MCU_DATASHEET_TREE_UPGRADE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: MCU Datasheet Tree Upgrade
+- `02_HISTORY\claim_evidence_matrices\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_CLAIM_EVIDENCE_MATRIX.md` - Microcontroller Family Content Generator Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Open KiCad Sample Candidate Discovery
+- `02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Open KiCad Sample Intake System
+- `02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_CLAIM_EVIDENCE_MATRIX.md` - Claim/Evidence Matrix - Open KiCad Sample Project Import
+- `02_HISTORY\claim_evidence_matrices\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Open KiCad Sample Projects Audit
+- `02_HISTORY\claim_evidence_matrices\P0_P1_REPAIR_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: P0/P1 Repair
+- `02_HISTORY\claim_evidence_matrices\PACKAGE_FAB_VENDOR_PROFILE_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Package Fab Vendor Profile Setup
+- `02_HISTORY\claim_evidence_matrices\PCB_TRACE_ANGLE_RULE_PATCH_CLAIM_EVIDENCE_MATRIX.md` - PCB Trace Angle Rule Patch Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Batch Research Expansion
+- `02_HISTORY\claim_evidence_matrices\PLAYWRIGHT_PILOT_RESEARCH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Pilot Research
+- `02_HISTORY\claim_evidence_matrices\PLAYWRIGHT_RESEARCH_PIPELINE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Research Pipeline
+- `02_HISTORY\claim_evidence_matrices\POST_SAMPLE_P0_P1_REPAIR_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Post Sample P0/P1 Repair
+- `02_HISTORY\claim_evidence_matrices\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Post Sample Project Production Audit
+- `02_HISTORY\claim_evidence_matrices\PROJECT_GATE_RUNNER_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Project Gate Runner
+- `02_HISTORY\claim_evidence_matrices\PUBLIC_RELEASE_STRUCTURE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Public Release Structure
+- `02_HISTORY\claim_evidence_matrices\README.md` - Claim Evidence Matrices
+- `02_HISTORY\claim_evidence_matrices\SAMPLE_PROJECT_PAYLOAD_RULES_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Sample Project Payload Rules
+- `02_HISTORY\claim_evidence_matrices\SAMPLE_PROJECT_PUBLIC_DOCS_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Sample Project Public Docs
+- `02_HISTORY\claim_evidence_matrices\SCHEMATIC_TO_PCB_GATE_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Schematic To PCB Gate System
+- `02_HISTORY\claim_evidence_matrices\STARTUP_CLOSEOUT_INDEX_WIRING_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Startup Closeout Index Wiring
+- `02_HISTORY\claim_evidence_matrices\STM32_DATASHEET_TREE_CONTENT_COMPLETION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - STM32 Datasheet Tree Content Completion
+- `02_HISTORY\claim_evidence_matrices\STM32_SOURCE_LINK_RESEARCH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - STM32 Source Link Research
+- `02_HISTORY\claim_evidence_matrices\STM32F1_PILOT_CONTENT_COMPLETION_CLAIM_EVIDENCE_MATRIX.md` - STM32F1 Pilot Content Completion Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\STRUCTURE_EXPANSION_CLAIM_EVIDENCE_MATRIX.md` - Structure Expansion Claim Evidence Matrix
+- `02_HISTORY\claim_evidence_matrices\SUPPLIER_CONNECTOR_STUBS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Connector Stubs
+- `02_HISTORY\claim_evidence_matrices\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Datasheet Footprint Final Audit
+- `02_HISTORY\claim_evidence_matrices\SUPPLIER_FOOTPRINT_MATCH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Supplier Footprint Match System
+- `02_HISTORY\claim_evidence_matrices\SUPPLIER_INGESTION_SYSTEM_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Ingestion System
+- `02_HISTORY\claim_evidence_matrices\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Supplier Ingestion System Revalidation
+- `02_HISTORY\claim_evidence_matrices\TEST_EXAMPLES_BENCHMARKS_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Test Examples Benchmarks Setup
+- `02_HISTORY\command_logs\2026-05-08_PCB_BATCH_04_REPLAY_REQUEST_ALREADY_APPLIED_COMMANDS.md` - PCB Batch 04 Replay Request Commands
+- `02_HISTORY\command_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_COMMANDS.md` - Accuracy Engine And AI Quality Setup Command Log
+- `02_HISTORY\command_logs\AI_QUALITY_GATE_SETUP_COMMANDS.md` - AI Quality Gate Setup Commands
+- `02_HISTORY\command_logs\AUTO_PCB_START_WORKFLOW_COMMANDS.md` - AUTO_PCB_START_WORKFLOW_COMMANDS
+- `02_HISTORY\command_logs\AUTO_PLACEMENT_ENGINE_COMMANDS.md` - AUTO_PLACEMENT_ENGINE_COMMANDS
+- `02_HISTORY\command_logs\AUTO_ROUTING_ENGINE_COMMANDS.md` - AUTO_ROUTING_ENGINE_COMMANDS
+- `02_HISTORY\command_logs\AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_COMMANDS.md` - AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_COMMANDS
+- `02_HISTORY\command_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_COMMANDS.md` - Auto Sandbox Approval System Commands
+- `02_HISTORY\command_logs\AUTO_VARIANT_SCORING_ENGINE_COMMANDS.md` - Auto Variant Scoring Engine Commands
+- `02_HISTORY\command_logs\AUTOMATIC_SCHEMATIC_CLOSEUP_CROPS_COMMANDS.md` - Automatic Schematic Close-Up Crops Command Log
+- `02_HISTORY\command_logs\BARREL_JACK_USB_C_ORIENTATION_RULE_PATCH_COMMANDS.md` - Barrel Jack And USB-C Orientation Rule Patch Command Log
+- `02_HISTORY\command_logs\CLEAN_SAMPLE_SUCCESS_PATH_COMMANDS.md` - Clean Sample Success Path Commands
+- `02_HISTORY\command_logs\CODEX_MCP_CONFIG_COMMANDS.md` - Codex MCP Config Commands
+- `02_HISTORY\command_logs\COMMAND_LINK_DIRECT_EDIT_COMMANDS.md` - COMMAND LINK Direct Edit Commands
+- `02_HISTORY\command_logs\COMMAND_LINK_DRC_CONTINUATION_COMMANDS.md` - COMMAND LINK DRC Continuation Command Log
+- `02_HISTORY\command_logs\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT_COMMANDS.md` - COMMAND LINK Final Fabrication Readiness Audit Command Log
+- `02_HISTORY\command_logs\COMPONENT_DATABASE_CORE_SETUP_COMMANDS.md` - Component Database Core Setup Command Log
+- `02_HISTORY\command_logs\CORE_PLACEHOLDER_CONTENT_UPGRADE_COMMANDS.md` - Core Placeholder Content Upgrade Commands
+- `02_HISTORY\command_logs\CROSS_PLATFORM_INSTALLER_PROJECT_COMMANDS.md` - Cross-Platform Installer Project Commands
+- `02_HISTORY\command_logs\DATASHEET_LIBRARY_RESTRUCTURE_COMMANDS.md` - Datasheet Library Restructure Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ACTUAL_KICAD_ANNOTATION_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Actual KiCad Annotation Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_BOM_FOOTPRINT_LOCK_COMMANDS.md` - Command Log - ESP32_CSI_WIFI_NODE BOM And Footprint Lock
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE BOM Sourcing Review Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_BOTTOM_EDGE_CONNECTOR_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Bottom Edge Connector Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST_COMMANDS.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPPER_POUR_COMMANDS.md` - ESP32 CSI WiFi Node Copper Pour Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_COMMANDS.md` - ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_CRITICAL_NETS_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE Critical Nets Routing Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_CRITICAL_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE Critical Routing Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_EMERGENCY_ANNOTATION_REPAIR_COMMANDS.md` - Command Log: ESP32_CSI_WIFI_NODE Emergency Annotation Repair
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_EMERGENCY_SCHEMATIC_TRUTH_AUDIT_COMMANDS.md` - Command Log - ESP32_CSI_WIFI_NODE Emergency Schematic Truth Audit
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final PCB Audit Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VERIFICATION_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final PCB Verification Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_PACKAGE_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Package Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final Production Signoff Audit Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_ROUTED_PCB_REVIEW_COMMANDS.md` - ESP32 CSI WiFi Node Final Routed PCB Review Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_SCHEMATIC_READINESS_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final Schematic Readiness Audit Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FINAL_TRACE_BY_TRACE_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Final Trace By Trace Audit Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_COMMANDS.md` - ESP32_CSI_WIFI_NODE Full Routing And Copper Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE Full Routing Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_GUI_ANNOTATION_DIAGNOSIS_COMMANDS.md` - ESP32_CSI_WIFI_NODE GUI Annotation Diagnosis Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_COMMANDS.md` - ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_HUMAN_READABLE_SCHEMATIC_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Human-Readable Schematic Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_INTELLIGENCE_BASED_PLACEMENT_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Intelligence-Based Placement Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_AUDIT_COMMANDS.md` - ESP32 CSI WiFi Node J1 Barrel Jack Orientation Audit Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE J1 Barrel Jack Orientation Repair Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback Review Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_COMMANDS.md` - ESP32 CSI WiFi Node KiCad GUI Native Annotation Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_VARIANTS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE Mechanical 3D Review Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_NOT_FINAL_FAB_EXPORT_COMMANDS.md` - ESP32_CSI_WIFI_NODE NOT_FINAL Fab Export Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_COMMANDS.md` - ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_01_DRC_AND_GND_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 01 DRC And GND Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_03_USB_CONTROL_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 03 USB Control Routing Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_04_CONTROL_NET_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 04 Control Net Routing Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_BATCH_05_USB_DATA_ROUTING_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Batch 05 USB Data Routing Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Create From Schematic Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_FINAL_CONNECTIVITY_CLEANUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Final Connectivity Cleanup Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_INTELLIGENCE_LAYER_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Intelligence Layer Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_PLAN_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Layout Plan Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_SPEC_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Layout Specification Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Mechanical Setup Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Placement Audit Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_STRICT_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Placement Strict Audit Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE_COMMANDS.md` - ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_UPDATE_FROM_SCHEMATIC_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Update From Schematic Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PCB_ZONE_SETUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE PCB Zone Setup Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_COMMANDS.md` - Command Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Repair Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_POST_COPPER_DRC_REPAIR_COMMANDS.md` - ESP32 CSI WiFi Node Post-Copper DRC Repair Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_POWER_ROUTING_REPAIR_BATCH_02_COMMANDS.md` - ESP32_CSI_WIFI_NODE Power Routing Repair Batch 02 Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PRE_ROUTING_PRE_COPPER_POUR_READINESS_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Pre-Routing And Pre-Copper-Pour Readiness Audit Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Production Fix Pass Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_Q1_PMOS_PIN_MAPPING_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Q1 PMOS Pin Mapping Repair Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_CRITICAL_ROUTING_PASS_1_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real PCB Critical Routing Pass 1 Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real PCB Full Routing Pass Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_COMMANDS.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_COMMANDS.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_COMMANDS
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_COMMANDS.md` - ESP32_CSI_WIFI_NODE Real-World Failure Review Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_REPAIR_PASS_COMMANDS.md` - ESP32 CSI WiFi Node Routing Repair Pass Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_CLEANUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Cleanup Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_PROFESSIONAL_CLEANUP_COMMANDS.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Professional Cleanup Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 1 Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_2_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 2 Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_3_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 3 Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_4_COMMANDS.md` - ESP32 CSI WiFi Node Routing Stage 4 Command Log
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_COMMANDS.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Audit-Only Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_FOOTPRINT_GATE_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Footprint Gate Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_HUMAN_REVIEW_PACKET_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Human Review Packet Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_REAL_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Real Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_COMMANDS.md` - ESP32_CSI_WIFI_NODE Schematic Safe Repair Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_STAGE_3_USB_BLOCKED_COMMANDS.md` - ESP32_CSI_WIFI_NODE Stage 3 USB Blocked Commands
+- `02_HISTORY\command_logs\ESP32_CSI_WIFI_NODE_STRICT_VISUAL_READABILITY_REAUDIT_COMMANDS.md` - ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit Commands
+- `02_HISTORY\command_logs\ESP32_DEV_BOARD_LAYOUT_INTELLIGENCE_COMMANDS.md` - ESP32 Dev Board Layout Intelligence Commands
+- `02_HISTORY\command_logs\FAB_FILE_FORMAT_RULES_INTEGRATION_COMMANDS.md` - Fab File Format Rules Integration Command Log
+- `02_HISTORY\command_logs\FINAL_PRODUCTION_STRUCTURE_AUDIT_COMMANDS.md` - Final Production Structure Audit Commands
+- `02_HISTORY\command_logs\FOOTPRINT_GAP_ANALYSIS_COMMANDS.md` - Footprint Gap Analysis Commands
+- `02_HISTORY\command_logs\FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE_COMMANDS.md` - FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE_COMMANDS
+- `02_HISTORY\command_logs\FREEROUTING_FEASIBILITY_INTEGRATION_COMMANDS.md` - FreeRouting Feasibility Integration Commands
+- `02_HISTORY\command_logs\FULL_KICAD_PIPELINE_PROMPT_PACK_COMMANDS.md` - Full KiCad Pipeline Prompt Pack Command Log
+- `02_HISTORY\command_logs\FULL_REPO_PRODUCTION_QUALITY_AUDIT_COMMANDS.md` - Full Repo Production Quality Audit Commands
+- `02_HISTORY\command_logs\GITHUB_REPO_INDEXING_COMMANDS.md` - GITHUB_REPO_INDEXING_COMMANDS
+- `02_HISTORY\command_logs\GITHUB_REPO_PUSH_COMMANDS.md` - GitHub Repo Push Commands
+- `02_HISTORY\command_logs\GOLDEN_PATH_SAMPLE_GATE_COMMANDS.md` - Command Log - Golden Path Sample Gate Run
+- `02_HISTORY\command_logs\GOLDEN_PATH_SAMPLE_PROMOTION_COMMANDS.md` - Command Log - Golden Path Sample Promotion
+- `02_HISTORY\command_logs\INSTALLER_PAYLOAD_TEMPLATE_COMMANDS.md` - Installer Payload Template Commands
+- `02_HISTORY\command_logs\KIBOT_INSTALL_COMMANDS.md` - KiBot Install Commands
+- `02_HISTORY\command_logs\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_COMMANDS.md` - KiCad Auto-Open Project Workflow Commands
+- `02_HISTORY\command_logs\KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_AUDIT_COMMANDS.md` - KiCad Engine Schematic Failure Root-Cause Audit Commands
+- `02_HISTORY\command_logs\KICAD_GUI_AUTOMATION_LAYER_COMMANDS.md` - Command Log: KiCad GUI Automation Layer
+- `02_HISTORY\command_logs\KICAD_HAPPY_INSTALL_COMMANDS.md` - AGENTS.md
+- `02_HISTORY\command_logs\KICAD_INSTALLED_APP_DEEP_AUDIT_COMMANDS.md` - KiCad Installed App Deep Audit Commands
+- `02_HISTORY\command_logs\KICAD_MCP_PRO_INSTALL_COMMANDS.md` - kicad-mcp-pro Install Commands
+- `02_HISTORY\command_logs\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_COMMANDS.md` - KiCad Native Annotation Workflow Doc Update Commands
+- `02_HISTORY\command_logs\KICAD_PHASE_GATE_PATCH_COMMANDS.md` - Command Log - KiCad Phase Gate Patch
+- `02_HISTORY\command_logs\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_COMMANDS.md` - Knowledge Base Reference Design Setup Commands
+- `02_HISTORY\command_logs\LIBRARY_FACTORY_SETUP_COMMANDS.md` - Library Factory Setup Commands
+- `02_HISTORY\command_logs\LICENSE_ATTRIBUTION_AUDIT_COMMANDS.md` - License Attribution Audit Commands
+- `02_HISTORY\command_logs\LOCAL_ENVIRONMENT_CHECK_COMMANDS.md` - Local Environment Check Commands
+- `02_HISTORY\command_logs\MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_COMMANDS.md` - MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_COMMANDS
+- `02_HISTORY\command_logs\MAINTENANCE_LAYER_TEST_COMMANDS.md` - MAINTENANCE_LAYER_TEST_COMMANDS
+- `02_HISTORY\command_logs\MCU_DATASHEET_TREE_UPGRADE_COMMANDS.md` - Command Log: MCU Datasheet Tree Upgrade
+- `02_HISTORY\command_logs\MEMORY_HISTORY_CLEANUP_COMMANDS.md` - Memory History Cleanup Commands
+- `02_HISTORY\command_logs\MEMORY_HISTORY_MAINTENANCE_UPGRADE_COMMANDS.md` - Memory History Maintenance Upgrade Commands
+- `02_HISTORY\command_logs\MEMORY_HISTORY_SYSTEM_COMMANDS.md` - Memory History System Commands
+- `02_HISTORY\command_logs\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_COMMANDS.md` - Microcontroller Family Content Generator Commands
+- `02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_COMMANDS.md` - Command Log - Open KiCad Sample Candidate Discovery
+- `02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_COMMANDS.md` - Command Log - Open KiCad Sample Intake System
+- `02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_COMMANDS.md` - Command Log - Open KiCad Sample Project Import
+- `02_HISTORY\command_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_COMMANDS.md` - Open KiCad Sample Projects Audit Commands
+- `02_HISTORY\command_logs\P0_P1_REPAIR_COMMANDS.md` - P0/P1 Repair Commands
+- `02_HISTORY\command_logs\PACKAGE_FAB_VENDOR_PROFILE_SETUP_COMMANDS.md` - Package Fab Vendor Profile Setup Commands
+- `02_HISTORY\command_logs\PATH_FIX_COMMANDS.md` - PATH Fix Commands
+- `02_HISTORY\command_logs\PAYLOAD_TEMPLATE_REFRESH_COMMANDS.md` - Payload Template Refresh Commands
+- `02_HISTORY\command_logs\PCB_LAYOUT_SANDBOX_GATE_ADDED_COMMANDS.md` - PCB Layout Sandbox Gate Added Commands
+- `02_HISTORY\command_logs\PCB_LAYOUT_SANDBOX_LAYER_SETUP_COMMANDS.md` - PCB Layout Sandbox Layer Setup Commands
+- `02_HISTORY\command_logs\PCB_TRACE_ANGLE_RULE_PATCH_COMMANDS.md` - PCB Trace Angle Rule Patch Commands
+- `02_HISTORY\command_logs\PCB_VARIANT_SCORING_SYSTEM_COMMANDS.md` - PCB Variant Scoring System Commands
+- `02_HISTORY\command_logs\PILL_STYLE_PCB_PLACEMENT_RULE_PATCH_COMMANDS.md` - Pill-Style PCB Placement Rule Patch Command Log
+- `02_HISTORY\command_logs\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_COMMANDS.md` - Command Log: Playwright Batch Research Expansion
+- `02_HISTORY\command_logs\PLAYWRIGHT_PILOT_RESEARCH_COMMANDS.md` - Command Log: Playwright Pilot Research
+- `02_HISTORY\command_logs\PLAYWRIGHT_RESEARCH_PIPELINE_COMMANDS.md` - Playwright Research Pipeline Commands
+- `02_HISTORY\command_logs\POST_SAMPLE_P0_P1_REPAIR_COMMANDS.md` - Command Log - Post Sample P0/P1 Repair
+- `02_HISTORY\command_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_COMMANDS.md` - Command Log - Post Sample Project Production Audit
+- `02_HISTORY\command_logs\PROJECT_GATE_RUNNER_COMMANDS.md` - Project Gate Runner Command Log
+- `02_HISTORY\command_logs\PROMPT_COUNTER_RULE_UPGRADE_COMMANDS.md` - Prompt Counter Rule Upgrade Commands
+- `02_HISTORY\command_logs\PUBLIC_RELEASE_STRUCTURE_COMMANDS.md` - Public Release Structure Commands
+- `02_HISTORY\command_logs\REAL_KICAD_PCB_ROUTING_BRIDGE_COMMANDS.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_COMMANDS
+- `02_HISTORY\command_logs\REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_COMMANDS.md` - REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_COMMANDS
+- `02_HISTORY\command_logs\SAMPLE_PIPELINE_FIX_COMMANDS.md` - Sample Pipeline Fix Commands
+- `02_HISTORY\command_logs\SAMPLE_PIPELINE_TEST_COMMANDS.md` - Sample Pipeline Test Commands
+- `02_HISTORY\command_logs\SAMPLE_PROJECT_PAYLOAD_RULES_COMMANDS.md` - Command Log - Sample Project Payload Rules
+- `02_HISTORY\command_logs\SAMPLE_PROJECT_PUBLIC_DOCS_COMMANDS.md` - Sample Project Public Docs Command Log
+- `02_HISTORY\command_logs\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_COMMANDS.md` - Schematic Annotation/Completeness Checkers Command Log
+- `02_HISTORY\command_logs\SCHEMATIC_TO_PCB_GATE_SYSTEM_COMMANDS.md` - Schematic To PCB Gate System Commands
+- `02_HISTORY\command_logs\START_HERE_AI_AGENT_ROUTER_UPGRADE_COMMANDS.md` - START_HERE AI Agent Router Upgrade Command Log
+- `02_HISTORY\command_logs\STARTUP_CLOSEOUT_INDEX_WIRING_COMMANDS.md` - Startup Closeout Index Wiring Commands
+- `02_HISTORY\command_logs\STM32_DATASHEET_TREE_CONTENT_COMPLETION_COMMANDS.md` - STM32 Datasheet Tree Content Completion Commands
+- `02_HISTORY\command_logs\STM32_SOURCE_LINK_RESEARCH_COMMANDS.md` - STM32 Source Link Research Commands
+- `02_HISTORY\command_logs\STM32F1_PILOT_CONTENT_COMPLETION_COMMANDS.md` - STM32F1 Pilot Content Completion Commands
+- `02_HISTORY\command_logs\STRICT_HUMAN_READABLE_SCHEMATIC_RULE_COMMANDS.md` - Strict Human Readable Schematic Rule Commands
+- `02_HISTORY\command_logs\STRUCTURE_EXPANSION_COMMANDS.md` - Structure Expansion Command Log
+- `02_HISTORY\command_logs\SUPPLIER_CONNECTOR_STUBS_COMMANDS.md` - Supplier Connector Stubs Commands
+- `02_HISTORY\command_logs\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_COMMANDS.md` - Supplier Datasheet Footprint Final Audit Commands
+- `02_HISTORY\command_logs\SUPPLIER_FOOTPRINT_MATCH_COMMANDS.md` - Supplier Footprint Match Commands
+- `02_HISTORY\command_logs\SUPPLIER_INGESTION_SYSTEM_COMMANDS.md` - Supplier Ingestion System Command Log
+- `02_HISTORY\command_logs\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_COMMANDS.md` - Supplier Ingestion System Revalidation Command Log
+- `02_HISTORY\command_logs\TEST_EXAMPLES_BENCHMARKS_SETUP_COMMANDS.md` - Test Examples Benchmarks Setup Commands
+- `02_HISTORY\command_logs\TOOL_REPOS_CLONED.md` - Tool Repositories Cloned
+- `02_HISTORY\command_logs\VISUAL_TOOLS_INSTALL_COMMANDS.md` - Visual Review Tools Install Commands
+- `02_HISTORY\command_logs\WINDOWS_GUI_AUTOMATION_INSTALL_COMMANDS.md` - Windows GUI Automation Install Commands
+- `02_HISTORY\command_logs\WINDOWS_GUI_REPOS_CLONED_COMMANDS.md` - Windows GUI Repos Cloned Commands
+- `02_HISTORY\command_logs\WINDOWS_INSTALLER_BUILD_COMMANDS.md` - Windows Installer Build Commands
+- `02_HISTORY\design_reviews\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AUDIT.md` - Accuracy Engine And AI Quality Setup Audit
+- `02_HISTORY\design_reviews\AI_QUALITY_GATE_SETUP_AUDIT.md` - AI Quality Gate Setup Audit
+- `02_HISTORY\design_reviews\AUTO_PCB_START_WORKFLOW_AUDIT.md` - AUTO_PCB_START_WORKFLOW_AUDIT
+- `02_HISTORY\design_reviews\AUTO_PLACEMENT_ENGINE_AUDIT.md` - AUTO_PLACEMENT_ENGINE_AUDIT
+- `02_HISTORY\design_reviews\AUTO_ROUTING_ENGINE_AUDIT.md` - AUTO_ROUTING_ENGINE_AUDIT
+- `02_HISTORY\design_reviews\AUTO_ROUTING_ENGINE_LIVE_READINESS_AUDIT.md` - AUTO_ROUTING_ENGINE_LIVE_READINESS_AUDIT
+- `02_HISTORY\design_reviews\AUTO_SANDBOX_APPROVAL_SYSTEM_AUDIT.md` - Auto Sandbox Approval System Audit
+- `02_HISTORY\design_reviews\AUTO_VARIANT_SCORING_ENGINE_AUDIT.md` - Auto Variant Scoring Engine Audit
+- `02_HISTORY\design_reviews\BARREL_JACK_USB_C_ORIENTATION_RULE_PATCH_AUDIT.md` - Barrel Jack And USB-C Orientation Rule Patch Audit
+- `02_HISTORY\design_reviews\CLEAN_KICAD_PASSING_SAMPLE_REVIEW.md` - CLEAN_KICAD_PASSING_SAMPLE Review
+- `02_HISTORY\design_reviews\CODEX_START_CONTROL_PLANES_AUDIT.md` - Codex Start Control Planes Audit
+- `02_HISTORY\design_reviews\COMMAND_LINK_DIRECT_EDIT_REVIEW.md` - COMMAND LINK Direct Edit Review
+- `02_HISTORY\design_reviews\COMMAND_LINK_DRC_CONTINUATION_REVIEW.md` - COMMAND LINK DRC Continuation Review
+- `02_HISTORY\design_reviews\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT.md` - COMMAND LINK Final Fabrication Readiness Audit
+- `02_HISTORY\design_reviews\COMMAND_LINK_FINISHED_PCB_INVENTORY.md` - COMMAND LINK Finished PCB Inventory
+- `02_HISTORY\design_reviews\COMMAND_LINK_READ_ONLY_REVIEW.md` - COMMAND LINK Read-Only Review
+- `02_HISTORY\design_reviews\COMMUNICATION_COMPONENT_RESEARCH_STATUS.md` - Communication Component Research Status
+- `02_HISTORY\design_reviews\COMPONENT_DATABASE_CORE_SETUP_AUDIT.md` - Component Database Core Setup Audit
+- `02_HISTORY\design_reviews\CONNECTOR_DATABASE_STATUS.md` - Connector Database Status
+- `02_HISTORY\design_reviews\CORE_PLACEHOLDER_CONTENT_UPGRADE_AUDIT.md` - Core Placeholder Content Upgrade Audit
+- `02_HISTORY\design_reviews\CROSS_PLATFORM_INSTALLER_BUILD_STATUS.md` - Cross-Platform Installer Build Status
+- `02_HISTORY\design_reviews\DEEP_KICAD_APP_FOLDER_AUDIT_REPORT.md` - Deep KiCad App Folder Audit Report
+- `02_HISTORY\design_reviews\END_USER_README_SYSTEM_STATUS.md` - End User README System Status
+- `02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_REVIEW.md` - ESP32_CSI_WIFI_NODE Existing Trace Audit Review
+- `02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_VARIANTS_AUDIT.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Audit
+- `02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_PCB_INTELLIGENCE_LAYER_AUDIT.md` - ESP32_CSI_WIFI_NODE PCB Intelligence Layer Audit
+- `02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_SCHEMATIC_DRAFT_REVIEW.md` - ESP32_CSI_WIFI_NODE Schematic Draft Review
+- `02_HISTORY\design_reviews\ESP32_CSI_WIFI_NODE_STALE_GATE_RECONCILIATION_AUDIT.md` - ESP32_CSI_WIFI_NODE Stale Gate Reconciliation Audit
+- `02_HISTORY\design_reviews\ESP32_DEV_BOARD_LAYOUT_INTELLIGENCE_AUDIT.md` - ESP32 Dev Board Layout Intelligence Audit
+- `02_HISTORY\design_reviews\ESPRESSIF_RESEARCH_STATUS.md` - Espressif Research Status
+- `02_HISTORY\design_reviews\FAB_FILE_FORMAT_RULES_INTEGRATION_AUDIT.md` - Fab File Format Rules Integration Audit
+- `02_HISTORY\design_reviews\FINAL_PRODUCTION_STRUCTURE_AUDIT.md` - Final Production Structure Audit
+- `02_HISTORY\design_reviews\FLUX_LEVEL_FEATURE_GAP_ANALYSIS.md` - Flux-Level Feature Gap Analysis
+- `02_HISTORY\design_reviews\FREEROUTING_FEASIBILITY_INTEGRATION_AUDIT.md` - FreeRouting Feasibility Integration Audit
+- `02_HISTORY\design_reviews\FULL_KICAD_PIPELINE_SETUP_AUDIT.md` - Full KiCad Pipeline Setup Audit
+- `02_HISTORY\design_reviews\FULL_REPO_PRODUCTION_QUALITY_AUDIT.md` - Full Repo Production Quality Audit
+- `02_HISTORY\design_reviews\GITHUB_ACTIONS_RELEASE_WORKFLOWS_STATUS.md` - GitHub Actions Release Workflows Status
+- `02_HISTORY\design_reviews\GOLDEN_PATH_SAMPLE_FINAL_AUDIT.md` - Golden Path Sample Final Audit
+- `02_HISTORY\design_reviews\GOLDEN_PATH_SAMPLE_PROMOTION_AUDIT.md` - Golden Path Sample Promotion Audit
+- `02_HISTORY\design_reviews\INSTALLER_PLAN_STATUS.md` - Installer Plan Status
+- `02_HISTORY\design_reviews\KICAD_ACCURACY_ENGINE_STATUS.md` - KiCad Accuracy Engine Status
+- `02_HISTORY\design_reviews\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_AUDIT.md` - KiCad Auto-Open Project Workflow Audit
+- `02_HISTORY\design_reviews\KICAD_BENCHMARKS_STATUS.md` - KiCad Benchmarks Status
+- `02_HISTORY\design_reviews\KICAD_ENGINE_FINAL_SETUP_AUDIT.md` - KICAD_ENGINE Final Setup Audit
+- `02_HISTORY\design_reviews\KICAD_ENGINE_PRODUCT_GAP_AUDIT.md` - KiCad Engine Product Gap Audit
+- `02_HISTORY\design_reviews\KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_AUDIT.md` - KiCad Engine Schematic Failure Root-Cause Audit
+- `02_HISTORY\design_reviews\KICAD_FOOTPRINT_GAP_ANALYSIS_REPORT.md` - KiCad Footprint Gap Analysis Report
+- `02_HISTORY\design_reviews\KICAD_GUI_AUTOMATION_LAYER_SETUP_AUDIT.md` - KiCad GUI Automation Layer Setup Audit
+- `02_HISTORY\design_reviews\KICAD_INSTALLED_APP_DEEP_AUDIT.md` - KiCad Installed App Deep Audit
+- `02_HISTORY\design_reviews\KICAD_KNOWLEDGE_BASE_DATA_LAYER_STATUS.md` - KiCad Knowledge Base Data Layer Status
+- `02_HISTORY\design_reviews\KICAD_LIBRARY_FACTORY_STATUS.md` - KiCad Library Factory Status
+- `02_HISTORY\design_reviews\KICAD_LIBRARY_INTELLIGENCE_STATUS.md` - KiCad Library Intelligence Status
+- `02_HISTORY\design_reviews\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_AUDIT.md` - KiCad Native Annotation Workflow Documentation Update Audit
+- `02_HISTORY\design_reviews\KICAD_PART_INGESTION_WORKFLOW_STATUS.md` - KiCad Part Ingestion Workflow Status
+- `02_HISTORY\design_reviews\KICAD_PHASE_GATE_PATCH_AUDIT.md` - KiCad Phase Gate Patch Audit
+- `02_HISTORY\design_reviews\KICAD_PROJECT_VALIDATION_SCRIPTS_STATUS.md` - KiCad Project Validation Scripts Status
+- `02_HISTORY\design_reviews\KICAD_REFERENCE_DESIGN_LIBRARY_STATUS.md` - KiCad Reference Design Library Status
+- `02_HISTORY\design_reviews\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_AUDIT.md` - Knowledge Base And Reference Design Setup Audit
+- `02_HISTORY\design_reviews\LAYOUT_AUTOMATION_REALITY_CHECK.md` - Layout Automation Reality Check
+- `02_HISTORY\design_reviews\LIBRARY_FACTORY_SETUP_AUDIT.md` - Library Factory Setup Audit
+- `02_HISTORY\design_reviews\LINUX_INSTALLER_SUPPORT_STATUS.md` - Linux Installer Support Status
+- `02_HISTORY\design_reviews\MACOS_INSTALLER_SUPPORT_STATUS.md` - macOS Installer Support Status
+- `02_HISTORY\design_reviews\MAINTENANCE_LAYER_ROOT_CAUSE_AUDIT.md` - MAINTENANCE_LAYER_ROOT_CAUSE_AUDIT
+- `02_HISTORY\design_reviews\MCU_DATASHEET_TREE_UPGRADE_REPORT.md` - MCU Datasheet Tree Upgrade Report
+- `02_HISTORY\design_reviews\MEMORY_HISTORY_MAINTENANCE_UPGRADE_AUDIT.md` - Memory History Maintenance Upgrade Audit
+- `02_HISTORY\design_reviews\MICROCHIP_RESEARCH_STATUS.md` - Microchip PIC, dsPIC, And AVR Research Status
+- `02_HISTORY\design_reviews\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_AUDIT.md` - Microcontroller Family Content Generator Audit
+- `02_HISTORY\design_reviews\OPEN_KICAD_SAMPLE_IMPORT_AUDIT.md` - Open KiCad Sample Import Audit
+- `02_HISTORY\design_reviews\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_AUDIT.md` - Open KiCad Sample Intake System Audit
+- `02_HISTORY\design_reviews\OPEN_KICAD_SAMPLE_PROJECTS_MASTER_AUDIT.md` - Open KiCad Sample Projects Master Audit
+- `02_HISTORY\design_reviews\P0_P1_REPAIR_AUDIT.md` - P0/P1 Repair Audit
+- `02_HISTORY\design_reviews\PACKAGE_FAB_VENDOR_PROFILE_SETUP_AUDIT.md` - Package Fab Vendor Profile Setup Audit
+- `02_HISTORY\design_reviews\PCB_LAYOUT_SANDBOX_GATE_ADDED_AUDIT.md` - PCB Layout Sandbox Gate Added Audit
+- `02_HISTORY\design_reviews\PCB_LAYOUT_SANDBOX_LAYER_SETUP_AUDIT.md` - PCB Layout Sandbox Layer Setup Audit
+- `02_HISTORY\design_reviews\PCB_TRACE_ANGLE_RULE_PATCH_AUDIT.md` - PCB Trace Angle Rule Patch Audit
+- `02_HISTORY\design_reviews\PCB_VARIANT_SCORING_SYSTEM_AUDIT.md` - PCB Variant Scoring System Audit
+- `02_HISTORY\design_reviews\PILL_STYLE_PCB_PLACEMENT_RULE_PATCH_AUDIT.md` - Pill-Style PCB Placement Rule Patch Audit
+- `02_HISTORY\design_reviews\PLATFORM_CONTROL_LAYERS_AUDIT.md` - Platform Control Layers Audit
+- `02_HISTORY\design_reviews\PLAYWRIGHT_RESEARCH_PIPELINE_SETUP_AUDIT.md` - Playwright Research Pipeline Setup Audit
+- `02_HISTORY\design_reviews\POST_SAMPLE_P0_P1_REPAIR_AUDIT.md` - Post Sample P0/P1 Repair Audit
+- `02_HISTORY\design_reviews\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT.md` - Post Sample Project Production Audit
+- `02_HISTORY\design_reviews\POWER_COMPONENT_RESEARCH_STATUS.md` - Power Component Research Status
+- `02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_AI_SELF_REVIEW.md` - AI Self-Review: Project Gate Runner Creation
+- `02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_CLAIM_EVIDENCE_MATRIX.md` - Project Gate Runner - Claim/Evidence Matrix
+- `02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_HALLUCINATION_RISK_LOG.md` - Project Gate Runner - Hallucination Risk Log
+- `02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_QUALITY_GATE.md` - Project Gate Runner - AI Response Quality Gate
+- `02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_SETUP_AUDIT.md` - Project Gate Runner Setup Audit
+- `02_HISTORY\design_reviews\PROJECT_GATE_RUNNER_UNCERTAINTY_LOG.md` - Project Gate Runner - Uncertainty Log
+- `02_HISTORY\design_reviews\PROMPT_COUNTER_RULE_UPGRADE_AUDIT.md` - Prompt Counter Rule Upgrade Audit
+- `02_HISTORY\design_reviews\PROMPT_PACK_SYSTEM_STATUS.md` - Prompt Pack System Status
+- `02_HISTORY\design_reviews\PUBLIC_GITHUB_RELEASE_READINESS_STATUS.md` - Public GitHub Release Readiness Status
+- `02_HISTORY\design_reviews\PUBLIC_RELEASE_FINAL_AUDIT.md` - Public Release Final Audit
+- `02_HISTORY\design_reviews\PUBLIC_RELEASE_STRUCTURE_AUDIT.md` - Public Release Structure Audit
+- `02_HISTORY\design_reviews\REAL_KICAD_PCB_ROUTING_BRIDGE_AUDIT.md` - Real KiCad PCB Routing Bridge Audit
+- `02_HISTORY\design_reviews\REAL_PROJECT_ROUTING_WORKFLOW_AUDIT.md` - REAL_PROJECT_ROUTING_WORKFLOW_AUDIT
+- `02_HISTORY\design_reviews\SAMPLE_KICAD_TEST_PROJECT_REVIEW.md` - SAMPLE_KICAD_TEST_PROJECT Review
+- `02_HISTORY\design_reviews\SAMPLE_PROJECT_DOCS_AUDIT.md` - Sample Project Docs Audit
+- `02_HISTORY\design_reviews\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKER_SETUP_AUDIT.md` - Schematic Annotation/Completeness Checker Setup Audit
+- `02_HISTORY\design_reviews\SCHEMATIC_TO_PCB_GATE_SYSTEM_AUDIT.md` - Schematic To PCB Gate System Audit
+- `02_HISTORY\design_reviews\SCHEMATIC_VISUAL_AUTOCROP_SETUP_AUDIT.md` - Schematic Visual Autocrop Setup Audit
+- `02_HISTORY\design_reviews\SETUP_HEALTH_CHECK_SYSTEM_STATUS.md` - Setup And Health Check System Status
+- `02_HISTORY\design_reviews\START_HERE_AI_AGENT_ROUTER_UPGRADE_AUDIT.md` - START_HERE AI Agent Router Upgrade Audit
+- `02_HISTORY\design_reviews\STARTUP_CLOSEOUT_INDEX_WIRING_AUDIT.md` - Startup Closeout Index Wiring Audit
+- `02_HISTORY\design_reviews\STM32_DATASHEET_TREE_CONTENT_COMPLETION_AUDIT.md` - STM32 Datasheet Tree Content Completion Audit
+- `02_HISTORY\design_reviews\STM32_RESEARCH_STATUS.md` - STM32 Research Status
+- `02_HISTORY\design_reviews\STM32_SOURCE_LINK_RESEARCH_REPORT.md` - STM32 Source Link Research Report
+- `02_HISTORY\design_reviews\STM32F1_PILOT_CONTENT_COMPLETION_REPORT.md` - STM32F1 Pilot Content Completion Report
+- `02_HISTORY\design_reviews\STRICT_VISUAL_GATE_PATCH_AUDIT.md` - Strict Visual Gate Patch Audit
+- `02_HISTORY\design_reviews\STRUCTURE_EXPANSION_AUDIT.md` - Structure Expansion Audit
+- `02_HISTORY\design_reviews\SUPPLIER_CONNECTOR_STUBS_AUDIT.md` - Supplier Connector Stubs Audit
+- `02_HISTORY\design_reviews\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT.md` - Supplier Datasheet Footprint Final Audit
+- `02_HISTORY\design_reviews\SUPPLIER_FOOTPRINT_MATCH_SYSTEM_AUDIT.md` - Supplier Footprint Match System Audit
+- `02_HISTORY\design_reviews\SUPPLIER_INGESTION_SYSTEM_SETUP_AUDIT.md` - Supplier Ingestion System Setup Audit
+- `02_HISTORY\design_reviews\SUPPORT_PARTS_DATABASE_STATUS.md` - Support Parts Database Status
+- `02_HISTORY\design_reviews\TEST_EXAMPLES_BENCHMARKS_SETUP_AUDIT.md` - Test Examples Benchmarks Setup Audit
+- `02_HISTORY\design_reviews\VSCODE_WORKSPACE_SUPPORT_STATUS.md` - VS Code Workspace Support Status
+- `02_HISTORY\design_reviews\WINDOWS_INSTALLER_SMOKE_TEST_REPORT.md` - Windows Installer Smoke Test Report
+- `02_HISTORY\erc_drc_reports\CLEAN_KICAD_PASSING_SAMPLE_VERIFICATION.md` - CLEAN_KICAD_PASSING_SAMPLE Verification
+- `02_HISTORY\erc_drc_reports\COMMAND_LINK_DIRECT_EDIT_ERC_DRC_REPORT.md` - COMMAND LINK Direct Edit ERC/DRC Report
+- `02_HISTORY\erc_drc_reports\COMMAND_LINK_DRC_CONTINUATION_ERC_DRC_REPORT.md` - COMMAND LINK DRC Continuation ERC/DRC Report
+- `02_HISTORY\erc_drc_reports\COMMAND_LINK_ERC_DRC_REVIEW.md` - COMMAND LINK ERC/DRC Review
+- `02_HISTORY\erc_drc_reports\SAMPLE_KICAD_TEST_PROJECT_VERIFICATION.md` - SAMPLE_KICAD_TEST_PROJECT Verification
+- `02_HISTORY\failed_attempts\20260502_224812_PowerShell_wildcard_py_compile_invocation_failed.md` - PowerShell wildcard py_compile invocation failed
+- `02_HISTORY\failed_attempts\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_FAILED_COMMANDS.md` - Failed Attempts - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\failed_attempts\20260508_GITHUB_INDEXING_PATCH_CONTEXT_MISMATCH.md` - Failed Attempt
+- `02_HISTORY\failed_attempts\20260508_GITHUB_REPO_INDEXING_FOR_CHAT_GPT_PATH_QUOTING.md` - Failed Attempt
+- `02_HISTORY\failed_attempts\AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README.md` - AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README
+- `02_HISTORY\failed_attempts\AUTO_SANDBOX_APPROVAL_RG_GLOB_SEARCH_ERROR.md` - Failed Attempt - Auto Sandbox Approval RG Glob Search Error
+- `02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PARALLEL_DRY_RUN_RACE.md` - Failed Attempt - Auto Variant Scoring Engine Parallel Dry Run Race
+- `02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PROJECT_BOOL_SCHEMA_BUG.md` - Failed Attempt - Auto Variant Scoring Engine Project Bool Schema Bug
+- `02_HISTORY\failed_attempts\COMPONENT_DATABASE_CORE_SETUP_FAILED_ATTEMPTS.md` - Component Database Core Setup Failed Attempts
+- `02_HISTORY\failed_attempts\ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_ERC_PROJECT_PATH_ATTEMPT.md` - Failed Attempt: ERC Invoked With Project Path
+- `02_HISTORY\failed_attempts\ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt: Git Status Unavailable During Emergency Annotation Repair
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_BATCH_01_DETACHED_BOARD_DRC_REHEARSAL_RULE_MISMATCH.md` - ESP32_CSI_WIFI_NODE Batch 01 Detached Board DRC Rehearsal Rule Mismatch
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_CONNECTIVITY_CLEANUP_REJECTED_USB_LOCAL_REHEARSAL.md` - ESP32_CSI_WIFI_NODE Final Connectivity Cleanup Rejected USB Local Rehearsal
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_RENDER_PIVOT_FAILURE.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Render Pivot Failure
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_EXTRACTION_AND_TRIAL_MISPATH.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Extraction And Trial Mismatch
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_FAILED_ATTEMPTS.md` - Failed Attempts - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Live PCB Truth Audit Git Status Unavailable
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_MISSING_PROMPT_INPUT_FILES.md` - Failed Attempt - Missing Prompt Input Files
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_NEW_ITEM_LITERALPATH_FAILED.md` - Failed Attempt - New-Item LiteralPath For PCB Visual Directory
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_GIT_DIFF_UNAVAILABLE.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Git Diff Unavailable
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_SELECT_STRING_QUOTING.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Select-String Quoting
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PCB_UPDATE_FROM_SCHEMATIC_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - Git Status Unavailable During PCB Update Blocked Session
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PHASE2_PCBNEW_IMPORT_WITH_SYSTEM_PYTHON_FAILED.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Phase 2 pcbnew Import With System Python Failed
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_PHASE2_POWERSHELL_HEREDOC_FAILED.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Phase 2 PowerShell Heredoc Failed
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_PRECONDITION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Precondition Blocked
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_PRECONDITION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Precondition Blocked
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_BASELINE_EXTRACTION_RETRIES.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Baseline Extraction Retries
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_SCHEMATIC_GATE_CHECKER_OPTION_MISMATCH.md` - Failed Attempt: Schematic Gate Checker Option Mismatch
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_ENCODING_WRITE_ATTEMPT.md` - Failed Attempt: PowerShell Encoding Write Attempt
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_BY_PHASE_GATE.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked By Phase Gate
+- `02_HISTORY\failed_attempts\FOOTPRINT_GAP_ANALYSIS_SECRET_SCAN_FALSE_POSITIVES.md` - Footprint Gap Analysis Secret Scan False Positives
+- `02_HISTORY\failed_attempts\FREEROUTING_FEASIBILITY_INTEGRATION_APPLYPATCH_CONTEXT_MISMATCH.md` - FreeRouting Feasibility Integration ApplyPatch Context Mismatch
+- `02_HISTORY\failed_attempts\GOLDEN_PATH_SAMPLE_GATE_RUN_TOOLING_ATTEMPTS.md` - Failed Attempts - Golden Path Sample Gate Run
+- `02_HISTORY\failed_attempts\GOLDEN_PATH_SAMPLE_PROMOTION_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - Git Status Unavailable During Golden Path Sample Promotion
+- `02_HISTORY\failed_attempts\KICAD_AUTO_OPEN_PROJECT_DRY_RUN_REPORT_FORMAT_HICCUP.md` - Failed Attempt: Auto-Open Dry-Run Report Formatting Hiccup
+- `02_HISTORY\failed_attempts\KICAD_ENGINE_ROOT_CAUSE_AUDIT_COMMAND_HICCUPS.md` - Failed Attempt: Root-Cause Audit Validation Command Hiccups
+- `02_HISTORY\failed_attempts\KICAD_PHASE_GATE_PATCH_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - KiCad Phase Gate Patch Git Status Unavailable
+- `02_HISTORY\failed_attempts\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_FAILED_ATTEMPTS.md` - Knowledge Base Reference Design Setup Failed Attempts
+- `02_HISTORY\failed_attempts\MCU_TREE_UPGRADE_POWERSHELL_HEREDOC_FAILED.md` - Failed Attempt: PowerShell Heredoc Syntax
+- `02_HISTORY\failed_attempts\MCU_TREE_UPGRADE_RG_DOLLAR_QUOTING.md` - Failed Attempt: rg Dollar Pattern Quoting
+- `02_HISTORY\failed_attempts\OPEN_KICAD_SAMPLE_IMPORT_FAILED_ATTEMPTS.md` - Failed Attempts - Open KiCad Sample Import
+- `02_HISTORY\failed_attempts\P0_P1_REPAIR_VALIDATION_COMMAND_MISTAKES.md` - Failed Attempt: P0/P1 Repair Validation Command Mistakes
+- `02_HISTORY\failed_attempts\PCB_TRACE_ANGLE_RULE_PATCH_COMBINED_APPLYPATCH_CONTEXT_MISMATCH.md` - PCB Trace Angle Rule Patch Combined ApplyPatch Context Mismatch
+- `02_HISTORY\failed_attempts\PLAYWRIGHT_BATCH_MARKDOWN_REPORT_GENERATION_QUOTING.md` - Failed Attempt: Playwright Batch Markdown Report Generation Quoting
+- `02_HISTORY\failed_attempts\PLAYWRIGHT_LIVE_CAPTURE_BLOCKED_20260503.md` - Failed Attempt: Playwright Live Capture Blocked
+- `02_HISTORY\failed_attempts\PLAYWRIGHT_RESEARCH_PIPELINE_LIVE_ARTIFACT_SCAN_QUOTING.md` - Failed Attempt: Playwright Live Artifact Scan Quoting
+- `02_HISTORY\failed_attempts\POST_SAMPLE_P0_P1_REPAIR_COMMAND_HICCUPS.md` - Failed Attempt - Post Sample P0/P1 Repair Command Hiccups
+- `02_HISTORY\failed_attempts\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_VALIDATION_HICCUPS.md` - Failed Attempt - Post Sample Audit Validation Hiccups
+- `02_HISTORY\failed_attempts\README.md` - Failed Attempts
+- `02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG
+- `02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER
+- `02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT
+- `02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS.md` - REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS
+- `02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH.md` - REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH
+- `02_HISTORY\failed_attempts\SAMPLE_PROJECT_PAYLOAD_RULES_VALIDATION_COMMAND_FAILURES.md` - Failed Attempt - Sample Payload Validation Command Syntax
+- `02_HISTORY\failed_attempts\SCHEMATIC_CHECKERS_VISUAL_WORKFLOW_FILE_MISSING.md` - Failed Attempt: Visual Verification Workflow File Missing
+- `02_HISTORY\failed_attempts\SCHEMATIC_TO_PCB_GATE_GIT_DIFF_UNAVAILABLE.md` - Failed Attempt - Git Diff Unavailable
+- `02_HISTORY\failed_attempts\SCHEMATIC_VISUAL_AUTOCROP_SETUP_FAILED_ATTEMPTS.md` - Failed Attempts: Schematic Visual Autocrop Setup
+- `02_HISTORY\failed_attempts\STARTUP_CLOSEOUT_INDEX_WIRING_FAILED_ATTEMPTS.md` - Startup Closeout Index Wiring Failed Attempts
+- `02_HISTORY\failed_attempts\STM32_SOURCE_LINK_RESEARCH_VALIDATION_COMMAND_FAILURE.md` - STM32 Source Link Research Validation Command Failure
+- `02_HISTORY\failed_attempts\STM32F1_PILOT_BAD_RG_QUOTING.md` - STM32F1 Pilot Bad rg Quoting
+- `02_HISTORY\failed_attempts\STRUCTURE_EXPANSION_FAILED_ATTEMPTS.md` - Structure Expansion Failed Attempts
+- `02_HISTORY\failed_attempts\SUPPLIER_CONNECTOR_STUBS_GIT_DIFF_NOT_REPO.md` - Failed Attempt: Optional Git Diff Check
+- `02_HISTORY\failed_attempts\SUPPLIER_INGESTION_SECRET_SCAN_QUOTING_FAILURE.md` - Failed Attempt: Supplier Ingestion Secret Scan Quoting Failure
+- `02_HISTORY\failed_attempts\TEST_EXAMPLES_BENCHMARKS_SETUP_FAILED_ATTEMPTS.md` - Test Examples Benchmarks Setup Failed Attempts
+- `02_HISTORY\hallucination_risk_logs\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_RISK_LOG.md` - Hallucination Risk Log: Schematic Annotation/Completeness Checkers
+- `02_HISTORY\hallucination_risk_logs\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_RISK_LOG.md` - Hallucination Risk Log: Schematic Visual Autocrop Setup
+- `02_HISTORY\hallucination_risk_logs\20260506_170057_Risk_of_confusing_automated_visual_artifacts_with_human_readable_schematic_appro.md` - Risk of confusing automated visual artifacts with human-readable schematic approval
+- `02_HISTORY\hallucination_risk_logs\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_RISK_LOG.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
+- `02_HISTORY\hallucination_risk_logs\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_RISK_LOG.md` - Hallucination Risk Log: KiCad Engine Schematic Failure Root-Cause
+- `02_HISTORY\hallucination_risk_logs\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_RISK.md` - Hallucination Risk Log: ESP32_CSI Emergency Annotation Repair
+- `02_HISTORY\hallucination_risk_logs\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_RISK.md` - Hallucination Risk Log: ESP32 CSI Actual KiCad Annotation Repair
+- `02_HISTORY\hallucination_risk_logs\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_RISK.md` - Hallucination Risk Log: ESP32 CSI GUI Annotation Diagnosis
+- `02_HISTORY\hallucination_risk_logs\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_RISK.md` - Hallucination Risk Log: KiCad GUI Automation Layer
+- `02_HISTORY\hallucination_risk_logs\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
+- `02_HISTORY\hallucination_risk_logs\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Hallucination_Risk_Log.md` - PCB Layout Sandbox Layer Setup Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_172119_PCB_Variant_Scoring_System_Hallucination_Risk_Log.md` - PCB Variant Scoring System Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Hallucination_Risk_Log.md` - ESP32 Dev Board Layout Intelligence Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_175002_FreeRouting_Feasibility_Integration_Hallucination_Risk_Log.md` - FreeRouting Feasibility Integration Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Hallucination_Risk_Log.md` - PCB Layout Sandbox Gate Added Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Hallucination_Risk_Log.md` - Real KiCad PCB Routing Bridge Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Hallucination_Risk_Lo.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Hallucination_Risk.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE BOM Sourcing Review
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Final Production Signoff
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Mechanical 3D Review
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE PCB Create From Schematic
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Production Fix Pass
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\hallucination_risk_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260508_140404_GITHUB_REPO_PUSH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260508_150300_GITHUB_REPO_INDEXING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md` - Accuracy Engine And AI Quality Setup Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md` - AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG
+- `02_HISTORY\hallucination_risk_logs\AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG
+- `02_HISTORY\hallucination_risk_logs\AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG
+- `02_HISTORY\hallucination_risk_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Sandbox Approval System
+- `02_HISTORY\hallucination_risk_logs\AUTO_VARIANT_SCORING_ENGINE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Variant Scoring Engine
+- `02_HISTORY\hallucination_risk_logs\COMPONENT_DATABASE_CORE_SETUP_HALLUCINATION_RISK_LOG.md` - Component Database Core Setup Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\CORE_PLACEHOLDER_CONTENT_UPGRADE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Core Placeholder Content Upgrade
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Full Routing And Copper
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE GUI Native Annotation
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Schematic Audit Only
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_HALLUCINATION_RISK.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE Schematic Safe Repair
+- `02_HISTORY\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
+- `02_HISTORY\hallucination_risk_logs\FINAL_PRODUCTION_STRUCTURE_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Final Production Structure Audit
+- `02_HISTORY\hallucination_risk_logs\FOOTPRINT_GAP_ANALYSIS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Footprint Gap Analysis
+- `02_HISTORY\hallucination_risk_logs\FULL_KICAD_PIPELINE_PROMPT_PACK_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Full KiCad Pipeline Prompt Pack
+- `02_HISTORY\hallucination_risk_logs\FULL_REPO_PRODUCTION_QUALITY_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Full Repo Production Quality Audit
+- `02_HISTORY\hallucination_risk_logs\GOLDEN_PATH_SAMPLE_GATE_RUN_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Golden Path Sample Gate Run
+- `02_HISTORY\hallucination_risk_logs\GOLDEN_PATH_SAMPLE_PROMOTION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Golden Path Sample Promotion
+- `02_HISTORY\hallucination_risk_logs\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: KiCad Auto-Open Project Workflow
+- `02_HISTORY\hallucination_risk_logs\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: KiCad Native Annotation Workflow Documentation Update
+- `02_HISTORY\hallucination_risk_logs\KICAD_PHASE_GATE_PATCH_HALLUCINATION_RISK.md` - Hallucination Risk Log - KiCad Phase Gate Patch
+- `02_HISTORY\hallucination_risk_logs\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Knowledge Base Reference Design Setup
+- `02_HISTORY\hallucination_risk_logs\MCU_DATASHEET_TREE_UPGRADE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: MCU Datasheet Tree Upgrade
+- `02_HISTORY\hallucination_risk_logs\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_HALLUCINATION_RISK_LOG.md` - Microcontroller Family Content Generator Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Open KiCad Sample Candidate Discovery
+- `02_HISTORY\hallucination_risk_logs\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Open KiCad Sample Project Import
+- `02_HISTORY\hallucination_risk_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Open KiCad Sample Projects Audit
+- `02_HISTORY\hallucination_risk_logs\P0_P1_REPAIR_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: P0/P1 Repair
+- `02_HISTORY\hallucination_risk_logs\PACKAGE_FAB_VENDOR_PROFILE_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Package Fab Vendor Profile Setup
+- `02_HISTORY\hallucination_risk_logs\PCB_TRACE_ANGLE_RULE_PATCH_HALLUCINATION_RISK_LOG.md` - PCB Trace Angle Rule Patch Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Batch Research Expansion
+- `02_HISTORY\hallucination_risk_logs\PLAYWRIGHT_PILOT_RESEARCH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Pilot Research
+- `02_HISTORY\hallucination_risk_logs\PLAYWRIGHT_RESEARCH_PIPELINE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Research Pipeline
+- `02_HISTORY\hallucination_risk_logs\POST_SAMPLE_P0_P1_REPAIR_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Post Sample P0/P1 Repair
+- `02_HISTORY\hallucination_risk_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Post Sample Project Production Audit
+- `02_HISTORY\hallucination_risk_logs\PROJECT_GATE_RUNNER_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Project Gate Runner
+- `02_HISTORY\hallucination_risk_logs\PUBLIC_RELEASE_STRUCTURE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Public Release Structure
+- `02_HISTORY\hallucination_risk_logs\README.md` - Hallucination Risk Logs
+- `02_HISTORY\hallucination_risk_logs\SAMPLE_PROJECT_PAYLOAD_RULES_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Sample Project Payload Rules
+- `02_HISTORY\hallucination_risk_logs\SAMPLE_PROJECT_PUBLIC_DOCS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Sample Project Public Docs
+- `02_HISTORY\hallucination_risk_logs\SCHEMATIC_TO_PCB_GATE_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Schematic To PCB Gate System
+- `02_HISTORY\hallucination_risk_logs\STARTUP_CLOSEOUT_INDEX_WIRING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Startup Closeout Index Wiring
+- `02_HISTORY\hallucination_risk_logs\STM32_DATASHEET_TREE_CONTENT_COMPLETION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - STM32 Datasheet Tree Content Completion
+- `02_HISTORY\hallucination_risk_logs\STM32_SOURCE_LINK_RESEARCH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - STM32 Source Link Research
+- `02_HISTORY\hallucination_risk_logs\STM32F1_PILOT_CONTENT_COMPLETION_HALLUCINATION_RISK_LOG.md` - STM32F1 Pilot Content Completion Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\STRUCTURE_EXPANSION_HALLUCINATION_RISK_LOG.md` - Structure Expansion Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\SUPPLIER_CONNECTOR_STUBS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Connector Stubs
+- `02_HISTORY\hallucination_risk_logs\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Datasheet Footprint Final Audit
+- `02_HISTORY\hallucination_risk_logs\SUPPLIER_FOOTPRINT_MATCH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Supplier Footprint Match System
+- `02_HISTORY\hallucination_risk_logs\SUPPLIER_INGESTION_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Ingestion System
+- `02_HISTORY\hallucination_risk_logs\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Supplier Ingestion System Revalidation
+- `02_HISTORY\hallucination_risk_logs\TEST_EXAMPLES_BENCHMARKS_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Test Examples Benchmarks Setup
+- `02_HISTORY\HISTORY_INDEX.md` - History Index
+- `02_HISTORY\INDEX.md` - 02_HISTORY Index
+- `02_HISTORY\issue_logs\20260508_GITHUB_INDEXING_NORMALIZATION_GAPS_REMAIN.md` - Issue Log
+- `02_HISTORY\issue_logs\20260508_GITHUB_PUBLIC_RELEASE_BLOCKERS_REMAIN_OPEN.md` - Issue Log
+- `02_HISTORY\issue_logs\AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN
+- `02_HISTORY\issue_logs\AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
+- `02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
+- `02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS.md` - AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS
+- `02_HISTORY\issue_logs\AUTO_VARIANT_SCORING_ENGINE_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - Auto Variant Scoring Engine Needs First Live Project Run
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_CONTROL_NET_CRITICAL_ROUTING_DEFERRED_AFTER_COPIED_BOARD_DRC_CROSSINGS.md` - ESP32_CSI_WIFI_NODE Control-Net Critical Routing Deferred After Copied-Board DRC Crossings
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Blockers
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Blockers
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_SELECTION_PENDING_LJ_REVIEW.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Selection Pending LJ Review
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_SANDBOX_GATE_BLOCKED.md` - ESP32_CSI_WIFI_NODE PCB Layout Sandbox Gate Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REMAINING_CONNECTIVITY_BLOCKERS_AFTER_FINAL_CLEANUP.md` - ESP32_CSI_WIFI_NODE Remaining Connectivity Blockers After Final Cleanup
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_ROUTING_GATE_CONFLICT_REMAINS_OPEN.md` - Issue Log - ESP32_CSI_WIFI_NODE Routing Gate Conflict Remains Open
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_SANDBOX_AUTO_APPROVAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE Sandbox Auto Approval Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_REMAIN_OPEN.md` - Issue Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers Remain Open
+- `02_HISTORY\issue_logs\ESP32_DEV_BOARD_PLACEMENT_INTELLIGENCE_NEEDS_FIRST_PROJECT_ADOPTION.md` - ESP32 Dev Board Placement Intelligence Needs First Project Adoption
+- `02_HISTORY\issue_logs\FINAL_PRODUCTION_STRUCTURE_PUBLIC_RELEASE_BLOCKERS.md` - Issue Log: Final Production Structure Public Release Blockers
+- `02_HISTORY\issue_logs\FOOTPRINT_GAP_ANALYSIS_VERIFICATION_BACKLOG_OPEN.md` - Issue Log - Footprint Gap Analysis Verification Backlog
+- `02_HISTORY\issue_logs\FREEROUTING_FEASIBILITY_INTEGRATION_NEEDS_FIRST_LIVE_DRY_RUN.md` - FreeRouting Feasibility Integration Needs First Live Dry Run
+- `02_HISTORY\issue_logs\GOLDEN_PATH_SAMPLE_FIXTURE_REMAINS_BLOCKED.md` - Issue Log - Golden Path Sample Fixture Remains Blocked
+- `02_HISTORY\issue_logs\GOLDEN_PATH_SAMPLE_REMAINING_BLOCKERS.md` - Issue Log - Golden Path Sample Remaining Blockers
+- `02_HISTORY\issue_logs\KICAD_ENGINE_PUBLIC_RELEASE_BLOCKERS_20260508.md` - KICAD_ENGINE Public Release Blockers
+- `02_HISTORY\issue_logs\KICAD_ENGINE_VISUAL_GATE_REPAIR_REMAINING.md` - Issue Log: KiCad Engine Visual Gate Repair Remaining
+- `02_HISTORY\issue_logs\KICAD_PHASE_SKIPPING_DOWNSTREAM_REVIEWS_BEFORE_PCB.md` - Issue Log - KiCad Phase Skipping Downstream Reviews Before PCB
+- `02_HISTORY\issue_logs\MCU_DATASHEET_SUPPORT_FOLDERS_REMAIN_WEAK.md` - Issue Log: MCU Datasheet Support Folders Remain Weak
+- `02_HISTORY\issue_logs\MISSING_VISUAL_VERIFICATION_WORKFLOW_DOC.md` - Issue: Missing Visual Verification Workflow Document
+- `02_HISTORY\issue_logs\OPEN_KICAD_SAMPLE_IMPORT_REVIEW_BACKLOG.md` - Issue Log - Open KiCad Sample Import Review Backlog
+- `02_HISTORY\issue_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_BLOCKERS.md` - Issue Log - Open KiCad Sample Projects Audit Blockers
+- `02_HISTORY\issue_logs\PCB_LAYOUT_SANDBOX_REQUIRES_PROJECT_LEVEL_ADOPTION.md` - PCB Layout Sandbox Requires Project-Level Adoption
+- `02_HISTORY\issue_logs\PCB_VARIANT_SCORING_SYSTEM_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - PCB Variant Scoring System Needs First Live Project Run
+- `02_HISTORY\issue_logs\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Issue Log: Playwright Batch Live Capture Blocked
+- `02_HISTORY\issue_logs\PLAYWRIGHT_RESEARCH_PIPELINE_LIVE_MODE_UNTESTED.md` - Issue: Playwright Research Pipeline Live Mode Untested
+- `02_HISTORY\issue_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_BLOCKERS.md` - Issue Log - Post Sample Project Production Audit Blockers
+- `02_HISTORY\issue_logs\POST_SAMPLE_PUBLIC_RELEASE_BLOCKERS_AFTER_P0_P1_REPAIR.md` - Issue Log - Post Sample Public Release Blockers After P0/P1 Repair
+- `02_HISTORY\issue_logs\PROJECT_GATE_RUNNER_SAMPLE_BLOCKERS.md` - Issue Log - ATtiny85 Sample Gate Blockers
+- `02_HISTORY\issue_logs\README.md` - Issue Logs
+- `02_HISTORY\issue_logs\REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS
+- `02_HISTORY\issue_logs\REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN.md` - REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN
+- `02_HISTORY\issue_logs\SAMPLE_PROJECT_PUBLIC_PAYLOAD_BLOCKED_PENDING_REVIEW.md` - Issue Log - Sample Project Public Payload Blocked Pending Review
+- `02_HISTORY\issue_logs\SCHEMATIC_TO_PCB_GATE_BLOCKED_ESP32_CSI_WIFI_NODE.md` - Issue Log - ESP32_CSI_WIFI_NODE Schematic To PCB Gate Blocked
+- `02_HISTORY\issue_logs\STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK.md` - STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK
+- `02_HISTORY\issue_logs\STARTUP_CLOSEOUT_INDEX_WIRING_GIT_METADATA_UNAVAILABLE.md` - Issue Log: Git Metadata Unavailable During Startup Wiring
+- `02_HISTORY\issue_logs\STM32F1_PILOT_REMAINING_VERIFICATION_BACKLOG.md` - STM32F1 Pilot Remaining Verification Backlog
+- `02_HISTORY\issue_logs\SUPPLIER_CONNECTOR_LIVE_API_IMPLEMENTATION_PENDING.md` - Issue: Supplier Connector Live API Implementation Pending
+- `02_HISTORY\issue_logs\SUPPLIER_DATASHEET_FOOTPRINT_PUBLIC_RELEASE_BLOCKERS.md` - Supplier Datasheet Footprint Public Release Blockers
+- `02_HISTORY\known_agent_mistakes\BARREL_JACK_ORIENTATION_CONFUSION.md` - Barrel Jack Orientation Confusion
+- `02_HISTORY\known_agent_mistakes\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md` - Crude 90-Degree Scripted Routing
+- `02_HISTORY\known_agent_mistakes\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint
+- `02_HISTORY\known_agent_mistakes\README.md` - Known Agent Mistakes
+- `02_HISTORY\lessons_learned\README.md` - Lessons Learned
+- `02_HISTORY\MASTER_HISTORY_INDEX.md` - Master History Index
+- `02_HISTORY\project_history\CLEAN_KICAD_PASSING_SAMPLE\README.md` - Readme
+- `02_HISTORY\project_history\ESP32_CSI_WIFI_NODE\README.md` - Readme
+- `02_HISTORY\project_history\SAMPLE_KICAD_TEST_PROJECT\README.md` - SAMPLE_KICAD_TEST_PROJECT Project History
+- `02_HISTORY\quality_gate_failures\20260503_0754_ESP32_CSI_WIFI_NODE_SCHEMATIC_CHECKERS_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE Schematic Checker Reports
+- `02_HISTORY\quality_gate_failures\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md` - Quality Gate Failure
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE BOM Sourcing Review
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Mechanical 3D Review
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Production Fix Pass
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_FILE_EDIT_ANNOTATION_REJECTED.md` - Quality Gate Failure: Codex File-Edit Annotation Rejected
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_TEXT_EDIT_ANNOTATION_FAILED.md` - Quality Gate Failure: Codex Text-Edit Annotation Did Not Resolve GUI State
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_FALSE_ANNOTATION_PASS.md` - Quality Gate Failure: ESP32_CSI_FALSE_ANNOTATION_PASS
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_PRIOR_FALSE_ANNOTATION_PASS_CONFIRMED.md` - Quality Gate Failure: Prior False Annotation Pass Confirmed
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_WIFI_NODE_CLOSE_UP_VISUAL_REVIEW_FAIL.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE Close-Up Visual Review
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_WIFI_NODE_SCHEMATIC_TO_PCB_GATE_FAIL_AFTER_ELECTRICAL_REPAIR.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Schematic To PCB Gate
+- `02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_FIXTURE_NOT_CLEAN_PASS.md` - Quality Gate Failure - Golden Path Sample Fixture Not Clean Pass
+- `02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_GATE_RUN_BLOCKED.md` - Quality Gate Failure - Golden Path Sample Gate Run
+- `02_HISTORY\quality_gate_failures\KICAD_ENGINE_VISUAL_GATE_ROOT_CAUSE_CONFIRMED.md` - Quality Gate Failure: Visual Gate Evidence Was Overclaimed
+- `02_HISTORY\quality_gate_failures\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md` - Quality Gate Failure - Open KiCad Samples Not Promotion Ready
+- `02_HISTORY\quality_gate_failures\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md` - Quality Gate Failure: Public Release Remains Blocked
+- `02_HISTORY\quality_gate_failures\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Quality Gate Failure: Playwright Batch Live Capture Blocked
+- `02_HISTORY\quality_gate_failures\POST_SAMPLE_P0_P1_REPAIR_PUBLIC_RELEASE_STILL_BLOCKED.md` - Quality Gate Failure - Public Release Still Blocked After P0/P1 Repair
+- `02_HISTORY\quality_gate_failures\PROJECT_GATE_RUNNER_SAMPLE_BLOCKED.md` - Quality Gate Failure - ATtiny85 Gate Runner Sample
+- `02_HISTORY\quality_gate_failures\README.md` - Quality Gate Failures
+- `02_HISTORY\quality_gate_failures\SCHEMATIC_TO_PCB_GATE_BLOCKED_ESP32_CSI_WIFI_NODE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Schematic To PCB Gate
+- `02_HISTORY\quality_gate_failures\SUPPLIER_DATASHEET_FOOTPRINT_NOT_PRODUCTION_READY.md` - Quality Gate Failure: Supplier Datasheet Footprint Not Production Ready
+- `02_HISTORY\README.md` - 02_HISTORY
+- `02_HISTORY\sessions\2026-05-08_PCB_BATCH_04_REPLAY_REQUEST_ALREADY_APPLIED_SESSION.md` - PCB Batch 04 Replay Request Session
+- `02_HISTORY\sessions\20260502_224838_Memory_history_learning_system_created.md` - Memory history learning system created
+- `02_HISTORY\sessions\20260502_230010_AI_quality_gate_setup_completed.md` - AI quality gate setup completed
+- `02_HISTORY\sessions\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SESSION.md` - Accuracy Engine And AI Quality Setup Session
+- `02_HISTORY\sessions\AUTO_PCB_START_WORKFLOW_CREATED.md` - AUTO_PCB_START_WORKFLOW_CREATED
+- `02_HISTORY\sessions\AUTO_PLACEMENT_ENGINE_CREATED.md` - AUTO_PLACEMENT_ENGINE_CREATED
+- `02_HISTORY\sessions\AUTO_ROUTING_ENGINE_CREATED.md` - AUTO_ROUTING_ENGINE_CREATED
+- `02_HISTORY\sessions\AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SESSION.md` - AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_SESSION
+- `02_HISTORY\sessions\AUTO_SANDBOX_APPROVAL_SYSTEM_CREATED.md` - Auto Sandbox Approval System Created
+- `02_HISTORY\sessions\AUTO_VARIANT_SCORING_ENGINE_CREATED.md` - Auto Variant Scoring Engine Created
+- `02_HISTORY\sessions\AUTOMATIC_SCHEMATIC_CLOSEUP_CROPS_ADDED.md` - Automatic Schematic Close-Up Crops Added
+- `02_HISTORY\sessions\BARREL_JACK_USB_C_ORIENTATION_RULE_PATCH_SESSION.md` - Barrel Jack And USB-C Orientation Rule Patch Session
+- `02_HISTORY\sessions\CLEAN_SAMPLE_SUCCESS_PATH_SESSION.md` - Clean Sample Success Path Session
+- `02_HISTORY\sessions\CODEX_MCP_CONFIG_SESSION.md` - Codex MCP Config Session
+- `02_HISTORY\sessions\CODEX_PROMPTS_CREATED.md` - Codex Prompts Created
+- `02_HISTORY\sessions\CODEX_START_CONTROL_PLANES_AUDIT_SESSION.md` - Codex Start Control Planes Audit Session
+- `02_HISTORY\sessions\CODEX_START_CONTROL_PLANES_SYNCED.md` - Codex Startup Control Planes Synced
+- `02_HISTORY\sessions\COMMAND_LINK_DIRECT_EDIT_SESSION.md` - COMMAND LINK Direct Edit Session
+- `02_HISTORY\sessions\COMMAND_LINK_DRC_CONTINUATION_SESSION.md` - COMMAND LINK DRC Continuation Session
+- `02_HISTORY\sessions\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT_SESSION.md` - COMMAND LINK Final Fabrication Readiness Audit Session
+- `02_HISTORY\sessions\COMMAND_LINK_FINISHED_PCB_INDEXED.md` - COMMAND LINK Finished PCB Indexed
+- `02_HISTORY\sessions\COMMAND_LINK_LEARNING_UPDATE_SESSION.md` - COMMAND LINK Learning Update Session
+- `02_HISTORY\sessions\COMMAND_LINK_READ_ONLY_REVIEW_SESSION.md` - COMMAND LINK Read-Only Review Session
+- `02_HISTORY\sessions\COMMAND_LINK_REFERENCE_COPY_CREATED.md` - COMMAND LINK Reference Copy Created
+- `02_HISTORY\sessions\COMMUNICATION_COMPONENT_DATABASE_SESSION.md` - Communication Component Database Session
+- `02_HISTORY\sessions\COMPONENT_DATABASE_CORE_SETUP_SESSION.md` - Component Database Core Setup Session
+- `02_HISTORY\sessions\COMPONENT_DATABASE_SCAFFOLD_SESSION.md` - Component Database Scaffold Session
+- `02_HISTORY\sessions\CONNECTOR_DATABASE_SESSION.md` - Connector Database Session
+- `02_HISTORY\sessions\CONTROL_PLANES_RULES_UPDATED.md` - Control Planes Rules Updated
+- `02_HISTORY\sessions\CORE_PLACEHOLDER_CONTENT_UPGRADE_SESSION.md` - Core Placeholder Content Upgrade Session
+- `02_HISTORY\sessions\CROSS_PLATFORM_INSTALLER_PROJECT_SESSION.md` - Cross-Platform Installer Project Session
+- `02_HISTORY\sessions\DATASHEET_LIBRARY_RESTRUCTURE_SESSION.md` - Datasheet Library Restructure Session
+- `02_HISTORY\sessions\DATASHEET_METADATA_RULES_SESSION.md` - Datasheet Metadata Rules Session
+- `02_HISTORY\sessions\DATASHEET_RESEARCH_PIPELINE_SESSION.md` - Datasheet Research Pipeline Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ACTUAL_KICAD_ANNOTATION_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Actual KiCad Annotation Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOM_FOOTPRINT_LOCK_CREATED.md` - Session Log - ESP32_CSI_WIFI_NODE BOM And Footprint Lock Created
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE BOM Sourcing Review Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOTTOM_EDGE_CONNECTOR_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Bottom Edge Connector Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_BOTTOM_EDGE_CONNECTOR_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Bottom Edge Connector Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COMPONENT_SELECTION_REVIEW.md` - ESP32_CSI_WIFI_NODE Component Selection Review Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_LIVE_TEST
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPPER_POUR_SESSION.md` - ESP32 CSI WiFi Node Copper Pour Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPPER_ZONE_STRATEGY_BLOCKED
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_CRITICAL_NETS_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Critical Nets Routing Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_CRITICAL_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE Critical Routing Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_DEV_BOARD_LAYOUT_SPEC_SESSION.md` - ESP32_CSI_WIFI_NODE Dev-Board Layout Spec Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_EMERGENCY_ANNOTATION_REPAIR_SESSION.md` - Session Log: ESP32_CSI_WIFI_NODE Emergency Annotation Repair
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_EMERGENCY_SCHEMATIC_TRUTH_AUDIT_SESSION.md` - Session Log - ESP32_CSI_WIFI_NODE Emergency Schematic Truth Audit
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE_EXISTING_TRACE_AUDIT_SESSION
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PCB_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final PCB Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PCB_VERIFICATION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Final PCB Verification Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_PACKAGE_SESSION.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Package Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final Production Signoff Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_ROUTED_PCB_REVIEW_SESSION.md` - ESP32 CSI WiFi Node Final Routed PCB Review Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_SCHEMATIC_READINESS_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final Schematic Readiness Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FINAL_TRACE_BY_TRACE_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Final Trace By Trace Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SESSION.md` - ESP32_CSI_WIFI_NODE Full Routing And Copper Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Full Routing Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_FULL_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE Full Routing Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_GUI_ANNOTATION_DIAGNOSIS_SESSION.md` - ESP32_CSI_WIFI_NODE GUI Annotation Diagnosis Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_BLOCKED.md` - ESP32_CSI_WIFI_NODE_HOLE_PAD_VIA_STRATEGY_BLOCKED
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_HUMAN_READABLE_SCHEMATIC_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Human-Readable Schematic Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_INTELLIGENCE_BASED_PLACEMENT_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Intelligence-Based Placement Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_AUDIT_SESSION.md` - ESP32 CSI WiFi Node J1 Barrel Jack Orientation Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE J1 Barrel Jack Orientation Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE J1/J2 Orientation Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback Review Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SESSION.md` - ESP32 CSI WiFi Node KiCad GUI Native Annotation Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_VARIANTS_CREATED.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Created
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_SESSION
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE Mechanical 3D Review Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_NOT_FINAL_FAB_EXPORT_BLOCKED.md` - ESP32_CSI_WIFI_NODE NOT_FINAL Fab Export Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_SESSION.md` - ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_01_DRC_AND_GND_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 01 DRC And GND Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_03_USB_CONTROL_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 03 USB Control Routing Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_04_CONTROL_NET_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 04 Control Net Routing Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_BATCH_05_USB_DATA_ROUTING_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Batch 05 USB Data Routing Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Create From Schematic Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_FINAL_CONNECTIVITY_CLEANUP_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Final Connectivity Cleanup Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_INTELLIGENCE_LAYER_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Intelligence Layer Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_PLAN_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Layout Plan Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_SPEC_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Layout Specification Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_BLOCKED
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Mechanical Setup Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Placement Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_2_ORIENTATION_BLOCKED
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_STRICT_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Placement Strict Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_BLOCKED.md` - ESP32_CSI_WIFI_NODE PCB Routing Plan Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE.md` - ESP32_CSI_WIFI_NODE_PCB_UPDATE_BLOCKED_BY_GATE
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_UPDATE_FROM_SCHEMATIC_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Update From Schematic Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PCB_ZONE_SETUP_SESSION.md` - ESP32_CSI_WIFI_NODE PCB Zone Setup Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_SESSION.md` - Session - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_REPAIR_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Repair Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PILL_STYLE_PLACEMENT_SESSION.md` - ESP32_CSI_WIFI_NODE Pill-Style Placement Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_POST_COPPER_DRC_REPAIR_SESSION.md` - ESP32 CSI WiFi Node Post-Copper DRC Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_POWER_ROUTING_REPAIR_BATCH_02_SESSION.md` - ESP32_CSI_WIFI_NODE Power Routing Repair Batch 02 Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PRE_ROUTING_PRE_COPPER_POUR_READINESS_AUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Pre-Routing And Pre-Copper-Pour Readiness Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SESSION.md` - ESP32_CSI_WIFI_NODE Production Fix Pass Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_Q1_PMOS_PIN_MAPPING_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Q1 PMOS Pin Mapping Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_CRITICAL_ROUTING_PASS_1_SESSION.md` - ESP32_CSI_WIFI_NODE Real PCB Critical Routing Pass 1 Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SESSION.md` - ESP32_CSI_WIFI_NODE Real PCB Full Routing Pass Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_SESSION.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_REPAIR_PASS_1_SESSION
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_BLOCKER_AUDIT
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SESSION.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SESSION
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SESSION.md` - ESP32_CSI_WIFI_NODE Real-World Failure Review Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_REPAIR_PASS_SESSION.md` - ESP32 CSI WiFi Node Routing Repair Pass Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_CLEANUP_SESSION.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Cleanup Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_2_PROFESSIONAL_CLEANUP_SESSION.md` - ESP32_CSI_WIFI_NODE Routing Stage 1/2 Professional Cleanup Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_1_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 1 Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_2_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 2 Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_3_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 3 Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_STAGE_4_SESSION.md` - ESP32 CSI WiFi Node Routing Stage 4 Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_SESSION.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Audit-Only Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_DRAFT_CREATED.md` - ESP32_CSI_WIFI_NODE Schematic Draft Created
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_REVIEWED.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers Reviewed
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_FOOTPRINT_GATE_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Electrical Footprint Gate Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_HUMAN_REVIEW_PACKET_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Human Review Packet Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_REAL_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Real Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_SESSION.md` - ESP32_CSI_WIFI_NODE Schematic Safe Repair Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_SESSION.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_STAGE_3_USB_BLOCKED_SESSION.md` - ESP32_CSI_WIFI_NODE Stage 3 USB Blocked Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_STRICT_VISUAL_READABILITY_REAUDIT_SESSION.md` - ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit Session
+- `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_WORKSPACE_CREATED.md` - ESP32_CSI_WIFI_NODE Workspace Created
+- `02_HISTORY\sessions\ESP32_DEV_BOARD_LAYOUT_INTELLIGENCE_CREATED.md` - ESP32 Dev Board Layout Intelligence Created
+- `02_HISTORY\sessions\ESPRESSIF_RESEARCH_SESSION.md` - Espressif Research Session
+- `02_HISTORY\sessions\FAB_FILE_FORMAT_RULES_INTEGRATED_SESSION.md` - Fab File Format Rules Integrated Session
+- `02_HISTORY\sessions\FINAL_PRODUCTION_STRUCTURE_AUDIT_SESSION.md` - Final Production Structure Audit Session
+- `02_HISTORY\sessions\FOOTPRINT_GAP_ANALYSIS_SYSTEM_CREATED.md` - Footprint Gap Analysis System Created
+- `02_HISTORY\sessions\FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE.md` - FOOTPRINT_PACKAGE_AUDIT_ESP32_CSI_WIFI_NODE
+- `02_HISTORY\sessions\FOR_CHAT_GPT_REFRESHED.md` - FOR CHAT GPT Refreshed
+- `02_HISTORY\sessions\FREEROUTING_FEASIBILITY_INTEGRATION_CREATED.md` - FreeRouting Feasibility Integration Created
+- `02_HISTORY\sessions\FULL_KICAD_PIPELINE_PROMPT_PACK_ADDED.md` - Full KiCad Pipeline Prompt Pack Added
+- `02_HISTORY\sessions\FULL_REPO_PRODUCTION_QUALITY_AUDIT_SESSION.md` - Full Repo Production Quality Audit Session
+- `02_HISTORY\sessions\GITHUB_REPO_INDEXING_SESSION.md` - GITHUB_REPO_INDEXING_SESSION
+- `02_HISTORY\sessions\GITHUB_REPO_PUSH_SESSION.md` - GitHub Repo Push Session
+- `02_HISTORY\sessions\GLOBAL_CODEX_AGENTS_UPDATED.md` - Global Codex AGENTS Updated
+- `02_HISTORY\sessions\GOLDEN_PATH_SAMPLE_GATE_RUN.md` - Session Log - Golden Path Sample Gate Run
+- `02_HISTORY\sessions\GOLDEN_PATH_SAMPLE_PROMOTED.md` - Session Log - Golden Path Sample Promoted
+- `02_HISTORY\sessions\INSTALLER_PAYLOAD_TEMPLATE_SESSION.md` - Installer Payload Template Session
+- `02_HISTORY\sessions\INSTALLER_PLAN_SESSION.md` - Installer Plan Session
+- `02_HISTORY\sessions\KIBOT_INSTALL_SESSION.md` - KiBot Install Session
+- `02_HISTORY\sessions\KICAD_AGENT_OPERATING_MANUAL_SESSION.md` - KiCad Agent Operating Manual Session
+- `02_HISTORY\sessions\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_CREATED.md` - KiCad Auto-Open Project Workflow Created
+- `02_HISTORY\sessions\KICAD_ENGINE_FINAL_SETUP_AUDIT_SESSION.md` - KICAD_ENGINE Final Setup Audit Session
+- `02_HISTORY\sessions\KICAD_ENGINE_HEALTH_CHECK_SESSION.md` - KiCad Engine Health Check Session
+- `02_HISTORY\sessions\KICAD_ENGINE_PRODUCT_VISION_ARCHITECTURE_SESSION.md` - KiCad Engine Product Vision And Architecture Session
+- `02_HISTORY\sessions\KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_AUDIT_SESSION.md` - KiCad Engine Schematic Failure Root-Cause Audit Session
+- `02_HISTORY\sessions\KICAD_GUI_AUTOMATION_LAYER_CREATED.md` - Session Log: KiCad GUI Automation Layer Created
+- `02_HISTORY\sessions\KICAD_GUI_DISCOVERY_CONFIRMED_RUN_SESSION.md` - KiCad GUI Discovery Confirmed Run Session
+- `02_HISTORY\sessions\KICAD_GUI_DISCOVERY_FILTER_FIX_SESSION.md` - KiCad GUI Discovery Filter Fix Session
+- `02_HISTORY\sessions\KICAD_GUI_DISCOVERY_RUN_SESSION.md` - KiCad GUI Discovery Run Session
+- `02_HISTORY\sessions\KICAD_GUI_DISCOVERY_WORKFLOW_CREATED.md` - KiCad GUI Discovery Workflow Created
+- `02_HISTORY\sessions\KICAD_HAPPY_INSTALL_SESSION.md` - kicad-happy Install Session
+- `02_HISTORY\sessions\KICAD_INSTALLED_APP_DEEP_AUDIT_SESSION.md` - KiCad Installed App Deep Audit Session
+- `02_HISTORY\sessions\KICAD_LIBRARY_INTELLIGENCE_SESSION.md` - KiCad Library Intelligence Session
+- `02_HISTORY\sessions\KICAD_MCP_PRO_INSTALL_SESSION.md` - kicad-mcp-pro Install Session
+- `02_HISTORY\sessions\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOCUMENTED.md` - KiCad Native Annotation Workflow Documented
+- `02_HISTORY\sessions\KICAD_PHASE_GATE_PATCH_SESSION.md` - Session - KiCad Phase Gate Patch
+- `02_HISTORY\sessions\KICAD_PROJECT_VALIDATION_SCRIPTS_SESSION.md` - KiCad Project Validation Scripts Session
+- `02_HISTORY\sessions\KICAD_VERIFICATION_SCRIPTS_CREATED.md` - KiCad Verification Scripts Created
+- `02_HISTORY\sessions\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_SESSION.md` - Knowledge Base Reference Design Setup Session
+- `02_HISTORY\sessions\LIBRARY_FACTORY_SETUP_SESSION.md` - Library Factory Setup Session
+- `02_HISTORY\sessions\LICENSE_ATTRIBUTION_AUDIT_SESSION.md` - License Attribution Audit Session
+- `02_HISTORY\sessions\LINUX_AUTOMATION_PLAN_CREATED.md` - Linux Automation Plan Created
+- `02_HISTORY\sessions\LOCAL_ENVIRONMENT_CHECK_SESSION.md` - Local Environment Check Session
+- `02_HISTORY\sessions\MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_SESSION.md` - MAINTENANCE_LAYER_INVESTIGATION_AND_REPAIR_SESSION
+- `02_HISTORY\sessions\MAINTENANCE_LAYER_TEST_SESSION.md` - MAINTENANCE_LAYER_TEST_SESSION
+- `02_HISTORY\sessions\MCU_DATASHEET_TREE_UPGRADE_SESSION.md` - Session Log: MCU Datasheet Tree Upgrade
+- `02_HISTORY\sessions\MCU_FAMILY_GUIDES_SESSION.md` - MCU Family Guides Session
+- `02_HISTORY\sessions\MEMORY_HISTORY_CLEANUP_SESSION.md` - Memory History Cleanup Session
+- `02_HISTORY\sessions\MEMORY_HISTORY_MAINTENANCE_UPGRADE_SESSION.md` - Memory History Maintenance Upgrade Session
+- `02_HISTORY\sessions\MEMORY_STARTERS_CREATED.md` - Memory Starters Created
+- `02_HISTORY\sessions\MICROCHIP_RESEARCH_SESSION.md` - Microchip Research Session
+- `02_HISTORY\sessions\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_CREATED.md` - Microcontroller Family Content Generator Created
+- `02_HISTORY\sessions\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_SESSION.md` - Session Log - Open KiCad Sample Candidate Discovery
+- `02_HISTORY\sessions\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_CREATED.md` - Session Log - Open KiCad Sample Intake System Created
+- `02_HISTORY\sessions\OPEN_KICAD_SAMPLE_PROJECTS_AUDITED.md` - Session Log - Open KiCad Sample Projects Audited
+- `02_HISTORY\sessions\OPEN_KICAD_SAMPLE_PROJECTS_IMPORTED.md` - Session Log - Open KiCad Sample Projects Imported
+- `02_HISTORY\sessions\P0_P1_REPAIR_SESSION.md` - P0/P1 Repair Session
+- `02_HISTORY\sessions\PACKAGE_FAB_VENDOR_PROFILE_SETUP_SESSION.md` - Package Fab Vendor Profile Setup Session
+- `02_HISTORY\sessions\PATH_FIX_SESSION.md` - PATH Fix Session
+- `02_HISTORY\sessions\PAYLOAD_TEMPLATE_REFRESH_SESSION.md` - Payload Template Refresh Session
+- `02_HISTORY\sessions\PCB_LAYOUT_SANDBOX_GATE_ADDED.md` - PCB Layout Sandbox Gate Added
+- `02_HISTORY\sessions\PCB_LAYOUT_SANDBOX_LAYER_CREATED.md` - PCB Layout Sandbox Layer Created
+- `02_HISTORY\sessions\PCB_TRACE_ANGLE_RULE_PATCH_SESSION.md` - PCB Trace Angle Rule Patch Session
+- `02_HISTORY\sessions\PCB_VARIANT_SCORING_SYSTEM_CREATED.md` - PCB Variant Scoring System Created
+- `02_HISTORY\sessions\PILL_STYLE_PCB_PLACEMENT_RULES_UPDATED.md` - Pill-Style PCB Placement Rules Updated
+- `02_HISTORY\sessions\PLATFORM_CONTROL_LAYERS_AUDIT_SESSION.md` - Platform Control Layers Audit Session
+- `02_HISTORY\sessions\PLATFORM_TOOL_ROOTS_CREATED.md` - Platform Tool Roots Created
+- `02_HISTORY\sessions\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION.md` - Session Log: Playwright Batch Research Expansion
+- `02_HISTORY\sessions\PLAYWRIGHT_PILOT_RESEARCH_RUN.md` - Session Log: Playwright Pilot Research Run
+- `02_HISTORY\sessions\PLAYWRIGHT_RESEARCH_PIPELINE_CREATED.md` - Playwright Research Pipeline Created
+- `02_HISTORY\sessions\POST_SAMPLE_P0_P1_REPAIR_SESSION.md` - Session Log - Post Sample P0/P1 Repair
+- `02_HISTORY\sessions\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_SESSION.md` - Session Log - Post Sample Project Production Audit
+- `02_HISTORY\sessions\POWER_COMPONENT_DATABASE_SESSION.md` - Power Component Database Session
+- `02_HISTORY\sessions\PROJECT_GATE_RUNNER_CREATED.md` - Project Gate Runner Created
+- `02_HISTORY\sessions\PROJECT_TEMPLATE_SYSTEM_CREATED.md` - Project Template System Created
+- `02_HISTORY\sessions\PROMPT_COUNTER_RULE_UPGRADE_SESSION.md` - Prompt Counter Rule Upgrade Session
+- `02_HISTORY\sessions\PROMPT_PACK_SYSTEM_SESSION.md` - Prompt Pack System Session
+- `02_HISTORY\sessions\PUBLIC_GITHUB_RELEASE_READINESS_SESSION.md` - Public GitHub Release Readiness Session
+- `02_HISTORY\sessions\PUBLIC_RELEASE_STRUCTURE_SESSION.md` - Public Release Structure Session
+- `02_HISTORY\sessions\README_GPT_CREATED_OR_UPDATED.md` - README_GPT Created Or Updated
+- `02_HISTORY\sessions\REAL_KICAD_PCB_ROUTING_BRIDGE_CREATED.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_CREATED
+- `02_HISTORY\sessions\REAL_PROJECT_ROUTING_WORKFLOW_DEFINED.md` - REAL_PROJECT_ROUTING_WORKFLOW_DEFINED
+- `02_HISTORY\sessions\REAL_PROJECT_WORKFLOW_CREATED.md` - Real Project Workflow Created
+- `02_HISTORY\sessions\SAMPLE_PIPELINE_FIX_SESSION.md` - Sample Pipeline Fix Session
+- `02_HISTORY\sessions\SAMPLE_PIPELINE_TEST_SESSION.md` - Sample Pipeline Test Session
+- `02_HISTORY\sessions\SAMPLE_PROJECT_PAYLOAD_RULES_UPDATED.md` - Session Log - Sample Project Payload Rules Updated
+- `02_HISTORY\sessions\SAMPLE_PROJECT_PUBLIC_DOCS_ADDED.md` - Sample Project Public Docs Added
+- `02_HISTORY\sessions\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_ADDED.md` - Schematic Annotation/Completeness Checkers Added
+- `02_HISTORY\sessions\SCHEMATIC_TO_PCB_GATE_SYSTEM_ADDED.md` - Schematic To PCB Gate System Added
+- `02_HISTORY\sessions\SETUP_HEALTH_CHECK_SYSTEM_SESSION.md` - Setup And Health Check System Session
+- `02_HISTORY\sessions\START_HERE_AI_AGENT_ROUTER_UPGRADE_SESSION.md` - START_HERE AI Agent Router Upgrade Session
+- `02_HISTORY\sessions\START_HERE_CHATGPT_HANDOFF_RULE_UPDATED.md` - START_HERE ChatGPT Handoff Rule Updated
+- `02_HISTORY\sessions\STARTUP_CLOSEOUT_INDEX_WIRING_SESSION.md` - Startup Closeout Index Wiring Session
+- `02_HISTORY\sessions\STARTUP_INSTRUCTIONS_CREATED.md` - Startup Instructions Created
+- `02_HISTORY\sessions\STM32_DATASHEET_TREE_CONTENT_COMPLETION_SESSION.md` - STM32 Datasheet Tree Content Completion Session
+- `02_HISTORY\sessions\STM32_RESEARCH_SESSION.md` - STM32 Research Session
+- `02_HISTORY\sessions\STM32_SOURCE_LINK_RESEARCH_SESSION.md` - STM32 Source Link Research Session
+- `02_HISTORY\sessions\STM32F1_PILOT_CONTENT_COMPLETION_SESSION.md` - STM32F1 Pilot Content Completion Session
+- `02_HISTORY\sessions\STRICT_HUMAN_READABLE_SCHEMATIC_RULE_ADDED.md` - Strict Human Readable Schematic Rule Added
+- `02_HISTORY\sessions\STRUCTURE_EXPANSION_SESSION.md` - Structure Expansion Session
+- `02_HISTORY\sessions\SUPPLIER_CONNECTOR_STUBS_CREATED.md` - Supplier Connector Stubs Created
+- `02_HISTORY\sessions\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_SESSION.md` - Supplier Datasheet Footprint Final Audit Session
+- `02_HISTORY\sessions\SUPPLIER_FOOTPRINT_MATCH_SYSTEM_CREATED.md` - Supplier Footprint Match System Created
+- `02_HISTORY\sessions\SUPPLIER_INGESTION_SYSTEM_CREATED.md` - Supplier Ingestion System Created
+- `02_HISTORY\sessions\SUPPLIER_INGESTION_SYSTEM_REVALIDATED.md` - Supplier Ingestion System Revalidated
+- `02_HISTORY\sessions\SUPPORT_PARTS_DATABASE_SESSION.md` - Support Parts Database Session
+- `02_HISTORY\sessions\TEST_EXAMPLES_BENCHMARKS_SETUP_SESSION.md` - Test Examples Benchmarks Setup Session
+- `02_HISTORY\sessions\TOOL_INSTALL_PLAN_CREATED.md` - Tool Install Plan Created
+- `02_HISTORY\sessions\TOOL_REPOS_CLONED_SESSION.md` - Tool Repositories Cloned Session
+- `02_HISTORY\sessions\VISUAL_TOOLS_INSTALL_SESSION.md` - Visual Tools Install Session
+- `02_HISTORY\sessions\VSCODE_WORKSPACE_SUPPORT_SESSION.md` - VS Code Workspace Support Session
+- `02_HISTORY\sessions\WINDOWS_GUI_AUTOMATION_INSTALL_SESSION.md` - Windows GUI Automation Install Session
+- `02_HISTORY\sessions\WINDOWS_GUI_REPOS_CLONED_SESSION.md` - Windows GUI Repos Cloned Session
+- `02_HISTORY\sessions\WORKSPACE_BOOTSTRAP_SESSION.md` - Workspace Bootstrap Session
+- `02_HISTORY\uncertainty_logs\20260502_230004_AI_quality_scripts_not_real_project_proven.md` - AI quality scripts not real project proven
+- `02_HISTORY\uncertainty_logs\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_UNCERTAINTY.md` - Uncertainty Log: Schematic Annotation/Completeness Checkers
+- `02_HISTORY\uncertainty_logs\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_UNCERTAINTY.md` - Uncertainty Log: Schematic Visual Autocrop Setup
+- `02_HISTORY\uncertainty_logs\20260506_170057_Strict_visual_gate_patch_uncertainty_log.md` - Strict visual gate patch uncertainty log
+- `02_HISTORY\uncertainty_logs\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit
+- `02_HISTORY\uncertainty_logs\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_UNCERTAINTY.md` - Uncertainty Log: KiCad Engine Schematic Failure Root-Cause Audit
+- `02_HISTORY\uncertainty_logs\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI Emergency Annotation Repair
+- `02_HISTORY\uncertainty_logs\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_UNCERTAINTY.md` - Uncertainty Log: ESP32 CSI Actual KiCad Annotation Repair
+- `02_HISTORY\uncertainty_logs\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_UNCERTAINTY.md` - Uncertainty Log: ESP32 CSI GUI Annotation Diagnosis
+- `02_HISTORY\uncertainty_logs\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_UNCERTAINTY.md` - Uncertainty Log: KiCad GUI Automation Layer
+- `02_HISTORY\uncertainty_logs\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt
+- `02_HISTORY\uncertainty_logs\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Uncertainty_Log.md` - PCB Layout Sandbox Layer Setup Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_172119_PCB_Variant_Scoring_System_Uncertainty_Log.md` - PCB Variant Scoring System Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Uncertainty_Log.md` - ESP32 Dev Board Layout Intelligence Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_175002_FreeRouting_Feasibility_Integration_Uncertainty_Log.md` - FreeRouting Feasibility Integration Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Uncertainty_Log.md` - PCB Layout Sandbox Gate Added Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Uncertainty_Log.md` - Real KiCad PCB Routing Bridge Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE BOM Sourcing Review
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Final Production Signoff
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Mechanical 3D Review
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE PCB Create From Schematic
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Production Fix Pass
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\uncertainty_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260508_140404_GITHUB_REPO_PUSH_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260508_150300_GITHUB_REPO_INDEXING_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md` - Accuracy Engine And AI Quality Setup Uncertainty Log
+- `02_HISTORY\uncertainty_logs\AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md` - AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG
+- `02_HISTORY\uncertainty_logs\AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG.md` - AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG
+- `02_HISTORY\uncertainty_logs\AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG.md` - AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG
+- `02_HISTORY\uncertainty_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Sandbox Approval System
+- `02_HISTORY\uncertainty_logs\AUTO_VARIANT_SCORING_ENGINE_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Variant Scoring Engine
+- `02_HISTORY\uncertainty_logs\COMPONENT_DATABASE_CORE_SETUP_UNCERTAINTY_LOG.md` - Component Database Core Setup Uncertainty Log
+- `02_HISTORY\uncertainty_logs\CORE_PLACEHOLDER_CONTENT_UPGRADE_UNCERTAINTY_LOG.md` - Uncertainty Log: Core Placeholder Content Upgrade
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Full Routing And Copper
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_UNCERTAINTY_LOG.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE GUI Native Annotation
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_UNCERTAINTY_LOG.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Schematic Audit Only
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_UNCERTAINTY_LOG.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_UNCERTAINTY.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE Schematic Safe Repair
+- `02_HISTORY\uncertainty_logs\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked
+- `02_HISTORY\uncertainty_logs\FINAL_PRODUCTION_STRUCTURE_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log: Final Production Structure Audit
+- `02_HISTORY\uncertainty_logs\FOOTPRINT_GAP_ANALYSIS_UNCERTAINTY_LOG.md` - Uncertainty Log - Footprint Gap Analysis
+- `02_HISTORY\uncertainty_logs\FULL_KICAD_PIPELINE_PROMPT_PACK_UNCERTAINTY_LOG.md` - Uncertainty Log: Full KiCad Pipeline Prompt Pack
+- `02_HISTORY\uncertainty_logs\FULL_REPO_PRODUCTION_QUALITY_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log - Full Repo Production Quality Audit
+- `02_HISTORY\uncertainty_logs\GOLDEN_PATH_SAMPLE_GATE_RUN_UNCERTAINTY_LOG.md` - Uncertainty Log - Golden Path Sample Gate Run
+- `02_HISTORY\uncertainty_logs\GOLDEN_PATH_SAMPLE_PROMOTION_UNCERTAINTY_LOG.md` - Uncertainty Log - Golden Path Sample Promotion
+- `02_HISTORY\uncertainty_logs\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_UNCERTAINTY_LOG.md` - Uncertainty Log: KiCad Auto-Open Project Workflow
+- `02_HISTORY\uncertainty_logs\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_UNCERTAINTY_LOG.md` - Uncertainty Log: KiCad Native Annotation Workflow Documentation Update
+- `02_HISTORY\uncertainty_logs\KICAD_PHASE_GATE_PATCH_UNCERTAINTY_LOG.md` - Uncertainty Log - KiCad Phase Gate Patch
+- `02_HISTORY\uncertainty_logs\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Knowledge Base Reference Design Setup
+- `02_HISTORY\uncertainty_logs\LIBRARY_FACTORY_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Library Factory Setup
+- `02_HISTORY\uncertainty_logs\MCU_DATASHEET_TREE_UPGRADE_UNCERTAINTY_LOG.md` - Uncertainty Log: MCU Datasheet Tree Upgrade
+- `02_HISTORY\uncertainty_logs\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_UNCERTAINTY_LOG.md` - Microcontroller Family Content Generator Uncertainty Log
+- `02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Candidate Discovery
+- `02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Intake System
+- `02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Project Import
+- `02_HISTORY\uncertainty_logs\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Projects Audit
+- `02_HISTORY\uncertainty_logs\P0_P1_REPAIR_UNCERTAINTY_LOG.md` - Uncertainty Log: P0/P1 Repair
+- `02_HISTORY\uncertainty_logs\PACKAGE_FAB_VENDOR_PROFILE_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Package Fab Vendor Profile Setup
+- `02_HISTORY\uncertainty_logs\PCB_TRACE_ANGLE_RULE_PATCH_UNCERTAINTY_LOG.md` - PCB Trace Angle Rule Patch Uncertainty Log
+- `02_HISTORY\uncertainty_logs\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Batch Research Expansion
+- `02_HISTORY\uncertainty_logs\PLAYWRIGHT_PILOT_RESEARCH_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Pilot Research
+- `02_HISTORY\uncertainty_logs\PLAYWRIGHT_RESEARCH_PIPELINE_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Research Pipeline
+- `02_HISTORY\uncertainty_logs\POST_SAMPLE_P0_P1_REPAIR_UNCERTAINTY_LOG.md` - Uncertainty Log - Post Sample P0/P1 Repair
+- `02_HISTORY\uncertainty_logs\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log - Post Sample Project Production Audit
+- `02_HISTORY\uncertainty_logs\PROJECT_GATE_RUNNER_UNCERTAINTY_LOG.md` - Uncertainty Log - Project Gate Runner
+- `02_HISTORY\uncertainty_logs\PUBLIC_RELEASE_STRUCTURE_UNCERTAINTY_LOG.md` - Uncertainty Log - Public Release Structure
+- `02_HISTORY\uncertainty_logs\README.md` - Uncertainty Logs
+- `02_HISTORY\uncertainty_logs\SAMPLE_PROJECT_PAYLOAD_RULES_UNCERTAINTY_LOG.md` - Uncertainty Log - Sample Project Payload Rules
+- `02_HISTORY\uncertainty_logs\SAMPLE_PROJECT_PUBLIC_DOCS_UNCERTAINTY_LOG.md` - Uncertainty Log - Sample Project Public Docs
+- `02_HISTORY\uncertainty_logs\SCHEMATIC_TO_PCB_GATE_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Schematic To PCB Gate System
+- `02_HISTORY\uncertainty_logs\STARTUP_CLOSEOUT_INDEX_WIRING_UNCERTAINTY_LOG.md` - Uncertainty Log: Startup Closeout Index Wiring
+- `02_HISTORY\uncertainty_logs\STM32_DATASHEET_TREE_CONTENT_COMPLETION_UNCERTAINTY_LOG.md` - Uncertainty Log - STM32 Datasheet Tree Content Completion
+- `02_HISTORY\uncertainty_logs\STM32_SOURCE_LINK_RESEARCH_UNCERTAINTY_LOG.md` - Uncertainty Log - STM32 Source Link Research
+- `02_HISTORY\uncertainty_logs\STM32F1_PILOT_CONTENT_COMPLETION_UNCERTAINTY_LOG.md` - STM32F1 Pilot Content Completion Uncertainty Log
+- `02_HISTORY\uncertainty_logs\STRUCTURE_EXPANSION_UNCERTAINTY_LOG.md` - Structure Expansion Uncertainty Log
+- `02_HISTORY\uncertainty_logs\SUPPLIER_CONNECTOR_STUBS_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Connector Stubs
+- `02_HISTORY\uncertainty_logs\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Datasheet Footprint Final Audit
+- `02_HISTORY\uncertainty_logs\SUPPLIER_FOOTPRINT_MATCH_UNCERTAINTY_LOG.md` - Uncertainty Log - Supplier Footprint Match System
+- `02_HISTORY\uncertainty_logs\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Ingestion System Revalidation
+- `02_HISTORY\uncertainty_logs\SUPPLIER_INGESTION_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Ingestion System
+- `02_HISTORY\uncertainty_logs\TEST_EXAMPLES_BENCHMARKS_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Test Examples Benchmarks Setup
+- `02_HISTORY\user_corrections\20260506_170041_Automated_schematic_visual_pass_was_not_human_readable.md` - Automated schematic visual pass was not human-readable
+- `02_HISTORY\user_corrections\AUTO_SANDBOX_APPROVAL_MUST_REPLACE_GENERIC_LJ_APPROVAL.md` - User Correction - Sandbox Approval Must Be Evidence-Based
+- `02_HISTORY\user_corrections\ESP32_CSI_VISIBLE_QUESTION_MARK_REFERENCES_CORRECTION.md` - User Correction: ESP32_CSI_VISIBLE_QUESTION_MARK_REFERENCES_CORRECTION
+- `02_HISTORY\user_corrections\ESP32_CSI_WIFI_NODE_J1_BARREL_JACK_ORIENTATION_CORRECTION.md` - ESP32_CSI_WIFI_NODE J1 Barrel Jack Orientation Correction
+- `02_HISTORY\user_corrections\J1_BARREL_JACK_FRONT_BACK_ORIENTATION_CORRECTION.md` - J1 Barrel Jack Front/Back Orientation Correction
+- `02_HISTORY\user_corrections\KICAD_ENGINE_AUTOMATED_VISUAL_PASS_USER_CORRECTION.md` - User Correction: Automated Visual Pass Was Not Human Readability
+- `02_HISTORY\user_corrections\PCB_TRACE_ANGLE_ROUTING_CORRECTION.md` - PCB Trace Angle Routing Correction
+- `02_HISTORY\user_corrections\README.md` - User Corrections
+- `02_HISTORY\workflow_runs\MCU_DATASHEET_TREE_STUB_GENERATION_WORKFLOW.md` - Workflow Run: MCU Datasheet Tree Stub Generation
+- `02_HISTORY\workflow_runs\README.md` - Workflow Runs
+- `02_HISTORY\workflow_runs\SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKER_SMOKE_TEST.md` - Workflow Run: Schematic Annotation/Completeness Checker Smoke Test
+- `02_HISTORY\workflow_runs\SCHEMATIC_VISUAL_AUTOCROP_ACTIVE_PROJECT_SMOKE_TEST.md` - Workflow Run: Schematic Visual Autocrop Active Project Smoke Test
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_critical_routing_scorecard.md` - AI Response Scorecard - Critical Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_final_pcb_audit_scorecard.md` - AI Response Scorecard - Final PCB Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_full_routing_scorecard.md` - AI Response Scorecard - Full Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_pcb_placement_pass_1_scorecard.md` - AI Response Scorecard - PCB Placement Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_pcb_placement_strict_audit_scorecard.md` - AI Response Scorecard - PCB Placement Strict Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-06_pcb_zone_setup_scorecard.md` - AI Response Scorecard - PCB Zone Setup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_existing_trace_audit_scorecard.md` - AI Response Scorecard - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_live_pcb_truth_audit_scorecard.md` - AI Response Scorecard - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_stage_1_2_cleanup_scorecard.md` - AI Response Scorecard - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_stage_3_usb_blocked_scorecard.md` - AI Response Scorecard - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_final_pcb_visual_review_package_scorecard.md` - AI Response Scorecard - Final PCB Visual Review Package
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_final_trace_by_trace_audit_scorecard.md` - AI Response Scorecard: Final Trace By Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_03_usb_control_routing_scorecard.md` - AI Scorecard: PCB Batch 03 USB Control Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_04_control_net_routing_scorecard.md` - AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_04_replay_request_scorecard.md` - AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_05_usb_data_routing_scorecard.md` - AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_final_connectivity_cleanup_scorecard.md` - AI Response Scorecard: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_scorecard.md` - ESP32 CSI schematic electrical footprint gate scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_155328_ESP32_CSI_schematic_human_review_packet_scorecard.md` - ESP32 CSI schematic human review packet scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_160715_Emergency_schematic_truth_audit_scorecard.md` - Emergency schematic truth audit scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_161816_BOM_and_footprint_lock_response_scorecard.md` - BOM and footprint lock response scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_164153_ESP32_schematic_real_repair_scorecard.md` - ESP32 schematic real repair scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_164758_ESP32_final_schematic_readiness_audit_scorecard.md` - ESP32 final schematic readiness audit scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_173109_Human_readable_schematic_repair_response_scorecard.md` - Human-readable schematic repair response scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_220744_PCB_update_blocked_scorecard.md` - AI Response Scorecard - PCB Update Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_221131_PCB_layout_plan_scorecard.md` - AI Response Scorecard - PCB Layout Plan
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260506_221529_PCB_mechanical_setup_scorecard.md` - AI Response Scorecard - PCB Mechanical Setup Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260507_maintenance_layer_investigation_and_repair_scorecard.md` - Maintenance Layer Investigation And Repair Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260507_maintenance_layer_test_scorecard.md` - Maintenance Layer Test Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_pcb_batch_01_drc_and_gnd_repair_scorecard.md` - AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_SCORECARD.md` - AI Response Scorecard - REAL PCB Critical Routing Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_real_pcb_repair_pass_1_scorecard.md` - Real PCB Repair Pass 1 Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\20260508_routing_work_prep_scorecard.md` - AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\COPPER_ZONE_STRATEGY_BLOCKED_SCORECARD.md` - COPPER_ZONE_STRATEGY_BLOCKED_SCORECARD
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SCORECARD.md` - AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_SCORECARD.md` - EXAMPLE_ONLY AI Response Scorecard: USB-C Footprint Recommended Without Drawing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\FINAL_PCB_VERIFICATION_SCORECARD.md` - Final PCB Verification AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\FOOTPRINT_PACKAGE_AUDIT_SCORECARD.md` - FOOTPRINT_PACKAGE_AUDIT_SCORECARD
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\HOLE_PAD_VIA_STRATEGY_BLOCKED_SCORECARD.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_SCORECARD
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\NOT_FINAL_FAB_EXPORT_SCORECARD.md` - NOT_FINAL Fab Export AI Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_BATCH_02_POWER_ROUTING_REPAIR_SCORECARD.md` - PCB Batch 02 Power Routing Repair Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_CRITICAL_NETS_ROUTING_SCORECARD.md` - PCB Critical Nets Routing Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_FULL_ROUTING_SCORECARD.md` - PCB Full Routing Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_MECHANICAL_SETUP_BLOCKED_SCORECARD.md` - PCB_MECHANICAL_SETUP_BLOCKED_SCORECARD
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_PLACEMENT_PASS_1_BLOCKED_SCORECARD.md` - PCB_PLACEMENT_PASS_1_BLOCKED_SCORECARD
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_PLACEMENT_PASS_2_BLOCKED_SCORECARD.md` - PCB_PLACEMENT_PASS_2_BLOCKED_SCORECARD
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_ROUTING_PLAN_BLOCKED_SCORECARD.md` - PCB Routing Plan Response Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SCORECARD.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SCORECARD
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\README.md` - AI Scorecards
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\STAGE_1_2_PROFESSIONAL_CLEANUP_SCORECARD.md` - Stage 1/2 Professional Cleanup Scorecard
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_critical_routing_self_review.md` - AI Self Review - Critical Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_final_pcb_audit_self_review.md` - AI Self Review - Final PCB Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_full_routing_self_review.md` - AI Self Review - Full Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_pcb_placement_pass_1_self_review.md` - AI Self Review - PCB Placement Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_pcb_placement_strict_audit_self_review.md` - AI Self Review - PCB Placement Strict Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_pcb_zone_setup_self_review.md` - AI Self Review - PCB Zone Setup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_existing_trace_audit_self_review.md` - AI Self Review - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_live_pcb_truth_audit_self_review.md` - AI Self Review - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_stage_1_2_cleanup_self_review.md` - AI Self Review - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_stage_3_usb_blocked_self_review.md` - AI Self Review - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_final_pcb_visual_review_package_ai_self_review.md` - AI Self Review - Final PCB Visual Review Package
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_final_trace_by_trace_audit_ai_self_review.md` - AI Self Review: Final Trace By Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_03_usb_control_routing_self_review.md` - AI Self Review: PCB Batch 03 USB Control Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_04_control_net_routing_self_review.md` - AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_04_replay_request_self_review.md` - AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_05_usb_data_routing_self_review.md` - AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_final_connectivity_cleanup_ai_self_review.md` - AI Self Review: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_self_review.md` - ESP32 CSI schematic electrical footprint gate self-review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_155328_ESP32_CSI_schematic_human_review_packet_self_review.md` - ESP32 CSI schematic human review packet self-review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_160715_Emergency_schematic_truth_audit_self_review.md` - Emergency schematic truth audit self-review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_161816_BOM_and_footprint_lock_self_review.md` - BOM and footprint lock self-review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_164134_ESP32_schematic_real_repair_self_review.md` - ESP32 schematic real repair self-review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_164758_ESP32_final_schematic_readiness_audit_self_review.md` - ESP32 final schematic readiness audit self-review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_173109_Human_readable_schematic_repair_self_review.md` - Human-readable schematic repair self-review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_220744_PCB_update_blocked_self_review.md` - AI Self Review - PCB Update Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_221131_PCB_layout_plan_self_review.md` - AI Self Review - PCB Layout Plan
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260506_221529_PCB_mechanical_setup_self_review.md` - AI Self Review - PCB Mechanical Setup Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260507_maintenance_layer_investigation_and_repair_ai_self_review.md` - Maintenance Layer Investigation And Repair AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260507_maintenance_layer_test_ai_self_review.md` - Maintenance Layer Test AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_pcb_batch_01_drc_and_gnd_repair_ai_self_review.md` - AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_AI_SELF_REVIEW.md` - AI Self Review - REAL PCB Critical Routing Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_real_pcb_repair_pass_1_ai_self_review.md` - Real PCB Repair Pass 1 AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\20260508_routing_work_prep_ai_self_review.md` - AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\COPPER_ZONE_STRATEGY_BLOCKED_SELF_REVIEW.md` - COPPER_ZONE_STRATEGY_BLOCKED_SELF_REVIEW
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SELF_REVIEW.md` - AI Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\FINAL_PCB_VERIFICATION_SELF_REVIEW.md` - Final PCB Verification AI Self-Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\FOOTPRINT_PACKAGE_AUDIT_SELF_REVIEW.md` - FOOTPRINT_PACKAGE_AUDIT_SELF_REVIEW
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\HOLE_PAD_VIA_STRATEGY_BLOCKED_SELF_REVIEW.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_SELF_REVIEW
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\NOT_FINAL_FAB_EXPORT_SELF_REVIEW.md` - NOT_FINAL Fab Export AI Self-Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_BATCH_02_POWER_ROUTING_REPAIR_SELF_REVIEW.md` - PCB Batch 02 Power Routing Repair Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_CRITICAL_NETS_ROUTING_SELF_REVIEW.md` - PCB Critical Nets Routing AI Self-Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_FULL_ROUTING_SELF_REVIEW.md` - PCB Full Routing AI Self-Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_MECHANICAL_SETUP_BLOCKED_SELF_REVIEW.md` - PCB_MECHANICAL_SETUP_BLOCKED_SELF_REVIEW
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_PLACEMENT_PASS_1_BLOCKED_SELF_REVIEW.md` - PCB_PLACEMENT_PASS_1_BLOCKED_SELF_REVIEW
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_PLACEMENT_PASS_2_BLOCKED_SELF_REVIEW.md` - PCB_PLACEMENT_PASS_2_BLOCKED_SELF_REVIEW
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_ROUTING_PLAN_BLOCKED_SELF_REVIEW.md` - PCB Routing Plan AI Self-Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SELF_REVIEW.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_SELF_REVIEW
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\README.md` - AI Self Reviews
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\STAGE_1_2_PROFESSIONAL_CLEANUP_SELF_REVIEW.md` - Stage 1/2 Professional Cleanup Self Review
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_critical_routing_claims.md` - Claim Evidence Matrix - Critical Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_final_pcb_audit_claims.md` - Claim Evidence Matrix - Final PCB Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_full_routing_claims.md` - Claim Evidence Matrix - Full Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_pcb_placement_pass_1_claims.md` - Claim Evidence Matrix - PCB Placement Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_pcb_placement_strict_audit_claims.md` - Claim Evidence Matrix - PCB Placement Strict Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-06_pcb_zone_setup_claims.md` - Claim Evidence Matrix - PCB Zone Setup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_existing_trace_audit_claims.md` - Claim Evidence Matrix - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_live_pcb_truth_audit_claims.md` - Claim Evidence Matrix - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_stage_1_2_cleanup_claims.md` - Claim Evidence Matrix - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_stage_3_usb_blocked_claims.md` - Claim Evidence Matrix - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_final_pcb_visual_review_package_claim_evidence_matrix.md` - Claim Evidence Matrix - Final PCB Visual Review Package
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_final_trace_by_trace_audit_claim_evidence_matrix.md` - Claim Evidence Matrix: Final Trace By Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_03_usb_control_routing_claims.md` - Claim Evidence Matrix: PCB Batch 03 USB Control Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_04_control_net_routing_claims.md` - Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_04_replay_request_claims.md` - Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_05_usb_data_routing_claims.md` - Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_final_connectivity_cleanup_claim_evidence_matrix.md` - Claim Evidence Matrix: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_claim_evidence_matrix.md` - ESP32 CSI schematic electrical footprint gate claim evidence matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_155328_ESP32_CSI_schematic_human_review_packet_claim_evidence_matrix.md` - ESP32 CSI schematic human review packet claim evidence matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_160715_Emergency_schematic_truth_audit_claim_evidence_matrix.md` - Emergency schematic truth audit claim evidence matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_161816_BOM_and_footprint_lock_claim_evidence_matrix.md` - BOM and footprint lock claim evidence matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_164153_ESP32_schematic_real_repair_claim_evidence_matrix.md` - ESP32 schematic real repair claim evidence matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_164758_ESP32_final_schematic_readiness_audit_claim_evidence_matrix.md` - ESP32 final schematic readiness audit claim evidence matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_173126_Human_readable_schematic_repair_claim_evidence_matrix.md` - Human-readable schematic repair claim evidence matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_220744_PCB_update_blocked_claim_evidence.md` - PCB Update Blocked Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_221131_PCB_layout_plan_claim_evidence.md` - PCB Layout Plan Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260506_221529_PCB_mechanical_setup_claim_evidence.md` - PCB Mechanical Setup Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260507_maintenance_layer_investigation_and_repair_claim_matrix.md` - Maintenance Layer Investigation And Repair Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260507_maintenance_layer_test_claim_matrix.md` - Maintenance Layer Test Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_pcb_batch_01_drc_and_gnd_repair_claim_evidence_matrix.md` - Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - REAL PCB Critical Routing Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_real_pcb_repair_pass_1_claim_matrix.md` - Real PCB Repair Pass 1 Claim / Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\20260508_routing_work_prep_claim_evidence_matrix.md` - Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\COPPER_ZONE_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - COPPER_ZONE_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_MATRIX.md` - EXAMPLE_ONLY Claim Evidence Matrix: USB-C Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\FINAL_PCB_VERIFICATION_CLAIM_EVIDENCE_MATRIX.md` - Final PCB Verification Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\FOOTPRINT_PACKAGE_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - FOOTPRINT_PACKAGE_AUDIT_CLAIM_EVIDENCE_MATRIX
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\HOLE_PAD_VIA_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\NOT_FINAL_FAB_EXPORT_CLAIM_EVIDENCE_MATRIX.md` - NOT_FINAL Fab Export Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_BATCH_02_POWER_ROUTING_REPAIR_CLAIM_EVIDENCE_MATRIX.md` - PCB Batch 02 Power Routing Repair Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_CRITICAL_NETS_ROUTING_CLAIM_EVIDENCE_MATRIX.md` - PCB Critical Nets Routing Claim/Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_FULL_ROUTING_CLAIM_EVIDENCE_MATRIX.md` - PCB Full Routing Claim/Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_MECHANICAL_SETUP_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_MECHANICAL_SETUP_BLOCKED_CLAIM_EVIDENCE_MATRIX
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_PLACEMENT_PASS_1_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_PLACEMENT_PASS_1_BLOCKED_CLAIM_EVIDENCE_MATRIX
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_PLACEMENT_PASS_2_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_PLACEMENT_PASS_2_BLOCKED_CLAIM_EVIDENCE_MATRIX
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_ROUTING_PLAN_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB Routing Plan Claim/Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_CLAIM_EVIDENCE_MATRIX
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\README.md` - Claim Evidence Matrices
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\STAGE_1_2_PROFESSIONAL_CLEANUP_CLAIM_EVIDENCE_MATRIX.md` - Stage 1/2 Professional Cleanup Claim Evidence Matrix
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_existing_trace_audit_commands.md` - Command Log - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_live_pcb_truth_audit_commands.md` - Command Log - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_stage_1_2_cleanup_commands.md` - Command Log - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-07_stage_3_usb_blocked_commands.md` - Command Log - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-08_final_pcb_visual_review_package_commands.md` - Final PCB Visual Review Package Commands
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-08_pcb_batch_01_drc_and_gnd_repair_commands.md` - PCB Batch 01 DRC And GND Repair Commands
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\command_logs\2026-05-08_routing_work_prep_commands.md` - Routing Work Prep Commands
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-07_live_pcb_truth_audit_git_status_unavailable.md` - Failed Attempt - Live PCB Truth Audit Git Status Unavailable
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-07_stage_1_2_cleanup_failed_attempts.md` - Failed Attempts - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_final_pcb_visual_render_pivot_failure.md` - Final PCB Visual Render Pivot Failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_pcb_batch_03_usb_control_routing_failed_attempts.md` - PCB Batch 03 USB Control Routing Failed Attempts
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_pcb_batch_04_control_net_routing_failed_attempts.md` - Failed Attempts
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\2026-05-08_real_pcb_repair_pass_1_failed_attempts.md` - Real PCB Repair Pass 1 Failed Attempts
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_160734_Emergency_truth_audit_initial_SVG_text_regex_mismatch.md` - Emergency truth audit initial SVG text regex mismatch
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_161816_PowerShell_footprint_candidate_pipeline_syntax_mistake.md` - PowerShell footprint candidate pipeline syntax mistake
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_161934_Git_status_unavailable_during_BOM_footprint_lock_validation.md` - Git status unavailable during BOM footprint lock validation
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_164134_PowerShell_command_syntax_failures_during_schematic_repair.md` - PowerShell command syntax failures during schematic repair
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_164134_Schematic_rewrite_inserted_invalid_KiCad_syntax_before_recovery.md` - Schematic rewrite inserted invalid KiCad syntax before recovery
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\20260506_173109_Failed_broad_regex_schematic_relayout_attempt.md` - Failed broad regex schematic relayout attempt
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Failed Attempt: USB-C Connector Footprint Was Wrong
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\FINAL_PCB_VERIFICATION_SELECT_STRING_QUOTING.md` - Final PCB Verification Select-String Quoting Failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\NOT_FINAL_FAB_EXPORT_BLOCKED_PRECONDITION.md` - NOT_FINAL Fab Export Blocked By Precondition
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\NOT_FINAL_FAB_EXPORT_SELECT_STRING_QUOTING.md` - NOT_FINAL Fab Export Select-String Quoting Failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_BATCH_02_KICAD_PYTHON_RUNTIME_QUIRKS.md` - PCB Batch 02 KiCad Python Runtime Quirks
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md` - PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\failed_attempts\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_critical_routing_hallucination_risk.md` - Hallucination Risk Log - Critical Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_final_pcb_audit_hallucination_risk.md` - Hallucination Risk Log - Final PCB Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_full_routing_hallucination_risk.md` - Hallucination Risk Log - Full Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_pcb_placement_pass_1_hallucination_risk.md` - Hallucination Risk Log - PCB Placement Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_pcb_placement_strict_audit_hallucination_risk.md` - Hallucination Risk Log - PCB Placement Strict Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-06_pcb_zone_setup_hallucination_risk.md` - Hallucination Risk Log - PCB Zone Setup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_existing_trace_audit_hallucination_risk.md` - Hallucination Risk Log - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_live_pcb_truth_audit_hallucination_risk.md` - Hallucination Risk Log - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_stage_1_2_cleanup_hallucination_risk.md` - Hallucination Risk Log - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_final_pcb_visual_review_package_hallucination_risk_log.md` - Hallucination Risk Log - Final PCB Visual Review Package
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_final_trace_by_trace_audit_hallucination_risk_log.md` - Hallucination Risk Log: Final Trace By Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_03_usb_control_routing_hallucination_risk.md` - Hallucination Risk Log: PCB Batch 03 USB Control Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_04_control_net_routing_hallucination_risk.md` - Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_04_replay_request_hallucination_risk.md` - Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_05_usb_data_routing_hallucination_risk.md` - Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_final_connectivity_cleanup_hallucination_risk_log.md` - Hallucination Risk Log: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_154747_ESP32_CSI_schematic_electrical_footprint_gate_hallucination_risk_log.md` - ESP32 CSI schematic electrical footprint gate hallucination risk log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_155334_ESP32_CSI_schematic_human_review_packet_hallucination_risk_log.md` - ESP32 CSI schematic human review packet hallucination risk log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_160734_Prior_automated_visual_pass_overconfidence_risk.md` - Prior automated visual pass overconfidence risk
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_161816_Candidate_footprint_hallucination_risk.md` - Candidate footprint hallucination risk
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_164153_ESP32_schematic_real_repair_hallucination_risk_log.md` - ESP32 schematic real repair hallucination risk log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_164822_ESP32_final_schematic_readiness_audit_hallucination_risk.md` - ESP32 final schematic readiness audit hallucination risk
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_173126_Human_readable_visual_pass_risk_log.md` - Human-readable visual pass risk log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_220744_PCB_update_blocked_hallucination_risk.md` - PCB Update Blocked Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_221131_PCB_layout_plan_hallucination_risk.md` - PCB Layout Plan Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260506_221529_PCB_mechanical_setup_hallucination_risk.md` - PCB Mechanical Setup Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260507_maintenance_layer_investigation_and_repair_hallucination_risk_log.md` - Maintenance Layer Investigation And Repair Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260507_maintenance_layer_test_hallucination_risk_log.md` - Maintenance Layer Test Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_pcb_batch_01_drc_and_gnd_repair_hallucination_risk_log.md` - Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - REAL PCB Critical Routing Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_real_pcb_repair_pass_1_hallucination_risk_log.md` - Real PCB Repair Pass 1 Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\20260508_routing_work_prep_hallucination_risk_log.md` - Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\COPPER_ZONE_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG.md` - COPPER_ZONE_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_RISK.md` - EXAMPLE_ONLY Hallucination Risk: USB-C Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\FINAL_PCB_VERIFICATION_HALLUCINATION_RISK_LOG.md` - Final PCB Verification Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\FOOTPRINT_PACKAGE_AUDIT_HALLUCINATION_RISK_LOG.md` - FOOTPRINT_PACKAGE_AUDIT_HALLUCINATION_RISK_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\NOT_FINAL_FAB_EXPORT_HALLUCINATION_RISK_LOG.md` - NOT_FINAL Fab Export Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_BATCH_02_POWER_ROUTING_REPAIR_HALLUCINATION_RISK_LOG.md` - PCB Batch 02 Power Routing Repair Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_CRITICAL_NETS_ROUTING_HALLUCINATION_RISK_LOG.md` - PCB Critical Nets Routing Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_FULL_ROUTING_HALLUCINATION_RISK_LOG.md` - PCB Full Routing Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_MECHANICAL_SETUP_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB_MECHANICAL_SETUP_BLOCKED_HALLUCINATION_RISK_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_PLACEMENT_PASS_1_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB_PLACEMENT_PASS_1_BLOCKED_HALLUCINATION_RISK_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_PLACEMENT_PASS_2_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB_PLACEMENT_PASS_2_BLOCKED_HALLUCINATION_RISK_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\PCB_ROUTING_PLAN_BLOCKED_HALLUCINATION_RISK_LOG.md` - PCB Routing Plan Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\README.md` - Hallucination Risk Logs
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\STAGE_1_2_PROFESSIONAL_CLEANUP_HALLUCINATION_RISK_LOG.md` - Stage 1/2 Professional Cleanup Hallucination Risk Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_final_pcb_visual_review_remaining_blockers.md` - Final PCB Visual Review Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_04_control_net_remaining_blockers.md` - Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_05_usb_data_blocked.md` - Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_real_pcb_full_routing_pass_remaining_blockers.md` - Real PCB Full Routing Pass Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_real_pcb_repair_pass_1_remaining_blockers.md` - Real PCB Repair Pass 1 Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_REVIEW.md` - EXAMPLE_ONLY Open Issue: Verify USB-C Connector Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\EXAMPLE_ONLY_USB_C_EXACT_FOOTPRINT_REVIEW_REQUIRED.md` - EXAMPLE_ONLY Open Issue: USB-C Exact Footprint Review Required
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\EXISTING_TRACE_AUDIT_ROUTING_CONTINUATION_BLOCKED.md` - Existing Trace Audit - Routing Continuation Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md` - FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\FOOTPRINT_PACKAGE_AUDIT_OPEN_ISSUES.md` - FOOTPRINT_PACKAGE_AUDIT_OPEN_ISSUES
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\LIVE_PCB_TRUTH_AUDIT_BLOCKERS.md` - Live PCB Truth Audit - Current Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\NOT_FINAL_FAB_EXPORT_BLOCKED.md` - NOT_FINAL_FAB_EXPORT_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_BATCH_02_REMAINING_ROUTING_WORK.md` - PCB Batch 02 Remaining Routing Work
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md` - PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE.md` - PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_SYNC_BLOCKED_Q1_PIN_MAPPING.md` - PCB Sync Blocked - Q1 Pin Mapping
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\ROUTING_STAGE_1_2_BUCK_SW_BST_CROSSING_REMAINS.md` - Routing Stage 1/2 - Buck SW/BST Crossing Remains
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_AUDIT_ONLY_BLOCKERS_REMAIN_OPEN.md` - Issue Log: Schematic Audit-Only Blockers Remain Open
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_ELECTRICAL_BLOCKERS_REMAIN_OPEN.md` - Issue Log - Schematic Electrical Blockers Remain Open
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_SAFE_REPAIR_BLOCKERS_REMAIN_OPEN.md` - Issue Log: Schematic Safe Repair Blockers Remain Open
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_TO_PCB_GATE_BLOCKED.md` - Issue Log - Schematic To PCB Gate Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\MEMORY_MAINTENANCE_LAST_RUN.md` - Memory Maintenance Last Run
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_critical_routing_blocked.md` - Quality Gate Failure - Critical Routing Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_final_pcb_audit_blocked.md` - Quality Gate Failure - Final PCB Audit Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_full_routing_blocked.md` - Quality Gate Failure - Full Routing Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_placement_pass_1_blocked.md` - Quality Gate Failure - PCB Placement Pass 1 Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_placement_strict_audit_blocked.md` - Quality Gate Failure - PCB Placement Strict Audit Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_zone_setup_blocked.md` - Quality Gate Failure - PCB Zone Setup Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_existing_trace_audit_blocked.md` - Quality Gate Failure - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_live_pcb_truth_audit_blocked.md` - Quality Gate Failure - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-08_real_pcb_repair_pass_1_user_override_exception.md` - Quality Gate Exception - Real PCB Repair Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_154747_ESP32_CSI_schematic_to_PCB_gate_remains_failed_after_electrical_footprint_gate.md` - ESP32 CSI schematic to PCB gate remains failed after electrical footprint gate
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_160734_Emergency_schematic_truth_audit_gate_failure.md` - Emergency schematic truth audit gate failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_161816_Footprint_assignment_gate_remains_blocked.md` - Footprint assignment gate remains blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_164153_ESP32_schematic_to_PCB_gate_remains_blocked_after_real_repair.md` - ESP32 schematic to PCB gate remains blocked after real repair
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_164822_ESP32_final_schematic_readiness_audit_gate_failure.md` - ESP32 final schematic readiness audit gate failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_220744_PCB_update_blocked_gate_fail.md` - PCB Update Blocked By Schematic-To-PCB Gate
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_221529_PCB_mechanical_setup_blocked_no_pcb.md` - PCB Mechanical Setup Blocked - No PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260507_pcb_sync_blocked_q1_pin_mapping.md` - Quality Gate Failure - PCB Sync Blocked By Q1 Pin Mapping
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_GATE_FAILURE.md` - EXAMPLE_ONLY Quality Gate Failure: USB-C Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md` - FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\FOOTPRINT_PACKAGE_AUDIT_QUALITY_GATE_FAILURE.md` - FOOTPRINT_PACKAGE_AUDIT_QUALITY_GATE_FAILURE
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\NOT_FINAL_FAB_EXPORT_BLOCKED.md` - NOT_FINAL_FAB_EXPORT_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md` - PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE.md` - PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\README.md` - Quality Gate Failures
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\SCHEMATIC_SAFE_REPAIR_GATE_STILL_BLOCKED.md` - Quality Gate Failure: Schematic Safe Repair Gate Still Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\README.md` - ESP32_CSI_WIFI_NODE Project History
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_existing_trace_audit_session.md` - Session - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_live_pcb_truth_audit_session.md` - Session - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_stage_1_2_cleanup_session.md` - Session - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-07_stage_3_usb_blocked_session.md` - Session - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-08_final_pcb_visual_review_package_session.md` - Final PCB Visual Review Package Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-08_pcb_batch_01_drc_and_gnd_repair_session.md` - PCB Batch 01 DRC And GND Repair Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\sessions\2026-05-08_routing_work_prep_session.md` - Routing Work Prep Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_critical_routing_uncertainty.md` - Uncertainty Log - Critical Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_final_pcb_audit_uncertainty.md` - Uncertainty Log - Final PCB Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_full_routing_uncertainty.md` - Uncertainty Log - Full Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_pcb_placement_pass_1_uncertainty.md` - Uncertainty Log - PCB Placement Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_pcb_placement_strict_audit_uncertainty.md` - Uncertainty Log - PCB Placement Strict Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-06_pcb_zone_setup_uncertainty.md` - Uncertainty Log - PCB Zone Setup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_existing_trace_audit_uncertainty.md` - Uncertainty Log - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_live_pcb_truth_audit_uncertainty.md` - Uncertainty Log - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_1_2_cleanup_uncertainty.md` - Uncertainty Log - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_3_usb_blocked_uncertainty.md` - Uncertainty Log - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_pcb_visual_review_package_uncertainty_log.md` - Uncertainty Log - Final PCB Visual Review Package
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_trace_by_trace_audit_uncertainty_log.md` - Uncertainty Log: Final Trace By Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_03_usb_control_routing_uncertainty.md` - Uncertainty Log: PCB Batch 03 USB Control Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_04_control_net_routing_uncertainty.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_04_replay_request_uncertainty.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_05_usb_data_routing_uncertainty.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_final_connectivity_cleanup_uncertainty_log.md` - Uncertainty Log: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_uncertainty_log.md` - ESP32 CSI schematic electrical footprint gate uncertainty log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_155328_ESP32_CSI_schematic_human_review_packet_uncertainty_log.md` - ESP32 CSI schematic human review packet uncertainty log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_160734_Emergency_schematic_truth_audit_uncertainty_log.md` - Emergency schematic truth audit uncertainty log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_161816_BOM_and_footprint_lock_uncertainty_log.md` - BOM and footprint lock uncertainty log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_164134_ESP32_schematic_real_repair_uncertainty_log.md` - ESP32 schematic real repair uncertainty log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_164758_ESP32_final_schematic_readiness_audit_uncertainty_log.md` - ESP32 final schematic readiness audit uncertainty log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_173126_Human_readable_schematic_repair_uncertainty_log.md` - Human-readable schematic repair uncertainty log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_220744_PCB_update_blocked_uncertainty_log.md` - PCB Update Blocked Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_221131_PCB_layout_plan_uncertainty_log.md` - PCB Layout Plan Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260506_221529_PCB_mechanical_setup_uncertainty_log.md` - PCB Mechanical Setup Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260507_maintenance_layer_investigation_and_repair_uncertainty_log.md` - Maintenance Layer Investigation And Repair Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260507_maintenance_layer_test_uncertainty_log.md` - Maintenance Layer Test Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_pcb_batch_01_drc_and_gnd_repair_uncertainty_log.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_UNCERTAINTY_LOG.md` - Uncertainty Log - REAL PCB Critical Routing Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_real_pcb_repair_pass_1_uncertainty_log.md` - Real PCB Repair Pass 1 Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_routing_work_prep_uncertainty_log.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG.md` - COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_UNCERTAINTY.md` - EXAMPLE_ONLY Uncertainty Log: USB-C Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\FINAL_PCB_VERIFICATION_UNCERTAINTY_LOG.md` - Final PCB Verification Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\FOOTPRINT_PACKAGE_AUDIT_UNCERTAINTY_LOG.md` - FOOTPRINT_PACKAGE_AUDIT_UNCERTAINTY_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_UNCERTAINTY_LOG.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_UNCERTAINTY_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\NOT_FINAL_FAB_EXPORT_UNCERTAINTY_LOG.md` - NOT_FINAL Fab Export Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_BATCH_02_POWER_ROUTING_REPAIR_UNCERTAINTY_LOG.md` - PCB Batch 02 Power Routing Repair Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_CRITICAL_NETS_ROUTING_UNCERTAINTY_LOG.md` - PCB Critical Nets Routing Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_FULL_ROUTING_UNCERTAINTY_LOG.md` - PCB Full Routing Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_MECHANICAL_SETUP_BLOCKED_UNCERTAINTY_LOG.md` - PCB_MECHANICAL_SETUP_BLOCKED_UNCERTAINTY_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_PLACEMENT_PASS_1_BLOCKED_UNCERTAINTY_LOG.md` - PCB_PLACEMENT_PASS_1_BLOCKED_UNCERTAINTY_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_PLACEMENT_PASS_2_BLOCKED_UNCERTAINTY_LOG.md` - PCB_PLACEMENT_PASS_2_BLOCKED_UNCERTAINTY_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_ROUTING_PLAN_BLOCKED_UNCERTAINTY_LOG.md` - PCB Routing Plan Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_UNCERTAINTY_LOG.md` - PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_UNCERTAINTY_LOG
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\README.md` - Uncertainty Logs
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\STAGE_1_2_PROFESSIONAL_CLEANUP_UNCERTAINTY_LOG.md` - Stage 1/2 Professional Cleanup Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_live_pcb_truth_audit_user_correction.md` - User Correction - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_routing_quality_correction.md` - User Correction - Routing Quality
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY User Correction: USB-C Connector Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\COPPER_ZONE_STRATEGY_SESSION.md` - COPPER_ZONE_STRATEGY_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\EXISTING_TRACE_AUDIT_SESSION.md` - EXISTING_TRACE_AUDIT_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\FINAL_PCB_VERIFICATION_BEFORE_FAB_SESSION.md` - Final PCB Verification Before Fab Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\FOOTPRINT_PACKAGE_AUDIT_SESSION.md` - FOOTPRINT_PACKAGE_AUDIT_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\HOLE_PAD_VIA_STRATEGY_SESSION.md` - HOLE_PAD_VIA_STRATEGY_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\LIVE_PCB_TRUTH_AUDIT_SESSION.md` - LIVE_PCB_TRUTH_AUDIT_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\NOT_FINAL_FAB_EXPORT_BLOCKED_SESSION.md` - NOT_FINAL Fab Export Blocked Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_CRITICAL_NETS_ROUTING_SESSION.md` - PCB Critical Nets Routing Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_FULL_ROUTING_SESSION.md` - PCB Full Routing Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_MECHANICAL_SETUP_SESSION.md` - PCB_MECHANICAL_SETUP_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_PLACEMENT_PASS_1_SESSION.md` - PCB_PLACEMENT_PASS_1_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_PLACEMENT_PASS_2_ORIENTATION_SESSION.md` - PCB_PLACEMENT_PASS_2_ORIENTATION_SESSION
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_ROUTING_PLAN_SESSION.md` - PCB Routing Plan Session
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\verification_runs\PCB_UPDATE_FROM_SCHEMATIC_SESSION.md` - PCB_UPDATE_FROM_SCHEMATIC_SESSION

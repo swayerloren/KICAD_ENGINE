@@ -2,34 +2,45 @@
 
 Date: `2026-05-08`
 
-## Commands Run
+## Commands Run In The Tightening Pass
 
 ```powershell
-git status --short --branch
-python 03_TOOLS/scripts/memory_maintenance/check_maintenance_due.py --project 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE
+Get-Content AGENTS.md
 Get-Content README.md
-Get-Content CONTRIBUTING.md
-Get-Content SECURITY.md
-Get-Content .github\README.md
-Get-Content 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\README.md
-rg --files 03_TOOLS\scripts
-rg --files 14_LAYOUT_AUTOMATION
-rg --files 34_PCB_LAYOUT_SANDBOX
-rg --files 04_KICAD_PROJECTS
-rg --files 05_OUTPUTS\release_readiness
-New-Item -ItemType Directory -Force .github\ISSUE_TEMPLATE
+Get-Content README_GPT.md
+Get-Content '.\FOR CHAT GPT.MD'
+Get-Content 00_CODEX_START\START_HERE.md
+Get-Content 00_CODEX_START\CURRENT_PROJECT.md
+Get-Content 00_CODEX_START\PROJECT_INDEX.md
+Get-Content .gitignore
+Get-Content 05_OUTPUTS\release_readiness\GITHUB_PUSH_REPORT.md
+Get-Content 05_OUTPUTS\release_readiness\GITHUB_PUSH_PLAN.md
+Get-Content 05_OUTPUTS\release_readiness\GITHUB_PUSH_SECURITY_SCAN.md
+Get-Content 05_OUTPUTS\release_readiness\GITHUB_PUSH_FILE_INCLUDE_EXCLUDE_AUDIT.md
+Get-Content 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\CURRENT_PROJECT_STATE.md
+Get-Content 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\CURRENT_BLOCKERS.md
+Get-Content 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\reports\FINAL_PCB_VISUAL_REVIEW_PACKET.md
+Get-Content 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\reports\LJ_FINAL_PCB_REVIEW_CHECKLIST.md
+Get-Content 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\reports\PCB_FINAL_UNCONNECTED_ITEMS_REVIEW.md
+git status --short --branch
+python 03_TOOLS\scripts\memory_maintenance\check_maintenance_due.py --project 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE
+Get-Content REPO_INDEX.md
+Get-Content FOLDER_MAP.md
+Get-Content PROJECTS_INDEX.md
+Get-Content TOOLS_INDEX.md
+Get-Content WORKFLOWS_INDEX.md
+Get-Content CURRENT_STATUS.md
+Get-Content PUBLIC_RELEASE_STATUS.md
+Get-Content 00_CODEX_START\GITHUB_NAVIGATION.md
 git diff --stat
-git diff --cached --name-only
-git diff --cached --name-only | rg "(\\.lck$|\\.env($|\\.)|secrets|api_keys|local_credentials|99_BACKUPS|routing_rehearsals|copied|imported_originals)"
-git add ...
-git add -f 05_OUTPUTS\OUTPUTS_INDEX.md
-git diff --cached --stat
-git commit -m "Add GitHub repo navigation and index layer"
-git push -u origin main
-git rev-parse HEAD
-git ls-remote origin refs/heads/main
+python 03_TOOLS\scripts\memory_history\build_memory_index.py
+python 03_TOOLS\scripts\memory_history\build_history_index.py
+python 03_TOOLS\scripts\ai_quality\build_ai_quality_index.py
+python 03_TOOLS\scripts\ai_quality\build_current_known_problems.py
+python 03_TOOLS\scripts\memory_maintenance\increment_prompt_counter.py --project 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE --apply
+python 03_TOOLS\scripts\maintenance\run_maintenance_cycle.py --project 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE
 ```
 
 ## Notes
 
-- One attempted `Get-Content FOR CHAT GPT.MD -TotalCount 120` call failed because the path was not quoted; this was corrected with `Get-Content '.\FOR CHAT GPT.MD' -TotalCount 120`.
+- The task reused and tightened the previously created GitHub-facing index layer instead of rebuilding it from scratch.

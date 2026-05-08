@@ -12,6 +12,18 @@
 - Prompt counter rules: `00_CODEX_START/PROMPT_COUNTER_RULES.md`
 - Legacy maintenance compatibility: `03_TOOLS/scripts/memory_maintenance/`
 
+## Live Project State Workflow
+
+- run `python 03_TOOLS/scripts/project_state/build_live_project_state.py --project <ACTIVE_PROJECT_PATH> --apply`
+- confirm `reports/LIVE_PROJECT_STATE.json` and `.md` refreshed
+- use `memory/CURRENT_PROJECT_STATE.md` for the project-facing summary
+
+## Stale-Report Reconciliation Workflow
+
+- run `python 03_TOOLS/scripts/project_state/detect_stale_reports.py --project <ACTIVE_PROJECT_PATH> --apply`
+- run `python 03_TOOLS/scripts/project_state/reconcile_project_gates.py --project <ACTIVE_PROJECT_PATH> --apply`
+- confirm stale `NO_PCB` or `0 footprints` narratives are not overriding live evidence
+
 ## KiCad Schematic Workflow
 
 - Read startup and safety files first
@@ -19,24 +31,27 @@
 - Review project reports under `reports/`
 - Run or review ERC before downstream PCB phases
 
-## KiCad PCB Update Workflow
+## KiCad PCB Placement Workflow
 
 - Phase gating: `python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project <ACTIVE_PROJECT_PATH> --phase <PHASE>`
 - Live state build: `python 03_TOOLS/scripts/project_state/build_live_project_state.py --project <ACTIVE_PROJECT_PATH> --apply`
-- Gate reconciliation: `python 03_TOOLS/scripts/project_state/reconcile_project_gates.py --project <ACTIVE_PROJECT_PATH> --apply`
-
-## PCB Placement Workflow
-
 - Read `34_PCB_LAYOUT_SANDBOX/` planning rules first
 - Require sandbox variant evidence before real board edits
 - Use project reports plus human visual review
 
-## PCB Routing Workflow
+## KiCad PCB Routing Workflow
 
 - Read `14_LAYOUT_AUTOMATION/REAL_PROJECT_ROUTING_WORKFLOW.md`
 - Read `14_LAYOUT_AUTOMATION/REAL_PROJECT_ROUTING_STOP_CONDITIONS.md`
 - Rehearse on copied boards first
 - Apply only proven clean geometry to the live board
+
+## Trace-By-Trace Audit Workflow
+
+- inspect routed nets against `14_LAYOUT_AUTOMATION/TRACE_BY_TRACE_VERIFICATION_RULES.md`
+- repair only clearly bad traces
+- preserve `0` DRC violations
+- regenerate visual review evidence after any accepted repair
 
 ## PCB Final Review Workflow
 

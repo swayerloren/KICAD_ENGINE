@@ -2,7 +2,7 @@
 
 Status: `AUTO_BUILT`
 
-Generated: `2026-05-08T14:34:40`
+Generated: `2026-05-08T14:49:58`
 
 This startup file summarizes risk signals so the next AI agent sees what not to repeat.
 
@@ -12,7 +12,6 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `01_MEMORY\FAILED_WORKFLOWS.md` - Failed Workflows
 - `01_MEMORY\GLOBAL_HALLUCINATION_RISKS.md` - Global Hallucination Risks
 - `01_MEMORY\GLOBAL_UNVERIFIED_CLAIMS.md` - Global Unverified Claims
-- `02_HISTORY\failed_attempts\FREEROUTING_FEASIBILITY_INTEGRATION_APPLYPATCH_CONTEXT_MISMATCH.md` - FreeRouting Feasibility Integration ApplyPatch Context Mismatch
 - `02_HISTORY\failed_attempts\AUTO_SANDBOX_APPROVAL_RG_GLOB_SEARCH_ERROR.md` - Failed Attempt - Auto Sandbox Approval RG Glob Search Error
 - `02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PARALLEL_DRY_RUN_RACE.md` - Failed Attempt - Auto Variant Scoring Engine Parallel Dry Run Race
 - `02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PROJECT_BOOL_SCHEMA_BUG.md` - Failed Attempt - Auto Variant Scoring Engine Project Bool Schema Bug
@@ -32,7 +31,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_EXTRACTION_AND_TRIAL_MISPATH.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Extraction And Trial Mismatch
 - `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_RENDER_PIVOT_FAILURE.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Render Pivot Failure
 - `02_HISTORY\failed_attempts\20260508_GITHUB_REPO_INDEXING_FOR_CHAT_GPT_PATH_QUOTING.md` - Failed Attempt
-- `02_HISTORY\issue_logs\AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
+- `02_HISTORY\failed_attempts\20260508_GITHUB_INDEXING_PATCH_CONTEXT_MISMATCH.md` - Failed Attempt
 - `02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
 - `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked
 - `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked
@@ -52,11 +51,11 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Blockers
 - `02_HISTORY\issue_logs\KICAD_ENGINE_PUBLIC_RELEASE_BLOCKERS_20260508.md` - KICAD_ENGINE Public Release Blockers
 - `02_HISTORY\issue_logs\20260508_GITHUB_PUBLIC_RELEASE_BLOCKERS_REMAIN_OPEN.md` - Issue Log
+- `02_HISTORY\issue_logs\20260508_GITHUB_INDEXING_NORMALIZATION_GAPS_REMAIN.md` - Issue Log
 - `02_HISTORY\known_agent_mistakes\README.md` - Known Agent Mistakes
 - `02_HISTORY\known_agent_mistakes\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint
 - `02_HISTORY\known_agent_mistakes\BARREL_JACK_ORIENTATION_CONFUSION.md` - Barrel Jack Orientation Confusion
 - `02_HISTORY\known_agent_mistakes\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md` - Crude 90-Degree Scripted Routing
-- `02_HISTORY\hallucination_risk_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Hallucination_Risk_Log.md` - PCB Layout Sandbox Gate Added Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Sandbox Approval System
 - `02_HISTORY\hallucination_risk_logs\AUTO_VARIANT_SCORING_ENGINE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Variant Scoring Engine
 - `02_HISTORY\hallucination_risk_logs\AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md` - AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG
@@ -76,6 +75,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\hallucination_risk_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\20260508_140404_GITHUB_REPO_PUSH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\20260508_150300_GITHUB_REPO_INDEXING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY\quality_gate_failures\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Quality Gate Failure: Playwright Batch Live Capture Blocked
 - `02_HISTORY\quality_gate_failures\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md` - Quality Gate Failure: Public Release Remains Blocked
 - `02_HISTORY\quality_gate_failures\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md` - Quality Gate Failure - Open KiCad Samples Not Promotion Ready
@@ -96,7 +96,6 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
 - `02_HISTORY\quality_gate_failures\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md` - Quality Gate Failure
-- `02_HISTORY\uncertainty_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Uncertainty_Log.md` - PCB Layout Sandbox Gate Added Uncertainty Log
 - `02_HISTORY\uncertainty_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Sandbox Approval System
 - `02_HISTORY\uncertainty_logs\AUTO_VARIANT_SCORING_ENGINE_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Variant Scoring Engine
 - `02_HISTORY\uncertainty_logs\AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md` - AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG
@@ -116,6 +115,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\uncertainty_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY\uncertainty_logs\20260508_140404_GITHUB_REPO_PUSH_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY\uncertainty_logs\20260508_150300_GITHUB_REPO_INDEXING_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims

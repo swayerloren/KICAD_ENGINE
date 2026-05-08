@@ -9,6 +9,8 @@
 - `PUBLIC_RELEASE_CHECKLIST.md` is not complete
 - `21_LICENSE_ATTRIBUTION/LICENSE_AUDIT.md` requires human review
 - placeholder-token and workflow-secret reference strings still need public-hygiene cleanup
+- fabrication outputs are not approved
+- the active PCB is not fabrication-ready
 - excluded local-only content remains intentionally out of Git
 
 ## What Must Happen Before Making The Repo Public
@@ -19,6 +21,7 @@
 4. Confirm the GitHub-facing docs match the actual committed payload.
 5. Re-run release-readiness and security scans.
 6. Confirm the repo can stand on its own without excluded local-only engineering artifacts.
+7. Confirm the active PCB and any manufacturing-style artifacts are not being represented as fabrication-ready.
 
 ## Reference Files
 

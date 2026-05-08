@@ -2,7 +2,7 @@
 
 Status: `ACTIVE_EVIDENCE`
 
-Generated date/time: `2026-05-08T14:34:48`
+Generated date/time: `2026-05-08T14:49:58`
 
 Project: `ESP32_CSI_WIFI_NODE`
 
@@ -14,13 +14,13 @@ Evidence files: `00_CODEX_START/PROMPT_COUNTER_RULES.md`
 
 Current relevance: project-specific trigger for maintenance and live-state rebuilds.
 
-Prompt count: `4`
+Prompt count: `0`
 
 Maintenance threshold: `5`
 
 Maintenance due: `NO`
 
-Last increment reason: `meaningful repo task`
+Last increment reason: `reset after successful maintenance cycle`
 
 Maintenance command:
 

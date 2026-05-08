@@ -20,6 +20,16 @@ The repo now has a dedicated GitHub-facing navigation and status layer so future
 - the root docs intentionally say the repo is `PRIVATE`, `EXPERIMENTAL_INTERNAL_ALPHA`, and not public-release-ready; they also explicitly say `ESP32_CSI_WIFI_NODE` is not fabrication-ready
 - future repo-navigation or release-status updates should keep this GitHub-facing layer consistent with `05_OUTPUTS/release_readiness/`, `CURRENT_PROJECT_STATE.md`, and `CURRENT_BLOCKERS.md`
 
+## Latest GitHub repo indexing tightening pass - 2026-05-08
+
+The GitHub-facing navigation layer was tightened a second time so the root docs are more useful on first open:
+
+- root `TOOLS_INDEX.md` now includes concrete command examples plus read-only vs edit-scope notes
+- root `WORKFLOWS_INDEX.md` now explicitly includes live-project-state, stale-report-reconciliation, and trace-by-trace-audit workflows
+- root `CURRENT_STATUS.md` now explicitly lists remaining PCB blockers and public-release blockers
+- `00_CODEX_START/GITHUB_NAVIGATION.md` now has a dedicated `Start Here For Routing Work` section
+- future GitHub-facing doc updates should preserve that level of specificity instead of collapsing back to pointer-only summaries
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:

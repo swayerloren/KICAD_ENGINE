@@ -2,8 +2,9 @@
 
 Date: `2026-05-08`
 
-## Root Docs Created
+## Root Docs Confirmed And Tightened
 
+- `README.md`
 - `START_HERE.md`
 - `REPO_INDEX.md`
 - `FOLDER_MAP.md`
@@ -12,14 +13,10 @@ Date: `2026-05-08`
 - `WORKFLOWS_INDEX.md`
 - `CURRENT_STATUS.md`
 - `PUBLIC_RELEASE_STATUS.md`
-
-## Root Docs Updated
-
-- `README.md`
 - `CONTRIBUTING.md`
 - `SECURITY.md`
 
-## GitHub Docs Created Or Updated
+## GitHub Docs Confirmed
 
 - `.github/README.md`
 - `.github/ISSUE_TEMPLATE/bug_report.md`
@@ -27,7 +24,7 @@ Date: `2026-05-08`
 - `.github/ISSUE_TEMPLATE/pcb_issue.md`
 - `.github/PULL_REQUEST_TEMPLATE.md`
 
-## Startup And Index Files Created
+## Internal Indexes Confirmed
 
 - `00_CODEX_START/GITHUB_REPO_INDEX.md`
 - `00_CODEX_START/GITHUB_NAVIGATION.md`
@@ -41,12 +38,14 @@ Date: `2026-05-08`
 - `14_LAYOUT_AUTOMATION/LAYOUT_AUTOMATION_INDEX.md`
 - `34_PCB_LAYOUT_SANDBOX/PCB_LAYOUT_SANDBOX_INDEX.md`
 
-## Active Project Docs Updated
+## Files Updated In This Tightening Pass
 
-- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/README.md`
-- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/memory/PROJECT_MEMORY.md`
-
-## Handoff And Memory Updated
-
-- `FOR CHAT GPT.MD`
-- `01_MEMORY/GLOBAL_MEMORY.md`
+- `README.md`
+- `REPO_INDEX.md`
+- `PROJECTS_INDEX.md`
+- `TOOLS_INDEX.md`
+- `WORKFLOWS_INDEX.md`
+- `CURRENT_STATUS.md`
+- `PUBLIC_RELEASE_STATUS.md`
+- `00_CODEX_START/GITHUB_NAVIGATION.md`
+- `00_CODEX_START/CURRENT_GITHUB_STATUS.md`
