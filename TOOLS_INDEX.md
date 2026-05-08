@@ -45,8 +45,9 @@ This is the GitHub-facing tool catalog. The deeper script inventory lives in [03
 
 | Tool | Command Example | Effect | Safety |
 |---|---|---|---|
-| memory index rebuild | `python 03_TOOLS/scripts/memory_history/build_memory_index.py` | rebuilds memory indexes | writes index docs only |
-| history index rebuild | `python 03_TOOLS/scripts/memory_history/build_history_index.py` | rebuilds history indexes | writes index docs only |
+| repo index rebuild | `python 03_TOOLS/scripts/indexing/build_repo_index.py` | rebuilds repo indexes | writes index docs only |
+| memory index rebuild | `python 03_TOOLS/scripts/indexing/build_memory_index.py` | rebuilds memory indexes | writes index docs only |
+| history index rebuild | `python 03_TOOLS/scripts/indexing/build_history_index.py` | rebuilds history indexes | writes index docs only |
 | AI quality index rebuild | `python 03_TOOLS/scripts/ai_quality/build_ai_quality_index.py` | rebuilds AI-quality indexes | writes index docs only |
 | known problems rebuild | `python 03_TOOLS/scripts/ai_quality/build_current_known_problems.py` | rebuilds current-problems summary | writes docs only |
 

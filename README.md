@@ -54,19 +54,34 @@ The result should be small, auditable engineering changes instead of random edit
 
 ## Download ZIP / Local VS Code Use
 
-You can use KiCad Engine without setting up any extra GitHub repositories first.
+You can use KiCad Engine without cloning any extra GitHub repositories first.
 
-1. On GitHub, click `Code -> Download ZIP`.
-2. Extract the ZIP locally.
-3. Open the extracted `KICAD_ENGINE` folder in VS Code.
-4. Open Codex, Claude, or another AI coding agent inside that VS Code workspace.
-5. Start the agent from the repo root and give it this starter prompt:
+1. On GitHub, click `Code -> Download ZIP`, or run a normal `git clone`.
+2. Extract or clone the repo locally.
+3. Open the `KICAD_ENGINE` folder in VS Code.
+4. Open Codex, Claude, or another AI coding agent from the repo root.
+5. Give the agent this starter prompt:
 
 ```text
-You are working inside the KICAD_ENGINE repo. First read README.md, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, and 00_CODEX_START/START_HERE.md. Follow the repo rules before editing any KiCad files. Do not edit schematic or PCB files until you understand the active project, the live project state, the task type, and the validation requirements.
+You are working inside the KICAD_ENGINE repo. First read README.md, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, and 00_CODEX_START/START_HERE.md. Use repo-relative paths. Do not assume C:\Users\LJ paths. Do not edit KiCad schematic or PCB files until you understand the active project, task type, live project state, and validation requirements. For PCB/routing work, obey 45-degree/no-acute-angle routing rules, run DRC/checks, and require human review before fabrication.
 ```
 
-For local GUI review or live design editing, KiCad itself still must be installed on the local machine. The repo gives the rules, workflows, prompts, validation scripts, and project structure around KiCad; it does not replace the KiCad application.
+Local install requirements:
+
+- KiCad is required for live schematic and PCB GUI work.
+- Python is required for the repo's validation and maintenance scripts.
+- VS Code is the recommended workspace shell.
+- Git is optional for ZIP users, but recommended.
+
+Helpful onboarding docs:
+
+- [`DOWNLOAD_ZIP_START_HERE.md`](DOWNLOAD_ZIP_START_HERE.md)
+- [`LOCAL_SETUP_REQUIREMENTS.md`](LOCAL_SETUP_REQUIREMENTS.md)
+- [`AGENT_STARTER_PROMPTS.md`](AGENT_STARTER_PROMPTS.md)
+- [`EXTERNAL_DEPENDENCIES.md`](EXTERNAL_DEPENDENCIES.md)
+- [`PORTABILITY_AUDIT.md`](PORTABILITY_AUDIT.md)
+
+For local GUI review or live design editing, KiCad itself still must be installed on the local machine. The repo gives the AI-agent rules, workflows, validation scripts, prompts, indexes, manufacturing checklists, and example/active KiCad project structure around KiCad; it does not replace the KiCad application.
 
 ## How The Workflow Works
 
@@ -112,6 +127,7 @@ This repo does not include:
 - guaranteed automatic schematic or PCB completion
 - fabrication approval without human review
 - vendor ordering automation
+- hidden personal environment folders, private backups, or extra cloned GitHub repos as a requirement for first use
 - secrets, credentials, or embedded private tokens
 
 ## Using Codex Or Claude With This Repo
@@ -128,6 +144,7 @@ Recommended starting links:
 
 - humans: [`START_HERE.md`](START_HERE.md), [`CURRENT_STATUS.md`](CURRENT_STATUS.md), [`PROJECTS_INDEX.md`](PROJECTS_INDEX.md)
 - AI agents: [`AGENTS.md`](AGENTS.md), [`README_GPT.md`](README_GPT.md), [FOR CHAT GPT.MD](<FOR CHAT GPT.MD>), [`00_CODEX_START/START_HERE.md`](00_CODEX_START/START_HERE.md)
+- ZIP/local onboarding: [`DOWNLOAD_ZIP_START_HERE.md`](DOWNLOAD_ZIP_START_HERE.md), [`LOCAL_SETUP_REQUIREMENTS.md`](LOCAL_SETUP_REQUIREMENTS.md), [`AGENT_STARTER_PROMPTS.md`](AGENT_STARTER_PROMPTS.md)
 
 ## KiCad Workflow Overview
 
@@ -242,102 +259,17 @@ Remaining blockers must always be verified from the live reports before any new 
 - [`04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/LJ_FINAL_PCB_REVIEW_CHECKLIST.md`](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/LJ_FINAL_PCB_REVIEW_CHECKLIST.md)
 - [`04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/PCB_FINAL_UNCONNECTED_ITEMS_REVIEW.md`](04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/PCB_FINAL_UNCONNECTED_ITEMS_REVIEW.md)
 
-## How To Give Prompts To Codex / Claude
+## How To Prompt AI Agents Here
 
 Good prompts in this repo should include:
 
-- the active project path
-- the exact target files
-- whether the task is docs-only, audit-only, or edit-required
+- the repo-relative active project path when project work is requested
+- the exact target files or folders
+- whether the task is `DOCS_ONLY`, `AUDIT_ONLY`, `GITHUB_DOCS_ONLY`, or edit-required
 - hard constraints such as `do not edit schematic`, `do not route USB yet`, or `do not generate manufacturing outputs`
 - the verification you expect after changes
 
-Good prompt pattern:
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-Active project: C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE
-Task type: ROUTING_EDIT_REQUIRED
-Read README.md, CURRENT_STATUS.md, and the relevant routing rules first.
-Inspect the live .kicad_pcb before editing.
-Make only the smallest clean change needed.
-Run or document DRC after edits.
-Do not generate fabrication outputs.
-```
-
-## Example AI Agent Prompts
-
-### 1. Review the KiCad project and summarize the schematic / PCB status
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-Read README.md, CURRENT_STATUS.md, AGENTS.md, and the active project reports first.
-Inspect the live KiCad project under 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE.
-Summarize the current schematic state, PCB state, DRC/ERC evidence, remaining blockers, and next recommended engineering step.
-Do not edit design files.
-```
-
-### 2. Improve routing while obeying 45-degree / no-acute-angle rules
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-Task type: ROUTING_EDIT_REQUIRED.
-Read the routing workflow, stop conditions, and geometry hard-fail rules first.
-Inspect the live PCB and only repair traces that clearly violate the 45-degree / no-acute-angle routing rules.
-Do not route unrelated nets. Run DRC and the routing geometry audit after any PCB edit.
-```
-
-### 3. Audit the board for DRC / manufacturing risks
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-Task type: AUDIT_ONLY.
-Inspect the active KiCad PCB, current reports, and manufacturing-readiness docs.
-List DRC status, unrouted nets, unconnected items, routing geometry risks, footprint risks, and fabrication blockers.
-Do not edit the design files.
-```
-
-### 4. Prepare JLCPCB export files
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-Read the active project status, fabrication gates, and export workflow first.
-Confirm whether the board is actually ready for JLCPCB export.
-If it is not ready, stop and list exact blockers.
-If it is ready, prepare the JLCPCB export package and document Gerber, drill, BOM, and CPL evidence.
-Do not claim fabrication-ready unless the validation gates are satisfied.
-```
-
-### 5. Prepare PCBWay export files
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-Read the active project status, fabrication gates, and export workflow first.
-Confirm whether the board is actually ready for PCBWay export.
-If it is not ready, stop and list exact blockers.
-If it is ready, prepare the PCBWay export package and document Gerber, drill, BOM, and pick-and-place evidence.
-Do not claim fabrication-ready unless the validation gates are satisfied.
-```
-
-### 6. Add or update a schematic block
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-This is a schematic-edit task. Do not touch the PCB unless the request explicitly includes a PCB update workflow.
-Read the schematic workflow, symbol/footprint checks, and active project memory first.
-Inspect the current .kicad_sch and explain the exact block to add or modify before editing.
-After edits, run or document ERC and update the project reports.
-```
-
-### 7. Review BOM / CPL readiness
-
-```text
-You are working in C:\Users\LJ\GitHub\KICAD_ENGINE.
-Task type: AUDIT_ONLY.
-Inspect the active project BOM-related reports, footprint assignments, manufacturer part data, and placement state.
-Summarize BOM readiness, CPL readiness, missing fields, polarity/orientation risks, and blockers for JLCPCB or PCBWay assembly export.
-Do not edit the design files unless explicitly instructed.
-```
+Starter prompts and reusable variants live in [`AGENT_STARTER_PROMPTS.md`](AGENT_STARTER_PROMPTS.md). Use repo-relative paths in prompts unless you are intentionally documenting a machine-local example.
 
 ## Safety / Validation Rules Before Fabrication
 

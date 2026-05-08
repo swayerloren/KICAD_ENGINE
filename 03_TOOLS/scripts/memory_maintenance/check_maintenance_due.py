@@ -16,6 +16,13 @@ if str(MAINTENANCE_DIR) not in sys.path:
 from prompt_counter import counter_path, read_count, repo_root_from, threshold  # type: ignore  # noqa: E402
 
 
+def repo_relative(path: Path, root: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
+    except ValueError:
+        return str(path.resolve()).replace("\\", "/")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--project", required=True, help="Active project path.")
@@ -26,13 +33,13 @@ def main() -> int:
     path = counter_path(project)
     count = read_count(path)
     due = count >= threshold(repo_root)
-    print(f"PROMPT_COUNTER_FILE: {path}")
+    print(f"PROMPT_COUNTER_FILE: {repo_relative(path, repo_root)}")
     print(f"PROMPT_COUNT: {count}")
     print(f"MAINTENANCE_THRESHOLD: {threshold(repo_root)}")
     print(f"MAINTENANCE_DUE: {'YES' if due else 'NO'}")
     if due:
         print("RESULT: BLOCK_ENGINEERING_WORK_UNTIL_MAINTENANCE_RUNS")
-        print(f"RUN: python 03_TOOLS\\scripts\\maintenance\\run_maintenance_cycle.py --project {project}")
+        print(f"RUN: python 03_TOOLS/scripts/maintenance/run_maintenance_cycle.py --project {repo_relative(project, repo_root)}")
     else:
         print("RESULT: MAINTENANCE_NOT_DUE")
     return 0

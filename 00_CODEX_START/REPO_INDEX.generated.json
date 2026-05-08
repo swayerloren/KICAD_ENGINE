@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:56:30",
+  "generated_at": "2026-05-08T18:18:39",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -30,7 +30,7 @@
       "name": ".gitignore",
       "path": ".gitignore",
       "type": "file",
-      "size_bytes": 2102
+      "size_bytes": 2303
     },
     {
       "name": ".prompts",
@@ -337,6 +337,12 @@
       "has_index": true
     },
     {
+      "name": "AGENT_STARTER_PROMPTS.md",
+      "path": "AGENT_STARTER_PROMPTS.md",
+      "type": "file",
+      "size_bytes": 888
+    },
+    {
       "name": "AGENTS.md",
       "path": "AGENTS.md",
       "type": "file",
@@ -385,6 +391,18 @@
       "item_count": 23,
       "has_readme": true,
       "has_index": true
+    },
+    {
+      "name": "DOWNLOAD_ZIP_START_HERE.md",
+      "path": "DOWNLOAD_ZIP_START_HERE.md",
+      "type": "file",
+      "size_bytes": 1587
+    },
+    {
+      "name": "EXTERNAL_DEPENDENCIES.md",
+      "path": "EXTERNAL_DEPENDENCIES.md",
+      "type": "file",
+      "size_bytes": 1694
     },
     {
       "name": "FAQ.md",
@@ -455,6 +473,18 @@
       "size_bytes": 1059
     },
     {
+      "name": "LOCAL_SETUP_REQUIREMENTS.md",
+      "path": "LOCAL_SETUP_REQUIREMENTS.md",
+      "type": "file",
+      "size_bytes": 715
+    },
+    {
+      "name": "PORTABILITY_AUDIT.md",
+      "path": "PORTABILITY_AUDIT.md",
+      "type": "file",
+      "size_bytes": 1288
+    },
+    {
       "name": "PROJECTS_INDEX.md",
       "path": "PROJECTS_INDEX.md",
       "type": "file",
@@ -500,7 +530,7 @@
       "name": "README.md",
       "path": "README.md",
       "type": "file",
-      "size_bytes": 18853
+      "size_bytes": 16495
     },
     {
       "name": "README_GPT.md",
@@ -533,6 +563,12 @@
       "size_bytes": 2038
     },
     {
+      "name": "SELF_CONTAINED_REPO_CHECKLIST.md",
+      "path": "SELF_CONTAINED_REPO_CHECKLIST.md",
+      "type": "file",
+      "size_bytes": 507
+    },
+    {
       "name": "setup",
       "path": "setup",
       "type": "directory",
@@ -544,7 +580,7 @@
       "name": "START_HERE.md",
       "path": "START_HERE.md",
       "type": "file",
-      "size_bytes": 1843
+      "size_bytes": 1817
     },
     {
       "name": "START_HERE_FOR_AI_AGENTS.md",
@@ -576,7 +612,7 @@
       "name": "TOOLS_INDEX.md",
       "path": "TOOLS_INDEX.md",
       "type": "file",
-      "size_bytes": 4572
+      "size_bytes": 4689
     },
     {
       "name": "TROUBLESHOOTING.md",

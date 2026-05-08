@@ -6,7 +6,7 @@ This folder is for Windows desktop GUI automation experiments around KiCad and r
 
 Python environment:
 
-`C:\Users\LJ\KICAD_ENGINE\03_TOOLS\python_envs\windows_gui`
+`03_TOOLS/python_envs/windows_gui`
 
 Installed packages:
 

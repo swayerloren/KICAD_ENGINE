@@ -6,6 +6,8 @@
 
 GitHub note: `03_TOOLS/node_envs`, `03_TOOLS/python_envs`, `03_TOOLS/repos`, and `03_TOOLS/tool_logs` are intentionally local-only working folders. Git tracks placeholder `README.md` files there, not the real local environments, clones, or logs.
 
+Portability note: a new user should be able to open this repo in VS Code, read the included startup docs, and use the included scripts without first cloning extra helper repos or restoring someone else's private env folders.
+
 ## Project State Tools
 
 | Tool | Run | Effect |
@@ -68,6 +70,7 @@ Safety: typically read-only or copied-board-only, depending on invocation.
 | `build_repo_index.py` | `python 03_TOOLS/scripts/indexing/build_repo_index.py` | builds repo-level index outputs |
 | `build_memory_index.py` | `python 03_TOOLS/scripts/indexing/build_memory_index.py` | rebuilds memory indexes |
 | `build_history_index.py` | `python 03_TOOLS/scripts/indexing/build_history_index.py` | rebuilds history indexes |
+| `build_ai_quality_index.py` | `python 03_TOOLS/scripts/ai_quality/build_ai_quality_index.py` | rebuilds AI-quality indexes |
 | `build_current_known_problems.py` | `python 03_TOOLS/scripts/ai_quality/build_current_known_problems.py` | rebuilds known-problems summary |
 
 Safety: documentation/index generation only.

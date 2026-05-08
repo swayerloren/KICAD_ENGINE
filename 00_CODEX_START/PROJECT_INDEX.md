@@ -14,7 +14,7 @@ Standard project templates belong in:
 - Standard project template system created on 2026-04-30.
 - Final setup audit completed on 2026-04-30 with readiness score 88/100: `02_HISTORY\design_reviews\KICAD_ENGINE_FINAL_SETUP_AUDIT.md`.
 - Real projects should be created only after requirements intake using `.codex\prompts\CREATE_REAL_KICAD_PROJECT_FROM_REQUIREMENTS.md`.
-- Current checkout root is `C:\Users\LJ\GitHub\KICAD_ENGINE`. Older history may mention a non-GitHub checkout path; use `00_CODEX_START\PATH_PORTABILITY_RULES.md` before acting on absolute paths.
+- Current checkout root is user-local and may vary by machine. Use repo-relative paths whenever possible, and use `00_CODEX_START\PATH_PORTABILITY_RULES.md` before acting on any absolute historical path.
 
 ## Project Record Fields
 For each active project, record:

@@ -1,5 +1,7 @@
 # Path Portability Rules
 
+The absolute paths in this file are historical/local examples used only to explain how older records should be interpreted. For normal repo work, prefer repo-relative paths.
+
 Status: `ACTIVE_P0_STARTUP_RULE`
 
 Current workspace path for this checkout:

@@ -98,7 +98,11 @@ fp-info-cache
 # which project files are safe samples.
 
 # Copied-board rehearsal and raw import exclusions for safe GitHub publication
+04_KICAD_PROJECTS/active/*/routing_work/[0-9]*/
 04_KICAD_PROJECTS/active/*/routing_work/*/copied*/
 04_KICAD_PROJECTS/active/*/routing_rehearsals/
+!04_KICAD_PROJECTS/active/*/routing_rehearsals/
+04_KICAD_PROJECTS/active/*/routing_rehearsals/*
+!04_KICAD_PROJECTS/active/*/routing_rehearsals/README.md
 14_LAYOUT_AUTOMATION/real_board_tests/sample_inputs/
 32_OPEN_KICAD_SAMPLE_INTAKE/imported_originals/

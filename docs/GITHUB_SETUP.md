@@ -2,6 +2,8 @@
 
 This repo is designed to work cleanly on GitHub without pretending that GitHub replaces KiCad or human review.
 
+GitHub is the distribution and collaboration layer. A user should still be able to download the ZIP or clone the repo, open it in VS Code, and work locally without needing extra hidden repos, private env folders, or personal machine paths.
+
 ## What GitHub Should Provide Here
 
 - pull requests for all meaningful changes to `main`
@@ -43,5 +45,7 @@ This repo is designed to work cleanly on GitHub without pretending that GitHub r
 - branch protection recommendations
 
 ## Important Boundary
+
+GitHub should not imply that the active board is fabrication-ready. Local KiCad review, live ERC/DRC evidence, and human signoff remain mandatory before ordering boards.
 
 GitHub infrastructure here helps keep the repo clean and auditable. It does not change the engineering truth of any active KiCad board.

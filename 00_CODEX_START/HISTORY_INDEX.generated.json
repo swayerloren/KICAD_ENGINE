@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:56:30",
+  "generated_at": "2026-05-08T18:18:39",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -363,6 +363,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
       "title": "AI Response Scorecard - Live State Authority Hardening",
       "size_bytes": 709,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_portability_audit_scorecard.md",
+      "title": "Portability Audit Scorecard",
+      "size_bytes": 1151,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1165,6 +1172,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_portability_audit_self_review.md",
+      "title": "Portability Audit Self Review",
+      "size_bytes": 1604,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_PR_BRANCH_UPDATE_SELF_REVIEW.md",
       "title": "AI Self Review - PR Branch Update",
       "size_bytes": 598,
@@ -1959,6 +1973,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_LIVE_STATE_AUTHORITY_HARDENING_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim / Evidence Matrix - Live State Authority Hardening",
       "size_bytes": 1057,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_portability_audit_claim_evidence_matrix.md",
+      "title": "Portability Audit Claim Evidence Matrix",
+      "size_bytes": 1945,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3601,6 +3622,13 @@
       "bucket": "command_logs"
     },
     {
+      "path": "02_HISTORY\\command_logs\\PORTABILITY_AUDIT_COMMANDS.md",
+      "title": "Portability Audit Commands",
+      "size_bytes": 2236,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
       "path": "02_HISTORY\\command_logs\\POST_SAMPLE_P0_P1_REPAIR_COMMANDS.md",
       "title": "Command Log - Post Sample P0/P1 Repair",
       "size_bytes": 4744,
@@ -4798,6 +4826,13 @@
       "bucket": "failed_attempts"
     },
     {
+      "path": "02_HISTORY\\failed_attempts\\20260508_portability_audit_minor_command_timeouts.md",
+      "title": "Portability Audit Minor Command Timeouts",
+      "size_bytes": 976,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
       "path": "02_HISTORY\\failed_attempts\\20260508_POWERSHELL_YAML_VALIDATOR_NOT_AVAILABLE.md",
       "title": "Failed Attempt - PowerShell YAML Validator Not Available",
       "size_bytes": 465,
@@ -5617,6 +5652,13 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_portability_audit_hallucination_risk_log.md",
+      "title": "Portability Audit Hallucination Risk Log",
+      "size_bytes": 1283,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_PR_BRANCH_UPDATE_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log - PR Branch Update",
       "size_bytes": 382,
@@ -6068,6 +6110,13 @@
       "path": "02_HISTORY\\issue_logs\\20260508_HARDENING_PR_FOLLOWUP_REMAINING.md",
       "title": "Open Issue",
       "size_bytes": 302,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\20260508_portability_remaining_gaps.md",
+      "title": "Portability Remaining Gaps",
+      "size_bytes": 1231,
       "scope": "global",
       "bucket": "issue_logs"
     },
@@ -8228,6 +8277,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\PORTABILITY_AUDIT_SESSION.md",
+      "title": "Portability Audit Session",
+      "size_bytes": 1641,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\POST_SAMPLE_P0_P1_REPAIR_SESSION.md",
       "title": "Session Log - Post Sample P0/P1 Repair",
       "size_bytes": 1449,
@@ -8924,6 +8980,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log - Live State Authority Hardening",
       "size_bytes": 581,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_portability_audit_uncertainty_log.md",
+      "title": "Portability Audit Uncertainty Log",
+      "size_bytes": 1346,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

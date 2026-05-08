@@ -1,6 +1,6 @@
 ﻿# Control Planes
 
-This file defines how Codex chooses tools inside `C:\Users\LJ\GitHub\KICAD_ENGINE`.
+This file defines how Codex chooses tools inside the current `KICAD_ENGINE` checkout.
 
 Codex must read this file during startup before selecting GUI control, Linux/headless workflows, MCP actions, or manufacturing-style outputs.
 

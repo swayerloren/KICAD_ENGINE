@@ -2,11 +2,11 @@
 
 Date: 2026-04-30
 
-These repositories were cloned locally for Windows GUI automation reference and future tooling experiments. They were not installed, built, or used to control KiCad.
+These repositories were cloned locally for Windows GUI automation reference and future tooling experiments. They were not installed, built, or used to control KiCad. They are optional local-only references, not required for a basic clone-or-ZIP workflow.
 
 Repository root:
 
-`C:\Users\LJ\KICAD_ENGINE\03_TOOLS\windows\repos`
+`03_TOOLS/windows/repos`
 
 ## Safety Rules
 

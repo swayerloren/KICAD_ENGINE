@@ -59,6 +59,13 @@ def repo_root(value: str | None) -> Path:
     return Path(value or ".").resolve()
 
 
+def repo_relative(path: Path, root: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
+    except ValueError:
+        return str(path.resolve()).replace("\\", "/")
+
+
 def bool_text(value: str) -> str:
     normalized = str(value).strip().upper()
     if normalized in {"1", "TRUE", "YES", "Y"}:
@@ -280,7 +287,7 @@ def scan_quality_records(root: Path) -> list[dict]:
                 lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
                 title = lines[0].lstrip("# ").strip() if lines else path.stem
                 records.append({
-                    "path": str(path.resolve()),
+                    "path": repo_relative(path, root),
                     "folder": folder,
                     "title": title,
                     "size_bytes": path.stat().st_size,
@@ -295,4 +302,3 @@ def write_json(path: Path, data: object) -> None:
     ensure_safe_path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, sort_keys=True), encoding="utf-8")
-

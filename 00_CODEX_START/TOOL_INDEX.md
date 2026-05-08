@@ -2,6 +2,8 @@
 
 This file tracks intended and available KiCad-related tools. `CLONED_NOT_INSTALLED` means the source repository is present locally, but dependencies have not been installed and setup scripts have not been run.
 
+Portability note: when this file includes absolute Windows paths, treat them as one-machine inventory notes from a prior local audit. New docs, prompts, and day-to-day repo use should prefer repo-relative paths plus local tool discovery on the current machine.
+
 ## Startup Tooling Rule
 - Do not install tools unless explicitly requested.
 - Do not clone additional repositories unless explicitly requested.

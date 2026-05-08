@@ -4,6 +4,17 @@ This is the first startup instruction file after the root `AGENTS.md`.
 
 This repo is designed to be opened locally in VS Code after a normal `git clone` or GitHub `Download ZIP` extraction. The startup flow assumes the AI agent begins at the repo root and reads the local repo docs before touching KiCad files. Extra external GitHub repositories are optional helpers only; they are not required for first use unless a specific workflow explicitly calls for them.
 
+Portable startup references for new users:
+
+- `README.md`
+- `CURRENT_STATUS.md`
+- `WORKFLOWS_INDEX.md`
+- `TOOLS_INDEX.md`
+- `DOWNLOAD_ZIP_START_HERE.md`
+- `LOCAL_SETUP_REQUIREMENTS.md`
+- `AGENT_STARTER_PROMPTS.md`
+- `EXTERNAL_DEPENDENCIES.md`
+
 ## Required Startup Sequence
 Codex and Claude must complete this production startup sequence before touching KiCad project files:
 
@@ -137,7 +148,7 @@ If the active project is `NONE`, Codex may organize instructions, memory, histor
 
 ## Path Portability Rule
 
-Read `PATH_PORTABILITY_RULES.md` before resolving local paths. The current workspace path is `C:\Users\LJ\GitHub\KICAD_ENGINE`. Historical records may still mention an older non-GitHub checkout path; do not use older paths for edits or script writes unless the user explicitly directs work in that location and the path exists.
+Read `PATH_PORTABILITY_RULES.md` before resolving local paths. Treat repo-relative paths as authoritative whenever possible. Historical records may still mention older machine-local checkout paths; do not use those paths for edits or script writes unless the user explicitly directs work in that location and the path exists.
 
 ## Structure Routing Rule
 

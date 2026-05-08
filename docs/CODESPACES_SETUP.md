@@ -2,7 +2,7 @@
 
 KiCad Engine supports GitHub Codespaces and VS Code devcontainers for repo tooling, validation, and documentation work.
 
-Codespaces is optional. It is not required for local KiCad engineering work, and empty Codespaces prebuild settings are acceptable for this repo right now.
+Codespaces is optional. It is not required for local KiCad engineering work, and it is not a replacement for a local KiCad installation.
 
 If you do not want Codespaces, you can download the repo ZIP or clone the repo, open it locally in VS Code, and use the same startup docs and workflow rules from the local checkout.
 
@@ -14,11 +14,12 @@ If you do not want Codespaces, you can download the repo ZIP or clone the repo, 
 - reviewing reports and workflow outputs
 - preparing pull requests
 
-## Bad Uses For Codespaces
+## Not A Good Fit For
 
-- assuming full KiCad GUI design work is available
-- treating a Codespace as a replacement for local KiCad review
-- generating manufacturing outputs without local verification
+- full KiCad GUI schematic or PCB work
+- native Windows-only KiCad GUI automation
+- final fabrication judgment
+- pretending a Codespace is the live design authority
 
 ## Start A Codespace
 
@@ -28,14 +29,6 @@ If you do not want Codespaces, you can download the repo ZIP or clone the repo, 
 4. Wait for the devcontainer bootstrap to complete.
 5. Open the repo root and read `README.md`, `CURRENT_STATUS.md`, and `AGENTS.md` before changing anything significant.
 
-## Tooling Available In The Devcontainer
-
-- Python
-- Git
-- GitHub CLI
-- Node.js for basic Markdown tooling
-- PowerShell for repo helper scripts
-
 ## Important Limitation
 
-KiCad GUI review still happens locally on Windows with KiCad installed. Codespaces should be treated as a safe automation and documentation environment, not as final schematic/PCB visual authority.
+KiCad GUI review still happens on the user's local machine with KiCad installed. Codespaces should be treated as a docs/script environment, not as full KiCad workstation replacement.

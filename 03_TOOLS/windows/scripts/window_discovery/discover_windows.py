@@ -10,7 +10,16 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-ROOT = Path(r"C:\Users\LJ\KICAD_ENGINE")
+
+def _repo_root() -> Path:
+    current = Path(__file__).resolve()
+    for candidate in [current.parent, *current.parents]:
+        if (candidate / "AGENTS.md").exists():
+            return candidate
+    return current.parents[4]
+
+
+ROOT = _repo_root()
 LOG_DIR = ROOT / "03_TOOLS" / "windows" / "logs"
 
 

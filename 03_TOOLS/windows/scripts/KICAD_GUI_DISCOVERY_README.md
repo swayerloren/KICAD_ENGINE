@@ -56,14 +56,16 @@ Default `eligible_for_control` is always `false`.
 
 ## Scripts
 
-Use the `windows_gui` venv:
+Use the optional local `windows_gui` environment only if you have created it on your machine:
 
-`C:\Users\LJ\KICAD_ENGINE\03_TOOLS\python_envs\windows_gui`
+`03_TOOLS/python_envs/windows_gui`
 
 ### Discover KiCad windows
 
 ```powershell
-& "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\python_envs\windows_gui\Scripts\python.exe" "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\windows\scripts\window_discovery\discover_kicad_windows.py"
+$RepoRoot = (Resolve-Path .).Path
+$Python = Join-Path $RepoRoot "03_TOOLS\\python_envs\\windows_gui\\Scripts\\python.exe"
+& $Python (Join-Path $RepoRoot "03_TOOLS\\windows\\scripts\\window_discovery\\discover_kicad_windows.py")
 ```
 
 Optional passive parameters:
@@ -71,7 +73,7 @@ Optional passive parameters:
 ```powershell
 --allow-title-only-review
 --target-pid <PID>
---output-dir "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\windows\logs"
+--output-dir "03_TOOLS\\windows\\logs"
 ```
 
 `--allow-title-only-review` may include low-confidence candidates in reports, but they remain ineligible for control.
@@ -81,19 +83,19 @@ Optional passive parameters:
 ### Inspect KiCad UIA tree
 
 ```powershell
-& "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\python_envs\windows_gui\Scripts\python.exe" "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\windows\scripts\pywinauto\inspect_kicad_uia.py"
+& $Python (Join-Path $RepoRoot "03_TOOLS\\windows\\scripts\\pywinauto\\inspect_kicad_uia.py")
 ```
 
 ### Inspect KiCad Win32 tree
 
 ```powershell
-& "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\python_envs\windows_gui\Scripts\python.exe" "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\windows\scripts\pywinauto\inspect_kicad_win32.py"
+& $Python (Join-Path $RepoRoot "03_TOOLS\\windows\\scripts\\pywinauto\\inspect_kicad_win32.py")
 ```
 
 ### Capture visible KiCad window screenshots
 
 ```powershell
-& "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\python_envs\windows_gui\Scripts\python.exe" "C:\Users\LJ\KICAD_ENGINE\03_TOOLS\windows\scripts\screenshots\capture_kicad_window.py"
+& $Python (Join-Path $RepoRoot "03_TOOLS\\windows\\scripts\\screenshots\\capture_kicad_window.py")
 ```
 
 ## Expected Limits

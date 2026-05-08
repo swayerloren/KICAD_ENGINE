@@ -45,6 +45,13 @@ def repo_root_from_args(value: str | None) -> Path:
     return Path(value or ".").resolve()
 
 
+def repo_relative(path: Path, root: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
+    except ValueError:
+        return str(path.resolve()).replace("\\", "/")
+
+
 def ensure_no_secret_text(text: str) -> None:
     for pattern in SECRET_PATTERNS:
         if pattern.search(text):
@@ -145,19 +152,19 @@ def write_record(kind: str, args: argparse.Namespace) -> Path:
     return output
 
 
-def scan_markdown(paths: Iterable[Path]) -> list[dict]:
+def scan_markdown(paths: Iterable[Path], *, repo_root: Path | None = None) -> list[dict]:
     records: list[dict] = []
+    resolved_root = repo_root.resolve() if repo_root is not None else None
     for root in paths:
         if not root.exists():
             continue
         for path in sorted(root.rglob("*.md")):
             try:
-                rel = path.resolve()
                 first_line = path.read_text(encoding="utf-8", errors="replace").splitlines()[0:1]
             except OSError:
                 continue
             records.append({
-                "path": str(rel),
+                "path": repo_relative(path, resolved_root) if resolved_root is not None else str(path.resolve()).replace("\\", "/"),
                 "name": path.name,
                 "title": first_line[0].lstrip("# ").strip() if first_line else path.stem,
                 "size_bytes": path.stat().st_size,
@@ -170,4 +177,3 @@ def write_json(path: Path, data: object) -> None:
     ensure_safe_output_path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, sort_keys=True), encoding="utf-8")
-

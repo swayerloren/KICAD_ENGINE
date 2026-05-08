@@ -36,6 +36,13 @@ def counter_path(project: Path) -> Path:
     return project / "memory" / "PROMPT_COUNTER.md"
 
 
+def repo_relative(path: Path, root: Path) -> str:
+    try:
+        return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
+    except ValueError:
+        return str(path.resolve()).replace("\\", "/")
+
+
 def read_count(path: Path) -> int:
     if not path.exists():
         return 0
@@ -47,9 +54,10 @@ def read_count(path: Path) -> int:
     return int(match.group(1)) if match else 0
 
 
-def render(project: Path, count: int, reason: str, threshold_value: int) -> str:
+def render(project: Path, count: int, reason: str, threshold_value: int, repo_root: Path) -> str:
     status = "MAINTENANCE_DUE" if count >= threshold_value else "ACTIVE_EVIDENCE"
     generated = datetime.now().isoformat(timespec="seconds")
+    project_display = repo_relative(project, repo_root)
     return "\n".join(
         [
             "# Prompt Counter",
@@ -79,7 +87,7 @@ def render(project: Path, count: int, reason: str, threshold_value: int) -> str:
             "Maintenance command:",
             "",
             "```powershell",
-            f"python 03_TOOLS\\scripts\\maintenance\\run_maintenance_cycle.py --project {project}",
+            f"python 03_TOOLS/scripts/maintenance/run_maintenance_cycle.py --project {project_display}",
             "```",
             "",
         ]
@@ -89,5 +97,5 @@ def render(project: Path, count: int, reason: str, threshold_value: int) -> str:
 def write_counter(project: Path, count: int, reason: str, repo_root: Path) -> Path:
     path = counter_path(project)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(render(project, count, reason, threshold(repo_root)), encoding="utf-8", newline="\n")
+    path.write_text(render(project, count, reason, threshold(repo_root), repo_root), encoding="utf-8", newline="\n")
     return path

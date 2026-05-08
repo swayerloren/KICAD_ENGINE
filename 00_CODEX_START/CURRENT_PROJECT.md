@@ -1,5 +1,5 @@
 Active project name: ESP32_CSI_WIFI_NODE
-Active project path: C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE
+Active project path: 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE
 Current task mode: ACTIVE_DESIGN_PROJECT_LIVE_PCB_EXISTS_PARTIAL_ROUTING_BLOCKED
 Current priority: Keep the live board read-only for now, verify existing routed traces, and resolve placement/mechanical plus routing blockers before any new routing
 
