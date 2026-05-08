@@ -30,6 +30,25 @@ If maintenance is due, block new engineering work until the maintenance cycle ru
 
 `python 03_TOOLS/scripts/maintenance/run_maintenance_cycle.py --project <ACTIVE_PROJECT_PATH>`
 
+Before meaningful work begins, declare exactly one task type using the execution-contract layer:
+
+- `DOCS_ONLY`
+- `AUDIT_ONLY`
+- `LIVE_STATE_RECONCILE`
+- `PLACEMENT_EDIT_REQUIRED`
+- `ROUTING_EDIT_REQUIRED`
+- `PCB_EDIT_REQUIRED`
+- `GITHUB_DOCS_ONLY`
+
+Execution-contract files:
+
+- `03_TOOLS/scripts/execution_contract/README.md`
+- `03_TOOLS/scripts/execution_contract/task_contract.schema.json`
+- `03_TOOLS/scripts/execution_contract/validate_task_contract.py`
+- `03_TOOLS/scripts/execution_contract/enforce_edit_required.py`
+
+If the task type is `PLACEMENT_EDIT_REQUIRED`, `ROUTING_EDIT_REQUIRED`, or `PCB_EDIT_REQUIRED`, the session must prove the required engineering artifact change before closeout or explicitly fail with `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`.
+
 For supplier, distributor, stock, pricing, SKU, lifecycle, sourcing, or supplier datasheet-link work, also read:
 
 - `../28_SUPPLIER_INGESTION/SOURCE_POLICY.md`

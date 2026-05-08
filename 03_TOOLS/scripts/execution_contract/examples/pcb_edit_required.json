@@ -1,0 +1,26 @@
+{
+  "task_type": "PCB_EDIT_REQUIRED",
+  "task_summary": "Repair board-level DRC and GND strategy on the live PCB.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+  "target_pcb": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "changed_files": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_REPAIR_PASS_1_REPORT.md"
+  ],
+  "declared_final_status": "ENGINEERING_ARTIFACT_CHANGE_PROVEN",
+  "notes": "Example successful PCB edit contract.",
+  "evidence": {
+    "backup_created": true,
+    "backup_path": "99_BACKUPS\\pre_codex_edits\\20260508_000000_example_backup",
+    "pcb_hash_before": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "pcb_hash_after": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "no_design_change_needed": false,
+    "drc_run": true,
+    "drc_report_path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_REPAIR_PASS_1_DRC_REPORT.md",
+    "visual_export_attempted": true,
+    "visual_paths": [
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\real_pcb_repair_pass_1_top.png",
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\real_pcb_repair_pass_1_bottom.png"
+    ]
+  }
+}

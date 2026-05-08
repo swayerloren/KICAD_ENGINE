@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T14:49:56",
+  "generated_at": "2026-05-08T15:03:10",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -65,7 +65,7 @@
     {
       "path": "01_MEMORY\\GLOBAL_MEMORY.md",
       "title": "Global Memory",
-      "size_bytes": 2534,
+      "size_bytes": 2810,
       "scope": "global"
     },
     {
@@ -89,7 +89,7 @@
     {
       "path": "01_MEMORY\\MASTER_MEMORY_INDEX.md",
       "title": "Master Memory Index",
-      "size_bytes": 6480,
+      "size_bytes": 4976,
       "scope": "global"
     },
     {
@@ -269,7 +269,7 @@
     {
       "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROMPT_COUNTER.md",
       "title": "Prompt Counter",
-      "size_bytes": 634,
+      "size_bytes": 651,
       "scope": "project"
     },
     {

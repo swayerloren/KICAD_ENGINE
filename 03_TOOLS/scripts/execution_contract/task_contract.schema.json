@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KiCad Engine Task Execution Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "task_type",
+    "task_summary",
+    "changed_files",
+    "evidence"
+  ],
+  "properties": {
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "DOCS_ONLY",
+        "AUDIT_ONLY",
+        "LIVE_STATE_RECONCILE",
+        "PLACEMENT_EDIT_REQUIRED",
+        "ROUTING_EDIT_REQUIRED",
+        "PCB_EDIT_REQUIRED",
+        "GITHUB_DOCS_ONLY"
+      ]
+    },
+    "task_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project_path": {
+      "type": "string"
+    },
+    "target_pcb": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "changed_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "declared_final_status": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "backup_created": {
+          "type": "boolean"
+        },
+        "backup_path": {
+          "type": "string"
+        },
+        "pcb_hash_before": {
+          "type": "string"
+        },
+        "pcb_hash_after": {
+          "type": "string"
+        },
+        "no_design_change_needed": {
+          "type": "boolean"
+        },
+        "drc_run": {
+          "type": "boolean"
+        },
+        "drc_report_path": {
+          "type": "string"
+        },
+        "visual_export_attempted": {
+          "type": "boolean"
+        },
+        "visual_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unconnected_before": {
+          "type": "integer"
+        },
+        "unconnected_after": {
+          "type": "integer"
+        },
+        "unrouted_before": {
+          "type": "integer"
+        },
+        "unrouted_after": {
+          "type": "integer"
+        },
+        "trace_change_log_updated": {
+          "type": "boolean"
+        },
+        "placement_report_updated": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

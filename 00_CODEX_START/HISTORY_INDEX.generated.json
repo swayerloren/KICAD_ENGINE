@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T14:49:56",
+  "generated_at": "2026-05-08T15:03:10",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -272,6 +272,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_140404_GITHUB_REPO_PUSH_SCORECARD.md",
       "title": "AI Response Scorecard",
       "size_bytes": 431,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_SCORECARD.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 660,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -969,6 +976,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_SELF_REVIEW.md",
+      "title": "AI Self-Review",
+      "size_bytes": 777,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\20260508_150300_GITHUB_REPO_INDEXING_SELF_REVIEW.md",
       "title": "AI Self Review",
       "size_bytes": 1020,
@@ -1658,6 +1672,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_140404_GITHUB_REPO_PUSH_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim Evidence Matrix",
       "size_bytes": 1301,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix",
+      "size_bytes": 884,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -2924,7 +2945,7 @@
     {
       "path": "02_HISTORY\\command_logs\\GITHUB_REPO_INDEXING_COMMANDS.md",
       "title": "GITHUB_REPO_INDEXING_COMMANDS",
-      "size_bytes": 1670,
+      "size_bytes": 2171,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -3380,6 +3401,13 @@
       "path": "02_HISTORY\\command_logs\\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_COMMANDS.md",
       "title": "Supplier Ingestion System Revalidation Command Log",
       "size_bytes": 2242,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\TASK_TYPE_EXECUTION_CONTRACT_COMMANDS.md",
+      "title": "Task-Type Execution Contract Commands",
+      "size_bytes": 1460,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -4224,6 +4252,13 @@
       "bucket": "design_reviews"
     },
     {
+      "path": "02_HISTORY\\design_reviews\\TASK_TYPE_EXECUTION_CONTRACT_AUDIT.md",
+      "title": "Task-Type Execution Contract Audit",
+      "size_bytes": 3101,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
       "path": "02_HISTORY\\design_reviews\\TEST_EXAMPLES_BENCHMARKS_SETUP_AUDIT.md",
       "title": "Test Examples Benchmarks Setup Audit",
       "size_bytes": 3647,
@@ -5004,6 +5039,13 @@
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_140404_GITHUB_REPO_PUSH_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log",
       "size_bytes": 476,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 510,
       "scope": "global",
       "bucket": "hallucination_risk_logs"
     },
@@ -5806,6 +5848,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\TASK_TYPE_EXECUTION_CONTRACT_RUNTIME_AUTOMATION_GAP.md",
+      "title": "Task Type Execution Contract Runtime Automation Gap",
+      "size_bytes": 719,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\known_agent_mistakes\\BARREL_JACK_ORIENTATION_CONFUSION.md",
       "title": "Barrel Jack Orientation Confusion",
       "size_bytes": 938,
@@ -5843,7 +5892,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 222622,
+      "size_bytes": 226676,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -7075,7 +7124,7 @@
     {
       "path": "02_HISTORY\\sessions\\GITHUB_REPO_INDEXING_SESSION.md",
       "title": "GITHUB_REPO_INDEXING_SESSION",
-      "size_bytes": 1351,
+      "size_bytes": 1436,
       "scope": "global",
       "bucket": "sessions"
     },
@@ -7738,6 +7787,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\TASK_TYPE_EXECUTION_CONTRACT_SESSION.md",
+      "title": "Task-Type Execution Contract Session",
+      "size_bytes": 1080,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\TEST_EXAMPLES_BENCHMARKS_SETUP_SESSION.md",
       "title": "Test Examples Benchmarks Setup Session",
       "size_bytes": 1392,
@@ -8063,6 +8119,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_140404_GITHUB_REPO_PUSH_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log",
       "size_bytes": 553,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 562,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

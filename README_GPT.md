@@ -46,6 +46,8 @@ Latest maintenance supervisor repair, 2026-05-07: KiCad Engine now has a canonic
 
 Latest prompt-count maintenance rule, 2026-05-07: active projects still use a project-specific prompt counter under `memory\PROMPT_COUNTER.md`, but the required maintenance command is now `python 03_TOOLS\scripts\maintenance\run_maintenance_cycle.py --project <active_project>`. At 5 meaningful repo tasks, new engineering work is blocked until that cycle runs and the counter is reset. Compatibility wrappers remain under `03_TOOLS\scripts\memory_maintenance\`.
 
+Latest task-type execution contract hardening, 2026-05-08: KiCad Engine now has a dedicated execution-contract layer under `03_TOOLS\scripts\execution_contract`. Every meaningful Codex run must declare exactly one task type from `DOCS_ONLY`, `AUDIT_ONLY`, `LIVE_STATE_RECONCILE`, `PLACEMENT_EDIT_REQUIRED`, `ROUTING_EDIT_REQUIRED`, `PCB_EDIT_REQUIRED`, or `GITHUB_DOCS_ONLY`. Edit-required task types must prove backup creation, `.kicad_pcb` hash evidence, DRC evidence, and visual-export attempt; routing edits also require unrouted/unconnected counts plus trace-change-log proof, and placement edits require placement-report proof. If an edit-required run ends with only docs/reports and no engineering artifact change, the required outcome is `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`.
+
 ## 1. Purpose of this repo
 
 `KICAD_ENGINE` is LJ's local-first KiCad engineering workspace for AI-assisted PCB design support, review, verification, documentation, and fabrication preparation. It is organized to keep KiCad projects, project memory, command history, tools, outputs, datasheets, backups, and reference designs separate.

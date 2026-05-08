@@ -10,18 +10,40 @@ This workflow assumes all routing preconditions already pass.
 
 Before the first trace is edited:
 
-1. confirm the active project path
-2. confirm target files are inside the active project
-3. confirm a fresh backup exists
-4. confirm routing preconditions are exact `PASS`
-5. confirm the normalized routing input export exists for the current board state
-6. generate:
+1. declare task type `ROUTING_EDIT_REQUIRED`
+2. confirm the active project path
+3. confirm target files are inside the active project
+4. confirm a fresh backup exists
+5. confirm routing preconditions are exact `PASS`
+6. confirm the normalized routing input export exists for the current board state
+7. generate:
    - routing plan
    - critical-net plan
    - unrouted-net report
    - keepout-violation report
    - trace-by-trace review scaffold
    - routing scorecard
+
+## Execution Contract
+
+Every real routing pass must satisfy the execution contract in
+`03_TOOLS/scripts/execution_contract/`.
+
+`ROUTING_EDIT_REQUIRED` must prove all of the following before the pass may be
+treated as complete:
+
+- backup created
+- `.kicad_pcb` hash before
+- `.kicad_pcb` hash after
+- PCB hash changed
+- DRC run
+- unrouted and unconnected count before/after
+- trace-change log updated
+- visual export attempted
+
+If a routing pass ends with only Markdown/report changes and no real PCB hash
+change, the required final status is
+`EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`.
 
 ## Routing Pass Order
 

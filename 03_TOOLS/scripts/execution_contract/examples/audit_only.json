@@ -1,0 +1,17 @@
+{
+  "task_type": "AUDIT_ONLY",
+  "task_summary": "Audit stale report contradictions against live project state.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+  "target_pcb": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "changed_files": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\LIVE_PCB_TRUTH_AUDIT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\STALE_GATE_REPORT_RECONCILIATION.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Audit-only task. Report updates are allowed; KiCad design files are not.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": true,
+    "visual_export_attempted": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "task_type": "ROUTING_EDIT_REQUIRED",
+  "task_summary": "Route a copied-board-proven critical routing batch on the live PCB.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+  "target_pcb": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "changed_files": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\routing_work\\20260508_091428\\TRACE_CHANGE_LOG.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_BATCH_03_USB_CONTROL_ROUTING_REPORT.md"
+  ],
+  "declared_final_status": "ENGINEERING_ARTIFACT_CHANGE_PROVEN",
+  "notes": "Example successful routing edit contract.",
+  "evidence": {
+    "backup_created": true,
+    "backup_path": "99_BACKUPS\\pre_codex_edits\\20260508_000001_example_routing_backup",
+    "pcb_hash_before": "1111111111111111111111111111111111111111111111111111111111111111",
+    "pcb_hash_after": "2222222222222222222222222222222222222222222222222222222222222222",
+    "drc_run": true,
+    "drc_report_path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_BATCH_03_USB_CONTROL_ROUTING_REPORT.md",
+    "visual_export_attempted": true,
+    "visual_paths": [
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\pcb_batch_03_usb_control_top.png",
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\pcb_batch_03_usb_control_bottom.png"
+    ],
+    "unconnected_before": 27,
+    "unconnected_after": 21,
+    "unrouted_before": 10,
+    "unrouted_after": 7,
+    "trace_change_log_updated": true
+  }
+}

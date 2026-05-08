@@ -30,6 +30,20 @@ The GitHub-facing navigation layer was tightened a second time so the root docs 
 - `00_CODEX_START/GITHUB_NAVIGATION.md` now has a dedicated `Start Here For Routing Work` section
 - future GitHub-facing doc updates should preserve that level of specificity instead of collapsing back to pointer-only summaries
 
+## Latest task-type execution contract hardening - 2026-05-08
+
+KiCad Engine now has a dedicated execution-contract layer under `03_TOOLS\scripts\execution_contract` to stop false completion of edit-required PCB tasks:
+
+- every meaningful run must declare exactly one task type
+- supported task types are `DOCS_ONLY`, `AUDIT_ONLY`, `LIVE_STATE_RECONCILE`, `PLACEMENT_EDIT_REQUIRED`, `ROUTING_EDIT_REQUIRED`, `PCB_EDIT_REQUIRED`, and `GITHUB_DOCS_ONLY`
+- non-edit task types may not change `.kicad_sch`, `.kicad_pcb`, or `.kicad_pro`
+- edit-required task types must prove backup creation, `.kicad_pcb` hash evidence, DRC evidence, and visual-export attempt
+- `ROUTING_EDIT_REQUIRED` also requires unrouted/unconnected before/after counts plus `TRACE_CHANGE_LOG` proof
+- `PLACEMENT_EDIT_REQUIRED` also requires placement-report proof
+- `PCB_EDIT_REQUIRED` may end `NO_DESIGN_CHANGE_NEEDED` only when that outcome is explicit in the contract
+- if an edit-required run ends with only docs/reports and no real engineering artifact change, the required final status is `EDIT_REQUIRED_FAILED_NO_ENGINEERING_ARTIFACT_CHANGE`
+- future startup, workflow, and closeout changes must keep `AGENTS.md`, `00_CODEX_START`, and this handoff aligned with the execution-contract rules
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:
