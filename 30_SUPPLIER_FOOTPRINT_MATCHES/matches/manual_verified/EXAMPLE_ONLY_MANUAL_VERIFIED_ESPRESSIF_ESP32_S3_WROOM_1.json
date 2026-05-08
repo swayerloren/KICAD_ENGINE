@@ -1,0 +1,29 @@
+{
+  "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+  "connector_orientation_status": "NOT_APPLICABLE",
+  "created_at": "2026-05-03T14:37:52+00:00",
+  "datasheet_url": "UNKNOWN",
+  "evidence": [],
+  "footprint_status": "UNVERIFIED",
+  "high_risk_categories": [
+    "MCU_MODULE"
+  ],
+  "human_review_required": true,
+  "jlc_lcsc_part_number": "UNKNOWN",
+  "kicad_3d_model_candidate": "UNKNOWN",
+  "kicad_footprint_candidate": "RF_Module:ESP32-S3-WROOM-1 candidate only",
+  "kicad_symbol_candidate": "RF_Module:ESP32-S3-WROOM-1 candidate only",
+  "manufacturer": "Espressif",
+  "mpn": "ESP32-S3-WROOM-1",
+  "notes": [
+    "EXAMPLE_ONLY. Module land pattern, antenna keepout, pad numbering, and variant must be checked against official Espressif documents."
+  ],
+  "package_drawing_source": "UNKNOWN",
+  "package_name_from_supplier": "ESP32-S3-WROOM-1 module example - verify exact module datasheet",
+  "pinout_status": "UNVERIFIED",
+  "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_ESPRESSIF_ESP32_S3_WROOM_1",
+  "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+  "supplier": "manual_verified",
+  "supplier_sku": "EXAMPLE_ONLY",
+  "updated_at": "2026-05-03T14:37:52+00:00"
+}

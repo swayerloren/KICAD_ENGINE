@@ -1,0 +1,68 @@
+name: Build All Installers
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  windows:
+    uses: ./.github/workflows/build-installer-windows.yml
+
+  macos:
+    uses: ./.github/workflows/build-installer-macos.yml
+
+  linux:
+    uses: ./.github/workflows/build-installer-linux.yml
+
+  collect:
+    name: Collect release artifacts
+    runs-on: ubuntu-latest
+    needs:
+      - windows
+      - macos
+      - linux
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: downloaded-artifacts
+
+      - name: Assemble release artifact set
+        run: |
+          mkdir -p release-artifacts
+          for file in \
+            KiCad-Engine-Setup-Windows-x64.exe \
+            KiCad-Engine-Setup-macOS-universal.dmg \
+            KiCad-Engine-Setup-Linux-x64.AppImage \
+            KiCad-Engine-Setup-Linux-amd64.deb \
+            KICAD_ENGINE_PAYLOAD.zip
+          do
+            found="$(find downloaded-artifacts -type f -name "$file" | sort | head -n 1 || true)"
+            if [ -z "$found" ]; then
+              echo "Missing release artifact: $file" >&2
+              exit 1
+            fi
+            cp "$found" "release-artifacts/$file"
+          done
+          find downloaded-artifacts -type f \( -name '*.log' -o -name 'PAYLOAD_BUILD_REPORT-*.md' \) -print0 |
+            while IFS= read -r -d '' log_file; do
+              cp "$log_file" "release-artifacts/$(basename "$log_file")"
+            done
+          (
+            cd release-artifacts
+            find . -maxdepth 1 -type f ! -name SHA256SUMS.txt -print0 |
+              sort -z |
+              xargs -0 sha256sum |
+              sed 's#  \./#  #' > SHA256SUMS.txt
+          )
+
+      - name: Upload combined artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-engine-release-artifacts
+          path: release-artifacts/**
+          if-no-files-found: error

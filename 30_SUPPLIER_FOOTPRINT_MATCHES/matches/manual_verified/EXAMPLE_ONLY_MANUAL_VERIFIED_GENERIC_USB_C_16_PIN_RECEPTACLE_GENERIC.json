@@ -1,0 +1,30 @@
+{
+  "confidence_level": "MATCHED_BY_GENERIC_FOOTPRINT",
+  "connector_orientation_status": "UNVERIFIED",
+  "created_at": "2026-05-03T14:37:52+00:00",
+  "datasheet_url": "UNKNOWN",
+  "evidence": [],
+  "footprint_status": "UNVERIFIED",
+  "high_risk_categories": [
+    "USB-C_CONNECTOR",
+    "CONNECTOR"
+  ],
+  "human_review_required": true,
+  "jlc_lcsc_part_number": "UNKNOWN",
+  "kicad_3d_model_candidate": "UNKNOWN",
+  "kicad_footprint_candidate": "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A candidate only",
+  "kicad_symbol_candidate": "Connector:USB_C_Receptacle_USB2_16P candidate only",
+  "manufacturer": "Generic",
+  "mpn": "USB-C 16-pin receptacle generic",
+  "notes": [
+    "EXAMPLE_ONLY. Do not use without exact manufacturer part number, package drawing, pin numbering, shell pad, mating connector, and orientation review."
+  ],
+  "package_drawing_source": "UNKNOWN",
+  "package_name_from_supplier": "USB-C 16-pin USB2 receptacle example - requires exact manufacturer drawing",
+  "pinout_status": "UNVERIFIED",
+  "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_GENERIC_USB_C_16_PIN_RECEPTACLE_GENERIC",
+  "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+  "supplier": "manual_verified",
+  "supplier_sku": "EXAMPLE_ONLY",
+  "updated_at": "2026-05-03T14:37:52+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "prompt_threshold": 5,
+  "default_mode": "apply",
+  "reset_prompt_counter_on_success": true,
+  "writes_kicad_design_files": false,
+  "required_outputs": [
+    "reports/LIVE_PROJECT_STATE.json",
+    "reports/LIVE_PROJECT_STATE.md",
+    "reports/STALE_REPORTS_AUDIT.md",
+    "reports/GATE_RECONCILIATION_REPORT.md",
+    "reports/MAINTENANCE_CYCLE_REPORT.md",
+    "memory/CURRENT_PROJECT_STATE.md",
+    "memory/CURRENT_BLOCKERS.md"
+  ]
+}

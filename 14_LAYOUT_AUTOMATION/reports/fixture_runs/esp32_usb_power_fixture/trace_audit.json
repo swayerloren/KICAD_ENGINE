@@ -1,0 +1,179 @@
+{
+  "audit_complete": true,
+  "critical_trace_count": 9,
+  "flagged_count": 0,
+  "hard_fails": [],
+  "missing_trace_nets": [],
+  "project": "esp32_usb_power_fixture",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "critical_trace_count": 9,
+    "flagged_count": 0,
+    "trace_count": 11
+  },
+  "tool": "trace_by_trace_audit",
+  "trace_count": 11,
+  "traces": [
+    {
+      "angles_deg": [],
+      "critical": true,
+      "issues": [],
+      "net": "+5V_IN",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.75
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": true,
+      "issues": [],
+      "net": "+5V_FUSED",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.75
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": true,
+      "issues": [],
+      "net": "+5V_PROTECTED",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.75
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": true,
+      "issues": [],
+      "net": "BUCK_SW",
+      "review_required": true,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.5
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": true,
+      "issues": [],
+      "net": "BUCK_BST",
+      "review_required": true,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.2
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0
+      ],
+      "critical": true,
+      "issues": [],
+      "net": "+3V3",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 2,
+      "via_count": 1,
+      "via_reason": "top_side_escape_to_module_feed",
+      "widths_mm": [
+        0.5
+      ]
+    },
+    {
+      "angles_deg": [
+        0.0
+      ],
+      "critical": true,
+      "issues": [],
+      "net": "USB_D+",
+      "review_required": true,
+      "routing_status": "ROUTED",
+      "segment_count": 2,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.25
+      ]
+    },
+    {
+      "angles_deg": [
+        0.0
+      ],
+      "critical": true,
+      "issues": [],
+      "net": "USB_D-",
+      "review_required": true,
+      "routing_status": "ROUTED",
+      "segment_count": 2,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.25
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": false,
+      "issues": [],
+      "net": "USB_CC1",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.2
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": false,
+      "issues": [],
+      "net": "USB_CC2",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.2
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": true,
+      "issues": [],
+      "net": "EN",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.2
+      ]
+    }
+  ]
+}

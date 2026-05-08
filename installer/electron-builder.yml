@@ -1,0 +1,80 @@
+appId: org.kicadengine.installer
+productName: KiCad Engine Installer
+copyright: Copyright (c) 2026 KiCad Engine contributors
+
+directories:
+  output: build/dist
+  buildResources: build/resources
+
+files:
+  - src/**/*
+  - package.json
+  - electron-builder.yml
+
+extraResources:
+  - from: payload/repo-template
+    to: payload/repo-template
+    filter:
+      - "**/*"
+      - "!**/.git/**"
+      - "!**/__pycache__/**"
+      - "!**/node_modules/**"
+      - "!**/*.pdf"
+      - "!**/*.zip"
+      - "!**/*.gbr"
+      - "!**/*.drl"
+      - "!**/*.kicad_pcb"
+      - "!**/*.kicad_sch"
+      - "!**/*.kicad_pro"
+  - from: payload/manifests
+    to: payload/manifests
+    filter:
+      - "**/*"
+  - from: payload/scripts
+    to: payload/scripts
+    filter:
+      - "**/*"
+      - "!**/__pycache__/**"
+
+asar: true
+asarUnpack:
+  - payload/**/*
+
+win:
+  signAndEditExecutable: false
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: "KiCad-Engine-Installer-${version}-${os}-${arch}.${ext}"
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+
+mac:
+  category: public.app-category.developer-tools
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+    - target: pkg
+      arch:
+        - x64
+        - arm64
+  artifactName: "KiCad-Engine-Installer-${version}-${os}-${arch}.${ext}"
+
+linux:
+  category: Development
+  target:
+    - target: AppImage
+      arch:
+        - x64
+    - target: deb
+      arch:
+        - x64
+  artifactName: "KiCad-Engine-Installer-${version}-${os}-${arch}.${ext}"

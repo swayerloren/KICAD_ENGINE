@@ -1,0 +1,29 @@
+{
+  "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+  "connector_orientation_status": "NOT_APPLICABLE",
+  "created_at": "2026-05-03T14:37:53+00:00",
+  "datasheet_url": "UNKNOWN",
+  "evidence": [],
+  "footprint_status": "UNVERIFIED",
+  "high_risk_categories": [
+    "REGULATOR"
+  ],
+  "human_review_required": true,
+  "jlc_lcsc_part_number": "UNKNOWN",
+  "kicad_3d_model_candidate": "UNKNOWN",
+  "kicad_footprint_candidate": "Package_TO_SOT_SMD:TSOT-26/SOT-23-6 candidate only",
+  "kicad_symbol_candidate": "Regulator_Switching:AP63203 candidate only",
+  "manufacturer": "Diodes Incorporated",
+  "mpn": "AP63203",
+  "notes": [
+    "EXAMPLE_ONLY. Regulator package, exposed/thermal pads if any, and switching-loop layout require exact datasheet verification."
+  ],
+  "package_drawing_source": "UNKNOWN",
+  "package_name_from_supplier": "Buck regulator package example - requires exact Diodes Inc package drawing",
+  "pinout_status": "UNVERIFIED",
+  "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_DIODES_INCORPORATED_AP63203",
+  "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+  "supplier": "manual_verified",
+  "supplier_sku": "EXAMPLE_ONLY",
+  "updated_at": "2026-05-03T14:37:53+00:00"
+}

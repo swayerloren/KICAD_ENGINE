@@ -1,0 +1,24 @@
+{
+  "name": "kicad-engine-installer",
+  "version": "0.1.0",
+  "description": "Local-first KiCad Engine workspace installer.",
+  "private": true,
+  "main": "src/main.js",
+  "author": "KiCad Engine contributors",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "electron .",
+    "build:win": "electron-builder --win --config.directories.output=build/windows",
+    "build:mac": "electron-builder --mac --config.directories.output=build/macos",
+    "build:linux": "electron-builder --linux --config.directories.output=build/linux",
+    "package": "electron-builder --dir --config.directories.output=build/package"
+  },
+  "devDependencies": {
+    "electron": "41.5.0",
+    "electron-builder": "26.8.1"
+  }
+}

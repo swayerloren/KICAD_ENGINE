@@ -1,0 +1,2519 @@
+{
+  "board_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb",
+  "not_extracted": [
+    "per-net ratsnest extraction not implemented; only total unconnected count is extracted"
+  ],
+  "project": "TPS5430",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "trace_group_count": 13,
+    "track_count": 47,
+    "via_count": 113
+  },
+  "tool": "extract_kicad_tracks_vias",
+  "traces": [
+    {
+      "critical": false,
+      "id": "trace:/Feedback",
+      "net": "/Feedback",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.175489,
+          "x2": 181.5,
+          "y1": 79.875365,
+          "y2": 80.199876
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 192.4125,
+          "x2": 181.5,
+          "y1": 76.3,
+          "y2": 76.3
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.5,
+          "x2": 180.8,
+          "y1": 81.64,
+          "y2": 82.34
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 174.2,
+          "x2": 169.2,
+          "y1": 78.65,
+          "y2": 78.65
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.175489,
+          "x2": 181.175489,
+          "y1": 76.624511,
+          "y2": 79.875365
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 180.8,
+          "x2": 180.0,
+          "y1": 84.795,
+          "y2": 85.595
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.5,
+          "x2": 181.5,
+          "y1": 81.64,
+          "y2": 80.199876
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 193.5625,
+          "x2": 192.4125,
+          "y1": 77.45,
+          "y2": 76.3
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.5,
+          "x2": 181.175489,
+          "y1": 76.3,
+          "y2": 76.624511
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 180.8,
+          "x2": 180.8,
+          "y1": 82.34,
+          "y2": 84.795
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.5,
+          "x2": 179.950124,
+          "y1": 80.199876,
+          "y2": 78.65
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 179.2,
+          "x2": 174.2,
+          "y1": 78.65,
+          "y2": 78.65
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 179.950124,
+          "x2": 179.2,
+          "y1": 78.65,
+          "y2": 78.65
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:GND",
+      "net": "GND",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [],
+      "via_count": 113,
+      "via_reason": "NOT_EXTRACTED"
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(C6-Pad1)",
+      "net": "Net-(C6-Pad1)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.1,
+          "x2": 180.0,
+          "y1": 90.505,
+          "y2": 89.405
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.1,
+          "x2": 181.1,
+          "y1": 91.8,
+          "y2": 90.505
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(D3-Pad1)",
+      "net": "Net-(D3-Pad1)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 198.112114,
+          "x2": 193.8,
+          "y1": 90.9125,
+          "y2": 90.9125
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 196.9,
+          "x2": 201.6,
+          "y1": 78.4,
+          "y2": 83.1
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 201.6,
+          "x2": 201.6,
+          "y1": 83.1,
+          "y2": 87.424614
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 201.6,
+          "x2": 198.112114,
+          "y1": 87.424614,
+          "y2": 90.9125
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 195.4375,
+          "x2": 196.9,
+          "y1": 78.4,
+          "y2": 78.4
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(JP1-Pad1)",
+      "net": "Net-(JP1-Pad1)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 171.7,
+          "x2": 171.7,
+          "y1": 81.59,
+          "y2": 80.45
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 171.7,
+          "x2": 172.2,
+          "y1": 80.45,
+          "y2": 79.95
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 171.7,
+          "x2": 172.8,
+          "y1": 81.59,
+          "y2": 81.59
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(JP2-Pad1)",
+      "net": "Net-(JP2-Pad1)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 174.9,
+          "x2": 174.9,
+          "y1": 82.19,
+          "y2": 80.75
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 174.9,
+          "x2": 175.7,
+          "y1": 80.75,
+          "y2": 79.95
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(JP3-Pad1)",
+      "net": "Net-(JP3-Pad1)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 179.7,
+          "x2": 179.7,
+          "y1": 81.64,
+          "y2": 80.45
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 178.6,
+          "x2": 179.7,
+          "y1": 81.64,
+          "y2": 81.64
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 179.7,
+          "x2": 179.2,
+          "y1": 80.45,
+          "y2": 79.95
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(JP4-Pad1)",
+      "net": "Net-(JP4-Pad1)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 168.7,
+          "x2": 168.2,
+          "y1": 79.95,
+          "y2": 80.45
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 168.2,
+          "x2": 168.2,
+          "y1": 80.45,
+          "y2": 81.49
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(Q2-Pad2)",
+      "net": "Net-(Q2-Pad2)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 193.5625,
+          "x2": 193.637011,
+          "y1": 79.35,
+          "y2": 79.275489
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 193.637011,
+          "x2": 195.475489,
+          "y1": 79.275489,
+          "y2": 79.275489
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 195.475489,
+          "x2": 195.875,
+          "y1": 79.275489,
+          "y2": 79.675
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 195.875,
+          "x2": 195.875,
+          "y1": 79.675,
+          "y2": 81.0
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(R10-Pad1)",
+      "net": "Net-(R10-Pad1)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 168.29,
+          "x2": 169.21,
+          "y1": 82.6,
+          "y2": 82.6
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 169.21,
+          "x2": 169.3,
+          "y1": 82.6,
+          "y2": 82.51
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 168.2,
+          "x2": 168.29,
+          "y1": 82.51,
+          "y2": 82.6
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:Net-(R5-Pad2)",
+      "net": "Net-(R5-Pad2)",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 174.9,
+          "x2": 175.885,
+          "y1": 83.21,
+          "y2": 83.21
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:VCC",
+      "net": "VCC",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 169.1,
+          "x2": 167.7,
+          "y1": 95.6,
+          "y2": 94.2
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 1.0,
+          "x1": 167.45,
+          "x2": 168.2,
+          "y1": 90.8,
+          "y2": 91.55
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 192.4,
+          "x2": 169.1,
+          "y1": 95.6,
+          "y2": 95.6
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 193.8,
+          "x2": 193.8,
+          "y1": 92.4875,
+          "y2": 94.2
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 1.0,
+          "x1": 168.2,
+          "x2": 168.199999,
+          "y1": 91.55,
+          "y2": 93.700001
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 193.8,
+          "x2": 192.4,
+          "y1": 94.2,
+          "y2": 95.6
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 1.0,
+          "x1": 168.199999,
+          "x2": 167.7,
+          "y1": 93.700001,
+          "y2": 94.2
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:VDD",
+      "net": "VDD",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 187.09,
+          "x2": 187.4,
+          "y1": 82.66,
+          "y2": 82.35
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 181.5,
+          "x2": 187.09,
+          "y1": 82.66,
+          "y2": 82.66
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    }
+  ],
+  "tracks": [
+    {
+      "net": "VCC",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 169.1,
+        "x2": 167.7,
+        "y1": 95.6,
+        "y2": 94.2
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VCC",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 1.0,
+        "x1": 167.45,
+        "x2": 168.2,
+        "y1": 90.8,
+        "y2": 91.55
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VCC",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 192.4,
+        "x2": 169.1,
+        "y1": 95.6,
+        "y2": 95.6
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VCC",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 193.8,
+        "x2": 193.8,
+        "y1": 92.4875,
+        "y2": 94.2
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VCC",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 1.0,
+        "x1": 168.2,
+        "x2": 168.199999,
+        "y1": 91.55,
+        "y2": 93.700001
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VCC",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 193.8,
+        "x2": 192.4,
+        "y1": 94.2,
+        "y2": 95.6
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VCC",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 1.0,
+        "x1": 168.199999,
+        "x2": 167.7,
+        "y1": 93.700001,
+        "y2": 94.2
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(C6-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.1,
+        "x2": 180.0,
+        "y1": 90.505,
+        "y2": 89.405
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(C6-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.1,
+        "x2": 181.1,
+        "y1": 91.8,
+        "y2": 90.505
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VDD",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 187.09,
+        "x2": 187.4,
+        "y1": 82.66,
+        "y2": 82.35
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "VDD",
+      "net_class": "Power",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.5,
+        "x2": 187.09,
+        "y1": 82.66,
+        "y2": 82.66
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP1-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 171.7,
+        "x2": 171.7,
+        "y1": 81.59,
+        "y2": 80.45
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP1-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 171.7,
+        "x2": 172.2,
+        "y1": 80.45,
+        "y2": 79.95
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP1-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 171.7,
+        "x2": 172.8,
+        "y1": 81.59,
+        "y2": 81.59
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.175489,
+        "x2": 181.5,
+        "y1": 79.875365,
+        "y2": 80.199876
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 192.4125,
+        "x2": 181.5,
+        "y1": 76.3,
+        "y2": 76.3
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.5,
+        "x2": 180.8,
+        "y1": 81.64,
+        "y2": 82.34
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 174.2,
+        "x2": 169.2,
+        "y1": 78.65,
+        "y2": 78.65
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.175489,
+        "x2": 181.175489,
+        "y1": 76.624511,
+        "y2": 79.875365
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 180.8,
+        "x2": 180.0,
+        "y1": 84.795,
+        "y2": 85.595
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.5,
+        "x2": 181.5,
+        "y1": 81.64,
+        "y2": 80.199876
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 193.5625,
+        "x2": 192.4125,
+        "y1": 77.45,
+        "y2": 76.3
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.5,
+        "x2": 181.175489,
+        "y1": 76.3,
+        "y2": 76.624511
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 180.8,
+        "x2": 180.8,
+        "y1": 82.34,
+        "y2": 84.795
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 181.5,
+        "x2": 179.950124,
+        "y1": 80.199876,
+        "y2": 78.65
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 179.2,
+        "x2": 174.2,
+        "y1": 78.65,
+        "y2": 78.65
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/Feedback",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 179.950124,
+        "x2": 179.2,
+        "y1": 78.65,
+        "y2": 78.65
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP2-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 174.9,
+        "x2": 174.9,
+        "y1": 82.19,
+        "y2": 80.75
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP2-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 174.9,
+        "x2": 175.7,
+        "y1": 80.75,
+        "y2": 79.95
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 179.7,
+        "x2": 179.7,
+        "y1": 81.64,
+        "y2": 80.45
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 178.6,
+        "x2": 179.7,
+        "y1": 81.64,
+        "y2": 81.64
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 179.7,
+        "x2": 179.2,
+        "y1": 80.45,
+        "y2": 79.95
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(R5-Pad2)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 174.9,
+        "x2": 175.885,
+        "y1": 83.21,
+        "y2": 83.21
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP4-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 168.7,
+        "x2": 168.2,
+        "y1": 79.95,
+        "y2": 80.45
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(JP4-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 168.2,
+        "x2": 168.2,
+        "y1": 80.45,
+        "y2": 81.49
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(R10-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 168.29,
+        "x2": 169.21,
+        "y1": 82.6,
+        "y2": 82.6
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(R10-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 169.21,
+        "x2": 169.3,
+        "y1": 82.6,
+        "y2": 82.51
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(R10-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 168.2,
+        "x2": 168.29,
+        "y1": 82.51,
+        "y2": 82.6
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(D3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 198.112114,
+        "x2": 193.8,
+        "y1": 90.9125,
+        "y2": 90.9125
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(D3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 196.9,
+        "x2": 201.6,
+        "y1": 78.4,
+        "y2": 83.1
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(D3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 201.6,
+        "x2": 201.6,
+        "y1": 83.1,
+        "y2": 87.424614
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(D3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 201.6,
+        "x2": 198.112114,
+        "y1": 87.424614,
+        "y2": 90.9125
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(D3-Pad1)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 195.4375,
+        "x2": 196.9,
+        "y1": 78.4,
+        "y2": 78.4
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(Q2-Pad2)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 193.5625,
+        "x2": 193.637011,
+        "y1": 79.35,
+        "y2": 79.275489
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(Q2-Pad2)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 193.637011,
+        "x2": 195.475489,
+        "y1": 79.275489,
+        "y2": 79.275489
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(Q2-Pad2)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 195.475489,
+        "x2": 195.875,
+        "y1": 79.275489,
+        "y2": 79.675
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "Net-(Q2-Pad2)",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 195.875,
+        "x2": 195.875,
+        "y1": 79.675,
+        "y2": 81.0
+      },
+      "type": "PCB_TRACK"
+    }
+  ],
+  "vias": [
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 196.7,
+      "y_mm": 80.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 184.5,
+      "y_mm": 84.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 163.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 178.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 192.0,
+      "y_mm": 87.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 195.0,
+      "y_mm": 92.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 94.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 194.0,
+      "y_mm": 87.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 157.0,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 91.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 166.0,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 192.0,
+      "y_mm": 89.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 148.0,
+      "y_mm": 82.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 171.7,
+      "y_mm": 94.1
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 173.8,
+      "y_mm": 80.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 193.2,
+      "y_mm": 78.4
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 186.0,
+      "y_mm": 87.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 198.0,
+      "y_mm": 92.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 163.0,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 177.5,
+      "y_mm": 80.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 195.0,
+      "y_mm": 80.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 177.5,
+      "y_mm": 90.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 201.0,
+      "y_mm": 91.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 152.0,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 162.0,
+      "y_mm": 93.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 78.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 157.0,
+      "y_mm": 88.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 172.2,
+      "y_mm": 91.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 172.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 181.9,
+      "y_mm": 77.6
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 177.0,
+      "y_mm": 92.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 189.0,
+      "y_mm": 87.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 163.0,
+      "y_mm": 88.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 88.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 91.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 157.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 88.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 184.5,
+      "y_mm": 87.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 195.0,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 189.0,
+      "y_mm": 89.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 148.0,
+      "y_mm": 80.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 148.0,
+      "y_mm": 85.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 151.5,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 183.0,
+      "y_mm": 81.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 152.0,
+      "y_mm": 93.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 172.7,
+      "y_mm": 94.1
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 201.0,
+      "y_mm": 80.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 199.0,
+      "y_mm": 86.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 94.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 179.7,
+      "y_mm": 84.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 184.5,
+      "y_mm": 81.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 169.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 170.3,
+      "y_mm": 94.1
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 181.9,
+      "y_mm": 79.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 82.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 199.0,
+      "y_mm": 83.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 170.4,
+      "y_mm": 80.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 178.6,
+      "y_mm": 84.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 148.0,
+      "y_mm": 88.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 162.0,
+      "y_mm": 91.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 163.0,
+      "y_mm": 82.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 199.0,
+      "y_mm": 89.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 169.8,
+      "y_mm": 91.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 186.0,
+      "y_mm": 89.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 156.0,
+      "y_mm": 91.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 166.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 175.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 166.0,
+      "y_mm": 78.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 197.5,
+      "y_mm": 93.4
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 195.0,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 163.0,
+      "y_mm": 85.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 169.3,
+      "y_mm": 94.1
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 172.1,
+      "y_mm": 83.7
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 93.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 82.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 183.0,
+      "y_mm": 84.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 168.0,
+      "y_mm": 86.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 166.0,
+      "y_mm": 94.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 169.8,
+      "y_mm": 83.7
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 190.0,
+      "y_mm": 78.9
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 190.0,
+      "y_mm": 77.8
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 192.0,
+      "y_mm": 93.4
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 194.0,
+      "y_mm": 89.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 154.0,
+      "y_mm": 85.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 174.5,
+      "y_mm": 84.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 93.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 179.5,
+      "y_mm": 90.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 148.0,
+      "y_mm": 91.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 192.0,
+      "y_mm": 92.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 184.5,
+      "y_mm": 89.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 173.8,
+      "y_mm": 82.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 195.0,
+      "y_mm": 93.4
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 177.5,
+      "y_mm": 84.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 163.0,
+      "y_mm": 94.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 78.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 197.5,
+      "y_mm": 95.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 170.7,
+      "y_mm": 82.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 163.0,
+      "y_mm": 78.5
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 151.0,
+      "y_mm": 88.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 160.0,
+      "y_mm": 85.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 157.0,
+      "y_mm": 94.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 177.5,
+      "y_mm": 82.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 167.5,
+      "y_mm": 83.4
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 183.0,
+      "y_mm": 87.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 183.0,
+      "y_mm": 89.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 197.5,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 176.3,
+      "y_mm": 84.6
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 180.4,
+      "y_mm": 77.0
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.8,
+      "drill_mm": 0.4,
+      "net": "GND",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 156.0,
+      "y_mm": 93.0
+    }
+  ]
+}

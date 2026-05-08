@@ -1,0 +1,3 @@
+vendor,family,part_number,category,search_terms,preferred_sources,required_outputs,priority,notes
+Espressif,ESP32-S3,ESP32-S3-WROOM-1,module,"ESP32-S3-WROOM-1 datasheet hardware design guidelines footprint keepout","espressif;kicad_official_libraries;digikey;mouser","datasheet_link;module_metadata;footprint_candidates;keepout_notes",high,"Module keepout and antenna area require human review."
+Espressif,ESP32-S3,ESP32-S3-WROOM-1U,module,"ESP32-S3-WROOM-1U datasheet U.FL antenna module footprint","espressif;kicad_official_libraries;digikey;mouser","datasheet_link;module_metadata;footprint_candidates;rf_notes",high,"U.FL/external antenna variant requires exact module and RF review."

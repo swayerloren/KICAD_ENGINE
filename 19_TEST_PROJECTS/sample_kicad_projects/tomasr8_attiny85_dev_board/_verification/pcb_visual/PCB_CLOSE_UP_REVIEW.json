@@ -1,0 +1,241 @@
+{
+  "block_count": 13,
+  "blocks": [
+    {
+      "field_risks": [],
+      "name": "input_power",
+      "notes": "Review J1 custom footprint position, silkscreen edge clearance, and shield/mechanical holes. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\input_power.png",
+      "rect": {
+        "height": 17.7038,
+        "width": 15.556992000000001,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\input_power.svg",
+      "title": "USB-A Connector And Board Edge",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "reverse_polarity",
+      "notes": "No explicit reverse-polarity protection is present; treat as sample scope limitation. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\reverse_polarity.png",
+      "rect": {
+        "height": 17.7038,
+        "width": 11.667744,
+        "x": 11.667744,
+        "y": 0.0
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\reverse_polarity.svg",
+      "title": "USB Input Protection Not Present",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "tvs_input_cap",
+      "notes": "Review D1/D2 orientation and parity warnings. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\tvs_input_cap.png",
+      "rect": {
+        "height": 8.497824,
+        "width": 11.667744,
+        "x": 12.964160000000001,
+        "y": 7.435596
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\tvs_input_cap.svg",
+      "title": "USB Zener Diodes",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "buck_regulator",
+      "notes": "Review U2 SOT-223 package and thermal/orientation assumptions.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\buck_regulator.png",
+      "rect": {
+        "height": 8.8519,
+        "width": 11.667744,
+        "x": 18.798032,
+        "y": 6.19633
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\buck_regulator.svg",
+      "title": "AMS1117 Regulator Placement",
+      "unannotated_refs": [],
+      "visible_text_count": 4
+    },
+    {
+      "field_risks": [],
+      "name": "esp32_module",
+      "notes": "Review U1 DIP/socket footprint and orientation. Name retained for compatibility.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\esp32_module.png",
+      "rect": {
+        "height": 13.808964000000001,
+        "width": 14.260576000000002,
+        "x": 23.335488,
+        "y": 2.124456
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\esp32_module.svg",
+      "title": "ATtiny85 DIP Area",
+      "unannotated_refs": [],
+      "visible_text_count": 7
+    },
+    {
+      "field_risks": [],
+      "name": "usb_c_connector",
+      "notes": "Review Molex 48037-0001 custom footprint against source drawing before any manufacturing claim. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\usb_c_connector.png",
+      "rect": {
+        "height": 17.7038,
+        "width": 16.2052,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\usb_c_connector.svg",
+      "title": "USB-A Custom Footprint",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "usb_esd",
+      "notes": "Review USB data routing through resistors/zener area.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\usb_esd.png",
+      "rect": {
+        "height": 12.39266,
+        "width": 16.2052,
+        "x": 11.019536000000002,
+        "y": 3.5407600000000006
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\usb_esd.svg",
+      "title": "USB Data Protection Routing",
+      "unannotated_refs": [],
+      "visible_text_count": 5
+    },
+    {
+      "field_risks": [],
+      "name": "cc_resistors",
+      "notes": "Review R1/R2/R3 area. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\cc_resistors.png",
+      "rect": {
+        "height": 12.39266,
+        "width": 14.260576000000002,
+        "x": 10.371328000000002,
+        "y": 1.7703800000000003
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\cc_resistors.svg",
+      "title": "USB Data Resistors",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "reset_boot",
+      "notes": "Review J2 header placement, orientation, and accessibility.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\reset_boot.png",
+      "rect": {
+        "height": 12.746736,
+        "width": 18.149824000000002,
+        "x": 38.89248,
+        "y": 0.0
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\reset_boot.svg",
+      "title": "Programming Header",
+      "unannotated_refs": [],
+      "visible_text_count": 4
+    },
+    {
+      "field_risks": [],
+      "name": "leds",
+      "notes": "Review D3/D4 LED orientation and associated resistors.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\leds.png",
+      "rect": {
+        "height": 9.205976000000001,
+        "width": 23.335488,
+        "x": 23.335488,
+        "y": 0.0
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\leds.svg",
+      "title": "LED Area",
+      "unannotated_refs": [],
+      "visible_text_count": 5
+    },
+    {
+      "field_risks": [],
+      "name": "test_pads",
+      "notes": "The sample uses J2 rather than discrete test pads.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\test_pads.png",
+      "rect": {
+        "height": 13.808964000000001,
+        "width": 19.44624,
+        "x": 37.596064,
+        "y": 0.0
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\test_pads.svg",
+      "title": "Programming Access Points",
+      "unannotated_refs": [],
+      "visible_text_count": 4
+    },
+    {
+      "field_risks": [],
+      "name": "mounting_holes",
+      "notes": "Review whole board for intentional absence of mounting holes.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\mounting_holes.png",
+      "rect": {
+        "height": 17.7038,
+        "width": 64.8208,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\mounting_holes.svg",
+      "title": "Mounting Hole Absence Review",
+      "unannotated_refs": [],
+      "visible_text_count": 12
+    },
+    {
+      "field_risks": [],
+      "name": "mechanical_notes",
+      "notes": "Review board outline, connector edge relationship, and silkscreen readability.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\mechanical_notes.png",
+      "rect": {
+        "height": 17.7038,
+        "width": 64.8208,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops\\mechanical_notes.svg",
+      "title": "Whole Board Mechanical",
+      "unannotated_refs": [],
+      "visible_text_count": 12
+    }
+  ],
+  "blocks_with_field_risks": 0,
+  "blocks_with_unannotated_refs": 0,
+  "config_created": false,
+  "config_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\visual_blocks.json",
+  "crop_count": 13,
+  "crops_dir": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\crops",
+  "full_png": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\attiny85_top_NOT_FINAL.png",
+  "generated_at": "2026-05-03T15:01:53",
+  "missing_default_blocks": [],
+  "png_count": 13,
+  "renderer_status": "browser renderer completed",
+  "review_output": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\reports\\PCB_CLOSE_UP_REVIEW.md",
+  "source_svg": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\pcb_visual\\attiny85_top_NOT_FINAL.svg",
+  "status": "PASS",
+  "text_items_found": 12
+}

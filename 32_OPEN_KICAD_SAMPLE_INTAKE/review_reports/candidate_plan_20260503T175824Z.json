@@ -1,0 +1,13 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T17:58:24.564253+00:00",
+  "input": null,
+  "candidate_count": 0,
+  "candidates": [],
+  "safety": {
+    "downloaded": false,
+    "cloned": false,
+    "scraped": false,
+    "public_bundle_allowed": false
+  }
+}

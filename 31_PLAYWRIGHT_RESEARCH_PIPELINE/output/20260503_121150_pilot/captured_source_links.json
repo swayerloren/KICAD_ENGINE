@@ -1,0 +1,51 @@
+{
+  "run_id": "20260503_121150_pilot",
+  "status": "SOURCE_LINK_ONLY",
+  "live_capture_status": "BLOCKED_PLAYWRIGHT_NOT_AVAILABLE",
+  "retrieved_at": "2026-05-03T16:11:50Z",
+  "pdfs_downloaded": false,
+  "credentials_used": false,
+  "screenshots_captured": 0,
+  "records": [
+    {
+      "part_number": "STM32F103C8T6",
+      "vendor": "STMicro",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
+      "source_type": "OFFICIAL_MANUFACTURER_PAGE",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "notes": "Official ST product page candidate. No live browser capture was run because Playwright is not installed."
+    },
+    {
+      "part_number": "ESP32-S3-WROOM-1",
+      "vendor": "Espressif",
+      "source_url": "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+      "source_type": "OFFICIAL_MANUFACTURER_PAGE",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "notes": "Official Espressif module page candidate. No live browser capture was run because Playwright is not installed."
+    },
+    {
+      "part_number": "MCP2562FD",
+      "vendor": "Microchip",
+      "source_url": "https://www.microchip.com/en-us/product/MCP2562FD",
+      "source_type": "OFFICIAL_MANUFACTURER_PAGE",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "notes": "Official Microchip product page candidate. No live browser capture was run because Playwright is not installed."
+    },
+    {
+      "part_number": "AP63203",
+      "vendor": "Diodes Inc",
+      "source_url": "https://www.diodes.com/part/view/AP63203",
+      "source_type": "OFFICIAL_MANUFACTURER_PAGE",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "notes": "Official Diodes Inc product page candidate. No live browser capture was run because Playwright is not installed."
+    },
+    {
+      "part_number": "USB-C 16-pin receptacle generic",
+      "vendor": "Generic",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+      "source_type": "OFFICIAL_KICAD_LIBRARY_PAGE",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "notes": "Official KiCad footprint library folder candidate. Generic connector footprints remain unverified until matched to an exact manufacturer drawing."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-03T09:47:30",
+  "matches": [
+    {
+      "manufacturer_part_number": "EXAMPLE-MPN",
+      "supplier": "EXAMPLE_SUPPLIER",
+      "supplier_sku": "EXAMPLE-SKU",
+      "component_database_matches": [],
+      "match_status": "NO_MATCH_FOUND",
+      "verification_status": "UNVERIFIED"
+    }
+  ]
+}

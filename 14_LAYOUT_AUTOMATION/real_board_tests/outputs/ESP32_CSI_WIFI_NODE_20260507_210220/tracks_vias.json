@@ -1,0 +1,622 @@
+{
+  "board_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\sample_inputs\\ESP32_CSI_WIFI_NODE_20260507_210220\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "not_extracted": [
+    "per-net ratsnest extraction not implemented; only total unconnected count is extracted",
+    "zone polygon outlines not extracted"
+  ],
+  "project": "ESP32_CSI_WIFI_NODE",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "trace_group_count": 6,
+    "track_count": 24,
+    "via_count": 2
+  },
+  "tool": "extract_kicad_tracks_vias",
+  "traces": [
+    {
+      "critical": false,
+      "id": "trace:+3V3",
+      "net": "+3V3",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 38.475,
+          "x2": 42.0,
+          "y1": 66.55,
+          "y2": 63.025
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 27.863,
+          "x2": 26.113,
+          "y1": 68.55,
+          "y2": 66.8
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 38.475,
+          "x2": 38.475,
+          "y1": 66.55,
+          "y2": 69.5
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 42.0,
+          "x2": 48.0,
+          "y1": 63.025,
+          "y2": 63.025
+        },
+        {
+          "layer": "B.Cu",
+          "width_mm": 0.5,
+          "x1": 26.113,
+          "x2": 38.475,
+          "y1": 66.8,
+          "y2": 66.55
+        }
+      ],
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED"
+    },
+    {
+      "critical": false,
+      "id": "trace:/+5V_FUSED",
+      "net": "/+5V_FUSED",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 16.9,
+          "x2": 22.062,
+          "y1": 78.0,
+          "y2": 78.0
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 16.399999,
+          "x2": 16.9,
+          "y1": 77.5,
+          "y2": 78.0
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:/+5V_IN",
+      "net": "/+5V_IN",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 11.8,
+          "x2": 11.8,
+          "y1": 84.6,
+          "y2": 79.3
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 14.0,
+          "x2": 11.8,
+          "y1": 86.8,
+          "y2": 84.6
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 11.8,
+          "x2": 13.6,
+          "y1": 79.3,
+          "y2": 77.5
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:/+5V_PROTECTED",
+      "net": "/+5V_PROTECTED",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 17.5,
+          "x2": 14.0,
+          "y1": 71.0,
+          "y2": 67.5
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 23.938,
+          "x2": 23.938,
+          "y1": 77.05,
+          "y2": 75.463
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 22.475,
+          "x2": 21.5,
+          "y1": 70.025,
+          "y2": 71.0
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 23.938,
+          "x2": 22.475,
+          "y1": 75.463,
+          "y2": 74.0
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 22.475,
+          "x2": 21.95,
+          "y1": 70.025,
+          "y2": 69.5
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 22.475,
+          "x2": 22.475,
+          "y1": 74.0,
+          "y2": 70.025
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 26.913,
+          "x2": 27.863,
+          "y1": 69.5,
+          "y2": 70.45
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 27.863,
+          "x2": 27.863,
+          "y1": 70.45,
+          "y2": 69.5
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 21.95,
+          "x2": 26.913,
+          "y1": 69.5,
+          "y2": 69.5
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.75,
+          "x1": 21.5,
+          "x2": 17.5,
+          "y1": 71.0,
+          "y2": 71.0
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:/BUCK_BST",
+      "net": "/BUCK_BST",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 30.737,
+          "x2": 32.4,
+          "y1": 67.95,
+          "y2": 67.95
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.25,
+          "x1": 30.137,
+          "x2": 30.737,
+          "y1": 68.55,
+          "y2": 67.95
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    },
+    {
+      "critical": false,
+      "id": "trace:/BUCK_SW",
+      "net": "/BUCK_SW",
+      "notes": "Trace grouping is derived from PCB_TRACK and PCB_VIA items on the board.",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segments": [
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 32.4,
+          "x2": 35.525,
+          "y1": 69.5,
+          "y2": 69.5
+        },
+        {
+          "layer": "F.Cu",
+          "width_mm": 0.5,
+          "x1": 30.137,
+          "x2": 32.4,
+          "y1": 69.5,
+          "y2": 69.5
+        }
+      ],
+      "via_count": 0,
+      "via_reason": ""
+    }
+  ],
+  "tracks": [
+    {
+      "net": "+3V3",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 38.475,
+        "x2": 42.0,
+        "y1": 66.55,
+        "y2": 63.025
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "+3V3",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 27.863,
+        "x2": 26.113,
+        "y1": 68.55,
+        "y2": 66.8
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "+3V3",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 38.475,
+        "x2": 38.475,
+        "y1": 66.55,
+        "y2": 69.5
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "+3V3",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 42.0,
+        "x2": 48.0,
+        "y1": 63.025,
+        "y2": 63.025
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "+3V3",
+      "net_class": "Default",
+      "segment": {
+        "layer": "B.Cu",
+        "width_mm": 0.5,
+        "x1": 26.113,
+        "x2": 38.475,
+        "y1": 66.8,
+        "y2": 66.55
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_FUSED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 16.9,
+        "x2": 22.062,
+        "y1": 78.0,
+        "y2": 78.0
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_FUSED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 16.399999,
+        "x2": 16.9,
+        "y1": 77.5,
+        "y2": 78.0
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_IN",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 11.8,
+        "x2": 11.8,
+        "y1": 84.6,
+        "y2": 79.3
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_IN",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 14.0,
+        "x2": 11.8,
+        "y1": 86.8,
+        "y2": 84.6
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_IN",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 11.8,
+        "x2": 13.6,
+        "y1": 79.3,
+        "y2": 77.5
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 17.5,
+        "x2": 14.0,
+        "y1": 71.0,
+        "y2": 67.5
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 23.938,
+        "x2": 23.938,
+        "y1": 77.05,
+        "y2": 75.463
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 22.475,
+        "x2": 21.5,
+        "y1": 70.025,
+        "y2": 71.0
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 23.938,
+        "x2": 22.475,
+        "y1": 75.463,
+        "y2": 74.0
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 22.475,
+        "x2": 21.95,
+        "y1": 70.025,
+        "y2": 69.5
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 22.475,
+        "x2": 22.475,
+        "y1": 74.0,
+        "y2": 70.025
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 26.913,
+        "x2": 27.863,
+        "y1": 69.5,
+        "y2": 70.45
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 27.863,
+        "x2": 27.863,
+        "y1": 70.45,
+        "y2": 69.5
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 21.95,
+        "x2": 26.913,
+        "y1": 69.5,
+        "y2": 69.5
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.75,
+        "x1": 21.5,
+        "x2": 17.5,
+        "y1": 71.0,
+        "y2": 71.0
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/BUCK_BST",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 30.737,
+        "x2": 32.4,
+        "y1": 67.95,
+        "y2": 67.95
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/BUCK_BST",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 30.137,
+        "x2": 30.737,
+        "y1": 68.55,
+        "y2": 67.95
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/BUCK_SW",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 32.4,
+        "x2": 35.525,
+        "y1": 69.5,
+        "y2": 69.5
+      },
+      "type": "PCB_TRACK"
+    },
+    {
+      "net": "/BUCK_SW",
+      "net_class": "Default",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.5,
+        "x1": 30.137,
+        "x2": 32.4,
+        "y1": 69.5,
+        "y2": 69.5
+      },
+      "type": "PCB_TRACK"
+    }
+  ],
+  "vias": [
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "net": "+3V3",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 26.113,
+      "y_mm": 66.8
+    },
+    {
+      "bottom_layer": "B.Cu",
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "net": "+3V3",
+      "net_class": "Default",
+      "reason": "NOT_EXTRACTED",
+      "top_layer": "F.Cu",
+      "type": "PCB_VIA",
+      "x_mm": 38.475,
+      "y_mm": 66.55
+    }
+  ]
+}

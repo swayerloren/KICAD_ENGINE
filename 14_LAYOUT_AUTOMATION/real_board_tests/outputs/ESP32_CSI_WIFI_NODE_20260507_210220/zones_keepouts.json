@@ -1,0 +1,196 @@
+{
+  "board_outline": {
+    "allowed_signal_layers": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "height_mm": 95.0,
+    "notes": "Board outline width and height are derived from Edge.Cuts geometry bounding extents.",
+    "segments": [
+      {
+        "bbox_mm": {
+          "height_mm": 95.1,
+          "width_mm": 0.1,
+          "xmax": 0.05,
+          "xmin": -0.05,
+          "ymax": 95.05,
+          "ymin": -0.05
+        },
+        "end_mm": {
+          "x_mm": 0.0,
+          "y_mm": 0.0
+        },
+        "layer": "Edge.Cuts",
+        "shape": "Line",
+        "start_mm": {
+          "x_mm": 0.0,
+          "y_mm": 95.0
+        }
+      },
+      {
+        "bbox_mm": {
+          "height_mm": 0.1,
+          "width_mm": 60.1,
+          "xmax": 60.05,
+          "xmin": -0.05,
+          "ymax": 0.05,
+          "ymin": -0.05
+        },
+        "end_mm": {
+          "x_mm": 60.0,
+          "y_mm": 0.0
+        },
+        "layer": "Edge.Cuts",
+        "shape": "Line",
+        "start_mm": {
+          "x_mm": 0.0,
+          "y_mm": 0.0
+        }
+      },
+      {
+        "bbox_mm": {
+          "height_mm": 0.1,
+          "width_mm": 60.1,
+          "xmax": 60.05,
+          "xmin": -0.05,
+          "ymax": 95.05,
+          "ymin": 94.95
+        },
+        "end_mm": {
+          "x_mm": 0.0,
+          "y_mm": 95.0
+        },
+        "layer": "Edge.Cuts",
+        "shape": "Line",
+        "start_mm": {
+          "x_mm": 60.0,
+          "y_mm": 95.0
+        }
+      },
+      {
+        "bbox_mm": {
+          "height_mm": 95.1,
+          "width_mm": 0.1,
+          "xmax": 60.05,
+          "xmin": 59.95,
+          "ymax": 95.05,
+          "ymin": -0.05
+        },
+        "end_mm": {
+          "x_mm": 60.0,
+          "y_mm": 95.0
+        },
+        "layer": "Edge.Cuts",
+        "shape": "Line",
+        "start_mm": {
+          "x_mm": 60.0,
+          "y_mm": 0.0
+        }
+      }
+    ],
+    "shape": "EDGE_CUTS_POLYLINE",
+    "width_mm": 60.0,
+    "xmax": 60.0,
+    "xmin": 0.0,
+    "ymax": 95.0,
+    "ymin": 0.0
+  },
+  "board_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\sample_inputs\\ESP32_CSI_WIFI_NODE_20260507_210220\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "edge_cuts": [
+    {
+      "bbox_mm": {
+        "height_mm": 95.1,
+        "width_mm": 0.1,
+        "xmax": 0.05,
+        "xmin": -0.05,
+        "ymax": 95.05,
+        "ymin": -0.05
+      },
+      "end_mm": {
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      },
+      "layer": "Edge.Cuts",
+      "shape": "Line",
+      "start_mm": {
+        "x_mm": 0.0,
+        "y_mm": 95.0
+      }
+    },
+    {
+      "bbox_mm": {
+        "height_mm": 0.1,
+        "width_mm": 60.1,
+        "xmax": 60.05,
+        "xmin": -0.05,
+        "ymax": 0.05,
+        "ymin": -0.05
+      },
+      "end_mm": {
+        "x_mm": 60.0,
+        "y_mm": 0.0
+      },
+      "layer": "Edge.Cuts",
+      "shape": "Line",
+      "start_mm": {
+        "x_mm": 0.0,
+        "y_mm": 0.0
+      }
+    },
+    {
+      "bbox_mm": {
+        "height_mm": 0.1,
+        "width_mm": 60.1,
+        "xmax": 60.05,
+        "xmin": -0.05,
+        "ymax": 95.05,
+        "ymin": 94.95
+      },
+      "end_mm": {
+        "x_mm": 0.0,
+        "y_mm": 95.0
+      },
+      "layer": "Edge.Cuts",
+      "shape": "Line",
+      "start_mm": {
+        "x_mm": 60.0,
+        "y_mm": 95.0
+      }
+    },
+    {
+      "bbox_mm": {
+        "height_mm": 95.1,
+        "width_mm": 0.1,
+        "xmax": 60.05,
+        "xmin": 59.95,
+        "ymax": 95.05,
+        "ymin": -0.05
+      },
+      "end_mm": {
+        "x_mm": 60.0,
+        "y_mm": 95.0
+      },
+      "layer": "Edge.Cuts",
+      "shape": "Line",
+      "start_mm": {
+        "x_mm": 60.0,
+        "y_mm": 0.0
+      }
+    }
+  ],
+  "keepouts": [],
+  "not_extracted": [
+    "per-net ratsnest extraction not implemented; only total unconnected count is extracted",
+    "zone polygon outlines not extracted"
+  ],
+  "project": "ESP32_CSI_WIFI_NODE",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "edge_cut_count": 4,
+    "keepout_count": 0,
+    "zone_count": 0
+  },
+  "tool": "extract_kicad_zones_keepouts",
+  "zones": []
+}

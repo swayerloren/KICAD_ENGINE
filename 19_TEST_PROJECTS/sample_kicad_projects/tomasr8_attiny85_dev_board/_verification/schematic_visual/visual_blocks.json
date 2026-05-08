@@ -1,0 +1,150 @@
+{
+  "schema": "kicad_engine.schematic_visual_blocks.v1",
+  "coordinate_system": "normalized",
+  "notes": "ATtiny85 golden-path sample review windows. Default gate block names are retained for tool compatibility, but titles and coordinates are mapped to this USB-A ATtiny85 board.",
+  "blocks": [
+    {
+      "name": "input_power",
+      "title": "USB-A Power Input",
+      "units": "normalized",
+      "x": 0.39,
+      "y": 0.30,
+      "width": 0.16,
+      "height": 0.18,
+      "review_required": true,
+      "notes": "Review USB-A VBUS/GND input and shield policy. Shield remains ERC-blocked until accepted or connected."
+    },
+    {
+      "name": "reverse_polarity",
+      "title": "Input Protection Presence",
+      "units": "normalized",
+      "x": 0.39,
+      "y": 0.40,
+      "width": 0.18,
+      "height": 0.16,
+      "review_required": true,
+      "notes": "This sample has no explicit reverse-polarity circuit. Treat as not applicable for demo unless a human requires it."
+    },
+    {
+      "name": "tvs_input_cap",
+      "title": "USB Zener Clamp Area",
+      "units": "normalized",
+      "x": 0.46,
+      "y": 0.39,
+      "width": 0.13,
+      "height": 0.14,
+      "review_required": true,
+      "notes": "Review D1/D2 zener clamp and USB data-line protection intent. Exact diode MPN is not verified."
+    },
+    {
+      "name": "buck_regulator",
+      "title": "AMS1117 Regulator Area",
+      "units": "normalized",
+      "x": 0.82,
+      "y": 0.22,
+      "width": 0.13,
+      "height": 0.15,
+      "review_required": true,
+      "notes": "Review U2 AMS1117 schematic and note that package/source verification is blocked for human review."
+    },
+    {
+      "name": "esp32_module",
+      "title": "ATtiny85 MCU Area",
+      "units": "normalized",
+      "x": 0.62,
+      "y": 0.34,
+      "width": 0.13,
+      "height": 0.16,
+      "review_required": true,
+      "notes": "Review U1 ATtiny85 minimum wiring. Name retained for pipeline compatibility."
+    },
+    {
+      "name": "usb_c_connector",
+      "title": "USB-A Connector",
+      "units": "normalized",
+      "x": 0.40,
+      "y": 0.31,
+      "width": 0.13,
+      "height": 0.19,
+      "review_required": true,
+      "notes": "Review J1 USB-A custom Molex footprint assignment and pin/shield handling. Name retained for pipeline compatibility."
+    },
+    {
+      "name": "usb_esd",
+      "title": "USB Data Protection",
+      "units": "normalized",
+      "x": 0.47,
+      "y": 0.40,
+      "width": 0.12,
+      "height": 0.14,
+      "review_required": true,
+      "notes": "Review USB data protection topology. Exact protection diode datasheets are not verified."
+    },
+    {
+      "name": "cc_resistors",
+      "title": "USB Data Resistors",
+      "units": "normalized",
+      "x": 0.49,
+      "y": 0.30,
+      "width": 0.14,
+      "height": 0.14,
+      "review_required": true,
+      "notes": "Review R2/R3 USB data resistor area. Name retained for pipeline compatibility."
+    },
+    {
+      "name": "reset_boot",
+      "title": "Programming Header And Reset",
+      "units": "normalized",
+      "x": 0.74,
+      "y": 0.32,
+      "width": 0.13,
+      "height": 0.16,
+      "review_required": true,
+      "notes": "Review J2 header pinout and reset/programming access. Connector pinout remains human-review-blocked."
+    },
+    {
+      "name": "leds",
+      "title": "Status LEDs",
+      "units": "normalized",
+      "x": 0.55,
+      "y": 0.50,
+      "width": 0.33,
+      "height": 0.15,
+      "review_required": true,
+      "notes": "Review D3/D4 and R4/R5 LED areas."
+    },
+    {
+      "name": "test_pads",
+      "title": "Accessible Test And Programming Points",
+      "units": "normalized",
+      "x": 0.73,
+      "y": 0.31,
+      "width": 0.15,
+      "height": 0.19,
+      "review_required": true,
+      "notes": "The sample uses the programming header rather than discrete test pads."
+    },
+    {
+      "name": "mounting_holes",
+      "title": "Mechanical Mounting Review",
+      "units": "normalized",
+      "x": 0.52,
+      "y": 0.34,
+      "width": 0.40,
+      "height": 0.34,
+      "review_required": true,
+      "notes": "No explicit schematic mounting-hole symbols were detected. PCB visual review must confirm whether holes are intentionally absent."
+    },
+    {
+      "name": "mechanical_notes",
+      "title": "Schematic Notes And Title Area",
+      "units": "normalized",
+      "x": 0.63,
+      "y": 0.84,
+      "width": 0.33,
+      "height": 0.12,
+      "review_required": true,
+      "notes": "Review title block/source context. This does not replace license/attribution records."
+    }
+  ]
+}

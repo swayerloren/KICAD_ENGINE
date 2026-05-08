@@ -1,0 +1,57 @@
+{
+  "status": "FILE_AUDIT_PASS",
+  "generated_at": "2026-05-03T18:15:54.933311+00:00",
+  "sample_id": "m4a1x_tps5430_original_populated",
+  "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\m4a1x_tps5430",
+  "errors": [],
+  "counts": {
+    "kicad_pro": 1,
+    "kicad_sch": 1,
+    "kicad_pcb": 1,
+    "kicad_sym": 0,
+    "kicad_mod": 3,
+    "gerber_like": 2,
+    "drill": 2,
+    "pick_and_place": 0,
+    "pdf": 3,
+    "step": 0
+  },
+  "examples": {
+    "kicad_pro": [
+      "TPS5430.kicad_pro"
+    ],
+    "kicad_sch": [
+      "TPS5430.kicad_sch"
+    ],
+    "kicad_pcb": [
+      "TPS5430.kicad_pcb"
+    ],
+    "kicad_sym": [],
+    "kicad_mod": [
+      "lib\\footprints.pretty\\DC-005-5A-2.0-SMT.kicad_mod",
+      "lib\\footprints.pretty\\L_Sunlord_MWSA1004S_10x11.5x4mm.kicad_mod",
+      "lib\\footprints.pretty\\ToolingHole_1.152mm.kicad_mod"
+    ],
+    "gerber_like": [
+      "jlcpcb\\gerber\\TPS5430-NPTH-drl_map.gbr",
+      "jlcpcb\\gerber\\TPS5430-PTH-drl_map.gbr"
+    ],
+    "drill": [
+      "jlcpcb\\gerber\\TPS5430-NPTH.drl",
+      "jlcpcb\\gerber\\TPS5430-PTH.drl"
+    ],
+    "pick_and_place": [],
+    "pdf": [
+      "print\\TPS5430_bottom.pdf",
+      "print\\TPS5430_schematic.pdf",
+      "print\\TPS5430_top.pdf"
+    ],
+    "step": []
+  },
+  "license_files": [
+    "LICENSE"
+  ],
+  "has_kicad_source": true,
+  "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+  "human_review_required": true
+}

@@ -1,0 +1,1120 @@
+{
+  "symbols": [
+    {
+      "ref": "J1",
+      "lib_id": "Connector:Barrel_Jack",
+      "value": "JACK_5V",
+      "footprint": "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000004",
+      "xy": "24.13 41.91 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "J1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR04",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000008",
+      "xy": "36.83 39.37 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR04"
+        ]
+      ]
+    },
+    {
+      "ref": "F1",
+      "lib_id": "Device:Polyfuse",
+      "value": "PTC_1206",
+      "footprint": "Fuse:Fuse_1206_3216Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000009",
+      "xy": "52.07 44.45 90",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "F1"
+        ]
+      ]
+    },
+    {
+      "ref": "Q1",
+      "lib_id": "Device:Q_PMOS",
+      "value": "AO3401A_REV",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000012",
+      "xy": "80.01 44.45 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "Q1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR08",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000016",
+      "xy": "72.39 44.45 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR08"
+        ]
+      ]
+    },
+    {
+      "ref": "D3",
+      "lib_id": "Device:D_TVS",
+      "value": "TVS_NEEDS_REVIEW",
+      "footprint": "Diode_SMD:D_SMA",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000017",
+      "xy": "86.36 71.12 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "D3"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR09",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000019",
+      "xy": "78.74 71.12 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR09"
+        ]
+      ]
+    },
+    {
+      "ref": "C5",
+      "lib_id": "Device:C",
+      "value": "47uF_16V",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000020",
+      "xy": "134.62 55.88 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C5"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR019",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000022",
+      "xy": "134.62 52.07 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR019"
+        ]
+      ]
+    },
+    {
+      "ref": "U1",
+      "lib_id": "Regulator_Switching:AP63203WU",
+      "value": "AP63203_NEEDS_REVIEW",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000025",
+      "xy": "110.49 46.99 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "U1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR015",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000031",
+      "xy": "110.49 58.42 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR015"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR016",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000037",
+      "xy": "124.46 49.53 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR016"
+        ]
+      ]
+    },
+    {
+      "ref": "L1",
+      "lib_id": "Device:L",
+      "value": "3.9uH_REV",
+      "footprint": "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000038",
+      "xy": "157.48 49.53 90",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "L1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR022",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000040",
+      "xy": "161.29 49.53 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR022"
+        ]
+      ]
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "value": "10uF_IN",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000041",
+      "xy": "91.44 86.36 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C2"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR011",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000043",
+      "xy": "91.44 82.55 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR011"
+        ]
+      ]
+    },
+    {
+      "ref": "C7",
+      "lib_id": "Device:C",
+      "value": "22uF_OUT",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000044",
+      "xy": "171.45 66.04 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C7"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR024",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000045",
+      "xy": "171.45 69.85 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR024"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR023",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000046",
+      "xy": "171.45 62.23 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR023"
+        ]
+      ]
+    },
+    {
+      "ref": "C8",
+      "lib_id": "Device:C",
+      "value": "22uF_OUT",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000047",
+      "xy": "199.39 66.04 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C8"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR026",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000048",
+      "xy": "199.39 69.85 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR026"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR025",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000049",
+      "xy": "199.39 62.23 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR025"
+        ]
+      ]
+    },
+    {
+      "ref": "C6",
+      "lib_id": "Device:C",
+      "value": "100nF_CBST",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000050",
+      "xy": "147.32 34.29 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C6"
+        ]
+      ]
+    },
+    {
+      "ref": "U2",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1",
+      "value": "ESP32-S3-WROOM-1U",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000055",
+      "xy": "156.21 102.87 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "U2"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR020",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000057",
+      "xy": "156.21 71.12 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR020"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR021",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000059",
+      "xy": "156.21 134.62 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR021"
+        ]
+      ]
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "10uF_MOD",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000074",
+      "xy": "100.33 149.86 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C3"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR014",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000075",
+      "xy": "100.33 153.67 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR014"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR013",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000076",
+      "xy": "100.33 146.05 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR013"
+        ]
+      ]
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "value": "100nF_MOD",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000077",
+      "xy": "127 149.86 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C4"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR018",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000078",
+      "xy": "127 153.67 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR018"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR017",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000079",
+      "xy": "127 146.05 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR017"
+        ]
+      ]
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "10k_EN",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000111",
+      "xy": "35.56 92.71 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR02",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000112",
+      "xy": "35.56 96.52 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR02"
+        ]
+      ]
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C",
+      "value": "1uF_EN",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000114",
+      "xy": "62.23 88.9 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "C1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR06",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000116",
+      "xy": "62.23 85.09 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR06"
+        ]
+      ]
+    },
+    {
+      "ref": "SW2",
+      "lib_id": "Switch:SW_Push",
+      "value": "RESET_EN_REVIEW",
+      "footprint": "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000117",
+      "xy": "90.17 88.9 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "SW2"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR012",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000119",
+      "xy": "95.25 88.9 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR012"
+        ]
+      ]
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "value": "10k_BOOT",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000120",
+      "xy": "35.56 111.76 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R2"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR03",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000121",
+      "xy": "35.56 115.57 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR03"
+        ]
+      ]
+    },
+    {
+      "ref": "SW1",
+      "lib_id": "Switch:SW_Push",
+      "value": "BOOT_GPIO0_REVIEW",
+      "footprint": "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000123",
+      "xy": "74.93 107.95 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "SW1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR010",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000125",
+      "xy": "80.01 107.95 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR010"
+        ]
+      ]
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_14P",
+      "value": "USB-C_NEEDS_REVIEW",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000128",
+      "xy": "250.19 59.69 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "J2"
+        ]
+      ]
+    },
+    {
+      "ref": "R6",
+      "lib_id": "Device:R",
+      "value": "5.1k_CC1",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000141",
+      "xy": "278.13 80.01 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R6"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR031",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000143",
+      "xy": "278.13 76.2 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR031"
+        ]
+      ]
+    },
+    {
+      "ref": "R7",
+      "lib_id": "Device:R",
+      "value": "5.1k_CC2",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000144",
+      "xy": "299.72 80.01 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R7"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR033",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000146",
+      "xy": "299.72 76.2 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR033"
+        ]
+      ]
+    },
+    {
+      "ref": "U3",
+      "lib_id": "Power_Protection:TPD2EUSB30",
+      "value": "USB_ESD_REV",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000147",
+      "xy": "298.45 54.61 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "U3"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR032",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000150",
+      "xy": "298.45 68.58 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR032"
+        ]
+      ]
+    },
+    {
+      "ref": "R8",
+      "lib_id": "Device:R",
+      "value": "22R_D-",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000151",
+      "xy": "300.99 90.17 90",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R8"
+        ]
+      ]
+    },
+    {
+      "ref": "R9",
+      "lib_id": "Device:R",
+      "value": "22R_D+",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000154",
+      "xy": "300.99 102.87 90",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R9"
+        ]
+      ]
+    },
+    {
+      "ref": "R3",
+      "lib_id": "Device:R",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000158",
+      "xy": "45.72 138.43 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R3"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR05",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000159",
+      "xy": "45.72 142.24 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR05"
+        ]
+      ]
+    },
+    {
+      "ref": "D1",
+      "lib_id": "Device:LED",
+      "value": "PWR_LED",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000160",
+      "xy": "31.75 134.62 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "D1"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR01",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000161",
+      "xy": "27.94 134.62 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR01"
+        ]
+      ]
+    },
+    {
+      "ref": "R4",
+      "lib_id": "Device:R",
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000162",
+      "xy": "81.28 138.43 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R4"
+        ]
+      ]
+    },
+    {
+      "ref": "D2",
+      "lib_id": "Device:LED",
+      "value": "STATUS_LED",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000164",
+      "xy": "67.31 134.62 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "D2"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR07",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000165",
+      "xy": "63.5 134.62 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR07"
+        ]
+      ]
+    },
+    {
+      "ref": "TP1",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_5V",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000167",
+      "xy": "204.47 118.11 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP1"
+        ]
+      ]
+    },
+    {
+      "ref": "TP3",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_3V3",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000169",
+      "xy": "219.71 118.11 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP3"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR027",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000170",
+      "xy": "219.71 118.11 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR027"
+        ]
+      ]
+    },
+    {
+      "ref": "TP5",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_GND",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000171",
+      "xy": "234.95 118.11 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP5"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR029",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000172",
+      "xy": "234.95 118.11 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR029"
+        ]
+      ]
+    },
+    {
+      "ref": "TP2",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_EN",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000173",
+      "xy": "204.47 132.08 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP2"
+        ]
+      ]
+    },
+    {
+      "ref": "TP4",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_BOOT",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000175",
+      "xy": "219.71 132.08 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP4"
+        ]
+      ]
+    },
+    {
+      "ref": "TP6",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_U0TXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000177",
+      "xy": "234.95 132.08 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP6"
+        ]
+      ]
+    },
+    {
+      "ref": "TP7",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_U0RXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000179",
+      "xy": "250.19 132.08 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP7"
+        ]
+      ]
+    },
+    {
+      "ref": "TP8",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_D+_REV",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000181",
+      "xy": "265.43 132.08 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP8"
+        ]
+      ]
+    },
+    {
+      "ref": "TP9",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_D-_REV",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000183",
+      "xy": "279.4 132.08 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "TP9"
+        ]
+      ]
+    },
+    {
+      "ref": "MH1",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000187",
+      "xy": "27.94 171.45 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "MH1"
+        ]
+      ]
+    },
+    {
+      "ref": "MH2",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000188",
+      "xy": "58.42 171.45 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "MH2"
+        ]
+      ]
+    },
+    {
+      "ref": "MH3",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000189",
+      "xy": "87.63 171.45 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "MH3"
+        ]
+      ]
+    },
+    {
+      "ref": "MH4",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000190",
+      "xy": "118.11 171.45 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "MH4"
+        ]
+      ]
+    },
+    {
+      "ref": "R5",
+      "lib_id": "Device:R",
+      "value": "0R_DNI",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000195",
+      "xy": "236.22 36.83 90",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "R5"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR028",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000197",
+      "xy": "232.41 36.83 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR028"
+        ]
+      ]
+    },
+    {
+      "ref": "#PWR030",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000201",
+      "xy": "250.19 86.36 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#PWR030"
+        ]
+      ]
+    },
+    {
+      "ref": "#FLG01",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000212",
+      "xy": "36.83 39.37 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#FLG01"
+        ]
+      ]
+    },
+    {
+      "ref": "#FLG02",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000213",
+      "xy": "82.55 49.53 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#FLG02"
+        ]
+      ]
+    },
+    {
+      "ref": "#FLG03",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "footprint": "",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000214",
+      "xy": "161.29 49.53 0",
+      "instance_refs": [
+        [
+          "/aaaaaaaa-0000-0000-0000-000000000001",
+          "#FLG03"
+        ]
+      ]
+    }
+  ],
+  "summary": {
+    "symbol_count": 79,
+    "physical_count": 43,
+    "pwr_count": 33,
+    "flg_count": 3,
+    "ref_question_count": 0,
+    "instance_question_count": 0,
+    "duplicates": {},
+    "scan_hits": {}
+  }
+}

@@ -1,0 +1,56 @@
+name: Build Linux Installer
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "installer/**"
+      - "setup/linux/**"
+      - "health_check.py"
+      - "QUICKSTART_LINUX.md"
+      - ".github/workflows/build-linux-installer.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-linux:
+    name: Build Linux AppImage and DEB
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: "installer/package-lock.json"
+
+      - name: Build clean payload
+        run: |
+          python installer/payload/build_payload.py --source-root . --payload-root installer/payload --max-file-size-mb 5
+          python health_check.py --repo-root installer/payload/repo-template --no-write
+
+      - name: Install installer dependencies
+        working-directory: installer
+        run: npm ci
+
+      - name: Build Linux artifacts
+        working-directory: installer
+        run: npm run build:linux
+
+      - name: Upload Linux artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-engine-linux-installer
+          path: |
+            installer/build/linux/**
+          if-no-files-found: error

@@ -1,0 +1,121 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "JACK_5V",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "J1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "AO3401A_REV",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "Q1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "TVS_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "D1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "AP63203_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "U1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "3.9uH_REV",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "L1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "RESET_EN_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "SW1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "BOOT_GPIO0_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "SW2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "USB-C_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "J2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "USB_ESD_REV",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "U3",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "PWR_LED",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "D2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "STATUS_LED",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "D3",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "REVIEW TABLE - unresolved items stay blocked for PCB update",
+      "message": "Unresolved review marker present in schematic note: BLOCKED.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "Package review: J1 J2 Q1 U1 U2 U3 L1 D1 and all connectors remain unverified",
+      "message": "Unresolved review marker present in schematic note: UNVERIFIED.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "PCB update remains blocked until schematic-to-PCB gate is PASS",
+      "message": "Unresolved review marker present in schematic note: BLOCKED.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "REVIEW_MARKERS_REQUIRE_GATE_BLOCKER",
+      "evidence": "14",
+      "message": "Any unresolved review marker must block schematic-to-PCB gate until resolved or explicitly accepted by human review.",
+      "reference": "",
+      "status": "WARN"
+    }
+  ],
+  "generated_at": "2026-05-06T17:15:16",
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 14,
+      "PASS": 0,
+      "WARN": 1
+    },
+    "result": "FAIL"
+  }
+}

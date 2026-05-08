@@ -1,0 +1,269 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:22:59.463Z",
+  "target_count": 12,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "STMicro",
+      "family": "STM32F1",
+      "part_number": "STM32F103C8T6",
+      "category": "microcontroller",
+      "search_terms": "STM32F103C8T6 official product page datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package drawing and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32F4",
+      "part_number": "STM32F401CCU6",
+      "category": "microcontroller",
+      "search_terms": "STM32F401CCU6 official product page datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f401cc.html",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package drawing and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32F4",
+      "part_number": "STM32F411CEU6",
+      "category": "microcontroller",
+      "search_terms": "STM32F411CEU6 official product page datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f411ce.html",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package drawing and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32F4",
+      "part_number": "STM32F405RGT6",
+      "category": "microcontroller",
+      "search_terms": "STM32F405RGT6 official product page datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f405rg.html",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package drawing and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32G0",
+      "part_number": "STM32G030F6P6",
+      "category": "microcontroller",
+      "search_terms": "STM32G030F6P6 official product page datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package drawing and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32G4",
+      "part_number": "STM32G431CBT6",
+      "category": "microcontroller",
+      "search_terms": "STM32G431CBT6 official product page datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32g431cb.html",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package drawing and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32H7",
+      "part_number": "STM32H743VIT6",
+      "category": "microcontroller",
+      "search_terms": "STM32H743VIT6 official product page datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32h743vi.html",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package drawing and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32U5",
+      "part_number": "STM32U5 representative",
+      "category": "microcontroller",
+      "search_terms": "STM32U5 official product selector datasheet package KiCad footprint",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html",
+      "notes": "SOURCE_LINK_ONLY family-level target; exact part must be selected before footprint review.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "NUCLEO",
+      "part_number": "NUCLEO-F103RB",
+      "category": "dev_board",
+      "search_terms": "NUCLEO-F103RB official board page schematic user manual",
+      "preferred_sources": "stmicro",
+      "required_outputs": "dev_board_record;schematic_link;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/evaluation-tools/nucleo-f103rb.html",
+      "notes": "SOURCE_LINK_ONLY candidate; board schematic/license and revision remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "dev_board_record",
+        "schematic_link",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "NUCLEO",
+      "part_number": "NUCLEO-F401RE",
+      "category": "dev_board",
+      "search_terms": "NUCLEO-F401RE official board page schematic user manual",
+      "preferred_sources": "stmicro",
+      "required_outputs": "dev_board_record;schematic_link;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/evaluation-tools/nucleo-f401re.html",
+      "notes": "SOURCE_LINK_ONLY candidate; board schematic/license and revision remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "dev_board_record",
+        "schematic_link",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "NUCLEO",
+      "part_number": "NUCLEO-G431RB",
+      "category": "dev_board",
+      "search_terms": "NUCLEO-G431RB official board page schematic user manual",
+      "preferred_sources": "stmicro",
+      "required_outputs": "dev_board_record;schematic_link;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/evaluation-tools/nucleo-g431rb.html",
+      "notes": "SOURCE_LINK_ONLY candidate; board schematic/license and revision remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "dev_board_record",
+        "schematic_link",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "NUCLEO",
+      "part_number": "NUCLEO-H743ZI",
+      "category": "dev_board",
+      "search_terms": "NUCLEO-H743ZI official board page schematic user manual",
+      "preferred_sources": "stmicro",
+      "required_outputs": "dev_board_record;schematic_link;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.st.com/en/evaluation-tools/nucleo-h743zi.html",
+      "notes": "SOURCE_LINK_ONLY candidate; board schematic/license and revision remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_002_stm32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "dev_board_record",
+        "schematic_link",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

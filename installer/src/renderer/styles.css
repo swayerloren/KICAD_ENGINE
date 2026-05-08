@@ -1,0 +1,198 @@
+:root {
+  color-scheme: light;
+  --bg: #f5f7fa;
+  --panel: #ffffff;
+  --ink: #18212f;
+  --muted: #5b6676;
+  --line: #d8dee8;
+  --blue: #2366d1;
+  --blue-dark: #174b9a;
+  --green: #13795b;
+  --amber: #9a6700;
+  --red: #b42318;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.app-shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p,
+span,
+td,
+th,
+input,
+button {
+  font-size: 14px;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.section-title,
+.path-row,
+.actions-panel,
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-title {
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+
+.path-row input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 10px 12px;
+}
+
+button {
+  border: 1px solid var(--blue);
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: #ffffff;
+  background: var(--blue);
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--blue-dark);
+}
+
+button:disabled {
+  border-color: #aab3c0;
+  background: #aab3c0;
+  cursor: default;
+}
+
+.small-button {
+  padding: 7px 10px;
+  font-size: 13px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 8px;
+  vertical-align: top;
+}
+
+th {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.status {
+  display: inline-block;
+  min-width: 72px;
+  border-radius: 999px;
+  padding: 4px 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.status-found {
+  color: var(--green);
+  background: #e8f5ef;
+}
+
+.status-missing {
+  color: var(--red);
+  background: #fdeceb;
+}
+
+.status-warn {
+  color: var(--amber);
+  background: #fff4d6;
+}
+
+.manual {
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.log-panel pre {
+  min-height: 170px;
+  max-height: 260px;
+  overflow: auto;
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #111827;
+  color: #e5e7eb;
+  font: 13px/1.5 Consolas, "SFMono-Regular", Menlo, monospace;
+}
+
+@media (max-width: 720px) {
+  .app-shell {
+    padding: 14px;
+  }
+
+  .topbar,
+  .path-row,
+  .actions-panel {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}

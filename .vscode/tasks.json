@@ -1,0 +1,194 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "KiCad Engine: Run Health Check",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/health_check.ps1",
+        "-RepoRoot",
+        "${workspaceFolder}"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Audit Installed KiCad App",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/03_TOOLS/scripts/kicad_app_audit/audit_kicad_windows.ps1",
+        "-OutputRoot",
+        "${workspaceFolder}/05_OUTPUTS/kicad_app_audit"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Build Datasheet Index",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/03_TOOLS/scripts/datasheets/build_datasheet_index.py",
+        "${workspaceFolder}/06_DATASHEETS/00_INDEX/source_lists",
+        "--output",
+        "${workspaceFolder}/05_OUTPUTS/datasheet_research/datasheet_source_index.md"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Build Component Database Index",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "$root='${workspaceFolder}'; $outDir=Join-Path $root '05_OUTPUTS/component_database'; New-Item -ItemType Directory -Force -Path $outDir | Out-Null; $files=@(Get-ChildItem -Path (Join-Path $root '08_COMPONENT_DATABASE') -Recurse -File -Include *.md,*.json -ErrorAction SilentlyContinue | Sort-Object FullName); $stamp=Get-Date -Format o; $md=Join-Path $outDir 'component_database_file_index.md'; $json=Join-Path $outDir 'component_database_file_index.json'; $lines=@('# Component Database File Index','',\"Generated: $stamp\",'', 'This generated file index is for AI navigation only. It does not prove component, datasheet, pinout, footprint, or lifecycle verification.','', '| File | Size | Last Modified |','| --- | ---: | --- |'); foreach($f in $files){ $componentPath=$f.FullName.Substring($root.Length).TrimStart('\\','/'); $lines += \"| $componentPath | $($f.Length) | $($f.LastWriteTime.ToString('s')) |\" }; Set-Content -LiteralPath $md -Value $lines -Encoding UTF8; $files | Select-Object @{n='relative_path';e={$_.FullName.Substring($root.Length).TrimStart('\\','/')}},Length,LastWriteTime | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $json -Encoding UTF8; Write-Output \"Wrote $md and $json for $($files.Count) component database files.\""
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Validate a KiCad Project",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/03_TOOLS/scripts/project_validation/validate_kicad_project.ps1",
+        "-ProjectPath",
+        "${input:projectPath}",
+        "-OutputDir",
+        "${workspaceFolder}/05_OUTPUTS/project_validation",
+        "-ComponentDbRoot",
+        "${workspaceFolder}/08_COMPONENT_DATABASE",
+        "-DatasheetRoot",
+        "${workspaceFolder}/06_DATASHEETS"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Run ERC",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/03_TOOLS/scripts/run_erc.ps1",
+        "-ProjectPath",
+        "${input:projectPath}",
+        "-OutputRoot",
+        "${workspaceFolder}/05_OUTPUTS/vscode_task_reports"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Run DRC",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/03_TOOLS/scripts/run_drc.ps1",
+        "-ProjectPath",
+        "${input:projectPath}",
+        "-OutputRoot",
+        "${workspaceFolder}/05_OUTPUTS/vscode_task_reports"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Export NOT_FINAL Review Package",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/03_TOOLS/scripts/full_verify_project.ps1",
+        "-ProjectPath",
+        "${input:projectPath}",
+        "-OutputRoot",
+        "${workspaceFolder}/05_OUTPUTS/NOT_FINAL_vscode_review_package"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Open Prompt Pack Folder",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "$path='${workspaceFolder}/.prompts'; if(Get-Command code -ErrorAction SilentlyContinue){ code $path } else { Invoke-Item $path }"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "KiCad Engine: Generate Setup Report",
+      "type": "shell",
+      "command": "pwsh",
+      "windows": {
+        "command": "powershell"
+      },
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "$root='${workspaceFolder}'; $outDir=Join-Path $root '05_OUTPUTS/setup_reports'; New-Item -ItemType Directory -Force -Path $outDir | Out-Null; $stamp=Get-Date -Format 'yyyyMMdd_HHmmss'; $report=Join-Path $outDir \"KICAD_ENGINE_SETUP_REPORT_$stamp.md\"; $paths=@('AGENTS.md','START_HERE_FOR_USERS.md','START_HERE_FOR_AI_AGENTS.md','QUICKSTART_WINDOWS.md','QUICKSTART_MACOS.md','QUICKSTART_LINUX.md','.prompts/README.md','.vscode/settings.json','.vscode/tasks.json','.vscode/extensions.json','.vscode/launch.json','03_TOOLS/scripts/kicad_engine_health_check.ps1','03_TOOLS/scripts/kicad_app_audit/audit_kicad_windows.ps1','03_TOOLS/scripts/project_validation/validate_kicad_project.ps1'); $lines=@('# KiCad Engine Setup Report','',\"Generated: $(Get-Date -Format o)\",'', 'This report is generated locally from the VS Code task system. It does not install tools, configure AI authentication, or modify KiCad design files.','', '## Key Paths',''); foreach($p in $paths){ $full=Join-Path $root $p; $status=if(Test-Path -LiteralPath $full){'FOUND'}else{'MISSING'}; $lines += \"- $status: `$p`\" }; $lines += @('', '## AI Tool Authentication','', '- Codex, Claude, or another AI coding agent must be installed and logged in by the user.', '- This repo does not store or assume AI credentials.', '', '## Safety', '', '- Run health checks and audits before project edits.', '- Back up KiCad projects before source edits.', '- Keep fabrication-style outputs marked NOT_FINAL until all verification gates pass.'); Set-Content -LiteralPath $report -Value $lines -Encoding UTF8; Write-Output \"Wrote $report\""
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "projectPath",
+      "type": "promptString",
+      "description": "Path to the KiCad project folder or .kicad_pro file",
+      "default": "${workspaceFolder}/04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_pro"
+    }
+  ]
+}

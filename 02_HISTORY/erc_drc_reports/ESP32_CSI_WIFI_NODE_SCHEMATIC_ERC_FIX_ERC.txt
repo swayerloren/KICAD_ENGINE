@@ -1,0 +1,8 @@
+ERC report (2026-05-02T15:15:41-0400, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'AP63203WU' doesn't match copy in library 'Regulator_Switching'
+    ; warning
+    @(110.49 mm, 46.99 mm): Symbol U1 [AP63203WU]
+
+ ** ERC messages: 1  Errors 0  Warnings 1

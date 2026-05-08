@@ -1,0 +1,94 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "POWER_INPUT_PRESENT",
+      "evidence": "5v_in, 5v input, vbus, barrel, jack, usb-c, +5v_in, 5v_raw",
+      "message": "power input was not detected by symbol/text scan.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "PROTECTION_PRESENT",
+      "evidence": "polyfuse, ptc, fuse, tvs, esd, reverse polarity, pmos, smaj",
+      "message": "input/protection was not detected by symbol/text scan.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "REGULATOR_PRESENT",
+      "evidence": "regulator, buck, ldo, +3v3, 3v3, ap63203, ams1117, mp1584",
+      "message": "regulator appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "MCU_OR_MODULE_PRESENT",
+      "evidence": "esp32, stm32, pic, rp2040, mcu, module",
+      "message": "MCU/module appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "ESD_PRESENT",
+      "evidence": "esd, tvs, tpd, usblc, protection diode",
+      "message": "ESD protection was not detected by symbol/text scan.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "BOOT_RESET_PRESENT",
+      "evidence": "boot, reset, en, gpio0, nrst, mclr",
+      "message": "boot/reset appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "TEST_PADS_PRESENT",
+      "evidence": "testpoint, test point, testpad, tp_",
+      "message": "test pads was not detected by symbol/text scan.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "MOUNTING_HOLES_PRESENT",
+      "evidence": "mountinghole, mounting hole, mh1, mh2",
+      "message": "mounting holes was not detected by symbol/text scan.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "USB_C_REQUIREMENT_NOT_DETECTED",
+      "evidence": "",
+      "message": "USB-C requirement was not detected from schematic/project notes; verify manually if this project should include USB-C.",
+      "reference": "",
+      "status": "WARN"
+    },
+    {
+      "code": "PROJECT_MECHANICAL_NOTES_NOT_DETECTED",
+      "evidence": "",
+      "message": "Project notes/mechanical notes were not detected in schematic text.",
+      "reference": "",
+      "status": "WARN"
+    },
+    {
+      "code": "NO_BOM_LOCK_PROVIDED",
+      "evidence": "",
+      "message": "No BOM lock path was provided; expected-items check was skipped.",
+      "reference": "",
+      "status": "WARN"
+    }
+  ],
+  "generated_at": "2026-05-03T14:56:57",
+  "project_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board",
+  "schematic": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 5,
+      "PASS": 3,
+      "WARN": 3
+    },
+    "result": "FAIL"
+  }
+}

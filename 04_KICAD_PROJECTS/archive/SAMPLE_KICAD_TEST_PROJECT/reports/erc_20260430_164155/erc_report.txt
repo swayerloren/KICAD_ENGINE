@@ -1,0 +1,26 @@
+ERC report (2026-04-30T16:41:56-0400, Encoding UTF8)
+
+***** Sheet /
+[wire_dangling]: Wires not connected to anything
+    ; error
+    @(12.70 mm, 10.16 mm): Horizontal Wire, length 5.08 mm
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(7.62 mm, 10.16 mm): Global Label 'IN'
+[footprint_link_issues]: Footprint 'R_0805' not found in library 'Resistor_SMD'.
+    ; warning
+    @(10.16 mm, 10.16 mm): Symbol R1 [R]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(12.70 mm, 10.16 mm): Horizontal Wire, length 5.08 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(12.70 mm, 10.16 mm): Horizontal Wire, length 5.08 mm
+[footprint_link_issues]: Footprint 'R_0805' not found in library 'Resistor_SMD'.
+    ; warning
+    @(20.32 mm, 10.16 mm): Symbol R2 [R]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(22.86 mm, 10.16 mm): Global Label 'OUT'
+
+ ** ERC messages: 7  Errors 1  Warnings 6

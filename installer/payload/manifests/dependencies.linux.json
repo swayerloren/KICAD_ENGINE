@@ -1,0 +1,143 @@
+{
+  "version": "1.1",
+  "platform": "linux",
+  "packageManagers": [
+    { "id": "apt", "label": "apt", "command": "apt-get", "installPriority": 10 },
+    { "id": "dnf", "label": "dnf", "command": "dnf", "installPriority": 20 },
+    { "id": "yum", "label": "yum", "command": "yum", "installPriority": 30 },
+    { "id": "pacman", "label": "pacman", "command": "pacman", "installPriority": 40 },
+    { "id": "flatpak", "label": "Flatpak", "command": "flatpak", "installPriority": 50 },
+    { "id": "snap", "label": "snap", "command": "snap", "installPriority": 60 }
+  ],
+  "dependencies": [
+    {
+      "id": "kicad",
+      "displayName": "KiCad GUI",
+      "required": true,
+      "purpose": "Installed KiCad application used by KiCad Engine.",
+      "detect": [
+        { "type": "command", "command": "kicad", "args": ["--version"] },
+        { "type": "path", "path": "/usr/bin/kicad" },
+        { "type": "path", "path": "/usr/local/bin/kicad" },
+        { "type": "path", "path": "/var/lib/flatpak/app/org.kicad.KiCad" },
+        { "type": "path", "path": "~/.local/share/flatpak/app/org.kicad.KiCad" },
+        { "type": "path", "path": "/snap/bin/kicad" }
+      ],
+      "install": {
+        "apt": { "command": "sudo", "args": ["apt-get", "install", "-y", "kicad"] },
+        "dnf": { "command": "sudo", "args": ["dnf", "install", "-y", "kicad"] },
+        "yum": { "command": "sudo", "args": ["yum", "install", "-y", "kicad"] },
+        "pacman": { "command": "sudo", "args": ["pacman", "-S", "--needed", "kicad"] },
+        "flatpak": { "command": "flatpak", "args": ["install", "--user", "-y", "flathub", "org.kicad.KiCad"] },
+        "snap": { "command": "sudo", "args": ["snap", "install", "kicad"] }
+      },
+      "manual": ["https://www.kicad.org/download/linux/"]
+    },
+    {
+      "id": "kicad-cli",
+      "displayName": "KiCad CLI",
+      "required": true,
+      "purpose": "Command-line ERC, DRC, export, and automation support.",
+      "detect": [
+        { "type": "command", "command": "kicad-cli", "args": ["version"] },
+        { "type": "path", "path": "/usr/bin/kicad-cli" },
+        { "type": "path", "path": "/usr/local/bin/kicad-cli" },
+        { "type": "path", "path": "/snap/bin/kicad-cli" }
+      ],
+      "install": {
+        "apt": { "command": "sudo", "args": ["apt-get", "install", "-y", "kicad"] },
+        "dnf": { "command": "sudo", "args": ["dnf", "install", "-y", "kicad"] },
+        "yum": { "command": "sudo", "args": ["yum", "install", "-y", "kicad"] },
+        "pacman": { "command": "sudo", "args": ["pacman", "-S", "--needed", "kicad"] },
+        "flatpak": { "command": "flatpak", "args": ["install", "--user", "-y", "flathub", "org.kicad.KiCad"] },
+        "snap": { "command": "sudo", "args": ["snap", "install", "kicad"] }
+      },
+      "manual": ["https://www.kicad.org/download/linux/"]
+    },
+    {
+      "id": "git",
+      "displayName": "Git",
+      "required": true,
+      "purpose": "Version control and source checkout support.",
+      "detect": [{ "type": "command", "command": "git", "args": ["--version"] }],
+      "install": {
+        "apt": { "command": "sudo", "args": ["apt-get", "install", "-y", "git"] },
+        "dnf": { "command": "sudo", "args": ["dnf", "install", "-y", "git"] },
+        "yum": { "command": "sudo", "args": ["yum", "install", "-y", "git"] },
+        "pacman": { "command": "sudo", "args": ["pacman", "-S", "--needed", "git"] },
+        "snap": { "command": "sudo", "args": ["snap", "install", "git"] }
+      },
+      "manual": ["https://git-scm.com/download/linux"]
+    },
+    {
+      "id": "python3",
+      "displayName": "Python 3",
+      "required": true,
+      "purpose": "Health checks, setup helpers, and metadata scripts.",
+      "detect": [
+        { "type": "command", "command": "python3", "args": ["--version"] },
+        { "type": "command", "command": "python", "args": ["--version"] }
+      ],
+      "install": {
+        "apt": { "command": "sudo", "args": ["apt-get", "install", "-y", "python3"] },
+        "dnf": { "command": "sudo", "args": ["dnf", "install", "-y", "python3"] },
+        "yum": { "command": "sudo", "args": ["yum", "install", "-y", "python3"] },
+        "pacman": { "command": "sudo", "args": ["pacman", "-S", "--needed", "python"] },
+        "snap": { "command": "sudo", "args": ["snap", "install", "python"] }
+      },
+      "manual": ["https://www.python.org/downloads/"]
+    },
+    {
+      "id": "node",
+      "displayName": "Node.js",
+      "required": false,
+      "purpose": "Installer and optional tooling development.",
+      "detect": [{ "type": "command", "command": "node", "args": ["--version"] }],
+      "install": {
+        "apt": { "command": "sudo", "args": ["apt-get", "install", "-y", "nodejs", "npm"] },
+        "dnf": { "command": "sudo", "args": ["dnf", "install", "-y", "nodejs", "npm"] },
+        "yum": { "command": "sudo", "args": ["yum", "install", "-y", "nodejs", "npm"] },
+        "pacman": { "command": "sudo", "args": ["pacman", "-S", "--needed", "nodejs", "npm"] },
+        "snap": { "command": "sudo", "args": ["snap", "install", "node", "--classic"] }
+      },
+      "manual": ["https://nodejs.org/"]
+    },
+    {
+      "id": "npm",
+      "displayName": "npm",
+      "required": false,
+      "purpose": "Installer build scripts and JavaScript tooling.",
+      "detect": [{ "type": "command", "command": "npm", "args": ["--version"] }],
+      "install": {
+        "apt": { "command": "sudo", "args": ["apt-get", "install", "-y", "npm"] },
+        "dnf": { "command": "sudo", "args": ["dnf", "install", "-y", "npm"] },
+        "yum": { "command": "sudo", "args": ["yum", "install", "-y", "npm"] },
+        "pacman": { "command": "sudo", "args": ["pacman", "-S", "--needed", "npm"] },
+        "snap": { "command": "sudo", "args": ["snap", "install", "node", "--classic"] }
+      },
+      "manual": ["https://nodejs.org/"]
+    },
+    {
+      "id": "vscode",
+      "displayName": "VS Code",
+      "required": true,
+      "purpose": "Primary user workspace for Codex, Claude, and KiCad Engine prompts.",
+      "detect": [
+        { "type": "command", "command": "code", "args": ["--version"] },
+        { "type": "path", "path": "/usr/share/code/code" },
+        { "type": "path", "path": "/snap/bin/code" },
+        { "type": "path", "path": "/var/lib/flatpak/app/com.visualstudio.code" },
+        { "type": "path", "path": "~/.local/share/flatpak/app/com.visualstudio.code" }
+      ],
+      "install": {
+        "apt": { "command": "sudo", "args": ["apt-get", "install", "-y", "code"] },
+        "dnf": { "command": "sudo", "args": ["dnf", "install", "-y", "code"] },
+        "yum": { "command": "sudo", "args": ["yum", "install", "-y", "code"] },
+        "pacman": { "command": "sudo", "args": ["pacman", "-S", "--needed", "code"] },
+        "flatpak": { "command": "flatpak", "args": ["install", "--user", "-y", "flathub", "com.visualstudio.code"] },
+        "snap": { "command": "sudo", "args": ["snap", "install", "code", "--classic"] }
+      },
+      "manual": ["https://code.visualstudio.com/"]
+    }
+  ]
+}

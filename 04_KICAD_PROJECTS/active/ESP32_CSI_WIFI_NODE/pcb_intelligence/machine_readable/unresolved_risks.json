@@ -1,0 +1,42 @@
+[
+  {
+    "risk": "Placement repair not applied; latest repaired-placement audit says no repaired placement exists.",
+    "severity": "HIGH",
+    "status": "OPEN"
+  },
+  {
+    "risk": "J1 barrel jack is bulky and not pill-board-friendly.",
+    "severity": "HIGH",
+    "status": "NEEDS_HUMAN_DECISION"
+  },
+  {
+    "risk": "U2 footprint/keepout bbox reported wider than 38 mm board.",
+    "severity": "HIGH",
+    "status": "NEEDS_FOOTPRINT_OR_BOARD_DECISION"
+  },
+  {
+    "risk": "Four M2.5 holes not practical on compact 38 mm board with current U2/J1 constraints.",
+    "severity": "HIGH",
+    "status": "NEEDS_MOUNTING_DECISION"
+  },
+  {
+    "risk": "USB D+/D- test pads create stub risk and are crowded near USB area.",
+    "severity": "MEDIUM",
+    "status": "OPEN"
+  },
+  {
+    "risk": "USB shield policy remains human-review required.",
+    "severity": "MEDIUM",
+    "status": "OPEN"
+  },
+  {
+    "risk": "U2 pad 41 drill-size violation needs footprint/rule/fab review.",
+    "severity": "HIGH",
+    "status": "OPEN"
+  },
+  {
+    "risk": "Silkscreen/courtyard/clearance DRC blockers remain.",
+    "severity": "HIGH",
+    "status": "OPEN"
+  }
+]

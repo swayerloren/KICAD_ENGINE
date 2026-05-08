@@ -1,0 +1,57 @@
+** Drc report for attiny85.kicad_pcb **
+** Created on 2026-05-03T17:13:48-0400 **
+
+** Found 15 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(165.1000 mm, 90.9000 mm): Segment on Edge.Cuts
+    @(165.6375 mm, 78.0558 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(165.1000 mm, 90.9000 mm): Segment on Edge.Cuts
+    @(164.8875 mm, 90.0558 mm): Segment of J1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'PinSocket_2x05_P2.54mm_Vertical' does not match copy in library 'Connector_PinSocket_2.54mm'.
+    Local override; warning
+    @(207.0900 mm, 79.1000 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal' does not match copy in library 'Resistor_THT'.
+    Local override; warning
+    @(182.2900 mm, 78.8000 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.
+    Local override; warning
+    @(193.8000 mm, 78.4000 mm): Footprint D4
+[lib_footprint_mismatch]: Footprint 'R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal' does not match copy in library 'Resistor_THT'.
+    Local override; warning
+    @(182.2900 mm, 81.8200 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal' does not match copy in library 'Resistor_THT'.
+    Local override; warning
+    @(172.2000 mm, 78.8000 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'DIP-8_W7.62mm_Socket' does not match copy in library 'Package_DIP'.
+    Local override; warning
+    @(192.9000 mm, 81.6500 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder' does not match copy in library 'LED_SMD'.
+    Local override; warning
+    @(199.5000 mm, 78.4000 mm): Footprint D3
+[lib_footprint_mismatch]: Footprint 'D_DO-34_SOD68_P7.62mm_Horizontal' does not match copy in library 'Diode_THT'.
+    Local override; warning
+    @(172.2000 mm, 89.6500 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'SOT-223-3_TabPin2' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(185.9500 mm, 87.2500 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal' does not match copy in library 'Resistor_THT'.
+    Local override; warning
+    @(179.8100 mm, 81.8000 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal' does not match copy in library 'Resistor_THT'.
+    Local override; warning
+    @(179.8100 mm, 84.9000 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'D_DO-34_SOD68_P7.62mm_Horizontal' does not match copy in library 'Diode_THT'.
+    Local override; warning
+    @(172.2000 mm, 87.5000 mm): Footprint D2
+[lib_footprint_mismatch]: Footprint 'OSHW-Logo2_14.6x12mm_SilkScreen' does not match copy in library 'Symbol'.
+    Local override; warning
+    @(186.1000 mm, 86.8000 mm): Footprint REF**
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

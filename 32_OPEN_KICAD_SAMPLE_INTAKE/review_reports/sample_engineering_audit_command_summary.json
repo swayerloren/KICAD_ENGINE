@@ -1,0 +1,107 @@
+[
+  {
+    "sample": "esp_rs_esp_rust_board",
+    "step": "erc",
+    "exit_code": 5,
+    "command": "kicad-cli sch erc --format report --severity-all --exit-code-violations --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_erc.rpt C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_sch",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board"
+  },
+  {
+    "sample": "esp_rs_esp_rust_board",
+    "step": "drc",
+    "exit_code": 5,
+    "command": "kicad-cli pcb drc --format report --severity-all --schematic-parity --exit-code-violations --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_drc.rpt C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board"
+  },
+  {
+    "sample": "esp_rs_esp_rust_board",
+    "step": "sch_svg",
+    "exit_code": 0,
+    "command": "kicad-cli sch export svg --black-and-white --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\schematic_svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_sch",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board"
+  },
+  {
+    "sample": "esp_rs_esp_rust_board",
+    "step": "pcb_top_svg",
+    "exit_code": 0,
+    "command": "kicad-cli pcb export svg --mode-single --page-size-mode 2 --fit-page-to-board --layers F.Cu,F.Mask,F.SilkS,Edge.Cuts --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_pcb_top.svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board"
+  },
+  {
+    "sample": "esp_rs_esp_rust_board",
+    "step": "pcb_bottom_svg",
+    "exit_code": 0,
+    "command": "kicad-cli pcb export svg --mode-single --page-size-mode 2 --fit-page-to-board --mirror --layers B.Cu,B.Mask,B.SilkS,Edge.Cuts --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_pcb_bottom.svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board"
+  },
+  {
+    "sample": "m4a1x_tps5430",
+    "step": "erc",
+    "exit_code": 5,
+    "command": "kicad-cli sch erc --format report --severity-all --exit-code-violations --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_erc.rpt C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_sch",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430"
+  },
+  {
+    "sample": "m4a1x_tps5430",
+    "step": "drc",
+    "exit_code": 5,
+    "command": "kicad-cli pcb drc --format report --severity-all --schematic-parity --exit-code-violations --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_drc.rpt C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430"
+  },
+  {
+    "sample": "m4a1x_tps5430",
+    "step": "sch_svg",
+    "exit_code": 0,
+    "command": "kicad-cli sch export svg --black-and-white --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\schematic_svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_sch",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430"
+  },
+  {
+    "sample": "m4a1x_tps5430",
+    "step": "pcb_top_svg",
+    "exit_code": 0,
+    "command": "kicad-cli pcb export svg --mode-single --page-size-mode 2 --fit-page-to-board --layers F.Cu,F.Mask,F.SilkS,Edge.Cuts --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_pcb_top.svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430"
+  },
+  {
+    "sample": "m4a1x_tps5430",
+    "step": "pcb_bottom_svg",
+    "exit_code": 0,
+    "command": "kicad-cli pcb export svg --mode-single --page-size-mode 2 --fit-page-to-board --mirror --layers B.Cu,B.Mask,B.SilkS,Edge.Cuts --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_pcb_bottom.svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430"
+  },
+  {
+    "sample": "tomasr8_attiny85_dev_board",
+    "step": "erc",
+    "exit_code": 5,
+    "command": "kicad-cli sch erc --format report --severity-all --exit-code-violations --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_erc.rpt C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board"
+  },
+  {
+    "sample": "tomasr8_attiny85_dev_board",
+    "step": "drc",
+    "exit_code": 5,
+    "command": "kicad-cli pcb drc --format report --severity-all --schematic-parity --exit-code-violations --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_drc.rpt C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board"
+  },
+  {
+    "sample": "tomasr8_attiny85_dev_board",
+    "step": "sch_svg",
+    "exit_code": 0,
+    "command": "kicad-cli sch export svg --black-and-white --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\schematic_svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board"
+  },
+  {
+    "sample": "tomasr8_attiny85_dev_board",
+    "step": "pcb_top_svg",
+    "exit_code": 0,
+    "command": "kicad-cli pcb export svg --mode-single --page-size-mode 2 --fit-page-to-board --layers F.Cu,F.Mask,F.SilkS,Edge.Cuts --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_pcb_top.svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board"
+  },
+  {
+    "sample": "tomasr8_attiny85_dev_board",
+    "step": "pcb_bottom_svg",
+    "exit_code": 0,
+    "command": "kicad-cli pcb export svg --mode-single --page-size-mode 2 --fit-page-to-board --mirror --layers B.Cu,B.Mask,B.SilkS,Edge.Cuts --output C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_pcb_bottom.svg C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_pcb",
+    "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board"
+  }
+]

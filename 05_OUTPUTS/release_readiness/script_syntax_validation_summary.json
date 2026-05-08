@@ -1,0 +1,30 @@
+{
+  "script_count": 327,
+  "syntax_counts": {
+    "PASS": 286,
+    "NOT_RUN_BASH_UNAVAILABLE": 37,
+    "FAIL": 4
+  },
+  "non_pass_sample": [
+    {
+      "script_path": "03_TOOLS/windows/repos/SikuliX1/API/src/main/resources/images/_backup/_color/color.sikuli/color.py",
+      "syntax_status": "FAIL",
+      "notes": "File \"C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\03_TOOLS\\windows\\repos\\SikuliX1\\API\\src\\main\\resources\\images\\_backup\\_color\\color.sikuli\\color.py\", line 15 print \"button:\", ib.next().getScore() ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?"
+    },
+    {
+      "script_path": "03_TOOLS/windows/repos/SikuliX1/IDE/src/main/resources/Lib/guide/guide.py",
+      "syntax_status": "FAIL",
+      "notes": "File \"C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\03_TOOLS\\windows\\repos\\SikuliX1\\IDE\\src\\main\\resources\\Lib\\guide\\guide.py\", line 315 print steps ^^^^^^^^^^^ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?"
+    },
+    {
+      "script_path": "03_TOOLS/windows/repos/SikuliX1/IDE/src/main/resources/Lib/sikuli/SikuliImporter.py",
+      "syntax_status": "FAIL",
+      "notes": "File \"C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\03_TOOLS\\windows\\repos\\SikuliX1\\IDE\\src\\main\\resources\\Lib\\sikuli\\SikuliImporter.py\", line 26 raise etype, evalue, etb ^ SyntaxError: invalid syntax"
+    },
+    {
+      "script_path": "03_TOOLS/windows/repos/SikuliX1/IDE/src/main/resources/scripts/sikuli2html.py",
+      "syntax_status": "FAIL",
+      "notes": "File \"C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\03_TOOLS\\windows\\repos\\SikuliX1\\IDE\\src\\main\\resources\\scripts\\sikuli2html.py\", line 144 except tokenize.TokenError, ex: ^^^^^^^^^^^^^^^^^^^^^^^ SyntaxError: multiple exception types must be parenthesized"
+    }
+  ]
+}

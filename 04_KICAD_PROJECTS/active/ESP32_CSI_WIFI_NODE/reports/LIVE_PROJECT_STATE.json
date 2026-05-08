@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-08T13:11:46-04:00",
+  "project": {
+    "name": "ESP32_CSI_WIFI_NODE",
+    "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+    "reports_path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports"
+  },
+  "source_files": {
+    "kicad_pro": {
+      "exists": true,
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pro",
+      "sha256": "CE1853F7614F591B5AF042ECBCF17ACC3BEB3D97091540B7B913D949900532D5",
+      "timestamp": "2026-05-08T07:04:57-04:00",
+      "size_bytes": 14910
+    },
+    "kicad_sch": {
+      "exists": true,
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+      "sha256": "CBF1473DBCD18ED370B1E121B9BCE91F422C269A1FC9D6AF4B369E12476E52C5",
+      "timestamp": "2026-05-07T10:39:37-04:00",
+      "size_bytes": 218826
+    },
+    "kicad_pcb": {
+      "exists": true,
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+      "sha256": "A90967ABC127674F7008562AAEE46744456F2421550E4B64AD71E91B5D3CF697",
+      "timestamp": "2026-05-08T12:56:52-04:00",
+      "size_bytes": 318749
+    }
+  },
+  "pcb": {
+    "exists": true,
+    "board_outline_exists": true,
+    "board_width_mm": 60.0,
+    "board_height_mm": 95.0,
+    "footprint_count": 43,
+    "mounting_hole_count": 4,
+    "track_count": 74,
+    "via_count": 32,
+    "zone_count": 2,
+    "keepout_count": 0,
+    "net_count": 52,
+    "routed_nets": [
+      "+3V3",
+      "/+5V_FUSED",
+      "/+5V_IN",
+      "/+5V_PROTECTED",
+      "/BOOT0",
+      "/BUCK_BST",
+      "/BUCK_SW",
+      "/CC1",
+      "/CC2",
+      "/ESP_EN",
+      "/PLED",
+      "/SHIELD",
+      "/SLED",
+      "/STATUS_LED",
+      "/U0RXD",
+      "/U0TXD",
+      "GND",
+      "unconnected-(J2-VBUS-PadA4)"
+    ],
+    "unrouted_nets": [
+      "/DM_C",
+      "/DM_E",
+      "/DP_C",
+      "/DP_E"
+    ],
+    "unrouted_net_count": 4,
+    "components_inside_outline_count": 43,
+    "components_outside_outline_count": 0,
+    "components_outside_outline_refs": [],
+    "placement_exists": true,
+    "routing_exists": true,
+    "zones_present": true,
+    "tracks_present": true,
+    "vias_present": true,
+    "mounting_holes_present": true,
+    "outline_bbox_mm": {
+      "xmin": 0.0,
+      "xmax": 60.0,
+      "ymin": 0.0,
+      "ymax": 95.0
+    }
+  },
+  "drc": {
+    "runnable": true,
+    "result": "FAIL",
+    "violation_count": 0,
+    "unconnected_count": 17,
+    "violation_types": {},
+    "primary_violation_items": []
+  },
+  "drc_source": {
+    "command": [],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "used_existing": true,
+    "source_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\live_project_state\\LIVE_PROJECT_STATE_DRC.json"
+  },
+  "classification": "PCB_EXISTS_PARTIAL_ROUTING_EXISTS_NEEDS_AUDIT",
+  "current_real_phase": {
+    "pcb_created": true,
+    "placement_exists": true,
+    "routing_exists": true,
+    "placement_repair_needed": true,
+    "routing_plan_may_continue": false
+  },
+  "next_action": "Repair or explicitly accept the current routed geometry, approve live placement/orientation, and resolve GND strategy plus critical unrouted nets before new routing.",
+  "routing_schema_summary": {
+    "not_extracted": [
+      "ZONE_0_GND exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+      "ZONE_1_GND exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+      "per-net ratsnest extraction not implemented; only total unconnected count is extracted"
+    ],
+    "ground_strategy": {
+      "present": true,
+      "strategy": "GND_ZONES_PRESENT",
+      "stitching_regions": [],
+      "local_return_requirements": [],
+      "notes": "Ground strategy is inferred from GND zones only; stitching intent is NOT_EXTRACTED."
+    }
+  }
+}

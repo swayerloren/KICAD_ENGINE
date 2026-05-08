@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-05-03T09:47:30",
+  "record_count": 1,
+  "records": [
+    {
+      "schema_version": "supplier_part_normalized_v0.1",
+      "verification_status": "UNVERIFIED",
+      "source": {
+        "supplier": "EXAMPLE_SUPPLIER",
+        "source_type": "user_csv",
+        "source_url": "https://example.invalid",
+        "source_file": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\28_SUPPLIER_INGESTION\\templates\\manual_supplier_csv_template.csv",
+        "retrieved_at": "2026-05-03T09:47:30",
+        "terms_review_status": "UNVERIFIED"
+      },
+      "manufacturer": {
+        "name": "EXAMPLE_MANUFACTURER",
+        "manufacturer_part_number": "EXAMPLE-MPN",
+        "lifecycle_status": "Unknown"
+      },
+      "supplier_part": {
+        "supplier_sku": "EXAMPLE-SKU",
+        "supplier_part_url": "https://example.invalid",
+        "description": "Example only part",
+        "category": "Example category"
+      },
+      "package": {
+        "supplier_package": "Unknown",
+        "manufacturer_package": "Unknown",
+        "pin_count": "Unknown",
+        "package_confidence": "UNVERIFIED"
+      },
+      "inventory_price": {
+        "currency": "USD",
+        "stock_quantity": null,
+        "minimum_order_quantity": null,
+        "price_breaks": []
+      },
+      "datasheets": [
+        {
+          "document_title": "EXAMPLE-MPN datasheet link",
+          "document_type": "datasheet",
+          "source_url": "https://example.invalid/datasheet",
+          "public_redistribution_status": "LINK_ONLY",
+          "verification_status": "UNVERIFIED"
+        }
+      ],
+      "footprint_risk": {
+        "kicad_symbol_candidates": [],
+        "kicad_footprint_candidates": [],
+        "footprint_status": "UNVERIFIED",
+        "risk_notes": [
+          "Package text is candidate evidence only; verify footprint against exact drawing."
+        ]
+      },
+      "notes": [
+        "EXAMPLE_ONLY"
+      ]
+    }
+  ]
+}

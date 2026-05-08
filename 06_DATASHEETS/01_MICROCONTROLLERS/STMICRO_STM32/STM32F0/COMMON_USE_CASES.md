@@ -1,0 +1,29 @@
+# STM32F0 Common Use Cases
+
+Date: 2026-05-03
+Status: `SCAFFOLDED_WITH_AI_SUMMARIES`
+
+## Good Fits
+
+- Low-cost control boards
+- Simple sensor/control nodes
+- USB FS device designs where exact part supports USB
+- Legacy cost-sensitive replacement designs
+
+## Design Focus Areas
+
+- low cost
+- pin multiplexing limits
+- simple SWD access
+- package-specific USB/CAN availability
+
+## When To Avoid
+
+Avoid when the design needs high performance, large memory, complex graphics, Ethernet, advanced security, or extensive peripheral margin.
+
+## AI Agent Selection Rules
+
+- Do not select `STM32F0` only because an example board used it.
+- Match required peripherals, voltage domains, memory, package, lifecycle, programming path, and library support before creating a schematic.
+- Treat every exact electrical, timing, and package value as `UNKNOWN_REQUIRES_SOURCE` until official part-level sources are recorded.
+- For a real KiCad design, create or update a component database record before placing a symbol.

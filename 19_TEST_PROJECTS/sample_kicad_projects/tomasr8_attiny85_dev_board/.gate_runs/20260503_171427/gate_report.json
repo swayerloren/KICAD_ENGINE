@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board",
+    "timestamp": "2026-05-03T17:14:27.439158",
+    "duration_seconds": 3.257731,
+    "total_gates": 9,
+    "passed": 0,
+    "failed": 9,
+    "final_status": "FAIL"
+  },
+  "gates": [
+    {
+      "gate_name": "Schematic Annotation",
+      "gate_id": "schematic_annotation_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:27.439158",
+      "execution_seconds": 0.002008676528930664,
+      "blockers": [
+        {
+          "id": "GATE_EXECUTION_ERROR",
+          "severity": "CRITICAL",
+          "message": "Gate execution failed: 'GateResult' object has no attribute 'add_evidence'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    },
+    {
+      "gate_name": "ERC (Electrical Rules Check)",
+      "gate_id": "erc_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:27.441167",
+      "execution_seconds": 1.4232897758483887,
+      "blockers": [
+        {
+          "id": "ERC_ERROR",
+          "severity": "CRITICAL",
+          "message": "Unexpected error during ERC: 'GateResult' object has no attribute 'add_evidence'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    },
+    {
+      "gate_name": "Schematic Visual Review",
+      "gate_id": "schematic_visual_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:28.865460",
+      "execution_seconds": 0.0010123252868652344,
+      "blockers": [
+        {
+          "id": "GATE_EXECUTION_ERROR",
+          "severity": "CRITICAL",
+          "message": "Gate execution failed: 'GateResult' object has no attribute 'add_warning'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    },
+    {
+      "gate_name": "Footprint Audit",
+      "gate_id": "footprint_audit_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:28.867486",
+      "execution_seconds": 0.0020132064819335938,
+      "blockers": [
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "J (USB_A) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "J (Conn_02x05_Odd_Even) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "D (D_Zener) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "D (LED) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "R (R) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "#FLG (PWR_FLAG) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "#FLG0101 (PWR_FLAG) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "MISSING_FOOTPRINT",
+          "severity": "CRITICAL",
+          "message": "#FLG0102 (PWR_FLAG) has no footprint assigned",
+          "evidence_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+          "remediation": "Assign a valid footprint to each component"
+        },
+        {
+          "id": "FOOTPRINT_AUDIT_ERROR",
+          "severity": "CRITICAL",
+          "message": "Error during footprint audit: 'GateResult' object has no attribute 'add_evidence'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {
+        "total_components": 23,
+        "with_footprints": 15,
+        "missing_footprints": 8,
+        "unresolved_footprints": 0,
+        "blocked_for_review": 0
+      }
+    },
+    {
+      "gate_name": "PCB Sync Readiness",
+      "gate_id": "pcb_sync_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:28.869499",
+      "execution_seconds": 0.001003265380859375,
+      "blockers": [
+        {
+          "id": "GATE_EXECUTION_ERROR",
+          "severity": "CRITICAL",
+          "message": "Gate execution failed: 'GateResult' object has no attribute 'add_warning'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    },
+    {
+      "gate_name": "DRC (Design Rules Check)",
+      "gate_id": "drc_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:28.870502",
+      "execution_seconds": 1.8241074085235596,
+      "blockers": [
+        {
+          "id": "DRC_ERROR",
+          "severity": "CRITICAL",
+          "message": "Unexpected error during DRC: 'GateResult' object has no attribute 'add_evidence'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    },
+    {
+      "gate_name": "PCB Visual Review",
+      "gate_id": "pcb_visual_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:30.694609",
+      "execution_seconds": 0.0022797584533691406,
+      "blockers": [
+        {
+          "id": "GATE_EXECUTION_ERROR",
+          "severity": "CRITICAL",
+          "message": "Gate execution failed: 'GateResult' object has no attribute 'add_warning'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    },
+    {
+      "gate_name": "Unrouted Nets Check",
+      "gate_id": "unrouted_nets_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:30.696889",
+      "execution_seconds": 0.0,
+      "blockers": [
+        {
+          "id": "GATE_EXECUTION_ERROR",
+          "severity": "CRITICAL",
+          "message": "Gate execution failed: 'GateResult' object has no attribute 'add_warning'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    },
+    {
+      "gate_name": "Fabrication Readiness",
+      "gate_id": "fab_readiness_gate",
+      "status": "FAIL",
+      "timestamp": "2026-05-03T17:14:30.696889",
+      "execution_seconds": 0.0,
+      "blockers": [
+        {
+          "id": "GATE_EXECUTION_ERROR",
+          "severity": "CRITICAL",
+          "message": "Gate execution failed: 'GateResult' object has no attribute 'add_warning'",
+          "evidence_path": "",
+          "remediation": ""
+        }
+      ],
+      "warnings": [],
+      "evidence": [],
+      "details": {}
+    }
+  ]
+}

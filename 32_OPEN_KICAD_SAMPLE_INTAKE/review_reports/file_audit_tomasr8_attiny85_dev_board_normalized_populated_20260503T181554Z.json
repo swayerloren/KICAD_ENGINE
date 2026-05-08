@@ -1,0 +1,52 @@
+{
+  "status": "FILE_AUDIT_PASS",
+  "generated_at": "2026-05-03T18:15:54.831889+00:00",
+  "sample_id": "tomasr8_attiny85_dev_board_normalized_populated",
+  "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+  "errors": [],
+  "counts": {
+    "kicad_pro": 1,
+    "kicad_sch": 1,
+    "kicad_pcb": 1,
+    "kicad_sym": 0,
+    "kicad_mod": 1,
+    "gerber_like": 0,
+    "drill": 2,
+    "pick_and_place": 0,
+    "pdf": 3,
+    "step": 0
+  },
+  "examples": {
+    "kicad_pro": [
+      "attiny85.kicad_pro"
+    ],
+    "kicad_sch": [
+      "attiny85.kicad_sch"
+    ],
+    "kicad_pcb": [
+      "attiny85.kicad_pcb"
+    ],
+    "kicad_sym": [],
+    "kicad_mod": [
+      "custom_footprints\\MOLEX_48037-0001.kicad_mod"
+    ],
+    "gerber_like": [],
+    "drill": [
+      "gerbers\\attiny85-NPTH.drl",
+      "gerbers\\attiny85-PTH.drl"
+    ],
+    "pick_and_place": [],
+    "pdf": [
+      "assets\\digispark-schematic.pdf",
+      "bootloader\\bootloader_tutorial.pdf",
+      "bootloader\\bootloader_tutorial2.pdf"
+    ],
+    "step": []
+  },
+  "license_files": [
+    "LICENSE"
+  ],
+  "has_kicad_source": true,
+  "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+  "human_review_required": true
+}

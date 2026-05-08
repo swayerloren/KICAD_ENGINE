@@ -1,0 +1,58 @@
+{
+  "audit_complete": true,
+  "critical_trace_count": 2,
+  "flagged_count": 2,
+  "hard_fails": [
+    "trace crosses antenna keepout",
+    "via used without reason on critical net"
+  ],
+  "missing_trace_nets": [],
+  "project": "bad_keepout_violation_fixture",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "critical_trace_count": 2,
+    "flagged_count": 2,
+    "trace_count": 2
+  },
+  "tool": "trace_by_trace_audit",
+  "trace_count": 2,
+  "traces": [
+    {
+      "angles_deg": [],
+      "critical": true,
+      "issues": [
+        "trace_crosses_antenna_keepout",
+        "vias_without_reason"
+      ],
+      "net": "USB_D+",
+      "review_required": true,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 1,
+      "via_reason": "",
+      "widths_mm": [
+        0.25
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0
+      ],
+      "critical": true,
+      "issues": [
+        "right_angle_turn",
+        "trace_crosses_antenna_keepout"
+      ],
+      "net": "EN",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 2,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.2
+      ]
+    }
+  ]
+}

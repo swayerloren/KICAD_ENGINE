@@ -1,0 +1,12 @@
+*.key
+*.token
+secrets.*
+.env
+local_credentials.*
+api_keys.*
+private_config.*
+*.local.json
+*.local.yaml
+*.local.yml
+raw_api_responses/
+private_exports/

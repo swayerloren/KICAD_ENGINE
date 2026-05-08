@@ -1,0 +1,29 @@
+{
+  "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+  "connector_orientation_status": "NOT_APPLICABLE",
+  "created_at": "2026-05-03T14:37:53+00:00",
+  "datasheet_url": "UNKNOWN",
+  "evidence": [],
+  "footprint_status": "UNVERIFIED",
+  "high_risk_categories": [
+    "BARE_MCU_PACKAGE"
+  ],
+  "human_review_required": true,
+  "jlc_lcsc_part_number": "UNKNOWN",
+  "kicad_3d_model_candidate": "UNKNOWN",
+  "kicad_footprint_candidate": "Package_QFP:LQFP-48_7x7mm_P0.5mm candidate only",
+  "kicad_symbol_candidate": "MCU_ST_STM32F1:STM32F103C8Tx candidate only",
+  "manufacturer": "STMicroelectronics",
+  "mpn": "STM32F103C8T6",
+  "notes": [
+    "EXAMPLE_ONLY. Exact order code, package drawing, pinout, and pad numbering must be verified before PCB use."
+  ],
+  "package_drawing_source": "UNKNOWN",
+  "package_name_from_supplier": "LQFP-48 example - requires exact ST order-code package drawing",
+  "pinout_status": "UNVERIFIED",
+  "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_STMICROELECTRONICS_STM32F103C8T6",
+  "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+  "supplier": "manual_verified",
+  "supplier_sku": "EXAMPLE_ONLY",
+  "updated_at": "2026-05-03T14:37:53+00:00"
+}

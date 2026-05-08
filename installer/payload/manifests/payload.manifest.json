@@ -1,0 +1,4443 @@
+{
+  "schema_version": "1.0",
+  "payload_name": "KICAD_ENGINE repo-template",
+  "built_at_utc": "2026-05-03T02:30:57.876091+00:00",
+  "source_root": "<local build workspace omitted>",
+  "template_root": "installer/payload/repo-template",
+  "file_count": 875,
+  "total_bytes": 1962331,
+  "max_file_size_bytes": 5242880,
+  "generated_files": [
+    ".claude/README.md",
+    ".codex/README.md",
+    ".codex/config.example.toml",
+    "00_CODEX_START/CURRENT_PROJECT.md",
+    "00_CODEX_START/PROJECT_INDEX.md",
+    "00_CODEX_START/REPO_MAP.md",
+    "00_CODEX_START/TOOL_INDEX.md",
+    "01_MEMORY/CODING_AND_SCRIPTING_RULES.md",
+    "01_MEMORY/COMPONENT_PREFERENCES.md",
+    "01_MEMORY/DESIGN_RULES_MEMORY.md",
+    "01_MEMORY/FAB_HOUSE_PREFERENCES.md",
+    "01_MEMORY/GLOBAL_MEMORY.md",
+    "01_MEMORY/projects/README.md",
+    "02_HISTORY/README.md",
+    "02_HISTORY/command_logs/README.md",
+    "02_HISTORY/design_reviews/README.md",
+    "02_HISTORY/erc_drc_reports/README.md",
+    "02_HISTORY/fabrication_reviews/README.md",
+    "02_HISTORY/project_history/README.md",
+    "02_HISTORY/sessions/README.md",
+    "03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/README.md",
+    "04_KICAD_PROJECTS/README.md",
+    "04_KICAD_PROJECTS/active/README.md",
+    "04_KICAD_PROJECTS/archive/README.md",
+    "05_OUTPUTS/README.md",
+    "05_OUTPUTS/datasheet_research/README.md",
+    "05_OUTPUTS/health_checks/README.md",
+    "05_OUTPUTS/review_packages/README.md",
+    "05_OUTPUTS/setup_indexes/README.md",
+    "05_OUTPUTS/setup_reports/README.md",
+    "06_DATASHEETS/99_UNSORTED_INBOX/README.md",
+    "08_COMPONENT_DATABASE/06_SENSORS/README.md",
+    "08_COMPONENT_DATABASE/07_ANALOG/README.md",
+    "08_COMPONENT_DATABASE/08_DRIVERS/README.md",
+    "08_COMPONENT_DATABASE/11_DEV_BOARDS_AND_MODULES/README.md",
+    "08_COMPONENT_DATABASE/12_KICAD_SYMBOL_FOOTPRINT_MATCHES/README.md",
+    "08_COMPONENT_DATABASE/99_UNVERIFIED_INBOX/README.md",
+    "99_BACKUPS/README.md",
+    "99_BACKUPS/pre_codex_edits/README.md",
+    "FOR CHAT GPT.MD",
+    "README_GPT.md"
+  ],
+  "excluded_summary": {
+    "excluded directory name .git": 11,
+    "excluded directory name .github": 46,
+    "excluded directory name __pycache__": 1205,
+    "excluded directory name build": 14,
+    "excluded directory name dist": 98,
+    "excluded directory name node_modules": 34,
+    "excluded file name config.toml": 1,
+    "explicit excluded development/vendor/generated directory": 11,
+    "inside excluded cache/build directory": 17,
+    "inside explicit excluded directory": 42386
+  },
+  "excluded_count": 43823,
+  "files": [
+    {
+      "path": ".claude/README.md",
+      "size_bytes": 258,
+      "sha256": "dea83fc270e0084fa995bb359c96d8d47fbf4b336b405353fbc6111c334c0fa0"
+    },
+    {
+      "path": ".codex/config.example.toml",
+      "size_bytes": 778,
+      "sha256": "88c3acb41843a5b14ebcc2fcd16c47d64d5470e246b52e00924292d702647952"
+    },
+    {
+      "path": ".codex/prompts/CREATE_REAL_KICAD_PROJECT_FROM_REQUIREMENTS.md",
+      "size_bytes": 3349,
+      "sha256": "60ab251d8d6af7807a7458bf9950eee8a236a4fc64c1b39740329bb2b4ae1a14"
+    },
+    {
+      "path": ".codex/prompts/INSTALL_KICAD_TOOLS.md",
+      "size_bytes": 1631,
+      "sha256": "d9e615a64ddf14c22def262d446145d62878f53c0f1f300cdfde8e30e536a197"
+    },
+    {
+      "path": ".codex/prompts/NEW_KICAD_PROJECT.md",
+      "size_bytes": 1686,
+      "sha256": "dea2426aaa8d59f49602f47988bab5770e6bd14d346d0c1c269dcf996d0366e4"
+    },
+    {
+      "path": ".codex/prompts/REVIEW_EXISTING_PROJECT.md",
+      "size_bytes": 1521,
+      "sha256": "4beb56a8efe3c91a2bb896cd85e6fd5550cbc630e94031295e68baa175e03001"
+    },
+    {
+      "path": ".codex/prompts/START_CODEX_KICAD_ENGINE.md",
+      "size_bytes": 1505,
+      "sha256": "df144afae65107c83efd91e7b517b9786d00e21d3fae6f7ab328e412b016a7ab"
+    },
+    {
+      "path": ".codex/prompts/VERIFY_BEFORE_FAB.md",
+      "size_bytes": 1398,
+      "sha256": "8458ea12a0e754dac759ac5d5c19e9223f8e5b5f762a5b13efdae51f472a35d7"
+    },
+    {
+      "path": ".codex/README.md",
+      "size_bytes": 382,
+      "sha256": "a23bc2412c4e720c6130913110a6e0f0f8e043c21b5b5e55bd565a0c34cab30e"
+    },
+    {
+      "path": ".prompts/claude/00_START_SESSION.md",
+      "size_bytes": 2557,
+      "sha256": "fa607abbee1d59fb63afb8c54790b7e0b8511b4ba907c58984b7cb41a885f31f"
+    },
+    {
+      "path": ".prompts/claude/01_AUDIT_KICAD_INSTALL.md",
+      "size_bytes": 2400,
+      "sha256": "3d8a3e7dc67b59f31530de1611c3c8dbcb1e47bc5aaf409116f33c050e38915b"
+    },
+    {
+      "path": ".prompts/claude/02_CREATE_NEW_PROJECT_WORKSPACE.md",
+      "size_bytes": 2029,
+      "sha256": "02e9abab23bbcc4c550375b08b5beb54673f6ca73fff1a7c0d3994f82785f922"
+    },
+    {
+      "path": ".prompts/claude/03_RESEARCH_COMPONENT.md",
+      "size_bytes": 2307,
+      "sha256": "a34cd7c0ff499b124a7bafaca3bd79e92660d18103f75ce26775309d87fde03c"
+    },
+    {
+      "path": ".prompts/claude/04_ADD_COMPONENT_TO_DATABASE.md",
+      "size_bytes": 2189,
+      "sha256": "b3791533c95065b845f25212f22ccd4cc84a20a7908a63001990759758f82826"
+    },
+    {
+      "path": ".prompts/claude/05_PLAN_SCHEMATIC.md",
+      "size_bytes": 2207,
+      "sha256": "8aaf632b5bb27177bf7a60100ef17faf5d336236008b1e6f1ce59225d4379013"
+    },
+    {
+      "path": ".prompts/claude/06_REVIEW_SCHEMATIC.md",
+      "size_bytes": 2013,
+      "sha256": "054a64f7b01e942f4ee7bcb6c81c5e3dec7e7570e35a7d98d194865f56b67b3b"
+    },
+    {
+      "path": ".prompts/claude/07_REVIEW_PCB.md",
+      "size_bytes": 2046,
+      "sha256": "c1e0823e5f48d7ca34587c2fd27fe79813c8ccbf00c4be3368ae6085fd32ea64"
+    },
+    {
+      "path": ".prompts/claude/08_RUN_ERC_DRC.md",
+      "size_bytes": 1854,
+      "sha256": "27a731ea67cd7b1b17321d7104d3cd4e78a4b67f9787b9dbd2f159ec3e65c8f7"
+    },
+    {
+      "path": ".prompts/claude/09_EXPORT_NOT_FINAL_PACKAGE.md",
+      "size_bytes": 1839,
+      "sha256": "5948497295a528a92f8a621723ea67060c78c5638f4a43212e5805c214bf23bc"
+    },
+    {
+      "path": ".prompts/claude/10_REVIEW_FAB_PACKAGE.md",
+      "size_bytes": 2003,
+      "sha256": "dea512189c26d5054a3e89399cf6457bcdf9431d4268129ddf2ddddf9639b416"
+    },
+    {
+      "path": ".prompts/claude/11_DEBUG_KICAD_ISSUE.md",
+      "size_bytes": 1972,
+      "sha256": "768af114485b19e48d631722bb87c5a69c180b789c4f0f1713fe3eb96b57863f"
+    },
+    {
+      "path": ".prompts/claude/12_UPDATE_REPO_MEMORY_HISTORY.md",
+      "size_bytes": 1706,
+      "sha256": "4c10d78c2aa6df3abee6b70bc7a8e0d83f7e82ace49d99096d99ba73a087ff78"
+    },
+    {
+      "path": ".prompts/codex/00_START_SESSION.md",
+      "size_bytes": 1770,
+      "sha256": "da848cc65cbf56f0bff9cf1bdb8c46119908030b34a41c06cf380e222bf46873"
+    },
+    {
+      "path": ".prompts/codex/01_AUDIT_KICAD_INSTALL.md",
+      "size_bytes": 1965,
+      "sha256": "50a963401e8c5a5b17f32d8cc907e366b15d1845b43c2bcf67e5f22cf68c515c"
+    },
+    {
+      "path": ".prompts/codex/02_CREATE_NEW_PROJECT_WORKSPACE.md",
+      "size_bytes": 1888,
+      "sha256": "5a4d69a01a9d14109edfabc06db969572518deb25989a47fdb7bf65f6787c888"
+    },
+    {
+      "path": ".prompts/codex/03_RESEARCH_COMPONENT.md",
+      "size_bytes": 1993,
+      "sha256": "844e48e02b5e73ef579987d10aec491417cb8ff85d7a13dfd96bc732a029374a"
+    },
+    {
+      "path": ".prompts/codex/04_ADD_COMPONENT_TO_DATABASE.md",
+      "size_bytes": 1942,
+      "sha256": "bfa76abdfca8f8fe2e1a9b3ea88c7c3f052fc42486ff093538ce4ec828aa6ec9"
+    },
+    {
+      "path": ".prompts/codex/05_PLAN_SCHEMATIC.md",
+      "size_bytes": 1918,
+      "sha256": "a825adb5d3ddc623650f02bbbcff42f733aaeb6f2902a4965b52483e50a62fbd"
+    },
+    {
+      "path": ".prompts/codex/06_REVIEW_SCHEMATIC.md",
+      "size_bytes": 1979,
+      "sha256": "e36b238d4d9730cef14cbfc5b673f03246756c1bb84026e5e658fde5db8fd74a"
+    },
+    {
+      "path": ".prompts/codex/07_REVIEW_PCB.md",
+      "size_bytes": 1963,
+      "sha256": "37425429369e988560d0ca4fae827a59ecb58ce8b605dff0f10cfbc8e351b81f"
+    },
+    {
+      "path": ".prompts/codex/08_RUN_ERC_DRC.md",
+      "size_bytes": 1688,
+      "sha256": "71cb345bd63b6543035517defe899bca2ad7eedccfcf3f4209312ca6908c197f"
+    },
+    {
+      "path": ".prompts/codex/09_EXPORT_NOT_FINAL_PACKAGE.md",
+      "size_bytes": 1708,
+      "sha256": "5c8cf18e63867847f8b84d364bd1c8f1c78d579b0eddfef7bd03ab8587dd6b56"
+    },
+    {
+      "path": ".prompts/codex/10_REVIEW_FAB_PACKAGE.md",
+      "size_bytes": 1841,
+      "sha256": "56c15b3bf876e6bd0c1b713bfe8b2548cb904a611031b153683f0b4c1e1f862f"
+    },
+    {
+      "path": ".prompts/codex/11_DEBUG_KICAD_ISSUE.md",
+      "size_bytes": 1879,
+      "sha256": "16245eeb986ff541f0607678f9e5736d5b48399ce260d16239aabbc2919d6d7d"
+    },
+    {
+      "path": ".prompts/codex/12_UPDATE_REPO_MEMORY_HISTORY.md",
+      "size_bytes": 1814,
+      "sha256": "8361ae7db042074c310d17a0cc4aea9e7b7a336fef1825eac9af4d45dfc4cb2d"
+    },
+    {
+      "path": ".prompts/README.md",
+      "size_bytes": 1981,
+      "sha256": "95a865e7be2c6919cbde6dfebf6bb3b9511f269a227d7c5d8a53cdf7d24491c3"
+    },
+    {
+      "path": ".prompts/shared/COMPONENT_RESEARCH_STANDARD.md",
+      "size_bytes": 1598,
+      "sha256": "c89f44c0face88739a49b00587becc50502fa4147d483d07a129aacf30c7a58e"
+    },
+    {
+      "path": ".prompts/shared/DATASHEET_SUMMARY_STANDARD.md",
+      "size_bytes": 1409,
+      "sha256": "1d3bbd5d220958bd315e8dd0b2830be581a53c1ccbd21e41d958657bb3d2a447"
+    },
+    {
+      "path": ".prompts/shared/GITHUB_RELEASE_STANDARD.md",
+      "size_bytes": 1470,
+      "sha256": "c84ef698d9856e782a825c10790ad912c42b43ba6cf0291fadc4d4b2446ae67d"
+    },
+    {
+      "path": ".prompts/shared/KICAD_VERIFICATION_STANDARD.md",
+      "size_bytes": 1583,
+      "sha256": "6236ad1f43c84357651af578929e587a5c820b7e3c6bc8408e58991c6883e1c5"
+    },
+    {
+      "path": ".prompts/shared/SAFETY_GATES.md",
+      "size_bytes": 2513,
+      "sha256": "c81007e24f7156ca8435200a90ac6eced0e1990fb46f8f7337b8c816e71f7671"
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "size_bytes": 309,
+      "sha256": "2b3a5cc10e96a103d500c36cdc2778677203e5f81bdcb513d1c06fbded1aa12b"
+    },
+    {
+      "path": ".vscode/launch.json",
+      "size_bytes": 467,
+      "sha256": "947f1c5619c29dafa63d0288697d7f02b46e41b5d17058f674e91f2d6fd109f3"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "size_bytes": 1394,
+      "sha256": "81a2b5a8460a912e1e605095bb42d7478f6e29747bfec3acaa193f2f5b0b86ae"
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "size_bytes": 8010,
+      "sha256": "0cb23901959528c2b01435c3d139c4ba2ba181ac8c5277f5b74706f963060d40"
+    },
+    {
+      "path": "00_CODEX_START/CONTROL_PLANES.md",
+      "size_bytes": 5179,
+      "sha256": "eb47009176c0f964d88f0415593f5c876cf0e4798b2c5fe3392548a39374044b"
+    },
+    {
+      "path": "00_CODEX_START/CURRENT_PROJECT.md",
+      "size_bytes": 722,
+      "sha256": "87030c5fadb085e9e8c401c4d256da859e3991ef2f17e973bab1d0a6340e7744"
+    },
+    {
+      "path": "00_CODEX_START/HISTORY_INDEX.md",
+      "size_bytes": 1153,
+      "sha256": "b24ba2ff75439cc829493c40d0391a8a3502a8ecbfdf102d0d9e601d94a38ce7"
+    },
+    {
+      "path": "00_CODEX_START/KICAD_AGENT_OPERATING_MANUAL.md",
+      "size_bytes": 16407,
+      "sha256": "ff16e693a5e526c379f905b21907deac5c589d376025e93bb2dec1c663e30f5f"
+    },
+    {
+      "path": "00_CODEX_START/KICAD_ENGINE_ARCHITECTURE.md",
+      "size_bytes": 11523,
+      "sha256": "c6b55a782ac967704bdd3ac23e8871a10b0d1acea4343843b11ae84c0cb8f886"
+    },
+    {
+      "path": "00_CODEX_START/KICAD_SAFE_AUTOMATION_RULES.md",
+      "size_bytes": 9849,
+      "sha256": "52254bff900d670ef99e9d282a2eac33f2cf8b5dadfdce1b2c6b531839b1966c"
+    },
+    {
+      "path": "00_CODEX_START/MEMORY_INDEX.md",
+      "size_bytes": 1081,
+      "sha256": "d9bba29dce0fa3739b6a4e216aad3a84321d3acf1075e4688bd4bc37807dae4a"
+    },
+    {
+      "path": "00_CODEX_START/PRODUCT_VISION.md",
+      "size_bytes": 7981,
+      "sha256": "0813aed41874e124abe0cd70026866da27c8bdaa023bd0323cc72e8bf8a82b68"
+    },
+    {
+      "path": "00_CODEX_START/PROJECT_INDEX.md",
+      "size_bytes": 637,
+      "sha256": "6dc9d2bb87e4bd2bef5a2028545d94a2a307e8724fe3820dbdc30d848e9d622d"
+    },
+    {
+      "path": "00_CODEX_START/REPO_MAP.md",
+      "size_bytes": 2292,
+      "sha256": "8d0d923ce79f7247a503082b0fd971e67a69ed54d4f2430760116aae2b0eb521"
+    },
+    {
+      "path": "00_CODEX_START/SAFETY_RULES.md",
+      "size_bytes": 4410,
+      "sha256": "fbb75fd42c9c82ac3f3b495104203441bebed604ec1d2fd4262a721375d3c20b"
+    },
+    {
+      "path": "00_CODEX_START/SESSION_START_CHECKLIST.md",
+      "size_bytes": 2194,
+      "sha256": "5122a248c2ff47a47befd0229e1ad4d660641088f93c6653f3009709e8c1c86d"
+    },
+    {
+      "path": "00_CODEX_START/START_HERE.md",
+      "size_bytes": 5255,
+      "sha256": "433e3e5478ca0b32426c8af45eb4568ef796ad522604257f91277f371bb8ebf9"
+    },
+    {
+      "path": "00_CODEX_START/TOOL_INDEX.md",
+      "size_bytes": 797,
+      "sha256": "38cbb3c0397ba342605f4a7f796712bf68f73af5b5091893d7670272309e72f2"
+    },
+    {
+      "path": "00_CODEX_START/WORKFLOW_RULES.md",
+      "size_bytes": 5221,
+      "sha256": "997ae8863c5310a849c7de7cdb97bad075dab2240fd7b29bdb5bc422a66d23aa"
+    },
+    {
+      "path": "01_MEMORY/CODING_AND_SCRIPTING_RULES.md",
+      "size_bytes": 224,
+      "sha256": "1e7d496f76ca135e37b681c2b8cdd64d8342ef917edccff7dae0e92a7dcac7df"
+    },
+    {
+      "path": "01_MEMORY/COMPONENT_PREFERENCES.md",
+      "size_bytes": 199,
+      "sha256": "3e0fd2304acd06b1eec119b2d102bc8a6abdec552ef28a6ea2eb83d1f722c158"
+    },
+    {
+      "path": "01_MEMORY/DESIGN_RULES_MEMORY.md",
+      "size_bytes": 224,
+      "sha256": "fbed481c6928fe149d00a136f22197f5b2917f1f5ecc5d724fea8886943a0828"
+    },
+    {
+      "path": "01_MEMORY/FAB_HOUSE_PREFERENCES.md",
+      "size_bytes": 180,
+      "sha256": "b81aaef5e175447428c4226b4e7966d1100f805afe9d4a7dcff382dec982a249"
+    },
+    {
+      "path": "01_MEMORY/GLOBAL_MEMORY.md",
+      "size_bytes": 340,
+      "sha256": "fb5561d86fccc8a219263abb32e9b4f3fee0390717d34c3df97b8b0367f4a414"
+    },
+    {
+      "path": "01_MEMORY/projects/README.md",
+      "size_bytes": 147,
+      "sha256": "1e2b443dfe8fac7fff3fa898ad9844b4f84c791d44e8e2fd788d99ec2b5b28a9"
+    },
+    {
+      "path": "02_HISTORY/command_logs/README.md",
+      "size_bytes": 103,
+      "sha256": "9b6604b2c0f3cbf4b69f4a6c7a1d85ea848618920dcefc617f2ccd6d89c1b124"
+    },
+    {
+      "path": "02_HISTORY/design_reviews/README.md",
+      "size_bytes": 105,
+      "sha256": "17d3be94b6cfa64ddd3751a2e29ed3f9cfbaa752be8d9e5190522094f75e039d"
+    },
+    {
+      "path": "02_HISTORY/erc_drc_reports/README.md",
+      "size_bytes": 106,
+      "sha256": "8b05b7558ecf7553bd654ded551f286576b6b41be17cc9596afea5610a4940f8"
+    },
+    {
+      "path": "02_HISTORY/fabrication_reviews/README.md",
+      "size_bytes": 110,
+      "sha256": "2c93116c7adfa529356621ee4777dc18ece9c5fff0e256a5990585651e274084"
+    },
+    {
+      "path": "02_HISTORY/project_history/README.md",
+      "size_bytes": 106,
+      "sha256": "bc0d85e4cbc0441550c0b3d561a2e598dca606e62ee848d2923ddcdcf440b2b7"
+    },
+    {
+      "path": "02_HISTORY/README.md",
+      "size_bytes": 221,
+      "sha256": "227e3a04f799c15fd1643310f82e9aa9d5de2a84f50a27a24c03c382a1c28f70"
+    },
+    {
+      "path": "02_HISTORY/sessions/README.md",
+      "size_bytes": 99,
+      "sha256": "6cf1f23ae3a239c2d1938e6181e49c258eb9dfc651145ed23568cb660011f782"
+    },
+    {
+      "path": "03_TOOLS/common/README.md",
+      "size_bytes": 742,
+      "sha256": "5f47b6fea8373d3432ce53feec69fc36e0ac5d894aecc1da313ec7b45235cfa5"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/DEEP_KICAD_APP_FOLDER_BREAKDOWN.md",
+      "size_bytes": 11251,
+      "sha256": "4e97f3c1c73b8f2077f8f01fd47f5c52e85ab8ece85de20a59ba6de11f756581"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/generated/kicad_executables.windows.json",
+      "size_bytes": 8237,
+      "sha256": "a5ce4ec71594d8cd8c5fc0c5c89fde166221cd80ef1f45acf21ed6c5f4eba6a5"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/generated/kicad_folder_inventory.windows.json",
+      "size_bytes": 28259,
+      "sha256": "92ef05b60842e8c51ce7c7de0a3c5744a656f3b355d9617ebd08185729bad85b"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/generated/kicad_folder_inventory.windows.md",
+      "size_bytes": 7150,
+      "sha256": "85a7559941d3a1b0305b70d186de530318943fdb63ba5c511cd1a62b93cecfc8"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/generated/kicad_resource_summary.windows.json",
+      "size_bytes": 6541,
+      "sha256": "cf631e2d290e8e77f7297055c10851934fbac898f6bb197394f43be489f5f49c"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_9_WINDOWS_PATH_MAP.md",
+      "size_bytes": 9067,
+      "sha256": "f62ff4eb0cf8d1b0efd257d393f2a7ed9d832b167302a170490278823d682fd4"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_AGENT_TASK_MAP.md",
+      "size_bytes": 15185,
+      "sha256": "1851d46ca5f3d26393ef8ee5ef978620617949ec1d29da9db80e1f49db414e0e"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_CLI_COMMANDS_REFERENCE.md",
+      "size_bytes": 5204,
+      "sha256": "02164a2d8b959e7834bdcbab2984e5282b8d79a8f58fb5eb08546f921393dd0d"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_DO_NOT_TOUCH_RULES.md",
+      "size_bytes": 4063,
+      "sha256": "0b841c9032f373791b50e0b708e466e3589a4a4526dff5c35212b65daf543b57"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_FOLDER_ROLE_MATRIX.md",
+      "size_bytes": 3830,
+      "sha256": "92d1b44e6c8cc31e4407aa8f97214c3a61ab6d26b28964b66ec55dbd5d29092a"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_LIBRARY_DISCOVERY_GUIDE.md",
+      "size_bytes": 6204,
+      "sha256": "8d8e4da817b7b4502b8cd74e37fd23962b628003149dec54d51e9e61588536c5"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_PATHS_WINDOWS_MAC_LINUX.md",
+      "size_bytes": 6389,
+      "sha256": "98ec693516ffd691b235c996e20f1c678224174cbed102998c2366025562ab36"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_SYSTEM_VS_PROJECT_RESOURCE_RULES.md",
+      "size_bytes": 4285,
+      "sha256": "315db8f9c7d33d1fac930f958a30ed83ae9a6af7c390e005e687ccebecf4ecfe"
+    },
+    {
+      "path": "03_TOOLS/kicad_app_intelligence/KICAD_VERSION_COMPATIBILITY_GUIDE.md",
+      "size_bytes": 4553,
+      "sha256": "4c8f6c24c03c664712889f01149b0309e021fb8a5fbe8473377ec74818bf6fd3"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/CONNECTOR_FOOTPRINT_WARNINGS.md",
+      "size_bytes": 2048,
+      "sha256": "b0c6d1fbfe135127d8c20296c4b7e4e15cc62037cc3b1b5199b42b75a8426b97"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/FOOTPRINT_LIBRARY_INDEX.md",
+      "size_bytes": 2867,
+      "sha256": "2e80a252d3cafd734df9294710b3a1caf520f9a4d34b946469dc95750a44e405"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/README.md",
+      "size_bytes": 171,
+      "sha256": "dc836e1da7719576902ceaa70609095213e6d9e8c350a787f69d197addb978ca"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/HIGH_RISK_FOOTPRINTS.md",
+      "size_bytes": 2373,
+      "sha256": "7e38d31019a13fa7daf7949b0659f86c2a47c2a992079491c7b6404497de6e6a"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/LIBRARY_TABLE_GUIDE.md",
+      "size_bytes": 2596,
+      "sha256": "1c29c1fb43d0dfceecb0279389ee01f3de5751b2def0591cc2d96ab0a1de80b0"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/MCU_SYMBOL_WARNINGS.md",
+      "size_bytes": 1996,
+      "sha256": "1820b2b5c5a62865cad8999378af642a8495d0b060c342f60f117e75a634053d"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/README.md",
+      "size_bytes": 3042,
+      "sha256": "a37a456cff87091b49b581c35bdb5cffc8986b86a548bed0b1a5e76cf97ffd1a"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/SYMBOL_FOOTPRINT_MATCHING_RULES.md",
+      "size_bytes": 2266,
+      "sha256": "8c21bda69d706ca870f14edceb8912b66c6bd99e241254eaa06b8af7ffcb03fe"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/SYMBOL_LIBRARY_INDEX.md",
+      "size_bytes": 2817,
+      "sha256": "4a36714a7f24169134cdaf199d945379acca7b63f34feff1c9c8f1f6f09c1448"
+    },
+    {
+      "path": "03_TOOLS/kicad_library_intelligence/THREE_D_MODEL_INDEX.md",
+      "size_bytes": 1305,
+      "sha256": "d618cf207325d41a0d41f076772c778ae6a0c43aafb30b41c9174046283dc4dc"
+    },
+    {
+      "path": "03_TOOLS/linux/docs/LINUX_AUTOMATION_README.md",
+      "size_bytes": 2495,
+      "sha256": "099e715b871911532665249c6539cbadf53602dbcfee26f354bc14f66b08c06c"
+    },
+    {
+      "path": "03_TOOLS/linux/docs/LINUX_KICAD_HEADLESS_PLAN.md",
+      "size_bytes": 2849,
+      "sha256": "ba56002911c0e01bc0701a5bdbcb9e920b22a832b9e2d9f89a40adbfc69def81"
+    },
+    {
+      "path": "03_TOOLS/linux/docs/LINUX_TOOL_INSTALL_COMMANDS_DRAFT.md",
+      "size_bytes": 1941,
+      "sha256": "5b49114eeae10fdbdf233d70989176d5bd6edb66539ee9e27efb6d6e20730912"
+    },
+    {
+      "path": "03_TOOLS/linux/docs/WSL_SETUP_NOTES.md",
+      "size_bytes": 1400,
+      "sha256": "860d026a83d5d8d1469d837567124e86ca2b7563ef6b133503c0daf70afa64ff"
+    },
+    {
+      "path": "03_TOOLS/linux/README.md",
+      "size_bytes": 557,
+      "sha256": "d45aaaf1cbe8f9cefdd7435a81f58635c6a6aebd226bcacc586d5a5d7be99302"
+    },
+    {
+      "path": "03_TOOLS/linux/scripts/check_linux_kicad_env.sh",
+      "size_bytes": 1970,
+      "sha256": "449823e0c9a5c9e162410bceefbec9b50b4a76c973d46b32b7931542c9d0fb0a"
+    },
+    {
+      "path": "03_TOOLS/linux/scripts/wmctrl/list_windows.sh",
+      "size_bytes": 510,
+      "sha256": "8e23f6006a608705459b421f7b747992c3f034c06d520a53a6e53c7129b83bb0"
+    },
+    {
+      "path": "03_TOOLS/linux/scripts/xdotool/list_windows.sh",
+      "size_bytes": 891,
+      "sha256": "0f77d2f5a49d676cdbbf97fba30caa56fec330514a98b3c589c4576f6fefb151"
+    },
+    {
+      "path": "03_TOOLS/linux/scripts/xvfb/run_kicad_headless_check.sh",
+      "size_bytes": 1158,
+      "sha256": "707c6115ef930b9bf733d7963865e82b6d293b3aa0191c3076a69ef9cdc2b24d"
+    },
+    {
+      "path": "03_TOOLS/scripts/backup_kicad_project.ps1",
+      "size_bytes": 4365,
+      "sha256": "ce758374086e43899cb8ef86b87128c28693796215f2e2b242bba211325b2b0d"
+    },
+    {
+      "path": "03_TOOLS/scripts/datasheets/build_datasheet_index.py",
+      "size_bytes": 4395,
+      "sha256": "5d8baaaa41510db03c8ffdd4c339bf3bb43c35672c0308ca107e13726052a76f"
+    },
+    {
+      "path": "03_TOOLS/scripts/datasheets/create_missing_datasheet_report.py",
+      "size_bytes": 5155,
+      "sha256": "690fb8285026ed868b6108bdd26132707bdbf00ceb2d5d9e31478518ba8d1778"
+    },
+    {
+      "path": "03_TOOLS/scripts/datasheets/generate_component_summary_stub.py",
+      "size_bytes": 6465,
+      "sha256": "a82b36d782db7392f6e070b1898bae7570ecf6c904d3c0d3d14be9ddbb1618b3"
+    },
+    {
+      "path": "03_TOOLS/scripts/datasheets/validate_datasheet_links.py",
+      "size_bytes": 6425,
+      "sha256": "3468e1f91a3d7e8cdcc964589e08fa212bb69da59789ff41a8c02ac357b3a282"
+    },
+    {
+      "path": "03_TOOLS/scripts/export_bom.ps1",
+      "size_bytes": 2163,
+      "sha256": "7824b5400234738b2fb0a243df379a9413469e97e8e956ca6f82cda8ac535738"
+    },
+    {
+      "path": "03_TOOLS/scripts/export_drill.ps1",
+      "size_bytes": 2303,
+      "sha256": "13eb0c09f6e7bd2c4e6dcc1d6a5fa990e3b2a06e66024a597daf460de2accda7"
+    },
+    {
+      "path": "03_TOOLS/scripts/export_gerbers.ps1",
+      "size_bytes": 2319,
+      "sha256": "f81221b16f60753bb2c4cccdadce0624a8a34d98a7938d1a3b1e11c3607dbbb6"
+    },
+    {
+      "path": "03_TOOLS/scripts/export_step.ps1",
+      "size_bytes": 2346,
+      "sha256": "d5dc8aff41c1506af48b395c248dce34e3f6202f1825f6c865b9ea3f78f77627"
+    },
+    {
+      "path": "03_TOOLS/scripts/find_kicad_project_files.ps1",
+      "size_bytes": 3761,
+      "sha256": "a8b61f57879e0eb448780bb279070751832f2d4359c1e6c5cbdfa7bc32178d41"
+    },
+    {
+      "path": "03_TOOLS/scripts/full_verify_project.ps1",
+      "size_bytes": 10392,
+      "sha256": "59d612e0f0db981ac9b23653299ed1efa5f6114f2ded9501d63eac9863dccadf"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_app_audit/audit_kicad_windows.ps1",
+      "size_bytes": 9350,
+      "sha256": "8a1078513954a13b270667544ea578936c06a5f3cb7f850dfb3f95790675296c"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_app_audit/check_kicad_cli.ps1",
+      "size_bytes": 5191,
+      "sha256": "d39d959bd00d74b1068614d730b959ce0a1633ccb75281984b81071c11ddfc32"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_app_audit/deep_kicad_folder_inventory.py",
+      "size_bytes": 21183,
+      "sha256": "d78b821f0c77a2dd82011304733bfb8ea11817a22e352fae6ff6ddf7885af14d"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_app_audit/inventory_kicad_libraries.ps1",
+      "size_bytes": 7864,
+      "sha256": "bc74e089a319c53c2806edd02670e2aaf308f71e2cb240912088fafe28d1383e"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_automation_common.ps1",
+      "size_bytes": 13317,
+      "sha256": "dd87a938f35c9bf3b57e5d4b13deb293c23f09250917011bad5bc6b7e5f81e61"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_engine_health_check.ps1",
+      "size_bytes": 13731,
+      "sha256": "240c9284a6dba39fbe8783a035ef57a1e9260f337632a56730ddd11e65e1a02d"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_libraries/find_footprint_candidates.py",
+      "size_bytes": 6507,
+      "sha256": "db4eb16cbb51cef774db98aed61d2dc7ac633bda9c4b46835b1da9fff8272be5"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_libraries/find_symbol_candidates.py",
+      "size_bytes": 4849,
+      "sha256": "bf0277157e6245b0cb928dd8206af2c639da115190bccc4e30d27f42193be79a"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_libraries/index_3d_models.py",
+      "size_bytes": 4504,
+      "sha256": "82d6e8d9f07a92e05ada8d26110af4412827adfa95ad9069651ebafc9311e758"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_libraries/index_footprints.py",
+      "size_bytes": 5830,
+      "sha256": "f6c960e52d1284701ee5e1bfe0c211c9d49eb3d4bc26b06631ecceacef1bacd4"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_libraries/index_symbols.py",
+      "size_bytes": 6566,
+      "sha256": "74dc8ea121e52be43ca0edea9347b2fa6b8e4c05a7b641f79f37a6b4a683ef17"
+    },
+    {
+      "path": "03_TOOLS/scripts/kicad_libraries/kicad_library_common.py",
+      "size_bytes": 6709,
+      "sha256": "067de2e37ffa296606d0f73f56995baebf2f7e65b224f1471a8db7d1c0d6b0b6"
+    },
+    {
+      "path": "03_TOOLS/scripts/new_kicad_project_workspace.ps1",
+      "size_bytes": 6411,
+      "sha256": "7e8545d86cb3152d37525dc0909b4d8596261297778e72aa2ad0d0c3476f66d8"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/check_bom_has_datasheets.py",
+      "size_bytes": 209,
+      "sha256": "9bdab1f38f1553c7c963dc3bea4c2211aac2e6fc2daa90ba3adb25d890c8dc1a"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/check_component_database_matches.py",
+      "size_bytes": 231,
+      "sha256": "36b7999bc589e5eec0ceed077dde97a45e481f32d495034e012c600a452eacfb"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/check_connector_orientation_review_needed.py",
+      "size_bytes": 226,
+      "sha256": "578109d3ff02bdc4d392896b5e0a0ac54d28bc68280925e3ff99373f9489ee91"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/check_missing_3d_models.py",
+      "size_bytes": 194,
+      "sha256": "a03557dba28c39d418e5155bf3ea8212f71cf72dc746a76d50104d2cb9fa6d96"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/check_missing_footprints.py",
+      "size_bytes": 219,
+      "sha256": "1e505c0b347bc12307183e397fd60d934caa0b691593b9c6988667af6c2f93ab"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/check_project_libraries.py",
+      "size_bytes": 214,
+      "sha256": "54e1b004cf295f8f4d057e12e58363a79f0de99a72b160d75253bdd6a45f3c56"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/check_unconnected_power.py",
+      "size_bytes": 239,
+      "sha256": "f2af9af9ae8a02f8adbf9ad8380c6944dbf3661f722de938172d3309f4c931d0"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/README.md",
+      "size_bytes": 3857,
+      "sha256": "56fe6e01bead989ac653310b68d378c84a4eb1511eb423a2ce658d663bb4add4"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/validate_kicad_project.ps1",
+      "size_bytes": 1467,
+      "sha256": "1e8907fb6e0768889f4525a4150de76a7038fb53723cd31347e06c3bc9b15159"
+    },
+    {
+      "path": "03_TOOLS/scripts/project_validation/validate_kicad_project.py",
+      "size_bytes": 44560,
+      "sha256": "1fbf7dac3fcf507d01e3db0ab165b20aaab4a9d675fceaf18db1bc0fdad30e27"
+    },
+    {
+      "path": "03_TOOLS/scripts/run_drc.ps1",
+      "size_bytes": 2750,
+      "sha256": "9aefc1f411a4ebd3682e3535c5fdb1179a8f4701b495f5e28cf42161c2407911"
+    },
+    {
+      "path": "03_TOOLS/scripts/run_erc.ps1",
+      "size_bytes": 2786,
+      "sha256": "9c4371ef66da34f600e8da356cff2d336a38e8273db7af82651ee5628d3b25ec"
+    },
+    {
+      "path": "03_TOOLS/TOOL_PLATFORM_STRATEGY.md",
+      "size_bytes": 4313,
+      "sha256": "f0fcb78693b84d206b62bb1ae159437316a0a5a8d040fc4fa58be10de6e9fe8b"
+    },
+    {
+      "path": "03_TOOLS/windows/docs/KICAD_GUI_CONTROL_LIMITS.md",
+      "size_bytes": 2494,
+      "sha256": "549f794185d74335d757aea63559462dd2a13d639bc50575d46e807b41f8db89"
+    },
+    {
+      "path": "03_TOOLS/windows/docs/WINDOWS_GUI_AUTOMATION_README.md",
+      "size_bytes": 3663,
+      "sha256": "b99c2a16b48d8c0d41bbf7fedf87ae240da791faab0cb9d2a9fdfa38a8bc8d1f"
+    },
+    {
+      "path": "03_TOOLS/windows/docs/WINDOWS_GUI_REPO_INDEX.md",
+      "size_bytes": 2206,
+      "sha256": "b4234194e561492ab18eb38a0075bcec7bc4bc8a674c48144090f5f38c0aaf07"
+    },
+    {
+      "path": "03_TOOLS/windows/README.md",
+      "size_bytes": 612,
+      "sha256": "8abe0523f2d92e302e5327f2e8798a34e8bfa44f3123263e1d59824eb72efba3"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/KICAD_GUI_DISCOVERY_README.md",
+      "size_bytes": 4432,
+      "sha256": "393dc08b2c0be503a2e6e4ad65c267bed20676dfd979f9b4d11141d7760b252d"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/kicad_window_filter.py",
+      "size_bytes": 11893,
+      "sha256": "bb14f52ed1478b1d10a7c184e300307b2370dfdeb40e64e4cb0cd9a91d040648"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/pywinauto/inspect_kicad_uia.py",
+      "size_bytes": 6635,
+      "sha256": "38ac73e6f88bfdbc8d2635613708fb9311d83b0e760d6129ce21377990cb87d4"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/pywinauto/inspect_kicad_win32.py",
+      "size_bytes": 6486,
+      "sha256": "a9f77a9e300a7da2b3cbbfb3af94edfd06cda6af59dda2d4d0c1c193d0889dfb"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/screenshots/capture_kicad_window.py",
+      "size_bytes": 5576,
+      "sha256": "9af08f0f0671fd54edc08a0507f68d1c2a16d1646fb3c570e28a413f1435ffa9"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/screenshots/take_screenshot.py",
+      "size_bytes": 968,
+      "sha256": "f2a62697cd418f38ae64bb20c7c7228f4bd7707a2625d94b8a0f1d40e62da20a"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/window_discovery/discover_kicad_windows.py",
+      "size_bytes": 2795,
+      "sha256": "32a623827eba7f081106f64f0288ce73f72066ab5e96ad16df571ee20e1e624a"
+    },
+    {
+      "path": "03_TOOLS/windows/scripts/window_discovery/discover_windows.py",
+      "size_bytes": 4449,
+      "sha256": "2389a1208158433800a6b0ac3f3232028958271a637843d7674b5d1f591aec1d"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/active/README.md",
+      "size_bytes": 73,
+      "sha256": "77b56e9ece70e7f983ccbcbbbf23269eb1dcc90d08947e4710c2dcd8c9484dbf"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/archive/README.md",
+      "size_bytes": 89,
+      "sha256": "e92d67ef502bb53ccdf05c25061538da38c293d4413dd262b01673dc9962bafd"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/README.md",
+      "size_bytes": 158,
+      "sha256": "212a0a80bb5ef8a62021a8495ad13b91cc5765df66f0ac1f5dad5ee6a4ef14e2"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/FINISHED_PCB_REVIEW_CHECKLIST.md",
+      "size_bytes": 5017,
+      "sha256": "53223f187de97da1b0dc9c4209e354c8110529ffead0151ba8fb6b57960ec4cf"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/kibot_default.kibot.yaml",
+      "size_bytes": 3968,
+      "sha256": "1955b36713852e73c033e7910ff672887fbefb71c0d35cd4c97e39001d41ba6a"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/PROJECT_CREATION_GUIDE.md",
+      "size_bytes": 2510,
+      "sha256": "d5a1c46f36f05ae43715dd9a66430255ea69c52ff930e7a8ecab373b274aea9b"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/REAL_PROJECT_REQUIREMENTS_TEMPLATE.md",
+      "size_bytes": 2013,
+      "sha256": "1f7320412401b31fbd0167969300240b0916f83fd7f52cc170a51fa5de37b00b"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/REFERENCE_PROJECT_FOLDER_STANDARD.md",
+      "size_bytes": 2772,
+      "sha256": "053f81fbc7c01247da9e40ce06d8416f3d8fa4c54133f14d8e393598d0c7a9d0"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/STANDARD_KICAD_PROJECT_TEMPLATE/AGENTS.md",
+      "size_bytes": 2875,
+      "sha256": "65ffc34fa5d75c7bcd3814fdb81821d25676e45a9c81c14438f3f5cf4b5bbd34"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/STANDARD_KICAD_PROJECT_TEMPLATE/README.md",
+      "size_bytes": 1581,
+      "sha256": "4fe8de80f46df345ac73a80c4586bf19f61c917534fea91a7ea4ca912dbe314a"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/STANDARD_PROJECT_AGENTS_TEMPLATE.md",
+      "size_bytes": 2875,
+      "sha256": "65ffc34fa5d75c7bcd3814fdb81821d25676e45a9c81c14438f3f5cf4b5bbd34"
+    },
+    {
+      "path": "04_KICAD_PROJECTS/templates/STANDARD_PROJECT_README_TEMPLATE.md",
+      "size_bytes": 1581,
+      "sha256": "4fe8de80f46df345ac73a80c4586bf19f61c917534fea91a7ea4ca912dbe314a"
+    },
+    {
+      "path": "05_OUTPUTS/datasheet_research/README.md",
+      "size_bytes": 98,
+      "sha256": "97c4a4e1b9081946245efda48a2466d1037bc4a8b9928a143bc375d5e7b62e12"
+    },
+    {
+      "path": "05_OUTPUTS/health_checks/README.md",
+      "size_bytes": 93,
+      "sha256": "bc9c3f2caef64caa0a1664faa0a28c91ae73919946966ae84c123f0dac84cb5c"
+    },
+    {
+      "path": "05_OUTPUTS/README.md",
+      "size_bytes": 217,
+      "sha256": "ec97eedaf2dd55c945501ab823f79552cf2edcb5c69a5d13478a00d13c77dbcb"
+    },
+    {
+      "path": "05_OUTPUTS/review_packages/README.md",
+      "size_bytes": 95,
+      "sha256": "4f428eaa0dab733089fcfef16522c3f2e53598a8c7bb8f871b9673d00a329889"
+    },
+    {
+      "path": "05_OUTPUTS/setup_indexes/README.md",
+      "size_bytes": 93,
+      "sha256": "a2896634ab86aa608d17a9d549f85dcd0f25ab7336961ed8079a82948214f33d"
+    },
+    {
+      "path": "05_OUTPUTS/setup_reports/README.md",
+      "size_bytes": 93,
+      "sha256": "81717d7c54b69bdca728024f70b306f81e32fb19b48b35747c3e1206b00a0699"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/COPYRIGHT_AND_LINKING_POLICY.md",
+      "size_bytes": 943,
+      "sha256": "d3a4c68ec470650d92d655f16ceffad26fdce7f3238c922fa845555551491d5a"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/DATASHEET_LIBRARY_README.md",
+      "size_bytes": 1496,
+      "sha256": "28873a86a115794067c2dd0fda176ebdeef2f81aa997d4ac019897b07b18f0dc"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/DATASHEET_SUMMARY_TEMPLATE.md",
+      "size_bytes": 3364,
+      "sha256": "b2d89adf169effd42c5704ac4c587b9bb28d5b24118ab169bf088b1f96575ea6"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/DEV_BOARD_RECORD_TEMPLATE.md",
+      "size_bytes": 2887,
+      "sha256": "c63f34637af270cd3d53c5b782a8abd8b0419067532db67ac2e35cfde4a52ba2"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/DUPLICATES_AND_REVISIONS.md",
+      "size_bytes": 702,
+      "sha256": "b9ab467d55443f91e1a2108904141d3f0e51436bf910ef52ebf0e850a9555fb9"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "5805c5040a7ad2ec6016397c87d0ba9378fe614acc03379a8d622201be2dc8f4"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/LINK_ONLY_VS_BUNDLED_POLICY.md",
+      "size_bytes": 1430,
+      "sha256": "6571d1523f8ed0278a5b0b6f2a8749a6641efd4fd30251388ae44d1df5e013c2"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/MASTER_DATASHEET_INDEX.md",
+      "size_bytes": 1031,
+      "sha256": "f5eab590f6709ef713b794e5c1f618459e9152a5565d9b144b4a6bfb437af7a8"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/METADATA_SCHEMA.md",
+      "size_bytes": 6508,
+      "sha256": "b0955e534c69b7b06da60fd30220a9f8d1d328e39102b235b2e63679b0acf567"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/MIGRATION_LOG_20260502_161444.md",
+      "size_bytes": 1133,
+      "sha256": "eda1a25e5ce8e59951acc6a1ddf5c5d61e3c91fec890897ba8a4c4af2c74c6ba"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "0a335596c4db7257a58ca20f8ca4f9fb8b7dd7d491d8b93323e5b811749b4a50"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/MISSING_DATASHEETS.md",
+      "size_bytes": 562,
+      "sha256": "52a5ead041f5bdc84ae3fd5ea9e0db58851ac2b581e4df36d89232724df04502"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/NAMING_CONVENTIONS.md",
+      "size_bytes": 5670,
+      "sha256": "9931f1cdd4deadfab8b0aa7a0c7e6e7e432bc7da0167ebfb8b7bc612f8d5910e"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/PART_RECORD_TEMPLATE.md",
+      "size_bytes": 24604,
+      "sha256": "8bca91374257754ee9e4bce302b6a76d0f6f10c436140b2f1dab97d22649e834"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/PUBLIC_RELEASE_DATASHEET_POLICY.md",
+      "size_bytes": 1754,
+      "sha256": "6a07438c783c4931bab37903fc7de3c523f4d15cb6f1b2c4731ce7323c308507"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/README.md",
+      "size_bytes": 636,
+      "sha256": "9a1cac8f3c1cb3767487b058e9ef002b04b391b4e89aa71c0ee9b46dc87d6578"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/REFERENCE_DOCUMENT_TEMPLATE.md",
+      "size_bytes": 2594,
+      "sha256": "6668b8face817a9238157cd6999d7616ec9db8d31dda0e0b222207c1feab3937"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/RESEARCH_PIPELINE.md",
+      "size_bytes": 3167,
+      "sha256": "c17586ddf2af4106eb4144767fb8b4f94778e98dcc100e80443b2e7d79ea5924"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/connector_sources.csv",
+      "size_bytes": 1130,
+      "sha256": "a048890ed5c27fb86726d3299ad6e936e6ac1afebc7f316f94e8afeeb95a3e2b"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/espressif_sources.csv",
+      "size_bytes": 1227,
+      "sha256": "693f32a7740d63ebcd65f07deb2f0525e2963b5b47d57606f3c9aa642982484c"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/microchip_sources.csv",
+      "size_bytes": 1216,
+      "sha256": "2584d8fa54056b492640dd04db906379cc9f157b374164d0f7e99831a1d2724d"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/nordic_sources.csv",
+      "size_bytes": 1075,
+      "sha256": "ab79d695112fa2c6c7151b3358f702f4406c1ab18f02bddd85e2a57c851912e5"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/power_sources.csv",
+      "size_bytes": 1048,
+      "sha256": "b7d9a7fb1f91ed8d5309a67974c64befc388b96e04cbecf17b6acd9d335a2d84"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/protection_sources.csv",
+      "size_bytes": 1224,
+      "sha256": "789ffd73da62d33079c4e44445c7a75aeaadeca4d530ed4d5b1049d6071834e0"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/raspberry_pi_sources.csv",
+      "size_bytes": 1301,
+      "sha256": "0b858f6a208fcb911aa46bada4e2416d738950ed2171f65cf8a8b5f279637f0f"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/source_lists/stmicro_sources.csv",
+      "size_bytes": 1385,
+      "sha256": "2004dc6f695d3c188d0a47a7033db34628314b9813f8f4691ca3920e0f8f4779"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/SOURCE_PRIORITY_RULES.md",
+      "size_bytes": 1440,
+      "sha256": "bdf76e8dd420c4fab0b49debcba1d7a9efe7442028a17bd467c18e00468dd4b3"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "448b1de3336328c7a338bef9975ec04eb55f4f0d6487fdcc456857b63c886d19"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/VENDOR_DOWNLOAD_RULES.md",
+      "size_bytes": 1631,
+      "sha256": "3d0fa9a627d855942f702093e41ab3a8a4fde2f92543c9ab282165ac771f5428"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/VENDOR_SOURCE_URLS.md",
+      "size_bytes": 996,
+      "sha256": "b678ccd7ca089a2b5339a6a20d34b138e85172df768783eb77d841dae6b908bc"
+    },
+    {
+      "path": "06_DATASHEETS/00_INDEX/VERIFIED_SOURCE_RULES.md",
+      "size_bytes": 1126,
+      "sha256": "7f207b1a98fe34de207bf83b85c6e6a80d243eb7427e0f8924bc54961b90e0b6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ATMEL_LEGACY/INDEX.md",
+      "size_bytes": 335,
+      "sha256": "99304b17ce059dd114f5a722c163ffd4e6a93ada4f4d7207f1fed54425385f69"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ATMEL_LEGACY/MISSING.md",
+      "size_bytes": 369,
+      "sha256": "9cbbf28377399d7bbd77e71c814125a14321de55aea7b82cbed5dd562b0296ac"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ATMEL_LEGACY/README.md",
+      "size_bytes": 640,
+      "sha256": "7c3ec0a82e5d3048e439e44a3ac51b87516a08613ee611b2195cb78ea4162c4f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ATMEL_LEGACY/SOURCES.md",
+      "size_bytes": 329,
+      "sha256": "12bc654f780248712946e1796a2d09b3719cc1f8c7540de7e79d680c506ff57f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ANTENNA_RF_REFERENCES/INDEX.md",
+      "size_bytes": 344,
+      "sha256": "d11f6565642b4d6e95c7dd698b6a371c8c803c6a5fa1ed73dfc135499481f430"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ANTENNA_RF_REFERENCES/MISSING.md",
+      "size_bytes": 378,
+      "sha256": "eb2f9ec64ccb2420ffa09e809fa7141f58e2333850ab0974f628244be5de7a44"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ANTENNA_RF_REFERENCES/README.md",
+      "size_bytes": 649,
+      "sha256": "f42176d3336b42d1be8e7881a20df4bbd3b6d7bf693063c29b2f28934b8b2281"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ANTENNA_RF_REFERENCES/SOURCES.md",
+      "size_bytes": 338,
+      "sha256": "6ff9e0c83a99ba7d3f5900a140c0a458a2073fd6512e7cb0812a01ea4ac17db8"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/DESIGN_GUIDES/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "a2456a6b73c83b7005d7f1c27f1548367689eb0263e770eaed2478ce9b504165"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/DESIGN_GUIDES/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "cf6dd4abc14b08662fcd4ab231af4d26cfa2b38fe43c9ec3491d0ab0618e42df"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/DESIGN_GUIDES/README.md",
+      "size_bytes": 641,
+      "sha256": "d031418bd6c7bb5873094b2e2d777688f58933d997cdbca6b067f7f8a1ab57de"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/DESIGN_GUIDES/SOURCES.md",
+      "size_bytes": 330,
+      "sha256": "7c61f4342efd4036e3b7a3586d1e866604d622f02bb283007d13cc931f89d5cb"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ERRATA/INDEX.md",
+      "size_bytes": 329,
+      "sha256": "236b38c5e61eec09c651f6b10bb54e97dc5520c21d1fa4fbced24d6c22fb63e5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ERRATA/MISSING.md",
+      "size_bytes": 363,
+      "sha256": "65249851df039f2860f073be2139f8fb56677593541555b6b933a3d02a129576"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ERRATA/README.md",
+      "size_bytes": 634,
+      "sha256": "9b49fe28fc398113c235b235bc381844a80edb1d2c28509e62da2f4cec51f70b"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ERRATA/SOURCES.md",
+      "size_bytes": 323,
+      "sha256": "cabfac7a6b3353c557b8fda68e797e0075cc5ea6f7609a68006f7f26997e6192"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "e02e32ad547b1806dca24062d52fa2961ddec729e6925753e3b42b2c0cab0a45"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "1f6b9cffb501494ca4a4c202aa3601dc878ef80966b145b7ca1af26b11b52071"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32/README.md",
+      "size_bytes": 633,
+      "sha256": "d355eae55bf8d40918df623a9fdfcbe62cffefb0044829a957c5baaf28089775"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "c26512c82e9b29586ec0f39074351c2fa32a8e3d45dc901be8c6fda0aedab238"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C2/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "66105401b9de3d4019b3734ccb63c22473a0206e97da47132807e142429f1bdc"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C2/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "857cebd29f9119145c9e80cb7112a937d2e4d95a7f8d01c0546c5603d9694728"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C2/README.md",
+      "size_bytes": 636,
+      "sha256": "b9abbde0ca4158b8cee8a88a2431aaab5eded35a33da6e0420892d52fbea709c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C2/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "1c5cbf408ccd02384501a977e2fad9d3cd8aa15b52fe54e17df362b2d9a3b0c4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C3/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "403d37efac8ca56c68336c4d889c653594602d4c5ea257a93225832a56526ae2"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C3/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "03da70d2c49754a23fcc24445ffea8f75af5148c2664b00393c84af4dec20216"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C3/README.md",
+      "size_bytes": 636,
+      "sha256": "b8b0511697faec4af685d5fa2351ff5daa4c7c84316d0f8d45e8ea678476a1cb"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C3/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "1ebabaa7e3c0d386e127aa94b73723bb1b2153e8432ba35d77553f5d43ed9300"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C5/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "80fce9097d7eca24c5c1bd0169e8a3757b1866eaa2c668a9187f8d2fbddcd140"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C5/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "7f9fd0f59db91cb01c191a87f47964d9cb701167cc76f22aec46641af4ca069d"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C5/README.md",
+      "size_bytes": 636,
+      "sha256": "937545ac0dd82e1195832fb9d2a78aed726b499cf4016ee9b143d7f5c62dc32c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C5/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "7f5f41bb6d8bfba052b0bd5405ad1f17df3bfe2225216ac4670edaeb6241b1c3"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C6/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "d86402776b2e4291441fd06563a77ab21c1556da8c4de39db81267b1414b360f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C6/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "ab9a5d2401d659cd3143fd613edc9cd1d6e36cefbff7b04df88b25e2234c6a16"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C6/README.md",
+      "size_bytes": 636,
+      "sha256": "7ab54519176edf64f40e69d1e1e19c31dff9442ea6d6ee5bad4ec2d6741175da"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_C6/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "a90d7bf2cf19d84b9f068e8379cd1cba5b603fbe7df8bda1bc785ce952d1a6d5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_H2/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "479182500e0c1a192303e23ce9a35f2b9959f662242cb8397407bb280b815ae4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_H2/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "cfa83d79172c0a08d58819830b1053de65f0707262c6921cacf88c6290e7611c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_H2/README.md",
+      "size_bytes": 636,
+      "sha256": "6a4b54ef275e192765cb8cbfbc0a9de99f84ea7af8bd304c2796eb4af76e66b5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_H2/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "08a9472a9d98179a4430dc332a78ce206ea25a0adb193a057f7922fe376ee375"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_P4/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "64f633b597d2a7e11299b55bb1c09f50b7702c76c93cb2cafa8ce39f4b51bc19"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_P4/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "ab78519f7fc2dae35eca85b5267e8c2b15f1cac4b9df1fadefafd795f46777ed"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_P4/README.md",
+      "size_bytes": 636,
+      "sha256": "e0fad99ab8e0a77b49b0e4f691de303df832f05046e7396281925520232953d9"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_P4/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "f811fe250b6ea8e64b99f88c0300a8f9d29aff887db24cfc997bbdb0ebb33039"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S2/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "90e19d2a519d5c44a68e6ae6853244b43eda8aa6acef701fd2dd90ccaeeb8373"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S2/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "ad31f537b19b047a3945ef04c37a228fbad79ec0b200cdef0696ca2dbc860312"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S2/README.md",
+      "size_bytes": 636,
+      "sha256": "c4132daad7df6086315d2ccd26611a831903dbbeb07c40ea19f6bbe88909ae99"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S2/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "62cf1d6da0f84ba3541c5cd9a527a21ca1c9ca8814806062295ffe48361a3e2e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S3/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "ec19bb20417d8d919532d0ad5c4469c11519e995b1abc477fc488f8f94804448"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S3/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "dd834ba3c4cd325cfbd42566fb8820a83d5c2f200774058b7b4a289d7a43caa4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S3/README.md",
+      "size_bytes": 636,
+      "sha256": "ad8adcbee9fd7e3c94607acdd02744b4296a5c0fa89dcd51a3073ebb4faaf4dd"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP32_S3/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "0c43d4ec9a51d671c254d89f9f0a9acd89d6711743d5246efc0dc3eb7f31be38"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP8266/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "4729bd54dc49ad6bb5b65b2efc29163747a4205ba2a7efad3f1ed6afb07ac268"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP8266/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "0d2c648a2c8ff396fb4c3a29baca4738d5109798f05f2bd56256edb1d15fc1b5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP8266/README.md",
+      "size_bytes": 635,
+      "sha256": "bdd60407b376d4f5c8888c6a645326f672f1d7eea71d72208d0c7bb085e39e37"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESP8266/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "0da6da339cbb3f1f2b75eb1007874400ce73c3fe882c02b1c17b61ffd8db7f13"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/ESPRESSIF_MASTER_INDEX.md",
+      "size_bytes": 12229,
+      "sha256": "b391f90128af657ee0bfc02e2aece12e67d6a1f270a988fd8719737ec4c91047"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/INDEX.md",
+      "size_bytes": 332,
+      "sha256": "10df2504fcc00778cda9d2fba7f67782c31805b60c64d6ce6982916aef0f529c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/MISSING.md",
+      "size_bytes": 366,
+      "sha256": "3d15627df02e566a0521d660f38a7bfcb893d185bbffcf33b1cd38cf7f27ee79"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/MODULES/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "b4689d43dac29bcc89d4a353bce9eb01712e48f86e9638041a01beaf2261cf0f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/MODULES/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "3224046a041c16543c4014ba7c7c683abb2c77f1ac15200f73d0ff9ec214da51"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/MODULES/README.md",
+      "size_bytes": 635,
+      "sha256": "60c9d231dfd96d2abe2d32865daf690b88370baee17c4a6ba81ba31666703a09"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/MODULES/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "67d7c03b6f1962650152bf49ab3ebf9a2fea7adff9b6638827e97ff369cf9002"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/README.md",
+      "size_bytes": 4366,
+      "sha256": "c14bf0c25f569efa764820cc3b80f5520b749f37c0d754f53639e1f12bbe8684"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/ESPRESSIF/SOURCES.md",
+      "size_bytes": 326,
+      "sha256": "e12127ef7185dfe283e024da530f9237649fdc704bef38c8f112f17d5ee123c7"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/GIGADEVICE/INDEX.md",
+      "size_bytes": 333,
+      "sha256": "d2e0d0f3ec92fddbe6e9d4bed9f002440a5c580b986069aa7e05d740891150be"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/GIGADEVICE/MISSING.md",
+      "size_bytes": 367,
+      "sha256": "32dd5080f9d908ed1531d699077b68d51261efedcc5b395d7943148f29a0bf9a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/GIGADEVICE/README.md",
+      "size_bytes": 638,
+      "sha256": "05c7f5a7fb96833ce3148251d820dfef7d73fdeaba9575fdbae7958fd38add06"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/GIGADEVICE/SOURCES.md",
+      "size_bytes": 327,
+      "sha256": "deca7ad307ea304b8e0ee6da921d09a8365725b6fc0a35e8468ac28191e1f43f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/INDEX.md",
+      "size_bytes": 342,
+      "sha256": "ec9381c1da5da833bd1e9e39c7c15e8707f7c04a833875a38842e4a1a5ac56ad"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/INFINEON/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "28f19d3dcfc842f037e70e284ea295b9be5792ed29a59a3d51b3b680e4b73b64"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/INFINEON/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "418e0a31b2fec74b30cbfab386ea8096442718577f9ea5f3f75ba9dbbef38ec6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/INFINEON/README.md",
+      "size_bytes": 636,
+      "sha256": "d6eafb7c9147e2822c3b780a1102b995152e55dfe817edbc08147678c4304f14"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/INFINEON/SOURCES.md",
+      "size_bytes": 325,
+      "sha256": "22814b939d4b6f9c38816ca1cac6594f79be24adbf2c2739d2ad4cd229005d9f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_AVR/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "855753555b902a4a7d04083ea74abd9ec4359b730ca2e1396e5270b192d3050b"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_AVR/MICROCHIP_AVR_MASTER_INDEX.md",
+      "size_bytes": 3668,
+      "sha256": "f4ea734e204f504c1b579b88e4488651f1d970fd697b192249badbeddb9c6545"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_AVR/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "722dce9a6ebd2f4bc063632b9b6c644b5ff91c44aba3d7caa9d558813ff87d20"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_AVR/README.md",
+      "size_bytes": 641,
+      "sha256": "6233358183d7c2c74e998da9079cb89f4f1fa34ec8cc041dd1f26f84726b6a8f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_AVR/SOURCES.md",
+      "size_bytes": 2416,
+      "sha256": "796a566c5adbcb9b1bdf3c168836de47c0baec09a91edba96ffc5596045b7371"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DESIGN_GUIDES/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "a2456a6b73c83b7005d7f1c27f1548367689eb0263e770eaed2478ce9b504165"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DESIGN_GUIDES/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "cf6dd4abc14b08662fcd4ab231af4d26cfa2b38fe43c9ec3491d0ab0618e42df"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DESIGN_GUIDES/README.md",
+      "size_bytes": 641,
+      "sha256": "d031418bd6c7bb5873094b2e2d777688f58933d997cdbca6b067f7f8a1ab57de"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DESIGN_GUIDES/SOURCES.md",
+      "size_bytes": 330,
+      "sha256": "7c61f4342efd4036e3b7a3586d1e866604d622f02bb283007d13cc931f89d5cb"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DEVELOPMENT_BOARDS/INDEX.md",
+      "size_bytes": 341,
+      "sha256": "e6cd2d6e52a52255576d96b2343ba28be4de5eb600ad09b3b620779911e6b499"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DEVELOPMENT_BOARDS/MISSING.md",
+      "size_bytes": 375,
+      "sha256": "09b2c24483a531484c33a9c3afe8d5421d8a2bf193b3451f3aa7f1d150912326"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DEVELOPMENT_BOARDS/README.md",
+      "size_bytes": 646,
+      "sha256": "9105ac920d57aa259389e8876c1b6eaae122c1aa6dd3439e84ec3cf496fd3070"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/DEVELOPMENT_BOARDS/SOURCES.md",
+      "size_bytes": 335,
+      "sha256": "c0f1ac6bd1535229c6aa279362491bd89699a35e9e634f8cd48f6e5004cc86df"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC30/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "b10e36d5717976f689e3e594d440ca9854ff20cff2d9edecb47608bf2d9a5dd1"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC30/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "bec959fa53634b27fd9b97e1c2456e4f29425121086dc36c6569a26499df5dc7"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC30/README.md",
+      "size_bytes": 635,
+      "sha256": "e3ff8c1e8af0ea98c502457e6f437197d9e8b244bc17308ba23a5f9f9e5e7b49"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC30/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "26abee958ddc8f80f00f0f3b1a2616039c2766a50feb91c1937fd7838861bd4e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC33/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "dc6cddecc6be942443f33f693f627afd081678ec18c62c9e386efd704f095830"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC33/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "6cf74740538599cd871dfb990bf128728adfab1f931d3959658f382dff0a4ec7"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC33/README.md",
+      "size_bytes": 635,
+      "sha256": "e9be986d883684e2c913d42f97cd3144aa3a43d081a5868296568b9fc5e7f5f3"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/dsPIC33/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "0deb7c9b87a298fd16e361f08ca26c8932ffa8c2cbb2e0026270da448bfd3e85"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/ERRATA/INDEX.md",
+      "size_bytes": 329,
+      "sha256": "236b38c5e61eec09c651f6b10bb54e97dc5520c21d1fa4fbced24d6c22fb63e5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/ERRATA/MISSING.md",
+      "size_bytes": 363,
+      "sha256": "65249851df039f2860f073be2139f8fb56677593541555b6b933a3d02a129576"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/ERRATA/README.md",
+      "size_bytes": 634,
+      "sha256": "9b49fe28fc398113c235b235bc381844a80edb1d2c28509e62da2f4cec51f70b"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/ERRATA/SOURCES.md",
+      "size_bytes": 323,
+      "sha256": "cabfac7a6b3353c557b8fda68e797e0075cc5ea6f7609a68006f7f26997e6192"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "7f279f403405fdef5f7e03a041ddea81b74308f613acc4202dfc18e2cd902215"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/MICROCHIP_PIC_MASTER_INDEX.md",
+      "size_bytes": 6761,
+      "sha256": "a17960fbb41ab4b6413c3aa632a0a06c3aa01c48cddf997f93508b1cf699ed6e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "5f5ee841062e6febf5e66152ca03b719d869b20c1f818b4aa970a9acbe633e5e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC10/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "d507ef41024e84b10b568218359ae0f779dc5318dfbc957ebefad3d531dc8a76"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC10/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "d8df91117bafd29115430517655cb950c2e5cd97b705769390f22a24fd2797d7"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC10/README.md",
+      "size_bytes": 633,
+      "sha256": "954cd646d63f30cf2bfb5b86c1acea6734b9225e5a75758ff50af88c7bbaf19f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC10/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "ec945992b9cfb998b58dda45b39ae9c602925fe4e33d4c2c5d1c5d97b99f9edc"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC12/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "452e2e3b74685cc3d1e6dadb125e67730137ef7a928fb1d97a71fd0f317f19fc"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC12/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "667ebdaa7075e527d4430a917139aeb963546f1cfa408f8f10ce4771ec3658f2"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC12/README.md",
+      "size_bytes": 633,
+      "sha256": "f4b499ba35b7e7a7949a221f0a334f98c1f9f3ab6ab45cf916352fe78c9be92a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC12/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "713c0023676cccef4972e81081ac78184a8958084912c950ef09dfe6b535c2b4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC16/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "7e2892bba4af7c609306d36920848816fc25efa58a4a38564da4de2b54987857"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC16/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "697e518620831e1deeeb47c16b1f067c249be49f38683f852d6f1b2d35723bc8"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC16/README.md",
+      "size_bytes": 633,
+      "sha256": "5a166b7e7e51d32c1d36c770f86a3e22465fac8fadb4abf10378022255276d04"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC16/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "0684feab04ff95132b252f1f151b7a095e982e9ec53a291750cfc0fe72dad8f6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC18/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "adb86ef9ad0f11574e476b7569a96a564baf897d08b872c120dfb437f93a9f9b"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC18/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "ecd7fea1184894fbc237cfdb7a8011fe55d112929cb1afe88350a7ee8c933e2f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC18/README.md",
+      "size_bytes": 633,
+      "sha256": "4bb237b23bbffe1dabdad714a4fae02128f2c59b5cecc7d24c513678663488a6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC18/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "a86290c3ddc640d9b62780c75ea74274ae1c4d38c0f42dce4d5656563091beea"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC24/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "ee848c212f40c6008563354616a609fec6f2769ebf0f233b81591e1d5054a4c1"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC24/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "b883ee866d35dffe7f57c830c8b2c9aeae3128b5f1f34a8b804da329b05ddc54"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC24/README.md",
+      "size_bytes": 633,
+      "sha256": "eddb9f6808cf871de3b930615ac26e291ad1ab2737a6b43d332fa643b4fdb894"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC24/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "a999a70ea8fe8f0bbf403d38adf54021bf4b29bb708fd9410e9a268067da4733"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC32/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "1357cb5e721ff06d64bd4ecf2f951ec2a5206bdcf2249534209ac091c3441429"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC32/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "d92838aeb1b4c3b65e53ea59d1f71533574711a03f73d466b2b7ee2dd3b89f3f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC32/README.md",
+      "size_bytes": 633,
+      "sha256": "b4b57d51fd1db655ccf056081ce348a8aadb13230a982f4b1b8963661e30aec0"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PIC32/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "88af15dda4c3d6dd4aa222f3dfb03b3df9143b9607fd5bd689763534d54c8308"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PROGRAMMING_DEBUG_PICKIT/INDEX.md",
+      "size_bytes": 347,
+      "sha256": "6728f3c982461ed2d49e815000b9c92154985fda8cc4e9f28f08ff81c127e268"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PROGRAMMING_DEBUG_PICKIT/MISSING.md",
+      "size_bytes": 381,
+      "sha256": "059157f03c1253e8b8819027b364f2a952dc6bcfe3cddfba072bd76c01f9af0c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PROGRAMMING_DEBUG_PICKIT/README.md",
+      "size_bytes": 652,
+      "sha256": "e243e28083eb00edf725a37156817fc25a1f3f2c5d95e7f2d598b78a8f740548"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/PROGRAMMING_DEBUG_PICKIT/SOURCES.md",
+      "size_bytes": 341,
+      "sha256": "76125e564a270d2e18be0833375c860897c943fa52327ad4b677d3087f10481a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/README.md",
+      "size_bytes": 1618,
+      "sha256": "5e5a284079c9c6e63bc8c6b68a03d71a41d44ac712cbbe44acfc586e14cac7f4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MICROCHIP_PIC/SOURCES.md",
+      "size_bytes": 3408,
+      "sha256": "e56a08b3061fb1837321010912556b014867380b4c437d15e8fcfa783ae7ef8c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/MISSING.md",
+      "size_bytes": 376,
+      "sha256": "35c18329f83a769059bf52687689a944836034a3e8b9c8193af89bc86026895e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NORDIC/INDEX.md",
+      "size_bytes": 329,
+      "sha256": "bf773daddd0c86464e8b8f7a0268f20390bd1ec38cf25d94120b1ec374668b4e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NORDIC/MISSING.md",
+      "size_bytes": 363,
+      "sha256": "08e379085951ccc02d0b3cbce595c30d9fefd2cd7ce19bcf38a52d96ec921507"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NORDIC/README.md",
+      "size_bytes": 634,
+      "sha256": "1d603b166d854406fa4a18851bbfdeb36237d2db15f252d814023f253d1c5c83"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NORDIC/SOURCES.md",
+      "size_bytes": 323,
+      "sha256": "37c4d0189fb871fe5b534f902f6e65bbaa2e81ce8c24a21548fdd48f49c2f160"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NXP/INDEX.md",
+      "size_bytes": 326,
+      "sha256": "a491613e4a9d5fa44ed88d5da4a7e9d445e2d02008bfe2871d18e53149f4e2bf"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NXP/MISSING.md",
+      "size_bytes": 360,
+      "sha256": "f8b98b00a36777d19944d9e807b4388ce3f5cddaf1918e4ec23b3aef33eb5032"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NXP/README.md",
+      "size_bytes": 631,
+      "sha256": "d0d9081bcf0cdd21e4676b6200911bac5a1c607e15f7aa1355f4d9330f63a00c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/NXP/SOURCES.md",
+      "size_bytes": 320,
+      "sha256": "5a8d83e20140e5a9ad8c47fca48e20e0c1e3758eea15c6f79ab12308545ce1c6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/OTHER/INDEX.md",
+      "size_bytes": 328,
+      "sha256": "9dff09292a6794ad74e7a334b2ac4578f7edec0e24b34dfef9cafe95d9986000"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/OTHER/MISSING.md",
+      "size_bytes": 362,
+      "sha256": "44e23fae3bb89bb4bb1b117f9b7c0fd7b5e9fff8bbf96f6c9b21b4a46c8d5f8d"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/OTHER/README.md",
+      "size_bytes": 633,
+      "sha256": "da9b8163d095fbb7ae70405b9fbe8e50fe03809e513132714cda3a3aac5c177e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/OTHER/SOURCES.md",
+      "size_bytes": 322,
+      "sha256": "bddf295294f02d2020a121c395cf5bb95f5caa439ac6531987b43461033e13a6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RASPBERRY_PI_RP2040_RP2350/INDEX.md",
+      "size_bytes": 349,
+      "sha256": "6f49536dfcae2f10f1a5a9b0b0797b35972b1212093098771ee130ddad386952"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RASPBERRY_PI_RP2040_RP2350/MISSING.md",
+      "size_bytes": 383,
+      "sha256": "093f4a761e79bcc69e08da0920a126decd7299724f7f82c753435c34073d907d"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RASPBERRY_PI_RP2040_RP2350/README.md",
+      "size_bytes": 654,
+      "sha256": "81f6307281c012335ae99dd27cb8be7f7142bda569875e6d0dc1e81ecebe5891"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RASPBERRY_PI_RP2040_RP2350/SOURCES.md",
+      "size_bytes": 343,
+      "sha256": "6bbcd182beef2e3c5b5fdbc7d5c4edfb3c4eb2b06831a75ba96f9d1df874469c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/README.md",
+      "size_bytes": 647,
+      "sha256": "37579c294f87f214e685d0254836d06da1c548ed19bcc72b0f1433faacacec45"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RENESAS/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "eae4ae5455b6ffad7e9d633c717bc93488c89fc8377293a1cea53041c961320f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RENESAS/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "2a6643c94bf27260aa372d01961899ca554aed8629a2722949d4c83b0c167054"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RENESAS/README.md",
+      "size_bytes": 635,
+      "sha256": "ad143066f29faa4ad7944d94a8b475bc239fddf346fe16513ec651e330063a10"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/RENESAS/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "8dcd93e558c4a0aeb6443c4e7e692359912344c87b2e88524ba3179c55c2888c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/SILABS/INDEX.md",
+      "size_bytes": 329,
+      "sha256": "9530f1f1b6552358cb3984187cc9f0e26b76d4803d6e2cbb11e97559d8ae2720"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/SILABS/MISSING.md",
+      "size_bytes": 363,
+      "sha256": "f580659d45b449a74033b0af396140046e4ec374af3aaaf5b601685fac575e0c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/SILABS/README.md",
+      "size_bytes": 634,
+      "sha256": "6941f58afd9d17813cbfcd452a1b1675a681059432b970a55fbf12219d8ec88e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/SILABS/SOURCES.md",
+      "size_bytes": 323,
+      "sha256": "eec285a6d9b6a3a88c2c6574564aec2ce7737f81d8436fb031ddd4d38e3f33ef"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/SOURCES.md",
+      "size_bytes": 336,
+      "sha256": "3f13202f49d38a89744f40b5a687869f573a372367e7ef6884c12ae9c81391f7"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DESIGN_GUIDES/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "a2456a6b73c83b7005d7f1c27f1548367689eb0263e770eaed2478ce9b504165"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DESIGN_GUIDES/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "cf6dd4abc14b08662fcd4ab231af4d26cfa2b38fe43c9ec3491d0ab0618e42df"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DESIGN_GUIDES/README.md",
+      "size_bytes": 641,
+      "sha256": "d031418bd6c7bb5873094b2e2d777688f58933d997cdbca6b067f7f8a1ab57de"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DESIGN_GUIDES/SOURCES.md",
+      "size_bytes": 330,
+      "sha256": "7c61f4342efd4036e3b7a3586d1e866604d622f02bb283007d13cc931f89d5cb"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DISCOVERY_BOARDS/DISCOVERY_BOARD_INDEX.md",
+      "size_bytes": 2558,
+      "sha256": "0c79865e75fd9807d09d1c31b97031d1d16f67a14a9990cf8daf89bb7e99eecd"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DISCOVERY_BOARDS/INDEX.md",
+      "size_bytes": 339,
+      "sha256": "708e244f5d751e6e9fd0090303bf2e7ed145f07e611ef60c8b1530a0cb1596f4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DISCOVERY_BOARDS/MISSING.md",
+      "size_bytes": 373,
+      "sha256": "7b4f35f915edc4a270b3261efe5c59abcf4ca022e327feb06ee6a2bc83aee3f3"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DISCOVERY_BOARDS/README.md",
+      "size_bytes": 644,
+      "sha256": "b0fdb963f8f0cf5d00cdc19db189921e542f39ccba4ae51d198eb1a44afd2534"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/DISCOVERY_BOARDS/SOURCES.md",
+      "size_bytes": 333,
+      "sha256": "76e13ab788a0f6341b8c8475a78c3aaf37293f5fa689367406a837514be26c9d"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/ERRATA/INDEX.md",
+      "size_bytes": 329,
+      "sha256": "236b38c5e61eec09c651f6b10bb54e97dc5520c21d1fa4fbced24d6c22fb63e5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/ERRATA/MISSING.md",
+      "size_bytes": 363,
+      "sha256": "65249851df039f2860f073be2139f8fb56677593541555b6b933a3d02a129576"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/ERRATA/README.md",
+      "size_bytes": 634,
+      "sha256": "9b49fe28fc398113c235b235bc381844a80edb1d2c28509e62da2f4cec51f70b"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/ERRATA/SOURCES.md",
+      "size_bytes": 323,
+      "sha256": "cabfac7a6b3353c557b8fda68e797e0075cc5ea6f7609a68006f7f26997e6192"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/EVAL_BOARDS/INDEX.md",
+      "size_bytes": 334,
+      "sha256": "030371ea64aa155570f82e12d8a770df13887d1e2092e72660fe3958e8e9ddc0"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/EVAL_BOARDS/MISSING.md",
+      "size_bytes": 368,
+      "sha256": "484707cbe3702a6f5aef61a8c4fa947d6cc953a56f4625a5135006c840192188"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/EVAL_BOARDS/README.md",
+      "size_bytes": 639,
+      "sha256": "45c30902ec1df0215fe93b88badc2145e02a574e987ffb007f2d0bb48ff411a4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/EVAL_BOARDS/SOURCES.md",
+      "size_bytes": 328,
+      "sha256": "9e659551cc4c78cbb33d221fc287a497bf87e56087838cebfbab1e78cc94c318"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "1dad3bd1dd723fb0a6fab3880ec5ac8701ce7918657637b9837bf8f25138b54c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "586881fa0c51d5869da50886c61a82fc1598cfe6adb5c42dc223ae6bf82c3e9c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/NUCLEO_BOARDS/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "3840659b81009e0ee4df7b16d6f4285269bfd077ddb2678658509ba008e78a2b"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/NUCLEO_BOARDS/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "3c1aa528ef734eb24217d1cd916d2073658b3226dfaa2dfdc8b3a28e4116a1e1"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/NUCLEO_BOARDS/NUCLEO_BOARD_INDEX.md",
+      "size_bytes": 3356,
+      "sha256": "eb616559a18a53205e02559d1988e50a036bc8bf3a2eb88964bd1be5c9198f7c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/NUCLEO_BOARDS/README.md",
+      "size_bytes": 641,
+      "sha256": "9d78ecf51f059a7ce27e7382b524249d660215f0e7039c7e898e72dd006f3cd8"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/NUCLEO_BOARDS/SOURCES.md",
+      "size_bytes": 330,
+      "sha256": "c7103bb62db58612f5e667447a0402d6cefa73fd382926ffa823769802358812"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/PROGRAMMING_DEBUG_STLINK/INDEX.md",
+      "size_bytes": 347,
+      "sha256": "a18cd3fedb08a083d9a18541cc074d416f8051811ac461368604626034ec859f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/PROGRAMMING_DEBUG_STLINK/MISSING.md",
+      "size_bytes": 381,
+      "sha256": "a3f9a6f31882faa89c9ea8efe61fb239c0689cb2b404c621d848f5d48d60a841"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/PROGRAMMING_DEBUG_STLINK/README.md",
+      "size_bytes": 652,
+      "sha256": "9b41c982cc58a7e14c9a8de8c8f8563cdcc889a2998271d9f87f31c9ee76a562"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/PROGRAMMING_DEBUG_STLINK/SOURCES.md",
+      "size_bytes": 341,
+      "sha256": "e3be73a84e5de1d6929b252619b34c2e363aca1180f2e2ac5ba8175d52f60547"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/README.md",
+      "size_bytes": 2382,
+      "sha256": "216293aaa12230d968a31c2e02b1b99720af97f735796633be0133fec81323e6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/SOURCES.md",
+      "size_bytes": 330,
+      "sha256": "0aea8bca5e85892eb460b2c0d25b6de801c84d4bdf591fb2f1c1cfd158d1f820"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32_MASTER_INDEX.md",
+      "size_bytes": 8569,
+      "sha256": "0b74df6b18b855b4a55e6a27d1ec932295efcccb80a77ed81ca55b61c804a293"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F0/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "d900041072f8973b1dd0feda5fcc6da32b03c85e8df8b4f5030f7b2691a84a03"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F0/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "ec2fc0094218a6352d8a7e56a47936302aa00e1d0584eb912d48a4516412e43a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F0/README.md",
+      "size_bytes": 635,
+      "sha256": "68c169dd14b4e43deb1e78adf0ad2cc4a6f5e5a5cee55945f80ea620efbbd343"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F0/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "3c04c90febdcbdb0cbbbe74dc0c33df8c68c44833a75adb16c06821ebce23817"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F1/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "7f339fa630173bb9d8f86b903debe2ec885a1b3108ee76f4a6d350cd7a7bf458"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F1/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "4e955c8cbd686aef10496aaeb490f98d0f2fb406aed4a1f23cb8efcf389f6f2a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F1/README.md",
+      "size_bytes": 635,
+      "sha256": "ecea89483da1bb9bbcef178aa0846d5ff0acd6d70156de2a21ff15a896d19daf"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F1/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "b5b89d103e169186076381edb81f64e7c0070f2c17c362ca72f06482d4c773d8"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F2/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "e386612dd4c077e8defae6af9260353089f3093ed4fafa8d94136db79ad94509"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F2/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "21bd257addcd72a46436cc614526efeff6b201eb615fb1b4cec67d74c426f19e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F2/README.md",
+      "size_bytes": 635,
+      "sha256": "5ee8765f880cde29b1a8dff1388653a6ad7d24a2e3df215cd77e5b62765706c4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F2/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "36c1c5cf66d7e8de5959eb708c9385581339944c3db5821f4f4869e250397d03"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F3/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "5276607ea657d921e355e98a910f23d3942cbdb6189d18ab976c260ab045f792"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F3/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "9608127c384d1510ba3dc4f0c8abd1548eaf6591b4d5e5a721e4e600b2854aaa"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F3/README.md",
+      "size_bytes": 635,
+      "sha256": "a7d27186445b0e4abb8fbb342e478bd27e2cdd09fbf8b6fabd9b6ea594205637"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F3/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "24ec949036b0629d54247884381a46b438286027f1871a571c48a717260a230e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F4/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "44c859090f74331c838b86e86c0e976bb2eed076de4bc19ac767ebae6b214842"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F4/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "0275a4a83a25d0bb482ac3724e90bba8be61f059e775044f5b59b7172188eb48"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F4/README.md",
+      "size_bytes": 635,
+      "sha256": "aa36c490d1eca78b3e5f502487b1c680231cd09c8f129745e8c5eddcb01af0bc"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F4/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "df4be2f7ba62249a90fe8504e8d39530527ef432fb7b5f1c7a2d7770a76315db"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F7/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "71509fd0c735729c6ee78ae2f8ce997867d589c75d91868535929bfd6fbfa337"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F7/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "2599ea9b47e15b67fd5383a6fb03e92ff5bfe2ecd253103e62f51599df5f1d83"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F7/README.md",
+      "size_bytes": 635,
+      "sha256": "f0458c1f5654930a83651390c47f3ab86845ccb8b671023ea12c5716699bdf95"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32F7/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "55ec11471315e012743ca501301f50f7a48ecfff9bdf8ca2097fb69157cdd80f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G0/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "034a31caf8fcef70597471683252682d93bdf43cd57912dcb9c5f75da5430c38"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G0/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "f39d8b841d4c7e173e2c90c80b11a8c697d58bd12987bf4ae5bb6d8979664f09"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G0/README.md",
+      "size_bytes": 635,
+      "sha256": "3d7d8137d6de7d1f03df688c66f2d3fe282d270b8103779d9a1a842b377e6d90"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G0/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "ec32274e6e7152d10ae22ea897f4fd37c7ebc3ce35228b046c5391c0d66ac0e6"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G4/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "f03cd17891807711deac0e18712d4bd9120a27e520958cde0ad1bf59b7de0d1c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G4/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "d6d65e462b3a5e3884a1d623ef98d5d512f9b4f46106641e984a2de41a0d6d49"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G4/README.md",
+      "size_bytes": 635,
+      "sha256": "d5b760412d0932a9ea5039ca619691030b766c98a6958e1303a3c6e5a7fe4d72"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32G4/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "28d945478c555150ff70605bd86097ab7183019b1cca51a7d06c7f8b07a1f624"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H5/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "e452b7f39baaa5cba4e04a8a65d13a02ffc34706d3935a5202fe3d6541d0a5d2"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H5/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "be40812f59f4213ca0223a7fcc8b0e1c380e36ef53fb05aa0b44fa2df104905a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H5/README.md",
+      "size_bytes": 635,
+      "sha256": "0d0067daa619f0bb23f5329999a8844a2c43441caddabd807fb3329a4d967185"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H5/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "e093dba9339231b368ed3247ff9a9e8999e0136ed3278518774163d5e5adb772"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H7/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "b01f8af64232c0a92c46a0a82859aa5986a031f3826705c43281867cbd1247b0"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H7/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "87be5e8c000bb5050d72537211c2e3c48abb063a9bb83cb4d33eab9024f0bc99"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H7/README.md",
+      "size_bytes": 635,
+      "sha256": "a47f5f4925cea5cf484c63710687bdf65df8fd77aff3e2b95c9ac93e7df5a341"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32H7/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "07ce31ff8864b2629c16dcf5d6b3a13494e191aa8d77f41ec28a378d97a6edde"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L0/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "74627f4288d773f56c4ac0b9c2ae210185f57daf5446b1b5dfdeed67dded6e98"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L0/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "c62680c322ad8b7b3ff13feeb27760202d9498f40d1774691f32847bd98fb58e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L0/README.md",
+      "size_bytes": 635,
+      "sha256": "47b6e22fbebfc1518a99611afdafe30e2db22a968edb3b1b68a910154c3ce6bd"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L0/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "3fb5e16b9083db29606cb77ed504362a13e05e7d0d61b641472a72bd988f84fa"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L1/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "e6f1d8133408f5086220d2e675bb5d368b6c536854b50a6ca621d0517ff34092"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L1/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "a5e638639f57e05e8526305d29938243d691c64dba17f99825e561ea379260ca"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L1/README.md",
+      "size_bytes": 635,
+      "sha256": "383c9d47b9cb99cf4001d4dee4774ca09000e730481753e4fba7762b3bc5ebdc"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L1/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "4f09f0d87407a1bf52f695cad6c9302a4b3b25023f2adcb8fb4d3ec62efaa94a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L4/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "968e1d052810c91e105e703135c471b9bb1250627050ab069b4d61e224121463"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L4/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "7b7eed191986959b0798d83a2478dfd75f4de3aae2f2206c73a0a93431ba7f4b"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L4/README.md",
+      "size_bytes": 635,
+      "sha256": "85d28e276630b430f53774f25fe75ac2ccaa6e19481c6b414c07d4e737a5b4b5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L4/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "b32b9873f5763f73fd4ac2dd803e3489b50ef524ab9b37812553a3d5e7d05bbe"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L5/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "28353aa1bb87c8d477b2a130f9869c4afaa376a079a42facb7a9251639f67f8c"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L5/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "869fe97daed99059154a396c88c04cc9e7da8a02a1680a409616e04cd6d1e303"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L5/README.md",
+      "size_bytes": 635,
+      "sha256": "3cde2ef4d00cca09e131fd3e63da4863a3179522c24ab502bc0f96518efe49e3"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32L5/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "f5179b2eefe658ac60e5f1890f26ae0c8f5dedf2ab1b1255a40cfa794b2a83ed"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32MP/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "e3dd26e7bb24701f2bf4e9eb6636b94873ba828ed966dab4518b0abe2911f44f"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32MP/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "9446bf6c3a01243000c364b30298c27e617974a670a3f6783feda26d777e5635"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32MP/README.md",
+      "size_bytes": 635,
+      "sha256": "a0a54f6872acc23ae60851e116f35ff086e93f3b7cbb1842c4ea799300c381e0"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32MP/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "6988f62d39af07d0b315bd1ada88a95a72de3efffd273e8f58103bddad7735c5"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U0/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "318e35ad26ba7f4846e138ed62964605170d5650e81e95ccb4ddaec18c0498a9"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U0/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "e5e21b7a4732e8dba640625f67c86f5249cf65c9f68d574f3f6e9b87e5804683"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U0/README.md",
+      "size_bytes": 635,
+      "sha256": "b43c7594935757276149a058c4ca6b099695d756343a1135161b0b3bfde9ecda"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U0/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "6d0e20603b4e84330ffe6463f8632873b701336a79662ad83c74080ee89c6986"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U5/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "16d25ff0b688d3f9080102f39d32cae675fa58e7e87f2c8f734e8e8b54c39b98"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U5/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "ba74a1d4969f2f3cb0a66ad1af1c77812bc5c91d03ae7c35c8cdef031d50af6a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U5/README.md",
+      "size_bytes": 635,
+      "sha256": "fe129c0ea4ae28e033796dac9dc98a3e1aa27ef5f66dadb234027b1e79e227b4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32U5/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "78b2bff1d8c5ef04edb28a81860a33bf22d7bb5ea11f75faa4e95449a5ddd028"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WB/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "cbbd7d84627a1185fcee532acbf83904718d62f50754468a0dd2c30734501563"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WB/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "dd4d19fd2b0faa7b9f6988ef9514bebe30bcfd20c91e8e169cceee2f5709eff0"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WB/README.md",
+      "size_bytes": 635,
+      "sha256": "39e7246458bcb65cbc64b25aeefdc98735187a9c2e7465ab1756ed09fb630604"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WB/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "6c42126dacb859b6f184ac38cac57ea5b0687e4dcf4f27c439026cfee40230a1"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WL/INDEX.md",
+      "size_bytes": 330,
+      "sha256": "0adf74b0c58ce317fc0c97e981b3b21fdaefee367f56f49573e4554b117825a1"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WL/MISSING.md",
+      "size_bytes": 364,
+      "sha256": "d19d8f084584c58c39306110de1a015f64d208294fbd9b29a302411387a65c35"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WL/README.md",
+      "size_bytes": 635,
+      "sha256": "9815f01139c4d47727d4920d59da2a3e7b0d0492bbb8c6a0f738e8711f59c2bd"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/STMICRO_STM32/STM32WL/SOURCES.md",
+      "size_bytes": 324,
+      "sha256": "b88c2c0266579f039c2c98290d6a854740c02edde7d49faa1ee95bae502e5a81"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/TI/INDEX.md",
+      "size_bytes": 325,
+      "sha256": "f5814589add9772f5f011d2664a7acbb6a84b9963fbe8315fe85ed4905b4da4a"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/TI/MISSING.md",
+      "size_bytes": 359,
+      "sha256": "7a32349a055dafeac4eb85cb4deb24093f1f4f18a8a0783cbb30c87418986bd4"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/TI/README.md",
+      "size_bytes": 630,
+      "sha256": "8077fceee3f5bed9a72457b6217faee22aa248cc78f73b2909daae7589e30bb9"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/TI/SOURCES.md",
+      "size_bytes": 319,
+      "sha256": "0f3c3eab4fdce220aa0057f82ce749be5bf0f265fe8f9c9fbc3521902d21e748"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/WCH/INDEX.md",
+      "size_bytes": 326,
+      "sha256": "0aef958d03114aff6d9eb2b64ff3c8e5c71bbe33c06dd6a7c473a6d352a3299d"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/WCH/MISSING.md",
+      "size_bytes": 360,
+      "sha256": "0af0d3c60f8be066453e2141b583f7812510edbd5fd9ec79ddbb39d91d0f44b1"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/WCH/README.md",
+      "size_bytes": 631,
+      "sha256": "da845ad6498c218cbc85f66c8a2aa4d6224943a867b49ad621c1b6902f14392e"
+    },
+    {
+      "path": "06_DATASHEETS/01_MICROCONTROLLERS/WCH/SOURCES.md",
+      "size_bytes": 320,
+      "sha256": "096fa3506a55548321df77a6b2d24617d3741ddc408034b6bbe6f4c47028c9a5"
+    },
+    {
+      "path": "06_DATASHEETS/02_DEV_BOARDS_AND_MODULES/INDEX.md",
+      "size_bytes": 348,
+      "sha256": "11f611279769a48709034be83b8f45af463871f3ead70abd7c963e49cd74a601"
+    },
+    {
+      "path": "06_DATASHEETS/02_DEV_BOARDS_AND_MODULES/MISSING.md",
+      "size_bytes": 382,
+      "sha256": "97e3a401b29a6615f0d9a43462980cfae02052a36344a6d74408624c6e698324"
+    },
+    {
+      "path": "06_DATASHEETS/02_DEV_BOARDS_AND_MODULES/README.md",
+      "size_bytes": 653,
+      "sha256": "b7fe544524fc16fda3dec1f779495aca4d09760f28536c71094300970211ffb5"
+    },
+    {
+      "path": "06_DATASHEETS/02_DEV_BOARDS_AND_MODULES/SOURCES.md",
+      "size_bytes": 342,
+      "sha256": "15b8808b8384eb4b970e5840d7d0c27a2573578a35f69b604f903c21162172b8"
+    },
+    {
+      "path": "06_DATASHEETS/03_POWER/INDEX.md",
+      "size_bytes": 331,
+      "sha256": "8c35c2a48caf12ddd0453be3e2e4c67895f005233013675d22c005d7240a5ba3"
+    },
+    {
+      "path": "06_DATASHEETS/03_POWER/MISSING.md",
+      "size_bytes": 365,
+      "sha256": "14165f05f8d600f221115dd1920833a8d37b12f33db70f79884a1e5b80848252"
+    },
+    {
+      "path": "06_DATASHEETS/03_POWER/POWER_MASTER_INDEX.md",
+      "size_bytes": 9322,
+      "sha256": "412c1f2c6a2843ce667e64290dc6beaefdabfb80955271ac488853d1b7176f1a"
+    },
+    {
+      "path": "06_DATASHEETS/03_POWER/README.md",
+      "size_bytes": 636,
+      "sha256": "dd114cb3ca97e6e4c58a6ea6388ce7e0ab7ce2b5366f5fda7acd7c5345074c9f"
+    },
+    {
+      "path": "06_DATASHEETS/03_POWER/SOURCES.md",
+      "size_bytes": 3479,
+      "sha256": "67de3b149a25052b974af795cc555a2e1dc137ffbcf5631730cb8719bde99321"
+    },
+    {
+      "path": "06_DATASHEETS/04_COMMUNICATION/COMMUNICATION_MASTER_INDEX.md",
+      "size_bytes": 8671,
+      "sha256": "1c6275d17065a9c7d61a13319fb5dfca0d0ad99f5cfd4ea92ca0f20265ceaac2"
+    },
+    {
+      "path": "06_DATASHEETS/04_COMMUNICATION/INDEX.md",
+      "size_bytes": 339,
+      "sha256": "21452ee55fee4dd96b28dfd810022f2d681e354dee09005605bfb824cedf00f7"
+    },
+    {
+      "path": "06_DATASHEETS/04_COMMUNICATION/MISSING.md",
+      "size_bytes": 373,
+      "sha256": "6a940a7e0b0b668b7863ff68b288e9cc10b585e98b0af3db7cbfd4fb8a0e3b55"
+    },
+    {
+      "path": "06_DATASHEETS/04_COMMUNICATION/README.md",
+      "size_bytes": 644,
+      "sha256": "d5c1fde5f62b8431402206b9dd1ac37822d1c85566c4beeb49b82b80bc763062"
+    },
+    {
+      "path": "06_DATASHEETS/04_COMMUNICATION/SOURCES.md",
+      "size_bytes": 3297,
+      "sha256": "8b3499e3688543f1ec06c60cbc2e83682513042abc5cd0f77caca7f9c9412c7c"
+    },
+    {
+      "path": "06_DATASHEETS/05_CONNECTORS/CONNECTOR_MASTER_INDEX.md",
+      "size_bytes": 6535,
+      "sha256": "1debf90869839a1d68553fd02e4f68b1f28e88436b98e69191a6d93099da09c7"
+    },
+    {
+      "path": "06_DATASHEETS/05_CONNECTORS/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "d67e62c9db948432d3867222cda72a921c6ff4c92ca57f1f7b287c5ab58e3e17"
+    },
+    {
+      "path": "06_DATASHEETS/05_CONNECTORS/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "1715c2aee7a3a415d7af937bd616daa9c19ff2f8aaa9ddd523c5ac5c74edabe3"
+    },
+    {
+      "path": "06_DATASHEETS/05_CONNECTORS/README.md",
+      "size_bytes": 641,
+      "sha256": "031e0ab59de53ea65151c44496987e4a23cc79f9c755e3fbff0c490662f94fd2"
+    },
+    {
+      "path": "06_DATASHEETS/05_CONNECTORS/SOURCES.md",
+      "size_bytes": 3326,
+      "sha256": "3517adaceecbc804d9ec441c0c9407f9532856d7205a4ef9600ea8b3927d0b91"
+    },
+    {
+      "path": "06_DATASHEETS/06_PROTECTION/INDEX.md",
+      "size_bytes": 336,
+      "sha256": "76e586a3a30c11d2a95b1241044522c4472756136c749f4cbde9d17795a544ad"
+    },
+    {
+      "path": "06_DATASHEETS/06_PROTECTION/MISSING.md",
+      "size_bytes": 370,
+      "sha256": "09ab15e4bce36c19a2b8886f43eff4bbc43e70ebc4950ed99d101511d2fe92ab"
+    },
+    {
+      "path": "06_DATASHEETS/06_PROTECTION/PROTECTION_MASTER_INDEX.md",
+      "size_bytes": 2279,
+      "sha256": "5c529b0640b74d911d7edb6571b2747f827b9f08c3f9665af6bd69d8be9589bf"
+    },
+    {
+      "path": "06_DATASHEETS/06_PROTECTION/README.md",
+      "size_bytes": 641,
+      "sha256": "2803d6e6b48b0fab7cbf032ea23ffc981af48ad2b1ae3d0cc9fd24abd5018cc0"
+    },
+    {
+      "path": "06_DATASHEETS/06_PROTECTION/SOURCES.md",
+      "size_bytes": 679,
+      "sha256": "cd7c9ac9ea1088a85369c513cf9c67370f65dd427b04e75dc8a886cd2974d824"
+    },
+    {
+      "path": "06_DATASHEETS/07_SENSORS/INDEX.md",
+      "size_bytes": 333,
+      "sha256": "53aeb57d62f619c6d987392832ceea730bc5c81d7d5e111bf4b462d3fbfeedf1"
+    },
+    {
+      "path": "06_DATASHEETS/07_SENSORS/MISSING.md",
+      "size_bytes": 367,
+      "sha256": "7e0e6f7bdf548aa02c0f555a5a1dc584cd8afc840eaff7dfe0646948920387e6"
+    },
+    {
+      "path": "06_DATASHEETS/07_SENSORS/README.md",
+      "size_bytes": 638,
+      "sha256": "c848894b87d02e6a9398df4f7cec6076b91ccdec980848c6d8a007f96e140e83"
+    },
+    {
+      "path": "06_DATASHEETS/07_SENSORS/SOURCES.md",
+      "size_bytes": 327,
+      "sha256": "bb2bec5b6ec0da5b0f372c28377c9664a37bf57035da0aacda5cf6942e9f6bf8"
+    },
+    {
+      "path": "06_DATASHEETS/08_ANALOG/INDEX.md",
+      "size_bytes": 332,
+      "sha256": "b29d38c805dc17675a1fb06d4fb8e94781b217fad09b0e2222202f60dd21025f"
+    },
+    {
+      "path": "06_DATASHEETS/08_ANALOG/MISSING.md",
+      "size_bytes": 366,
+      "sha256": "4249a0a96d17453ca9c0896093cafe436668cf0832a6737984e8795ac277746e"
+    },
+    {
+      "path": "06_DATASHEETS/08_ANALOG/README.md",
+      "size_bytes": 637,
+      "sha256": "2c207a4786a630fa5bd4906ae95a02b3984595812f97ecd0d263c5ee960ae675"
+    },
+    {
+      "path": "06_DATASHEETS/08_ANALOG/SOURCES.md",
+      "size_bytes": 326,
+      "sha256": "54b352b602e25f190beb4d43193814aabfbb67bb128c79a5d129659529e00195"
+    },
+    {
+      "path": "06_DATASHEETS/09_DRIVERS/INDEX.md",
+      "size_bytes": 333,
+      "sha256": "8d24be1579902ea0b0f8b67510b811b8ddaf31ab83951cacfe33610452f1e7db"
+    },
+    {
+      "path": "06_DATASHEETS/09_DRIVERS/MISSING.md",
+      "size_bytes": 367,
+      "sha256": "4b5e6ac8f0aabfc1e6d98fc7713b79d7bee84bdd29e05f368668d26eb2ac6ead"
+    },
+    {
+      "path": "06_DATASHEETS/09_DRIVERS/README.md",
+      "size_bytes": 638,
+      "sha256": "08f3c75829c0f15a02a47fcc33419a9c8ad62d7b59aebfb67605d9e8ae8a17f9"
+    },
+    {
+      "path": "06_DATASHEETS/09_DRIVERS/SOURCES.md",
+      "size_bytes": 327,
+      "sha256": "f9a963221a0f12efb049d604a0e90a0b292446839de3a8946a3aa2609292210b"
+    },
+    {
+      "path": "06_DATASHEETS/10_DISPLAYS/INDEX.md",
+      "size_bytes": 334,
+      "sha256": "ff268f6f7c40a83f69f44f4978aa0770739778f46cb8e304909d7d1c184314c2"
+    },
+    {
+      "path": "06_DATASHEETS/10_DISPLAYS/MISSING.md",
+      "size_bytes": 368,
+      "sha256": "101997a5005d9b0c3c781473b69dcf6ce40984154cd63f575620fc1dbb7f0a27"
+    },
+    {
+      "path": "06_DATASHEETS/10_DISPLAYS/README.md",
+      "size_bytes": 639,
+      "sha256": "cc1f2b8323ef293eda94cf9346992599fed8d7c7b095da1654a88d003880ee25"
+    },
+    {
+      "path": "06_DATASHEETS/10_DISPLAYS/SOURCES.md",
+      "size_bytes": 328,
+      "sha256": "2d3941cb4d3cfc934d336b074dc113b6b7f9b458f6918244cb1e3cd4b066b784"
+    },
+    {
+      "path": "06_DATASHEETS/11_PASSIVES/INDEX.md",
+      "size_bytes": 334,
+      "sha256": "f4cfdb15f73503b7b9bab4ff4fe8858e13c2bb7a4b84d8e8be49bc0045ebdcf1"
+    },
+    {
+      "path": "06_DATASHEETS/11_PASSIVES/MISSING.md",
+      "size_bytes": 368,
+      "sha256": "5a9286bfbbd32d94a4839cff6d9bf5a58cc47aa6146c2b2bcab7f69d42f82aac"
+    },
+    {
+      "path": "06_DATASHEETS/11_PASSIVES/PASSIVES_MASTER_INDEX.md",
+      "size_bytes": 2883,
+      "sha256": "6091c0c330841f0e633c7934acc5ec18d9df633a90bd0f88ee2c515cf420190a"
+    },
+    {
+      "path": "06_DATASHEETS/11_PASSIVES/README.md",
+      "size_bytes": 639,
+      "sha256": "6615b0a4c0431a95d2a1726b0cbcfa0f9168e3a512f3349b0e6174b42149bc5e"
+    },
+    {
+      "path": "06_DATASHEETS/11_PASSIVES/SOURCES.md",
+      "size_bytes": 937,
+      "sha256": "fc377aa60cce99582365bae00884281790ad0e665f193b4703c47e48837ed4d7"
+    },
+    {
+      "path": "06_DATASHEETS/12_RF_AND_ANTENNAS/INDEX.md",
+      "size_bytes": 341,
+      "sha256": "d9ba727e025668aceee41ddf114f96cbf4b79937f3c11ad6734d464340a773b4"
+    },
+    {
+      "path": "06_DATASHEETS/12_RF_AND_ANTENNAS/MISSING.md",
+      "size_bytes": 375,
+      "sha256": "afeabb69b46c3f23e1e63d22f0d6c574411cbf557cfc4577adbb6e62594c713e"
+    },
+    {
+      "path": "06_DATASHEETS/12_RF_AND_ANTENNAS/README.md",
+      "size_bytes": 646,
+      "sha256": "37dbd5d57564a7dc58fa5d582d331e0b5ecf88ab53e552eab63a682bb059a0ac"
+    },
+    {
+      "path": "06_DATASHEETS/12_RF_AND_ANTENNAS/RF_ANTENNA_MASTER_INDEX.md",
+      "size_bytes": 2029,
+      "sha256": "395cf141b64f7ed4e3272d30069950a0ee40e84c4c267d522db744b2eeb97664"
+    },
+    {
+      "path": "06_DATASHEETS/12_RF_AND_ANTENNAS/SOURCES.md",
+      "size_bytes": 930,
+      "sha256": "eeabd0c517d3e2da4e940a9c2e3fc583ef33fca50c621bdba45aff1d1fabfaee"
+    },
+    {
+      "path": "06_DATASHEETS/13_MEMORY_STORAGE/INDEX.md",
+      "size_bytes": 340,
+      "sha256": "e5de279bdef454d7c672f62adfdb29a272fde6408aa88802177e77a2383d239f"
+    },
+    {
+      "path": "06_DATASHEETS/13_MEMORY_STORAGE/MISSING.md",
+      "size_bytes": 374,
+      "sha256": "789f2f57ce0e99d9cb8d489894e1a1f15bfd836e29ed24c7bd75a45eb363a835"
+    },
+    {
+      "path": "06_DATASHEETS/13_MEMORY_STORAGE/README.md",
+      "size_bytes": 645,
+      "sha256": "60a2c352244d12e9cc65c373f08c169044a802266cdcd7ff6d452f602c50afe6"
+    },
+    {
+      "path": "06_DATASHEETS/13_MEMORY_STORAGE/SOURCES.md",
+      "size_bytes": 334,
+      "sha256": "b5ff641a225a5984c7f390d25544c6549e0a0e0c374da9eb24030561b9e10e4a"
+    },
+    {
+      "path": "06_DATASHEETS/14_CLOCKS_TIMING/CLOCKS_TIMING_MASTER_INDEX.md",
+      "size_bytes": 2150,
+      "sha256": "7e458ce4a8f93cd752626040da6693409b0774cbec77d2c422d93a0ecbb771ab"
+    },
+    {
+      "path": "06_DATASHEETS/14_CLOCKS_TIMING/INDEX.md",
+      "size_bytes": 339,
+      "sha256": "efa57d6193c9b6a80ebf99cc0cdf7bb7e02e7040b094ae7ba4385309816eb223"
+    },
+    {
+      "path": "06_DATASHEETS/14_CLOCKS_TIMING/MISSING.md",
+      "size_bytes": 373,
+      "sha256": "aa0e9686f57195b0117c8b05eedffc325596d609c0d60b040b9f81ce8c8a651e"
+    },
+    {
+      "path": "06_DATASHEETS/14_CLOCKS_TIMING/README.md",
+      "size_bytes": 644,
+      "sha256": "f7e1d9690246f472e35f7eac9c23963b1cd489337dfa515f97db76e54ecef0c0"
+    },
+    {
+      "path": "06_DATASHEETS/14_CLOCKS_TIMING/SOURCES.md",
+      "size_bytes": 1108,
+      "sha256": "6082192ae64c4d5143be4a76c2c9ed08e3d0f4239ef5a81186c9917b4698181c"
+    },
+    {
+      "path": "06_DATASHEETS/15_SWITCHES_BUTTONS_RELAYS/INDEX.md",
+      "size_bytes": 349,
+      "sha256": "54ceafb493a36be00211df7648bc600a9e573bdda8adc45bf50e4c0c254f566c"
+    },
+    {
+      "path": "06_DATASHEETS/15_SWITCHES_BUTTONS_RELAYS/MISSING.md",
+      "size_bytes": 383,
+      "sha256": "79074793dcd2a244fc10675dbb5debf5b7ab350150f39f5cca73cd37552eac75"
+    },
+    {
+      "path": "06_DATASHEETS/15_SWITCHES_BUTTONS_RELAYS/README.md",
+      "size_bytes": 654,
+      "sha256": "3d358ce962ef3f952ece81de4d73ac10d6914888232dcec8d9c720bf32b08f00"
+    },
+    {
+      "path": "06_DATASHEETS/15_SWITCHES_BUTTONS_RELAYS/SOURCES.md",
+      "size_bytes": 343,
+      "sha256": "face01db125d64beb9cb21147ae78df8202fb2bc87582f3f427803b12f2c8a05"
+    },
+    {
+      "path": "06_DATASHEETS/16_FAB_ASSEMBLY_REFERENCES/INDEX.md",
+      "size_bytes": 349,
+      "sha256": "93f4356deb23e709b86300786cd8bd0abb8a88bd2bdce899dfde427b9dd5f570"
+    },
+    {
+      "path": "06_DATASHEETS/16_FAB_ASSEMBLY_REFERENCES/MISSING.md",
+      "size_bytes": 383,
+      "sha256": "d09adc3018000878ce06e9a23c1880cb7cc877b04d418e74cc6714448c4e0a5b"
+    },
+    {
+      "path": "06_DATASHEETS/16_FAB_ASSEMBLY_REFERENCES/README.md",
+      "size_bytes": 654,
+      "sha256": "255edbac1681080e8895f2217bc679ff9fd06f7ea9f912ff25a2e4c0b56476ba"
+    },
+    {
+      "path": "06_DATASHEETS/16_FAB_ASSEMBLY_REFERENCES/SOURCES.md",
+      "size_bytes": 343,
+      "sha256": "f5a11c1a0b17f39c95c5e4fb72f1453cb6750d54aecb59d46c466df18bd700f8"
+    },
+    {
+      "path": "06_DATASHEETS/17_APPLICATION_NOTES/INDEX.md",
+      "size_bytes": 343,
+      "sha256": "db64ec0ebd4852b13eb809bbc8271547382850126110feab0d3e53fd5e7c8542"
+    },
+    {
+      "path": "06_DATASHEETS/17_APPLICATION_NOTES/MISSING.md",
+      "size_bytes": 377,
+      "sha256": "bab3ed8b1a56d35e179d18bd83e393c66266f54509d565337ce4471fbcae12cc"
+    },
+    {
+      "path": "06_DATASHEETS/17_APPLICATION_NOTES/README.md",
+      "size_bytes": 648,
+      "sha256": "f94830960648e7c026ba80cb001b77fb9a1e6e84bcf33462d5febdde17cf27b7"
+    },
+    {
+      "path": "06_DATASHEETS/17_APPLICATION_NOTES/SOURCES.md",
+      "size_bytes": 337,
+      "sha256": "93a2ef2a905fa0976c200f57cbf83245382a43140aa0e51fe9295c811fbb1ba3"
+    },
+    {
+      "path": "06_DATASHEETS/18_REFERENCE_DESIGNS/INDEX.md",
+      "size_bytes": 343,
+      "sha256": "33b38bb9e685e619c964fd8b907e2aec7b4a1359018b12a27bf92614f7afa99f"
+    },
+    {
+      "path": "06_DATASHEETS/18_REFERENCE_DESIGNS/MISSING.md",
+      "size_bytes": 377,
+      "sha256": "6c53a6f8ff15953adcf3a16a5d67fbda8a035e3e792f0acbe393fb5eb12e7cee"
+    },
+    {
+      "path": "06_DATASHEETS/18_REFERENCE_DESIGNS/README.md",
+      "size_bytes": 648,
+      "sha256": "a1bc92abda5d5c6352ef5260051c8307a2cda727aa4d70d25123a332cecf29f3"
+    },
+    {
+      "path": "06_DATASHEETS/18_REFERENCE_DESIGNS/SOURCES.md",
+      "size_bytes": 337,
+      "sha256": "72a4c594df7dbde3d2c7ced3bb8a2a5f0e05d1ed6b1c3276a7c72c5855875441"
+    },
+    {
+      "path": "06_DATASHEETS/19_VENDOR_PORTALS/INDEX.md",
+      "size_bytes": 340,
+      "sha256": "24fd279e5bcd58ff277f01c49bbfa5bdf118e222736da998461ff5c648aa6eea"
+    },
+    {
+      "path": "06_DATASHEETS/19_VENDOR_PORTALS/MISSING.md",
+      "size_bytes": 374,
+      "sha256": "083004b1a723239855c4c08bbf4db4a0c6d944c0c734ab9d91c4474b44cf6347"
+    },
+    {
+      "path": "06_DATASHEETS/19_VENDOR_PORTALS/README.md",
+      "size_bytes": 645,
+      "sha256": "0847d989d7f3968fe7e0950eaef0d9fe2477ed9f1e8e7bd9ef87b0c574e60004"
+    },
+    {
+      "path": "06_DATASHEETS/19_VENDOR_PORTALS/SOURCES.md",
+      "size_bytes": 334,
+      "sha256": "cf3e30de4f833f2ef28043e1f5eb27c6d3a069934e3713cdb29edf52dc22cd6a"
+    },
+    {
+      "path": "06_DATASHEETS/99_UNSORTED_INBOX/INDEX.md",
+      "size_bytes": 340,
+      "sha256": "838aef732f095aa5c91eef11532106d898df0a734cf0783cc9ddfce169b0b9f7"
+    },
+    {
+      "path": "06_DATASHEETS/99_UNSORTED_INBOX/MISSING.md",
+      "size_bytes": 374,
+      "sha256": "72a04d186cec1c3e04e5682a4832a085b488c016f29ad32830981beabdb0712e"
+    },
+    {
+      "path": "06_DATASHEETS/99_UNSORTED_INBOX/README.md",
+      "size_bytes": 216,
+      "sha256": "afc6c8406cd7685ca4485448cd89fcbdd8a4eae3c38cfa683e86d9d0892da2e9"
+    },
+    {
+      "path": "06_DATASHEETS/99_UNSORTED_INBOX/SOURCES.md",
+      "size_bytes": 334,
+      "sha256": "12011d048b0979811449adb4cc7116d335d14050e748141306e133fe1905a013"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/AI_USAGE_RULES.md",
+      "size_bytes": 1734,
+      "sha256": "68ff3fd8b6dc00e56dbdb3d2b63a3c82a2a722038e939460c35e62a779eca3cb"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/COMPONENT_DATABASE_README.md",
+      "size_bytes": 2941,
+      "sha256": "b3dc3f9e167540779c8ed3150c39fbaf33cceb8a15a9440180516b8e5e2bfca9"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/example_component_records.json",
+      "size_bytes": 36315,
+      "sha256": "55ab183877333e7b853b9b4953a7b3af25cefd13f6c16ee1c25e582c6825dfce"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/EXAMPLE_COMPONENT_RECORDS.md",
+      "size_bytes": 29093,
+      "sha256": "ac97feeff9093602ebbdb61fbb24f75d9afa516914d3709661aca6c3320084cc"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/KICAD_SYMBOL_FOOTPRINT_LINKING_RULES.md",
+      "size_bytes": 1948,
+      "sha256": "b096ce3ff673ccce9ac8538799cb76529e73b94bbb479db762e26fd687b170bb"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/MASTER_COMPONENT_INDEX.md",
+      "size_bytes": 33273,
+      "sha256": "9fef0a89e30d234f3d82365bd851762863943c10bf0dbb8ff0ecac9cdd3bf578"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/PART_SCHEMA.md",
+      "size_bytes": 4479,
+      "sha256": "1b76af60bde20171d1bbb824a1f569c4590c4ea6f7799b09131fe5c7b1d81ab9"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/00_INDEX/VERIFICATION_LEVELS.md",
+      "size_bytes": 1822,
+      "sha256": "22c2f369c1d4b80475b9aec54f8cd4fad675d1f6081eb61815992d4b8954f546"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/ESP32_S3_CSI_WIFI_DESIGN_NOTES.md",
+      "size_bytes": 6347,
+      "sha256": "da061c010f5d02df0dbd3a194fc0795295a7e809c524a484c72af4a62624d75d"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/ESPRESSIF_ESP32_FAMILY.md",
+      "size_bytes": 12557,
+      "sha256": "6005e169bcc269f3d24c3018116aa85dac45f6f68048796e3c4ebeb9870c158b"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/espressif_module_records.json",
+      "size_bytes": 21040,
+      "sha256": "0a667e8b0e8350f98651c4f60455d49e85c9fad96ca64b3b3d8dc1a61c990253"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/ESPRESSIF_MODULE_RECORDS.md",
+      "size_bytes": 18497,
+      "sha256": "cf24ad43b1761c193c88bcad557649947f26c4b4ceb88b9ca91ef94c83307e2b"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/MICROCHIP_AVR_FAMILY_OVERVIEW.md",
+      "size_bytes": 5915,
+      "sha256": "ccb37a6f792891833244bcbf335fe7bc12d173c43acc48096f154b8f2a7cc687"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/MICROCHIP_DEV_BOARD_RECORDS.md",
+      "size_bytes": 7269,
+      "sha256": "53abb018b0294027f561f132fafea94fa9de6377e841b0b971f0357f69c5083f"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/microchip_part_records.json",
+      "size_bytes": 25458,
+      "sha256": "1463477a7ddfe4831331b1a837911532e2193333d42ded4f2ab7921e14ef97fb"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/MICROCHIP_PART_RECORDS.md",
+      "size_bytes": 16148,
+      "sha256": "d5cac1da9a3385c197967587e365c23cafc12c8815077b4eb05d55770789066c"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/MICROCHIP_PIC_FAMILY_OVERVIEW.md",
+      "size_bytes": 6597,
+      "sha256": "be22c563037e66fe8645be6982c4e12f762ef69e2943a5b05f7adeb62a7dffab"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/NORDIC_NRF52_NRF53_OVERVIEW.md",
+      "size_bytes": 4759,
+      "sha256": "9dabe022e691930e07e002d39298932d6056d453801d5dbc4dadc08055c89a3a"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/NXP_KINETIS_IMXRT_OVERVIEW.md",
+      "size_bytes": 4969,
+      "sha256": "9df0b6582bd24c916ceb2934931d08fa95f9c5b194ff27e89ec8ced940981071"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/RP2040_RP2350_FAMILY_OVERVIEW.md",
+      "size_bytes": 4874,
+      "sha256": "6f9f33f75706773415d7eaa1e1ed5495796ce9e44530d4d4811c89200a3999e5"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/STM32_DEV_BOARD_RECORDS.md",
+      "size_bytes": 9706,
+      "sha256": "567463e5eac679693cadb965f0709821fe2f6dfffa56ccbea56561c2b714ac76"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/STM32_FAMILY_OVERVIEW.md",
+      "size_bytes": 9122,
+      "sha256": "0a5f74b17003ac90ddf613fda71f298c0d751219e2051cafc2578fc482763fae"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/stm32_part_records.json",
+      "size_bytes": 23016,
+      "sha256": "1e47514568f5260b70cd8472e91e1a4549762424fa1754d92d2a39e2609fa329"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/STM32_PART_RECORDS.md",
+      "size_bytes": 18288,
+      "sha256": "a066c3825fdf3ba7d915be07b341a363910a619b81e085402a7a28dc67d5f417"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/TI_MSP430_TM4C_OVERVIEW.md",
+      "size_bytes": 4564,
+      "sha256": "1fdd2ceed4768f1a26c941a1b51cd4d9e3921a1cc47f5fd868efa2011319f498"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/01_MICROCONTROLLERS/WCH_CH32_OVERVIEW.md",
+      "size_bytes": 4652,
+      "sha256": "28ca96a22aabf14ae3fcbf67f6ff0311ef1e40a07695c29a71c1634cad429ab8"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/02_POWER/POWER_COMPONENT_GUIDE.md",
+      "size_bytes": 6587,
+      "sha256": "cad8b00d767b4e00df36a55770c881e81fbb4d6d2219ca08c824a7d6d68faec8"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/02_POWER/power_part_records.json",
+      "size_bytes": 33519,
+      "sha256": "dc7be8ffecbe31be50480de4f8bcf41a814ac53a17bef7cbbc15dd846d1ffd5e"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/02_POWER/POWER_PART_RECORDS.md",
+      "size_bytes": 22865,
+      "sha256": "722605da9c29c20407ee7da3902365f09caf6ebc15873f3473f4be8ec44293db"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/03_COMMUNICATION/COMMUNICATION_COMPONENT_GUIDE.md",
+      "size_bytes": 5003,
+      "sha256": "49a306474c622dd2b8763c8db8abbbf99bd7f8d857cecd8a13511d395b849eca"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/03_COMMUNICATION/communication_part_records.json",
+      "size_bytes": 42213,
+      "sha256": "5ef768de93c0274c2a394758cfedd7781cc13215ff2fbeb2112f54bfe5b92554"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/03_COMMUNICATION/COMMUNICATION_PART_RECORDS.md",
+      "size_bytes": 23425,
+      "sha256": "1f8946500fcde3609250ef17a1117e1f41d9e038590bfa23ecdd9217c37f94bc"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/04_CONNECTORS/connector_records.json",
+      "size_bytes": 34445,
+      "sha256": "23c6723ae01e5c0e7e8c555abfa0d157ed6313a809253c5c0fbbe98fa316399f"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/04_CONNECTORS/CONNECTOR_RECORDS.md",
+      "size_bytes": 12763,
+      "sha256": "53f7e063c59c9f1010cff4caa1496878f009b66a511dfe57079caaeb147ec994"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/04_CONNECTORS/CONNECTOR_SELECTION_GUIDE.md",
+      "size_bytes": 4718,
+      "sha256": "7f901a8e61b52d37a7ea9fb172361c9c8f66807324a99e6e24e58285844b8bfb"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/05_PROTECTION/PROTECTION_GUIDE.md",
+      "size_bytes": 2108,
+      "sha256": "8408ccb19361e9e625a23d35fdf4347f1d35cddf7e9004fce36a8a67be6b36c2"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/05_PROTECTION/protection_records.json",
+      "size_bytes": 6460,
+      "sha256": "876475efc266a4aa1f9e6749364b584126be5de3b6b68da93493e1739837199e"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/05_PROTECTION/PROTECTION_RECORDS.md",
+      "size_bytes": 2223,
+      "sha256": "7bf50ae56d44c1607ae781b9a571b925a69d3e50ec2803feeb98233c52602418"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/06_SENSORS/README.md",
+      "size_bytes": 90,
+      "sha256": "ad34eecd86822bf5d6b12573f402abb5a8082f228d69fdf81bade8560a66731c"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/07_ANALOG/README.md",
+      "size_bytes": 89,
+      "sha256": "03aad9c46cc331d55dcfbc873d30ad920b59786f855a59c9e014084491ddae12"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/08_DRIVERS/README.md",
+      "size_bytes": 90,
+      "sha256": "5920c0003e40b0c62886e7fc6eeff9fee6712d56b4393f4dcea0fe0ae142e135"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/09_PASSIVES/passive_support_records.json",
+      "size_bytes": 28414,
+      "sha256": "67c56d138f871ea72fce922656f7fc2ba01de5fcd499e4bd238a70558bc46bea"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/09_PASSIVES/PASSIVE_SUPPORT_RECORDS.md",
+      "size_bytes": 3215,
+      "sha256": "fe858808cf8684190b333dff065d20b04f67ce5b5dec8ceb08e810dba5ed5d91"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/09_PASSIVES/PASSIVES_GUIDE.md",
+      "size_bytes": 2099,
+      "sha256": "63211c8e4ba48117311b96380b03607e1f1a1aa88c2dc836700208d4d694281d"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/10_RF_AND_ANTENNAS/RF_ANTENNA_GUIDE.md",
+      "size_bytes": 1985,
+      "sha256": "ba994d4d3c38fdc96d35e6faad7b833a9e0eee31b3fc22acb2b8208ece4d0fba"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/10_RF_AND_ANTENNAS/rf_antenna_records.json",
+      "size_bytes": 8242,
+      "sha256": "77d89160f51835d180a0b2076ec1f7ec775042433b2d714d80fefe637e0ae4f5"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/10_RF_AND_ANTENNAS/RF_ANTENNA_RECORDS.md",
+      "size_bytes": 2151,
+      "sha256": "916887d6035b2e3215289061808595dc5da2d150fb7d3a36fb776de027a40d0e"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/11_DEV_BOARDS_AND_MODULES/README.md",
+      "size_bytes": 105,
+      "sha256": "1e4e403678da2a7bc8e69370614018df4c39b81410a8bda9634133dda7d3f1dd"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/12_KICAD_SYMBOL_FOOTPRINT_MATCHES/README.md",
+      "size_bytes": 113,
+      "sha256": "9d467d8b55eacccf9d40f74b1521c99df2b2796d6a0be8f039aac15aa8c6f529"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/AUTOMOTIVE_12V_POWER_RULES.md",
+      "size_bytes": 3477,
+      "sha256": "79a1c9a8dcecd12a73cf4263b7962dd2b53c159250e5d359e5d0cbd911dac185"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/AUTOMOTIVE_CONNECTOR_RULES.md",
+      "size_bytes": 2170,
+      "sha256": "fd15294cde075c85c0a8ce19ae24145b36beeecd08d09f38e6683102fad69d2c"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/AVR_PROGRAMMING_RULES.md",
+      "size_bytes": 1847,
+      "sha256": "158be299cb54a65cf19c3440a2a55efc61b5999a85e46b1cbf43ff57544aac49"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/CAN_BUS_LAYOUT_RULES.md",
+      "size_bytes": 2821,
+      "sha256": "6a08d8f8f52a0b15bbefb10f1c8053b3e6bcaedc6f2f31db383df64c6847ccfc"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/CONNECTOR_FOOTPRINT_VERIFICATION_RULES.md",
+      "size_bytes": 2599,
+      "sha256": "2104df8f7874c8f0ded14bdc7af76560c40cd08a822aa96cbbeb4f236d12ca91"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/CRYSTAL_LAYOUT_RULES.md",
+      "size_bytes": 1940,
+      "sha256": "07e2c7312a5d79c51270bfc5aed53c2ff659c24195d123334f8968f7692c1dbd"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/DECOUPLING_CAPACITOR_RULES.md",
+      "size_bytes": 1815,
+      "sha256": "b1df05b7039bcf1433546876645e3fa5dbfaf138a341fb7c5fd5aff568352515"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/ESD_TVS_RULES.md",
+      "size_bytes": 1906,
+      "sha256": "e68204d98fc1a55f559051176350c1888349c43ad9982da503d931a55138f0ef"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/ESP32_LAYOUT_RULES.md",
+      "size_bytes": 2727,
+      "sha256": "cad5b63f12fe1d79fece03911361a203dea65393acacc9bad09889cbf36b7469"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/ESP32_RF_ANTENNA_RULES.md",
+      "size_bytes": 2479,
+      "sha256": "95b0c1b582862674784ae806ada2e0627b5fb3e06626a91e1562c18306970b42"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/ESP32_STRAPPING_BOOT_RULES.md",
+      "size_bytes": 2281,
+      "sha256": "488fbb9a1231a1acf61b3fc218a3d404654a6467182428f855cac1d7a89b5662"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/ESP32_USB_RULES.md",
+      "size_bytes": 2658,
+      "sha256": "91c3733776f3dd56dd5e74afc81b3ab481594a711ff247dee29a43a7de749e6d"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/LEVEL_SHIFTING_RULES.md",
+      "size_bytes": 2508,
+      "sha256": "bf788e15b3075ca671755bdd14870fcbec704582d4028607164a3f05a3a3b708"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/PIC_ICSP_RULES.md",
+      "size_bytes": 1994,
+      "sha256": "a38796a646ae3803d7c1b52b6a0ffcc7cb42383196ce083729d3503fca2c7458"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/PIC_RESET_OSCILLATOR_RULES.md",
+      "size_bytes": 1977,
+      "sha256": "11354105c6d626ce7bc7e46a4bd57998ca4c6f5c47731d4b745740ba9d9d769c"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/POWER_INPUT_PROTECTION_RULES.md",
+      "size_bytes": 3976,
+      "sha256": "df257a6d44d7da54f4d54d458dd6461cb3c232267efbc27c782a9b3927c3ce72"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/RF_CONNECTOR_RULES.md",
+      "size_bytes": 2189,
+      "sha256": "c78a630094028a8d0fd8805670a1bbddb88f925bc146f531e6a0a56045dda96a"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/RF_FEEDLINE_RULES.md",
+      "size_bytes": 1798,
+      "sha256": "970dd25f38da80a64f8caee9c906a9f0e9612252f1b343dc84022cfc3e5df89e"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/RS485_LAYOUT_RULES.md",
+      "size_bytes": 2535,
+      "sha256": "5c5782024d35c28ed509fb9f4c0a2c08d5ab971ef4fa6cf132d5a6e4f9a1f2dc"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/STM32_BOOT_DEBUG_RULES.md",
+      "size_bytes": 1868,
+      "sha256": "8a34683333f49b97f79f7d1ac76b492453d6cf34e44f7caf669ad6c41d1c9bcd"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/STM32_CAN_FDCAN_RULES.md",
+      "size_bytes": 1663,
+      "sha256": "11daea980b9298cd6c571a4f8468a1acbe105ac3e382776f6f066a4e63c3163e"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/STM32_POWER_DECOUPLING_RULES.md",
+      "size_bytes": 2086,
+      "sha256": "4ace707649235136974379702c386e1f0ab7148c9935c42a90582d738a9a7e96"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/STM32_USB_RULES.md",
+      "size_bytes": 1803,
+      "sha256": "339b525643f02490d43e77f83b1bb99ee53e506bd5e8d3e4d1695f82ca97930e"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/USB_5V_TO_3V3_RULES.md",
+      "size_bytes": 3768,
+      "sha256": "0259d0e1bcaac0c216026683c9c466f03acb2c50feea78c9efb7556f7ecad391"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/USB_C_CONNECTOR_RULES.md",
+      "size_bytes": 2499,
+      "sha256": "e0f3870d19ebcceb509b023f13de2d6bbee60b66a0e5d99b692e45a8f5519831"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/13_DESIGN_RULE_SNIPPETS/USB_C_LAYOUT_RULES.md",
+      "size_bytes": 2601,
+      "sha256": "baf6289c659cad7a387e16e7ca7d756a3cd6294ca0cbfd702e8367b68d7e31ab"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/14_PART_SELECTION_GUIDES/REGULATOR_SELECTION_GUIDE.md",
+      "size_bytes": 5235,
+      "sha256": "4945fc925203985ce8d19629cc73057268a98843bde55cde6d467cd5199d095a"
+    },
+    {
+      "path": "08_COMPONENT_DATABASE/99_UNVERIFIED_INBOX/README.md",
+      "size_bytes": 99,
+      "sha256": "87f3f8fca8e6426f05746e843e38c42eeffa1fc916ac63419454fbef46a0962b"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/CAN_LAYOUT_RULES.md",
+      "size_bytes": 692,
+      "sha256": "0ac410670a3b6840844f81d471a5e1a92573e0a0a6bb3828dc85cb4e61deb88a"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/CONNECTOR_ORIENTATION_RULES.md",
+      "size_bytes": 797,
+      "sha256": "c8bf9291f1b7c7776f811cc9c97ce910beee09f1aa0918629c1ca3c91921b349"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/COURTYARD_CLEARANCE_RULES.md",
+      "size_bytes": 717,
+      "sha256": "3c166936f83b48bdfbe72e82461cbe50bb22deb77dd7894988ce389b7a67f1ee"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/FOOTPRINT_SELECTION_RULES.md",
+      "size_bytes": 792,
+      "sha256": "990186674f2f05a5cd52cf40429065b224f439dedc4e2a301a49c631cace8cc2"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/GROUND_PLANE_RULES.md",
+      "size_bytes": 641,
+      "sha256": "cdfe9e544bf0f55b7eca23eef40db0ef4456d8cb5a9b963c86e16fee3082bddf"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/PCB_CREATION_STANDARD.md",
+      "size_bytes": 940,
+      "sha256": "a962d9b8a533023e325b2d2918fc8d8bb6fb8d65e7bd37b685b2edc50f61b6ce"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/POLARITY_ORIENTATION_RULES.md",
+      "size_bytes": 677,
+      "sha256": "255ecc6e51a9c20c005694318f2eefbc149bcbb9b2963436a2e7b263a5ed6f2e"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/POWER_LAYOUT_RULES.md",
+      "size_bytes": 757,
+      "sha256": "52291ce6f2ed0ee76f730b026e0b748c2b3e74a44c0dba5471ec6cb5b5efba0b"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/REVIEW_CHECKLIST.md",
+      "size_bytes": 814,
+      "sha256": "9b8fff5d9d45c31194455941a1152d518c0005256bef93e6019a8ed2bed54973"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/RF_LAYOUT_RULES.md",
+      "size_bytes": 661,
+      "sha256": "aea3d164efb3c75326f4936d27ed48bafaad53be6576a70465c92a4a3262255b"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/pcb_rules/USB_LAYOUT_RULES.md",
+      "size_bytes": 621,
+      "sha256": "2d47deb2775eef3b640fc42568cff439fb879858a15502c6b88e4b22b11dc1d4"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/README.md",
+      "size_bytes": 2725,
+      "sha256": "4eb2c60bb805a90c3b30a4a6d13ab775329fe93b8f774b4a1fcd81f5bc20a5fc"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/CAN_BUS_SCHEMATIC_RULES.md",
+      "size_bytes": 985,
+      "sha256": "7514e1b3119a19a76886cbb7a5359d72c20281c92dbd9ac5e6356db9254e2cf7"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/CONNECTOR_PIN_NUMBERING_RULES.md",
+      "size_bytes": 1037,
+      "sha256": "dd2434f0a7ecb92036525ff9c892a05ac5b26a2bb1c1bebb27c1836243467067"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/DECOUPLING_RULES.md",
+      "size_bytes": 1122,
+      "sha256": "d45e50d4f8197f9297a5496872a2702d5c3ca1953efc4a9383a2c6c174d99c5a"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/MCU_BOOT_STRAP_RULES.md",
+      "size_bytes": 1096,
+      "sha256": "254832a79c8caed64607202dfe343074e8eaf00a5322ebeaf46a03c9cbcb8813"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/PINOUT_VERIFICATION_RULES.md",
+      "size_bytes": 1120,
+      "sha256": "89f0b5c57f9c7cbad87c753cbfa1af3dc03adc6099b1038012014e66d86ee72b"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/POWER_NET_RULES.md",
+      "size_bytes": 1133,
+      "sha256": "7eef33f128450f31e5ebce6b4ad8bebbefbe093fe33ad578d7bbca673ab1ad87"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/REVIEW_CHECKLIST.md",
+      "size_bytes": 1125,
+      "sha256": "8cb622a32d67f682659a7416df9ca7fbf30743cb4973e1efb1a4efedae0a25c1"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/RF_MODULE_SCHEMATIC_RULES.md",
+      "size_bytes": 1018,
+      "sha256": "10912782f995e279a3aa7bf47e3d1a7ddf1b2c74def952e26b8e5d0d48f2c189"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/SCHEMATIC_CREATION_STANDARD.md",
+      "size_bytes": 1645,
+      "sha256": "4f02ce44986d7af5f39ec5d1ce018abde57aca699c7b722c970a9814ed2e65da"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/SYMBOL_SELECTION_RULES.md",
+      "size_bytes": 1155,
+      "sha256": "e37b3c89ae7cfbbf45d32aa11ae578b489e628e5b747505a0dded479b0f8d1e3"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/schematic_rules/USB_C_SCHEMATIC_RULES.md",
+      "size_bytes": 1045,
+      "sha256": "bc1be5414be4347c3384870bb906a55011d4eae7c2ef2c72418b50b687b92e7a"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/verification_rules/BOM_VERIFICATION_RULES.md",
+      "size_bytes": 640,
+      "sha256": "d253eb9d615608480606b4b632945af3b287dfc54fd3a78f62eca16f1b68f863"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/verification_rules/DRC_INTERPRETATION_RULES.md",
+      "size_bytes": 525,
+      "sha256": "711254beab0e9c198be6b4be7a80cb76a8c9d54bc679d57748b41ecfbedcd11a"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/verification_rules/ERC_INTERPRETATION_RULES.md",
+      "size_bytes": 652,
+      "sha256": "c58045ccbb6b3c364ba0469e9d84e188f9732ab61ef2d29427fd2ab7322f3a77"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/verification_rules/FINAL_HUMAN_REVIEW_RULES.md",
+      "size_bytes": 693,
+      "sha256": "92883aba0dc66d0c9f26d43bcb8023c9014d1f2bc6c57dca6556ca62ca0e6b81"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/verification_rules/FOOTPRINT_DATASHEET_MATCH_RULES.md",
+      "size_bytes": 615,
+      "sha256": "746e11ed92f1e81e6f3be6947b25400f8c8aa0756e75e54753e43b0f758297ed"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/verification_rules/GERBER_REVIEW_RULES.md",
+      "size_bytes": 530,
+      "sha256": "bff8ddcc4c57c4fa87170d79bdcf0f609f0f74b7379d94d1d3da1bddc1b36ae2"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/verification_rules/PNP_REVIEW_RULES.md",
+      "size_bytes": 509,
+      "sha256": "2b6a5e4bc2bffba6ab01464567c1d2a9f602ad24d0f2a42a2351b793b6d580b3"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/workflows/COMPONENT_ADD_WORKFLOW.md",
+      "size_bytes": 607,
+      "sha256": "74245ba0ea146080496e0e27eb989a0e7221dab0758ba6250bf1ad684c9e0b4b"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/workflows/CREATE_PCB_WORKFLOW.md",
+      "size_bytes": 645,
+      "sha256": "d60d014a751b21975e5f7b87849539bab5c9eeaffa28b2e4a03135dac70775b3"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/workflows/CREATE_SCHEMATIC_WORKFLOW.md",
+      "size_bytes": 771,
+      "sha256": "edc3d2d4f7acaea101168cc5b71ec133803378341a1a6813711364ce47188971"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/workflows/DATASHEET_TO_FOOTPRINT_WORKFLOW.md",
+      "size_bytes": 3689,
+      "sha256": "f1c04990fb29bc3dc1e8bad7f92eb6584618fe35e6384148594dc3417113ec32"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/workflows/DATASHEET_TO_SYMBOL_WORKFLOW.md",
+      "size_bytes": 2935,
+      "sha256": "6ef65f1bbd168142df420cd045840d9ed1b7c469bea6a7f059e994bdd8c18307"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/workflows/FOOTPRINT_VERIFY_WORKFLOW.md",
+      "size_bytes": 587,
+      "sha256": "6f14e33040a1a875050f26277d1195de503e63afb0561fcb8cd9f7fbd823a4b3"
+    },
+    {
+      "path": "09_ACCURACY_ENGINE/workflows/RELEASE_PACKAGE_WORKFLOW.md",
+      "size_bytes": 758,
+      "sha256": "f033b94616ed8361f6529c0d4b1b32da3b9d5be5054ab46f3dce0ceb1614b5c7"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/ai_agent_guidance/ANTI_HALLUCINATION_RULES.md",
+      "size_bytes": 943,
+      "sha256": "66c5e0213c40c8d6a3c0b679c4f4e574b57c34fa5ed2cc9af8c198ef7ec85320"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/ai_agent_guidance/SOURCE_CITATION_RULES.md",
+      "size_bytes": 879,
+      "sha256": "5f6dcfdc7da240ec6637dfe855fd47065aada6ec11cc28d737ab9723843b7475"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/ai_agent_guidance/WHEN_TO_MARK_UNVERIFIED.md",
+      "size_bytes": 762,
+      "sha256": "55d538e99d81c59019fc5155a79c20a828dff1ad40cafcfdbb05f28945de42ca"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/ai_agent_guidance/WHEN_TO_REQUIRE_HUMAN_REVIEW.md",
+      "size_bytes": 843,
+      "sha256": "32b0fe913c3a7732a22bf76d904f5862f7070f67e206d7b5791b4ef603a66b99"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/ai_agent_guidance/WHEN_TO_STOP_AND_ASK_HUMAN.md",
+      "size_bytes": 863,
+      "sha256": "1f0317213f2e4ef4769bed31c6d66aa732f8cb03b97afd349f825715c1f43988"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/AUTOMOTIVE_REVIEW_CHECKLIST.md",
+      "size_bytes": 818,
+      "sha256": "cd5f20b1851bbf46e3d6c31bdccea96bc204b1dcecb22f89341937463eca1f0a"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/CONNECTOR_REVIEW_CHECKLIST.md",
+      "size_bytes": 849,
+      "sha256": "460ae36d13dd1d4fdb66a8b0ee011de4a50a90afe73f4faf927d1dc46fe41a6b"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/MCU_REVIEW_CHECKLIST.md",
+      "size_bytes": 684,
+      "sha256": "0f85b20eaf738634a7be947d81f89a115ffccb2e6ce8b36756380115a5c5367a"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/POWER_REVIEW_CHECKLIST.md",
+      "size_bytes": 714,
+      "sha256": "c57b878bfd24894733b833107a1ff397fd2de20f6158267b7b2677b8ac7cfaf0"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/PRE_FAB_CHECKLIST.md",
+      "size_bytes": 862,
+      "sha256": "e79a04310796c80855ec77ed43746c3df11cda15c2823a7a01a7015b04802a72"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/PRE_PCB_CHECKLIST.md",
+      "size_bytes": 906,
+      "sha256": "c8206cc33da4713873c075e8fdef4af926f2242b7f85f435cb5259a5d39204d2"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/PRE_SCHEMATIC_CHECKLIST.md",
+      "size_bytes": 1078,
+      "sha256": "28e651aac70dd062a98802fb399935aff516fd80cb92959885ea9276908cb170"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/checklists/RF_REVIEW_CHECKLIST.md",
+      "size_bytes": 651,
+      "sha256": "c29ce23c38e664f6bdcd8a643a7bfec4fd6a346e93a1cf4638adf1160e943876"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/12V_TO_5V_BUCK.md",
+      "size_bytes": 1384,
+      "sha256": "2685cc10d6cbeaf0167db9969887d404fd696ab2eb828b1a6255692195f94c44"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/5V_TO_3V3_LDO.md",
+      "size_bytes": 1187,
+      "sha256": "87a3f5d5b9073ce9b5bb84ca3dc027534fceb8c5dfa7fd893972cfcd6d3ec50c"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/AUTOMOTIVE_12V_INPUT_PROTECTION.md",
+      "size_bytes": 1358,
+      "sha256": "9fbe8d4b9056a9f885e660ccf5389394a794050d3ff840376a35bf7ccd78d6b8"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/CAN_BUS_NODE.md",
+      "size_bytes": 1230,
+      "sha256": "545b7a86ab16505b6a6b4945c9f16132a7cad996459a0b05323cc3aba24fb6d1"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/CAN_FD_NODE.md",
+      "size_bytes": 1231,
+      "sha256": "aacf8a4043cf781283fcddbb89fa9b633cb4e34428084547ac62b98d7220bcd7"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/ESD_PROTECTED_USB.md",
+      "size_bytes": 1181,
+      "sha256": "11459220ed0611204c0cbb580e688a53745dad7bf5ddff6d33b7204a8ea4d7d2"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/ESP32_S3_MINIMUM_SYSTEM.md",
+      "size_bytes": 1554,
+      "sha256": "d25a894e71f482b65ba5721311b7390f091094427ada4d357ed77744e045c1cc"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/LIN_NODE.md",
+      "size_bytes": 1221,
+      "sha256": "079e9451019a4740eea3aee4d8b3b11070b8bdf717d058303b2b360c865f5d6e"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/PIC_MINIMUM_SYSTEM.md",
+      "size_bytes": 1236,
+      "sha256": "8e1d4ab9cdf863bc5895adcb3b8a9d44dfe159ed0eaa7fbd4e5d45ae702f486a"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/RF_ANTENNA_UFL_MODULE.md",
+      "size_bytes": 1171,
+      "sha256": "4fe03943d299b2db466f6c33e6de4a1169bc993337e65282df88cb05e6bb4459"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/RS485_NODE.md",
+      "size_bytes": 1193,
+      "sha256": "a1b1307e5ffcaaf616bd1c18b8d5134ecafb029bd285cfe973204c0146b35e50"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/STATUS_LED_BUTTON_RESET.md",
+      "size_bytes": 1216,
+      "sha256": "a794a75fe0533f62d67143838669382a9ff5b6f3185c8f249ec2fc24b463e770"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/STM32_MINIMUM_SYSTEM.md",
+      "size_bytes": 1388,
+      "sha256": "a1d92c0cf5527dc4d51a4544fe227a43622ca875e7d4578a6fbe30928275f9ba"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/USB_C_POWER_ONLY.md",
+      "size_bytes": 1572,
+      "sha256": "1dd2248a3d0a8ad7b4e20f1dcd5d962de0078741528d0994c0bb1e18c0accf49"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/circuits/USB_C_USB2_DEVICE.md",
+      "size_bytes": 1445,
+      "sha256": "5c633b8f4b98ecb3cd43594586044a7f59cc4b2ca82a8a39918465f18beea6bc"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/CAN_COMMON_MISTAKES.md",
+      "size_bytes": 768,
+      "sha256": "c9855465570da102212e01dfeee69f442d9f661eb4b04e1a6cc38fc9e75ab454"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/CONNECTOR_COMMON_MISTAKES.md",
+      "size_bytes": 790,
+      "sha256": "fa470d82010ed86ec49e028bdd08c1470085f945dd3ce05f76e1946fe6f289b7"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/ESP32_COMMON_MISTAKES.md",
+      "size_bytes": 892,
+      "sha256": "aa6fab03566017074db15cf176552b580574b171e0991e1adc33f67fc16341b8"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/FOOTPRINT_COMMON_MISTAKES.md",
+      "size_bytes": 908,
+      "sha256": "0e8386719dcbbf2b7112f4497c4a05196be3d7ae5e5adc749289419e6cc0c3f9"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/MCU_COMMON_MISTAKES.md",
+      "size_bytes": 928,
+      "sha256": "fdcbccd0533ad946680b43a342dbaa79ab36b4dfec99abb4012381dfc23817a6"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/REGULATOR_COMMON_MISTAKES.md",
+      "size_bytes": 873,
+      "sha256": "c67a6136d1882be1601d050f47d9f345c9b5a65efde7aac41c63d060b16c46a8"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/STM32_COMMON_MISTAKES.md",
+      "size_bytes": 839,
+      "sha256": "299970d83965e9d444014e9c80e05524c63487704999c55471ba017012d89d47"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/common_mistakes/USB_C_COMMON_MISTAKES.md",
+      "size_bytes": 820,
+      "sha256": "3ff8d126e4857c43504660cf2a2f4b3ae5637d3c788930b618d7c05a8a4a553a"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/CONNECTOR_INTERFACE_PATTERN.md",
+      "size_bytes": 1091,
+      "sha256": "64fceb5302d78c18ce9e67e5f21ecc55984f983c2cab5535d65464b283863631"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/GROUNDING_PATTERN.md",
+      "size_bytes": 1048,
+      "sha256": "de52e0c4fd3e6b6ece6b2f86b7951e49d7d4decc459c865ee468e9ee60c2f5ee"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/MCU_MINIMUM_SYSTEM_PATTERN.md",
+      "size_bytes": 1163,
+      "sha256": "91db80e1e29a543fbe621b5ea6b4b5889b2910d38bed4cbad1abdd272cf84f5a"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/MODULAR_SCHEMATIC_BLOCK_PATTERN.md",
+      "size_bytes": 1011,
+      "sha256": "1b9b44fd06646e89f5ad0bb17aea385a1e28fc63fc9e800d5c4c0a24fc2a2d9f"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/MOUNTING_HOLE_PATTERN.md",
+      "size_bytes": 953,
+      "sha256": "83bc53bd72600f3f912cad98a87c56417ea9a9f309a21b65e70fb6a299d87f06"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/NET_NAMING_PATTERN.md",
+      "size_bytes": 878,
+      "sha256": "402c3dea292034541a129c157b75793f19773f2821aa4eda1ee3cfd7f54fa62c"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/POWER_TREE_PATTERN.md",
+      "size_bytes": 1064,
+      "sha256": "15384d3369f8b99b4b1bd7d14ad51908e04e9b06ad3ce75998ee03aa82984a5d"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/design_patterns/TEST_POINT_PATTERN.md",
+      "size_bytes": 934,
+      "sha256": "b9ecb977904a3c41cb3b54a8f0356cc75f6da3a151a6158008cd0fb7b3322d45"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/manufacturing/ASSEMBLY_NOTES_RULES.md",
+      "size_bytes": 968,
+      "sha256": "feb3796bfc6ef84390eb05290f0c50c26fcf9053953bea29bcf1423245d9d85e"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/manufacturing/BOM_FOR_ASSEMBLY_RULES.md",
+      "size_bytes": 865,
+      "sha256": "02bb4968c9c1c51c258cc6b78a64a48ce1f3c4724dfff61d1849e543d0ba60f1"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/manufacturing/GENERIC_GERBER_DRILL_RULES.md",
+      "size_bytes": 883,
+      "sha256": "fd62f5a818b616c94252516663ac23e65f17ff93dedab0d60c6e96f75006743b"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/manufacturing/JLCPCB_PACKAGE_RULES.md",
+      "size_bytes": 1139,
+      "sha256": "8db965c9b9ca2bd49ab7ca6f4ccae82f2c336eec68c1384e8dedfb5880b8b307"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/manufacturing/PCBWAY_PACKAGE_RULES.md",
+      "size_bytes": 1061,
+      "sha256": "ece260bbccd6d1f0f66fc9356ba07c705f326a944e751a77724b68daa6491318"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/manufacturing/PICK_AND_PLACE_RULES.md",
+      "size_bytes": 828,
+      "sha256": "ab513742065b06e3369b5b49bb1e99c9df8ce5d96032422c3e2315770f765f6e"
+    },
+    {
+      "path": "10_KNOWLEDGE_BASE/README.md",
+      "size_bytes": 2359,
+      "sha256": "ff04cc349f82325935da1ae5bb370def9b96fd2a88ed5479dc4ae01037a8fb5a"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/CONNECTOR_FOOTPRINT_RULES.md",
+      "size_bytes": 1063,
+      "sha256": "60d201def178f13548e98f87501b1cbc4aeaf96aaeed43c681b2d6fc8d1f22a0"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_3D_MODEL_RULES.md",
+      "size_bytes": 659,
+      "sha256": "140632938fa9f2a1f7a4ccf98cf30d99674fcb8490f15553603fc314e3fb61c4"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_COURTYARD_RULES.md",
+      "size_bytes": 715,
+      "sha256": "631941e726de71742768fc4c7d232a9f9ce83788d6b9f4f42eb159786ef82579"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_CREATION_STANDARD.md",
+      "size_bytes": 1344,
+      "sha256": "cbd5183fffcac72f67300e42dacf06d24dd846ced35df0a3ac7b6d89cd4672fd"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_FAB_LAYER_RULES.md",
+      "size_bytes": 699,
+      "sha256": "16b099e7ef880728cc42c04e4d904a240f69686f13153e3fe3fbab3c23fad5ad"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_ORIGIN_RULES.md",
+      "size_bytes": 804,
+      "sha256": "2242fbff614c8f87548059349fccae29163a0c39319fcb3eb7a3ee323e2d5a90"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_PAD_RULES.md",
+      "size_bytes": 933,
+      "sha256": "63029e6519791f4b9d9bcf8fd1e7d1fd58970c44573e30bcebc1691e1f3391ca"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_QA_CHECKLIST.md",
+      "size_bytes": 1004,
+      "sha256": "6cfb68f5425b6a6b4b1307cb615d3d7da5ca85214289448db361dd281edcb6ae"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/footprints/FOOTPRINT_SILKSCREEN_RULES.md",
+      "size_bytes": 699,
+      "sha256": "68afd02d312cbaa98a3e6ba009d22b65d88ebc1405ade76b96bcbe1e69f9e2c4"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/mapping/DATASHEET_PACKAGE_TO_FOOTPRINT_STANDARD.md",
+      "size_bytes": 1040,
+      "sha256": "bf81794d097ace7b19a8a828237edb25a1eb1f6d83ba80a693e4c70591c70610"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/mapping/KICAD_LIBRARY_TABLE_RULES.md",
+      "size_bytes": 1123,
+      "sha256": "20ed0e0c7c315f89fe867dd0a4a3b7c438361608d387f9a3378c36b8f1329456"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/mapping/PROJECT_LOCAL_LIBRARY_RULES.md",
+      "size_bytes": 1104,
+      "sha256": "c29070bfbdc31b350631300f61d22b40aec457f0514662a466c5886470f48cc7"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/mapping/SYMBOL_TO_FOOTPRINT_MAPPING_STANDARD.md",
+      "size_bytes": 1141,
+      "sha256": "67763fe937bdfdd2532620dad8bfcb1f773bc5507e8a7b338af7a45fef29c5e9"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/README.md",
+      "size_bytes": 2186,
+      "sha256": "dd63417c4bacec5e4b5165a83979e1480886e78ce2f3c75e803ab189e596e999"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/scripts/compare_footprint_to_metadata.py",
+      "size_bytes": 6751,
+      "sha256": "079d2d76f9f1b391a8a7751aca1ec6713750f57532067de1f776279140d0d282"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/scripts/README.md",
+      "size_bytes": 1894,
+      "sha256": "0c8952a2c4e7f2a8261ac8b2a40f12756d65143824130ef27306fa5371000407"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/scripts/validate_footprint_file.py",
+      "size_bytes": 6132,
+      "sha256": "a3814316029eb2a016df5619271929271f4f971a929d911cc4dd2962cf17a5e7"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/scripts/validate_symbol_file.py",
+      "size_bytes": 6468,
+      "sha256": "9a3cba60d22d0fdc2895b4b0ba583af0654cb02ebb5d4ba5f40a04e82b9650c3"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/symbols/SYMBOL_CREATION_STANDARD.md",
+      "size_bytes": 1366,
+      "sha256": "e64ef4c3accedd810efd0097a732b8ce7c999e3d1d1b765d4b1078e396d884f1"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/symbols/SYMBOL_DATASHEET_LINK_RULES.md",
+      "size_bytes": 759,
+      "sha256": "b01ca9619748c8c939bf291a1da2aa94b2473d307dd1f58d0b18462349f091bd"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/symbols/SYMBOL_FIELD_RULES.md",
+      "size_bytes": 826,
+      "sha256": "2db9162b0fa3edee1c9156fa0993cfc28bf1a537721d5a061c46745df0d8979e"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/symbols/SYMBOL_MULTI_UNIT_RULES.md",
+      "size_bytes": 959,
+      "sha256": "a6fec9449c4448996de887e785b1b4e0c497c3b6c213fc5bca57474ac973caa0"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/symbols/SYMBOL_PIN_NAMING_RULES.md",
+      "size_bytes": 1071,
+      "sha256": "7d57e6d618427c21c63d9e82195665ce35739d48d4f0586343dc07a9aeb3af68"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/symbols/SYMBOL_POWER_PIN_RULES.md",
+      "size_bytes": 974,
+      "sha256": "4c9c96f69b56fb7ecbc94cebc029bc7ce0d588923fd4a8620da1143b0f14bfc1"
+    },
+    {
+      "path": "11_LIBRARY_FACTORY/symbols/SYMBOL_QA_CHECKLIST.md",
+      "size_bytes": 975,
+      "sha256": "c42bca590d4b16c2d8e17ad357bdf2571586f6407f14fb0f22934642735a079d"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/00_INDEX/PUBLIC_SOURCE_RULES.md",
+      "size_bytes": 1358,
+      "sha256": "fe988abfeaf893bb260dbac549755c8501c851454801252bddef7fcd89b249a1"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/00_INDEX/REFERENCE_DESIGN_INDEX.md",
+      "size_bytes": 1014,
+      "sha256": "55551430e1e92d5dee51bd5b8ca331cca9f0a69ec6515a1fa03ad8b69563d14e"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/00_INDEX/REFERENCE_DESIGN_SCHEMA.md",
+      "size_bytes": 1315,
+      "sha256": "fda27639524268794c70ac37286f453b9a29bc205f4b14aba3e212e037dfc300"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/00_INDEX/REFERENCE_RECORD_TEMPLATE.md",
+      "size_bytes": 1454,
+      "sha256": "8b19585117ae7e9b0eaacc45c88d15764d70aeee78ab2592000b2fd57e7eb93c"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/00_INDEX/VERIFICATION_LEVELS.md",
+      "size_bytes": 1587,
+      "sha256": "c3b9f753dcffba7a902ad0a8c716c477ce9144405dfdb4576459b4af7be71558"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/AUTOMOTIVE/AUTOMOTIVE_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 913,
+      "sha256": "0ed01c1c05a4619c031b7b3640fd426e7569ec01b98966907c424c9c7fae2021"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/AUTOMOTIVE/README.md",
+      "size_bytes": 922,
+      "sha256": "902750da8d45e8c6ac94ef94514a6573cca478772566639b69d9e35dd07268b1"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/CAN/CAN_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 776,
+      "sha256": "d89366a3f8afe914e954968d7025a964019dbc579ba693c33739003411705897"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/CAN/README.md",
+      "size_bytes": 795,
+      "sha256": "9d499d0f780f80125f03159ce932a34c4098a85136de2a6ee47435841683a3a5"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/ESP32/ESP32_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 927,
+      "sha256": "993f6950ef0207b6c019638de0983660d583e4c5bb1e3323c843583a14b61783"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/ESP32/README.md",
+      "size_bytes": 1004,
+      "sha256": "033ab6b28e1e34628a6f7188f766d9d9d805798b607e02e203adfad683d73dfe"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/PIC_AVR/PIC_AVR_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 823,
+      "sha256": "070de100dbd9e11baeb8fec56d77fe39364da6e77bdfea129d861092aa56ec63"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/PIC_AVR/README.md",
+      "size_bytes": 893,
+      "sha256": "cf003886b56b360099c9daed7211d36bf43241a23f08f2d508646bfee541f6cf"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/POWER/POWER_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 884,
+      "sha256": "f21f5c787b25e734f460d7d03e14a33720901b2f224d34fd3c14bd8777ab2e03"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/POWER/README.md",
+      "size_bytes": 930,
+      "sha256": "f7238555bb8564ce1acdd990665cae0ec1a4baca11ad399406ec75b1116d00fa"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/README.md",
+      "size_bytes": 2681,
+      "sha256": "836eb3bbb3b7e1b84c18d8595f0c9c2a31e255024179965fbc9d8b1294169752"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/RF/README.md",
+      "size_bytes": 804,
+      "sha256": "2faee4d3902647c30edece8acb801997cfe0b42a3a406ee90eb82ee75e1f3fef"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/RF/RF_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 772,
+      "sha256": "1052055cb2b9db8276cca77c6b2f30342e6ab8bf267eeb1f1223474f3703db16"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/STM32/README.md",
+      "size_bytes": 888,
+      "sha256": "a718c0766d0bf5668dd5f0c40e12ae300a4d44e899dcf10964933b4efd643b34"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/STM32/STM32_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 865,
+      "sha256": "62b91f3b3490d161cce2662ec76905a9b0155a263ae9d204916ba9ef944bc479"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/USB/README.md",
+      "size_bytes": 771,
+      "sha256": "5c0b6bd9c284e5260e04c262dbf221483a7614a4fe93d2b42618067bfbd3eab4"
+    },
+    {
+      "path": "12_REFERENCE_DESIGN_LIBRARY/USB/USB_REFERENCE_DESIGN_CHECKLIST.md",
+      "size_bytes": 817,
+      "sha256": "82e3a9cd6ddef989a29477aa6c3c86c05ea0c366f92a888e8f10a25db70e0e3d"
+    },
+    {
+      "path": "13_PART_INGESTION/AI_SUMMARY_TEMPLATE.md",
+      "size_bytes": 1481,
+      "sha256": "2a1c9bf4ea57f4879c9e1cbe86e78e85a74e0e35edd21db710b41d07160fb1a3"
+    },
+    {
+      "path": "13_PART_INGESTION/COMPONENT_RECORD_GENERATION_RULES.md",
+      "size_bytes": 1201,
+      "sha256": "ec164303fd715bd9dce1d73a4c51a00f6ac0b3536607d555e8ab2779e55368c4"
+    },
+    {
+      "path": "13_PART_INGESTION/DATASHEET_REVIEW_CHECKLIST.md",
+      "size_bytes": 1218,
+      "sha256": "f4c0b210894544875b0b8d0a17b24aeb7e4c90ecfcd1bb556602db92aaa49e36"
+    },
+    {
+      "path": "13_PART_INGESTION/ELECTRICAL_LIMITS_EXTRACTION_RULES.md",
+      "size_bytes": 796,
+      "sha256": "a663765d7d5b6f44bf9f062d4a0e42fd107d6cb4f593b574c0548923f105f43c"
+    },
+    {
+      "path": "13_PART_INGESTION/FOOTPRINT_REQUIREMENTS_EXTRACTION.md",
+      "size_bytes": 1025,
+      "sha256": "b06606f472500d4f994dbefd305bec2d3d42d25d085e88e1f3df4e78666ca780"
+    },
+    {
+      "path": "13_PART_INGESTION/LAYOUT_NOTES_EXTRACTION_RULES.md",
+      "size_bytes": 842,
+      "sha256": "bfe92fe3f877dd93274d85f50408aa3dde9f6b47bc7ad462539324ea1e3a5e40"
+    },
+    {
+      "path": "13_PART_INGESTION/PART_INGESTION_WORKFLOW.md",
+      "size_bytes": 1761,
+      "sha256": "503648495a66034eabbe94bb5c86e863dd790da54184d5e68451cb89a518ecbb"
+    },
+    {
+      "path": "13_PART_INGESTION/PINOUT_EXTRACTION_RULES.md",
+      "size_bytes": 765,
+      "sha256": "82e22a60e52588ee54c399b567ca38ba5dffcb68fc856d3ae380608602edda56"
+    },
+    {
+      "path": "13_PART_INGESTION/README.md",
+      "size_bytes": 2045,
+      "sha256": "c581a600aec273b9f877fe3c49b5e896ce919c6b0e3e607c95413d0ae86cbba6"
+    },
+    {
+      "path": "13_PART_INGESTION/scripts/create_datasheet_summary_stub.py",
+      "size_bytes": 4140,
+      "sha256": "375f87ee7cf872eaa80be0c250cdb50b7c5f1c7212a556b6c5743d15fe9ecf48"
+    },
+    {
+      "path": "13_PART_INGESTION/scripts/create_footprint_checklist_stub.py",
+      "size_bytes": 2950,
+      "sha256": "bb5cc3504fce65bc691c4cb63b100d3a27c1fa1f2bf45cfcbef92cf4332d1610"
+    },
+    {
+      "path": "13_PART_INGESTION/scripts/create_part_record_stub.py",
+      "size_bytes": 6564,
+      "sha256": "6d77708e26fb4b8caf27c08a41f4f360f47dd1060b68d179861d229c70f480b8"
+    },
+    {
+      "path": "13_PART_INGESTION/scripts/create_symbol_checklist_stub.py",
+      "size_bytes": 2924,
+      "sha256": "9cefd02d830a543ceaeafa214c4e638b267a32af30003be8cab2b6f6512e2160"
+    },
+    {
+      "path": "13_PART_INGESTION/scripts/README.md",
+      "size_bytes": 1670,
+      "sha256": "33e47e7a1ed61fba57c2dc74ac4f294c91a5c21dc4fbfba3f184a01a3672673e"
+    },
+    {
+      "path": "13_PART_INGESTION/SYMBOL_REQUIREMENTS_EXTRACTION.md",
+      "size_bytes": 949,
+      "sha256": "f0838d4f647142a2746af50d4bfb1f24ca7937586a2ecb0e502c194f0de3de5e"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/AI_PLACEMENT_REVIEW_RULES.md",
+      "size_bytes": 1581,
+      "sha256": "0d0f6dce955dc3b0243f8f6c74b312cd741fc981713ae28a07633508aefc3a05"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/CONSTRAINT_EXTRACTION_PLAN.md",
+      "size_bytes": 1928,
+      "sha256": "cd615ff40e2dfeb9305fefc04085eaae0c270850660010378967af59e2e86d54"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/FREEROUTING_INTEGRATION_PLAN.md",
+      "size_bytes": 2520,
+      "sha256": "7c3e3451bc22c6bd76263e40e54320fd24c63dafab82b076ac1381aacc38eec3"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/HUMAN_LAYOUT_REVIEW_GATE.md",
+      "size_bytes": 1391,
+      "sha256": "893973cf44249f1df4e0710dbf014cebf2d74bf48c487702be4d8e0b6253c1c0"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/KICAD_AUTOROUTER_OPTIONS.md",
+      "size_bytes": 2563,
+      "sha256": "3f8926d1decc22097153f61b5223fb48c3ea67f9d9d08977bc6b3d2d47b9e910"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/PLACEMENT_ASSISTANCE_PLAN.md",
+      "size_bytes": 3785,
+      "sha256": "cc6c1ca4f610e1b8ddfe2bc6eb7a5fa64e6ac0b45c6ac173f447db083d9e1022"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/README.md",
+      "size_bytes": 2489,
+      "sha256": "63a66ebe866ccc4e0d8591a6426ad2b3d65207ca70737902fb68c7399887f227"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/ROADMAP.md",
+      "size_bytes": 1818,
+      "sha256": "df62198d595112efd1450ec877bc357632e561ee6dd334f4eaabb37eceeab542"
+    },
+    {
+      "path": "14_LAYOUT_AUTOMATION/ROUTING_ASSISTANCE_PLAN.md",
+      "size_bytes": 3165,
+      "sha256": "a1c98cbd41f37bfe906bcc998772851f48743e2320be20fd010c2642f5067c30"
+    },
+    {
+      "path": "15_BENCHMARKS/BENCHMARK_METHODOLOGY.md",
+      "size_bytes": 3675,
+      "sha256": "ccf95e7e77350dcc99cada692298a6729e8adbfc3bbb5afb3195f23451be70ac"
+    },
+    {
+      "path": "15_BENCHMARKS/BENCHMARK_RUNNER_PLAN.md",
+      "size_bytes": 2634,
+      "sha256": "b5c0f705461acc76b1fd01a4920b088a1ef843a88515810433e748a9dced9e3e"
+    },
+    {
+      "path": "15_BENCHMARKS/README.md",
+      "size_bytes": 2395,
+      "sha256": "18b08309a0e79e9d7bce06e8d5840d50c53b1ad69a9ddf38895c9abafa17e015"
+    },
+    {
+      "path": "15_BENCHMARKS/results/README.md",
+      "size_bytes": 1004,
+      "sha256": "6004ddaa5a19a5e0590911b3ff3a7e5e8f9654d001230edc9a67adf1f8a9a181"
+    },
+    {
+      "path": "15_BENCHMARKS/scoring/DATASHEET_SCORE.md",
+      "size_bytes": 1371,
+      "sha256": "9a88400b050b1b2c1fa05975547c66464aa4c1477fe4c7172346369e89c182ca"
+    },
+    {
+      "path": "15_BENCHMARKS/scoring/FAB_PACKAGE_SCORE.md",
+      "size_bytes": 1438,
+      "sha256": "b4d244bf0385012463719ecb6b87bb02a086cf8ee478df2bc0a88e92c5e09113"
+    },
+    {
+      "path": "15_BENCHMARKS/scoring/FOOTPRINT_SCORE.md",
+      "size_bytes": 1546,
+      "sha256": "84f2e4754f73c59e217b829fa22c7e0d30978ec7a7caa6e63ed6082c2c598c02"
+    },
+    {
+      "path": "15_BENCHMARKS/scoring/PCB_SCORE.md",
+      "size_bytes": 1514,
+      "sha256": "e1a540654569638af522368555efe5fad3118c2d065a8c4913705482dc7890df"
+    },
+    {
+      "path": "15_BENCHMARKS/scoring/SCHEMATIC_SCORE.md",
+      "size_bytes": 1488,
+      "sha256": "5ee72a319d0cb61702fb6774e4afef2a9f11b6caa39c235786b10d636e71a53a"
+    },
+    {
+      "path": "15_BENCHMARKS/scoring/SCORING_RUBRIC.md",
+      "size_bytes": 2892,
+      "sha256": "a74aa23688fd998627158ae91b382b10f6b2462802643a92297f1937384e543f"
+    },
+    {
+      "path": "15_BENCHMARKS/tasks/TASK_001_ESP32_S3_MINIMUM_SYSTEM.md",
+      "size_bytes": 2148,
+      "sha256": "8048ef466ff7e4bb2e06eb397558eece003b643b796b2fb40e243417c687b407"
+    },
+    {
+      "path": "15_BENCHMARKS/tasks/TASK_002_STM32_BLUEPILL_CLONE_REVIEW.md",
+      "size_bytes": 1781,
+      "sha256": "298dc12c1a652a3a5c897ccc6cf5ca475fcf263b2558bbea6bb6710005b565d7"
+    },
+    {
+      "path": "15_BENCHMARKS/tasks/TASK_003_CAN_BUS_NODE.md",
+      "size_bytes": 1800,
+      "sha256": "8514cefa1b72b74e2bcbbb9be50e61372443045c43ad5b02af016714e3ca9787"
+    },
+    {
+      "path": "15_BENCHMARKS/tasks/TASK_004_USB_C_POWER_DEVICE.md",
+      "size_bytes": 1899,
+      "sha256": "b1a7f38d9f876f68a81542a54a4ee6b569a0e9a11783560c75d4d643df805bb1"
+    },
+    {
+      "path": "15_BENCHMARKS/tasks/TASK_005_12V_AUTOMOTIVE_INPUT.md",
+      "size_bytes": 1818,
+      "sha256": "9032613c0f6542ad7fcf9d0c7df250c822e6038cbe8dbbd21a94438f8d2e1fba"
+    },
+    {
+      "path": "15_BENCHMARKS/tasks/TASK_006_CONNECTOR_FOOTPRINT_VERIFICATION.md",
+      "size_bytes": 1648,
+      "sha256": "eae727c8ac0d4c523ef4ae39f095c0db35f9f8131d2cdf85cd980f5a4764d5fc"
+    },
+    {
+      "path": "99_BACKUPS/pre_codex_edits/README.md",
+      "size_bytes": 95,
+      "sha256": "df0464213a3e2fad2e7b5453869958f1bfa828e5cb0046447229d8d4ef2634d4"
+    },
+    {
+      "path": "99_BACKUPS/README.md",
+      "size_bytes": 137,
+      "sha256": "e6b38b9322ed5fea9289739a1f95052ee65cfd76cf6893c3103ef1b487774c83"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 8864,
+      "sha256": "fe6341061435bf4cf0f7fa6179664880b6488b84c831e5bec0504f2f202bbb2e"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 1016,
+      "sha256": "658aac15e3577a73c53857a79536a10f6e137aa67502960f9d8b5ed4096573d4"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "size_bytes": 1150,
+      "sha256": "26a93319524dbeea27bc10a52964d9b30215344a3c2c7b2177960c61c3076f33"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 2368,
+      "sha256": "f72f302240259b547f7dcb0ade691a64da8abc3a6bcec4beafd037c893f79b66"
+    },
+    {
+      "path": "DISCLAIMER.md",
+      "size_bytes": 2009,
+      "sha256": "abd4c2befd3a45bd60e9e1c249d0d2e810d743094e169b3bac6c08f415f5864e"
+    },
+    {
+      "path": "docs/HOW_THE_COMPONENT_DATABASE_WORKS.md",
+      "size_bytes": 1205,
+      "sha256": "3977a1a640d41b0fbdf69d08b3b89990040e4994a60b5317856e753e7f7e00ad"
+    },
+    {
+      "path": "docs/HOW_THE_DATASHEET_DATABASE_WORKS.md",
+      "size_bytes": 1130,
+      "sha256": "1fe806f7d021956fd6fb9db8b900805ee474a8836aaf6e1e92d6b836ceff637f"
+    },
+    {
+      "path": "docs/HOW_TO_ADD_A_COMPONENT.md",
+      "size_bytes": 1093,
+      "sha256": "5dc37247619dbd3be21b0231dce5e4f04437690e82f7991ba660a5a3ce19006d"
+    },
+    {
+      "path": "docs/HOW_TO_CREATE_A_PROJECT.md",
+      "size_bytes": 1073,
+      "sha256": "dcebd638367b2655525eb6e56812f532f7013c7bc641cdf41ba4616fb68cc594"
+    },
+    {
+      "path": "docs/HOW_TO_EXPORT_NOT_FINAL_OUTPUTS.md",
+      "size_bytes": 999,
+      "sha256": "578d407412a25b590e88dddd93034aaaa9d45688828a313a8456ffbe0bc58a36"
+    },
+    {
+      "path": "docs/HOW_TO_REVIEW_A_PROJECT.md",
+      "size_bytes": 1181,
+      "sha256": "5616bc272e3c2f3624cc51e32e359c26607c6ea7a756b8b7f0c720a61a829462"
+    },
+    {
+      "path": "docs/HOW_TO_RUN_ERC_DRC.md",
+      "size_bytes": 932,
+      "sha256": "e2b1c65334a93e5bc7aabd7905de1f9a6ce90c7ff9fd6315b138c80bc49c47a3"
+    },
+    {
+      "path": "docs/HOW_TO_USE_PROMPT_PACKS.md",
+      "size_bytes": 1008,
+      "sha256": "ded979699e7f65978464485fe1303a56ac10729d48825f4fcfd6f82885dc2270"
+    },
+    {
+      "path": "docs/HOW_TO_VERIFY_A_FOOTPRINT.md",
+      "size_bytes": 1243,
+      "sha256": "3766fe846f20ec313394b2be2da8554785249605d831a12816f35ec9a2552f0c"
+    },
+    {
+      "path": "docs/KICAD_ENGINE_VS_CLOUD_PCB_AI_TOOLS.md",
+      "size_bytes": 6981,
+      "sha256": "fe031a9e6c4df13e3bb34962df437214856300ecccbac07ce7fbb07670b27394"
+    },
+    {
+      "path": "docs/KICAD_ENGINE_VS_FLUX_AI.md",
+      "size_bytes": 2888,
+      "sha256": "bc81263e62f8e371a68e12c9cfa3be2a115fc3f06c6d1e654effd15f0c9c0ee5"
+    },
+    {
+      "path": "docs/SAFETY_AND_LIMITATIONS.md",
+      "size_bytes": 1535,
+      "sha256": "b9e83970d2723955f841db19a1ed5b556ac4e28935cac60824bc631f8b31c05b"
+    },
+    {
+      "path": "docs/USING_WITH_CLAUDE.md",
+      "size_bytes": 1056,
+      "sha256": "e31e61d17b5a9c603b9526ca156b5599a95e827d16ecf99e3bd406ecafd0bc20"
+    },
+    {
+      "path": "docs/USING_WITH_CODEX.md",
+      "size_bytes": 1195,
+      "sha256": "b8900e96e975ec06e2f1dde4f94fd0b7becb9cd6848364c9d202a1af62da4e54"
+    },
+    {
+      "path": "docs/USING_WITH_KICAD.md",
+      "size_bytes": 1332,
+      "sha256": "751ca658d44cd9948f5f5c5e9ffd64692b7bf5d02f14e33113e360909268607e"
+    },
+    {
+      "path": "docs/WHAT_IS_KICAD_ENGINE.md",
+      "size_bytes": 1048,
+      "sha256": "b96351c52f68d46bc1cd99dff6dff874c7196e254a91c4f8d10d5dd6e1860892"
+    },
+    {
+      "path": "FAQ.md",
+      "size_bytes": 2223,
+      "sha256": "cefa47e31f1b972b2a2265ee364498c7d72a0836687b8a159c45de89ce08a52f"
+    },
+    {
+      "path": "FOR CHAT GPT.MD",
+      "size_bytes": 1735,
+      "sha256": "36f0a1c59f4203969ba9126c3bd1be834a4dd20457744625477db1dddd62a9db"
+    },
+    {
+      "path": "health_check.ps1",
+      "size_bytes": 1337,
+      "sha256": "e1f2c5e9e3f0097385981cba5b0031096d71abdb8247d93958dfdec8eb34be46"
+    },
+    {
+      "path": "health_check.py",
+      "size_bytes": 19061,
+      "sha256": "06b2a5a81a672b0dea63973c15c367082e71583560ca4b78ecefd79e17fded71"
+    },
+    {
+      "path": "HEALTH_CHECK_REPORT_TEMPLATE.md",
+      "size_bytes": 1560,
+      "sha256": "e18c50e073f48d754d08064885537af189f64832f6a5ba14220111b19e84258c"
+    },
+    {
+      "path": "INSTALLER_USER_GUIDE.md",
+      "size_bytes": 2154,
+      "sha256": "b8d9d5323fe7851a942af284c25c7a6ea204f0a423b7a33bf3c56dc7849a3341"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1059,
+      "sha256": "ea5395325b0125beb60312d4e3e4c5c3493f11dc94dff9e7acc58611c63e3463"
+    },
+    {
+      "path": "PUBLIC_RELEASE_CHECKLIST.md",
+      "size_bytes": 2736,
+      "sha256": "3d516641fbd3233be26c92fe16d1e1fa5ec90065cbd01ec264cad11a97345035"
+    },
+    {
+      "path": "QUICKSTART_LINUX.md",
+      "size_bytes": 2587,
+      "sha256": "b457110c48a7ce3742d120df03a92450a36e13c3aa982e5a9cbbc842d4f02080"
+    },
+    {
+      "path": "QUICKSTART_MACOS.md",
+      "size_bytes": 2264,
+      "sha256": "c257c8eeb6e92d52a77ac17008ad0f6d43cbb7a1545e8142fdfc724e8c0c268d"
+    },
+    {
+      "path": "QUICKSTART_WINDOWS.md",
+      "size_bytes": 2887,
+      "sha256": "4c8e6abbff0706455ee081a298fddefbbd73997089f90cd0f286cc924ca10c9d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 11900,
+      "sha256": "f5de5716f0fa9fc0de87366b930ab05bf4baef6f86a09e20f8aef52e4553dc0f"
+    },
+    {
+      "path": "README_GPT.md",
+      "size_bytes": 3356,
+      "sha256": "2c6a40e9207a0ac0a2e2194d5f28683f6bdac9c5165862bcb708e78141a33e5c"
+    },
+    {
+      "path": "ROADMAP.md",
+      "size_bytes": 1847,
+      "sha256": "a674c3f33bb616d90e4c0d5477a23f428ba2662216bf60c235afdc988c49cbb9"
+    },
+    {
+      "path": "SECURITY.md",
+      "size_bytes": 2094,
+      "sha256": "b441dabe26d9c3ad949ca16c83a25ad6129efbc73e657386cb54d5936b760439"
+    },
+    {
+      "path": "setup/common/build_indexes.py",
+      "size_bytes": 5751,
+      "sha256": "012f465f2007daa08475e97a6da6aa68909331bf1dd610bf36b1a73a38a8b68b"
+    },
+    {
+      "path": "setup/common/create_repo_folders.py",
+      "size_bytes": 3750,
+      "sha256": "e1acddd29b862745caf7e9569cac2a73e65b5d40682e663a6762fd0689253d12"
+    },
+    {
+      "path": "setup/common/README.md",
+      "size_bytes": 979,
+      "sha256": "cd62b84be04a8198fd5440a3e43eebb2f1938a8df50dc0cd0472050bc33f42f5"
+    },
+    {
+      "path": "setup/common/write_setup_report.py",
+      "size_bytes": 5212,
+      "sha256": "604ea0a1306265734787f7d9f677c6b0eef7f3a12dc26087e5dbc4db224d8c09"
+    },
+    {
+      "path": "setup/linux/check_linux_requirements.sh",
+      "size_bytes": 5189,
+      "sha256": "d6f4e88e9440f50cf5d8b45f803f19964f8d11a18bdd7cbf2e7ddb6d29349bd6"
+    },
+    {
+      "path": "setup/linux/detect_linux_package_manager.sh",
+      "size_bytes": 944,
+      "sha256": "06ff9ee3c6c425958cb221faca483c1833b2b173d311d08ef1fb176cade28213"
+    },
+    {
+      "path": "setup/linux/install_missing_linux_tools.sh",
+      "size_bytes": 3954,
+      "sha256": "669925d863bbb3a7eb6e151c0ac8155fd6c1dfd7ea5dadaea55edb14f7d1874f"
+    },
+    {
+      "path": "setup/linux/open_vscode_workspace.sh",
+      "size_bytes": 749,
+      "sha256": "f86bf20a43ed51931204831f163d06436e41aefb674b32d78ca282eb6ed3ad92"
+    },
+    {
+      "path": "setup/linux/README.md",
+      "size_bytes": 2055,
+      "sha256": "cc81ab935621d876dbd9eedef0cd2d0a9c32e40e787d568cc4b04240e6dcb545"
+    },
+    {
+      "path": "setup/linux/setup_linux.sh",
+      "size_bytes": 1486,
+      "sha256": "e84ffd6e10f74bd7c9009fcc9f95a94d532cd87f47ad6abd64dec67d710808b8"
+    },
+    {
+      "path": "setup/macos/check_macos_requirements.sh",
+      "size_bytes": 6719,
+      "sha256": "8a4eba90e8be3a5db38908e05c612fdecb224395431e0ec0584216eb0634c08c"
+    },
+    {
+      "path": "setup/macos/install_missing_macos_tools.sh",
+      "size_bytes": 2568,
+      "sha256": "428c59aad1fba9adfe4a909989150e0c5afff52c63f91e7838969b9bbc82908c"
+    },
+    {
+      "path": "setup/macos/open_vscode_workspace.sh",
+      "size_bytes": 680,
+      "sha256": "1e33ab7c2248eecb648246fec45d380433d534ccdb687ed182f8aec1e575b943"
+    },
+    {
+      "path": "setup/macos/README.md",
+      "size_bytes": 1690,
+      "sha256": "d09edaabb589ac7965f87957211968d0a730effee3d3f64f1980a25bdd001dae"
+    },
+    {
+      "path": "setup/macos/setup_macos.sh",
+      "size_bytes": 1486,
+      "sha256": "67222ddd605b97241d772b2b7333cc8ac076af3e5e38e318649ae4bbe4505521"
+    },
+    {
+      "path": "setup/windows/check_windows_requirements.ps1",
+      "size_bytes": 810,
+      "sha256": "7d068e6121660aa5bf0bce0caab6f9f0e132c2d9eaf476c8ca52e59eed5fcac6"
+    },
+    {
+      "path": "setup/windows/install_missing_windows_tools.ps1",
+      "size_bytes": 2352,
+      "sha256": "da409c4afea835a873da9fccb3ea3c4b19c6f8d854255741fbb9d8cd0f1a1005"
+    },
+    {
+      "path": "setup/windows/README.md",
+      "size_bytes": 1289,
+      "sha256": "826db958859819a2f957b7419f9c6edfffa37e64eea0fb14b074e0644e787a33"
+    },
+    {
+      "path": "setup/windows/setup_windows.ps1",
+      "size_bytes": 1647,
+      "sha256": "b22aeaf30f68dc4496b0eeda323ee39f75e307cce64f4d65de1432e7f58fa561"
+    },
+    {
+      "path": "START_HERE_FOR_AI_AGENTS.md",
+      "size_bytes": 6091,
+      "sha256": "d31299a872c142fc0a5db9b7f2de409ad7a586829dc43498b361d528c9be927e"
+    },
+    {
+      "path": "START_HERE_FOR_USERS.md",
+      "size_bytes": 3448,
+      "sha256": "84f337904e7375ac1bc5e27f2d49c78035a424d495004af8275b8a05d619e319"
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size_bytes": 4602,
+      "sha256": "46a84f094b0d2a43da2f90f603eb13c50995ed247bee45b8df583163782e7e5d"
+    },
+    {
+      "path": "USER_MANUAL.md",
+      "size_bytes": 2603,
+      "sha256": "219b0794f2a85c419fa7a08389506ff55cafdfb7eaea72d6d98ba1fc27faaab9"
+    }
+  ]
+}

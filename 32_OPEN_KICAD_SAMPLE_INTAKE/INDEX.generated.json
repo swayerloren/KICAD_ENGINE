@@ -1,0 +1,790 @@
+{
+  "generated_at": "2026-05-03T18:25:54.122460+00:00",
+  "status": "INDEX_WRITTEN",
+  "candidates_json": [],
+  "candidates_markdown": [
+    {
+      "_record_path": "candidates\\bluetiger9_usb_type_c_switch.md",
+      "name": "bluetiger9_usb_type_c_switch.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\CANDIDATE_INDEX.md",
+      "name": "CANDIDATE_INDEX.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\circuitstate_mitayi_pico_d1.md",
+      "name": "circuitstate_mitayi_pico_d1.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\esp_rs_esp_rust_board.md",
+      "name": "esp_rs_esp_rust_board.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\kicad_official_pic_programmer_demo.md",
+      "name": "kicad_official_pic_programmer_demo.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\linux_automation_candlelightfd.md",
+      "name": "linux_automation_candlelightfd.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\m4a1x_tps5430.md",
+      "name": "m4a1x_tps5430.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\mohamedyanis_stm32l0_esp32_breakout_board.md",
+      "name": "mohamedyanis_stm32l0_esp32_breakout_board.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\README.md",
+      "name": "README.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\solderparty_bbq20kbd_hw.md",
+      "name": "solderparty_bbq20kbd_hw.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "candidates\\tomasr8_attiny85_dev_board.md",
+      "name": "tomasr8_attiny85_dev_board.md",
+      "status": "MARKDOWN_RECORD"
+    }
+  ],
+  "review_reports_json": [
+    {
+      "status": "DRY_RUN_ONLY",
+      "generated_at": "2026-05-03T17:58:24.564253+00:00",
+      "input": null,
+      "candidate_count": 0,
+      "candidates": [],
+      "safety": {
+        "downloaded": false,
+        "cloned": false,
+        "scraped": false,
+        "public_bundle_allowed": false
+      },
+      "_record_path": "review_reports\\candidate_plan_20260503T175824Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_FAIL",
+      "generated_at": "2026-05-03T18:15:14.195781+00:00",
+      "sample_id": "esp_rs_esp_rust_board_normalized",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 0,
+        "kicad_sch": 0,
+        "kicad_pcb": 0,
+        "kicad_sym": 0,
+        "kicad_mod": 0,
+        "gerber_like": 0,
+        "drill": 0,
+        "pick_and_place": 0,
+        "pdf": 0,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [],
+        "kicad_sch": [],
+        "kicad_pcb": [],
+        "kicad_sym": [],
+        "kicad_mod": [],
+        "gerber_like": [],
+        "drill": [],
+        "pick_and_place": [],
+        "pdf": [],
+        "step": []
+      },
+      "license_files": [],
+      "has_kicad_source": false,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_normalized_20260503T181514Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_PASS",
+      "generated_at": "2026-05-03T18:15:55.247955+00:00",
+      "sample_id": "esp_rs_esp_rust_board_normalized_populated",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 1,
+        "kicad_sch": 1,
+        "kicad_pcb": 1,
+        "kicad_sym": 1,
+        "kicad_mod": 9,
+        "gerber_like": 10,
+        "drill": 2,
+        "pick_and_place": 0,
+        "pdf": 2,
+        "step": 5
+      },
+      "examples": {
+        "kicad_pro": [
+          "hardware\\esp-rust-board\\esp-rust-board.kicad_pro"
+        ],
+        "kicad_sch": [
+          "hardware\\esp-rust-board\\esp-rust-board.kicad_sch"
+        ],
+        "kicad_pcb": [
+          "hardware\\esp-rust-board\\esp-rust-board.kicad_pcb"
+        ],
+        "kicad_sym": [
+          "kicad_libs\\Rust_Board.kicad_sym"
+        ],
+        "kicad_mod": [
+          "kicad_libs\\Rust_Board.pretty\\esp-rs_logo_4mm.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\esp-rs_logo_tiny.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\GCT_USB4105-GF-A.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\IC_ICM-42670-P.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\logo_HF.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\logo_PB.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\Rust_Board.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\Rust_Board_Shield.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\SON100P200X200X80-5N.kicad_mod"
+        ],
+        "gerber_like": [
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Cu.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Mask.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Paste.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Silkscreen.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-Edge_Cuts.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Cu.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Fab.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Mask.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Paste.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Silkscreen.gbr"
+        ],
+        "drill": [
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-NPTH.drl",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-PTH.drl"
+        ],
+        "pick_and_place": [],
+        "pdf": [
+          "hardware\\esp-rust-board\\schematic\\esp-rust-board-Assembly.pdf",
+          "hardware\\esp-rust-board\\schematic\\esp-rust-board.pdf"
+        ],
+        "step": [
+          "kicad_libs\\3d\\ICM-42670-P.step",
+          "kicad_libs\\3d\\PTS810SJK250SMTRLFS.step",
+          "kicad_libs\\3d\\SHTC3.step",
+          "kicad_libs\\3d\\USB4105-GF-A.step",
+          "kicad_libs\\3d\\WS2812B-MINI.step"
+        ]
+      },
+      "license_files": [],
+      "has_kicad_source": true,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_normalized_populated_20260503T181555Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_FAIL",
+      "generated_at": "2026-05-03T18:15:14.117453+00:00",
+      "sample_id": "esp_rs_esp_rust_board_original",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\esp_rs_esp_rust_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 0,
+        "kicad_sch": 0,
+        "kicad_pcb": 0,
+        "kicad_sym": 0,
+        "kicad_mod": 0,
+        "gerber_like": 0,
+        "drill": 0,
+        "pick_and_place": 0,
+        "pdf": 0,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [],
+        "kicad_sch": [],
+        "kicad_pcb": [],
+        "kicad_sym": [],
+        "kicad_mod": [],
+        "gerber_like": [],
+        "drill": [],
+        "pick_and_place": [],
+        "pdf": [],
+        "step": []
+      },
+      "license_files": [],
+      "has_kicad_source": false,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_original_20260503T181514Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_PASS",
+      "generated_at": "2026-05-03T18:15:55.136109+00:00",
+      "sample_id": "esp_rs_esp_rust_board_original_populated",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\esp_rs_esp_rust_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 1,
+        "kicad_sch": 1,
+        "kicad_pcb": 1,
+        "kicad_sym": 1,
+        "kicad_mod": 9,
+        "gerber_like": 10,
+        "drill": 2,
+        "pick_and_place": 0,
+        "pdf": 2,
+        "step": 5
+      },
+      "examples": {
+        "kicad_pro": [
+          "hardware\\esp-rust-board\\esp-rust-board.kicad_pro"
+        ],
+        "kicad_sch": [
+          "hardware\\esp-rust-board\\esp-rust-board.kicad_sch"
+        ],
+        "kicad_pcb": [
+          "hardware\\esp-rust-board\\esp-rust-board.kicad_pcb"
+        ],
+        "kicad_sym": [
+          "kicad_libs\\Rust_Board.kicad_sym"
+        ],
+        "kicad_mod": [
+          "kicad_libs\\Rust_Board.pretty\\esp-rs_logo_4mm.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\esp-rs_logo_tiny.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\GCT_USB4105-GF-A.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\IC_ICM-42670-P.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\logo_HF.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\logo_PB.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\Rust_Board.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\Rust_Board_Shield.kicad_mod",
+          "kicad_libs\\Rust_Board.pretty\\SON100P200X200X80-5N.kicad_mod"
+        ],
+        "gerber_like": [
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Cu.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Mask.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Paste.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Silkscreen.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-Edge_Cuts.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Cu.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Fab.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Mask.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Paste.gbr",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Silkscreen.gbr"
+        ],
+        "drill": [
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-NPTH.drl",
+          "hardware\\esp-rust-board\\gerber\\esp-rust-board-PTH.drl"
+        ],
+        "pick_and_place": [],
+        "pdf": [
+          "hardware\\esp-rust-board\\schematic\\esp-rust-board-Assembly.pdf",
+          "hardware\\esp-rust-board\\schematic\\esp-rust-board.pdf"
+        ],
+        "step": [
+          "kicad_libs\\3d\\ICM-42670-P.step",
+          "kicad_libs\\3d\\PTS810SJK250SMTRLFS.step",
+          "kicad_libs\\3d\\SHTC3.step",
+          "kicad_libs\\3d\\USB4105-GF-A.step",
+          "kicad_libs\\3d\\WS2812B-MINI.step"
+        ]
+      },
+      "license_files": [],
+      "has_kicad_source": true,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_original_populated_20260503T181555Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_FAIL",
+      "generated_at": "2026-05-03T18:15:14.041164+00:00",
+      "sample_id": "m4a1x_tps5430_normalized",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 0,
+        "kicad_sch": 0,
+        "kicad_pcb": 0,
+        "kicad_sym": 0,
+        "kicad_mod": 0,
+        "gerber_like": 0,
+        "drill": 0,
+        "pick_and_place": 0,
+        "pdf": 0,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [],
+        "kicad_sch": [],
+        "kicad_pcb": [],
+        "kicad_sym": [],
+        "kicad_mod": [],
+        "gerber_like": [],
+        "drill": [],
+        "pick_and_place": [],
+        "pdf": [],
+        "step": []
+      },
+      "license_files": [],
+      "has_kicad_source": false,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_normalized_20260503T181514Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_PASS",
+      "generated_at": "2026-05-03T18:15:55.035768+00:00",
+      "sample_id": "m4a1x_tps5430_normalized_populated",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 1,
+        "kicad_sch": 1,
+        "kicad_pcb": 1,
+        "kicad_sym": 0,
+        "kicad_mod": 3,
+        "gerber_like": 2,
+        "drill": 2,
+        "pick_and_place": 0,
+        "pdf": 3,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [
+          "TPS5430.kicad_pro"
+        ],
+        "kicad_sch": [
+          "TPS5430.kicad_sch"
+        ],
+        "kicad_pcb": [
+          "TPS5430.kicad_pcb"
+        ],
+        "kicad_sym": [],
+        "kicad_mod": [
+          "lib\\footprints.pretty\\DC-005-5A-2.0-SMT.kicad_mod",
+          "lib\\footprints.pretty\\L_Sunlord_MWSA1004S_10x11.5x4mm.kicad_mod",
+          "lib\\footprints.pretty\\ToolingHole_1.152mm.kicad_mod"
+        ],
+        "gerber_like": [
+          "jlcpcb\\gerber\\TPS5430-NPTH-drl_map.gbr",
+          "jlcpcb\\gerber\\TPS5430-PTH-drl_map.gbr"
+        ],
+        "drill": [
+          "jlcpcb\\gerber\\TPS5430-NPTH.drl",
+          "jlcpcb\\gerber\\TPS5430-PTH.drl"
+        ],
+        "pick_and_place": [],
+        "pdf": [
+          "print\\TPS5430_bottom.pdf",
+          "print\\TPS5430_schematic.pdf",
+          "print\\TPS5430_top.pdf"
+        ],
+        "step": []
+      },
+      "license_files": [
+        "LICENSE"
+      ],
+      "has_kicad_source": true,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_normalized_populated_20260503T181555Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_FAIL",
+      "generated_at": "2026-05-03T18:15:13.970279+00:00",
+      "sample_id": "m4a1x_tps5430_original",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\m4a1x_tps5430",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 0,
+        "kicad_sch": 0,
+        "kicad_pcb": 0,
+        "kicad_sym": 0,
+        "kicad_mod": 0,
+        "gerber_like": 0,
+        "drill": 0,
+        "pick_and_place": 0,
+        "pdf": 0,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [],
+        "kicad_sch": [],
+        "kicad_pcb": [],
+        "kicad_sym": [],
+        "kicad_mod": [],
+        "gerber_like": [],
+        "drill": [],
+        "pick_and_place": [],
+        "pdf": [],
+        "step": []
+      },
+      "license_files": [],
+      "has_kicad_source": false,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_original_20260503T181513Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_PASS",
+      "generated_at": "2026-05-03T18:15:54.933311+00:00",
+      "sample_id": "m4a1x_tps5430_original_populated",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\m4a1x_tps5430",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 1,
+        "kicad_sch": 1,
+        "kicad_pcb": 1,
+        "kicad_sym": 0,
+        "kicad_mod": 3,
+        "gerber_like": 2,
+        "drill": 2,
+        "pick_and_place": 0,
+        "pdf": 3,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [
+          "TPS5430.kicad_pro"
+        ],
+        "kicad_sch": [
+          "TPS5430.kicad_sch"
+        ],
+        "kicad_pcb": [
+          "TPS5430.kicad_pcb"
+        ],
+        "kicad_sym": [],
+        "kicad_mod": [
+          "lib\\footprints.pretty\\DC-005-5A-2.0-SMT.kicad_mod",
+          "lib\\footprints.pretty\\L_Sunlord_MWSA1004S_10x11.5x4mm.kicad_mod",
+          "lib\\footprints.pretty\\ToolingHole_1.152mm.kicad_mod"
+        ],
+        "gerber_like": [
+          "jlcpcb\\gerber\\TPS5430-NPTH-drl_map.gbr",
+          "jlcpcb\\gerber\\TPS5430-PTH-drl_map.gbr"
+        ],
+        "drill": [
+          "jlcpcb\\gerber\\TPS5430-NPTH.drl",
+          "jlcpcb\\gerber\\TPS5430-PTH.drl"
+        ],
+        "pick_and_place": [],
+        "pdf": [
+          "print\\TPS5430_bottom.pdf",
+          "print\\TPS5430_schematic.pdf",
+          "print\\TPS5430_top.pdf"
+        ],
+        "step": []
+      },
+      "license_files": [
+        "LICENSE"
+      ],
+      "has_kicad_source": true,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_original_populated_20260503T181554Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_FAIL",
+      "generated_at": "2026-05-03T18:15:13.890949+00:00",
+      "sample_id": "tomasr8_attiny85_dev_board_normalized",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 0,
+        "kicad_sch": 0,
+        "kicad_pcb": 0,
+        "kicad_sym": 0,
+        "kicad_mod": 0,
+        "gerber_like": 0,
+        "drill": 0,
+        "pick_and_place": 0,
+        "pdf": 0,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [],
+        "kicad_sch": [],
+        "kicad_pcb": [],
+        "kicad_sym": [],
+        "kicad_mod": [],
+        "gerber_like": [],
+        "drill": [],
+        "pick_and_place": [],
+        "pdf": [],
+        "step": []
+      },
+      "license_files": [],
+      "has_kicad_source": false,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_normalized_20260503T181513Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_PASS",
+      "generated_at": "2026-05-03T18:15:54.831889+00:00",
+      "sample_id": "tomasr8_attiny85_dev_board_normalized_populated",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 1,
+        "kicad_sch": 1,
+        "kicad_pcb": 1,
+        "kicad_sym": 0,
+        "kicad_mod": 1,
+        "gerber_like": 0,
+        "drill": 2,
+        "pick_and_place": 0,
+        "pdf": 3,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [
+          "attiny85.kicad_pro"
+        ],
+        "kicad_sch": [
+          "attiny85.kicad_sch"
+        ],
+        "kicad_pcb": [
+          "attiny85.kicad_pcb"
+        ],
+        "kicad_sym": [],
+        "kicad_mod": [
+          "custom_footprints\\MOLEX_48037-0001.kicad_mod"
+        ],
+        "gerber_like": [],
+        "drill": [
+          "gerbers\\attiny85-NPTH.drl",
+          "gerbers\\attiny85-PTH.drl"
+        ],
+        "pick_and_place": [],
+        "pdf": [
+          "assets\\digispark-schematic.pdf",
+          "bootloader\\bootloader_tutorial.pdf",
+          "bootloader\\bootloader_tutorial2.pdf"
+        ],
+        "step": []
+      },
+      "license_files": [
+        "LICENSE"
+      ],
+      "has_kicad_source": true,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_normalized_populated_20260503T181554Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_FAIL",
+      "generated_at": "2026-05-03T18:15:13.814939+00:00",
+      "sample_id": "tomasr8_attiny85_dev_board_original",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\tomasr8_attiny85_dev_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 0,
+        "kicad_sch": 0,
+        "kicad_pcb": 0,
+        "kicad_sym": 0,
+        "kicad_mod": 0,
+        "gerber_like": 0,
+        "drill": 0,
+        "pick_and_place": 0,
+        "pdf": 0,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [],
+        "kicad_sch": [],
+        "kicad_pcb": [],
+        "kicad_sym": [],
+        "kicad_mod": [],
+        "gerber_like": [],
+        "drill": [],
+        "pick_and_place": [],
+        "pdf": [],
+        "step": []
+      },
+      "license_files": [],
+      "has_kicad_source": false,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_original_20260503T181513Z.json"
+    },
+    {
+      "status": "FILE_AUDIT_PASS",
+      "generated_at": "2026-05-03T18:15:54.704613+00:00",
+      "sample_id": "tomasr8_attiny85_dev_board_original_populated",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\tomasr8_attiny85_dev_board",
+      "errors": [],
+      "counts": {
+        "kicad_pro": 1,
+        "kicad_sch": 1,
+        "kicad_pcb": 1,
+        "kicad_sym": 0,
+        "kicad_mod": 1,
+        "gerber_like": 0,
+        "drill": 2,
+        "pick_and_place": 0,
+        "pdf": 3,
+        "step": 0
+      },
+      "examples": {
+        "kicad_pro": [
+          "attiny85.kicad_pro"
+        ],
+        "kicad_sch": [
+          "attiny85.kicad_sch"
+        ],
+        "kicad_pcb": [
+          "attiny85.kicad_pcb"
+        ],
+        "kicad_sym": [],
+        "kicad_mod": [
+          "custom_footprints\\MOLEX_48037-0001.kicad_mod"
+        ],
+        "gerber_like": [],
+        "drill": [
+          "gerbers\\attiny85-NPTH.drl",
+          "gerbers\\attiny85-PTH.drl"
+        ],
+        "pick_and_place": [],
+        "pdf": [
+          "assets\\digispark-schematic.pdf",
+          "bootloader\\bootloader_tutorial.pdf",
+          "bootloader\\bootloader_tutorial2.pdf"
+        ],
+        "step": []
+      },
+      "license_files": [
+        "LICENSE"
+      ],
+      "has_kicad_source": true,
+      "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+      "human_review_required": true,
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_original_populated_20260503T181554Z.json"
+    }
+  ],
+  "review_reports_markdown": [
+    {
+      "_record_path": "review_reports\\CANDIDATE_DISCOVERY_REPORT.md",
+      "name": "CANDIDATE_DISCOVERY_REPORT.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\candidate_plan_20260503T175824Z.md",
+      "name": "candidate_plan_20260503T175824Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\esp_rs_esp_rust_board_IMPORT_REPORT.md",
+      "name": "esp_rs_esp_rust_board_IMPORT_REPORT.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_normalized_20260503T181514Z.md",
+      "name": "file_audit_esp_rs_esp_rust_board_normalized_20260503T181514Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_normalized_populated_20260503T181555Z.md",
+      "name": "file_audit_esp_rs_esp_rust_board_normalized_populated_20260503T181555Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_original_20260503T181514Z.md",
+      "name": "file_audit_esp_rs_esp_rust_board_original_20260503T181514Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_esp_rs_esp_rust_board_original_populated_20260503T181555Z.md",
+      "name": "file_audit_esp_rs_esp_rust_board_original_populated_20260503T181555Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_normalized_20260503T181514Z.md",
+      "name": "file_audit_m4a1x_tps5430_normalized_20260503T181514Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_normalized_populated_20260503T181555Z.md",
+      "name": "file_audit_m4a1x_tps5430_normalized_populated_20260503T181555Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_original_20260503T181513Z.md",
+      "name": "file_audit_m4a1x_tps5430_original_20260503T181513Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_m4a1x_tps5430_original_populated_20260503T181554Z.md",
+      "name": "file_audit_m4a1x_tps5430_original_populated_20260503T181554Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_normalized_20260503T181513Z.md",
+      "name": "file_audit_tomasr8_attiny85_dev_board_normalized_20260503T181513Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_normalized_populated_20260503T181554Z.md",
+      "name": "file_audit_tomasr8_attiny85_dev_board_normalized_populated_20260503T181554Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_original_20260503T181513Z.md",
+      "name": "file_audit_tomasr8_attiny85_dev_board_original_20260503T181513Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\file_audit_tomasr8_attiny85_dev_board_original_populated_20260503T181554Z.md",
+      "name": "file_audit_tomasr8_attiny85_dev_board_original_populated_20260503T181554Z.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\m4a1x_tps5430_IMPORT_REPORT.md",
+      "name": "m4a1x_tps5430_IMPORT_REPORT.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\README.md",
+      "name": "README.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\sample_index_dry_run.md",
+      "name": "sample_index_dry_run.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "review_reports\\tomasr8_attiny85_dev_board_IMPORT_REPORT.md",
+      "name": "tomasr8_attiny85_dev_board_IMPORT_REPORT.md",
+      "status": "MARKDOWN_RECORD"
+    }
+  ],
+  "attribution_json": [],
+  "attribution_markdown": [
+    {
+      "_record_path": "attribution\\esp_rs_esp_rust_board_ATTRIBUTION.md",
+      "name": "esp_rs_esp_rust_board_ATTRIBUTION.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "attribution\\m4a1x_tps5430_ATTRIBUTION.md",
+      "name": "m4a1x_tps5430_ATTRIBUTION.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "attribution\\README.md",
+      "name": "README.md",
+      "status": "MARKDOWN_RECORD"
+    },
+    {
+      "_record_path": "attribution\\tomasr8_attiny85_dev_board_ATTRIBUTION.md",
+      "name": "tomasr8_attiny85_dev_board_ATTRIBUTION.md",
+      "status": "MARKDOWN_RECORD"
+    }
+  ]
+}

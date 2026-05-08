@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCBWay BOM CSV Schema",
+  "type": "object",
+  "required_columns": ["Line #", "Quantity Per Part Number", "Reference Designator", "Part Number", "Part Description", "Package", "Type", "Manufacturer Name", "Manufacturer Part Number", "Distributor Part Number", "Notes"],
+  "required_nonblank": ["Quantity Per Part Number", "Reference Designator", "Part Number", "Part Description", "Package", "Type"],
+  "quantity_column": "Quantity Per Part Number",
+  "designator_column": "Reference Designator",
+  "notes": "Turn-key confidence requires manufacturer and distributor details."
+}

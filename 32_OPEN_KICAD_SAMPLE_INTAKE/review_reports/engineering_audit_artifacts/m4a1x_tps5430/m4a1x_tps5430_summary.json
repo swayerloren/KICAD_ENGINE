@@ -1,0 +1,176 @@
+{
+  "sample": "m4a1x_tps5430",
+  "root": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430",
+  "project_dir": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430",
+  "pro": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/TPS5430.kicad_pro",
+  "sch": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/TPS5430.kicad_sch",
+  "pcb": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/TPS5430.kicad_pcb",
+  "title": "TPS5430",
+  "file_count": 39,
+  "directory_count": 8,
+  "license_present": true,
+  "readme_present": true,
+  "physical_ref_count": 41,
+  "unannotated_count": 0,
+  "duplicate_ref_count": 0,
+  "placed_symbol_count": 68,
+  "assigned_footprints_count": 41,
+  "schematic_footprint_property_count": 68,
+  "pcb_footprint_count": 44,
+  "missing_footprints": 0,
+  "no_prefix_footprints": 0,
+  "missing_models": 1,
+  "erc_exit_code": 5,
+  "drc_exit_code": 5,
+  "erc_signal": "ERC_MESSAGES_36_ERRORS_0_WARNINGS_36",
+  "drc_signal": "DRC_VIOLATIONS_87; FOOTPRINT_ERRORS_30; UNCONNECTED_0",
+  "sch_svg_exit_code": 0,
+  "pcb_top_svg_exit_code": 0,
+  "pcb_bottom_svg_exit_code": 0,
+  "unrouted_token_count": 10,
+  "complexity": "MEDIUM",
+  "classification": "BROKEN_TEST_PROJECT",
+  "missing_footprint_rows": [],
+  "no_prefix_footprint_rows": [],
+  "missing_model_rows": [
+    {
+      "model": "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl",
+      "exists_after_known_var_resolution": false,
+      "unresolved_variable_names_in_source": "KICAD6_3DMODEL_DIR"
+    }
+  ],
+  "existing_outputs": {
+    "gerber_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-B_Cu.gbl",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-B_Mask.gbs",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-B_Paste.gbp",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-B_Silkscreen.gbo",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-Edge_Cuts.gm1",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-F_Cu.gtl",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-F_Mask.gts",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-F_Paste.gtp",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-F_Silkscreen.gto",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-NPTH-drl_map.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-PTH-drl_map.gbr"
+    ],
+    "drill_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-NPTH.drl",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/gerber/TPS5430-PTH.drl"
+    ],
+    "bom_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/assembly/TPS5430-all-pos.csv",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/assembly/TPS5430.csv",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/jlcpcb/assembly/TPS5430.xml"
+    ],
+    "position_like": [],
+    "step_stl_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/lib/3dmodels/DC-005-5A-2.0-SMT.stp",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/lib/3dmodels/MWSA1004S-150MT.stp"
+    ],
+    "pdf_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/print/TPS5430_bottom.pdf",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/print/TPS5430_schematic.pdf",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/print/TPS5430_top.pdf"
+    ]
+  },
+  "commands": {
+    "erc": {
+      "args": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--format",
+        "report",
+        "--severity-all",
+        "--exit-code-violations",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_erc.rpt",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_sch"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "exit_code": 5,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/erc.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/erc.stderr.txt",
+      "report_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/m4a1x_tps5430_erc.rpt"
+    },
+    "drc": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--format",
+        "report",
+        "--severity-all",
+        "--schematic-parity",
+        "--exit-code-violations",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_drc.rpt",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "exit_code": 5,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/drc.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/drc.stderr.txt",
+      "report_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/m4a1x_tps5430_drc.rpt"
+    },
+    "sch_svg": {
+      "args": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "svg",
+        "--black-and-white",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\schematic_svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_sch"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/sch_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/sch_svg.stderr.txt"
+    },
+    "pcb_top_svg": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--page-size-mode",
+        "2",
+        "--fit-page-to-board",
+        "--layers",
+        "F.Cu,F.Mask,F.SilkS,Edge.Cuts",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_pcb_top.svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/pcb_top_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/pcb_top_svg.stderr.txt"
+    },
+    "pcb_bottom_svg": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--page-size-mode",
+        "2",
+        "--fit-page-to-board",
+        "--mirror",
+        "--layers",
+        "B.Cu,B.Mask,B.SilkS,Edge.Cuts",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\m4a1x_tps5430\\m4a1x_tps5430_pcb_bottom.svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/pcb_bottom_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/m4a1x_tps5430/pcb_bottom_svg.stderr.txt"
+    }
+  }
+}

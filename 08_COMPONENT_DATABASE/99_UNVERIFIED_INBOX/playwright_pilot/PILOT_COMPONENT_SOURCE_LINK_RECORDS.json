@@ -1,0 +1,47 @@
+{
+  "status": "UNVERIFIED",
+  "source": "31_PLAYWRIGHT_RESEARCH_PIPELINE/output/20260503_121150_pilot",
+  "live_capture_status": "BLOCKED_PLAYWRIGHT_NOT_AVAILABLE",
+  "records": [
+    {
+      "part_number": "STM32F103C8T6",
+      "vendor": "STMicro",
+      "category": "microcontroller",
+      "source_url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "human_review_required": true
+    },
+    {
+      "part_number": "ESP32-S3-WROOM-1",
+      "vendor": "Espressif",
+      "category": "module",
+      "source_url": "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "human_review_required": true
+    },
+    {
+      "part_number": "MCP2562FD",
+      "vendor": "Microchip",
+      "category": "communication",
+      "source_url": "https://www.microchip.com/en-us/product/MCP2562FD",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "human_review_required": true
+    },
+    {
+      "part_number": "AP63203",
+      "vendor": "Diodes Inc",
+      "category": "power_regulator",
+      "source_url": "https://www.diodes.com/part/view/AP63203",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "human_review_required": true
+    },
+    {
+      "part_number": "USB-C 16-pin receptacle generic",
+      "vendor": "Generic",
+      "category": "connector",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+      "verification_status": "SOURCE_LINK_ONLY",
+      "human_review_required": true
+    }
+  ]
+}

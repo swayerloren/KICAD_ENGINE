@@ -1,0 +1,55 @@
+﻿{
+    "schema_version":  "supplier_part_normalized_v0.1",
+    "verification_status":  "UNVERIFIED",
+    "source":  {
+                   "supplier":  "Mouser",
+                   "source_type":  "example_only",
+                   "source_url":  "https://example.invalid",
+                   "source_file":  "EXAMPLE_ONLY",
+                   "retrieved_at":  "EXAMPLE_ONLY",
+                   "terms_review_status":  "UNVERIFIED"
+               },
+    "manufacturer":  {
+                         "name":  "EXAMPLE_MANUFACTURER",
+                         "manufacturer_part_number":  "EXAMPLE-MPN",
+                         "lifecycle_status":  "UNKNOWN"
+                     },
+    "supplier_part":  {
+                          "supplier_sku":  "EXAMPLE-SKU",
+                          "supplier_part_url":  "https://example.invalid/part",
+                          "description":  "Example only",
+                          "category":  "Example"
+                      },
+    "package":  {
+                    "supplier_package":  "Unknown",
+                    "manufacturer_package":  "Unknown",
+                    "pin_count":  "Unknown",
+                    "package_confidence":  "UNVERIFIED"
+                },
+    "inventory_price":  {
+                            "currency":  "USD",
+                            "stock_quantity":  null,
+                            "minimum_order_quantity":  null,
+                            "price_breaks":  [
+
+                                             ]
+                        },
+    "datasheets":  [
+
+                   ],
+    "footprint_risk":  {
+                           "kicad_symbol_candidates":  [
+
+                                                       ],
+                           "kicad_footprint_candidates":  [
+
+                                                          ],
+                           "footprint_status":  "UNVERIFIED",
+                           "risk_notes":  [
+                                              "EXAMPLE_ONLY. Package text is not footprint verification."
+                                          ]
+                       },
+    "notes":  [
+                  "EXAMPLE_ONLY"
+              ]
+}

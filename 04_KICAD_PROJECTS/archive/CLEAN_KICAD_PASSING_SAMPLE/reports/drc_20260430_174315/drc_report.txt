@@ -1,0 +1,10 @@
+** Drc report for test_pads_inside_pads.kicad_pcb **
+** Created on 2026-04-30T17:43:16-0400 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

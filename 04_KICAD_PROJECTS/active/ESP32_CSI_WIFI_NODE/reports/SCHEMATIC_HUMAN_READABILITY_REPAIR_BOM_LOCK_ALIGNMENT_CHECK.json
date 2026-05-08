@@ -1,0 +1,317 @@
+{
+  "bom_lock": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\PRE_SCHEMATIC_BOM_LOCK.md",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=47uF_16V; bom=| C1 | `47uF_>=16V_BULK_NEEDS_REVIEW` | Input bulk capacitor | 47 uF, >=16 V required by current schematic value; exact MPN not selected | Package not selected | No safe locked footprint | `SRC_PROJECT_REQUIREMENTS` | MEDIUM power/inrush/package | `BLOCKED_NO_PACKAGE` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "C1",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=10uF_IN; bom=| C2 | `10uF_CIN` | Buck VIN capacitor | 10 uF MLCC; exact MPN not selected | 0805 or 1206 candidate package requires derating review | `Capacitor_SMD:C_0805_2012Metric` or `Capacitor_SMD:C_1206_3216Metric` | `SRC_AP63203`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM switcher input loop | `BLOCKED_NO_PACKAGE` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "C2",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=22uF_OUT; bom=| C3 | `22uF_COUT` | Buck VOUT capacitor 1 | 22 uF MLCC; exact MPN not selected | 0805 or 1206 candidate package requires derating review | `Capacitor_SMD:C_0805_2012Metric` or `Capacitor_SMD:C_1206_3216Metric` | `SRC_AP63203`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM switcher output stability | `BLOCKED_NO_PACKAGE` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "C3",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=22uF_OUT; bom=| C4 | `22uF_COUT` | Buck VOUT capacitor 2 | 22 uF MLCC; exact MPN not selected | 0805 or 1206 candidate package requires derating review | `Capacitor_SMD:C_0805_2012Metric` or `Capacitor_SMD:C_1206_3216Metric` | `SRC_AP63203`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM switcher output stability | `BLOCKED_NO_PACKAGE` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "C4",
+      "status": "WARN"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "100nF_CBST",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "C5",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "10uF_MOD",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "C6",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "100nF_MODULE",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "C7",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "1uF_EN",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "C8",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "TVS_NEEDS_REVIEW",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "D1",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "PWR_LED",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "D2",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "STATUS_LED",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "D3",
+      "status": "PASS"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=PTC_1206; bom=| F1 | `PTC_HOLD_CURRENT_NEEDS_REVIEW` | Input resettable fuse | Littelfuse `1206L110THYR` or equivalent 1.1 A hold class candidate | 1206 resettable PTC | `Fuse:Fuse_1206_3216Metric` | `SRC_1206L110THYR`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH power/current derating | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "F1",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=JACK_5V; bom=| J1 | `5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW` | 5 V barrel input | Exact MPN not selected; requirement is 5.5 mm OD / 2.1 mm ID center-positive right-angle jack | Right-angle through-hole barrel jack, exact drawing required | `Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal` as reference candidate only | `SRC_PJ102A_REFERENCE`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH connector/mechanical/orientation | `BLOCKED_NO_EXACT_PART` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "J1",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=USB-C_NEEDS_REVIEW; bom=| J2 | `USB_C_RECEPTACLE_USB2_NEEDS_REVIEW` | USB-C USB2 receptacle | GCT `USB4105` class; exact suffix not selected | USB4105 16P top-mount horizontal candidate, exact drawing/orientation required | `Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal` | `SRC_USB4105`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH connector/mechanical/orientation | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "J2",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=3.9uH_REV; bom=| L1 | `3.9uH_NEEDS_REVIEW_MPN` | Buck inductor | 3.9 uH value; exact shielded inductor MPN not selected | Package not selected | No safe locked footprint | `SRC_AP63203`, `SRC_PROJECT_REQUIREMENTS` | HIGH switcher current/saturation/height | `BLOCKED_NO_EXACT_PART` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "L1",
+      "status": "WARN"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "M2.5_NPTH",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "MH1",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "M2.5_NPTH",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "MH2",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "M2.5_NPTH",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "MH3",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "M2.5_NPTH",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "MH4",
+      "status": "PASS"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=AO3401A_REV; bom=| Q1 | `AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW` | Reverse-polarity P-channel MOSFET | AOS `AO3401A` class candidate | SOT-23, exact pin mapping required | `Package_TO_SOT_SMD:SOT-23` | `SRC_AO3401A`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH PMOS pin mapping/orientation | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "Q1",
+      "status": "WARN"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "10k_EN",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "R1",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "10k_BOOT",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "R2",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "0R_DNI",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "R3",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "5.1k_CC1",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "R4",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "5.1k_CC2",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "R5",
+      "status": "PASS"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=22R_D-; bom=| R6 | `22R_USB_D-_NEEDS_REVIEW` | USB D- series resistor | 22 ohm planning value | 0603 planning candidate | `Resistor_SMD:R_0603_1608Metric` | `SRC_ESP32_HW_GUIDE`, `SRC_INSTALLED_KICAD` | MEDIUM USB signal integrity | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "R6",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=22R_D+; bom=| R7 | `22R_USB_D+_NEEDS_REVIEW` | USB D+ series resistor | 22 ohm planning value | 0603 planning candidate | `Resistor_SMD:R_0603_1608Metric` | `SRC_ESP32_HW_GUIDE`, `SRC_INSTALLED_KICAD` | MEDIUM USB signal integrity | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "R7",
+      "status": "WARN"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "2.2k_PWR",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "R8",
+      "status": "PASS"
+    },
+    {
+      "code": "BOM_REFERENCE_ALIGNED",
+      "evidence": "2.2k_STATUS",
+      "message": "BOM lock reference exists in schematic.",
+      "reference": "R9",
+      "status": "PASS"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=RESET_EN_REVIEW; bom=| SW1 | `RESET_EN` | Reset/EN switch | Exact tactile switch MPN not selected | Package not selected | `Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA` as candidate only | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH mechanical/orientation/access | `BLOCKED_NO_EXACT_PART` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "SW1",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=BOOT_GPIO0_REVIEW; bom=| SW2 | `BOOT_GPIO0` | BOOT/GPIO0 switch | Exact tactile switch MPN not selected | Package not selected | `Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA` as candidate only | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH mechanical/orientation/access | `BLOCKED_NO_EXACT_PART` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "SW2",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_5V; bom=| TP1 | `+5V_PROTECTED` | 5 V protected test pad | 1.5 mm pad candidate | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM probe access | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP1",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_3V3; bom=| TP2 | `3V3` | 3.3 V test pad | 1.5 mm pad candidate | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM probe access | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP2",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_GND; bom=| TP3 | `GND` | GND test pad | 1.5 mm pad candidate | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM probe access | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP3",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_EN; bom=| TP4 | `EN` | EN test pad | 1.5 mm pad candidate | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM probe access | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP4",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_BOOT; bom=| TP5 | `BOOT_GPIO0` | BOOT/GPIO0 test pad | 1.5 mm pad candidate | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM probe access | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP5",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_U0TXD; bom=| TP6 | `U0TXD_GPIO43` | UART TX test pad | 1.5 mm pad candidate | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM probe access/EMI | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP6",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_U0RXD; bom=| TP7 | `U0RXD_GPIO44` | UART RX test pad | 1.5 mm pad candidate | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | MEDIUM probe access | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP7",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_D+_REV; bom=| TP8 | `USB_D+_OPTIONAL_STUB_REVIEW` | Optional USB D+ test pad | 1.5 mm pad candidate, may be removed if stub risk is unacceptable | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH USB stub/signal integrity | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP8",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=TP_D-_REV; bom=| TP9 | `USB_D-_OPTIONAL_STUB_REVIEW` | Optional USB D- test pad | 1.5 mm pad candidate, may be removed if stub risk is unacceptable | SMD test pad | `TestPoint:TestPoint_Pad_D1.5mm` | `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH USB stub/signal integrity | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "TP9",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=AP63203_NEEDS_REVIEW; bom=| U1 | `AP63203WU-7_3V3_2A_NEEDS_REVIEW` | 3.3 V buck regulator | Diodes `AP63203WU-7` | TSOT26 / WU package, drawing check required | `Package_TO_SOT_SMD:TSOT-23-6` | `SRC_AP63203`, `SRC_PROJECT_REQUIREMENTS`, `SRC_INSTALLED_KICAD` | HIGH regulator thermal/pinout/layout | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "U1",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=ESP32-S3-WROOM-1U_REVIEW; bom=| U2 | `ESP32-S3-WROOM-1U-N16R8` | ESP32-S3 module | Espressif `ESP32-S3-WROOM-1U-N16R8` primary | ESP32-S3-WROOM-1U module; -1U land-pattern equivalence requires review | `RF_Module:ESP32-S3-WROOM-1` | `SRC_ESP32_DATASHEET`, `SRC_ESP32_HW_GUIDE`, `SRC_INSTALLED_KICAD` | HIGH module/RF/mechanical | `CANDIDATE_NEEDS_HUMAN_REVIEW` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "U2",
+      "status": "WARN"
+    },
+    {
+      "code": "SCHEMATIC_VALUE_NOT_OBVIOUS_IN_BOM_LOCK",
+      "evidence": "value=USB_ESD_REV; bom=| U3 | `TPD2EUSB30_OR_EQ_NEEDS_REVIEW` | USB D+/D- ESD array | TI `TPD2EUSB30` class or equivalent; exact orderable/package not selected | Package not locked; SOT-23-6 candidate must be checked against selected suffix | `Package_TO_SOT_SMD:SOT-23-6` as candidate only | `SRC_TPD2EUSB30`, `SRC_INSTALLED_KICAD` | HIGH ESD pinout/orientation/routing | `BLOCKED_NO_EXACT_PART` |",
+      "message": "Schematic value is not an obvious substring of the BOM lock row; human review required.",
+      "reference": "U3",
+      "status": "WARN"
+    }
+  ],
+  "generated_at": "2026-05-06T17:15:16",
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 0,
+      "PASS": 18,
+      "WARN": 25
+    },
+    "result": "WARN"
+  }
+}

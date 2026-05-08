@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-05-08T13:04:23-04:00",
+  "project": "ESP32_CSI_WIFI_NODE",
+  "stale_reports_ignored": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\AUTO_PCB_START_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\CURRENT_EXISTING_TRACE_AUDIT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\CURRENT_PCB_PLACEMENT_REJECTION_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\LIVE_PCB_TRUTH_AUDIT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_FILE_CURRENT_STATE.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_DRC_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_PLACEMENT_REPAIR_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_LAYOUT_SANDBOX_GATE_STATUS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_CURRENT_STATE_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_ORIENTATION_REVIEW.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_PASS_1_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_SYNC_STATUS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_ROUTING_PLAN.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_UPDATE_FROM_SCHEMATIC_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\ROUTING_CURRENT_STATE_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\ROUTING_START_BLOCKERS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\SCHEMATIC_TO_PCB_GATE_STATUS.md"
+  ],
+  "trace_geometry_blockers": [],
+  "phase_results": {
+    "2": {
+      "phase": 2,
+      "name": "PCB Creation / Update From Schematic",
+      "result": "ALLOWED",
+      "phase_status": "ALREADY_DONE_BY_LIVE_FILE_EVIDENCE",
+      "next_required_phase": 3,
+      "blockers": [],
+      "evidence_decisions": [
+        {
+          "source": "LIVE_FILE_EVIDENCE",
+          "message": "Live PCB exists with 43 footprints."
+        }
+      ],
+      "warnings": [
+        "Live PCB existence proves Phase 2 already occurred even though upstream schematic gate remains FAIL."
+      ]
+    },
+    "3": {
+      "phase": 3,
+      "name": "Placement Planning",
+      "result": "ALLOWED",
+      "phase_status": "ALREADY_DONE_OR_SUPERSEDED_BY_LIVE_PLACEMENT",
+      "next_required_phase": 4,
+      "blockers": [],
+      "evidence_decisions": [
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "SCHEMATIC_TO_PCB_GATE_STATUS.md is older than the live schematic and cannot overrule live-state reconciliation."
+        },
+        {
+          "source": "LIVE_FILE_EVIDENCE",
+          "message": "Live PCB shows placed footprints inside outline bbox (43 / 43)."
+        }
+      ],
+      "warnings": [
+        "Placement planning is already superseded by live placement evidence on the current board."
+      ]
+    },
+    "8": {
+      "phase": 8,
+      "name": "Routing",
+      "result": "BLOCKED",
+      "phase_status": "PARTIAL_ROUTING_EXISTS_NEEDS_AUDIT",
+      "next_required_phase": 8,
+      "blockers": [
+        "Live DRC is FAIL with 0 violations and 17 unconnected items.",
+        "4 detectable unrouted nets remain."
+      ],
+      "evidence_decisions": [
+        {
+          "source": "LIVE_FILE_EVIDENCE",
+          "message": "Live PCB contains routing: tracks=74, vias=32."
+        },
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "REAL_PCB_UPDATE_FROM_SCHEMATIC report is stale and does not control routing gating."
+        },
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "SCHEMATIC_TO_PCB_GATE_STATUS.md is stale against the live schematic and is not used as a direct routing blocker."
+        },
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "PCB_LAYOUT_SANDBOX_GATE_STATUS.md is stale and cannot be used to claim NO_PCB or missing placement."
+        }
+      ],
+      "warnings": [
+        "Human review is required because historical schematic-gate evidence conflicts with the existence of a live PCB.",
+        "Human review is required before routing continuation because the live board exists despite stale or conflicting formal gate history."
+      ]
+    }
+  },
+  "next_action": "Live DRC is FAIL with 0 violations and 17 unconnected items."
+}

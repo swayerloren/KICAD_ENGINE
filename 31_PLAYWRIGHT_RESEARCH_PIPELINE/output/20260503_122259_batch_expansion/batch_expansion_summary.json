@@ -1,0 +1,65 @@
+﻿[
+    {
+        "Batch":  "001",
+        "Name":  "esp32",
+        "Target":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\research_targets\\batch_001_esp32_targets.csv",
+        "OutDir":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\output\\20260503_122259_batch_expansion\\batch_001_esp32",
+        "Records":  10,
+        "Live":  false,
+        "PDFs":  false
+    },
+    {
+        "Batch":  "002",
+        "Name":  "stm32",
+        "Target":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\research_targets\\batch_002_stm32_targets.csv",
+        "OutDir":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\output\\20260503_122259_batch_expansion\\batch_002_stm32",
+        "Records":  12,
+        "Live":  false,
+        "PDFs":  false
+    },
+    {
+        "Batch":  "003",
+        "Name":  "pic_avr",
+        "Target":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\research_targets\\batch_003_pic_avr_targets.csv",
+        "OutDir":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\output\\20260503_122259_batch_expansion\\batch_003_pic_avr",
+        "Records":  10,
+        "Live":  false,
+        "PDFs":  false
+    },
+    {
+        "Batch":  "004",
+        "Name":  "usb_c_connectors",
+        "Target":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\research_targets\\batch_004_usb_c_connectors_targets.csv",
+        "OutDir":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\output\\20260503_122259_batch_expansion\\batch_004_usb_c_connectors",
+        "Records":  7,
+        "Live":  false,
+        "PDFs":  false
+    },
+    {
+        "Batch":  "005",
+        "Name":  "can",
+        "Target":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\research_targets\\batch_005_can_targets.csv",
+        "OutDir":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\output\\20260503_122259_batch_expansion\\batch_005_can",
+        "Records":  7,
+        "Live":  false,
+        "PDFs":  false
+    },
+    {
+        "Batch":  "006",
+        "Name":  "power",
+        "Target":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\research_targets\\batch_006_power_targets.csv",
+        "OutDir":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\output\\20260503_122259_batch_expansion\\batch_006_power",
+        "Records":  15,
+        "Live":  false,
+        "PDFs":  false
+    },
+    {
+        "Batch":  "007",
+        "Name":  "rf_connectors",
+        "Target":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\research_targets\\batch_007_rf_connectors_targets.csv",
+        "OutDir":  "31_PLAYWRIGHT_RESEARCH_PIPELINE\\output\\20260503_122259_batch_expansion\\batch_007_rf_connectors",
+        "Records":  11,
+        "Live":  false,
+        "PDFs":  false
+    }
+]

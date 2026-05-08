@@ -1,0 +1,23 @@
+# Example Codex workspace-local configuration for KiCad Engine.
+# Copy to `.codex/config.toml` only if the local tool path exists.
+# Do not store API keys, passwords, tokens, or personal credentials here.
+
+[mcp_servers.kicad_mcp_pro_analysis]
+command = "<repo-root>\\03_TOOLS\\python_envs\\kicad-mcp-pro\\Scripts\\kicad-mcp-pro.exe"
+args = ["serve", "--transport", "stdio", "--profile", "analysis"]
+startup_timeout_sec = 20
+tool_timeout_sec = 120
+
+[mcp_servers.kicad_mcp_pro_analysis.env]
+KICAD_MCP_PROFILE = "analysis"
+KICAD_MCP_TRANSPORT = "stdio"
+KICAD_MCP_WORKSPACE_ROOT = "<repo-root>"
+KICAD_MCP_PROJECT_DIR = "<repo-root>\\04_KICAD_PROJECTS\\active"
+KICAD_MCP_OUTPUT_DIR = "<repo-root>\\05_OUTPUTS\\kicad-mcp-pro-analysis"
+KICAD_MCP_KICAD_CLI = "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe"
+KICAD_MCP_LOG_LEVEL = "INFO"
+KICAD_MCP_LOG_FORMAT = "console"
+KICAD_MCP_ENABLE_EXPERIMENTAL_TOOLS = "false"
+
+# Manual approval remains required before any write, destructive, or
+# manufacturing/export workflow is used on a real KiCad project.

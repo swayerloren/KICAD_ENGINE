@@ -1,0 +1,57 @@
+{
+  "fail": 1,
+  "pass": 5,
+  "records_checked": 6,
+  "rows": [
+    {
+      "confidence_level": "MATCHED_BY_GENERIC_FOOTPRINT",
+      "findings": [],
+      "high_risk": true,
+      "mpn": "AO3401A",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_ALPHA_AND_OMEGA_SEMICONDUCTOR_AO3401A",
+      "result": "PASS"
+    },
+    {
+      "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+      "findings": [],
+      "high_risk": true,
+      "mpn": "AP63203",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_DIODES_INCORPORATED_AP63203",
+      "result": "PASS"
+    },
+    {
+      "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+      "findings": [],
+      "high_risk": true,
+      "mpn": "ESP32-S3-WROOM-1",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_ESPRESSIF_ESP32_S3_WROOM_1",
+      "result": "PASS"
+    },
+    {
+      "confidence_level": "MATCHED_BY_GENERIC_FOOTPRINT",
+      "findings": [
+        "Connector/RF/USB-C match requires connector orientation verification before approval."
+      ],
+      "high_risk": true,
+      "mpn": "USB-C 16-pin receptacle generic",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_GENERIC_USB_C_16_PIN_RECEPTACLE_GENERIC",
+      "result": "FAIL"
+    },
+    {
+      "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+      "findings": [],
+      "high_risk": true,
+      "mpn": "STM32F103C8T6",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_STMICROELECTRONICS_STM32F103C8T6",
+      "result": "PASS"
+    },
+    {
+      "confidence_level": "UNVERIFIED",
+      "findings": [],
+      "high_risk": true,
+      "mpn": "TPD2EUSB30ADRTR",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_TEXAS_INSTRUMENTS_TPD2EUSB30ADRTR",
+      "result": "PASS"
+    }
+  ]
+}

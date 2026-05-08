@@ -1,0 +1,150 @@
+{
+  "blocks": [
+    {
+      "height": 0.24,
+      "name": "input_power",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "Input Power",
+      "units": "normalized",
+      "width": 0.22,
+      "x": 0.035,
+      "y": 0.08
+    },
+    {
+      "height": 0.1,
+      "name": "reverse_polarity",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "Reverse Polarity",
+      "units": "normalized",
+      "width": 0.1,
+      "x": 0.12,
+      "y": 0.105
+    },
+    {
+      "height": 0.09,
+      "name": "tvs_input_cap",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "TVS And Input Cap",
+      "units": "normalized",
+      "width": 0.1,
+      "x": 0.15,
+      "y": 0.16
+    },
+    {
+      "height": 0.16,
+      "name": "buck_regulator",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "Buck Regulator",
+      "units": "normalized",
+      "width": 0.21,
+      "x": 0.23,
+      "y": 0.085
+    },
+    {
+      "height": 0.26,
+      "name": "esp32_module",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "ESP32 Module",
+      "units": "normalized",
+      "width": 0.18,
+      "x": 0.29,
+      "y": 0.22
+    },
+    {
+      "height": 0.24,
+      "name": "usb_c_connector",
+      "notes": "Adjusted after human-readability relayout; still requires LJ visual review.",
+      "review_required": true,
+      "title": "USB-C Connector",
+      "units": "normalized",
+      "width": 0.19,
+      "x": 0.54,
+      "y": 0.09
+    },
+    {
+      "height": 0.12,
+      "name": "usb_esd",
+      "notes": "Adjusted after human-readability relayout; still requires LJ visual review.",
+      "review_required": true,
+      "title": "USB ESD",
+      "units": "normalized",
+      "width": 0.11,
+      "x": 0.63,
+      "y": 0.15
+    },
+    {
+      "height": 0.09,
+      "name": "cc_resistors",
+      "notes": "Adjusted after human-readability relayout; still requires LJ visual review.",
+      "review_required": true,
+      "title": "CC Resistors",
+      "units": "normalized",
+      "width": 0.08,
+      "x": 0.64,
+      "y": 0.21
+    },
+    {
+      "height": 0.15,
+      "name": "reset_boot",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "Reset And Boot",
+      "units": "normalized",
+      "width": 0.17,
+      "x": 0.035,
+      "y": 0.27
+    },
+    {
+      "height": 0.09,
+      "name": "leds",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "LEDs",
+      "units": "normalized",
+      "width": 0.17,
+      "x": 0.035,
+      "y": 0.43
+    },
+    {
+      "height": 0.13,
+      "name": "test_pads",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "Test Pads",
+      "units": "normalized",
+      "width": 0.24,
+      "x": 0.47,
+      "y": 0.36
+    },
+    {
+      "height": 0.1,
+      "name": "mounting_holes",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "Mounting Holes",
+      "units": "normalized",
+      "width": 0.3,
+      "x": 0.035,
+      "y": 0.52
+    },
+    {
+      "height": 0.13,
+      "name": "mechanical_notes",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "review_required": true,
+      "title": "Mechanical Notes",
+      "units": "normalized",
+      "width": 0.48,
+      "x": 0.035,
+      "y": 0.52
+    }
+  ],
+  "coordinate_system": "normalized",
+  "notes": "Project-tuned normalized blocks for ESP32_CSI_WIFI_NODE schematic review. Coordinates are review aids only and do not prove electrical correctness.",
+  "schema": "kicad_engine.schematic_visual_blocks.v1"
+}

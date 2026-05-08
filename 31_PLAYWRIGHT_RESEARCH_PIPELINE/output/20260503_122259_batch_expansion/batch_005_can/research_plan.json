@@ -1,0 +1,163 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:22:59.920Z",
+  "target_count": 7,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "Microchip",
+      "family": "CAN FD",
+      "part_number": "MCP2562FD",
+      "category": "communication",
+      "search_terms": "MCP2562FD official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.microchip.com/en-us/product/MCP2562FD",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_005_can_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "CAN",
+      "part_number": "MCP2562",
+      "category": "communication",
+      "search_terms": "MCP2562 official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.microchip.com/en-us/product/MCP2562",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_005_can_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Texas Instruments",
+      "family": "CAN",
+      "part_number": "SN65HVD230",
+      "category": "communication",
+      "search_terms": "SN65HVD230 official product page datasheet package KiCad footprint",
+      "preferred_sources": "ti;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.ti.com/product/SN65HVD230",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_005_can_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Texas Instruments",
+      "family": "CAN FD",
+      "part_number": "TCAN1042",
+      "category": "communication",
+      "search_terms": "TCAN1042 official product page datasheet package KiCad footprint",
+      "preferred_sources": "ti;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.ti.com/product/TCAN1042",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_005_can_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "NXP",
+      "family": "CAN",
+      "part_number": "TJA1051",
+      "category": "communication",
+      "search_terms": "TJA1051 official product page datasheet package KiCad footprint",
+      "preferred_sources": "nxp;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.nxp.com/products/interfaces/can-transceivers/can-transceiver:TJA1051",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_005_can_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "NXP",
+      "family": "CAN",
+      "part_number": "TJA1042",
+      "category": "communication",
+      "search_terms": "TJA1042 official product page datasheet package KiCad footprint",
+      "preferred_sources": "nxp;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.nxp.com/products/interfaces/can-transceivers/high-speed-can-transceiver:TJA1042",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_005_can_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "LIN",
+      "part_number": "MCP2003",
+      "category": "communication",
+      "search_terms": "MCP2003 LIN transceiver official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "low",
+      "source_url": "https://www.microchip.com/en-us/product/MCP2003",
+      "notes": "SOURCE_LINK_ONLY included as adjacent vehicle bus part; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_005_can_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

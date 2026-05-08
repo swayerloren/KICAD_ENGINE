@@ -1,0 +1,213 @@
+{
+  "antenna_keepout_risk_nets": [],
+  "autorouting_policy": "REVIEW_ONLY",
+  "critical_net_names": [
+    "+3V3",
+    "+VIN",
+    "BUCK_BST",
+    "BUCK_SW",
+    "FB"
+  ],
+  "errors": [],
+  "hard_fails": [],
+  "power_net_names": [
+    "+3V3",
+    "+VIN",
+    "BUCK_SW"
+  ],
+  "project": "regulator_power_fixture",
+  "rf_keepout_risk_nets": [],
+  "routing_order": [
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.25,
+      "critical": true,
+      "ground": false,
+      "max_vias": 1,
+      "must_avoid_keepouts": [],
+      "name": "+VIN",
+      "net_class": "VIN",
+      "notes": "",
+      "paired_with": "",
+      "power": true,
+      "preferred_layers": [
+        "F.Cu"
+      ],
+      "review_required": false,
+      "role": "POWER_INPUT",
+      "routing_priority": 100,
+      "routing_status": "ROUTED",
+      "stage_index": 0,
+      "stage_name": "POWER_INPUT_PROTECTION",
+      "trace_count": 1,
+      "trace_length_mm": 7.81,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.75
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.2,
+      "critical": true,
+      "ground": false,
+      "max_vias": 1,
+      "must_avoid_keepouts": [],
+      "name": "BUCK_SW",
+      "net_class": "VOUT",
+      "notes": "",
+      "paired_with": "",
+      "power": true,
+      "preferred_layers": [
+        "F.Cu"
+      ],
+      "review_required": true,
+      "role": "BUCK_SW",
+      "routing_priority": 90,
+      "routing_status": "ROUTED",
+      "stage_index": 1,
+      "stage_name": "REGULATOR_CRITICAL_LOOP",
+      "trace_count": 1,
+      "trace_length_mm": 5.0,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.5
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "critical": true,
+      "ground": false,
+      "max_vias": 2,
+      "must_avoid_keepouts": [],
+      "name": "BUCK_BST",
+      "net_class": "DEFAULT",
+      "notes": "",
+      "paired_with": "",
+      "power": false,
+      "preferred_layers": "F.Cu",
+      "review_required": true,
+      "role": "BUCK_BST",
+      "routing_priority": 88,
+      "routing_status": "ROUTED",
+      "stage_index": 1,
+      "stage_name": "REGULATOR_CRITICAL_LOOP",
+      "trace_count": 1,
+      "trace_length_mm": 1.414,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.2
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.2,
+      "critical": true,
+      "ground": false,
+      "max_vias": 1,
+      "must_avoid_keepouts": [],
+      "name": "+3V3",
+      "net_class": "VOUT",
+      "notes": "",
+      "paired_with": "",
+      "power": true,
+      "preferred_layers": [
+        "F.Cu"
+      ],
+      "review_required": false,
+      "role": "RAIL_3V3",
+      "routing_priority": 80,
+      "routing_status": "ROUTED",
+      "stage_index": 2,
+      "stage_name": "RAIL_3V3",
+      "trace_count": 1,
+      "trace_length_mm": 8.062,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.5
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "critical": true,
+      "ground": false,
+      "max_vias": 2,
+      "must_avoid_keepouts": [],
+      "name": "FB",
+      "net_class": "DEFAULT",
+      "notes": "",
+      "paired_with": "",
+      "power": false,
+      "preferred_layers": "F.Cu",
+      "review_required": false,
+      "role": "DECOUPLING",
+      "routing_priority": 50,
+      "routing_status": "ROUTED",
+      "stage_index": 6,
+      "stage_name": "DECOUPLING",
+      "trace_count": 1,
+      "trace_length_mm": 4.123,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.2
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "critical": false,
+      "ground": true,
+      "max_vias": 2,
+      "must_avoid_keepouts": [],
+      "name": "GND",
+      "net_class": "DEFAULT",
+      "notes": "",
+      "paired_with": "",
+      "power": false,
+      "preferred_layers": "F.Cu",
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "PLANNED",
+      "stage_index": 9,
+      "stage_name": "LOW_RISK_REMAINING",
+      "trace_count": 0,
+      "trace_length_mm": 0,
+      "usb": false,
+      "via_reason_required": false,
+      "vias_allowed": true,
+      "width_mm": 0.2
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "critical_net_count": 5,
+    "net_count": 6,
+    "power_net_count": 3,
+    "usb_net_count": 0
+  },
+  "tool": "generate_routing_plan",
+  "usb_net_names": [],
+  "warnings": []
+}

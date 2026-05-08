@@ -1,0 +1,486 @@
+{
+  "items": [
+    {
+      "ref": "J1",
+      "lib_id": "Connector:Barrel_Jack",
+      "value": "JACK_5V",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000004"
+    },
+    {
+      "ref": "#PWR0101",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000008"
+    },
+    {
+      "ref": "#FLG0101",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000212"
+    },
+    {
+      "ref": "F1",
+      "lib_id": "Device:Polyfuse",
+      "value": "PTC_1206",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000009"
+    },
+    {
+      "ref": "Q1",
+      "lib_id": "Device:Q_PMOS",
+      "value": "AO3401A_REV",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000012"
+    },
+    {
+      "ref": "#FLG0102",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000213"
+    },
+    {
+      "ref": "#PWR0102",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000016"
+    },
+    {
+      "ref": "D1",
+      "lib_id": "Device:D_TVS",
+      "value": "TVS_NEEDS_REVIEW",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000017"
+    },
+    {
+      "ref": "#PWR0103",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000019"
+    },
+    {
+      "ref": "C1",
+      "lib_id": "Device:C",
+      "value": "47uF_16V",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000020"
+    },
+    {
+      "ref": "#PWR0104",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000022"
+    },
+    {
+      "ref": "U1",
+      "lib_id": "Regulator_Switching:AP63203WU",
+      "value": "AP63203_NEEDS_REVIEW",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000025"
+    },
+    {
+      "ref": "#PWR0105",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000031"
+    },
+    {
+      "ref": "#PWR0106",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000037"
+    },
+    {
+      "ref": "#FLG0103",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000214"
+    },
+    {
+      "ref": "L1",
+      "lib_id": "Device:L",
+      "value": "3.9uH_REV",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000038"
+    },
+    {
+      "ref": "#PWR0107",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000040"
+    },
+    {
+      "ref": "C2",
+      "lib_id": "Device:C",
+      "value": "10uF_IN",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000041"
+    },
+    {
+      "ref": "#PWR0108",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000043"
+    },
+    {
+      "ref": "C3",
+      "lib_id": "Device:C",
+      "value": "22uF_OUT",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000044"
+    },
+    {
+      "ref": "#PWR0109",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000045"
+    },
+    {
+      "ref": "#PWR0110",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000046"
+    },
+    {
+      "ref": "C4",
+      "lib_id": "Device:C",
+      "value": "22uF_OUT",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000047"
+    },
+    {
+      "ref": "#PWR0111",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000048"
+    },
+    {
+      "ref": "#PWR0112",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000049"
+    },
+    {
+      "ref": "C5",
+      "lib_id": "Device:C",
+      "value": "100nF_CBST",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000050"
+    },
+    {
+      "ref": "U2",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1",
+      "value": "ESP32-S3-WROOM-1U",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000055"
+    },
+    {
+      "ref": "#PWR0113",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000057"
+    },
+    {
+      "ref": "#PWR0114",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000059"
+    },
+    {
+      "ref": "C6",
+      "lib_id": "Device:C",
+      "value": "10uF_MOD",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000074"
+    },
+    {
+      "ref": "#PWR0115",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000075"
+    },
+    {
+      "ref": "#PWR0116",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000076"
+    },
+    {
+      "ref": "C7",
+      "lib_id": "Device:C",
+      "value": "100nF_MOD",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000077"
+    },
+    {
+      "ref": "#PWR0117",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000078"
+    },
+    {
+      "ref": "#PWR0118",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000079"
+    },
+    {
+      "ref": "R1",
+      "lib_id": "Device:R",
+      "value": "10k_EN",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000111"
+    },
+    {
+      "ref": "#PWR0119",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000112"
+    },
+    {
+      "ref": "C8",
+      "lib_id": "Device:C",
+      "value": "1uF_EN",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000114"
+    },
+    {
+      "ref": "#PWR0120",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000116"
+    },
+    {
+      "ref": "SW1",
+      "lib_id": "Switch:SW_Push",
+      "value": "RESET_EN_REVIEW",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000117"
+    },
+    {
+      "ref": "#PWR0121",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000119"
+    },
+    {
+      "ref": "R2",
+      "lib_id": "Device:R",
+      "value": "10k_BOOT",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000120"
+    },
+    {
+      "ref": "#PWR0122",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000121"
+    },
+    {
+      "ref": "SW2",
+      "lib_id": "Switch:SW_Push",
+      "value": "BOOT_GPIO0_REVIEW",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000123"
+    },
+    {
+      "ref": "#PWR0123",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000125"
+    },
+    {
+      "ref": "J2",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_14P",
+      "value": "USB-C_NEEDS_REVIEW",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000128"
+    },
+    {
+      "ref": "#PWR0124",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000201"
+    },
+    {
+      "ref": "R3",
+      "lib_id": "Device:R",
+      "value": "0R_DNI",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000195"
+    },
+    {
+      "ref": "#PWR0125",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000197"
+    },
+    {
+      "ref": "R4",
+      "lib_id": "Device:R",
+      "value": "5.1k_CC1",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000141"
+    },
+    {
+      "ref": "#PWR0126",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000143"
+    },
+    {
+      "ref": "R5",
+      "lib_id": "Device:R",
+      "value": "5.1k_CC2",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000144"
+    },
+    {
+      "ref": "#PWR0127",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000146"
+    },
+    {
+      "ref": "U3",
+      "lib_id": "Power_Protection:TPD2EUSB30",
+      "value": "USB_ESD_REV",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000147"
+    },
+    {
+      "ref": "#PWR0128",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000150"
+    },
+    {
+      "ref": "R6",
+      "lib_id": "Device:R",
+      "value": "22R_D-",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000151"
+    },
+    {
+      "ref": "R7",
+      "lib_id": "Device:R",
+      "value": "22R_D+",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000154"
+    },
+    {
+      "ref": "R8",
+      "lib_id": "Device:R",
+      "value": "2.2k",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000158"
+    },
+    {
+      "ref": "#PWR0129",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000159"
+    },
+    {
+      "ref": "D2",
+      "lib_id": "Device:LED",
+      "value": "PWR_LED",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000160"
+    },
+    {
+      "ref": "#PWR0130",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000161"
+    },
+    {
+      "ref": "R9",
+      "lib_id": "Device:R",
+      "value": "2.2k",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000162"
+    },
+    {
+      "ref": "D3",
+      "lib_id": "Device:LED",
+      "value": "STATUS_LED",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000164"
+    },
+    {
+      "ref": "#PWR0131",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000165"
+    },
+    {
+      "ref": "TP1",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_5V",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000167"
+    },
+    {
+      "ref": "TP2",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000169"
+    },
+    {
+      "ref": "#PWR0132",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000170"
+    },
+    {
+      "ref": "TP3",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000171"
+    },
+    {
+      "ref": "#PWR0133",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000172"
+    },
+    {
+      "ref": "TP4",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_EN",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000173"
+    },
+    {
+      "ref": "TP5",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_BOOT",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000175"
+    },
+    {
+      "ref": "TP6",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_U0TXD",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000177"
+    },
+    {
+      "ref": "TP7",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_U0RXD",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000179"
+    },
+    {
+      "ref": "TP8",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_D+_REV",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000181"
+    },
+    {
+      "ref": "TP9",
+      "lib_id": "Connector:TestPoint",
+      "value": "TP_D-_REV",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000183"
+    },
+    {
+      "ref": "MH1",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000187"
+    },
+    {
+      "ref": "MH2",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000188"
+    },
+    {
+      "ref": "MH3",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000189"
+    },
+    {
+      "ref": "MH4",
+      "lib_id": "Mechanical:MountingHole",
+      "value": "M2.5_NPTH",
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000190"
+    }
+  ],
+  "summary": {
+    "placed": 79,
+    "physical": 43,
+    "pwr": 33,
+    "flg": 3,
+    "question": 0,
+    "duplicates": {}
+  }
+}

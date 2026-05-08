@@ -1,0 +1,21 @@
+{
+  "component_count": 43,
+  "net_count": 52,
+  "critical_nets": [
+    "/BUCK_BST",
+    "/BUCK_SW",
+    "+3V3",
+    "/+5V_FUSED",
+    "/+5V_IN",
+    "/+5V_PROTECTED",
+    "GND",
+    "/DM_C",
+    "/DM_E",
+    "/DP_C",
+    "/DP_E",
+    "/CC1",
+    "/CC2",
+    "/SHIELD"
+  ],
+  "schematic_ref_count": 43
+}

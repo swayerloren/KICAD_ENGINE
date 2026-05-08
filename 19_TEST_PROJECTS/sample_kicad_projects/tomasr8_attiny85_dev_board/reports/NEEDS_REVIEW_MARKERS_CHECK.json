@@ -1,0 +1,44 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "Conn_02x05_Odd_Even",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "J2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "AMS1117-3.3",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "U2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "USB_A",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "J1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REVIEW_MARKERS_REQUIRE_GATE_BLOCKER",
+      "evidence": "3",
+      "message": "Any unresolved review marker must block schematic-to-PCB gate until resolved or explicitly accepted by human review.",
+      "reference": "",
+      "status": "WARN"
+    }
+  ],
+  "generated_at": "2026-05-03T14:56:58",
+  "schematic": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 3,
+      "PASS": 0,
+      "WARN": 1
+    },
+    "result": "FAIL"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:22:59.616Z",
+  "target_count": 10,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "Microchip",
+      "family": "PIC16",
+      "part_number": "PIC16F877A",
+      "category": "microcontroller",
+      "search_terms": "PIC16F877A official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.microchip.com/en-us/product/PIC16F877A",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "PIC16",
+      "part_number": "PIC16F18346",
+      "category": "microcontroller",
+      "search_terms": "PIC16F18346 official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.microchip.com/en-us/product/PIC16F18346",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "PIC18",
+      "part_number": "PIC18F4550",
+      "category": "microcontroller",
+      "search_terms": "PIC18F4550 official product page datasheet USB package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.microchip.com/en-us/product/PIC18F4550",
+      "notes": "SOURCE_LINK_ONLY candidate; USB and package details remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "PIC18",
+      "part_number": "PIC18F25K80",
+      "category": "microcontroller",
+      "search_terms": "PIC18F25K80 official product page datasheet CAN package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.microchip.com/en-us/product/PIC18F25K80",
+      "notes": "SOURCE_LINK_ONLY candidate; CAN and package details remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "PIC24",
+      "part_number": "PIC24FJ64GA002",
+      "category": "microcontroller",
+      "search_terms": "PIC24FJ64GA002 official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.microchip.com/en-us/product/PIC24FJ64GA002",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "dsPIC33",
+      "part_number": "dsPIC33CK256MP506",
+      "category": "microcontroller",
+      "search_terms": "dsPIC33CK256MP506 official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.microchip.com/en-us/product/dsPIC33CK256MP506",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "AVR",
+      "part_number": "ATmega328P",
+      "category": "microcontroller",
+      "search_terms": "ATmega328P official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.microchip.com/en-us/product/ATmega328P",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "AVR",
+      "part_number": "ATtiny85",
+      "category": "microcontroller",
+      "search_terms": "ATtiny85 official product page datasheet package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.microchip.com/en-us/product/ATtiny85",
+      "notes": "SOURCE_LINK_ONLY candidate; exact package and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "AVR",
+      "part_number": "ATmega32U4",
+      "category": "microcontroller",
+      "search_terms": "ATmega32U4 official product page datasheet USB package KiCad footprint",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.microchip.com/en-us/product/ATmega32U4",
+      "notes": "SOURCE_LINK_ONLY candidate; USB and package details remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "Curiosity",
+      "part_number": "Curiosity Development Boards",
+      "category": "dev_board",
+      "search_terms": "Microchip Curiosity development boards official source schematic",
+      "preferred_sources": "microchip",
+      "required_outputs": "dev_board_record;schematic_link;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.microchip.com/en-us/tools-resources/evaluation-boards/curiosity-development-boards",
+      "notes": "SOURCE_LINK_ONLY family target; exact board revision must be selected.",
+      "target_file": "research_targets\\batch_003_pic_avr_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "dev_board_record",
+        "schematic_link",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

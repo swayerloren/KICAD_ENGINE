@@ -1,0 +1,24 @@
+# JLCPCB Pre-Upload Checklist
+
+Status: `ACTIVE_CHECKLIST`
+
+- [ ] KiCad DRC passes with schematic parity.
+- [ ] No unrouted nets remain or LJ-approved nonblocking exceptions are documented.
+- [ ] Gerbers exported.
+- [ ] Drill files exported.
+- [ ] Gerbers reviewed in external viewer.
+- [ ] `BOM_JLCPCB.csv` cleaned and validated.
+- [ ] `CPL_JLCPCB.csv` checked and validated.
+- [ ] Assembly notes created.
+- [ ] Barrel jack orientation verified.
+- [ ] USB-C orientation verified.
+- [ ] All connector orientations verified.
+- [ ] Pin 1 verified.
+- [ ] Diode/LED polarity verified.
+- [ ] Capacitor polarity verified.
+- [ ] Solder paste layers included.
+- [ ] Board outline included.
+- [ ] Mounting holes/slots included.
+- [ ] Package marked `NOT_FINAL`.
+- [ ] LJ approved upload.
+

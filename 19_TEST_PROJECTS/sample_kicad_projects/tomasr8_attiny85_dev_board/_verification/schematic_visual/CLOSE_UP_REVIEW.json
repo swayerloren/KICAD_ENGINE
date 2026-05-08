@@ -1,0 +1,241 @@
+{
+  "block_count": 13,
+  "blocks": [
+    {
+      "field_risks": [],
+      "name": "input_power",
+      "notes": "Review USB-A VBUS/GND input and shield policy. Shield remains ERC-blocked until accepted or connected.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\input_power.png",
+      "rect": {
+        "height": 37.801296,
+        "width": 47.520352,
+        "x": 115.830858,
+        "y": 63.00216
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\input_power.svg",
+      "title": "USB-A Power Input",
+      "unannotated_refs": [],
+      "visible_text_count": 19
+    },
+    {
+      "field_risks": [],
+      "name": "reverse_polarity",
+      "notes": "This sample has no explicit reverse-polarity circuit. Treat as not applicable for demo unless a human requires it.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\reverse_polarity.png",
+      "rect": {
+        "height": 33.601152,
+        "width": 53.460396,
+        "x": 115.830858,
+        "y": 84.00288
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\reverse_polarity.svg",
+      "title": "Input Protection Presence",
+      "unannotated_refs": [],
+      "visible_text_count": 18
+    },
+    {
+      "field_risks": [],
+      "name": "tvs_input_cap",
+      "notes": "Review D1/D2 zener clamp and USB data-line protection intent. Exact diode MPN is not verified.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\tvs_input_cap.png",
+      "rect": {
+        "height": 29.401008000000004,
+        "width": 38.610286,
+        "x": 136.621012,
+        "y": 81.90280800000001
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\tvs_input_cap.svg",
+      "title": "USB Zener Clamp Area",
+      "unannotated_refs": [],
+      "visible_text_count": 13
+    },
+    {
+      "field_risks": [],
+      "name": "buck_regulator",
+      "notes": "Review U2 AMS1117 schematic and note that package/source verification is blocked for human review.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\buck_regulator.png",
+      "rect": {
+        "height": 31.50108,
+        "width": 38.610286,
+        "x": 243.54180399999998,
+        "y": 46.201584000000004
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\buck_regulator.svg",
+      "title": "AMS1117 Regulator Area",
+      "unannotated_refs": [],
+      "visible_text_count": 8
+    },
+    {
+      "field_risks": [],
+      "name": "esp32_module",
+      "notes": "Review U1 ATtiny85 minimum wiring. Name retained for pipeline compatibility.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\esp32_module.png",
+      "rect": {
+        "height": 33.601152,
+        "width": 38.610286,
+        "x": 184.141364,
+        "y": 71.402448
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\esp32_module.svg",
+      "title": "ATtiny85 MCU Area",
+      "unannotated_refs": [],
+      "visible_text_count": 16
+    },
+    {
+      "field_risks": [],
+      "name": "usb_c_connector",
+      "notes": "Review J1 USB-A custom Molex footprint assignment and pin/shield handling. Name retained for pipeline compatibility.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\usb_c_connector.png",
+      "rect": {
+        "height": 39.901368000000005,
+        "width": 38.610286,
+        "x": 118.80088,
+        "y": 65.102232
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\usb_c_connector.svg",
+      "title": "USB-A Connector",
+      "unannotated_refs": [],
+      "visible_text_count": 19
+    },
+    {
+      "field_risks": [],
+      "name": "usb_esd",
+      "notes": "Review USB data protection topology. Exact protection diode datasheets are not verified.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\usb_esd.png",
+      "rect": {
+        "height": 29.401008000000004,
+        "width": 35.640264,
+        "x": 139.591034,
+        "y": 84.00288
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\usb_esd.svg",
+      "title": "USB Data Protection",
+      "unannotated_refs": [],
+      "visible_text_count": 11
+    },
+    {
+      "field_risks": [],
+      "name": "cc_resistors",
+      "notes": "Review R2/R3 USB data resistor area. Name retained for pipeline compatibility.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\cc_resistors.png",
+      "rect": {
+        "height": 29.401008000000004,
+        "width": 41.58030800000001,
+        "x": 145.531078,
+        "y": 63.00216
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\cc_resistors.svg",
+      "title": "USB Data Resistors",
+      "unannotated_refs": [],
+      "visible_text_count": 10
+    },
+    {
+      "field_risks": [],
+      "name": "reset_boot",
+      "notes": "Review J2 header pinout and reset/programming access. Connector pinout remains human-review-blocked.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\reset_boot.png",
+      "rect": {
+        "height": 33.601152,
+        "width": 38.610286,
+        "x": 219.781628,
+        "y": 67.202304
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\reset_boot.svg",
+      "title": "Programming Header And Reset",
+      "unannotated_refs": [],
+      "visible_text_count": 24
+    },
+    {
+      "field_risks": [],
+      "name": "leds",
+      "notes": "Review D3/D4 and R4/R5 LED areas.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\leds.png",
+      "rect": {
+        "height": 31.50108,
+        "width": 98.010726,
+        "x": 163.35121,
+        "y": 105.0036
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\leds.svg",
+      "title": "Status LEDs",
+      "unannotated_refs": [],
+      "visible_text_count": 8
+    },
+    {
+      "field_risks": [],
+      "name": "test_pads",
+      "notes": "The sample uses the programming header rather than discrete test pads.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\test_pads.png",
+      "rect": {
+        "height": 39.901368000000005,
+        "width": 44.55033,
+        "x": 216.811606,
+        "y": 65.102232
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\test_pads.svg",
+      "title": "Accessible Test And Programming Points",
+      "unannotated_refs": [],
+      "visible_text_count": 24
+    },
+    {
+      "field_risks": [],
+      "name": "mounting_holes",
+      "notes": "No explicit schematic mounting-hole symbols were detected. PCB visual review must confirm whether holes are intentionally absent.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\mounting_holes.png",
+      "rect": {
+        "height": 71.402448,
+        "width": 118.80088,
+        "x": 154.441144,
+        "y": 71.402448
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\mounting_holes.svg",
+      "title": "Mechanical Mounting Review",
+      "unannotated_refs": [],
+      "visible_text_count": 56
+    },
+    {
+      "field_risks": [],
+      "name": "mechanical_notes",
+      "notes": "Review title block/source context. This does not replace license/attribution records.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\mechanical_notes.png",
+      "rect": {
+        "height": 25.200864,
+        "width": 98.010726,
+        "x": 187.111386,
+        "y": 176.406048
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops\\mechanical_notes.svg",
+      "title": "Schematic Notes And Title Area",
+      "unannotated_refs": [],
+      "visible_text_count": 5
+    }
+  ],
+  "blocks_with_field_risks": 0,
+  "blocks_with_unannotated_refs": 0,
+  "config_created": false,
+  "config_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\visual_blocks.json",
+  "crop_count": 13,
+  "crops_dir": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\crops",
+  "full_png": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\full_page\\attiny85.png",
+  "generated_at": "2026-05-03T15:00:49",
+  "missing_default_blocks": [],
+  "png_count": 13,
+  "renderer_status": "browser renderer completed",
+  "review_output": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\reports\\CLOSE_UP_REVIEW.md",
+  "source_svg": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\_verification\\schematic_visual\\full_page\\attiny85.svg",
+  "status": "PASS",
+  "text_items_found": 116
+}

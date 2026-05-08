@@ -1,0 +1,23 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "BOM_LOCK_REQUIRED",
+      "evidence": "",
+      "message": "BOM lock path is required for alignment checking.",
+      "reference": "",
+      "status": "FAIL"
+    }
+  ],
+  "generated_at": "2026-05-03T14:56:58",
+  "schematic": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 1,
+      "PASS": 0,
+      "WARN": 0
+    },
+    "result": "FAIL"
+  }
+}

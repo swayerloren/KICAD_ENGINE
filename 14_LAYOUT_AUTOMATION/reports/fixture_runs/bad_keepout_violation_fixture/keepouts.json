@@ -1,0 +1,43 @@
+{
+  "hard_fails": [
+    "trace crosses antenna keepout"
+  ],
+  "project": "bad_keepout_violation_fixture",
+  "rf_or_antenna_violation_count": 2,
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "rf_or_antenna_violation_count": 2,
+    "violation_count": 2
+  },
+  "tool": "detect_trace_keepout_violations",
+  "violation_count": 2,
+  "violations": [
+    {
+      "keepout": "U1_ANTENNA",
+      "keepout_type": "ANTENNA_KEEPOUT",
+      "net": "USB_D+",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.25,
+        "x1": 25.0,
+        "x2": 32.0,
+        "y1": 22.0,
+        "y2": 8.0
+      }
+    },
+    {
+      "keepout": "U1_ANTENNA",
+      "keepout_type": "ANTENNA_KEEPOUT",
+      "net": "EN",
+      "segment": {
+        "layer": "F.Cu",
+        "width_mm": 0.2,
+        "x1": 24.0,
+        "x2": 28.0,
+        "y1": 10.0,
+        "y2": 10.0
+      }
+    }
+  ]
+}

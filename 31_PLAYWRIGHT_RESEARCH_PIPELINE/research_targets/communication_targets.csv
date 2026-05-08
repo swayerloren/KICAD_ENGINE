@@ -1,0 +1,3 @@
+vendor,family,part_number,category,search_terms,preferred_sources,required_outputs,priority,notes
+Microchip,CAN FD,MCP2562FD,communication,"MCP2562FD datasheet CAN FD transceiver package","microchip;digikey;mouser;kicad_official_libraries","datasheet_link;part_metadata;package_source;footprint_candidates",high,"CAN FD transceiver; package variants must be checked."
+Texas Instruments,CAN,SN65HVD230,communication,"SN65HVD230 datasheet CAN transceiver package","ti;digikey;mouser;kicad_official_libraries","datasheet_link;part_metadata;package_source;footprint_candidates",medium,"Verify package and supply voltage from official source."

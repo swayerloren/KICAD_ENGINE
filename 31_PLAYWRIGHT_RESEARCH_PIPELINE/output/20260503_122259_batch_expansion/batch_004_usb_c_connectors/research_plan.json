@@ -1,0 +1,163 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:22:59.766Z",
+  "target_count": 7,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "Generic",
+      "family": "USB-C",
+      "part_number": "USB-C 16-pin receptacle generic",
+      "category": "connector",
+      "search_terms": "USB-C 16-pin USB2-only receptacle exact manufacturer drawing KiCad footprint",
+      "preferred_sources": "kicad_official_libraries;manufacturer_official",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+      "notes": "Generic connector target; cannot be verified without exact manufacturer part number and drawing.",
+      "target_file": "research_targets\\batch_004_usb_c_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "USB-C",
+      "part_number": "USB-C 24-pin full-feature receptacle generic",
+      "category": "connector",
+      "search_terms": "USB-C 24-pin full-feature receptacle exact manufacturer drawing KiCad footprint",
+      "preferred_sources": "kicad_official_libraries;manufacturer_official",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+      "notes": "Generic connector target; cannot be verified without exact manufacturer part number and drawing.",
+      "target_file": "research_targets\\batch_004_usb_c_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Molex",
+      "family": "USB-C",
+      "part_number": "Molex USB-C receptacle candidate",
+      "category": "connector",
+      "search_terms": "Molex USB Type-C receptacle official product selector drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.molex.com/en-us/products/connectors/io-connectors/usb-connectors",
+      "notes": "SOURCE_LINK_ONLY portal target; exact MPN must be selected before footprint review.",
+      "target_file": "research_targets\\batch_004_usb_c_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "TE Connectivity",
+      "family": "USB-C",
+      "part_number": "TE USB-C receptacle candidate",
+      "category": "connector",
+      "search_terms": "TE Connectivity USB Type-C receptacle official product selector drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.te.com/usa-en/products/connectors/io-connectors/usb-connectors.html",
+      "notes": "SOURCE_LINK_ONLY portal target; exact MPN must be selected before footprint review.",
+      "target_file": "research_targets\\batch_004_usb_c_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Amphenol",
+      "family": "USB-C",
+      "part_number": "Amphenol USB-C receptacle candidate",
+      "category": "connector",
+      "search_terms": "Amphenol USB Type-C receptacle official product page drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.amphenol-cs.com/product-series/usb-type-c.html",
+      "notes": "SOURCE_LINK_ONLY portal target; exact MPN must be selected before footprint review.",
+      "target_file": "research_targets\\batch_004_usb_c_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "GCT",
+      "family": "USB-C",
+      "part_number": "GCT USB4105 candidate",
+      "category": "connector",
+      "search_terms": "GCT USB4105 official product page drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://gct.co/connector/usb4105",
+      "notes": "SOURCE_LINK_ONLY candidate; URL must be live-checked and exact drawing reviewed.",
+      "target_file": "research_targets\\batch_004_usb_c_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Wurth Elektronik",
+      "family": "USB-C",
+      "part_number": "Wurth USB-C receptacle candidate",
+      "category": "connector",
+      "search_terms": "Wurth Elektronik USB-C connector official product selector drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.we-online.com/en/components/products/em/connectors/usb",
+      "notes": "SOURCE_LINK_ONLY portal target; exact MPN must be selected before footprint review.",
+      "target_file": "research_targets\\batch_004_usb_c_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "candidate_type": "footprint",
+  "candidates": [],
+  "query": "STM32F103C8T6",
+  "verification_policy": "Do not assert correctness until verified against exact manufacturer package drawing."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "SOURCE_EVIDENCE_STUB",
+  "capture_mode": "DRY_RUN",
+  "part_number": "EXAMPLE",
+  "source_name": "dry_run_example",
+  "source_url": "https://example.com",
+  "retrieved_at": "2026-05-03T16:04:46.262Z",
+  "source_confidence": "UNKNOWN",
+  "verification_status": "UNVERIFIED",
+  "human_review_required": true,
+  "notes": "Created without live browsing. Fill after source-profile-compliant review."
+}

@@ -1,0 +1,199 @@
+{
+  "clusters": {
+    "POWER_INPUT_BUCK": [
+      "J1",
+      "F1",
+      "Q1",
+      "D3",
+      "C2",
+      "C5",
+      "U1",
+      "C6",
+      "L1",
+      "C7",
+      "C8"
+    ],
+    "USB": [
+      "J2",
+      "U3",
+      "R6",
+      "R7",
+      "R8",
+      "R9"
+    ],
+    "ESP32_MODULE_RF": [
+      "U2",
+      "C3",
+      "C4"
+    ],
+    "RESET_BOOT": [
+      "SW1",
+      "SW2",
+      "R1",
+      "R2",
+      "C1"
+    ],
+    "LED": [
+      "D1",
+      "D2",
+      "R3",
+      "R4"
+    ],
+    "TEST_PAD": [
+      "TP1",
+      "TP2",
+      "TP3",
+      "TP4",
+      "TP5",
+      "TP6",
+      "TP7",
+      "TP8",
+      "TP9"
+    ],
+    "MECHANICAL": [
+      "MH1",
+      "MH2",
+      "MH3",
+      "MH4"
+    ]
+  },
+  "must_be_near": {
+    "J1": [
+      "F1",
+      "Q1"
+    ],
+    "F1": [
+      "J1",
+      "Q1"
+    ],
+    "Q1": [
+      "F1",
+      "D3",
+      "C2",
+      "C5",
+      "U1"
+    ],
+    "D3": [
+      "Q1",
+      "C2",
+      "C5"
+    ],
+    "C2": [
+      "U1",
+      "Q1",
+      "D3"
+    ],
+    "C5": [
+      "U1",
+      "Q1",
+      "D3"
+    ],
+    "U1": [
+      "C2",
+      "C5",
+      "C6",
+      "L1",
+      "C7",
+      "C8"
+    ],
+    "C6": [
+      "U1"
+    ],
+    "L1": [
+      "U1",
+      "C7",
+      "C8"
+    ],
+    "C7": [
+      "L1",
+      "U1"
+    ],
+    "C8": [
+      "L1",
+      "U1"
+    ],
+    "J2": [
+      "U3",
+      "R6",
+      "R7"
+    ],
+    "U3": [
+      "J2",
+      "R8",
+      "R9"
+    ],
+    "R6": [
+      "J2"
+    ],
+    "R7": [
+      "J2"
+    ],
+    "R8": [
+      "U3",
+      "U2"
+    ],
+    "R9": [
+      "U3",
+      "U2"
+    ],
+    "U2": [
+      "C3",
+      "C4",
+      "R8",
+      "R9",
+      "SW1",
+      "SW2"
+    ],
+    "C3": [
+      "U2"
+    ],
+    "C4": [
+      "U2"
+    ],
+    "SW1": [
+      "U2",
+      "R2"
+    ],
+    "SW2": [
+      "U2",
+      "R1",
+      "C1"
+    ],
+    "R1": [
+      "U2",
+      "SW2"
+    ],
+    "R2": [
+      "U2",
+      "SW1"
+    ],
+    "C1": [
+      "U2",
+      "SW2"
+    ],
+    "D1": [
+      "R3"
+    ],
+    "D2": [
+      "R4"
+    ],
+    "R3": [
+      "D1"
+    ],
+    "R4": [
+      "D2"
+    ],
+    "R5": [
+      "J2",
+      "GND"
+    ]
+  },
+  "hard_blocks": [
+    "Current placement audit is BLOCKED_BY_MECHANICAL_OR_FOOTPRINT_RISK.",
+    "J1 barrel jack strategy unresolved.",
+    "U2 footprint/keepout width risk unresolved.",
+    "Four-hole compact mounting unresolved.",
+    "Test pads crowded near USB/support parts.",
+    "DRC has courtyard/clearance/silkscreen blockers."
+  ]
+}

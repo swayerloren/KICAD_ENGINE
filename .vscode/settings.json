@@ -1,0 +1,47 @@
+{
+  "editor.formatOnSave": false,
+  "editor.rulers": [
+    100
+  ],
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.associations": {
+    "*.kicad_pcb": "scheme",
+    "*.kicad_sch": "scheme",
+    "*.kicad_sym": "scheme",
+    "*.kicad_mod": "scheme",
+    "*.kicad_pro": "json",
+    "*.kicad_dru": "scheme"
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  "files.watcherExclude": {
+    "**/03_TOOLS/python_envs/**": true,
+    "**/03_TOOLS/node_envs/**": true,
+    "**/05_OUTPUTS/**": true,
+    "**/99_BACKUPS/**": true
+  },
+  "search.exclude": {
+    "**/03_TOOLS/python_envs/**": true,
+    "**/03_TOOLS/node_envs/**": true,
+    "**/05_OUTPUTS/**": true,
+    "**/99_BACKUPS/**": true,
+    "**/.git/**": true
+  },
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "python.defaultInterpreterPath": "python",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/03_TOOLS/scripts",
+    "${workspaceFolder}/03_TOOLS/scripts/datasheets",
+    "${workspaceFolder}/03_TOOLS/scripts/project_validation",
+    "${workspaceFolder}/03_TOOLS/scripts/kicad_libraries"
+  ],
+  "markdown.validate.enabled": true,
+  "yaml.validate": true,
+  "json.validate.enable": true,
+  "powershell.cwd": "${workspaceFolder}",
+  "powershell.scriptAnalysis.enable": true
+}

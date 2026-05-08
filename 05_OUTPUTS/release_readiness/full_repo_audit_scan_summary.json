@@ -1,0 +1,353 @@
+{
+  "generated_at": "2026-05-03T17:39:47.874315+00:00",
+  "root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "scanned_files_excluding_heavy_dirs": 7490,
+  "scanned_dirs_excluding_heavy_dirs": 1259,
+  "excluded_parts": [
+    ".git",
+    ".pytest_cache",
+    ".venv",
+    "03_TOOLS/node_envs",
+    "03_TOOLS/python_envs",
+    "03_TOOLS/repos",
+    "99_BACKUPS",
+    "__pycache__",
+    "env",
+    "installer/node_modules",
+    "installer/payload/repo-template",
+    "node_modules",
+    "venv"
+  ],
+  "path_check_errors": 0,
+  "script_files_scanned": 327,
+  "weak_rows_total": 1574,
+  "weak_rows_written": 1574,
+  "placeholder_rows_total": 3757,
+  "placeholder_rows_written": 3000,
+  "broken_reference_rows_total": 27880,
+  "broken_reference_rows_written": 3000,
+  "script_rows_written": 327,
+  "script_syntax_counts": {
+    "PENDING_POWERSHELL_AST_PARSE": 65,
+    "NOT_RUN_BASH_UNAVAILABLE": 37,
+    "PASS": 221,
+    "FAIL": 4
+  },
+  "secret_like_hit_count": 12,
+  "secret_like_hits_sample": [
+    {
+      "file": ".github/workflows/release-draft.yml",
+      "line": 99,
+      "snippet": "GH_TOKEN: <masked> github.token }}"
+    },
+    {
+      "file": "02_HISTORY/command_logs/KICAD_HAPPY_INSTALL_COMMANDS.md",
+      "line": 2307,
+      "snippet": "ANTHROPIC_API_KEY: <masked> secrets.ANTHROPIC_API_KEY }}"
+    },
+    {
+      "file": "02_HISTORY/command_logs/KICAD_MCP_PRO_INSTALL_COMMANDS.md",
+      "line": 1034,
+      "snippet": "03_TOOLS\\repos\\kicad-mcp-pro\\.env.example:<masked> KICAD_MCP_KICAD_TOKEN=<masked>"
+    },
+    {
+      "file": "02_HISTORY/command_logs/MCU_DATASHEET_TREE_UPGRADE_COMMANDS.md",
+      "line": 28,
+      "snippet": "| Final targeted secret-assignment scan | No `api_key=<masked>, `password=<masked>, `token=<masked>, or `secret=<masked> style matches found in touched areas. |"
+    },
+    {
+      "file": "02_HISTORY/command_logs/VISUAL_TOOLS_INSTALL_COMMANDS.md",
+      "line": 2705,
+      "snippet": "C:<masked>    def pcbdraw(self, token: <masked>, Any], state: <masked> -> str:"
+    },
+    {
+      "file": "02_HISTORY/design_reviews/PUBLIC_RELEASE_FINAL_AUDIT.md",
+      "line": 108,
+      "snippet": "No high-confidence secret was found in the clean generated payload. The source workspace has old command logs containing placeholder token strings from third-party docs, for exampl"
+    },
+    {
+      "file": "03_TOOLS/scripts/kicad_schematic_checks/schematic_check_common.py",
+      "line": 68,
+      "snippet": "def decode_atom(token: <masked> -> str:"
+    },
+    {
+      "file": "03_TOOLS/windows/repos/SikuliX1/.github/workflows/api-snapshot.yml",
+      "line": 23,
+      "snippet": "server-password: <masked>"
+    },
+    {
+      "file": "03_TOOLS/windows/repos/SikuliX1/.github/workflows/build.yml",
+      "line": 118,
+      "snippet": "GH_TOKEN: <masked> github.token }}"
+    },
+    {
+      "file": "03_TOOLS/windows/repos/SikuliX1/.github/workflows/ide-snapshot.yml",
+      "line": 25,
+      "snippet": "server-password: <masked>"
+    },
+    {
+      "file": "03_TOOLS/windows/repos/SikuliX1/IDE/src/main/resources/Lib/xlwt/antlr.py",
+      "line": 147,
+      "snippet": "self.token = <masked>"
+    },
+    {
+      "file": "03_TOOLS/windows/repos/SikuliX1/IDE/src/main/resources/Lib/xlwt/Worksheet.py",
+      "line": 196,
+      "snippet": "self.__password = <masked>"
+    }
+  ],
+  "missing_top_level_folders": [],
+  "project_probe_ESP32_CSI_WIFI_NODE": {
+    "exists": true,
+    "memory_files": 15,
+    "history_files": 137,
+    "reports_files": 28,
+    "gate_status_exists": true,
+    "footprint_audit_exists": true,
+    "electrical_audit_exists": true,
+    "kicad_design_files": [
+      "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_pro",
+      "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_sch"
+    ]
+  },
+  "subsystems": {
+    ".codex": {
+      "exists": true,
+      "file_count": 10,
+      "markdown_count": 8,
+      "has_readme": true,
+      "has_index": true
+    },
+    "00_CODEX_START": {
+      "exists": true,
+      "file_count": 62,
+      "markdown_count": 57,
+      "has_readme": true,
+      "has_index": true
+    },
+    "01_MEMORY": {
+      "exists": true,
+      "file_count": 23,
+      "markdown_count": 23,
+      "has_readme": true,
+      "has_index": true
+    },
+    "02_HISTORY": {
+      "exists": true,
+      "file_count": 487,
+      "markdown_count": 484,
+      "has_readme": true,
+      "has_index": true
+    },
+    "03_TOOLS": {
+      "exists": true,
+      "file_count": 1697,
+      "markdown_count": 105,
+      "has_readme": true,
+      "has_index": true
+    },
+    "04_KICAD_PROJECTS": {
+      "exists": true,
+      "file_count": 508,
+      "markdown_count": 253,
+      "has_readme": true,
+      "has_index": true
+    },
+    "05_OUTPUTS": {
+      "exists": true,
+      "file_count": 1864,
+      "markdown_count": 624,
+      "has_readme": true,
+      "has_index": true
+    },
+    "06_DATASHEETS": {
+      "exists": true,
+      "file_count": 1290,
+      "markdown_count": 1275,
+      "has_readme": true,
+      "has_index": true
+    },
+    "07_REFERENCE_DESIGNS": {
+      "exists": true,
+      "file_count": 2,
+      "markdown_count": 2,
+      "has_readme": true,
+      "has_index": true
+    },
+    "08_COMPONENT_DATABASE": {
+      "exists": true,
+      "file_count": 92,
+      "markdown_count": 78,
+      "has_readme": true,
+      "has_index": true
+    },
+    "09_ACCURACY_ENGINE": {
+      "exists": true,
+      "file_count": 53,
+      "markdown_count": 53,
+      "has_readme": true,
+      "has_index": true
+    },
+    "10_KNOWLEDGE_BASE": {
+      "exists": true,
+      "file_count": 53,
+      "markdown_count": 53,
+      "has_readme": true,
+      "has_index": true
+    },
+    "11_LIBRARY_FACTORY": {
+      "exists": true,
+      "file_count": 33,
+      "markdown_count": 27,
+      "has_readme": true,
+      "has_index": true
+    },
+    "12_REFERENCE_DESIGN_LIBRARY": {
+      "exists": true,
+      "file_count": 23,
+      "markdown_count": 23,
+      "has_readme": true,
+      "has_index": true
+    },
+    "13_PART_INGESTION": {
+      "exists": true,
+      "file_count": 20,
+      "markdown_count": 12,
+      "has_readme": true,
+      "has_index": true
+    },
+    "14_LAYOUT_AUTOMATION": {
+      "exists": true,
+      "file_count": 10,
+      "markdown_count": 10,
+      "has_readme": true,
+      "has_index": true
+    },
+    "15_BENCHMARKS": {
+      "exists": true,
+      "file_count": 18,
+      "markdown_count": 18,
+      "has_readme": true,
+      "has_index": true
+    },
+    "16_INSTALLER": {
+      "exists": true,
+      "file_count": 10,
+      "markdown_count": 10,
+      "has_readme": true,
+      "has_index": true
+    },
+    "17_RELEASE_BUILD": {
+      "exists": true,
+      "file_count": 8,
+      "markdown_count": 8,
+      "has_readme": true,
+      "has_index": true
+    },
+    "18_PUBLIC_DOCS": {
+      "exists": true,
+      "file_count": 11,
+      "markdown_count": 11,
+      "has_readme": true,
+      "has_index": true
+    },
+    "19_TEST_PROJECTS": {
+      "exists": true,
+      "file_count": 15,
+      "markdown_count": 15,
+      "has_readme": true,
+      "has_index": true
+    },
+    "20_CI_CD": {
+      "exists": true,
+      "file_count": 6,
+      "markdown_count": 6,
+      "has_readme": true,
+      "has_index": true
+    },
+    "21_LICENSE_ATTRIBUTION": {
+      "exists": true,
+      "file_count": 7,
+      "markdown_count": 7,
+      "has_readme": true,
+      "has_index": true
+    },
+    "22_SECURITY": {
+      "exists": true,
+      "file_count": 7,
+      "markdown_count": 7,
+      "has_readme": true,
+      "has_index": true
+    },
+    "23_PACKAGE_PROFILES": {
+      "exists": true,
+      "file_count": 16,
+      "markdown_count": 16,
+      "has_readme": true,
+      "has_index": true
+    },
+    "24_FAB_PROFILES": {
+      "exists": true,
+      "file_count": 13,
+      "markdown_count": 13,
+      "has_readme": true,
+      "has_index": true
+    },
+    "25_VENDOR_DATABASE": {
+      "exists": true,
+      "file_count": 22,
+      "markdown_count": 21,
+      "has_readme": true,
+      "has_index": true
+    },
+    "26_AGENT_QUALITY": {
+      "exists": true,
+      "file_count": 10,
+      "markdown_count": 10,
+      "has_readme": true,
+      "has_index": true
+    },
+    "27_EXAMPLES": {
+      "exists": true,
+      "file_count": 8,
+      "markdown_count": 8,
+      "has_readme": true,
+      "has_index": true
+    },
+    "28_SUPPLIER_INGESTION": {
+      "exists": true,
+      "file_count": 159,
+      "markdown_count": 99,
+      "has_readme": true,
+      "has_index": true
+    },
+    "29_FOOTPRINT_GAP_ANALYSIS": {
+      "exists": true,
+      "file_count": 29,
+      "markdown_count": 16,
+      "has_readme": true,
+      "has_index": true
+    },
+    "30_SUPPLIER_FOOTPRINT_MATCHES": {
+      "exists": true,
+      "file_count": 43,
+      "markdown_count": 25,
+      "has_readme": true,
+      "has_index": true
+    },
+    "31_PLAYWRIGHT_RESEARCH_PIPELINE": {
+      "exists": true,
+      "file_count": 116,
+      "markdown_count": 63,
+      "has_readme": true,
+      "has_index": true
+    },
+    "99_BACKUPS": {
+      "exists": true,
+      "file_count": 0,
+      "markdown_count": 0,
+      "has_readme": true,
+      "has_index": true
+    }
+  }
+}

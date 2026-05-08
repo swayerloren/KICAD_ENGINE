@@ -1,0 +1,6059 @@
+{
+  "schematic": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "symbols_total": 79,
+  "physical_symbols": 43,
+  "unannotated_instance_refs": [],
+  "stored_template_refs_ending_question_mark_count": 0,
+  "stored_template_refs_ending_question_mark_unique": [],
+  "duplicate_refs_all_symbols": [],
+  "duplicate_refs_physical_symbols": [],
+  "blank_footprint_count": 43,
+  "blank_footprints": [
+    {
+      "reference": "J1",
+      "value": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "lib_id": "Connector:Barrel_Jack"
+    },
+    {
+      "reference": "F1",
+      "value": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "lib_id": "Device:Polyfuse"
+    },
+    {
+      "reference": "Q1",
+      "value": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "lib_id": "Device:Q_PMOS"
+    },
+    {
+      "reference": "D1",
+      "value": "5V_TVS_NEEDS_REVIEW",
+      "lib_id": "Device:D_TVS"
+    },
+    {
+      "reference": "C1",
+      "value": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "U1",
+      "value": "AP63203WU-7_3V3_2A_NEEDS_REVIEW",
+      "lib_id": "Regulator_Switching:AP63203WU"
+    },
+    {
+      "reference": "L1",
+      "value": "3.9uH_NEEDS_REVIEW_MPN",
+      "lib_id": "Device:L"
+    },
+    {
+      "reference": "C2",
+      "value": "10uF_CIN",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C3",
+      "value": "22uF_COUT",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C4",
+      "value": "22uF_COUT",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C5",
+      "value": "100nF_CBST",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "U2",
+      "value": "ESP32-S3-WROOM-1U-N16R8",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1"
+    },
+    {
+      "reference": "C6",
+      "value": "10uF_MODULE_DECOUPLING",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C7",
+      "value": "100nF_MODULE_DECOUPLING",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "R1",
+      "value": "10k_EN_PULLUP",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "C8",
+      "value": "1uF_EN_DELAY",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "SW1",
+      "value": "RESET_EN",
+      "lib_id": "Switch:SW_Push"
+    },
+    {
+      "reference": "R2",
+      "value": "10k_BOOT_PULLUP",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "SW2",
+      "value": "BOOT_GPIO0",
+      "lib_id": "Switch:SW_Push"
+    },
+    {
+      "reference": "J2",
+      "value": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_14P"
+    },
+    {
+      "reference": "R3",
+      "value": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R4",
+      "value": "5.1k_CC1",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R5",
+      "value": "5.1k_CC2",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "U3",
+      "value": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "lib_id": "Power_Protection:TPD2EUSB30"
+    },
+    {
+      "reference": "R6",
+      "value": "22R_USB_D-_NEEDS_REVIEW",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R7",
+      "value": "22R_USB_D+_NEEDS_REVIEW",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R8",
+      "value": "2.2k_PWR_LED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "D2",
+      "value": "PWR_LED",
+      "lib_id": "Device:LED"
+    },
+    {
+      "reference": "R9",
+      "value": "2.2k_STATUS_LED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "D3",
+      "value": "STATUS_LED_SIMPLE",
+      "lib_id": "Device:LED"
+    },
+    {
+      "reference": "TP1",
+      "value": "+5V_PROTECTED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP2",
+      "value": "3V3",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP3",
+      "value": "GND",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP4",
+      "value": "EN",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP5",
+      "value": "BOOT_GPIO0",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP6",
+      "value": "U0TXD_GPIO43",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP7",
+      "value": "U0RXD_GPIO44",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP8",
+      "value": "USB_D+_OPTIONAL_STUB_REVIEW",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP9",
+      "value": "USB_D-_OPTIONAL_STUB_REVIEW",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "MH1",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole"
+    },
+    {
+      "reference": "MH2",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole"
+    },
+    {
+      "reference": "MH3",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole"
+    },
+    {
+      "reference": "MH4",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole"
+    }
+  ],
+  "visible_schematic_items_count": 188,
+  "visible_schematic_items": [
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "J1",
+      "ref": "J1",
+      "at": [
+        24.13,
+        35.56,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "ref": "J1",
+      "at": [
+        24.13,
+        49.53,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR01",
+      "at": [
+        36.83,
+        35.56,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "PWR_FLAG",
+      "ref": "#FLG01",
+      "at": [
+        36.83,
+        43.18,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "F1",
+      "ref": "F1",
+      "at": [
+        46.99,
+        39.37,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "ref": "F1",
+      "at": [
+        46.99,
+        49.53,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "Q1",
+      "ref": "Q1",
+      "at": [
+        68.58,
+        41.91,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "ref": "Q1",
+      "at": [
+        68.58,
+        46.99,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "PWR_FLAG",
+      "ref": "#FLG02",
+      "at": [
+        64.77,
+        53.34,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR03",
+      "at": [
+        54.61,
+        40.64,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "D1",
+      "ref": "D1",
+      "at": [
+        77.47,
+        53.34,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "5V_TVS_NEEDS_REVIEW",
+      "ref": "D1",
+      "at": [
+        77.47,
+        58.42,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR05",
+      "at": [
+        66.04,
+        52.07,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C1",
+      "ref": "C1",
+      "at": [
+        85.09,
+        53.34,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "ref": "C1",
+      "at": [
+        85.09,
+        58.42,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR07",
+      "at": [
+        83.82,
+        48.26,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "U1",
+      "ref": "U1",
+      "at": [
+        102.87,
+        39.37,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "AP63203WU-7_3V3_2A_NEEDS_REVIEW",
+      "ref": "U1",
+      "at": [
+        115.57,
+        39.37,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR10",
+      "at": [
+        110.49,
+        54.61,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR11",
+      "at": [
+        124.46,
+        53.34,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "PWR_FLAG",
+      "ref": "#FLG03",
+      "at": [
+        138.43,
+        53.34,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "L1",
+      "ref": "L1",
+      "at": [
+        134.62,
+        44.45,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "3.9uH_NEEDS_REVIEW_MPN",
+      "ref": "L1",
+      "at": [
+        134.62,
+        54.61,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR12",
+      "at": [
+        138.43,
+        53.34,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C2",
+      "ref": "C2",
+      "at": [
+        130.81,
+        54.61,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "10uF_CIN",
+      "ref": "C2",
+      "at": [
+        130.81,
+        60.96,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR14",
+      "at": [
+        129.54,
+        50.8,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C3",
+      "ref": "C3",
+      "at": [
+        143.51,
+        54.61,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "22uF_COUT",
+      "ref": "C3",
+      "at": [
+        143.51,
+        60.96,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR15",
+      "at": [
+        143.51,
+        64.77,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR16",
+      "at": [
+        143.51,
+        50.8,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C4",
+      "ref": "C4",
+      "at": [
+        154.94,
+        54.61,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "22uF_COUT",
+      "ref": "C4",
+      "at": [
+        154.94,
+        60.96,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR17",
+      "at": [
+        153.67,
+        64.77,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR18",
+      "at": [
+        153.67,
+        50.8,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C5",
+      "ref": "C5",
+      "at": [
+        133.35,
+        36.83,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "100nF_CBST",
+      "ref": "C5",
+      "at": [
+        133.35,
+        43.18,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "U2",
+      "ref": "U2",
+      "at": [
+        156.21,
+        68.58,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "ESP32-S3-WROOM-1U-N16R8",
+      "ref": "U2",
+      "at": [
+        156.21,
+        134.62,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR19",
+      "at": [
+        156.21,
+        74.93,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR20",
+      "at": [
+        156.21,
+        130.81,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C6",
+      "ref": "C6",
+      "at": [
+        127.0,
+        127.0,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "10uF_MODULE_DECOUPLING",
+      "ref": "C6",
+      "at": [
+        127.0,
+        133.35,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR21",
+      "at": [
+        125.73,
+        137.16,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR22",
+      "at": [
+        125.73,
+        121.92,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C7",
+      "ref": "C7",
+      "at": [
+        138.43,
+        127.0,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "100nF_MODULE_DECOUPLING",
+      "ref": "C7",
+      "at": [
+        138.43,
+        133.35,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR23",
+      "at": [
+        137.16,
+        137.16,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR24",
+      "at": [
+        137.16,
+        121.92,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R1",
+      "ref": "R1",
+      "at": [
+        36.83,
+        92.71,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "10k_EN_PULLUP",
+      "ref": "R1",
+      "at": [
+        35.56,
+        92.71,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR25",
+      "at": [
+        35.56,
+        100.33,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "C8",
+      "ref": "C8",
+      "at": [
+        49.53,
+        86.36,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "1uF_EN_DELAY",
+      "ref": "C8",
+      "at": [
+        49.53,
+        91.44,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR26",
+      "at": [
+        49.53,
+        81.28,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "SW1",
+      "ref": "SW1",
+      "at": [
+        66.04,
+        85.09,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "RESET_EN",
+      "ref": "SW1",
+      "at": [
+        64.77,
+        91.44,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR27",
+      "at": [
+        69.85,
+        85.09,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R2",
+      "ref": "R2",
+      "at": [
+        36.83,
+        111.76,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "10k_BOOT_PULLUP",
+      "ref": "R2",
+      "at": [
+        35.56,
+        111.76,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR28",
+      "at": [
+        35.56,
+        119.38,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "SW2",
+      "ref": "SW2",
+      "at": [
+        55.88,
+        104.14,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "BOOT_GPIO0",
+      "ref": "SW2",
+      "at": [
+        54.61,
+        110.49,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR29",
+      "at": [
+        59.69,
+        104.14,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "J2",
+      "ref": "J2",
+      "at": [
+        204.47,
+        35.56,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "ref": "J2",
+      "at": [
+        204.47,
+        83.82,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR30",
+      "at": [
+        204.47,
+        82.55,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R3",
+      "ref": "R3",
+      "at": [
+        190.5,
+        33.02,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "ref": "R3",
+      "at": [
+        190.5,
+        41.91,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR31",
+      "at": [
+        186.69,
+        33.02,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R4",
+      "ref": "R4",
+      "at": [
+        233.68,
+        69.85,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "5.1k_CC1",
+      "ref": "R4",
+      "at": [
+        232.41,
+        69.85,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR32",
+      "at": [
+        232.41,
+        62.23,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R5",
+      "ref": "R5",
+      "at": [
+        246.38,
+        69.85,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "5.1k_CC2",
+      "ref": "R5",
+      "at": [
+        243.84,
+        69.85,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR33",
+      "at": [
+        243.84,
+        62.23,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "U3",
+      "ref": "U3",
+      "at": [
+        237.49,
+        46.99,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "ref": "U3",
+      "at": [
+        237.49,
+        63.5,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR34",
+      "at": [
+        237.49,
+        64.77,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R6",
+      "ref": "R6",
+      "at": [
+        237.49,
+        77.47,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "22R_USB_D-_NEEDS_REVIEW",
+      "ref": "R6",
+      "at": [
+        237.49,
+        86.36,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R7",
+      "ref": "R7",
+      "at": [
+        237.49,
+        86.36,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "22R_USB_D+_NEEDS_REVIEW",
+      "ref": "R7",
+      "at": [
+        237.49,
+        93.98,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R8",
+      "ref": "R8",
+      "at": [
+        36.83,
+        138.43,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "2.2k_PWR_LED",
+      "ref": "R8",
+      "at": [
+        35.56,
+        138.43,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR35",
+      "at": [
+        35.56,
+        146.05,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "D2",
+      "ref": "D2",
+      "at": [
+        34.29,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "PWR_LED",
+      "ref": "D2",
+      "at": [
+        34.29,
+        138.43,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR36",
+      "at": [
+        27.94,
+        130.81,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "R9",
+      "ref": "R9",
+      "at": [
+        68.58,
+        138.43,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "2.2k_STATUS_LED",
+      "ref": "R9",
+      "at": [
+        66.04,
+        138.43,
+        90.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "D3",
+      "ref": "D3",
+      "at": [
+        64.77,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "STATUS_LED_SIMPLE",
+      "ref": "D3",
+      "at": [
+        64.77,
+        138.43,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR37",
+      "at": [
+        58.42,
+        130.81,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP1",
+      "ref": "TP1",
+      "at": [
+        204.47,
+        111.76,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+5V_PROTECTED",
+      "ref": "TP1",
+      "at": [
+        204.47,
+        114.3,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP2",
+      "ref": "TP2",
+      "at": [
+        219.71,
+        111.76,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "3V3",
+      "ref": "TP2",
+      "at": [
+        219.71,
+        114.3,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "+3V3",
+      "ref": "#PWR39",
+      "at": [
+        219.71,
+        121.92,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP3",
+      "ref": "TP3",
+      "at": [
+        234.95,
+        111.76,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "TP3",
+      "at": [
+        234.95,
+        114.3,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "GND",
+      "ref": "#PWR40",
+      "at": [
+        234.95,
+        114.3,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP4",
+      "ref": "TP4",
+      "at": [
+        204.47,
+        125.73,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "EN",
+      "ref": "TP4",
+      "at": [
+        204.47,
+        128.27,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP5",
+      "ref": "TP5",
+      "at": [
+        219.71,
+        125.73,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "BOOT_GPIO0",
+      "ref": "TP5",
+      "at": [
+        219.71,
+        128.27,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP6",
+      "ref": "TP6",
+      "at": [
+        234.95,
+        125.73,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "U0TXD_GPIO43",
+      "ref": "TP6",
+      "at": [
+        234.95,
+        128.27,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP7",
+      "ref": "TP7",
+      "at": [
+        250.19,
+        125.73,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "U0RXD_GPIO44",
+      "ref": "TP7",
+      "at": [
+        250.19,
+        128.27,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP8",
+      "ref": "TP8",
+      "at": [
+        265.43,
+        125.73,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "USB_D+_OPTIONAL_STUB_REVIEW",
+      "ref": "TP8",
+      "at": [
+        265.43,
+        128.27,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "TP9",
+      "ref": "TP9",
+      "at": [
+        279.4,
+        125.73,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "USB_D-_OPTIONAL_STUB_REVIEW",
+      "ref": "TP9",
+      "at": [
+        279.4,
+        128.27,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "MH1",
+      "ref": "MH1",
+      "at": [
+        27.94,
+        166.37,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "ref": "MH1",
+      "at": [
+        27.94,
+        176.53,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "MH2",
+      "ref": "MH2",
+      "at": [
+        58.42,
+        166.37,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "ref": "MH2",
+      "at": [
+        58.42,
+        176.53,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "MH3",
+      "ref": "MH3",
+      "at": [
+        87.63,
+        166.37,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "ref": "MH3",
+      "at": [
+        87.63,
+        176.53,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Reference",
+      "text": "MH4",
+      "ref": "MH4",
+      "at": [
+        118.11,
+        166.37,
+        0.0
+      ]
+    },
+    {
+      "type": "property",
+      "name": "Value",
+      "text": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "ref": "MH4",
+      "at": [
+        118.11,
+        176.53,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "PSRAM",
+      "ref": "",
+      "at": [
+        5.08,
+        2.54,
+        900.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "POWER INPUT - 5.5 mm x 2.1 mm center-positive barrel jack. External certified 5 VDC supply only. No 120 VAC on PCB.",
+      "ref": "",
+      "at": [
+        17.78,
+        26.67,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "J1 pinout/land-pattern, PTC derating, AO3401A-class PMOS pinmap/orientation, TVS MPN, and bulk capacitor MPN remain NEEDS_REVIEW before layout.",
+      "ref": "",
+      "at": [
+        17.78,
+        30.48,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_IN",
+      "ref": "",
+      "at": [
+        36.83,
+        44.45,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_IN",
+      "ref": "",
+      "at": [
+        43.18,
+        44.45,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_FUSED",
+      "ref": "",
+      "at": [
+        50.8,
+        44.45,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_FUSED",
+      "ref": "",
+      "at": [
+        64.77,
+        39.37,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_PROTECTED",
+      "ref": "",
+      "at": [
+        64.77,
+        49.53,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_PROTECTED",
+      "ref": "",
+      "at": [
+        81.28,
+        55.88,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_PROTECTED",
+      "ref": "",
+      "at": [
+        83.82,
+        59.69,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "3.3 V REGULATOR - AP63203WU-7 fixed 3.3 V buck, 2 A class. Planning values used: L=3.9uH, Cin=10uF, Cout=2x22uF, CBST=100nF.",
+      "ref": "",
+      "at": [
+        100.33,
+        26.67,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "Exact inductor saturation current/DCR, MLCC voltage derating, thermal copper, and JLC/LCSC availability remain NEEDS_REVIEW.",
+      "ref": "",
+      "at": [
+        100.33,
+        30.48,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_PROTECTED",
+      "ref": "",
+      "at": [
+        97.79,
+        49.53,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_PROTECTED",
+      "ref": "",
+      "at": [
+        97.79,
+        44.45,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "BUCK_BST",
+      "ref": "",
+      "at": [
+        124.46,
+        46.99,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "BUCK_SW",
+      "ref": "",
+      "at": [
+        124.46,
+        44.45,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "BUCK_SW",
+      "ref": "",
+      "at": [
+        130.81,
+        49.53,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_PROTECTED",
+      "ref": "",
+      "at": [
+        129.54,
+        62.23,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "BUCK_BST",
+      "ref": "",
+      "at": [
+        132.08,
+        43.18,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "BUCK_SW",
+      "ref": "",
+      "at": [
+        132.08,
+        35.56,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "ESP32-S3 MODULE - Preferred module ESP32-S3-WROOM-1U-N16R8. Symbol is KiCad ESP32-S3-WROOM-1; -1U module/land-pattern equivalence remains NEEDS_REVIEW.",
+      "ref": "",
+      "at": [
+        125.73,
+        72.39,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "Antenna: use WROOM-1U module U.FL/IPEX connector with U.FL/IPEX-to-SMA pigtail and enclosure 2.4 GHz antenna. Keepout/pigtail routing NEEDS_REVIEW.",
+      "ref": "",
+      "at": [
+        125.73,
+        76.2,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_EN",
+      "ref": "",
+      "at": [
+        135.89,
+        80.01,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_BOOT_GPIO0",
+      "ref": "",
+      "at": [
+        135.89,
+        85.09,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "STATUS_LED_GPIO_NEEDS_REVIEW",
+      "ref": "",
+      "at": [
+        135.89,
+        90.17,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "U0TXD_GPIO43",
+      "ref": "",
+      "at": [
+        176.53,
+        80.01,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "U0RXD_GPIO44",
+      "ref": "",
+      "at": [
+        176.53,
+        82.55,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DN_ESP",
+      "ref": "",
+      "at": [
+        176.53,
+        90.17,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DP_ESP",
+      "ref": "",
+      "at": [
+        176.53,
+        92.71,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "RESET/BOOT - Espressif-style EN: 10k pullup to 3V3, 1uF to GND, reset switch to GND. BOOT/GPIO0: 10k pullup, switch to GND.",
+      "ref": "",
+      "at": [
+        17.78,
+        82.55,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_EN",
+      "ref": "",
+      "at": [
+        35.56,
+        88.9,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_EN",
+      "ref": "",
+      "at": [
+        49.53,
+        92.71,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_EN",
+      "ref": "",
+      "at": [
+        59.69,
+        88.9,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_BOOT_GPIO0",
+      "ref": "",
+      "at": [
+        35.56,
+        107.95,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_BOOT_GPIO0",
+      "ref": "",
+      "at": [
+        49.53,
+        107.95,
+        180.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "USB-C PROGRAMMING/DEBUG - native ESP32-S3 USB. CC1/CC2 each 5.1k to GND. VBUS and shield policy are BLOCKED_NEEDS_REVIEW.",
+      "ref": "",
+      "at": [
+        198.12,
+        26.67,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "Rough draft leaves USB VBUS not tied to +5V_PROTECTED. Add a verified power/sense/backfeed policy before schematic freeze.",
+      "ref": "",
+      "at": [
+        198.12,
+        30.48,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_CC1",
+      "ref": "",
+      "at": [
+        224.79,
+        49.53,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_CC2",
+      "ref": "",
+      "at": [
+        224.79,
+        52.07,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DN_CONN",
+      "ref": "",
+      "at": [
+        224.79,
+        57.15,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DN_CONN",
+      "ref": "",
+      "at": [
+        224.79,
+        59.69,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DP_CONN",
+      "ref": "",
+      "at": [
+        224.79,
+        62.23,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DP_CONN",
+      "ref": "",
+      "at": [
+        224.79,
+        64.77,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_SHIELD",
+      "ref": "",
+      "at": [
+        191.77,
+        82.55,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_SHIELD",
+      "ref": "",
+      "at": [
+        194.31,
+        36.83,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_CC1",
+      "ref": "",
+      "at": [
+        232.41,
+        73.66,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_CC2",
+      "ref": "",
+      "at": [
+        243.84,
+        73.66,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DP_CONN",
+      "ref": "",
+      "at": [
+        222.25,
+        54.61,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DN_CONN",
+      "ref": "",
+      "at": [
+        252.73,
+        54.61,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DN_CONN",
+      "ref": "",
+      "at": [
+        233.68,
+        82.55,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DN_ESP",
+      "ref": "",
+      "at": [
+        241.3,
+        82.55,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DP_CONN",
+      "ref": "",
+      "at": [
+        233.68,
+        90.17,
+        180.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DP_ESP",
+      "ref": "",
+      "at": [
+        241.3,
+        90.17,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "LEDS - component report recommends simple GPIO LED over WS2812 for low cost/reliability. Status LED GPIO assignment remains NEEDS_REVIEW.",
+      "ref": "",
+      "at": [
+        17.78,
+        129.54,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "STATUS_LED_GPIO_NEEDS_REVIEW",
+      "ref": "",
+      "at": [
+        66.04,
+        142.24,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "TEST/DEBUG PADS - Keep USB test pads optional only if routing does not create long stubs. UART0 TX/RX included for fallback debug.",
+      "ref": "",
+      "at": [
+        198.12,
+        107.95,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "+5V_PROTECTED",
+      "ref": "",
+      "at": [
+        204.47,
+        118.11,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_EN",
+      "ref": "",
+      "at": [
+        204.47,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "ESP_BOOT_GPIO0",
+      "ref": "",
+      "at": [
+        219.71,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "U0TXD_GPIO43",
+      "ref": "",
+      "at": [
+        234.95,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "U0RXD_GPIO44",
+      "ref": "",
+      "at": [
+        250.19,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DP_ESP",
+      "ref": "",
+      "at": [
+        265.43,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "label",
+      "name": "label",
+      "text": "USB_DN_ESP",
+      "ref": "",
+      "at": [
+        279.4,
+        132.08,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "MECHANICAL - Compact rectangular board, four M2.5 planning holes, barrel jack and USB-C at enclosure wall, antenna pigtail/SMA clearance reserved.",
+      "ref": "",
+      "at": [
+        17.78,
+        157.48,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "Mount hole drill, board outline, connector overhang, standoff keepouts, and SMA/pigtail route are enclosure-driven and remain NEEDS_REVIEW.",
+      "ref": "",
+      "at": [
+        17.78,
+        162.56,
+        0.0
+      ]
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "text": "NEEDS_REVIEW before schematic freeze: exact MPNs/land-patterns, AO3401A pinmap/package orientation, USB VBUS/backfeed policy, USB shield EMC network, final LED GPIO, antenna/enclosure mechanics, and deeper component/value review.",
+      "ref": "",
+      "at": [
+        17.78,
+        186.69,
+        0.0
+      ]
+    }
+  ],
+  "svg_text_count": 573,
+  "svg_field_risk_count": 0,
+  "svg_field_risks": [],
+  "svg_overlap_candidate_count": 356,
+  "svg_overlap_candidates": [
+    {
+      "a": "GND",
+      "b": "LEDS - component report recommends simple GPIO LED over WS2812 for low cost/reliability. Status LED GPIO assignment remains NEEDS_REVIEW.",
+      "a_xy": [
+        58.42,
+        131.44
+      ],
+      "b_xy": [
+        17.78,
+        129.93
+      ],
+      "overlap_area": 1.19
+    },
+    {
+      "a": "R9",
+      "b": "2.2k_STATUS_LED",
+      "a_xy": [
+        68.58,
+        139.06
+      ],
+      "b_xy": [
+        66.04,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R9",
+      "b": "STATUS_LED_SIMPLE",
+      "a_xy": [
+        68.58,
+        139.06
+      ],
+      "b_xy": [
+        64.77,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R9",
+      "b": "2.2k_STATUS_LED",
+      "a_xy": [
+        68.58,
+        139.06
+      ],
+      "b_xy": [
+        66.04,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R9",
+      "b": "STATUS_LED_SIMPLE",
+      "a_xy": [
+        68.58,
+        139.06
+      ],
+      "b_xy": [
+        64.77,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "2.2k_STATUS_LED",
+      "b": "STATUS_LED_SIMPLE",
+      "a_xy": [
+        66.04,
+        139.06
+      ],
+      "b_xy": [
+        64.77,
+        139.06
+      ],
+      "overlap_area": 27.2
+    },
+    {
+      "a": "2.2k_STATUS_LED",
+      "b": "R9",
+      "a_xy": [
+        66.04,
+        139.06
+      ],
+      "b_xy": [
+        68.58,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "2.2k_STATUS_LED",
+      "b": "STATUS_LED_SIMPLE",
+      "a_xy": [
+        66.04,
+        139.06
+      ],
+      "b_xy": [
+        64.77,
+        139.06
+      ],
+      "overlap_area": 27.2
+    },
+    {
+      "a": "D+",
+      "b": "USB_DP_CONN",
+      "a_xy": [
+        229.87,
+        54.36
+      ],
+      "b_xy": [
+        222.25,
+        54.9
+      ],
+      "overlap_area": 2.62
+    },
+    {
+      "a": "1",
+      "b": "USB_DN_CONN",
+      "a_xy": [
+        229.87,
+        56.13
+      ],
+      "b_xy": [
+        224.79,
+        57.44
+      ],
+      "overlap_area": 0.6
+    },
+    {
+      "a": "1",
+      "b": "USB_DP_CONN",
+      "a_xy": [
+        229.87,
+        56.13
+      ],
+      "b_xy": [
+        222.25,
+        54.9
+      ],
+      "overlap_area": 0.66
+    },
+    {
+      "a": "GND",
+      "b": "3",
+      "a_xy": [
+        237.24,
+        62.23
+      ],
+      "b_xy": [
+        237.74,
+        63.5
+      ],
+      "overlap_area": 0.63
+    },
+    {
+      "a": "GND",
+      "b": "3",
+      "a_xy": [
+        237.24,
+        62.23
+      ],
+      "b_xy": [
+        237.74,
+        63.5
+      ],
+      "overlap_area": 0.63
+    },
+    {
+      "a": "3",
+      "b": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "a_xy": [
+        237.74,
+        63.5
+      ],
+      "b_xy": [
+        237.49,
+        64.14
+      ],
+      "overlap_area": 1.22
+    },
+    {
+      "a": "3",
+      "b": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "a_xy": [
+        237.74,
+        63.5
+      ],
+      "b_xy": [
+        237.49,
+        64.14
+      ],
+      "overlap_area": 1.22
+    },
+    {
+      "a": "3",
+      "b": "GND",
+      "a_xy": [
+        237.74,
+        63.5
+      ],
+      "b_xy": [
+        237.24,
+        62.23
+      ],
+      "overlap_area": 0.63
+    },
+    {
+      "a": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "b": "GND",
+      "a_xy": [
+        237.49,
+        64.14
+      ],
+      "b_xy": [
+        237.49,
+        65.41
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "b": "GND",
+      "a_xy": [
+        237.49,
+        64.14
+      ],
+      "b_xy": [
+        243.84,
+        62.87
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "b": "3",
+      "a_xy": [
+        237.49,
+        64.14
+      ],
+      "b_xy": [
+        237.74,
+        63.5
+      ],
+      "overlap_area": 1.22
+    },
+    {
+      "a": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "b": "GND",
+      "a_xy": [
+        237.49,
+        64.14
+      ],
+      "b_xy": [
+        237.49,
+        65.41
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "b": "GND",
+      "a_xy": [
+        237.49,
+        64.14
+      ],
+      "b_xy": [
+        243.84,
+        62.87
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "R7",
+      "b": "22R_USB_D-_NEEDS_REVIEW",
+      "a_xy": [
+        237.49,
+        86.99
+      ],
+      "b_xy": [
+        237.49,
+        86.99
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R7",
+      "b": "22R_USB_D-_NEEDS_REVIEW",
+      "a_xy": [
+        237.49,
+        86.99
+      ],
+      "b_xy": [
+        237.49,
+        86.99
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R5",
+      "b": "5.1k_CC2",
+      "a_xy": [
+        246.38,
+        70.48
+      ],
+      "b_xy": [
+        243.84,
+        70.48
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R5",
+      "b": "5.1k_CC2",
+      "a_xy": [
+        246.38,
+        70.48
+      ],
+      "b_xy": [
+        243.84,
+        70.48
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "5.1k_CC2",
+      "b": "R5",
+      "a_xy": [
+        243.84,
+        70.48
+      ],
+      "b_xy": [
+        246.38,
+        70.48
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R6",
+      "b": "Antenna: use WROOM-1U module U.FL/IPEX connector with U.FL/IPEX-to-SMA pigtail and enclosure 2.4 GHz antenna. Keepout/pigtail routing NEEDS_REVIEW.",
+      "a_xy": [
+        237.49,
+        78.1
+      ],
+      "b_xy": [
+        125.73,
+        76.58
+      ],
+      "overlap_area": 0.8
+    },
+    {
+      "a": "22R_USB_D-_NEEDS_REVIEW",
+      "b": "R7",
+      "a_xy": [
+        237.49,
+        86.99
+      ],
+      "b_xy": [
+        237.49,
+        86.99
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R8",
+      "b": "2.2k_PWR_LED",
+      "a_xy": [
+        36.83,
+        139.06
+      ],
+      "b_xy": [
+        35.56,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R8",
+      "b": "PWR_LED",
+      "a_xy": [
+        36.83,
+        139.06
+      ],
+      "b_xy": [
+        34.29,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R8",
+      "b": "2.2k_PWR_LED",
+      "a_xy": [
+        36.83,
+        139.06
+      ],
+      "b_xy": [
+        35.56,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R8",
+      "b": "PWR_LED",
+      "a_xy": [
+        36.83,
+        139.06
+      ],
+      "b_xy": [
+        34.29,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "2.2k_PWR_LED",
+      "b": "PWR_LED",
+      "a_xy": [
+        35.56,
+        139.06
+      ],
+      "b_xy": [
+        34.29,
+        139.06
+      ],
+      "overlap_area": 10.22
+    },
+    {
+      "a": "2.2k_PWR_LED",
+      "b": "R8",
+      "a_xy": [
+        35.56,
+        139.06
+      ],
+      "b_xy": [
+        36.83,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "2.2k_PWR_LED",
+      "b": "PWR_LED",
+      "a_xy": [
+        35.56,
+        139.06
+      ],
+      "b_xy": [
+        34.29,
+        139.06
+      ],
+      "overlap_area": 10.22
+    },
+    {
+      "a": "GND",
+      "b": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "a_xy": [
+        204.47,
+        83.19
+      ],
+      "b_xy": [
+        204.47,
+        84.45
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "GND",
+      "b": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "a_xy": [
+        204.47,
+        83.19
+      ],
+      "b_xy": [
+        204.47,
+        84.45
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "GND",
+      "b": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "a_xy": [
+        237.49,
+        65.41
+      ],
+      "b_xy": [
+        237.49,
+        64.14
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "R4",
+      "b": "5.1k_CC1",
+      "a_xy": [
+        233.68,
+        70.48
+      ],
+      "b_xy": [
+        232.41,
+        70.48
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R4",
+      "b": "5.1k_CC1",
+      "a_xy": [
+        233.68,
+        70.48
+      ],
+      "b_xy": [
+        232.41,
+        70.48
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "5.1k_CC1",
+      "b": "R4",
+      "a_xy": [
+        232.41,
+        70.48
+      ],
+      "b_xy": [
+        233.68,
+        70.48
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "GND",
+      "b": "USB_DP_CONN",
+      "a_xy": [
+        232.41,
+        62.87
+      ],
+      "b_xy": [
+        224.79,
+        62.52
+      ],
+      "overlap_area": 4.19
+    },
+    {
+      "a": "10uF_CIN",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        130.81,
+        61.59
+      ],
+      "b_xy": [
+        129.54,
+        62.52
+      ],
+      "overlap_area": 7.65
+    },
+    {
+      "a": "PWR_LED",
+      "b": "R8",
+      "a_xy": [
+        34.29,
+        139.06
+      ],
+      "b_xy": [
+        36.83,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "PWR_LED",
+      "b": "2.2k_PWR_LED",
+      "a_xy": [
+        34.29,
+        139.06
+      ],
+      "b_xy": [
+        35.56,
+        139.06
+      ],
+      "overlap_area": 10.22
+    },
+    {
+      "a": "GND",
+      "b": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "a_xy": [
+        243.84,
+        62.87
+      ],
+      "b_xy": [
+        237.49,
+        64.14
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "R2",
+      "b": "10k_BOOT_PULLUP",
+      "a_xy": [
+        36.83,
+        112.39
+      ],
+      "b_xy": [
+        35.56,
+        112.39
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R2",
+      "b": "10k_BOOT_PULLUP",
+      "a_xy": [
+        36.83,
+        112.39
+      ],
+      "b_xy": [
+        35.56,
+        112.39
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "10k_BOOT_PULLUP",
+      "b": "R2",
+      "a_xy": [
+        35.56,
+        112.39
+      ],
+      "b_xy": [
+        36.83,
+        112.39
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "b": "A4",
+      "a_xy": [
+        190.5,
+        42.54
+      ],
+      "b_xy": [
+        217.17,
+        44.2
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "b": "A4",
+      "a_xy": [
+        190.5,
+        42.54
+      ],
+      "b_xy": [
+        217.17,
+        44.2
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "100nF_MODULE_DECOUPLING",
+      "b": "10uF_MODULE_DECOUPLING",
+      "a_xy": [
+        138.43,
+        133.99
+      ],
+      "b_xy": [
+        127.0,
+        133.99
+      ],
+      "overlap_area": 17.64
+    },
+    {
+      "a": "100nF_MODULE_DECOUPLING",
+      "b": "10uF_MODULE_DECOUPLING",
+      "a_xy": [
+        138.43,
+        133.99
+      ],
+      "b_xy": [
+        127.0,
+        133.99
+      ],
+      "overlap_area": 17.64
+    },
+    {
+      "a": "USB_D+_OPTIONAL_STUB_REVIEW",
+      "b": "USB_D-_OPTIONAL_STUB_REVIEW",
+      "a_xy": [
+        265.43,
+        128.91
+      ],
+      "b_xy": [
+        279.4,
+        128.91
+      ],
+      "overlap_area": 21.76
+    },
+    {
+      "a": "USB_D+_OPTIONAL_STUB_REVIEW",
+      "b": "USB_D-_OPTIONAL_STUB_REVIEW",
+      "a_xy": [
+        265.43,
+        128.91
+      ],
+      "b_xy": [
+        279.4,
+        128.91
+      ],
+      "overlap_area": 21.76
+    },
+    {
+      "a": "10uF_MODULE_DECOUPLING",
+      "b": "100nF_MODULE_DECOUPLING",
+      "a_xy": [
+        127.0,
+        133.99
+      ],
+      "b_xy": [
+        138.43,
+        133.99
+      ],
+      "overlap_area": 17.64
+    },
+    {
+      "a": "USB_D-_OPTIONAL_STUB_REVIEW",
+      "b": "USB_D+_OPTIONAL_STUB_REVIEW",
+      "a_xy": [
+        279.4,
+        128.91
+      ],
+      "b_xy": [
+        265.43,
+        128.91
+      ],
+      "overlap_area": 21.76
+    },
+    {
+      "a": "STATUS_LED_SIMPLE",
+      "b": "R9",
+      "a_xy": [
+        64.77,
+        139.06
+      ],
+      "b_xy": [
+        68.58,
+        139.06
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "STATUS_LED_SIMPLE",
+      "b": "2.2k_STATUS_LED",
+      "a_xy": [
+        64.77,
+        139.06
+      ],
+      "b_xy": [
+        66.04,
+        139.06
+      ],
+      "overlap_area": 27.2
+    },
+    {
+      "a": "IO0",
+      "b": "ESP_BOOT_GPIO0",
+      "a_xy": [
+        144.02,
+        85.72
+      ],
+      "b_xy": [
+        135.89,
+        85.38
+      ],
+      "overlap_area": 4.46
+    },
+    {
+      "a": "27",
+      "b": "ESP_BOOT_GPIO0",
+      "a_xy": [
+        142.24,
+        84.84
+      ],
+      "b_xy": [
+        135.89,
+        85.38
+      ],
+      "overlap_area": 2.62
+    },
+    {
+      "a": "IO2",
+      "b": "STATUS_LED_GPIO_NEEDS_REVIEW",
+      "a_xy": [
+        144.02,
+        90.81
+      ],
+      "b_xy": [
+        135.89,
+        90.46
+      ],
+      "overlap_area": 4.46
+    },
+    {
+      "a": "38",
+      "b": "STATUS_LED_GPIO_NEEDS_REVIEW",
+      "a_xy": [
+        142.24,
+        89.92
+      ],
+      "b_xy": [
+        135.89,
+        90.46
+      ],
+      "overlap_area": 2.62
+    },
+    {
+      "a": "2",
+      "b": "+3V3",
+      "a_xy": [
+        155.96,
+        76.2
+      ],
+      "b_xy": [
+        156.21,
+        75.56
+      ],
+      "overlap_area": 0.89
+    },
+    {
+      "a": "2",
+      "b": "Antenna: use WROOM-1U module U.FL/IPEX connector with U.FL/IPEX-to-SMA pigtail and enclosure 2.4 GHz antenna. Keepout/pigtail routing NEEDS_REVIEW.",
+      "a_xy": [
+        155.96,
+        76.2
+      ],
+      "b_xy": [
+        125.73,
+        76.58
+      ],
+      "overlap_area": 1.45
+    },
+    {
+      "a": "2",
+      "b": "+3V3",
+      "a_xy": [
+        155.96,
+        76.2
+      ],
+      "b_xy": [
+        156.21,
+        75.56
+      ],
+      "overlap_area": 0.89
+    },
+    {
+      "a": "GND",
+      "b": "1",
+      "a_xy": [
+        156.21,
+        128.4
+      ],
+      "b_xy": [
+        155.96,
+        129.54
+      ],
+      "overlap_area": 0.54
+    },
+    {
+      "a": "GND",
+      "b": "1",
+      "a_xy": [
+        156.21,
+        128.4
+      ],
+      "b_xy": [
+        155.96,
+        129.54
+      ],
+      "overlap_area": 0.54
+    },
+    {
+      "a": "1",
+      "b": "GND",
+      "a_xy": [
+        155.96,
+        129.54
+      ],
+      "b_xy": [
+        156.21,
+        128.4
+      ],
+      "overlap_area": 0.54
+    },
+    {
+      "a": "TXD0",
+      "b": "37",
+      "a_xy": [
+        168.4,
+        80.64
+      ],
+      "b_xy": [
+        170.18,
+        79.76
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "TXD0",
+      "b": "36",
+      "a_xy": [
+        168.4,
+        80.64
+      ],
+      "b_xy": [
+        170.18,
+        82.3
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "TXD0",
+      "b": "37",
+      "a_xy": [
+        168.4,
+        80.64
+      ],
+      "b_xy": [
+        170.18,
+        79.76
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "TXD0",
+      "b": "36",
+      "a_xy": [
+        168.4,
+        80.64
+      ],
+      "b_xy": [
+        170.18,
+        82.3
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "37",
+      "b": "TXD0",
+      "a_xy": [
+        170.18,
+        79.76
+      ],
+      "b_xy": [
+        168.4,
+        80.64
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "RXD0",
+      "b": "36",
+      "a_xy": [
+        168.4,
+        83.19
+      ],
+      "b_xy": [
+        170.18,
+        82.3
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "RXD0",
+      "b": "10",
+      "a_xy": [
+        168.4,
+        83.19
+      ],
+      "b_xy": [
+        170.18,
+        84.84
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "RXD0",
+      "b": "36",
+      "a_xy": [
+        168.4,
+        83.19
+      ],
+      "b_xy": [
+        170.18,
+        82.3
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "RXD0",
+      "b": "10",
+      "a_xy": [
+        168.4,
+        83.19
+      ],
+      "b_xy": [
+        170.18,
+        84.84
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "36",
+      "b": "TXD0",
+      "a_xy": [
+        170.18,
+        82.3
+      ],
+      "b_xy": [
+        168.4,
+        80.64
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "36",
+      "b": "RXD0",
+      "a_xy": [
+        170.18,
+        82.3
+      ],
+      "b_xy": [
+        168.4,
+        83.19
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO17",
+      "b": "10",
+      "a_xy": [
+        168.4,
+        85.72
+      ],
+      "b_xy": [
+        170.18,
+        84.84
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO17",
+      "b": "11",
+      "a_xy": [
+        168.4,
+        85.72
+      ],
+      "b_xy": [
+        170.18,
+        87.38
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO17",
+      "b": "10",
+      "a_xy": [
+        168.4,
+        85.72
+      ],
+      "b_xy": [
+        170.18,
+        84.84
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO17",
+      "b": "11",
+      "a_xy": [
+        168.4,
+        85.72
+      ],
+      "b_xy": [
+        170.18,
+        87.38
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "10",
+      "b": "RXD0",
+      "a_xy": [
+        170.18,
+        84.84
+      ],
+      "b_xy": [
+        168.4,
+        83.19
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "10",
+      "b": "IO17",
+      "a_xy": [
+        170.18,
+        84.84
+      ],
+      "b_xy": [
+        168.4,
+        85.72
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO18",
+      "b": "11",
+      "a_xy": [
+        168.4,
+        88.27
+      ],
+      "b_xy": [
+        170.18,
+        87.38
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO18",
+      "b": "13",
+      "a_xy": [
+        168.4,
+        88.27
+      ],
+      "b_xy": [
+        170.18,
+        89.92
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO18",
+      "b": "11",
+      "a_xy": [
+        168.4,
+        88.27
+      ],
+      "b_xy": [
+        170.18,
+        87.38
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO18",
+      "b": "13",
+      "a_xy": [
+        168.4,
+        88.27
+      ],
+      "b_xy": [
+        170.18,
+        89.92
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "11",
+      "b": "IO17",
+      "a_xy": [
+        170.18,
+        87.38
+      ],
+      "b_xy": [
+        168.4,
+        85.72
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "11",
+      "b": "IO18",
+      "a_xy": [
+        170.18,
+        87.38
+      ],
+      "b_xy": [
+        168.4,
+        88.27
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "USB_D-",
+      "b": "13",
+      "a_xy": [
+        168.4,
+        90.81
+      ],
+      "b_xy": [
+        170.18,
+        89.92
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "USB_D-",
+      "b": "14",
+      "a_xy": [
+        168.4,
+        90.81
+      ],
+      "b_xy": [
+        170.18,
+        92.46
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "USB_D-",
+      "b": "13",
+      "a_xy": [
+        168.4,
+        90.81
+      ],
+      "b_xy": [
+        170.18,
+        89.92
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "USB_D-",
+      "b": "14",
+      "a_xy": [
+        168.4,
+        90.81
+      ],
+      "b_xy": [
+        170.18,
+        92.46
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "13",
+      "b": "IO18",
+      "a_xy": [
+        170.18,
+        89.92
+      ],
+      "b_xy": [
+        168.4,
+        88.27
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "13",
+      "b": "USB_D-",
+      "a_xy": [
+        170.18,
+        89.92
+      ],
+      "b_xy": [
+        168.4,
+        90.81
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "USB_D+",
+      "b": "14",
+      "a_xy": [
+        168.4,
+        93.34
+      ],
+      "b_xy": [
+        170.18,
+        92.46
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "USB_D+",
+      "b": "23",
+      "a_xy": [
+        168.4,
+        93.34
+      ],
+      "b_xy": [
+        170.18,
+        95.0
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "USB_D+",
+      "b": "14",
+      "a_xy": [
+        168.4,
+        93.34
+      ],
+      "b_xy": [
+        170.18,
+        92.46
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "USB_D+",
+      "b": "23",
+      "a_xy": [
+        168.4,
+        93.34
+      ],
+      "b_xy": [
+        170.18,
+        95.0
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "14",
+      "b": "USB_D-",
+      "a_xy": [
+        170.18,
+        92.46
+      ],
+      "b_xy": [
+        168.4,
+        90.81
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "14",
+      "b": "USB_D+",
+      "a_xy": [
+        170.18,
+        92.46
+      ],
+      "b_xy": [
+        168.4,
+        93.34
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO21",
+      "b": "23",
+      "a_xy": [
+        168.4,
+        95.89
+      ],
+      "b_xy": [
+        170.18,
+        95.0
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO21",
+      "b": "28",
+      "a_xy": [
+        168.4,
+        95.89
+      ],
+      "b_xy": [
+        170.18,
+        97.54
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO21",
+      "b": "23",
+      "a_xy": [
+        168.4,
+        95.89
+      ],
+      "b_xy": [
+        170.18,
+        95.0
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO21",
+      "b": "28",
+      "a_xy": [
+        168.4,
+        95.89
+      ],
+      "b_xy": [
+        170.18,
+        97.54
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "23",
+      "b": "USB_D+",
+      "a_xy": [
+        170.18,
+        95.0
+      ],
+      "b_xy": [
+        168.4,
+        93.34
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "23",
+      "b": "IO21",
+      "a_xy": [
+        170.18,
+        95.0
+      ],
+      "b_xy": [
+        168.4,
+        95.89
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO35",
+      "b": "28",
+      "a_xy": [
+        168.4,
+        98.42
+      ],
+      "b_xy": [
+        170.18,
+        97.54
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO35",
+      "b": "29",
+      "a_xy": [
+        168.4,
+        98.42
+      ],
+      "b_xy": [
+        170.18,
+        100.08
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO35",
+      "b": "28",
+      "a_xy": [
+        168.4,
+        98.42
+      ],
+      "b_xy": [
+        170.18,
+        97.54
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO35",
+      "b": "29",
+      "a_xy": [
+        168.4,
+        98.42
+      ],
+      "b_xy": [
+        170.18,
+        100.08
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "28",
+      "b": "IO21",
+      "a_xy": [
+        170.18,
+        97.54
+      ],
+      "b_xy": [
+        168.4,
+        95.89
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "28",
+      "b": "IO35",
+      "a_xy": [
+        170.18,
+        97.54
+      ],
+      "b_xy": [
+        168.4,
+        98.42
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO36",
+      "b": "29",
+      "a_xy": [
+        168.4,
+        100.97
+      ],
+      "b_xy": [
+        170.18,
+        100.08
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO36",
+      "b": "30",
+      "a_xy": [
+        168.4,
+        100.97
+      ],
+      "b_xy": [
+        170.18,
+        102.62
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO36",
+      "b": "29",
+      "a_xy": [
+        168.4,
+        100.97
+      ],
+      "b_xy": [
+        170.18,
+        100.08
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO36",
+      "b": "30",
+      "a_xy": [
+        168.4,
+        100.97
+      ],
+      "b_xy": [
+        170.18,
+        102.62
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "29",
+      "b": "IO35",
+      "a_xy": [
+        170.18,
+        100.08
+      ],
+      "b_xy": [
+        168.4,
+        98.42
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "29",
+      "b": "IO36",
+      "a_xy": [
+        170.18,
+        100.08
+      ],
+      "b_xy": [
+        168.4,
+        100.97
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO37",
+      "b": "30",
+      "a_xy": [
+        168.4,
+        103.5
+      ],
+      "b_xy": [
+        170.18,
+        102.62
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO37",
+      "b": "31",
+      "a_xy": [
+        168.4,
+        103.5
+      ],
+      "b_xy": [
+        170.18,
+        105.16
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO37",
+      "b": "30",
+      "a_xy": [
+        168.4,
+        103.5
+      ],
+      "b_xy": [
+        170.18,
+        102.62
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO37",
+      "b": "31",
+      "a_xy": [
+        168.4,
+        103.5
+      ],
+      "b_xy": [
+        170.18,
+        105.16
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "30",
+      "b": "IO36",
+      "a_xy": [
+        170.18,
+        102.62
+      ],
+      "b_xy": [
+        168.4,
+        100.97
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "30",
+      "b": "IO37",
+      "a_xy": [
+        170.18,
+        102.62
+      ],
+      "b_xy": [
+        168.4,
+        103.5
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO38",
+      "b": "31",
+      "a_xy": [
+        168.4,
+        106.05
+      ],
+      "b_xy": [
+        170.18,
+        105.16
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO38",
+      "b": "32",
+      "a_xy": [
+        168.4,
+        106.05
+      ],
+      "b_xy": [
+        170.18,
+        107.7
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO38",
+      "b": "31",
+      "a_xy": [
+        168.4,
+        106.05
+      ],
+      "b_xy": [
+        170.18,
+        105.16
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO38",
+      "b": "32",
+      "a_xy": [
+        168.4,
+        106.05
+      ],
+      "b_xy": [
+        170.18,
+        107.7
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "31",
+      "b": "IO37",
+      "a_xy": [
+        170.18,
+        105.16
+      ],
+      "b_xy": [
+        168.4,
+        103.5
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "31",
+      "b": "IO38",
+      "a_xy": [
+        170.18,
+        105.16
+      ],
+      "b_xy": [
+        168.4,
+        106.05
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO39",
+      "b": "32",
+      "a_xy": [
+        168.4,
+        108.58
+      ],
+      "b_xy": [
+        170.18,
+        107.7
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO39",
+      "b": "33",
+      "a_xy": [
+        168.4,
+        108.58
+      ],
+      "b_xy": [
+        170.18,
+        110.24
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO39",
+      "b": "32",
+      "a_xy": [
+        168.4,
+        108.58
+      ],
+      "b_xy": [
+        170.18,
+        107.7
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO39",
+      "b": "33",
+      "a_xy": [
+        168.4,
+        108.58
+      ],
+      "b_xy": [
+        170.18,
+        110.24
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "32",
+      "b": "IO38",
+      "a_xy": [
+        170.18,
+        107.7
+      ],
+      "b_xy": [
+        168.4,
+        106.05
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "32",
+      "b": "IO39",
+      "a_xy": [
+        170.18,
+        107.7
+      ],
+      "b_xy": [
+        168.4,
+        108.58
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO40",
+      "b": "33",
+      "a_xy": [
+        168.4,
+        111.12
+      ],
+      "b_xy": [
+        170.18,
+        110.24
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO40",
+      "b": "34",
+      "a_xy": [
+        168.4,
+        111.12
+      ],
+      "b_xy": [
+        170.18,
+        112.78
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO40",
+      "b": "33",
+      "a_xy": [
+        168.4,
+        111.12
+      ],
+      "b_xy": [
+        170.18,
+        110.24
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO40",
+      "b": "34",
+      "a_xy": [
+        168.4,
+        111.12
+      ],
+      "b_xy": [
+        170.18,
+        112.78
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "33",
+      "b": "IO39",
+      "a_xy": [
+        170.18,
+        110.24
+      ],
+      "b_xy": [
+        168.4,
+        108.58
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "33",
+      "b": "IO40",
+      "a_xy": [
+        170.18,
+        110.24
+      ],
+      "b_xy": [
+        168.4,
+        111.12
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO41",
+      "b": "34",
+      "a_xy": [
+        168.4,
+        113.67
+      ],
+      "b_xy": [
+        170.18,
+        112.78
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO41",
+      "b": "35",
+      "a_xy": [
+        168.4,
+        113.67
+      ],
+      "b_xy": [
+        170.18,
+        115.32
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO41",
+      "b": "34",
+      "a_xy": [
+        168.4,
+        113.67
+      ],
+      "b_xy": [
+        170.18,
+        112.78
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO41",
+      "b": "35",
+      "a_xy": [
+        168.4,
+        113.67
+      ],
+      "b_xy": [
+        170.18,
+        115.32
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "34",
+      "b": "IO40",
+      "a_xy": [
+        170.18,
+        112.78
+      ],
+      "b_xy": [
+        168.4,
+        111.12
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "34",
+      "b": "IO41",
+      "a_xy": [
+        170.18,
+        112.78
+      ],
+      "b_xy": [
+        168.4,
+        113.67
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO42",
+      "b": "35",
+      "a_xy": [
+        168.4,
+        116.2
+      ],
+      "b_xy": [
+        170.18,
+        115.32
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO42",
+      "b": "26",
+      "a_xy": [
+        168.4,
+        116.2
+      ],
+      "b_xy": [
+        170.18,
+        117.86
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO42",
+      "b": "35",
+      "a_xy": [
+        168.4,
+        116.2
+      ],
+      "b_xy": [
+        170.18,
+        115.32
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO42",
+      "b": "26",
+      "a_xy": [
+        168.4,
+        116.2
+      ],
+      "b_xy": [
+        170.18,
+        117.86
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "35",
+      "b": "IO41",
+      "a_xy": [
+        170.18,
+        115.32
+      ],
+      "b_xy": [
+        168.4,
+        113.67
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "35",
+      "b": "IO42",
+      "a_xy": [
+        170.18,
+        115.32
+      ],
+      "b_xy": [
+        168.4,
+        116.2
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO45",
+      "b": "26",
+      "a_xy": [
+        168.4,
+        118.75
+      ],
+      "b_xy": [
+        170.18,
+        117.86
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO45",
+      "b": "16",
+      "a_xy": [
+        168.4,
+        118.75
+      ],
+      "b_xy": [
+        170.18,
+        120.4
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO45",
+      "b": "26",
+      "a_xy": [
+        168.4,
+        118.75
+      ],
+      "b_xy": [
+        170.18,
+        117.86
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO45",
+      "b": "16",
+      "a_xy": [
+        168.4,
+        118.75
+      ],
+      "b_xy": [
+        170.18,
+        120.4
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "26",
+      "b": "IO42",
+      "a_xy": [
+        170.18,
+        117.86
+      ],
+      "b_xy": [
+        168.4,
+        116.2
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "26",
+      "b": "IO45",
+      "a_xy": [
+        170.18,
+        117.86
+      ],
+      "b_xy": [
+        168.4,
+        118.75
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO46",
+      "b": "16",
+      "a_xy": [
+        168.4,
+        121.28
+      ],
+      "b_xy": [
+        170.18,
+        120.4
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO46",
+      "b": "24",
+      "a_xy": [
+        168.4,
+        121.28
+      ],
+      "b_xy": [
+        170.18,
+        122.94
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO46",
+      "b": "16",
+      "a_xy": [
+        168.4,
+        121.28
+      ],
+      "b_xy": [
+        170.18,
+        120.4
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO46",
+      "b": "24",
+      "a_xy": [
+        168.4,
+        121.28
+      ],
+      "b_xy": [
+        170.18,
+        122.94
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "16",
+      "b": "IO45",
+      "a_xy": [
+        170.18,
+        120.4
+      ],
+      "b_xy": [
+        168.4,
+        118.75
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "16",
+      "b": "IO46",
+      "a_xy": [
+        170.18,
+        120.4
+      ],
+      "b_xy": [
+        168.4,
+        121.28
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO47",
+      "b": "24",
+      "a_xy": [
+        168.4,
+        123.83
+      ],
+      "b_xy": [
+        170.18,
+        122.94
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO47",
+      "b": "25",
+      "a_xy": [
+        168.4,
+        123.83
+      ],
+      "b_xy": [
+        170.18,
+        125.48
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "IO47",
+      "b": "24",
+      "a_xy": [
+        168.4,
+        123.83
+      ],
+      "b_xy": [
+        170.18,
+        122.94
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO47",
+      "b": "25",
+      "a_xy": [
+        168.4,
+        123.83
+      ],
+      "b_xy": [
+        170.18,
+        125.48
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "24",
+      "b": "IO46",
+      "a_xy": [
+        170.18,
+        122.94
+      ],
+      "b_xy": [
+        168.4,
+        121.28
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "24",
+      "b": "IO47",
+      "a_xy": [
+        170.18,
+        122.94
+      ],
+      "b_xy": [
+        168.4,
+        123.83
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO48",
+      "b": "25",
+      "a_xy": [
+        168.4,
+        126.36
+      ],
+      "b_xy": [
+        170.18,
+        125.48
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IO48",
+      "b": "25",
+      "a_xy": [
+        168.4,
+        126.36
+      ],
+      "b_xy": [
+        170.18,
+        125.48
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "25",
+      "b": "IO47",
+      "a_xy": [
+        170.18,
+        125.48
+      ],
+      "b_xy": [
+        168.4,
+        123.83
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "25",
+      "b": "IO48",
+      "a_xy": [
+        170.18,
+        125.48
+      ],
+      "b_xy": [
+        168.4,
+        126.36
+      ],
+      "overlap_area": 1.97
+    },
+    {
+      "a": "IN",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        103.38,
+        45.09
+      ],
+      "b_xy": [
+        97.79,
+        44.74
+      ],
+      "overlap_area": 2.98
+    },
+    {
+      "a": "3",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        101.6,
+        44.2
+      ],
+      "b_xy": [
+        97.79,
+        44.74
+      ],
+      "overlap_area": 1.31
+    },
+    {
+      "a": "EN",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        103.38,
+        50.16
+      ],
+      "b_xy": [
+        97.79,
+        49.82
+      ],
+      "overlap_area": 2.98
+    },
+    {
+      "a": "2",
+      "b": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "a_xy": [
+        101.6,
+        49.28
+      ],
+      "b_xy": [
+        68.58,
+        47.62
+      ],
+      "overlap_area": 0.28
+    },
+    {
+      "a": "2",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        101.6,
+        49.28
+      ],
+      "b_xy": [
+        97.79,
+        49.82
+      ],
+      "overlap_area": 1.31
+    },
+    {
+      "a": "2",
+      "b": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "a_xy": [
+        101.6,
+        49.28
+      ],
+      "b_xy": [
+        68.58,
+        47.62
+      ],
+      "overlap_area": 0.28
+    },
+    {
+      "a": "GND",
+      "b": "4",
+      "a_xy": [
+        110.49,
+        52.2
+      ],
+      "b_xy": [
+        110.24,
+        53.34
+      ],
+      "overlap_area": 0.54
+    },
+    {
+      "a": "GND",
+      "b": "4",
+      "a_xy": [
+        110.49,
+        52.2
+      ],
+      "b_xy": [
+        110.24,
+        53.34
+      ],
+      "overlap_area": 0.54
+    },
+    {
+      "a": "4",
+      "b": "GND",
+      "a_xy": [
+        110.24,
+        53.34
+      ],
+      "b_xy": [
+        110.49,
+        52.2
+      ],
+      "overlap_area": 0.54
+    },
+    {
+      "a": "BST",
+      "b": "6",
+      "a_xy": [
+        117.6,
+        47.62
+      ],
+      "b_xy": [
+        119.38,
+        46.74
+      ],
+      "overlap_area": 0.99
+    },
+    {
+      "a": "BST",
+      "b": "1",
+      "a_xy": [
+        117.6,
+        47.62
+      ],
+      "b_xy": [
+        119.38,
+        49.28
+      ],
+      "overlap_area": 0.28
+    },
+    {
+      "a": "BST",
+      "b": "6",
+      "a_xy": [
+        117.6,
+        47.62
+      ],
+      "b_xy": [
+        119.38,
+        46.74
+      ],
+      "overlap_area": 0.99
+    },
+    {
+      "a": "BST",
+      "b": "1",
+      "a_xy": [
+        117.6,
+        47.62
+      ],
+      "b_xy": [
+        119.38,
+        49.28
+      ],
+      "overlap_area": 0.28
+    },
+    {
+      "a": "6",
+      "b": "BST",
+      "a_xy": [
+        119.38,
+        46.74
+      ],
+      "b_xy": [
+        117.6,
+        47.62
+      ],
+      "overlap_area": 0.99
+    },
+    {
+      "a": "1",
+      "b": "BST",
+      "a_xy": [
+        119.38,
+        49.28
+      ],
+      "b_xy": [
+        117.6,
+        47.62
+      ],
+      "overlap_area": 0.28
+    },
+    {
+      "a": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "b": "5V_TVS_NEEDS_REVIEW",
+      "a_xy": [
+        85.09,
+        59.05
+      ],
+      "b_xy": [
+        77.47,
+        59.05
+      ],
+      "overlap_area": 19.62
+    },
+    {
+      "a": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        85.09,
+        59.05
+      ],
+      "b_xy": [
+        83.82,
+        59.98
+      ],
+      "overlap_area": 11.13
+    },
+    {
+      "a": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "b": "5V_TVS_NEEDS_REVIEW",
+      "a_xy": [
+        85.09,
+        59.05
+      ],
+      "b_xy": [
+        77.47,
+        59.05
+      ],
+      "overlap_area": 19.62
+    },
+    {
+      "a": "GND",
+      "b": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "a_xy": [
+        83.82,
+        48.9
+      ],
+      "b_xy": [
+        68.58,
+        47.62
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "GND",
+      "b": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "a_xy": [
+        83.82,
+        48.9
+      ],
+      "b_xy": [
+        68.58,
+        47.62
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "C5",
+      "b": "BUCK_SW",
+      "a_xy": [
+        133.35,
+        37.47
+      ],
+      "b_xy": [
+        132.08,
+        35.85
+      ],
+      "overlap_area": 0.61
+    },
+    {
+      "a": "100nF_CBST",
+      "b": "L1",
+      "a_xy": [
+        133.35,
+        43.81
+      ],
+      "b_xy": [
+        134.62,
+        45.08
+      ],
+      "overlap_area": 1.26
+    },
+    {
+      "a": "100nF_CBST",
+      "b": "BUCK_BST",
+      "a_xy": [
+        133.35,
+        43.81
+      ],
+      "b_xy": [
+        132.08,
+        43.47
+      ],
+      "overlap_area": 9.88
+    },
+    {
+      "a": "100nF_CBST",
+      "b": "L1",
+      "a_xy": [
+        133.35,
+        43.81
+      ],
+      "b_xy": [
+        134.62,
+        45.08
+      ],
+      "overlap_area": 1.26
+    },
+    {
+      "a": "GND",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        66.04,
+        52.7
+      ],
+      "b_xy": [
+        64.77,
+        53.98
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "GND",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        66.04,
+        52.7
+      ],
+      "b_xy": [
+        64.77,
+        53.98
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "b": "2",
+      "a_xy": [
+        68.58,
+        47.62
+      ],
+      "b_xy": [
+        101.6,
+        49.28
+      ],
+      "overlap_area": 0.28
+    },
+    {
+      "a": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "b": "GND",
+      "a_xy": [
+        68.58,
+        47.62
+      ],
+      "b_xy": [
+        83.82,
+        48.9
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "5V_TVS_NEEDS_REVIEW",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        77.47,
+        59.05
+      ],
+      "b_xy": [
+        83.82,
+        59.98
+      ],
+      "overlap_area": 11.65
+    },
+    {
+      "a": "5V_TVS_NEEDS_REVIEW",
+      "b": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "a_xy": [
+        77.47,
+        59.05
+      ],
+      "b_xy": [
+        85.09,
+        59.05
+      ],
+      "overlap_area": 19.62
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "GND",
+      "a_xy": [
+        64.77,
+        53.98
+      ],
+      "b_xy": [
+        66.04,
+        52.7
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "GND",
+      "b": "RESET/BOOT - Espressif-style EN: 10k pullup to 3V3, 1uF to GND, reset switch to GND. BOOT/GPIO0: 10k pullup, switch to GND.",
+      "a_xy": [
+        49.53,
+        81.92
+      ],
+      "b_xy": [
+        17.78,
+        82.94
+      ],
+      "overlap_area": 2.59
+    },
+    {
+      "a": "1uF_EN_DELAY",
+      "b": "ESP_EN",
+      "a_xy": [
+        49.53,
+        92.08
+      ],
+      "b_xy": [
+        49.53,
+        93.0
+      ],
+      "overlap_area": 5.74
+    },
+    {
+      "a": "R1",
+      "b": "10k_EN_PULLUP",
+      "a_xy": [
+        36.83,
+        93.34
+      ],
+      "b_xy": [
+        35.56,
+        93.34
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "R1",
+      "b": "10k_EN_PULLUP",
+      "a_xy": [
+        36.83,
+        93.34
+      ],
+      "b_xy": [
+        35.56,
+        93.34
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "10k_EN_PULLUP",
+      "b": "R1",
+      "a_xy": [
+        35.56,
+        93.34
+      ],
+      "b_xy": [
+        36.83,
+        93.34
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "b": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "a_xy": [
+        46.99,
+        50.16
+      ],
+      "b_xy": [
+        24.13,
+        50.16
+      ],
+      "overlap_area": 20.77
+    },
+    {
+      "a": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "b": "+5V_PROTECTED",
+      "a_xy": [
+        46.99,
+        50.16
+      ],
+      "b_xy": [
+        64.77,
+        49.82
+      ],
+      "overlap_area": 14.75
+    },
+    {
+      "a": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "b": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "a_xy": [
+        46.99,
+        50.16
+      ],
+      "b_xy": [
+        24.13,
+        50.16
+      ],
+      "overlap_area": 20.77
+    },
+    {
+      "a": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "b": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "a_xy": [
+        24.13,
+        50.16
+      ],
+      "b_xy": [
+        46.99,
+        50.16
+      ],
+      "overlap_area": 20.77
+    },
+    {
+      "a": "L1",
+      "b": "BUCK_BST",
+      "a_xy": [
+        134.62,
+        45.08
+      ],
+      "b_xy": [
+        132.08,
+        43.47
+      ],
+      "overlap_area": 0.61
+    },
+    {
+      "a": "L1",
+      "b": "100nF_CBST",
+      "a_xy": [
+        134.62,
+        45.08
+      ],
+      "b_xy": [
+        133.35,
+        43.81
+      ],
+      "overlap_area": 1.26
+    },
+    {
+      "a": "3.9uH_NEEDS_REVIEW_MPN",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        134.62,
+        55.24
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 5.05
+    },
+    {
+      "a": "3.9uH_NEEDS_REVIEW_MPN",
+      "b": "+3V3",
+      "a_xy": [
+        134.62,
+        55.24
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 2.52
+    },
+    {
+      "a": "3.9uH_NEEDS_REVIEW_MPN",
+      "b": "C3",
+      "a_xy": [
+        134.62,
+        55.24
+      ],
+      "b_xy": [
+        143.51,
+        55.24
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "3.9uH_NEEDS_REVIEW_MPN",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        134.62,
+        55.24
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 5.05
+    },
+    {
+      "a": "3.9uH_NEEDS_REVIEW_MPN",
+      "b": "+3V3",
+      "a_xy": [
+        134.62,
+        55.24
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 2.52
+    },
+    {
+      "a": "3.9uH_NEEDS_REVIEW_MPN",
+      "b": "C3",
+      "a_xy": [
+        134.62,
+        55.24
+      ],
+      "b_xy": [
+        143.51,
+        55.24
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+5V_IN",
+      "a_xy": [
+        36.83,
+        43.81
+      ],
+      "b_xy": [
+        36.83,
+        44.74
+      ],
+      "overlap_area": 5.74
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+5V_IN",
+      "a_xy": [
+        36.83,
+        43.81
+      ],
+      "b_xy": [
+        43.18,
+        44.74
+      ],
+      "overlap_area": 1.13
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+3V3",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 7.25
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "C3",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        143.51,
+        55.24
+      ],
+      "overlap_area": 1.26
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "3.9uH_NEEDS_REVIEW_MPN",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        134.62,
+        55.24
+      ],
+      "overlap_area": 5.05
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+3V3",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 7.25
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "C3",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        143.51,
+        55.24
+      ],
+      "overlap_area": 1.26
+    },
+    {
+      "a": "+3V3",
+      "b": "3.9uH_NEEDS_REVIEW_MPN",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        134.62,
+        55.24
+      ],
+      "overlap_area": 2.52
+    },
+    {
+      "a": "+3V3",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 7.25
+    },
+    {
+      "a": "GND",
+      "b": "LEDS - component report recommends simple GPIO LED over WS2812 for low cost/reliability. Status LED GPIO assignment remains NEEDS_REVIEW.",
+      "a_xy": [
+        27.94,
+        131.44
+      ],
+      "b_xy": [
+        17.78,
+        129.93
+      ],
+      "overlap_area": 1.19
+    },
+    {
+      "a": "SHIELD",
+      "b": "Antenna: use WROOM-1U module U.FL/IPEX connector with U.FL/IPEX-to-SMA pigtail and enclosure 2.4 GHz antenna. Keepout/pigtail routing NEEDS_REVIEW.",
+      "a_xy": [
+        196.85,
+        77.09
+      ],
+      "b_xy": [
+        125.73,
+        76.58
+      ],
+      "overlap_area": 8.06
+    },
+    {
+      "a": "GND",
+      "b": "Antenna: use WROOM-1U module U.FL/IPEX connector with U.FL/IPEX-to-SMA pigtail and enclosure 2.4 GHz antenna. Keepout/pigtail routing NEEDS_REVIEW.",
+      "a_xy": [
+        204.47,
+        77.09
+      ],
+      "b_xy": [
+        125.73,
+        76.58
+      ],
+      "overlap_area": 4.03
+    },
+    {
+      "a": "A4",
+      "b": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "a_xy": [
+        217.17,
+        44.2
+      ],
+      "b_xy": [
+        190.5,
+        42.54
+      ],
+      "overlap_area": 0.55
+    },
+    {
+      "a": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "b": "GND",
+      "a_xy": [
+        204.47,
+        84.45
+      ],
+      "b_xy": [
+        204.47,
+        83.19
+      ],
+      "overlap_area": 1.89
+    },
+    {
+      "a": "+3V3",
+      "b": "Antenna: use WROOM-1U module U.FL/IPEX connector with U.FL/IPEX-to-SMA pigtail and enclosure 2.4 GHz antenna. Keepout/pigtail routing NEEDS_REVIEW.",
+      "a_xy": [
+        156.21,
+        75.56
+      ],
+      "b_xy": [
+        125.73,
+        76.58
+      ],
+      "overlap_area": 3.45
+    },
+    {
+      "a": "+3V3",
+      "b": "2",
+      "a_xy": [
+        156.21,
+        75.56
+      ],
+      "b_xy": [
+        155.96,
+        76.2
+      ],
+      "overlap_area": 0.89
+    },
+    {
+      "a": "C3",
+      "b": "3.9uH_NEEDS_REVIEW_MPN",
+      "a_xy": [
+        143.51,
+        55.24
+      ],
+      "b_xy": [
+        134.62,
+        55.24
+      ],
+      "overlap_area": 3.63
+    },
+    {
+      "a": "C3",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        143.51,
+        55.24
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "overlap_area": 1.26
+    },
+    {
+      "a": "USB_DP_CONN",
+      "b": "USB_DP_ESP",
+      "a_xy": [
+        233.68,
+        90.46
+      ],
+      "b_xy": [
+        241.3,
+        90.46
+      ],
+      "overlap_area": 5.11
+    },
+    {
+      "a": "+5V_PROTECTED",
+      "b": "10uF_CIN",
+      "a_xy": [
+        129.54,
+        62.52
+      ],
+      "b_xy": [
+        130.81,
+        61.59
+      ],
+      "overlap_area": 7.65
+    },
+    {
+      "a": "USB_CC2",
+      "b": "ESP32-S3 MODULE - Preferred module ESP32-S3-WROOM-1U-N16R8. Symbol is KiCad ESP32-S3-WROOM-1; -1U module/land-pattern equivalence remains NEEDS_REVIEW.",
+      "a_xy": [
+        243.84,
+        73.95
+      ],
+      "b_xy": [
+        125.73,
+        72.78
+      ],
+      "overlap_area": 5.06
+    },
+    {
+      "a": "USB_CC1",
+      "b": "ESP32-S3 MODULE - Preferred module ESP32-S3-WROOM-1U-N16R8. Symbol is KiCad ESP32-S3-WROOM-1; -1U module/land-pattern equivalence remains NEEDS_REVIEW.",
+      "a_xy": [
+        232.41,
+        73.95
+      ],
+      "b_xy": [
+        125.73,
+        72.78
+      ],
+      "overlap_area": 5.06
+    }
+  ],
+  "svg_near_text_candidate_count": 20,
+  "svg_near_text_candidates": [
+    {
+      "a": "3",
+      "b": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "a_xy": [
+        237.74,
+        63.5
+      ],
+      "b_xy": [
+        237.49,
+        64.14
+      ],
+      "distance": 0.68
+    },
+    {
+      "a": "3",
+      "b": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "a_xy": [
+        237.74,
+        63.5
+      ],
+      "b_xy": [
+        237.49,
+        64.14
+      ],
+      "distance": 0.68
+    },
+    {
+      "a": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "b": "3",
+      "a_xy": [
+        237.49,
+        64.14
+      ],
+      "b_xy": [
+        237.74,
+        63.5
+      ],
+      "distance": 0.68
+    },
+    {
+      "a": "R7",
+      "b": "22R_USB_D-_NEEDS_REVIEW",
+      "a_xy": [
+        237.49,
+        86.99
+      ],
+      "b_xy": [
+        237.49,
+        86.99
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "R7",
+      "b": "22R_USB_D-_NEEDS_REVIEW",
+      "a_xy": [
+        237.49,
+        86.99
+      ],
+      "b_xy": [
+        237.49,
+        86.99
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "22R_USB_D-_NEEDS_REVIEW",
+      "b": "R7",
+      "a_xy": [
+        237.49,
+        86.99
+      ],
+      "b_xy": [
+        237.49,
+        86.99
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "2",
+      "b": "+3V3",
+      "a_xy": [
+        155.96,
+        76.2
+      ],
+      "b_xy": [
+        156.21,
+        75.56
+      ],
+      "distance": 0.68
+    },
+    {
+      "a": "2",
+      "b": "+3V3",
+      "a_xy": [
+        155.96,
+        76.2
+      ],
+      "b_xy": [
+        156.21,
+        75.56
+      ],
+      "distance": 0.68
+    },
+    {
+      "a": "1uF_EN_DELAY",
+      "b": "ESP_EN",
+      "a_xy": [
+        49.53,
+        92.08
+      ],
+      "b_xy": [
+        49.53,
+        93.0
+      ],
+      "distance": 0.92
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+5V_IN",
+      "a_xy": [
+        36.83,
+        43.81
+      ],
+      "b_xy": [
+        36.83,
+        44.74
+      ],
+      "distance": 0.92
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+3V3",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+3V3",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "+3V3",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "+3V3",
+      "b": "2",
+      "a_xy": [
+        156.21,
+        75.56
+      ],
+      "b_xy": [
+        155.96,
+        76.2
+      ],
+      "distance": 0.68
+    },
+    {
+      "a": "+5V_IN",
+      "b": "PWR_FLAG",
+      "a_xy": [
+        36.83,
+        44.74
+      ],
+      "b_xy": [
+        36.83,
+        43.81
+      ],
+      "distance": 0.92
+    },
+    {
+      "a": "ESP_EN",
+      "b": "1uF_EN_DELAY",
+      "a_xy": [
+        49.53,
+        93.0
+      ],
+      "b_xy": [
+        49.53,
+        92.08
+      ],
+      "distance": 0.92
+    },
+    {
+      "a": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "b": "3",
+      "a_xy": [
+        237.49,
+        64.14
+      ],
+      "b_xy": [
+        237.74,
+        63.5
+      ],
+      "distance": 0.68
+    },
+    {
+      "a": "R7",
+      "b": "22R_USB_D-_NEEDS_REVIEW",
+      "a_xy": [
+        237.49,
+        86.99
+      ],
+      "b_xy": [
+        237.49,
+        86.99
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "PWR_FLAG",
+      "b": "+3V3",
+      "a_xy": [
+        138.43,
+        53.98
+      ],
+      "b_xy": [
+        138.43,
+        53.98
+      ],
+      "distance": 0.0
+    },
+    {
+      "a": "+3V3",
+      "b": "2",
+      "a_xy": [
+        156.21,
+        75.56
+      ],
+      "b_xy": [
+        155.96,
+        76.2
+      ],
+      "distance": 0.68
+    }
+  ],
+  "fresh_visual": {
+    "block_count": 13,
+    "blocks": [
+      {
+        "field_risks": [],
+        "name": "input_power",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\input_power.png",
+        "rect": {
+          "height": 71.280528,
+          "width": 92.39757999999999,
+          "x": 14.699615000000001,
+          "y": 23.760176
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\input_power.svg",
+        "title": "Input Power",
+        "unannotated_refs": [],
+        "visible_text_count": 79
+      },
+      {
+        "field_risks": [],
+        "name": "reverse_polarity",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\reverse_polarity.png",
+        "rect": {
+          "height": 29.70022,
+          "width": 41.9989,
+          "x": 50.39867999999999,
+          "y": 31.185231
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\reverse_polarity.svg",
+        "title": "Reverse Polarity",
+        "unannotated_refs": [],
+        "visible_text_count": 25
+      },
+      {
+        "field_risks": [],
+        "name": "tvs_input_cap",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\tvs_input_cap.png",
+        "rect": {
+          "height": 26.730198,
+          "width": 41.9989,
+          "x": 62.998349999999995,
+          "y": 47.520352
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\tvs_input_cap.svg",
+        "title": "TVS And Input Cap",
+        "unannotated_refs": [],
+        "visible_text_count": 24
+      },
+      {
+        "field_risks": [],
+        "name": "buck_regulator",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\buck_regulator.png",
+        "rect": {
+          "height": 47.520352,
+          "width": 88.19769,
+          "x": 96.59747,
+          "y": 25.245187000000005
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\buck_regulator.svg",
+        "title": "Buck Regulator",
+        "unannotated_refs": [],
+        "visible_text_count": 78
+      },
+      {
+        "field_risks": [],
+        "name": "esp32_module",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\esp32_module.png",
+        "rect": {
+          "height": 77.220572,
+          "width": 75.59801999999999,
+          "x": 121.79680999999998,
+          "y": 65.340484
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\esp32_module.svg",
+        "title": "ESP32 Module",
+        "unannotated_refs": [],
+        "visible_text_count": 199
+      },
+      {
+        "field_risks": [],
+        "name": "usb_c_connector",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\usb_c_connector.png",
+        "rect": {
+          "height": 71.280528,
+          "width": 79.79791,
+          "x": 184.79515999999998,
+          "y": 26.730198
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\usb_c_connector.svg",
+        "title": "USB-C Connector",
+        "unannotated_refs": [],
+        "visible_text_count": 104
+      },
+      {
+        "field_risks": [],
+        "name": "usb_esd",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\usb_esd.png",
+        "rect": {
+          "height": 35.640264,
+          "width": 46.198789999999995,
+          "x": 222.59417,
+          "y": 44.55033
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\usb_esd.svg",
+        "title": "USB ESD",
+        "unannotated_refs": [],
+        "visible_text_count": 41
+      },
+      {
+        "field_risks": [],
+        "name": "cc_resistors",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\cc_resistors.png",
+        "rect": {
+          "height": 26.730198,
+          "width": 33.59912,
+          "x": 226.79406,
+          "y": 62.370462
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\cc_resistors.svg",
+        "title": "CC Resistors",
+        "unannotated_refs": [],
+        "visible_text_count": 28
+      },
+      {
+        "field_risks": [],
+        "name": "reset_boot",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\reset_boot.png",
+        "rect": {
+          "height": 44.55033,
+          "width": 71.39813,
+          "x": 14.699615000000001,
+          "y": 80.190594
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\reset_boot.svg",
+        "title": "Reset And Boot",
+        "unannotated_refs": [],
+        "visible_text_count": 36
+      },
+      {
+        "field_risks": [],
+        "name": "leds",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\leds.png",
+        "rect": {
+          "height": 26.730198,
+          "width": 71.39813,
+          "x": 14.699615000000001,
+          "y": 127.710946
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\leds.svg",
+        "title": "LEDs",
+        "unannotated_refs": [],
+        "visible_text_count": 24
+      },
+      {
+        "field_risks": [],
+        "name": "test_pads",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\test_pads.png",
+        "rect": {
+          "height": 38.610286,
+          "width": 100.79735999999998,
+          "x": 197.39482999999998,
+          "y": 106.920792
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\test_pads.svg",
+        "title": "Test Pads",
+        "unannotated_refs": [],
+        "visible_text_count": 40
+      },
+      {
+        "field_risks": [],
+        "name": "mounting_holes",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\mounting_holes.png",
+        "rect": {
+          "height": 29.70022,
+          "width": 125.99669999999999,
+          "x": 14.699615000000001,
+          "y": 154.441144
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\mounting_holes.svg",
+        "title": "Mounting Holes",
+        "unannotated_refs": [],
+        "visible_text_count": 18
+      },
+      {
+        "field_risks": [],
+        "name": "mechanical_notes",
+        "notes": "Default starter crop. Human may need to adjust coordinates.",
+        "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\mechanical_notes.png",
+        "rect": {
+          "height": 38.610286,
+          "width": 201.59471999999997,
+          "x": 14.699615000000001,
+          "y": 154.441144
+        },
+        "status": "PASS",
+        "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops\\mechanical_notes.svg",
+        "title": "Mechanical Notes",
+        "unannotated_refs": [],
+        "visible_text_count": 19
+      }
+    ],
+    "blocks_with_field_risks": 0,
+    "blocks_with_unannotated_refs": 0,
+    "config_created": false,
+    "config_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_visual\\visual_blocks.json",
+    "crop_count": 13,
+    "crops_dir": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\crops",
+    "full_png": "",
+    "generated_at": "2026-05-06T16:00:36",
+    "missing_default_blocks": [],
+    "png_count": 13,
+    "renderer_status": "browser renderer completed",
+    "review_output": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\CLOSE_UP_REVIEW.md",
+    "source_svg": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\emergency_truth_audit_20260506_155934\\full_page\\ESP32_CSI_WIFI_NODE.svg",
+    "status": "PASS",
+    "text_items_found": 573
+  }
+}

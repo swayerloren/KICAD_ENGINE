@@ -1,0 +1,269 @@
+{
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "placed_symbols": 79,
+  "physical_before": 43,
+  "physical_after": 43,
+  "pwr_before": 33,
+  "pwr_after": 33,
+  "flg_before": 3,
+  "flg_after": 3,
+  "question_refs_before": [],
+  "question_refs_after": [],
+  "duplicates_before": {},
+  "duplicates_after": {},
+  "changes": [
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000008",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR01",
+      "after": "#PWR0101"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000212",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "before": "#FLG01",
+      "after": "#FLG0101"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000213",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "before": "#FLG02",
+      "after": "#FLG0102"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000016",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR03",
+      "after": "#PWR0102"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000019",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR05",
+      "after": "#PWR0103"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000022",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR07",
+      "after": "#PWR0104"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000031",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR10",
+      "after": "#PWR0105"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000037",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR11",
+      "after": "#PWR0106"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000214",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "before": "#FLG03",
+      "after": "#FLG0103"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000040",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR12",
+      "after": "#PWR0107"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000043",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR14",
+      "after": "#PWR0108"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000045",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR15",
+      "after": "#PWR0109"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000046",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR16",
+      "after": "#PWR0110"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000048",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR17",
+      "after": "#PWR0111"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000049",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR18",
+      "after": "#PWR0112"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000057",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR19",
+      "after": "#PWR0113"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000059",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR20",
+      "after": "#PWR0114"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000075",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR21",
+      "after": "#PWR0115"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000076",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR22",
+      "after": "#PWR0116"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000078",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR23",
+      "after": "#PWR0117"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000079",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR24",
+      "after": "#PWR0118"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000112",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR25",
+      "after": "#PWR0119"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000116",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR26",
+      "after": "#PWR0120"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000119",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR27",
+      "after": "#PWR0121"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000121",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR28",
+      "after": "#PWR0122"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000125",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR29",
+      "after": "#PWR0123"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000201",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR30",
+      "after": "#PWR0124"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000197",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR31",
+      "after": "#PWR0125"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000143",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR32",
+      "after": "#PWR0126"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000146",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR33",
+      "after": "#PWR0127"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000150",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR34",
+      "after": "#PWR0128"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000159",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR35",
+      "after": "#PWR0129"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000161",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR36",
+      "after": "#PWR0130"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000165",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR37",
+      "after": "#PWR0131"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000170",
+      "lib_id": "power:+3V3",
+      "value": "+3V3",
+      "before": "#PWR39",
+      "after": "#PWR0132"
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000172",
+      "lib_id": "power:GND",
+      "value": "GND",
+      "before": "#PWR40",
+      "after": "#PWR0133"
+    }
+  ],
+  "sha256_after": "F68AF0B12CE4B1DDE491E66D680431677F59D6961F07AE5491FC991E88EC72F0"
+}

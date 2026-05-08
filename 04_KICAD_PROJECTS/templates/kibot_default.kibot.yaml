@@ -1,0 +1,162 @@
+# Starter KiBot configuration for KICAD_ENGINE projects.
+# Copy this file into an active project and edit paths/layers before use.
+# Generated outputs are NOT FINAL until ERC, DRC, BOM, footprint, netlist,
+# datasheet, and visual review are complete.
+
+kibot:
+  version: 1
+
+preflight:
+  erc:
+    dir: reports/erc_drc
+    format: HTML,RPT
+    output: "%f-erc.%x"
+
+  drc:
+    dir: reports/erc_drc
+    format: HTML,RPT
+    output: "%f-drc.%x"
+    schematic_parity: true
+
+outputs:
+  - name: bom_csv
+    comment: "Review BOM in CSV format"
+    type: bom
+    dir: bom
+    options:
+      format: CSV
+      output: "%f-bom.%x"
+      ignore_dnf: true
+      columns:
+        - References
+        - Quantity Per PCB
+        - Value
+        - Footprint
+        - MPN
+        - Manufacturer
+        - Datasheet
+
+  - name: schematic_pdf
+    comment: "Schematic PDF for review"
+    type: pdf_sch_print
+    dir: reports/schematic
+    options:
+      output: "%f-schematic.%x"
+
+  - name: pcb_pdf_top
+    comment: "Top-side PCB PDF for visual review"
+    type: pdf_pcb_print
+    dir: reports/pcb
+    layers:
+      - layer: F.Cu
+      - layer: F.SilkS
+      - layer: F.Mask
+      - layer: Edge.Cuts
+    options:
+      output: "%f-pcb-top.%x"
+
+  - name: pcb_pdf_bottom
+    comment: "Bottom-side PCB PDF for visual review"
+    type: pdf_pcb_print
+    dir: reports/pcb
+    layers:
+      - layer: B.Cu
+      - layer: B.SilkS
+      - layer: B.Mask
+      - layer: Edge.Cuts
+    options:
+      output: "%f-pcb-bottom.%x"
+      mirror: true
+
+  - name: pcb_svg_top
+    comment: "Top-side PCB SVG for documentation"
+    type: svg_pcb_print
+    dir: renders/pcb
+    layers:
+      - layer: F.Cu
+      - layer: F.SilkS
+      - layer: F.Mask
+      - layer: Edge.Cuts
+    options:
+      output: "%f-pcb-top.%x"
+
+  - name: pcb_svg_bottom
+    comment: "Bottom-side PCB SVG for documentation"
+    type: svg_pcb_print
+    dir: renders/pcb
+    layers:
+      - layer: B.Cu
+      - layer: B.SilkS
+      - layer: B.Mask
+      - layer: Edge.Cuts
+    options:
+      output: "%f-pcb-bottom.%x"
+      mirror: true
+
+  - name: gerbers
+    comment: "Gerbers for fabrication review only"
+    type: gerber
+    dir: fabrication/gerbers
+    options:
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: false
+      use_aux_axis_as_origin: false
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      line_width: 0.1
+      subtract_mask_from_silk: false
+      use_protel_extensions: false
+      gerber_precision: 4.6
+      create_gerber_job_file: true
+      use_gerber_x2_attributes: true
+      use_gerber_net_attributes: true
+    layers:
+      - layer: F.Cu
+        suffix: F_Cu
+      - layer: B.Cu
+        suffix: B_Cu
+      - layer: F.Paste
+        suffix: F_Paste
+      - layer: B.Paste
+        suffix: B_Paste
+      - layer: F.SilkS
+        suffix: F_SilkS
+      - layer: B.SilkS
+        suffix: B_SilkS
+      - layer: F.Mask
+        suffix: F_Mask
+      - layer: B.Mask
+        suffix: B_Mask
+      - layer: Edge.Cuts
+        suffix: Edge_Cuts
+      - layer: F.Fab
+        suffix: F_Fab
+      - layer: B.Fab
+        suffix: B_Fab
+
+  - name: drill_excellon
+    comment: "Excellon drill files for fabrication review only"
+    type: excellon
+    dir: fabrication/drill
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
+      use_aux_axis_as_origin: false
+      minimal_header: false
+      mirror_y_axis: false
+      map: pdf
+      report: "%f-drill_report.%x"
+
+  - name: step_model
+    comment: "STEP model for mechanical review"
+    type: export_3d
+    dir: fabrication/step
+    options:
+      format: step
+      output: "%f.%x"
+      download: false
+      download_lcsc: false
+      no_virtual: true

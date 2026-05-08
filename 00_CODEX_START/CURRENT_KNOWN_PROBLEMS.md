@@ -1,0 +1,195 @@
+# Current Known Problems
+
+Status: `AUTO_BUILT`
+
+Generated: `2026-05-08T13:18:17`
+
+This startup file summarizes risk signals so the next AI agent sees what not to repeat.
+
+## Sources Reviewed
+
+- `01_MEMORY\AGENT_MISTAKES_TO_AVOID.md` - Agent Mistakes To Avoid
+- `01_MEMORY\FAILED_WORKFLOWS.md` - Failed Workflows
+- `01_MEMORY\GLOBAL_HALLUCINATION_RISKS.md` - Global Hallucination Risks
+- `01_MEMORY\GLOBAL_UNVERIFIED_CLAIMS.md` - Global Unverified Claims
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_BY_PHASE_GATE.md` - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked By Phase Gate
+- `02_HISTORY\failed_attempts\FREEROUTING_FEASIBILITY_INTEGRATION_APPLYPATCH_CONTEXT_MISMATCH.md` - FreeRouting Feasibility Integration ApplyPatch Context Mismatch
+- `02_HISTORY\failed_attempts\AUTO_SANDBOX_APPROVAL_RG_GLOB_SEARCH_ERROR.md` - Failed Attempt - Auto Sandbox Approval RG Glob Search Error
+- `02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PARALLEL_DRY_RUN_RACE.md` - Failed Attempt - Auto Variant Scoring Engine Parallel Dry Run Race
+- `02_HISTORY\failed_attempts\AUTO_VARIANT_SCORING_ENGINE_PROJECT_BOOL_SCHEMA_BUG.md` - Failed Attempt - Auto Variant Scoring Engine Project Bool Schema Bug
+- `02_HISTORY\failed_attempts\AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README.md` - AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README
+- `02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH.md` - REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH
+- `02_HISTORY\failed_attempts\REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS.md` - REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS
+- `02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG
+- `02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT
+- `02_HISTORY\failed_attempts\REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_PRECONDITION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Precondition Blocked
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_PRECONDITION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Precondition Blocked
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Live PCB Truth Audit Git Status Unavailable
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_BASELINE_EXTRACTION_RETRIES.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Baseline Extraction Retries
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_BATCH_01_DETACHED_BOARD_DRC_REHEARSAL_RULE_MISMATCH.md` - ESP32_CSI_WIFI_NODE Batch 01 Detached Board DRC Rehearsal Rule Mismatch
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_CONNECTIVITY_CLEANUP_REJECTED_USB_LOCAL_REHEARSAL.md` - ESP32_CSI_WIFI_NODE Final Connectivity Cleanup Rejected USB Local Rehearsal
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_EXTRACTION_AND_TRIAL_MISPATH.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Extraction And Trial Mismatch
+- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_RENDER_PIVOT_FAILURE.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Render Pivot Failure
+- `02_HISTORY\issue_logs\AUTO_VARIANT_SCORING_ENGINE_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - Auto Variant Scoring Engine Needs First Live Project Run
+- `02_HISTORY\issue_logs\AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN.md` - AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN
+- `02_HISTORY\issue_logs\AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
+- `02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md` - AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED.md` - ESP32_CSI_WIFI_NODE Auto PCB Start Blocked
+- `02_HISTORY\issue_logs\AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS.md` - AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS
+- `02_HISTORY\issue_logs\REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN.md` - REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN
+- `02_HISTORY\issue_logs\REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS.md` - REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS.md` - ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED.md` - ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED.md` - ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked
+- `02_HISTORY\issue_logs\STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK.md` - STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_CONTROL_NET_CRITICAL_ROUTING_DEFERRED_AFTER_COPIED_BOARD_DRC_CROSSINGS.md` - ESP32_CSI_WIFI_NODE Control-Net Critical Routing Deferred After Copied-Board DRC Crossings
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REMAINING_CONNECTIVITY_BLOCKERS_AFTER_FINAL_CLEANUP.md` - ESP32_CSI_WIFI_NODE Remaining Connectivity Blockers After Final Cleanup
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Blockers
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Blockers
+- `02_HISTORY\known_agent_mistakes\README.md` - Known Agent Mistakes
+- `02_HISTORY\known_agent_mistakes\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint
+- `02_HISTORY\known_agent_mistakes\BARREL_JACK_ORIENTATION_CONFUSION.md` - Barrel Jack Orientation Confusion
+- `02_HISTORY\known_agent_mistakes\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md` - Crude 90-Degree Scripted Routing
+- `02_HISTORY\hallucination_risk_logs\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_175002_FreeRouting_Feasibility_Integration_Hallucination_Risk_Log.md` - FreeRouting Feasibility Integration Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Hallucination_Risk_Log.md` - PCB Layout Sandbox Gate Added Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Sandbox Approval System
+- `02_HISTORY\hallucination_risk_logs\AUTO_VARIANT_SCORING_ENGINE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Variant Scoring Engine
+- `02_HISTORY\hallucination_risk_logs\AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md` - AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG
+- `02_HISTORY\hallucination_risk_logs\AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG
+- `02_HISTORY\hallucination_risk_logs\AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Hallucination_Risk_Log.md` - Real KiCad PCB Routing Bridge Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Hallucination_Risk_Lo.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Hallucination_Risk_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Hallucination_Risk.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\quality_gate_failures\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Quality Gate Failure: Playwright Batch Live Capture Blocked
+- `02_HISTORY\quality_gate_failures\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md` - Quality Gate Failure: Public Release Remains Blocked
+- `02_HISTORY\quality_gate_failures\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md` - Quality Gate Failure - Open KiCad Samples Not Promotion Ready
+- `02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_FIXTURE_NOT_CLEAN_PASS.md` - Quality Gate Failure - Golden Path Sample Fixture Not Clean Pass
+- `02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_GATE_RUN_BLOCKED.md` - Quality Gate Failure - Golden Path Sample Gate Run
+- `02_HISTORY\quality_gate_failures\PROJECT_GATE_RUNNER_SAMPLE_BLOCKED.md` - Quality Gate Failure - ATtiny85 Gate Runner Sample
+- `02_HISTORY\quality_gate_failures\POST_SAMPLE_P0_P1_REPAIR_PUBLIC_RELEASE_STILL_BLOCKED.md` - Quality Gate Failure - Public Release Still Blocked After P0/P1 Repair
+- `02_HISTORY\quality_gate_failures\KICAD_ENGINE_VISUAL_GATE_ROOT_CAUSE_CONFIRMED.md` - Quality Gate Failure: Visual Gate Evidence Was Overclaimed
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_FALSE_ANNOTATION_PASS.md` - Quality Gate Failure: ESP32_CSI_FALSE_ANNOTATION_PASS
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_PRIOR_FALSE_ANNOTATION_PASS_CONFIRMED.md` - Quality Gate Failure: Prior False Annotation Pass Confirmed
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_TEXT_EDIT_ANNOTATION_FAILED.md` - Quality Gate Failure: Codex Text-Edit Annotation Did Not Resolve GUI State
+- `02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_FILE_EDIT_ANNOTATION_REJECTED.md` - Quality Gate Failure: Codex File-Edit Annotation Rejected
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Mechanical 3D Review
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE BOM Sourcing Review
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Production Fix Pass
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
+- `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
+- `02_HISTORY\quality_gate_failures\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md` - Quality Gate Failure
+- `02_HISTORY\uncertainty_logs\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Layout Sandbox Variants Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_175002_FreeRouting_Feasibility_Integration_Uncertainty_Log.md` - FreeRouting Feasibility Integration Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Uncertainty_Log.md` - PCB Layout Sandbox Gate Added Uncertainty Log
+- `02_HISTORY\uncertainty_logs\AUTO_SANDBOX_APPROVAL_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Sandbox Approval System
+- `02_HISTORY\uncertainty_logs\AUTO_VARIANT_SCORING_ENGINE_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Variant Scoring Engine
+- `02_HISTORY\uncertainty_logs\AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md` - AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG
+- `02_HISTORY\uncertainty_logs\AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG.md` - AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG
+- `02_HISTORY\uncertainty_logs\AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG.md` - AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Uncertainty_Log.md` - Real KiCad PCB Routing Bridge Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Uncertainty_Log.md` - ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
+- `04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
+- `04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims
+- `04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\quality_gate_failures\README.md` - Quality Gate Failures
+- `04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\uncertainty_logs\README.md` - Uncertainty Logs
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md` - PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md` - FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\NOT_FINAL_FAB_EXPORT_BLOCKED.md` - NOT_FINAL_FAB_EXPORT_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_AUDIT_ONLY_BLOCKERS_REMAIN_OPEN.md` - Issue Log: Schematic Audit-Only Blockers Remain Open
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\SCHEMATIC_SAFE_REPAIR_BLOCKERS_REMAIN_OPEN.md` - Issue Log: Schematic Safe Repair Blockers Remain Open
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_SYNC_BLOCKED_Q1_PIN_MAPPING.md` - PCB Sync Blocked - Q1 Pin Mapping
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\ROUTING_STAGE_1_2_BUCK_SW_BST_CROSSING_REMAINS.md` - Routing Stage 1/2 - Buck SW/BST Crossing Remains
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\LIVE_PCB_TRUTH_AUDIT_BLOCKERS.md` - Live PCB Truth Audit - Current Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\EXISTING_TRACE_AUDIT_ROUTING_CONTINUATION_BLOCKED.md` - Existing Trace Audit - Routing Continuation Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_real_pcb_repair_pass_1_remaining_blockers.md` - Real PCB Repair Pass 1 Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_real_pcb_full_routing_pass_remaining_blockers.md` - Real PCB Full Routing Pass Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_BATCH_02_REMAINING_ROUTING_WORK.md` - PCB Batch 02 Remaining Routing Work
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_04_control_net_remaining_blockers.md` - Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_05_usb_data_blocked.md` - Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_final_pcb_visual_review_remaining_blockers.md` - Final PCB Visual Review Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY User Correction: USB-C Connector Footprint
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_routing_quality_correction.md` - User Correction - Routing Quality
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_live_pcb_truth_audit_user_correction.md` - User Correction - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md` - FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\NOT_FINAL_FAB_EXPORT_BLOCKED.md` - NOT_FINAL_FAB_EXPORT_BLOCKED
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\SCHEMATIC_SAFE_REPAIR_GATE_STILL_BLOCKED.md` - Quality Gate Failure: Schematic Safe Repair Gate Still Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_154747_ESP32_CSI_schematic_to_PCB_gate_remains_failed_after_electrical_footprint_gate.md` - ESP32 CSI schematic to PCB gate remains failed after electrical footprint gate
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_160734_Emergency_schematic_truth_audit_gate_failure.md` - Emergency schematic truth audit gate failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_161816_Footprint_assignment_gate_remains_blocked.md` - Footprint assignment gate remains blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_164153_ESP32_schematic_to_PCB_gate_remains_blocked_after_real_repair.md` - ESP32 schematic to PCB gate remains blocked after real repair
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_164822_ESP32_final_schematic_readiness_audit_gate_failure.md` - ESP32 final schematic readiness audit gate failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_220744_PCB_update_blocked_gate_fail.md` - PCB Update Blocked By Schematic-To-PCB Gate
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_221529_PCB_mechanical_setup_blocked_no_pcb.md` - PCB Mechanical Setup Blocked - No PCB
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_placement_pass_1_blocked.md` - Quality Gate Failure - PCB Placement Pass 1 Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_placement_strict_audit_blocked.md` - Quality Gate Failure - PCB Placement Strict Audit Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_pcb_zone_setup_blocked.md` - Quality Gate Failure - PCB Zone Setup Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_critical_routing_blocked.md` - Quality Gate Failure - Critical Routing Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_full_routing_blocked.md` - Quality Gate Failure - Full Routing Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-06_final_pcb_audit_blocked.md` - Quality Gate Failure - Final PCB Audit Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260507_pcb_sync_blocked_q1_pin_mapping.md` - Quality Gate Failure - PCB Sync Blocked By Q1 Pin Mapping
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_live_pcb_truth_audit_blocked.md` - Quality Gate Failure - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_existing_trace_audit_blocked.md` - Quality Gate Failure - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-08_real_pcb_repair_pass_1_user_override_exception.md` - Quality Gate Exception - Real PCB Repair Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_1_2_cleanup_uncertainty.md` - Uncertainty Log - Stage 1/2 Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_3_usb_blocked_uncertainty.md` - Uncertainty Log - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\STAGE_1_2_PROFESSIONAL_CLEANUP_UNCERTAINTY_LOG.md` - Stage 1/2 Professional Cleanup Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_live_pcb_truth_audit_uncertainty.md` - Uncertainty Log - Live PCB Truth Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_existing_trace_audit_uncertainty.md` - Uncertainty Log - Existing Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260507_maintenance_layer_investigation_and_repair_uncertainty_log.md` - Maintenance Layer Investigation And Repair Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260507_maintenance_layer_test_uncertainty_log.md` - Maintenance Layer Test Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_real_pcb_repair_pass_1_uncertainty_log.md` - Real PCB Repair Pass 1 Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_UNCERTAINTY_LOG.md` - Uncertainty Log - REAL PCB Critical Routing Pass 1
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_UNCERTAINTY_LOG.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_routing_work_prep_uncertainty_log.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260508_pcb_batch_01_drc_and_gnd_repair_uncertainty_log.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\PCB_BATCH_02_POWER_ROUTING_REPAIR_UNCERTAINTY_LOG.md` - PCB Batch 02 Power Routing Repair Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_03_usb_control_routing_uncertainty.md` - Uncertainty Log: PCB Batch 03 USB Control Routing
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_04_control_net_routing_uncertainty.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_04_replay_request_uncertainty.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_05_usb_data_routing_uncertainty.md` - Uncertainty Log
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_final_connectivity_cleanup_uncertainty_log.md` - Uncertainty Log: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_trace_by_trace_audit_uncertainty_log.md` - Uncertainty Log: Final Trace By Trace Audit
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_pcb_visual_review_package_uncertainty_log.md` - Uncertainty Log - Final PCB Visual Review Package
+
+## Required Startup Behavior
+
+- Read this file before making KiCad engineering claims.
+- Treat listed problems as unresolved unless the linked source says otherwise.
+- Create issues, uncertainty logs, or quality-gate failures for unresolved high-risk work.

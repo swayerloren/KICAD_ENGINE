@@ -1,0 +1,60 @@
+{
+  "blocked_reasons": [
+    "1 unrouted nets remain",
+    "2 keepout violations detected",
+    "2 trace audit entries flagged",
+    "GND strategy missing",
+    "USB D+/D- incomplete",
+    "critical power net missing",
+    "regulator critical loop not planned",
+    "routing plan did not pass",
+    "trace crosses antenna keepout",
+    "unrouted critical net",
+    "via used without reason on critical net"
+  ],
+  "hard_fails": [
+    "GND strategy missing",
+    "USB D+/D- incomplete",
+    "critical power net missing",
+    "regulator critical loop not planned",
+    "trace crosses antenna keepout",
+    "unrouted critical net",
+    "via used without reason on critical net"
+  ],
+  "project": "bad_keepout_violation_fixture",
+  "readiness": {
+    "exact_blockers": [
+      "1 unrouted nets remain",
+      "2 keepout violations detected",
+      "2 trace audit entries flagged",
+      "GND strategy missing",
+      "USB D+/D- incomplete",
+      "critical power net missing",
+      "regulator critical loop not planned",
+      "routing plan did not pass",
+      "trace crosses antenna keepout",
+      "unrouted critical net",
+      "via used without reason on critical net"
+    ],
+    "ready_for_real_kicad_test": false
+  },
+  "schema_version": "1.0",
+  "scores": {
+    "critical_net_completeness": 13,
+    "drc_risk": 0,
+    "human_review_risk": 1,
+    "power_path_quality": 15,
+    "rf_keepout_compliance": 0,
+    "trace_audit_completeness": 5,
+    "unrouted_net_count": 4,
+    "usb_path_quality": 0,
+    "via_count_reasonableness": 6
+  },
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "hard_fail_count": 7,
+    "total_score": 42
+  },
+  "tool": "score_routing_plan",
+  "total_score": 42
+}

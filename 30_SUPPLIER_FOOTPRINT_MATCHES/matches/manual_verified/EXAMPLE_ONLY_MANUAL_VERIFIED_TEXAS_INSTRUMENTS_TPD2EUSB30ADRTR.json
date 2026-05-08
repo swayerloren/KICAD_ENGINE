@@ -1,0 +1,29 @@
+{
+  "confidence_level": "UNVERIFIED",
+  "connector_orientation_status": "NOT_APPLICABLE",
+  "created_at": "2026-05-03T14:37:52+00:00",
+  "datasheet_url": "UNKNOWN",
+  "evidence": [],
+  "footprint_status": "UNVERIFIED",
+  "high_risk_categories": [
+    "ESD_ARRAY"
+  ],
+  "human_review_required": true,
+  "jlc_lcsc_part_number": "UNKNOWN",
+  "kicad_3d_model_candidate": "UNKNOWN",
+  "kicad_footprint_candidate": "Package_TO_SOT_SMD:SOT-23-6 or Package_SON candidate only",
+  "kicad_symbol_candidate": "Protection device candidate only",
+  "manufacturer": "Texas Instruments",
+  "mpn": "TPD2EUSB30ADRTR",
+  "notes": [
+    "EXAMPLE_ONLY. ESD array pad mapping and flow-through layout must be checked against exact TI drawing."
+  ],
+  "package_drawing_source": "UNKNOWN",
+  "package_name_from_supplier": "DRT/USON/SOT-style ESD package example - requires TI package drawing",
+  "pinout_status": "UNVERIFIED",
+  "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_TEXAS_INSTRUMENTS_TPD2EUSB30ADRTR",
+  "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+  "supplier": "manual_verified",
+  "supplier_sku": "EXAMPLE_ONLY",
+  "updated_at": "2026-05-03T14:37:52+00:00"
+}

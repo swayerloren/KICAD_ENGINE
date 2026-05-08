@@ -1,0 +1,1616 @@
+{
+  "drc": {
+    "error_count": 3,
+    "raw": {
+      "$schema": "https://schemas.kicad.org/drc.v1.json",
+      "coordinate_units": "mm",
+      "date": "2026-05-07T20:56:25-0400",
+      "kicad_version": "9.0.7",
+      "schematic_parity": [],
+      "source": "esp-rust-board.kicad_pcb",
+      "unconnected_items": [],
+      "violations": [
+        {
+          "description": "Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1251 mm)",
+          "items": [
+            {
+              "description": "Zone [GND] on B.Cu, priority 1",
+              "pos": {
+                "x": 159.512,
+                "y": 128.524
+              },
+              "uuid": "80eeb2f6-bfa7-454a-81e6-486d97b61209"
+            },
+            {
+              "description": "Zone [+3V3] on B.Cu, priority 2",
+              "pos": {
+                "x": 152.3324,
+                "y": 94.284
+              },
+              "uuid": "a2d51e80-daf5-4ef7-92db-b1da00ef05b1"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance"
+        },
+        {
+          "description": "Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1231 mm)",
+          "items": [
+            {
+              "description": "Zone 'TOP_GND' [GND] on F.Cu, priority 0",
+              "pos": {
+                "x": 159.512,
+                "y": 128.524
+              },
+              "uuid": "a8fb4119-650e-4ac6-94c5-3cf1ab9f9325"
+            },
+            {
+              "description": "Zone [+3V3] on F.Cu, priority 1",
+              "pos": {
+                "x": 144.6276,
+                "y": 108.585
+              },
+              "uuid": "f216282b-05a9-4bd3-b237-e1d0693652e9"
+            }
+          ],
+          "severity": "error",
+          "type": "clearance"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads (expected 'SMD'; actual 'Through hole')",
+          "items": [
+            {
+              "description": "Footprint D1",
+              "pos": {
+                "x": 139.442,
+                "y": 73.834
+              },
+              "uuid": "fd745b43-8ce2-4629-8080-530373cf8b31"
+            }
+          ],
+          "severity": "error",
+          "type": "footprint_type_mismatch"
+        },
+        {
+          "description": "Via is not connected or connected on only one layer",
+          "items": [
+            {
+              "description": "Via [+3V3] on F.Cu - B.Cu",
+              "pos": {
+                "x": 145.669,
+                "y": 93.091
+              },
+              "uuid": "f66445a3-dc52-405e-883b-923ec876e758"
+            }
+          ],
+          "severity": "warning",
+          "type": "via_dangling"
+        },
+        {
+          "description": "Silkscreen clipped by board edge",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 158.75,
+                "y": 128.524
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbb81"
+            },
+            {
+              "description": "Segment of J1 on F.Silkscreen",
+              "pos": {
+                "x": 143.292,
+                "y": 127.304
+              },
+              "uuid": "6a567bea-b4ae-4ae0-8fe6-f1ab689e091c"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_edge_clearance"
+        },
+        {
+          "description": "Silkscreen clipped by board edge",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 158.75,
+                "y": 128.524
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbb81"
+            },
+            {
+              "description": "Segment of J1 on F.Silkscreen",
+              "pos": {
+                "x": 143.292,
+                "y": 128.584
+              },
+              "uuid": "d1747514-84b8-48bd-8139-cb62e6af9645"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_edge_clearance"
+        },
+        {
+          "description": "Silkscreen clipped by board edge",
+          "items": [
+            {
+              "description": "Segment on Edge.Cuts",
+              "pos": {
+                "x": 158.75,
+                "y": 128.524
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbb81"
+            },
+            {
+              "description": "Segment of J1 on F.Silkscreen",
+              "pos": {
+                "x": 152.872,
+                "y": 128.584
+              },
+              "uuid": "dc293504-8b38-48c4-933a-87973ac3dddb"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_edge_clearance"
+        },
+        {
+          "description": "Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D2",
+              "pos": {
+                "x": 156.718,
+                "y": 82.931
+              },
+              "uuid": "00000000-0000-0000-0000-000061ba038b"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'Rust_Board' does not match copy in library 'Rust_Board'.",
+          "items": [
+            {
+              "description": "Footprint U4",
+              "pos": {
+                "x": 148.082,
+                "y": 96.139
+              },
+              "uuid": "00000000-0000-0000-0000-000061ba10c9"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C3",
+              "pos": {
+                "x": 150.368,
+                "y": 90.6272
+              },
+              "uuid": "00000000-0000-0000-0000-000061ba8aac"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C13",
+              "pos": {
+                "x": 146.177,
+                "y": 83.312
+              },
+              "uuid": "00000000-0000-0000-0000-000061ba934d"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C1",
+              "pos": {
+                "x": 151.4348,
+                "y": 90.6272
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbba01"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C14",
+              "pos": {
+                "x": 151.0792,
+                "y": 93.6244
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbba64"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R12",
+              "pos": {
+                "x": 143.642,
+                "y": 85.034
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbaca"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C16",
+              "pos": {
+                "x": 148.082,
+                "y": 116.0
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbb00"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C2",
+              "pos": {
+                "x": 151.0284,
+                "y": 88.5952
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbcf5"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'D_SOD-523' does not match copy in library 'Diode_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D8",
+              "pos": {
+                "x": 148.082,
+                "y": 118.872
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbe1c"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C8",
+              "pos": {
+                "x": 140.589,
+                "y": 72.009
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbe93"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C10",
+              "pos": {
+                "x": 140.716,
+                "y": 77.851
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbec3"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'D_SOD-523' does not match copy in library 'Diode_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D7",
+              "pos": {
+                "x": 149.86,
+                "y": 118.872
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbf2a"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R10",
+              "pos": {
+                "x": 154.178,
+                "y": 82.931
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbbf68"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "The current configuration does not include the footprint library 'Espressif'.",
+          "items": [
+            {
+              "description": "Footprint U3",
+              "pos": {
+                "x": 148.082,
+                "y": 76.2
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc05d"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_issues"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R7",
+              "pos": {
+                "x": 150.4696,
+                "y": 85.9536
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc18d"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C9",
+              "pos": {
+                "x": 139.573,
+                "y": 72.009
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc2f2"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'D_SOD-523' does not match copy in library 'Diode_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D5",
+              "pos": {
+                "x": 146.304,
+                "y": 118.872
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc329"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'IC_ICM-42670-P' does not match copy in library 'Rust_Board'.",
+          "items": [
+            {
+              "description": "Footprint U2",
+              "pos": {
+                "x": 148.092,
+                "y": 88.034
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc3ba"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C12",
+              "pos": {
+                "x": 141.097,
+                "y": 83.312
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc460"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R6",
+              "pos": {
+                "x": 142.4,
+                "y": 123.9
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc496"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R4",
+              "pos": {
+                "x": 153.8,
+                "y": 123.952
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc4c6"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'D_SOD-123' does not match copy in library 'Diode_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D6",
+              "pos": {
+                "x": 144.018,
+                "y": 117.348
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc516"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C4",
+              "pos": {
+                "x": 152.0444,
+                "y": 87.2236
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc559"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R18",
+              "pos": {
+                "x": 148.336,
+                "y": 84.3788
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc589"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R17",
+              "pos": {
+                "x": 149.9616,
+                "y": 84.3788
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc5f8"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'SON100P200X200X80-5N' does not match copy in library 'Rust_Board'.",
+          "items": [
+            {
+              "description": "Footprint U1",
+              "pos": {
+                "x": 148.1328,
+                "y": 91.434
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc632"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C11",
+              "pos": {
+                "x": 138.557,
+                "y": 72.009
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc7e4"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R8",
+              "pos": {
+                "x": 140.716,
+                "y": 75.946
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc814"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R2",
+              "pos": {
+                "x": 152.4254,
+                "y": 101.346
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf731"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D3",
+              "pos": {
+                "x": 142.494,
+                "y": 113.157
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf763"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C6",
+              "pos": {
+                "x": 153.035,
+                "y": 103.378
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf797"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C15",
+              "pos": {
+                "x": 147.574,
+                "y": 109.728
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf7c7"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+          "items": [
+            {
+              "description": "Footprint U6",
+              "pos": {
+                "x": 147.447,
+                "y": 113.157
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf7fb"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C5",
+              "pos": {
+                "x": 151.003,
+                "y": 106.807
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf83f"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R9",
+              "pos": {
+                "x": 145.1102,
+                "y": 111.4298
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf872"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.",
+          "items": [
+            {
+              "description": "Footprint Q1",
+              "pos": {
+                "x": 151.892,
+                "y": 113.665
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf8a6"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R1",
+              "pos": {
+                "x": 148.5392,
+                "y": 101.346
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf8e4"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint C7",
+              "pos": {
+                "x": 144.907,
+                "y": 103.378
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf914"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R3",
+              "pos": {
+                "x": 150.495,
+                "y": 101.346
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf947"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.",
+          "items": [
+            {
+              "description": "Footprint U5",
+              "pos": {
+                "x": 150.114,
+                "y": 103.886
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf97b"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R19",
+              "pos": {
+                "x": 151.0284,
+                "y": 84.3788
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcf9b3"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'D_SOD-123' does not match copy in library 'Diode_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D4",
+              "pos": {
+                "x": 151.765,
+                "y": 109.728
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcfa1b"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R14",
+              "pos": {
+                "x": 144.526,
+                "y": 114.173
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcfa5b"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R15",
+              "pos": {
+                "x": 154.305,
+                "y": 113.665
+              },
+              "uuid": "00000000-0000-0000-0000-000061bcfa8b"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R11",
+              "pos": {
+                "x": 141.732,
+                "y": 91.694
+              },
+              "uuid": "834fc8b0-8952-4228-85d3-31aa9be133ba"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.",
+          "items": [
+            {
+              "description": "Footprint R5",
+              "pos": {
+                "x": 142.4,
+                "y": 125.9
+              },
+              "uuid": "837c71e0-ae97-4217-8e6c-e5d4ca902f7c"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm' does not match copy in library 'LED_SMD'.",
+          "items": [
+            {
+              "description": "Footprint D9",
+              "pos": {
+                "x": 148.082,
+                "y": 97.536
+              },
+              "uuid": "e282598d-15f1-4490-9bf0-c9c383c40be4"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_mismatch"
+        },
+        {
+          "description": "Footprint 'SOD-882' not found in library 'Rust_Board'.",
+          "items": [
+            {
+              "description": "Footprint D1",
+              "pos": {
+                "x": 139.442,
+                "y": 73.834
+              },
+              "uuid": "fd745b43-8ce2-4629-8080-530373cf8b31"
+            }
+          ],
+          "severity": "warning",
+          "type": "lib_footprint_issues"
+        },
+        {
+          "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+          "items": [
+            {
+              "description": "PCB text '3V3' on F.Silkscreen",
+              "pos": {
+                "x": 139.954,
+                "y": 78.994
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc16c"
+            }
+          ],
+          "severity": "warning",
+          "type": "text_height"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 155.956,
+                "y": 116.332
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc484"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F511 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.45468
+              },
+              "uuid": "3703ee47-8549-4047-ae54-f351dd7ce1b3"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 155.956,
+                "y": 116.332
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc484"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.070849
+              },
+              "uuid": "beca083b-6c14-4b1e-877d-bb541cd1ea3d"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61C0F511 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.45468
+              },
+              "uuid": "3703ee47-8549-4047-ae54-f351dd7ce1b3"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.070849
+              },
+              "uuid": "beca083b-6c14-4b1e-877d-bb541cd1ea3d"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 155.956,
+                "y": 116.078
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc277"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F511 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.45468
+              },
+              "uuid": "3703ee47-8549-4047-ae54-f351dd7ce1b3"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 154.96159,
+                "y": 121.03481
+              },
+              "uuid": "1f77e19d-e9a2-47dc-9090-a7adfe4813b9"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F511 on F.Silkscreen",
+              "pos": {
+                "x": 154.96159,
+                "y": 121.03481
+              },
+              "uuid": "cdeb183d-03ed-4334-82ba-8b5ca29564c5"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 156.0068,
+                "y": 123.2408
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc17b"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.070849
+              },
+              "uuid": "beca083b-6c14-4b1e-877d-bb541cd1ea3d"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 155.956,
+                "y": 116.078
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc277"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.070849
+              },
+              "uuid": "beca083b-6c14-4b1e-877d-bb541cd1ea3d"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 159.258,
+                "y": 116.0272
+              },
+              "uuid": "00000000-0000-0000-0000-000061bbc84d"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 156.0,
+                "y": 117.070849
+              },
+              "uuid": "beca083b-6c14-4b1e-877d-bb541cd1ea3d"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61C0F511 on F.Silkscreen",
+              "pos": {
+                "x": 154.71775,
+                "y": 119.00916
+              },
+              "uuid": "b5ea958d-0cfd-4df9-ac20-3edbdc47b6ee"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 154.71775,
+                "y": 119.00916
+              },
+              "uuid": "bc855ec1-78de-4230-883c-05cffff3c6c7"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61C0F551 on F.Silkscreen",
+              "pos": {
+                "x": 154.92349,
+                "y": 120.16105
+              },
+              "uuid": "498fa3fc-1a58-4235-b701-b903c311e3f6"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C0F511 on F.Silkscreen",
+              "pos": {
+                "x": 154.92349,
+                "y": 120.16105
+              },
+              "uuid": "bcee6173-22b2-4630-9f74-a9e3887b8ff2"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-623DAB98 on F.Silkscreen",
+              "pos": {
+                "x": 154.700268,
+                "y": 78.735374
+              },
+              "uuid": "7077dadf-0392-4c12-8fac-78feaa48e607"
+            },
+            {
+              "description": "Segment of U3 on F.Silkscreen",
+              "pos": {
+                "x": 141.482,
+                "y": 70.6
+              },
+              "uuid": "c100e485-7a76-444a-b406-e45087aacde7"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-623DAB98 on F.Silkscreen",
+              "pos": {
+                "x": 154.700268,
+                "y": 78.735374
+              },
+              "uuid": "7077dadf-0392-4c12-8fac-78feaa48e607"
+            },
+            {
+              "description": "Segment of U3 on F.Silkscreen",
+              "pos": {
+                "x": 154.682,
+                "y": 65.3
+              },
+              "uuid": "ca581d24-9ab6-4e0c-be3c-f19f9b7f7e99"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61C05A22 on F.Silkscreen",
+              "pos": {
+                "x": 146.997737,
+                "y": 92.620439
+              },
+              "uuid": "b0ddb503-a391-46dd-bf77-8b8b2cf30231"
+            },
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 146.558,
+                "y": 92.9894
+              },
+              "uuid": "e3d02135-fb80-4e8f-bd80-6e09f80bea91"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 149.7076,
+                "y": 92.9894
+              },
+              "uuid": "41437bcb-6772-46a1-9c36-d23022869c72"
+            },
+            {
+              "description": "Polygon of kibuzzard-61C05A22 on F.Silkscreen",
+              "pos": {
+                "x": 146.997737,
+                "y": 92.620439
+              },
+              "uuid": "b0ddb503-a391-46dd-bf77-8b8b2cf30231"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment of SW1 on F.Silkscreen",
+              "pos": {
+                "x": 144.2956,
+                "y": 99.736
+              },
+              "uuid": "2b720fb1-e4d7-4330-8853-46bab5b648ef"
+            },
+            {
+              "description": "Polygon of kibuzzard-6269032F on F.Silkscreen",
+              "pos": {
+                "x": 144.8054,
+                "y": 99.558607
+              },
+              "uuid": "f1a5ac9f-b7f9-4945-8eae-f681af79ed7b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61C05A1A on F.Silkscreen",
+              "pos": {
+                "x": 143.028194,
+                "y": 87.01972
+              },
+              "uuid": "518cc0fe-fa58-4dae-a1ef-bcd050c28ec2"
+            },
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 145.611,
+                "y": 88.8665
+              },
+              "uuid": "b9fd349d-b383-435c-8562-be9b262ad840"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61C05A1A on F.Silkscreen",
+              "pos": {
+                "x": 143.028194,
+                "y": 87.01972
+              },
+              "uuid": "518cc0fe-fa58-4dae-a1ef-bcd050c28ec2"
+            },
+            {
+              "description": "Segment on F.Silkscreen",
+              "pos": {
+                "x": 145.561,
+                "y": 87.2015
+              },
+              "uuid": "8fee6ae5-6a13-4319-a6c7-4ff8fadc2414"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment of SW1 on F.Silkscreen",
+              "pos": {
+                "x": 144.1756,
+                "y": 99.736
+              },
+              "uuid": "cfc021bb-abd3-4307-a432-3626ee9ea496"
+            },
+            {
+              "description": "Polygon of kibuzzard-6269032F on F.Silkscreen",
+              "pos": {
+                "x": 144.8054,
+                "y": 99.558607
+              },
+              "uuid": "f1a5ac9f-b7f9-4945-8eae-f681af79ed7b"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment of REF** on B.Silkscreen",
+              "pos": {
+                "x": 147.4056,
+                "y": 124.984
+              },
+              "uuid": "40346a5c-41cd-4378-9d56-9e921a1e0734"
+            },
+            {
+              "description": "Footprint text of REF** (PB)",
+              "pos": {
+                "x": 146.428625,
+                "y": 125.984
+              },
+              "uuid": "9ddd0afe-6b4f-4d87-8112-c5b7d07ad5bc"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Segment on B.Silkscreen",
+              "pos": {
+                "x": 144.692,
+                "y": 80.134
+              },
+              "uuid": "170d9456-0ed9-456a-8e26-1331c0e939c4"
+            },
+            {
+              "description": "Polygon of kibuzzard-61E1AB2E on B.Silkscreen",
+              "pos": {
+                "x": 158.442831,
+                "y": 77.787951
+              },
+              "uuid": "3dc33113-9db4-4f40-af3c-81b3199f9857"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61E1AB2E on B.Silkscreen",
+              "pos": {
+                "x": 158.442831,
+                "y": 77.787951
+              },
+              "uuid": "3dc33113-9db4-4f40-af3c-81b3199f9857"
+            },
+            {
+              "description": "Segment on B.Silkscreen",
+              "pos": {
+                "x": 158.892,
+                "y": 77.784
+              },
+              "uuid": "58097650-024a-4818-8b0b-f69b1ceec0d0"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61E1AB2E on B.Silkscreen",
+              "pos": {
+                "x": 158.442831,
+                "y": 77.787951
+              },
+              "uuid": "3dc33113-9db4-4f40-af3c-81b3199f9857"
+            },
+            {
+              "description": "Segment on B.Silkscreen",
+              "pos": {
+                "x": 158.892,
+                "y": 81.734
+              },
+              "uuid": "90050a84-8ed9-48c3-b985-fa954b355f04"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61E1AB2E on B.Silkscreen",
+              "pos": {
+                "x": 158.442831,
+                "y": 77.787951
+              },
+              "uuid": "3dc33113-9db4-4f40-af3c-81b3199f9857"
+            },
+            {
+              "description": "Segment on B.Silkscreen",
+              "pos": {
+                "x": 144.692,
+                "y": 77.784
+              },
+              "uuid": "9f0d14cd-09b7-47d3-a806-9f0b9fbd0450"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        },
+        {
+          "description": "Silkscreen overlap",
+          "items": [
+            {
+              "description": "Polygon of kibuzzard-61E1AB2E on B.Silkscreen",
+              "pos": {
+                "x": 158.442831,
+                "y": 77.787951
+              },
+              "uuid": "3dc33113-9db4-4f40-af3c-81b3199f9857"
+            },
+            {
+              "description": "Segment on B.Silkscreen",
+              "pos": {
+                "x": 144.692,
+                "y": 80.134
+              },
+              "uuid": "f68b270c-ae80-48bf-85e0-87a0dc235fc5"
+            }
+          ],
+          "severity": "warning",
+          "type": "silk_overlap"
+        }
+      ]
+    },
+    "risk": "HIGH",
+    "unconnected_count": 0,
+    "violation_count": 81,
+    "warning_count": 78
+  },
+  "not_extracted": [
+    "ZONE_0_/Buck_Coil exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "ZONE_1_+BATT exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "ZONE_2_+5V exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "ZONE_3_GND exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "ZONE_4_+3V3 exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "ZONE_5_VBUS exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "ZONE_6_GND exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "ZONE_7_+3V3 exposes keepout-style zone parameters in KiCad API but is not a rule area; extracted as COPPER_ZONE",
+    "per-net ratsnest extraction not implemented; only total unconnected count is extracted"
+  ],
+  "project": "esp-rust-board",
+  "readiness": {
+    "exact_blockers": [
+      "26 trace audit entries flagged",
+      "regulator critical loop not planned",
+      "routing plan did not pass"
+    ],
+    "ready_for_active_project_routing": false,
+    "ready_for_copied_board_live_test": true
+  },
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "steps": [
+    {
+      "command": [
+        "C:\\Users\\LJ\\AppData\\Local\\Python\\pythoncore-3.12-64\\python.exe",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\scripts\\extract_kicad_pcb_to_routing_schema.py",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_schema.json",
+        "--markdown",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_schema.md"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--format",
+        "json",
+        "--severity-all",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\drc.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "Found 81 violations\nFound 0 unconnected items\nSaved DRC Report to C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\drc.json\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\LJ\\AppData\\Local\\Python\\pythoncore-3.12-64\\python.exe",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\scripts\\generate_routing_plan.py",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_schema.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_plan.json",
+        "--markdown",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_plan.md"
+      ],
+      "returncode": 1,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\LJ\\AppData\\Local\\Python\\pythoncore-3.12-64\\python.exe",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\scripts\\route_critical_nets_plan.py",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_plan.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\critical_nets.json",
+        "--markdown",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\critical_nets.md"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\LJ\\AppData\\Local\\Python\\pythoncore-3.12-64\\python.exe",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\scripts\\detect_unrouted_nets.py",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_schema.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\unrouted.json",
+        "--markdown",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\unrouted.md"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\LJ\\AppData\\Local\\Python\\pythoncore-3.12-64\\python.exe",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\scripts\\detect_trace_keepout_violations.py",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_schema.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\keepout_violations.json",
+        "--markdown",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\keepout_violations.md"
+      ],
+      "returncode": 0,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\LJ\\AppData\\Local\\Python\\pythoncore-3.12-64\\python.exe",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\scripts\\trace_by_trace_audit.py",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_schema.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\trace_audit.json",
+        "--markdown",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\trace_audit.md"
+      ],
+      "returncode": 1,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\LJ\\AppData\\Local\\Python\\pythoncore-3.12-64\\python.exe",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\scripts\\score_routing_plan.py",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_schema.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\routing_plan.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\critical_nets.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\unrouted.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\keepout_violations.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\trace_audit.json",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\score.json",
+        "--markdown",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\outputs\\esp_rust_board\\score.md"
+      ],
+      "returncode": 1,
+      "stderr": "",
+      "stdout": ""
+    }
+  ],
+  "summary": {
+    "board_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb",
+    "component_count": 96,
+    "drc_risk": "HIGH",
+    "drc_violation_count": 81,
+    "keepout_count": 0,
+    "net_count": 63,
+    "track_count": 543,
+    "via_count": 216,
+    "zone_count": 8
+  },
+  "tool": "run_real_board_routing_audit"
+}

@@ -1,0 +1,3 @@
+vendor,family,part_number,category,search_terms,preferred_sources,required_outputs,priority,notes
+STMicro,STM32F1,STM32F103C8T6,microcontroller,"STM32F103C8T6 datasheet reference manual package LQFP48","stmicro;kicad_official_libraries;digikey;mouser","datasheet_link;part_metadata;package_source;kicad_candidates",high,"Pilot target. Keep footprint UNVERIFIED until ST package drawing review."
+STMicro,STM32F4,STM32F411CEU6,microcontroller,"STM32F411CEU6 datasheet package UFQFPN48","stmicro;kicad_official_libraries;digikey;mouser","datasheet_link;part_metadata;package_source;kicad_candidates",high,"Package/footprint risk. Do not infer package from suffix without source."

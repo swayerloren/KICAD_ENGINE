@@ -1,0 +1,880 @@
+{
+  "candidate_type": "footprint",
+  "candidates": [
+    {
+      "description": "16-pin USB-C receptacle, USB2.0 and PD, 5A VBUS rating, https://datasheet.lcsc.com/lcsc/2211161000_HCTL-HC-TYPE-C-16P-01A_C2894897.pdf",
+      "footprint": "USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A.step"
+      ],
+      "pad_count": 20,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 50,
+      "tags": "usb usb-c 2.0 pd",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "Universal Serial Bus (USB) Shielded I/O Plug, Type C, Right Angle, Surface Mount, https://www.jae.com/en/searchfilter/?topics_keyword=DX07P024AJ1&mainItemSelect=1",
+      "footprint": "USB_C_Plug_JAE_DX07P024AJ1",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Plug_JAE_DX07P024AJ1.step"
+      ],
+      "pad_count": 28,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Plug_JAE_DX07P024AJ1.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB Type-C Plug Edge Mount",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "Universal Serial Bus (USB) Shielded I/O Plug, Type C, Right Angle, Surface Mount, http://www.molex.com/pdm_docs/sd/1054440001_sd.pdf",
+      "footprint": "USB_C_Plug_Molex_105444",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Plug_Molex_105444.step"
+      ],
+      "pad_count": 24,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Plug_Molex_105444.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB Type-C Plug Edge Mount",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "Low-profile vertical USB 2.0 Type C Plug Shenzhen Jing Tuo Jin Electronics Co 918-118A2021Y40002 ( https://datasheet.lcsc.com/lcsc/1912111437_Jing-Extension-of-the-Electronic-Co--918-118A2021Y40002_C399939.pdf ) also compatible with Korean HRO Parts Elec TYPE-C-31-G-06",
+      "footprint": "USB_C_Plug_ShenzhenJingTuoJin_918-118A2021Y40002_Vertical",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Plug_ShenzhenJingTuoJin_918-118A2021Y40002_Vertical.step"
+      ],
+      "pad_count": 18,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Plug_ShenzhenJingTuoJin_918-118A2021Y40002_Vertical.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "type-c usb2",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A",
+      "footprint": "USB_C_Receptacle_Amphenol_12401548E4-2A",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.step"
+      ],
+      "pad_count": 28,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_Amphenol_12401548E4-2A.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle Hybrid",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A",
+      "footprint": "USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401548E4-2A.step"
+      ],
+      "pad_count": 28,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle Hybrid",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A",
+      "footprint": "USB_C_Receptacle_Amphenol_12401610E4-2A",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401610E4-2A.step"
+      ],
+      "pad_count": 28,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_Amphenol_12401610E4-2A.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A",
+      "footprint": "USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401610E4-2A.step"
+      ],
+      "pad_count": 28,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB TYPE C Receptacle, USB2.0, Waterproof, Dual Row SMT, IPX8, https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/c12401977-3.pdf",
+      "footprint": "USB_C_Receptacle_Amphenol_124019772112A",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_124019772112A.step"
+      ],
+      "pad_count": 22,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_Amphenol_124019772112A.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Waterproof",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB Type-C 3.0 Receptacle, 24-pin, right angle (source: https://www.cnctech.us/pdfs/C-ARA1-AK512.pdf)",
+      "footprint": "USB_C_Receptacle_CNCTech_C-ARA1-AK51X",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_CNCTech_C-ARA1-AK51X.step"
+      ],
+      "pad_count": 32,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_CNCTech_C-ARA1-AK51X.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle Hybrid CNCTech C-ARA1-AK51X",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf",
+      "footprint": "USB_C_Receptacle_G-Switch_GT-USB-7010ASV",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"
+      ],
+      "pad_count": 20,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_G-Switch_GT-USB-7010ASV.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB Type C, right-angle, SMT, https://www.lcsc.com/datasheet/lcsc_datasheet_2312191005_G-Switch-GT-USB-7025_C963213.pdf",
+      "footprint": "USB_C_Receptacle_G-Switch_GT-USB-7025",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7025.step"
+      ],
+      "pad_count": 22,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12",
+        "GND"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_G-Switch_GT-USB-7025.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB Type C, vertical, SMT, https://datasheet.lcsc.com/lcsc/2108072030_G-Switch-GT-USB-7051A_C2843970.pdf",
+      "footprint": "USB_C_Receptacle_G-Switch_GT-USB-7051x",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7051x.step"
+      ],
+      "pad_count": 20,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_G-Switch_GT-USB-7051x.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD GT-USB-7051A GT-USB-7051B",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf",
+      "footprint": "USB_C_Receptacle_GCT_USB4085",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
+      ],
+      "pad_count": 20,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_GCT_USB4085.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB Type-C Receptacle Through-hole Right angle",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf",
+      "footprint": "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+      ],
+      "pad_count": 20,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf",
+      "footprint": "USB_C_Receptacle_GCT_USB4110",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4110.step"
+      ],
+      "pad_count": 20,
+      "pad_names_sample": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_GCT_USB4110.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB TYPE C, VERT RCPT PCB, SMT, https://gct.co/files/drawings/usb4115.pdf",
+      "footprint": "USB_C_Receptacle_GCT_USB4115-03-C",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4115-03-C.step"
+      ],
+      "pad_count": 28,
+      "pad_names_sample": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8",
+        "A9",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "S1",
+        "A10",
+        "A11",
+        "A12",
+        "B10",
+        "B11",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_GCT_USB4115-03-C.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1.9mm stake: https://gct.co/files/drawings/usb4125.pdf",
+      "footprint": "USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal.step"
+      ],
+      "pad_count": 10,
+      "pad_names_sample": [
+        "A5",
+        "A9",
+        "B5",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C receptacle power-only charging-only 6P 6C right angled",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A, 1mm stake: https://gct.co/files/drawings/usb4125.pdf",
+      "footprint": "USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.step"
+      ],
+      "pad_count": 10,
+      "pad_names_sample": [
+        "A5",
+        "A9",
+        "B5",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C receptacle power-only charging-only 6P 6C right angled",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    },
+    {
+      "description": "USB Type C Receptacle, GCT, power-only, 6P, top mounted, horizontal, 3A: https://gct.co/files/drawings/usb4135.pdf",
+      "footprint": "USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal",
+      "library": "Connector_USB",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "model_paths": [
+        "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal.step"
+      ],
+      "pad_count": 10,
+      "pad_names_sample": [
+        "A5",
+        "A9",
+        "B5",
+        "B9",
+        "S1",
+        "A12",
+        "B12"
+      ],
+      "path": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\footprints\\Connector_USB.pretty\\USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal.kicad_mod",
+      "risk_notes": [
+        "Connector orientation, shell pads, CC pins, shield grounding, and exact drawing are high-risk.",
+        "USB-C footprints are not interchangeable across manufacturers.",
+        "Connector pin numbering, mating face, cable exit, and mechanical orientation require drawing review."
+      ],
+      "score": 46,
+      "tags": "USB C Type-C Receptacle SMD USB Power-only Charging-only 6P 6C USB4135-GF-A",
+      "verification_warning": "Candidate only. Verify package drawing, pad numbers, orientation, courtyard, paste/mask, and 3D model."
+    }
+  ],
+  "query": "USB-C connector generic",
+  "verification_policy": "Do not assert correctness until verified against exact manufacturer package drawing."
+}

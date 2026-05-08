@@ -1,0 +1,9 @@
+{
+  "summary": {
+    "match_keys_scanned": 7,
+    "match_records_scanned": 6,
+    "supplier_records_scanned": 0,
+    "unmatched_supplier_records": 0
+  },
+  "unmatched": []
+}

@@ -1,0 +1,14 @@
+{
+  "hard_fails": [],
+  "project": "esp-rust-board",
+  "rf_or_antenna_violation_count": 0,
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "rf_or_antenna_violation_count": 0,
+    "violation_count": 0
+  },
+  "tool": "detect_trace_keepout_violations",
+  "violation_count": 0,
+  "violations": []
+}

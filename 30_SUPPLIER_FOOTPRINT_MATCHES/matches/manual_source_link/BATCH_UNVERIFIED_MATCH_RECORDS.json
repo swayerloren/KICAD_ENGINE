@@ -1,0 +1,2666 @@
+﻿[
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_WROOM_32",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-WROOM-32",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_WROVER",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-WROVER",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_S3_WROOM_1",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-S3-WROOM-1",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_S3_WROOM_1U",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-S3-WROOM-1U",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_S3_MINI_1",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-S3-MINI-1",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_C3_MINI_1",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-C3-MINI-1",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_C6_WROOM_1",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-C6-WROOM-1",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_H2_MINI_1",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-H2-MINI-1",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/products/modules",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "module"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/products/modules",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_S3_DEVKITC_1",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-S3-DevKitC-1",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://docs.espressif.com/projects/esp-dev-kits/en/latest/",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "dev_board"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://docs.espressif.com/projects/esp-dev-kits/en/latest/",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ESPRESSIF_ESP32_C3_DEVKITM_1",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Espressif",
+        "mpn":  "ESP32-C3-DevKitM-1",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://docs.espressif.com/projects/esp-dev-kits/en/latest/",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "dev_board"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://docs.espressif.com/projects/esp-dev-kits/en/latest/",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32F103C8T6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32F103C8T6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f103c8.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32F401CCU6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32F401CCU6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f401cc.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f401cc.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32F411CEU6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32F411CEU6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f411ce.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f411ce.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32F405RGT6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32F405RGT6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f405rg.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32f405rg.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32G030F6P6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32G030F6P6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32g030f6.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32G431CBT6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32G431CBT6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32g431cb.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32g431cb.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32H743VIT6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32H743VIT6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32h743vi.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32h743vi.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_STM32U5_REPRESENTATIVE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "STM32U5 representative",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/microcontrollers-microprocessors/stm32u5-series.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_NUCLEO_F103RB",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "NUCLEO-F103RB",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/evaluation-tools/nucleo-f103rb.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "dev_board"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/evaluation-tools/nucleo-f103rb.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_NUCLEO_F401RE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "NUCLEO-F401RE",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/evaluation-tools/nucleo-f401re.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "dev_board"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/evaluation-tools/nucleo-f401re.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_NUCLEO_G431RB",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "NUCLEO-G431RB",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/evaluation-tools/nucleo-g431rb.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "dev_board"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/evaluation-tools/nucleo-g431rb.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICRO_NUCLEO_H743ZI",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicro",
+        "mpn":  "NUCLEO-H743ZI",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/evaluation-tools/nucleo-h743zi.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "dev_board"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/evaluation-tools/nucleo-h743zi.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_PIC16F877A",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "PIC16F877A",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/PIC16F877A",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/PIC16F877A",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_PIC16F18346",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "PIC16F18346",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/PIC16F18346",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/PIC16F18346",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_PIC18F4550",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "PIC18F4550",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/PIC18F4550",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/PIC18F4550",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_PIC18F25K80",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "PIC18F25K80",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/PIC18F25K80",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/PIC18F25K80",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_PIC24FJ64GA002",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "PIC24FJ64GA002",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/PIC24FJ64GA002",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/PIC24FJ64GA002",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_DSPIC33CK256MP506",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "dsPIC33CK256MP506",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/dsPIC33CK256MP506",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/dsPIC33CK256MP506",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_ATMEGA328P",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "ATmega328P",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/ATmega328P",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/ATmega328P",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_ATTINY85",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "ATtiny85",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/ATtiny85",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/ATtiny85",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_ATMEGA32U4",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "ATmega32U4",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/ATmega32U4",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "microcontroller"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/ATmega32U4",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_CURIOSITY_DEVELOPMENT_BOARDS",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "Curiosity Development Boards",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/tools-resources/evaluation-boards/curiosity-development-boards",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "dev_board"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/tools-resources/evaluation-boards/curiosity-development-boards",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_USB_C_16_PIN_RECEPTACLE_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "USB-C 16-pin receptacle generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_USB_C_24_PIN_FULL_FEATURE_RECEPTACLE_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "USB-C 24-pin full-feature receptacle generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_USB.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MOLEX_MOLEX_USB_C_RECEPTACLE_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Molex",
+        "mpn":  "Molex USB-C receptacle candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.molex.com/en-us/products/connectors/io-connectors/usb-connectors",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.molex.com/en-us/products/connectors/io-connectors/usb-connectors",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TE_CONNECTIVITY_TE_USB_C_RECEPTACLE_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "TE Connectivity",
+        "mpn":  "TE USB-C receptacle candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.te.com/usa-en/products/connectors/io-connectors/usb-connectors.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.te.com/usa-en/products/connectors/io-connectors/usb-connectors.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_AMPHENOL_AMPHENOL_USB_C_RECEPTACLE_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Amphenol",
+        "mpn":  "Amphenol USB-C receptacle candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.amphenol-cs.com/product-series/usb-type-c.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.amphenol-cs.com/product-series/usb-type-c.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GCT_GCT_USB4105_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "GCT",
+        "mpn":  "GCT USB4105 candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gct.co/connector/usb4105",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gct.co/connector/usb4105",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_WURTH_ELEKTRONIK_WURTH_USB_C_RECEPTACLE_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Wurth Elektronik",
+        "mpn":  "Wurth USB-C receptacle candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.we-online.com/en/components/products/em/connectors/usb",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.we-online.com/en/components/products/em/connectors/usb",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_MCP2562FD",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "MCP2562FD",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/MCP2562FD",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "communication"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/MCP2562FD",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_MCP2562",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "MCP2562",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/MCP2562",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "communication"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/MCP2562",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TEXAS_INSTRUMENTS_SN65HVD230",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Texas Instruments",
+        "mpn":  "SN65HVD230",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.ti.com/product/SN65HVD230",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "communication"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.ti.com/product/SN65HVD230",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TEXAS_INSTRUMENTS_TCAN1042",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Texas Instruments",
+        "mpn":  "TCAN1042",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.ti.com/product/TCAN1042",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "communication"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.ti.com/product/TCAN1042",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_NXP_TJA1051",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "NXP",
+        "mpn":  "TJA1051",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.nxp.com/products/interfaces/can-transceivers/can-transceiver:TJA1051",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "communication"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.nxp.com/products/interfaces/can-transceivers/can-transceiver:TJA1051",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_NXP_TJA1042",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "NXP",
+        "mpn":  "TJA1042",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.nxp.com/products/interfaces/can-transceivers/high-speed-can-transceiver:TJA1042",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "communication"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.nxp.com/products/interfaces/can-transceivers/high-speed-can-transceiver:TJA1042",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_MCP2003",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "MCP2003",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/MCP2003",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "communication"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/MCP2003",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_DIODES_INC_AP63203",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Diodes Inc",
+        "mpn":  "AP63203",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.diodes.com/part/view/AP63203",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "power_regulator"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.diodes.com/part/view/AP63203",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TEXAS_INSTRUMENTS_LM2596",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Texas Instruments",
+        "mpn":  "LM2596",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.ti.com/product/LM2596",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "power_regulator"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.ti.com/product/LM2596",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MONOLITHIC_POWER_SYSTEMS_MP1584",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Monolithic Power Systems",
+        "mpn":  "MP1584",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.monolithicpower.com/en/mp1584.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "power_regulator"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.monolithicpower.com/en/mp1584.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_ADVANCED_MONOLITHIC_SYSTEMS_AMS1117_3_3",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Advanced Monolithic Systems",
+        "mpn":  "AMS1117-3.3",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.advanced-monolithic.com/",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "ldo"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.advanced-monolithic.com/",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_DIODES_INC_AP2112K_3_3",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Diodes Inc",
+        "mpn":  "AP2112K-3.3",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.diodes.com/part/view/AP2112",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "ldo"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.diodes.com/part/view/AP2112",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_MCP1700",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "MCP1700",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/MCP1700",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "ldo"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/MCP1700",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TEXAS_INSTRUMENTS_TLV755P",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Texas Instruments",
+        "mpn":  "TLV755P",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.ti.com/product/TLV755P",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "ldo"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.ti.com/product/TLV755P",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_MIC5504",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "MIC5504",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/MIC5504",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "ldo"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/MIC5504",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TEXAS_INSTRUMENTS_TPS5430",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Texas Instruments",
+        "mpn":  "TPS5430",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.ti.com/product/TPS5430",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "power_regulator"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.ti.com/product/TPS5430",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TEXAS_INSTRUMENTS_TPS62177",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Texas Instruments",
+        "mpn":  "TPS62177",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.ti.com/product/TPS62177",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "power_regulator"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.ti.com/product/TPS62177",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_MICROCHIP_MCP73831",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Microchip",
+        "mpn":  "MCP73831",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.microchip.com/en-us/product/MCP73831",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "battery_charger"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.microchip.com/en-us/product/MCP73831",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_STMICROELECTRONICS_USBLC6_2SC6",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "STMicroelectronics",
+        "mpn":  "USBLC6-2SC6",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.st.com/en/protection-devices/usblc6-2.html",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "usb_esd"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.st.com/en/protection-devices/usblc6-2.html",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_TEXAS_INSTRUMENTS_TPD2EUSB30ADRTR",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Texas Instruments",
+        "mpn":  "TPD2EUSB30ADRTR",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.ti.com/product/TPD2EUSB30",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "usb_esd"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.ti.com/product/TPD2EUSB30",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_RESETTABLE_POLYFUSE_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "resettable polyfuse generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.littelfuse.com/products/polyswitch-resettable-pptcs.aspx",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "protection"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.littelfuse.com/products/polyswitch-resettable-pptcs.aspx",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_SMAJ_TVS_DIODE_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "SMAJ TVS diode generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.littelfuse.com/products/tvs-diodes.aspx",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "protection"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.littelfuse.com/products/tvs-diodes.aspx",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_HIROSE_U_FL_I_PEX_MHF1_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Hirose",
+        "mpn":  "U.FL / I-PEX MHF1 candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.hirose.com/en/product/series/U.FL",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "rf_connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.hirose.com/en/product/series/U.FL",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_U_FL_CONNECTOR_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "U.FL connector generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "rf_connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_SMA_EDGE_LAUNCH_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "SMA edge launch generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "rf_connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_RP_SMA_PIGTAIL_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "RP-SMA pigtail generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "rf_connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_PCB_ANTENNA_KEEPOUT_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "PCB antenna keepout generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.espressif.com/en/support/documents/technical-documents",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "antenna"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.espressif.com/en/support/documents/technical-documents",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_TEST_PAD_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "test pad generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "test_point"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_MOUNTING_HOLE_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "mounting hole generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/MountingHole.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "NOT_APPLICABLE",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "mounting_hole"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/MountingHole.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_2_54MM_PIN_HEADER_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "2.54mm pin header generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_PinHeader_2.54mm.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_PinHeader_2.54mm.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_GENERIC_3_5MM_TERMINAL_BLOCK_GENERIC",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "Generic",
+        "mpn":  "3.5mm terminal block generic",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TerminalBlock.pretty",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TerminalBlock.pretty",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_JST_JST_PH_2_PIN_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "JST",
+        "mpn":  "JST-PH 2-pin candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/ph-connector/",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/ph-connector/",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    },
+    {
+        "record_id":  "BATCH_SOURCE_LINK_JST_JST_GH_4_PIN_CANDIDATE",
+        "record_type":  "SUPPLIER_FOOTPRINT_MATCH",
+        "manufacturer":  "JST",
+        "mpn":  "JST-GH 4-pin candidate",
+        "supplier":  "manual_source_link",
+        "supplier_sku":  "UNKNOWN",
+        "jlc_lcsc_part_number":  "UNKNOWN",
+        "datasheet_url":  "UNKNOWN",
+        "source_url":  "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/gh-connector/",
+        "package_name_from_supplier":  "UNKNOWN",
+        "package_drawing_source":  "UNKNOWN",
+        "kicad_symbol_candidate":  "UNKNOWN",
+        "kicad_footprint_candidate":  "UNKNOWN",
+        "kicad_3d_model_candidate":  "UNKNOWN",
+        "footprint_status":  "UNVERIFIED",
+        "pinout_status":  "UNVERIFIED",
+        "connector_orientation_status":  "UNVERIFIED",
+        "human_review_required":  true,
+        "confidence_level":  "UNVERIFIED",
+        "high_risk_categories":  [
+                                     "connector"
+                                 ],
+        "evidence":  [
+                         {
+                             "status":  "UNVERIFIED",
+                             "source":  "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/gh-connector/",
+                             "type":  "SOURCE_LINK",
+                             "notes":  "Dry-run source-link candidate only; not live-captured."
+                         }
+                     ],
+        "notes":  [
+                      "Generated from controlled batch dry-run. No supplier SKU, package drawing, or KiCad footprint is verified."
+                  ],
+        "created_at":  "2026-05-03",
+        "updated_at":  "2026-05-03"
+    }
+]

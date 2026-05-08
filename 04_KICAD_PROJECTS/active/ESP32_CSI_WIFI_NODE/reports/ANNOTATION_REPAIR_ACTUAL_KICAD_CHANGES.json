@@ -1,0 +1,639 @@
+{
+  "project": "ESP32_CSI_WIFI_NODE",
+  "changed_symbols": [
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000004",
+      "lib_id": "Connector:Barrel_Jack",
+      "old_ref": "J1",
+      "new_ref": "J1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000008",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0101",
+      "new_ref": "#PWR0101",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000212",
+      "lib_id": "power:PWR_FLAG",
+      "old_ref": "#FLG0101",
+      "new_ref": "#FLG0101",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000009",
+      "lib_id": "Device:Polyfuse",
+      "old_ref": "F1",
+      "new_ref": "F1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000012",
+      "lib_id": "Device:Q_PMOS",
+      "old_ref": "Q1",
+      "new_ref": "Q1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000213",
+      "lib_id": "power:PWR_FLAG",
+      "old_ref": "#FLG0102",
+      "new_ref": "#FLG0102",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000016",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0102",
+      "new_ref": "#PWR0102",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000017",
+      "lib_id": "Device:D_TVS",
+      "old_ref": "D1",
+      "new_ref": "D1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000019",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0103",
+      "new_ref": "#PWR0103",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000020",
+      "lib_id": "Device:C",
+      "old_ref": "C1",
+      "new_ref": "C1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000022",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0104",
+      "new_ref": "#PWR0104",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000025",
+      "lib_id": "Regulator_Switching:AP63203WU",
+      "old_ref": "U1",
+      "new_ref": "U1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000031",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0105",
+      "new_ref": "#PWR0105",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000037",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0106",
+      "new_ref": "#PWR0106",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000214",
+      "lib_id": "power:PWR_FLAG",
+      "old_ref": "#FLG0103",
+      "new_ref": "#FLG0103",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000038",
+      "lib_id": "Device:L",
+      "old_ref": "L1",
+      "new_ref": "L1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000040",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0107",
+      "new_ref": "#PWR0107",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000041",
+      "lib_id": "Device:C",
+      "old_ref": "C2",
+      "new_ref": "C2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000043",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0108",
+      "new_ref": "#PWR0108",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000044",
+      "lib_id": "Device:C",
+      "old_ref": "C3",
+      "new_ref": "C3",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000045",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0109",
+      "new_ref": "#PWR0109",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000046",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0110",
+      "new_ref": "#PWR0110",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000047",
+      "lib_id": "Device:C",
+      "old_ref": "C4",
+      "new_ref": "C4",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000048",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0111",
+      "new_ref": "#PWR0111",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000049",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0112",
+      "new_ref": "#PWR0112",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000050",
+      "lib_id": "Device:C",
+      "old_ref": "C5",
+      "new_ref": "C5",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000055",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1",
+      "old_ref": "U2",
+      "new_ref": "U2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000057",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0113",
+      "new_ref": "#PWR0113",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000059",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0114",
+      "new_ref": "#PWR0114",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000074",
+      "lib_id": "Device:C",
+      "old_ref": "C6",
+      "new_ref": "C6",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000075",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0115",
+      "new_ref": "#PWR0115",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000076",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0116",
+      "new_ref": "#PWR0116",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000077",
+      "lib_id": "Device:C",
+      "old_ref": "C7",
+      "new_ref": "C7",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000078",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0117",
+      "new_ref": "#PWR0117",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000079",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0118",
+      "new_ref": "#PWR0118",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000111",
+      "lib_id": "Device:R",
+      "old_ref": "R1",
+      "new_ref": "R1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000112",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0119",
+      "new_ref": "#PWR0119",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000114",
+      "lib_id": "Device:C",
+      "old_ref": "C8",
+      "new_ref": "C8",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000116",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0120",
+      "new_ref": "#PWR0120",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000117",
+      "lib_id": "Switch:SW_Push",
+      "old_ref": "SW1",
+      "new_ref": "SW1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000119",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0121",
+      "new_ref": "#PWR0121",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000120",
+      "lib_id": "Device:R",
+      "old_ref": "R2",
+      "new_ref": "R2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000121",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0122",
+      "new_ref": "#PWR0122",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000123",
+      "lib_id": "Switch:SW_Push",
+      "old_ref": "SW2",
+      "new_ref": "SW2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000125",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0123",
+      "new_ref": "#PWR0123",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000128",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_14P",
+      "old_ref": "J2",
+      "new_ref": "J2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000201",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0124",
+      "new_ref": "#PWR0124",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000195",
+      "lib_id": "Device:R",
+      "old_ref": "R3",
+      "new_ref": "R3",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000197",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0125",
+      "new_ref": "#PWR0125",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000141",
+      "lib_id": "Device:R",
+      "old_ref": "R4",
+      "new_ref": "R4",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000143",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0126",
+      "new_ref": "#PWR0126",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000144",
+      "lib_id": "Device:R",
+      "old_ref": "R5",
+      "new_ref": "R5",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000146",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0127",
+      "new_ref": "#PWR0127",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000147",
+      "lib_id": "Power_Protection:TPD2EUSB30",
+      "old_ref": "U3",
+      "new_ref": "U3",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000150",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0128",
+      "new_ref": "#PWR0128",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000151",
+      "lib_id": "Device:R",
+      "old_ref": "R6",
+      "new_ref": "R6",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000154",
+      "lib_id": "Device:R",
+      "old_ref": "R7",
+      "new_ref": "R7",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000158",
+      "lib_id": "Device:R",
+      "old_ref": "R8",
+      "new_ref": "R8",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000159",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0129",
+      "new_ref": "#PWR0129",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000160",
+      "lib_id": "Device:LED",
+      "old_ref": "D2",
+      "new_ref": "D2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000161",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0130",
+      "new_ref": "#PWR0130",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000162",
+      "lib_id": "Device:R",
+      "old_ref": "R9",
+      "new_ref": "R9",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000164",
+      "lib_id": "Device:LED",
+      "old_ref": "D3",
+      "new_ref": "D3",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000165",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0131",
+      "new_ref": "#PWR0131",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000167",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP1",
+      "new_ref": "TP1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000169",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP2",
+      "new_ref": "TP2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000170",
+      "lib_id": "power:+3V3",
+      "old_ref": "#PWR0132",
+      "new_ref": "#PWR0132",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000171",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP3",
+      "new_ref": "TP3",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000172",
+      "lib_id": "power:GND",
+      "old_ref": "#PWR0133",
+      "new_ref": "#PWR0133",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000173",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP4",
+      "new_ref": "TP4",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000175",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP5",
+      "new_ref": "TP5",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000177",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP6",
+      "new_ref": "TP6",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000179",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP7",
+      "new_ref": "TP7",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000181",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP8",
+      "new_ref": "TP8",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000183",
+      "lib_id": "Connector:TestPoint",
+      "old_ref": "TP9",
+      "new_ref": "TP9",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000187",
+      "lib_id": "Mechanical:MountingHole",
+      "old_ref": "MH1",
+      "new_ref": "MH1",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000188",
+      "lib_id": "Mechanical:MountingHole",
+      "old_ref": "MH2",
+      "new_ref": "MH2",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000189",
+      "lib_id": "Mechanical:MountingHole",
+      "old_ref": "MH3",
+      "new_ref": "MH3",
+      "instances_removed": false,
+      "instances_added": true
+    },
+    {
+      "uuid": "aaaaaaaa-0000-0000-0000-000000000190",
+      "lib_id": "Mechanical:MountingHole",
+      "old_ref": "MH4",
+      "new_ref": "MH4",
+      "instances_removed": false,
+      "instances_added": true
+    }
+  ],
+  "changed_count": 79,
+  "placed_symbols": 79
+}

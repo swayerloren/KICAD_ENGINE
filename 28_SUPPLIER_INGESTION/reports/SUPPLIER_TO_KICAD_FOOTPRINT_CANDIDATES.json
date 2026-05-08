@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-03T09:47:30",
+  "matches": [
+    {
+      "manufacturer_part_number": "EXAMPLE-MPN",
+      "supplier": "EXAMPLE_SUPPLIER",
+      "supplier_sku": "EXAMPLE-SKU",
+      "package_text": "Unknown Unknown Example only part",
+      "candidate_keywords": [],
+      "match_status": "NO_CANDIDATE",
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true,
+      "notes": "Supplier package text is not footprint verification."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "blocked_reasons": [],
+  "category_scores": {
+    "antenna_rf_keepout_correctness": 6,
+    "component_grouping_quality": 8,
+    "connector_orientation_correctness": 18,
+    "mechanical_correctness": 17,
+    "power_path_quality": 10,
+    "routing_feasibility": 3,
+    "usb_data_routing_quality": 6
+  },
+  "category_subtotal": 68,
+  "drc_precheck_risk_level": "HIGH",
+  "drc_precheck_risk_penalty": 10,
+  "eligible_for_selection": false,
+  "hard_fails": [
+    "ESP32 antenna keepout is blocked.",
+    "Projected traces cross the antenna keepout."
+  ],
+  "human_uncertainty_risk_level": "MEDIUM",
+  "human_uncertainty_risk_penalty": 5,
+  "invalid_fields": [],
+  "missing_fields": [],
+  "notes": "Mechanically decent but RF keepout is broken.",
+  "project": "SANDBOX_DRY_RUN",
+  "source": "34_PCB_LAYOUT_SANDBOX\\reports\\dry_run_samples\\variant_b.json",
+  "status": "FAIL",
+  "total_penalty": 15,
+  "total_score": 53,
+  "uncertainty_notes": "Should hard fail on keepout.",
+  "variant_id": "VARIANT_B"
+}

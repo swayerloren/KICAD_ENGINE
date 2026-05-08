@@ -1,0 +1,97 @@
+name: Build Installer - Windows
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  build-windows:
+    name: Build Windows installer
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: "installer/package-lock.json"
+
+      - name: Build clean payload
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path "installer/build/windows" | Out-Null
+          python installer/payload/build_payload.py --source-root . --payload-root installer/payload --max-file-size-mb 5
+          python health_check.py --repo-root installer/payload/repo-template --no-write 2>&1 | Tee-Object -FilePath "installer/build/windows/payload-health-windows.log"
+
+      - name: Secret scan if ripgrep is available
+        shell: pwsh
+        run: |
+          if (Get-Command rg -ErrorAction SilentlyContinue) {
+            rg -n "api[_-]?key\s*[:=]|access[_-]?token\s*[:=]|password\s*[:=]|BEGIN (RSA |DSA |EC |OPENSSH |PGP )?PRIVATE KEY|sk-[A-Za-z0-9]{20,}" installer/payload/repo-template installer/payload/payload.manifest.json installer/payload/PAYLOAD_BUILD_REPORT.md
+            if ($LASTEXITCODE -eq 0) {
+              throw "Secret scan found potential secret material."
+            }
+            if ($LASTEXITCODE -gt 1) {
+              throw "Secret scan failed with exit code $LASTEXITCODE."
+            }
+            "Secret scan completed with no matches."
+          } else {
+            "ripgrep is not available on this runner; skipping optional secret scan."
+          }
+
+      - name: Install installer npm dependencies
+        working-directory: installer
+        run: npm ci
+
+      - name: Build Windows installer
+        shell: pwsh
+        working-directory: installer
+        run: |
+          npm run build:win 2>&1 | Tee-Object -FilePath "build/windows/build-installer-windows.log"
+          if ($LASTEXITCODE -ne 0) {
+            exit $LASTEXITCODE
+          }
+
+      - name: Stage Windows release artifacts
+        shell: pwsh
+        working-directory: installer
+        run: |
+          $artifactDir = "release-artifacts"
+          New-Item -ItemType Directory -Force -Path $artifactDir | Out-Null
+          $installer = Get-ChildItem -Path "build/windows" -File -Filter "*.exe" |
+            Where-Object { $_.Name -notmatch "__uninstaller" } |
+            Sort-Object LastWriteTime -Descending |
+            Select-Object -First 1
+          if (-not $installer) {
+            throw "Windows installer EXE was not found."
+          }
+          Copy-Item -LiteralPath $installer.FullName -Destination "$artifactDir/KiCad-Engine-Setup-Windows-x64.exe" -Force
+          Compress-Archive -Path "payload/repo-template/*" -DestinationPath "$artifactDir/KICAD_ENGINE_PAYLOAD.zip" -Force
+          Copy-Item -LiteralPath "payload/PAYLOAD_BUILD_REPORT.md" -Destination "$artifactDir/PAYLOAD_BUILD_REPORT-Windows.md" -Force
+          Copy-Item -LiteralPath "build/windows/build-installer-windows.log" -Destination "$artifactDir/build-installer-windows.log" -Force
+          Copy-Item -LiteralPath "build/windows/payload-health-windows.log" -Destination "$artifactDir/payload-health-windows.log" -Force
+          Push-Location $artifactDir
+          Get-ChildItem -File | Where-Object { $_.Name -ne "SHA256SUMS.txt" } | Sort-Object Name | ForEach-Object {
+            $hash = Get-FileHash -Algorithm SHA256 -LiteralPath $_.FullName
+            "$($hash.Hash.ToLower())  $($_.Name)"
+          } | Set-Content -Encoding ascii "SHA256SUMS.txt"
+          Pop-Location
+
+      - name: Upload Windows artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-engine-windows-artifacts
+          path: installer/release-artifacts/**
+          if-no-files-found: error

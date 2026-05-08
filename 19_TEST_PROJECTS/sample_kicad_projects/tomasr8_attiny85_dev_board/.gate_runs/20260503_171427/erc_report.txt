@@ -1,0 +1,23 @@
+ERC report (2026-05-03T17:14:28-0400, Encoding UTF8)
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(132.08 mm, 93.98 mm): Symbol J1 Pin 5 [Shield, Passive, Line]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(121.92 mm, 95.25 mm): Symbol #FLG0101 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(143.51 mm, 64.77 mm): Symbol #FLG0102 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(177.80 mm, 115.57 mm): Symbol D3 [LED]
+[lib_symbol_mismatch]: Symbol 'AMS1117-3.3' doesn't match copy in library 'Regulator_Linear'
+    ; warning
+    @(255.27 mm, 63.50 mm): Symbol U2 [AMS1117-3.3]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(247.65 mm, 114.30 mm): Symbol D4 [LED]
+
+ ** ERC messages: 6  Errors 1  Warnings 5

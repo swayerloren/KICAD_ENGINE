@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Universal BOM CSV Schema",
+  "type": "object",
+  "required_columns": ["Line #", "Comment", "Quantity", "Designator", "Footprint", "Package", "Type", "LCSC Part #", "Manufacturer", "Manufacturer Part Number", "Distributor", "Distributor Part Number", "Part Description", "Notes", "DNP"],
+  "required_nonblank": ["Comment", "Quantity", "Designator", "Footprint", "Package"],
+  "quantity_column": "Quantity",
+  "designator_column": "Designator",
+  "notes": "Universal BOM is for internal review/conversion, not direct upload approval."
+}

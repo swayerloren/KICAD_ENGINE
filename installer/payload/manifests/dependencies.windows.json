@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "platform": "windows",
+  "packageManagers": [
+    {
+      "id": "winget",
+      "label": "winget",
+      "command": "winget",
+      "installPriority": 10
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "kicad",
+      "displayName": "KiCad",
+      "required": true,
+      "purpose": "Installed KiCad application used by KiCad Engine.",
+      "detect": [
+        { "type": "command", "command": "kicad-cli", "args": ["version"] },
+        { "type": "path", "path": "%ProgramFiles%\\KiCad\\9.0\\bin\\kicad-cli.exe" }
+      ],
+      "install": {
+        "winget": { "command": "winget", "args": ["install", "--id", "KiCad.KiCad", "--exact", "--source", "winget"] }
+      },
+      "manual": ["https://www.kicad.org/download/windows/"]
+    },
+    {
+      "id": "git",
+      "displayName": "Git",
+      "required": true,
+      "purpose": "Version control and source checkout support.",
+      "detect": [{ "type": "command", "command": "git", "args": ["--version"] }],
+      "install": {
+        "winget": { "command": "winget", "args": ["install", "--id", "Git.Git", "--exact", "--source", "winget"] }
+      },
+      "manual": ["https://git-scm.com/download/win"]
+    },
+    {
+      "id": "python",
+      "displayName": "Python",
+      "required": true,
+      "purpose": "Health checks, setup helpers, and metadata scripts.",
+      "detect": [
+        { "type": "command", "command": "python", "args": ["--version"] },
+        { "type": "command", "command": "py", "args": ["--version"] }
+      ],
+      "install": {
+        "winget": { "command": "winget", "args": ["install", "--id", "Python.Python.3.12", "--exact", "--source", "winget"] }
+      },
+      "manual": ["https://www.python.org/downloads/windows/"]
+    },
+    {
+      "id": "node",
+      "displayName": "Node.js",
+      "required": false,
+      "purpose": "Installer and optional tooling development.",
+      "detect": [{ "type": "command", "command": "node", "args": ["--version"] }],
+      "install": {
+        "winget": { "command": "winget", "args": ["install", "--id", "OpenJS.NodeJS.LTS", "--exact", "--source", "winget"] }
+      },
+      "manual": ["https://nodejs.org/"]
+    },
+    {
+      "id": "npm",
+      "displayName": "npm",
+      "required": false,
+      "purpose": "Installer build scripts and JavaScript tooling.",
+      "detect": [{ "type": "command", "command": "npm", "args": ["--version"] }],
+      "install": {
+        "winget": { "command": "winget", "args": ["install", "--id", "OpenJS.NodeJS.LTS", "--exact", "--source", "winget"] }
+      },
+      "manual": ["https://nodejs.org/"]
+    },
+    {
+      "id": "vscode",
+      "displayName": "VS Code",
+      "required": true,
+      "purpose": "Primary user workspace for Codex, Claude, and KiCad Engine prompts.",
+      "detect": [{ "type": "command", "command": "code", "args": ["--version"] }],
+      "install": {
+        "winget": { "command": "winget", "args": ["install", "--id", "Microsoft.VisualStudioCode", "--exact", "--source", "winget"] }
+      },
+      "manual": ["https://code.visualstudio.com/"]
+    }
+  ]
+}

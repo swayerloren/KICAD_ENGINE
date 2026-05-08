@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "platform": "macos",
+  "packageManagers": [
+    {
+      "id": "brew",
+      "label": "Homebrew",
+      "command": "brew",
+      "installPriority": 10
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "kicad",
+      "displayName": "KiCad",
+      "required": true,
+      "purpose": "Installed KiCad application used by KiCad Engine.",
+      "detect": [
+        { "type": "command", "command": "kicad-cli", "args": ["version"] },
+        { "type": "path", "path": "/Applications/KiCad/KiCad.app" },
+        { "type": "path", "path": "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli" },
+        { "type": "path", "path": "/Applications/KiCad.app" },
+        { "type": "path", "path": "/Applications/KiCad.app/Contents/MacOS/kicad-cli" }
+      ],
+      "install": {
+        "brew": { "command": "brew", "args": ["install", "--cask", "kicad"] }
+      },
+      "manual": ["https://www.kicad.org/download/macos/"]
+    },
+    {
+      "id": "git",
+      "displayName": "Git",
+      "required": true,
+      "purpose": "Version control and source checkout support.",
+      "detect": [{ "type": "command", "command": "git", "args": ["--version"] }],
+      "install": {
+        "brew": { "command": "brew", "args": ["install", "git"] }
+      },
+      "manual": ["https://git-scm.com/download/mac"]
+    },
+    {
+      "id": "python",
+      "displayName": "Python",
+      "required": true,
+      "purpose": "Health checks, setup helpers, and metadata scripts.",
+      "detect": [
+        { "type": "command", "command": "python3", "args": ["--version"] },
+        { "type": "command", "command": "python", "args": ["--version"] }
+      ],
+      "install": {
+        "brew": { "command": "brew", "args": ["install", "python"] }
+      },
+      "manual": ["https://www.python.org/downloads/macos/"]
+    },
+    {
+      "id": "node",
+      "displayName": "Node.js",
+      "required": false,
+      "purpose": "Installer and optional tooling development.",
+      "detect": [{ "type": "command", "command": "node", "args": ["--version"] }],
+      "install": {
+        "brew": { "command": "brew", "args": ["install", "node"] }
+      },
+      "manual": ["https://nodejs.org/"]
+    },
+    {
+      "id": "npm",
+      "displayName": "npm",
+      "required": false,
+      "purpose": "Installer build scripts and JavaScript tooling.",
+      "detect": [{ "type": "command", "command": "npm", "args": ["--version"] }],
+      "install": {
+        "brew": { "command": "brew", "args": ["install", "node"] }
+      },
+      "manual": ["https://nodejs.org/"]
+    },
+    {
+      "id": "vscode",
+      "displayName": "VS Code",
+      "required": true,
+      "purpose": "Primary user workspace for Codex, Claude, and KiCad Engine prompts.",
+      "detect": [
+        { "type": "command", "command": "code", "args": ["--version"] },
+        { "type": "path", "path": "/Applications/Visual Studio Code.app" },
+        { "type": "path", "path": "~/Applications/Visual Studio Code.app" }
+      ],
+      "install": {
+        "brew": { "command": "brew", "args": ["install", "--cask", "visual-studio-code"] }
+      },
+      "manual": ["https://code.visualstudio.com/"]
+    }
+  ]
+}

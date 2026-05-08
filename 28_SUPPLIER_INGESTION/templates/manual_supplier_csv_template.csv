@@ -1,0 +1,2 @@
+supplier,source_url,manufacturer,manufacturer_part_number,supplier_sku,description,category,supplier_package,manufacturer_package,pin_count,lifecycle_status,stock_quantity,currency,minimum_order_quantity,price_breaks_json,datasheet_url,public_redistribution_status,verification_status,notes
+EXAMPLE_SUPPLIER,https://example.invalid,EXAMPLE_MANUFACTURER,EXAMPLE-MPN,EXAMPLE-SKU,Example only part,Example category,Unknown,Unknown,Unknown,Unknown,,USD,,[],https://example.invalid/datasheet,LINK_ONLY,UNVERIFIED,EXAMPLE_ONLY

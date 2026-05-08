@@ -1,0 +1,4 @@
+Found 81 violations
+Found 0 unconnected items
+Found 95 schematic parity issues
+Saved DRC Report to C:\Users\LJ\GitHub\KICAD_ENGINE\32_OPEN_KICAD_SAMPLE_INTAKE\review_reports\engineering_audit_artifacts\esp_rs_esp_rust_board\esp_rs_esp_rust_board_drc.rpt

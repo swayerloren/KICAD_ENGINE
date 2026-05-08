@@ -1,0 +1,327 @@
+﻿[
+    {
+        "path":  "health_check.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/kicad/run_schematic_visual_check.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/backup_kicad_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/export_bom.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/export_drill.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/export_gerbers.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/export_step.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/find_kicad_project_files.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/full_verify_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/kicad_automation_common.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/kicad_engine_health_check.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/new_kicad_project_workspace.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/run_drc.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/run_erc.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/kicad_app_audit/audit_kicad_windows.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/kicad_app_audit/check_kicad_cli.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/kicad_app_audit/inventory_kicad_libraries.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/scripts/project_validation/validate_kicad_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "03_TOOLS/windows/repos/FlaUI/build.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/health_check.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/backup_kicad_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/export_bom.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/export_drill.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/export_gerbers.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/export_step.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/find_kicad_project_files.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/full_verify_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/kicad_automation_common.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/kicad_engine_health_check.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/new_kicad_project_workspace.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/run_drc.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/run_erc.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/kicad_app_audit/audit_kicad_windows.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/kicad_app_audit/check_kicad_cli.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/kicad_app_audit/inventory_kicad_libraries.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/03_TOOLS/scripts/project_validation/validate_kicad_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/setup/windows/check_windows_requirements.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/setup/windows/install_missing_windows_tools.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "05_OUTPUTS/installer_smoke_test/KICAD_ENGINE_TEST_2026-05-03T00-18-33-993Z/setup/windows/setup_windows.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/health_check.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/backup_kicad_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/export_bom.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/export_drill.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/export_gerbers.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/export_step.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/find_kicad_project_files.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/full_verify_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/kicad_automation_common.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/kicad_engine_health_check.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/new_kicad_project_workspace.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/run_drc.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/run_erc.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/kicad_app_audit/audit_kicad_windows.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/kicad_app_audit/check_kicad_cli.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/kicad_app_audit/inventory_kicad_libraries.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/03_TOOLS/scripts/project_validation/validate_kicad_project.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/setup/windows/check_windows_requirements.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/setup/windows/install_missing_windows_tools.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/repo-template/setup/windows/setup_windows.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/build/windows/win-unpacked/resources/payload/scripts/windows/check_environment.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/payload/build_payload.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "installer/payload/scripts/windows/check_environment.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "setup/windows/check_windows_requirements.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "setup/windows/install_missing_windows_tools.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    },
+    {
+        "path":  "setup/windows/setup_windows.ps1",
+        "syntax_status":  "PASS",
+        "notes":  ""
+    }
+]

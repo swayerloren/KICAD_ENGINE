@@ -1,0 +1,243 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:23:00.257Z",
+  "target_count": 11,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "Hirose",
+      "family": "RF",
+      "part_number": "U.FL / I-PEX MHF1 candidate",
+      "category": "rf_connector",
+      "search_terms": "U.FL MHF1 official connector drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.hirose.com/en/product/series/U.FL",
+      "notes": "SOURCE_LINK_ONLY candidate; exact MPN, mating height, and footprint remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "RF",
+      "part_number": "U.FL connector generic",
+      "category": "rf_connector",
+      "search_terms": "U.FL generic KiCad footprint exact manufacturer drawing",
+      "preferred_sources": "kicad_official_libraries;manufacturer_official",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+      "notes": "Generic RF connector target; exact manufacturer drawing required.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "RF",
+      "part_number": "SMA edge launch generic",
+      "category": "rf_connector",
+      "search_terms": "SMA edge launch official connector drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+      "notes": "Generic RF connector target; board thickness and exact drawing required.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "RF",
+      "part_number": "RP-SMA pigtail generic",
+      "category": "rf_connector",
+      "search_terms": "RP-SMA pigtail connector official drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_Coaxial.pretty",
+      "notes": "Generic RF connector target; exact part and mechanical review required.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "RF",
+      "part_number": "PCB antenna keepout generic",
+      "category": "antenna",
+      "search_terms": "PCB antenna keepout official module vendor design guide KiCad note",
+      "preferred_sources": "manufacturer_official;espressif",
+      "required_outputs": "layout_notes;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.espressif.com/en/support/documents/technical-documents",
+      "notes": "Generic keepout target; must be tied to exact module antenna drawing before use.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "layout_notes",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "Board Hardware",
+      "part_number": "test pad generic",
+      "category": "test_point",
+      "search_terms": "KiCad test point footprints size assembly probe access",
+      "preferred_sources": "kicad_official_libraries",
+      "required_outputs": "footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TestPoint.pretty",
+      "notes": "Candidate library folder only; test pad size and access must be project/fab reviewed.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "Board Hardware",
+      "part_number": "mounting hole generic",
+      "category": "mounting_hole",
+      "search_terms": "KiCad mounting hole footprints plated nonplated clearance",
+      "preferred_sources": "kicad_official_libraries",
+      "required_outputs": "footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/MountingHole.pretty",
+      "notes": "Candidate library folder only; hole size, plating, and chassis/GND policy require human review.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "Connectors",
+      "part_number": "2.54mm pin header generic",
+      "category": "connector",
+      "search_terms": "KiCad pin header footprints exact pitch orientation drawing",
+      "preferred_sources": "kicad_official_libraries",
+      "required_outputs": "footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/Connector_PinHeader_2.54mm.pretty",
+      "notes": "Candidate library folder only; orientation, shroud, and mating connector remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "Connectors",
+      "part_number": "3.5mm terminal block generic",
+      "category": "connector",
+      "search_terms": "KiCad terminal block footprints exact manufacturer drawing orientation",
+      "preferred_sources": "kicad_official_libraries;manufacturer_official",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://gitlab.com/kicad/libraries/kicad-footprints/-/tree/master/TerminalBlock.pretty",
+      "notes": "Generic connector target; exact manufacturer drawing and orientation review required.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "JST",
+      "family": "Connectors",
+      "part_number": "JST-PH 2-pin candidate",
+      "category": "connector",
+      "search_terms": "JST PH 2-pin official drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/ph-connector/",
+      "notes": "SOURCE_LINK_ONLY candidate; exact MPN and orientation review required.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "JST",
+      "family": "Connectors",
+      "part_number": "JST-GH 4-pin candidate",
+      "category": "connector",
+      "search_terms": "JST GH 4-pin official drawing KiCad footprint",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.jst.com/products/crimp-style-connectors-wire-to-board-type/gh-connector/",
+      "notes": "SOURCE_LINK_ONLY candidate; exact MPN and orientation review required.",
+      "target_file": "research_targets\\batch_007_rf_connectors_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "records": [
+    {
+      "confidence_level": "MATCHED_BY_GENERIC_FOOTPRINT",
+      "connector_orientation_status": "NOT_APPLICABLE",
+      "footprint_status": "UNVERIFIED",
+      "high_risk_categories": [
+        "PMOS_OR_MOSFET"
+      ],
+      "human_review_required": true,
+      "kicad_footprint_candidate": "Package_TO_SOT_SMD:SOT-23 candidate only",
+      "kicad_symbol_candidate": "Transistor_FET:AO3401A candidate only",
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "mpn": "AO3401A",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\30_SUPPLIER_FOOTPRINT_MATCHES\\matches\\manual_verified\\EXAMPLE_ONLY_MANUAL_VERIFIED_ALPHA_AND_OMEGA_SEMICONDUCTOR_AO3401A.json",
+      "pinout_status": "UNVERIFIED",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_ALPHA_AND_OMEGA_SEMICONDUCTOR_AO3401A",
+      "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+      "supplier": "manual_verified",
+      "supplier_sku": "EXAMPLE_ONLY"
+    },
+    {
+      "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+      "connector_orientation_status": "NOT_APPLICABLE",
+      "footprint_status": "UNVERIFIED",
+      "high_risk_categories": [
+        "REGULATOR"
+      ],
+      "human_review_required": true,
+      "kicad_footprint_candidate": "Package_TO_SOT_SMD:TSOT-26/SOT-23-6 candidate only",
+      "kicad_symbol_candidate": "Regulator_Switching:AP63203 candidate only",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "AP63203",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\30_SUPPLIER_FOOTPRINT_MATCHES\\matches\\manual_verified\\EXAMPLE_ONLY_MANUAL_VERIFIED_DIODES_INCORPORATED_AP63203.json",
+      "pinout_status": "UNVERIFIED",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_DIODES_INCORPORATED_AP63203",
+      "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+      "supplier": "manual_verified",
+      "supplier_sku": "EXAMPLE_ONLY"
+    },
+    {
+      "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+      "connector_orientation_status": "NOT_APPLICABLE",
+      "footprint_status": "UNVERIFIED",
+      "high_risk_categories": [
+        "MCU_MODULE"
+      ],
+      "human_review_required": true,
+      "kicad_footprint_candidate": "RF_Module:ESP32-S3-WROOM-1 candidate only",
+      "kicad_symbol_candidate": "RF_Module:ESP32-S3-WROOM-1 candidate only",
+      "manufacturer": "Espressif",
+      "mpn": "ESP32-S3-WROOM-1",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\30_SUPPLIER_FOOTPRINT_MATCHES\\matches\\manual_verified\\EXAMPLE_ONLY_MANUAL_VERIFIED_ESPRESSIF_ESP32_S3_WROOM_1.json",
+      "pinout_status": "UNVERIFIED",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_ESPRESSIF_ESP32_S3_WROOM_1",
+      "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+      "supplier": "manual_verified",
+      "supplier_sku": "EXAMPLE_ONLY"
+    },
+    {
+      "confidence_level": "MATCHED_BY_GENERIC_FOOTPRINT",
+      "connector_orientation_status": "UNVERIFIED",
+      "footprint_status": "UNVERIFIED",
+      "high_risk_categories": [
+        "USB-C_CONNECTOR",
+        "CONNECTOR"
+      ],
+      "human_review_required": true,
+      "kicad_footprint_candidate": "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A candidate only",
+      "kicad_symbol_candidate": "Connector:USB_C_Receptacle_USB2_16P candidate only",
+      "manufacturer": "Generic",
+      "mpn": "USB-C 16-pin receptacle generic",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\30_SUPPLIER_FOOTPRINT_MATCHES\\matches\\manual_verified\\EXAMPLE_ONLY_MANUAL_VERIFIED_GENERIC_USB_C_16_PIN_RECEPTACLE_GENERIC.json",
+      "pinout_status": "UNVERIFIED",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_GENERIC_USB_C_16_PIN_RECEPTACLE_GENERIC",
+      "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+      "supplier": "manual_verified",
+      "supplier_sku": "EXAMPLE_ONLY"
+    },
+    {
+      "confidence_level": "MATCHED_BY_PACKAGE_NAME_ONLY",
+      "connector_orientation_status": "NOT_APPLICABLE",
+      "footprint_status": "UNVERIFIED",
+      "high_risk_categories": [
+        "BARE_MCU_PACKAGE"
+      ],
+      "human_review_required": true,
+      "kicad_footprint_candidate": "Package_QFP:LQFP-48_7x7mm_P0.5mm candidate only",
+      "kicad_symbol_candidate": "MCU_ST_STM32F1:STM32F103C8Tx candidate only",
+      "manufacturer": "STMicroelectronics",
+      "mpn": "STM32F103C8T6",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\30_SUPPLIER_FOOTPRINT_MATCHES\\matches\\manual_verified\\EXAMPLE_ONLY_MANUAL_VERIFIED_STMICROELECTRONICS_STM32F103C8T6.json",
+      "pinout_status": "UNVERIFIED",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_STMICROELECTRONICS_STM32F103C8T6",
+      "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+      "supplier": "manual_verified",
+      "supplier_sku": "EXAMPLE_ONLY"
+    },
+    {
+      "confidence_level": "UNVERIFIED",
+      "connector_orientation_status": "NOT_APPLICABLE",
+      "footprint_status": "UNVERIFIED",
+      "high_risk_categories": [
+        "ESD_ARRAY"
+      ],
+      "human_review_required": true,
+      "kicad_footprint_candidate": "Package_TO_SOT_SMD:SOT-23-6 or Package_SON candidate only",
+      "kicad_symbol_candidate": "Protection device candidate only",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPD2EUSB30ADRTR",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\30_SUPPLIER_FOOTPRINT_MATCHES\\matches\\manual_verified\\EXAMPLE_ONLY_MANUAL_VERIFIED_TEXAS_INSTRUMENTS_TPD2EUSB30ADRTR.json",
+      "pinout_status": "UNVERIFIED",
+      "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_TEXAS_INSTRUMENTS_TPD2EUSB30ADRTR",
+      "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+      "supplier": "manual_verified",
+      "supplier_sku": "EXAMPLE_ONLY"
+    }
+  ],
+  "summary": {
+    "confidence_counts": {
+      "MATCHED_BY_GENERIC_FOOTPRINT": 2,
+      "MATCHED_BY_PACKAGE_NAME_ONLY": 3,
+      "UNVERIFIED": 1
+    },
+    "example_only_records": 6,
+    "human_review_required": 6,
+    "records_indexed": 6
+  }
+}

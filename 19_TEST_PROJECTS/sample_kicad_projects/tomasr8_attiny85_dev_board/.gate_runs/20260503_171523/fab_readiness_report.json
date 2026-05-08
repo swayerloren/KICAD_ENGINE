@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "gerbers": [],
+    "drill": [],
+    "bom": [],
+    "pick_place": [],
+    "step": [],
+    "not_final": []
+  },
+  "has_final_verification": false,
+  "has_fab_audit": false,
+  "readiness_status": "NOT_READY"
+}

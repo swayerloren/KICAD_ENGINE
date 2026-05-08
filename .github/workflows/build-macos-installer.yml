@@ -1,0 +1,58 @@
+name: Build macOS Installer
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "installer/**"
+      - "setup/macos/**"
+      - "health_check.py"
+      - "QUICKSTART_MACOS.md"
+      - ".github/workflows/build-macos-installer.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-macos-unsigned:
+    name: Build unsigned macOS installer
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: "installer/package-lock.json"
+
+      - name: Build clean payload
+        run: |
+          python installer/payload/build_payload.py --source-root . --payload-root installer/payload --max-file-size-mb 5
+          python health_check.py --repo-root installer/payload/repo-template --no-write
+
+      - name: Install installer dependencies
+        working-directory: installer
+        run: npm ci
+
+      - name: Build macOS artifacts
+        working-directory: installer
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: "false"
+        run: npm run build:mac
+
+      - name: Upload macOS artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-engine-macos-installer-unsigned
+          path: |
+            installer/build/macos/**
+          if-no-files-found: error

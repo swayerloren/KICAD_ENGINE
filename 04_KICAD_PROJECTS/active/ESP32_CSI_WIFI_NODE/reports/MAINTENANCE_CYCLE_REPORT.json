@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-05-08T13:04:23-04:00",
+  "project": "ESP32_CSI_WIFI_NODE",
+  "prompt_counter_before": 0,
+  "prompt_counter_after": 0,
+  "classification": "PCB_EXISTS_PARTIAL_ROUTING_EXISTS_NEEDS_AUDIT",
+  "stale_report_count": 17,
+  "phase_results": {
+    "2": {
+      "phase": 2,
+      "name": "PCB Creation / Update From Schematic",
+      "result": "ALLOWED",
+      "phase_status": "ALREADY_DONE_BY_LIVE_FILE_EVIDENCE",
+      "next_required_phase": 3,
+      "blockers": [],
+      "evidence_decisions": [
+        {
+          "source": "LIVE_FILE_EVIDENCE",
+          "message": "Live PCB exists with 43 footprints."
+        }
+      ],
+      "warnings": [
+        "Live PCB existence proves Phase 2 already occurred even though upstream schematic gate remains FAIL."
+      ]
+    },
+    "3": {
+      "phase": 3,
+      "name": "Placement Planning",
+      "result": "ALLOWED",
+      "phase_status": "ALREADY_DONE_OR_SUPERSEDED_BY_LIVE_PLACEMENT",
+      "next_required_phase": 4,
+      "blockers": [],
+      "evidence_decisions": [
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "SCHEMATIC_TO_PCB_GATE_STATUS.md is older than the live schematic and cannot overrule live-state reconciliation."
+        },
+        {
+          "source": "LIVE_FILE_EVIDENCE",
+          "message": "Live PCB shows placed footprints inside outline bbox (43 / 43)."
+        }
+      ],
+      "warnings": [
+        "Placement planning is already superseded by live placement evidence on the current board."
+      ]
+    },
+    "8": {
+      "phase": 8,
+      "name": "Routing",
+      "result": "BLOCKED",
+      "phase_status": "PARTIAL_ROUTING_EXISTS_NEEDS_AUDIT",
+      "next_required_phase": 8,
+      "blockers": [
+        "Live DRC is FAIL with 0 violations and 17 unconnected items.",
+        "4 detectable unrouted nets remain."
+      ],
+      "evidence_decisions": [
+        {
+          "source": "LIVE_FILE_EVIDENCE",
+          "message": "Live PCB contains routing: tracks=74, vias=32."
+        },
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "REAL_PCB_UPDATE_FROM_SCHEMATIC report is stale and does not control routing gating."
+        },
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "SCHEMATIC_TO_PCB_GATE_STATUS.md is stale against the live schematic and is not used as a direct routing blocker."
+        },
+        {
+          "source": "STALE_REPORT_IGNORED",
+          "message": "PCB_LAYOUT_SANDBOX_GATE_STATUS.md is stale and cannot be used to claim NO_PCB or missing placement."
+        }
+      ],
+      "warnings": [
+        "Human review is required because historical schematic-gate evidence conflicts with the existence of a live PCB.",
+        "Human review is required before routing continuation because the live board exists despite stale or conflicting formal gate history."
+      ]
+    }
+  },
+  "next_action": "Repair or explicitly accept the current routed geometry, approve live placement/orientation, and resolve GND strategy plus critical unrouted nets before new routing.",
+  "steps": [
+    {
+      "name": "build_live_project_state",
+      "returncode": 0
+    },
+    {
+      "name": "detect_stale_reports",
+      "returncode": 0
+    },
+    {
+      "name": "reconcile_project_gates",
+      "returncode": 0
+    },
+    {
+      "name": "update_phase_status_from_live_state",
+      "returncode": 0
+    },
+    {
+      "name": "build_memory_index",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "build_history_index",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "build_ai_quality_index",
+      "returncode": 0,
+      "stdout": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\00_CODEX_START\\AI_QUALITY_INDEX.generated.json\nC:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\00_CODEX_START\\AI_QUALITY_INDEX.generated.md",
+      "stderr": ""
+    },
+    {
+      "name": "build_current_known_problems",
+      "returncode": 0,
+      "stdout": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\00_CODEX_START\\CURRENT_KNOWN_PROBLEMS.md",
+      "stderr": ""
+    }
+  ]
+}

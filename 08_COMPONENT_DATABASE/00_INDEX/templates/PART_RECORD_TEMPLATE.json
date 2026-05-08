@@ -1,0 +1,57 @@
+{
+  "record_id": "VENDOR_PARTNUMBER",
+  "part_number": "Unknown - requires source verification",
+  "vendor": "Unknown - requires source verification",
+  "family": "Unknown - requires source verification",
+  "category": "Unknown - requires classification",
+  "datasheet_local_path": "Unknown - requires source verification",
+  "datasheet_source_url": "Unknown - requires source verification",
+  "vendor_product_url": "Unknown - requires source verification",
+  "kicad_symbol_candidates": [
+    "Unknown - run KiCad library search and verify pinout"
+  ],
+  "kicad_footprint_candidates": [
+    "Unknown - exact package drawing required"
+  ],
+  "kicad_3d_model_candidates": [
+    "Unknown - exact footprint and model required"
+  ],
+  "package_drawing_status": "MISSING",
+  "three_d_model_status": "UNVERIFIED",
+  "verification_status": [
+    "UNVERIFIED_PLACEHOLDER"
+  ],
+  "pinout_status": "UNVERIFIED",
+  "symbol_status": "UNVERIFIED",
+  "footprint_status": "UNVERIFIED",
+  "layout_notes": [
+    "Unknown - requires source verification"
+  ],
+  "power_notes": [
+    "Unknown - requires source verification"
+  ],
+  "communication_notes": [
+    "Unknown - requires source verification"
+  ],
+  "common_mistakes": [
+    "Using a symbol before pinout verification.",
+    "Assigning a footprint before exact package drawing verification.",
+    "Assuming package from memory or similar parts."
+  ],
+  "ai_warnings": [
+    "Do not use this record for schematic or PCB approval until verification is complete.",
+    "Do not fabricate values to fill unknown fields."
+  ],
+  "required_external_parts": [
+    "Unknown - requires source verification"
+  ],
+  "reference_circuits": [
+    "Unknown - requires source verification"
+  ],
+  "known_errata": [
+    "Unknown - requires source verification"
+  ],
+  "human_review_required": true,
+  "source_confidence": "UNVERIFIED_PLACEHOLDER"
+}
+

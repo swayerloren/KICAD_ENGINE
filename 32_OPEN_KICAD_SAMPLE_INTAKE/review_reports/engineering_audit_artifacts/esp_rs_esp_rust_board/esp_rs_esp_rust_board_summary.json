@@ -1,0 +1,244 @@
+{
+  "sample": "esp_rs_esp_rust_board",
+  "root": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board",
+  "project_dir": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board",
+  "pro": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/esp-rust-board.kicad_pro",
+  "sch": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/esp-rust-board.kicad_sch",
+  "pcb": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/esp-rust-board.kicad_pcb",
+  "title": "ESP32-C3-DevKit-RUST-1",
+  "file_count": 52,
+  "directory_count": 13,
+  "license_present": true,
+  "readme_present": true,
+  "physical_ref_count": 55,
+  "unannotated_count": 0,
+  "duplicate_ref_count": 0,
+  "placed_symbol_count": 115,
+  "assigned_footprints_count": 55,
+  "schematic_footprint_property_count": 115,
+  "pcb_footprint_count": 96,
+  "missing_footprints": 1,
+  "no_prefix_footprints": 7,
+  "missing_models": 4,
+  "erc_exit_code": 5,
+  "drc_exit_code": 5,
+  "erc_signal": "ERC_MESSAGES_73_ERRORS_6_WARNINGS_67",
+  "drc_signal": "DRC_VIOLATIONS_81; FOOTPRINT_ERRORS_95; UNCONNECTED_0",
+  "sch_svg_exit_code": 0,
+  "pcb_top_svg_exit_code": 0,
+  "pcb_bottom_svg_exit_code": 0,
+  "unrouted_token_count": 85,
+  "complexity": "MEDIUM",
+  "classification": "BROKEN_TEST_PROJECT",
+  "missing_footprint_rows": [
+    {
+      "footprint": "Espressif:ESP32-C3-MINI-1",
+      "official_mod_exists": false,
+      "project_table_mod_exists": false,
+      "status": "MISSING_OR_UNRESOLVED"
+    }
+  ],
+  "no_prefix_footprint_rows": [
+    {
+      "footprint": "kibuzzard-61E1AB2E",
+      "official_mod_exists": "",
+      "project_table_mod_exists": "",
+      "status": "EMBEDDED_OR_NO_LIBRARY_PREFIX"
+    },
+    {
+      "footprint": "kibuzzard-61F26841",
+      "official_mod_exists": "",
+      "project_table_mod_exists": "",
+      "status": "EMBEDDED_OR_NO_LIBRARY_PREFIX"
+    },
+    {
+      "footprint": "kibuzzard-61F26855",
+      "official_mod_exists": "",
+      "project_table_mod_exists": "",
+      "status": "EMBEDDED_OR_NO_LIBRARY_PREFIX"
+    },
+    {
+      "footprint": "kibuzzard-61F2685B",
+      "official_mod_exists": "",
+      "project_table_mod_exists": "",
+      "status": "EMBEDDED_OR_NO_LIBRARY_PREFIX"
+    },
+    {
+      "footprint": "kibuzzard-623DAB98",
+      "official_mod_exists": "",
+      "project_table_mod_exists": "",
+      "status": "EMBEDDED_OR_NO_LIBRARY_PREFIX"
+    },
+    {
+      "footprint": "kibuzzard-6269032F",
+      "official_mod_exists": "",
+      "project_table_mod_exists": "",
+      "status": "EMBEDDED_OR_NO_LIBRARY_PREFIX"
+    },
+    {
+      "footprint": "label",
+      "official_mod_exists": "",
+      "project_table_mod_exists": "",
+      "status": "EMBEDDED_OR_NO_LIBRARY_PREFIX"
+    }
+  ],
+  "missing_model_rows": [
+    {
+      "model": "${ESPRESSIF_3DMODELS}/ESP32-C3-MINI-1.STEP",
+      "exists_after_known_var_resolution": false,
+      "unresolved_variable_names_in_source": "ESPRESSIF_3DMODELS"
+    },
+    {
+      "model": "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl",
+      "exists_after_known_var_resolution": false,
+      "unresolved_variable_names_in_source": "KICAD6_3DMODEL_DIR"
+    },
+    {
+      "model": "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl",
+      "exists_after_known_var_resolution": false,
+      "unresolved_variable_names_in_source": "KICAD6_3DMODEL_DIR"
+    },
+    {
+      "model": "${RUST3D}/SOD-882.step",
+      "exists_after_known_var_resolution": false,
+      "unresolved_variable_names_in_source": "RUST3D"
+    }
+  ],
+  "existing_outputs": {
+    "gerber_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-B_Cu.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-B_Mask.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-B_Paste.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-B_Silkscreen.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-Edge_Cuts.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-F_Cu.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-F_Fab.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-F_Mask.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-F_Paste.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-F_Silkscreen.gbr",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-job.gbrjob"
+    ],
+    "drill_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-NPTH.drl",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/gerber/esp-rust-board-PTH.drl"
+    ],
+    "bom_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/bom/esp-rust-board.csv",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/placement/esp-rust-board-bottom-pos.csv",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/placement/esp-rust-board-pnp_lcsc.xlsx",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/placement/esp-rust-board-top-pos.csv"
+    ],
+    "position_like": [],
+    "step_stl_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/kicad_libs/3d/ICM-42670-P.step",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/kicad_libs/3d/PTS810SJK250SMTRLFS.step",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/kicad_libs/3d/SHTC3.step",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/kicad_libs/3d/USB4105-GF-A.step",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/kicad_libs/3d/WS2812B-MINI.step"
+    ],
+    "pdf_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/schematic/esp-rust-board-Assembly.pdf",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/schematic/esp-rust-board.pdf"
+    ]
+  },
+  "commands": {
+    "erc": {
+      "args": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--format",
+        "report",
+        "--severity-all",
+        "--exit-code-violations",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_erc.rpt",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_sch"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board",
+      "exit_code": 5,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/erc.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/erc.stderr.txt",
+      "report_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/esp_rs_esp_rust_board_erc.rpt"
+    },
+    "drc": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--format",
+        "report",
+        "--severity-all",
+        "--schematic-parity",
+        "--exit-code-violations",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_drc.rpt",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board",
+      "exit_code": 5,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/drc.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/drc.stderr.txt",
+      "report_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/esp_rs_esp_rust_board_drc.rpt"
+    },
+    "sch_svg": {
+      "args": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "svg",
+        "--black-and-white",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\schematic_svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_sch"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/sch_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/sch_svg.stderr.txt"
+    },
+    "pcb_top_svg": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--page-size-mode",
+        "2",
+        "--fit-page-to-board",
+        "--layers",
+        "F.Cu,F.Mask,F.SilkS,Edge.Cuts",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_pcb_top.svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/pcb_top_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/pcb_top_svg.stderr.txt"
+    },
+    "pcb_bottom_svg": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--page-size-mode",
+        "2",
+        "--fit-page-to-board",
+        "--mirror",
+        "--layers",
+        "B.Cu,B.Mask,B.SilkS,Edge.Cuts",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\esp_rs_esp_rust_board\\esp_rs_esp_rust_board_pcb_bottom.svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/pcb_bottom_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/esp_rs_esp_rust_board/pcb_bottom_svg.stderr.txt"
+    }
+  }
+}

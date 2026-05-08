@@ -1,0 +1,58 @@
+{
+  "mode": "APPLY",
+  "changed_or_would_change": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\CURRENT_PROJECT_STATE.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\CURRENT_BLOCKERS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\RESOLVED_BLOCKERS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\SUPERSEDED_REPORTS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\FALSE_PASS_INCIDENTS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\NEXT_ALLOWED_PHASE.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_MEMORY_INDEX.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\MEMORY_MAINTENANCE_LAST_RUN.md"
+  ],
+  "duplicate_topics": {
+    "routing": 284,
+    "pcb_update": 171,
+    "no_pcb": 140,
+    "footprint": 550,
+    "jlcpcb": 61,
+    "not_final": 33,
+    "placement": 167,
+    "q1": 20,
+    "visual_pass": 10,
+    "schematic_gate": 3,
+    "pcb_sync": 16
+  },
+  "stale_or_superseded_reports": 94,
+  "false_pass_incidents": 58,
+  "relative_date_hits": 419,
+  "current_state": {
+    "project": "ESP32_CSI_WIFI_NODE",
+    "generated": "2026-05-07T12:37:49",
+    "truth": [
+      "KiCad GUI-native schematic annotation succeeded.",
+      "Raw text annotation repair is not accepted as proof.",
+      "PCB file exists: True.",
+      "Q1 AO3401A pin mapping was repaired with source-backed evidence if Q1 report exists.",
+      "Oversized 100 x 65 mm board placement was rejected.",
+      "Pill-style placement was attempted and improved but remains mechanically/footprint blocked.",
+      "Current placement has unresolved U2 drill/rule risk plus residual silkscreen cleanup.",
+      "Routing is blocked.",
+      "JLCPCB/export/signoff are blocked.",
+      "Next allowed work is PCB intelligence plus placement/mechanical repair, not routing."
+    ],
+    "evidence": {
+      "native_annotation": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\KICAD_GUI_NATIVE_ANNOTATION_RUN_REPORT.md",
+      "native_erc": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\KICAD_GUI_NATIVE_ANNOTATION_ERC_REPORT.md",
+      "pcb_exists": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+      "q1_repair": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\Q1_PMOS_PIN_MAPPING_REPAIR_REPORT.md",
+      "placement_rejection": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\CURRENT_PCB_PLACEMENT_REJECTION_REPORT.md",
+      "pill_audit": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PILL_STYLE_PLACEMENT_AUDIT.md",
+      "intelligence_repair": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_PLACEMENT_REPAIR_REPORT.md",
+      "intelligence_drc": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_DRC_REPORT.md"
+    },
+    "next_allowed_phase": "PCB intelligence + placement/mechanical repair",
+    "routing_allowed": false,
+    "jlcpcb_export_signoff_allowed": false
+  }
+}

@@ -1,0 +1,96 @@
+name: Build Installer - macOS
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  build-macos:
+    name: Build macOS installer
+    runs-on: macos-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: "installer/package-lock.json"
+
+      - name: Build clean payload
+        run: |
+          mkdir -p installer/build/macos
+          python installer/payload/build_payload.py --source-root . --payload-root installer/payload --max-file-size-mb 5
+          python health_check.py --repo-root installer/payload/repo-template --no-write 2>&1 | tee installer/build/macos/payload-health-macos.log
+
+      - name: Secret scan if ripgrep is available
+        run: |
+          if command -v rg >/dev/null 2>&1; then
+            set +e
+            rg -n 'api[_-]?key\s*[:=]|access[_-]?token\s*[:=]|password\s*[:=]|BEGIN (RSA |DSA |EC |OPENSSH |PGP )?PRIVATE KEY|sk-[A-Za-z0-9]{20,}' installer/payload/repo-template installer/payload/payload.manifest.json installer/payload/PAYLOAD_BUILD_REPORT.md
+            status=$?
+            set -e
+            if [ "$status" -eq 0 ]; then
+              echo "Secret scan found potential secret material." >&2
+              exit 1
+            fi
+            if [ "$status" -gt 1 ]; then
+              echo "Secret scan failed with exit code $status." >&2
+              exit "$status"
+            fi
+            echo "Secret scan completed with no matches."
+          else
+            echo "ripgrep is not available on this runner; skipping optional secret scan."
+          fi
+
+      - name: Install installer npm dependencies
+        working-directory: installer
+        run: npm ci
+
+      - name: Build macOS universal DMG
+        working-directory: installer
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: "false"
+        run: |
+          set -o pipefail
+          npx electron-builder --mac dmg --universal --config.directories.output=build/macos 2>&1 | tee build/macos/build-installer-macos.log
+
+      - name: Stage macOS release artifacts
+        working-directory: installer
+        run: |
+          mkdir -p release-artifacts
+          dmg="$(find build/macos -type f -name '*.dmg' | sort | tail -n 1)"
+          if [ -z "$dmg" ]; then
+            echo "macOS DMG was not found." >&2
+            exit 1
+          fi
+          cp "$dmg" release-artifacts/KiCad-Engine-Setup-macOS-universal.dmg
+          python -m zipfile -c release-artifacts/KICAD_ENGINE_PAYLOAD.zip payload/repo-template
+          cp payload/PAYLOAD_BUILD_REPORT.md release-artifacts/PAYLOAD_BUILD_REPORT-macOS.md
+          cp build/macos/build-installer-macos.log release-artifacts/build-installer-macos.log
+          cp build/macos/payload-health-macos.log release-artifacts/payload-health-macos.log
+          (
+            cd release-artifacts
+            find . -maxdepth 1 -type f ! -name SHA256SUMS.txt -print0 |
+              sort -z |
+              xargs -0 shasum -a 256 |
+              sed 's#  \./#  #' > SHA256SUMS.txt
+          )
+
+      - name: Upload macOS artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-engine-macos-artifacts
+          path: installer/release-artifacts/**
+          if-no-files-found: error

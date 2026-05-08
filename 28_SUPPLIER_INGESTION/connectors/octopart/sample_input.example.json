@@ -1,0 +1,7 @@
+﻿{
+    "supplier":  "Octopart",
+    "query":  "EXAMPLE-MPN",
+    "source_type":  "example_only",
+    "live_api_call":  false,
+    "notes":  "EXAMPLE_ONLY. No credentials or live calls."
+}

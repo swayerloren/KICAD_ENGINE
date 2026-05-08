@@ -1,0 +1,135 @@
+{
+  "audit_complete": true,
+  "critical_trace_count": 0,
+  "flagged_count": 3,
+  "hard_fails": [],
+  "missing_trace_nets": [],
+  "project": "ESP32_CSI_WIFI_NODE",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "critical_trace_count": 0,
+    "flagged_count": 3,
+    "trace_count": 6
+  },
+  "tool": "trace_by_trace_audit",
+  "trace_count": 6,
+  "traces": [
+    {
+      "angles_deg": [
+        90.0,
+        135.0,
+        90.0,
+        1.159
+      ],
+      "critical": false,
+      "issues": [
+        "acute_or_nonstandard_angle",
+        "right_angle_turn"
+      ],
+      "net": "+3V3",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 5,
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.5
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "/+5V_FUSED",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 2,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.75
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "/+5V_IN",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 3,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.75
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        135.0,
+        90.0,
+        0.0,
+        45.0,
+        135.0,
+        135.0,
+        90.0,
+        180.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "/+5V_PROTECTED",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 10,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.5,
+        0.75
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "/BUCK_BST",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 2,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.25
+      ]
+    },
+    {
+      "angles_deg": [
+        0.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "/BUCK_SW",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 2,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.5
+      ]
+    }
+  ]
+}

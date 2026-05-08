@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JLCPCB BOM CSV Schema",
+  "type": "object",
+  "required_columns": ["Comment", "Designator", "Footprint", "LCSC Part #", "Quantity", "Manufacturer", "Manufacturer Part Number", "Notes"],
+  "required_nonblank": ["Comment", "Designator", "Footprint"],
+  "quantity_column": "Quantity",
+  "designator_column": "Designator",
+  "notes": "CSV schema metadata for KiCad Engine validators. Structural PASS is not assembly approval."
+}

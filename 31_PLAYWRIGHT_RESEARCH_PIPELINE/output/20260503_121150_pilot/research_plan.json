@@ -1,0 +1,114 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:11:50.420Z",
+  "target_count": 5,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "STMicro",
+      "family": "STM32F1",
+      "part_number": "STM32F103C8T6",
+      "category": "microcontroller",
+      "search_terms": "STM32F103C8T6 official product page source link",
+      "preferred_sources": "stmicro;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "notes": "Pilot only. Keep UNVERIFIED until official document section and footprint review.",
+      "target_file": "research_targets\\pilot_live_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-S3",
+      "part_number": "ESP32-S3-WROOM-1",
+      "category": "module",
+      "search_terms": "ESP32-S3-WROOM-1 official module page source link",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "notes": "Pilot only. Module keepout and antenna review remain required.",
+      "target_file": "research_targets\\pilot_live_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "CAN FD",
+      "part_number": "MCP2562FD",
+      "category": "communication",
+      "search_terms": "MCP2562FD official product page source link",
+      "preferred_sources": "microchip;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "notes": "Pilot only. Package variants remain UNVERIFIED.",
+      "target_file": "research_targets\\pilot_live_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Diodes Inc",
+      "family": "AP63203",
+      "part_number": "AP63203",
+      "category": "power_regulator",
+      "search_terms": "AP63203 official product page source link",
+      "preferred_sources": "manufacturer_official;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "notes": "Pilot only. Regulator package/layout review remains required.",
+      "target_file": "research_targets\\pilot_live_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "USB-C",
+      "part_number": "USB-C 16-pin receptacle generic",
+      "category": "connector",
+      "search_terms": "USB-C 16 pin KiCad official footprint library source link",
+      "preferred_sources": "kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates;source_evidence",
+      "priority": "high",
+      "notes": "Pilot only. Generic connector cannot be verified without exact manufacturer drawing.",
+      "target_file": "research_targets\\pilot_live_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

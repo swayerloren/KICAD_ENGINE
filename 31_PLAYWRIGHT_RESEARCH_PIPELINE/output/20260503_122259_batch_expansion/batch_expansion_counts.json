@@ -1,0 +1,30 @@
+﻿[
+    {
+        "batch":  "batch_001_esp32",
+        "records":  10
+    },
+    {
+        "batch":  "batch_002_stm32",
+        "records":  12
+    },
+    {
+        "batch":  "batch_003_pic_avr",
+        "records":  10
+    },
+    {
+        "batch":  "batch_004_usb_c_connectors",
+        "records":  7
+    },
+    {
+        "batch":  "batch_005_can",
+        "records":  7
+    },
+    {
+        "batch":  "batch_006_power",
+        "records":  15
+    },
+    {
+        "batch":  "batch_007_rf_connectors",
+        "records":  11
+    }
+]

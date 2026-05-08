@@ -1,0 +1,23 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "BOM_LOCK_REQUIRED",
+      "evidence": "",
+      "message": "BOM lock path is required for alignment checking.",
+      "reference": "",
+      "status": "FAIL"
+    }
+  ],
+  "generated_at": "2026-05-06T15:16:23",
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 1,
+      "PASS": 0,
+      "WARN": 0
+    },
+    "result": "FAIL"
+  }
+}

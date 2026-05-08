@@ -1,0 +1,313 @@
+{
+  "summary": {
+    "physical_symbols": 43,
+    "unannotated_refs": [],
+    "duplicate_refs": [],
+    "blank_footprints": [],
+    "question_reference_tokens": [],
+    "candidate_footprints_assigned": 43
+  },
+  "physical_symbols": [
+    {
+      "reference": "J1",
+      "value": "JACK_5V_REVIEW",
+      "footprint": "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:Barrel_Jack"
+    },
+    {
+      "reference": "F1",
+      "value": "PTC_1206_REVIEW",
+      "footprint": "Fuse:Fuse_1206_3216Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:Polyfuse"
+    },
+    {
+      "reference": "Q1",
+      "value": "AO3401A_REVIEW",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:Q_PMOS"
+    },
+    {
+      "reference": "D1",
+      "value": "SMAJ5V_NEEDS_REVIEW",
+      "footprint": "Diode_SMD:D_SMA",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:D_TVS"
+    },
+    {
+      "reference": "C1",
+      "value": "47uF_16V_REVIEW",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "U1",
+      "value": "AP63203_NEEDS_REVIEW",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Regulator_Switching:AP63203WU"
+    },
+    {
+      "reference": "L1",
+      "value": "3.9uH_IND_REVIEW",
+      "footprint": "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:L"
+    },
+    {
+      "reference": "C2",
+      "value": "10uF_CIN_REVIEW",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C3",
+      "value": "22uF_COUT_REVIEW",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C4",
+      "value": "22uF_COUT_REVIEW",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C5",
+      "value": "100nF_CBST",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "U2",
+      "value": "ESP32-S3-WROOM-1U_REVIEW",
+      "footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1"
+    },
+    {
+      "reference": "C6",
+      "value": "10uF_MODULE_REVIEW",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "C7",
+      "value": "100nF_MODULE",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "R1",
+      "value": "10k_EN",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "C8",
+      "value": "1uF_EN_REVIEW",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:C"
+    },
+    {
+      "reference": "SW1",
+      "value": "RESET_EN_REVIEW",
+      "footprint": "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Switch:SW_Push"
+    },
+    {
+      "reference": "R2",
+      "value": "10k_BOOT",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "SW2",
+      "value": "BOOT_GPIO0_REVIEW",
+      "footprint": "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Switch:SW_Push"
+    },
+    {
+      "reference": "J2",
+      "value": "USB-C_NEEDS_REVIEW",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_14P"
+    },
+    {
+      "reference": "R3",
+      "value": "0R_DNI_SHIELD_REVIEW",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R4",
+      "value": "5.1k_CC1",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R5",
+      "value": "5.1k_CC2",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "U3",
+      "value": "USB_ESD_REVIEW",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Power_Protection:TPD2EUSB30"
+    },
+    {
+      "reference": "R6",
+      "value": "22R_USB_D-",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R7",
+      "value": "22R_USB_D+",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "R8",
+      "value": "2.2k_PWR",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "D2",
+      "value": "PWR_LED_REVIEW",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:LED"
+    },
+    {
+      "reference": "R9",
+      "value": "2.2k_STATUS",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:R"
+    },
+    {
+      "reference": "D3",
+      "value": "STATUS_LED_REVIEW",
+      "footprint": "LED_SMD:LED_0603_1608Metric",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Device:LED"
+    },
+    {
+      "reference": "TP1",
+      "value": "TP_5V",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP2",
+      "value": "TP_3V3",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP3",
+      "value": "TP_GND",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP4",
+      "value": "TP_EN",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP5",
+      "value": "TP_BOOT",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP6",
+      "value": "TP_U0TXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP7",
+      "value": "TP_U0RXD",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP8",
+      "value": "TP_USB_D+_REVIEW",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "TP9",
+      "value": "TP_USB_D-_REVIEW",
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Connector:TestPoint"
+    },
+    {
+      "reference": "MH1",
+      "value": "M2.5_NPTH_REVIEW",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Mechanical:MountingHole"
+    },
+    {
+      "reference": "MH2",
+      "value": "M2.5_NPTH_REVIEW",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Mechanical:MountingHole"
+    },
+    {
+      "reference": "MH3",
+      "value": "M2.5_NPTH_REVIEW",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Mechanical:MountingHole"
+    },
+    {
+      "reference": "MH4",
+      "value": "M2.5_NPTH_REVIEW",
+      "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "lib_id": "Mechanical:MountingHole"
+    }
+  ]
+}

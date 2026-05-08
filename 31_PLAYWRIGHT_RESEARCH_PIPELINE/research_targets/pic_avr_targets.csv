@@ -1,0 +1,3 @@
+vendor,family,part_number,category,search_terms,preferred_sources,required_outputs,priority,notes
+Microchip,PIC16,PIC16F877A,microcontroller,"PIC16F877A datasheet package ICSP MCLR oscillator","microchip;kicad_official_libraries;digikey;mouser","datasheet_link;part_metadata;programming_notes;kicad_candidates",medium,"Legacy PIC; verify package variants before footprint."
+Microchip,PIC18,PIC18F4550,microcontroller,"PIC18F4550 datasheet USB ICSP package","microchip;kicad_official_libraries;digikey;mouser","datasheet_link;part_metadata;usb_notes;kicad_candidates",medium,"USB and oscillator details require datasheet review."

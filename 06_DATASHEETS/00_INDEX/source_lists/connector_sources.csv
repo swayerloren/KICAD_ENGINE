@@ -1,0 +1,5 @@
+vendor,family,part_number,document_type,title,source_url,local_target_folder,public_redistribution_status,notes
+Molex,USB_C_CONNECTOR,USB-C 16-pin receptacle generic,DATASHEET,Molex USB and I/O connector portal,https://www.molex.com/molex/products/group/shielded_input_output_io,06_DATASHEETS/05_CONNECTORS,LINK_ONLY_RECOMMENDED,Portal row only; replace with exact manufacturer part before footprint use.
+TE Connectivity,USB_C_CONNECTOR,USB-C receptacle generic,DATASHEET,TE USB connector product portal,https://www.te.com/usa-en/products/connectors/usb-connectors.html,06_DATASHEETS/05_CONNECTORS,LINK_ONLY_RECOMMENDED,Portal row only; verify exact series and drawing.
+Hirose,RF_CONNECTOR,U.FL connector generic,DATASHEET,Hirose connector product portal,https://www.hirose.com/,06_DATASHEETS/05_CONNECTORS,LINK_ONLY_RECOMMENDED,Use exact U.FL-compatible part and official drawing before layout.
+Amphenol RF,RF_CONNECTOR,SMA edge connector generic,DATASHEET,Amphenol RF product portal,https://www.amphenolrf.com/,06_DATASHEETS/05_CONNECTORS,LINK_ONLY_RECOMMENDED,Use exact edge-launch connector drawing before footprint use.

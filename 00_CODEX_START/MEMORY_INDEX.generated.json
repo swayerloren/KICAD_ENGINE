@@ -1,0 +1,426 @@
+{
+  "generated": "2026-05-08T13:18:17",
+  "record_count": 60,
+  "records": [
+    {
+      "modified": "2026-05-03T00:29:49",
+      "name": "AGENT_LESSONS_LEARNED.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\AGENT_LESSONS_LEARNED.md",
+      "size_bytes": 1728,
+      "title": "Agent Lessons Learned"
+    },
+    {
+      "modified": "2026-05-07T16:48:00",
+      "name": "AGENT_MISTAKES_TO_AVOID.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\AGENT_MISTAKES_TO_AVOID.md",
+      "size_bytes": 8091,
+      "title": "Agent Mistakes To Avoid"
+    },
+    {
+      "modified": "2026-05-07T12:36:43",
+      "name": "AI_RELIABILITY_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\AI_RELIABILITY_MEMORY.md",
+      "size_bytes": 978,
+      "title": "AI Reliability Memory"
+    },
+    {
+      "modified": "2026-04-30T14:41:21",
+      "name": "CODING_AND_SCRIPTING_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\CODING_AND_SCRIPTING_RULES.md",
+      "size_bytes": 1811,
+      "title": "Coding And Scripting Rules"
+    },
+    {
+      "modified": "2026-04-30T18:14:29",
+      "name": "COMPONENT_PREFERENCES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\COMPONENT_PREFERENCES.md",
+      "size_bytes": 3277,
+      "title": "Component Preferences"
+    },
+    {
+      "modified": "2026-05-08T13:04:11",
+      "name": "DESIGN_RULES_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\DESIGN_RULES_MEMORY.md",
+      "size_bytes": 16403,
+      "title": "Design Rules Memory"
+    },
+    {
+      "modified": "2026-05-02T22:56:57",
+      "name": "EXAMPLE_ONLY_UNVERIFIED_CONNECTOR_FOOTPRINT_WARNING.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\EXAMPLE_ONLY_UNVERIFIED_CONNECTOR_FOOTPRINT_WARNING.md",
+      "size_bytes": 504,
+      "title": "EXAMPLE_ONLY Global Warning: Unverified Connector Footprints"
+    },
+    {
+      "modified": "2026-05-07T14:27:15",
+      "name": "FAB_HOUSE_PREFERENCES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\FAB_HOUSE_PREFERENCES.md",
+      "size_bytes": 3345,
+      "title": "Fabrication House Preferences"
+    },
+    {
+      "modified": "2026-05-07T12:36:31",
+      "name": "FAILED_WORKFLOWS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\FAILED_WORKFLOWS.md",
+      "size_bytes": 1245,
+      "title": "Failed Workflows"
+    },
+    {
+      "modified": "2026-05-07T12:36:43",
+      "name": "GLOBAL_HALLUCINATION_RISKS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\GLOBAL_HALLUCINATION_RISKS.md",
+      "size_bytes": 1708,
+      "title": "Global Hallucination Risks"
+    },
+    {
+      "modified": "2026-04-30T14:41:21",
+      "name": "GLOBAL_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\GLOBAL_MEMORY.md",
+      "size_bytes": 1513,
+      "title": "Global Memory"
+    },
+    {
+      "modified": "2026-05-07T14:27:15",
+      "name": "GLOBAL_QUALITY_GATE_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\GLOBAL_QUALITY_GATE_RULES.md",
+      "size_bytes": 3793,
+      "title": "Global Quality Gate Rules"
+    },
+    {
+      "modified": "2026-05-07T12:36:43",
+      "name": "GLOBAL_UNVERIFIED_CLAIMS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\GLOBAL_UNVERIFIED_CLAIMS.md",
+      "size_bytes": 778,
+      "title": "Global Unverified Claims"
+    },
+    {
+      "modified": "2026-05-07T12:41:36",
+      "name": "INDEX.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\INDEX.md",
+      "size_bytes": 1994,
+      "title": "01_MEMORY Index"
+    },
+    {
+      "modified": "2026-05-08T13:04:24",
+      "name": "MASTER_MEMORY_INDEX.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\MASTER_MEMORY_INDEX.md",
+      "size_bytes": 6480,
+      "title": "Master Memory Index"
+    },
+    {
+      "modified": "2026-05-07T12:45:06",
+      "name": "MEMORY_UPDATE_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\MEMORY_UPDATE_RULES.md",
+      "size_bytes": 2508,
+      "title": "Memory Update Rules"
+    },
+    {
+      "modified": "2026-04-30T17:42:41",
+      "name": "PROJECT_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\projects\\CLEAN_KICAD_PASSING_SAMPLE\\PROJECT_MEMORY.md",
+      "size_bytes": 174,
+      "title": "\ufeff# CLEAN_KICAD_PASSING_SAMPLE Project Memory"
+    },
+    {
+      "modified": "2026-04-30T18:10:02",
+      "name": "PROJECT_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\projects\\COMMAND_LINK_VERIFIED_REFERENCE\\PROJECT_MEMORY.md",
+      "size_bytes": 2395,
+      "title": "COMMAND_LINK_VERIFIED_REFERENCE Project Memory"
+    },
+    {
+      "modified": "2026-05-02T15:05:11",
+      "name": "PROJECT_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\projects\\ESP32_CSI_WIFI_NODE\\PROJECT_MEMORY.md",
+      "size_bytes": 6640,
+      "title": "ESP32_CSI_WIFI_NODE Project Memory"
+    },
+    {
+      "modified": "2026-04-30T16:31:42",
+      "name": "PROJECT_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\projects\\SAMPLE_KICAD_TEST_PROJECT\\PROJECT_MEMORY.md",
+      "size_bytes": 335,
+      "title": "SAMPLE_KICAD_TEST_PROJECT Project Memory"
+    },
+    {
+      "modified": "2026-05-07T12:36:31",
+      "name": "README.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\README.md",
+      "size_bytes": 1093,
+      "title": "01_MEMORY"
+    },
+    {
+      "modified": "2026-05-07T16:48:00",
+      "name": "USER_CORRECTIONS_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\USER_CORRECTIONS_MEMORY.md",
+      "size_bytes": 5902,
+      "title": "User Corrections Memory"
+    },
+    {
+      "modified": "2026-05-08T13:18:07",
+      "name": "VERIFIED_WORKFLOWS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\VERIFIED_WORKFLOWS.md",
+      "size_bytes": 7200,
+      "title": "Verified Workflows"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "AGENT_MISTAKES_TO_AVOID.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\AGENT_MISTAKES_TO_AVOID.md",
+      "size_bytes": 492,
+      "title": "Agent Mistakes To Avoid"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "AI_RELIABILITY_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\AI_RELIABILITY_MEMORY.md",
+      "size_bytes": 368,
+      "title": "AI Reliability Memory"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "COMPONENT_DECISIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\COMPONENT_DECISIONS.md",
+      "size_bytes": 399,
+      "title": "Component Decisions"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "DATASHEET_DECISIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\DATASHEET_DECISIONS.md",
+      "size_bytes": 372,
+      "title": "Datasheet Decisions"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "DESIGN_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\DESIGN_RULES.md",
+      "size_bytes": 387,
+      "title": "Project Design Rules"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "FOOTPRINT_DECISIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\FOOTPRINT_DECISIONS.md",
+      "size_bytes": 384,
+      "title": "Footprint Decisions"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "MEMORY_UPDATE_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\MEMORY_UPDATE_RULES.md",
+      "size_bytes": 537,
+      "title": "Project Memory Update Rules"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "OPEN_DESIGN_RISKS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\OPEN_DESIGN_RISKS.md",
+      "size_bytes": 386,
+      "title": "Open Design Risks"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "PROJECT_HALLUCINATION_RISKS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_HALLUCINATION_RISKS.md",
+      "size_bytes": 338,
+      "title": "Project Hallucination Risks"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "PROJECT_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_MEMORY.md",
+      "size_bytes": 951,
+      "title": "COMMAND_LINK_VERIFIED_REFERENCE Project Memory"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "PROJECT_QUALITY_GATE_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_QUALITY_GATE_RULES.md",
+      "size_bytes": 359,
+      "title": "Project Quality Gate Rules"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "PROJECT_UNVERIFIED_CLAIMS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_UNVERIFIED_CLAIMS.md",
+      "size_bytes": 331,
+      "title": "Project Unverified Claims"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "USER_CORRECTIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\USER_CORRECTIONS.md",
+      "size_bytes": 372,
+      "title": "User Corrections"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "AGENT_MISTAKES_TO_AVOID.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\AGENT_MISTAKES_TO_AVOID.md",
+      "size_bytes": 500,
+      "title": "Agent Mistakes To Avoid"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "AI_RELIABILITY_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\AI_RELIABILITY_MEMORY.md",
+      "size_bytes": 561,
+      "title": "AI Reliability Memory"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "COMPONENT_DECISIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\COMPONENT_DECISIONS.md",
+      "size_bytes": 517,
+      "title": "Component Decisions"
+    },
+    {
+      "modified": "2026-05-08T13:04:23",
+      "name": "CURRENT_BLOCKERS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\CURRENT_BLOCKERS.md",
+      "size_bytes": 803,
+      "title": "Current Blockers"
+    },
+    {
+      "modified": "2026-05-08T13:04:23",
+      "name": "CURRENT_PROJECT_STATE.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\CURRENT_PROJECT_STATE.md",
+      "size_bytes": 1231,
+      "title": "Current Project State"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "DATASHEET_DECISIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\DATASHEET_DECISIONS.md",
+      "size_bytes": 537,
+      "title": "Datasheet Decisions"
+    },
+    {
+      "modified": "2026-05-03T09:22:38",
+      "name": "DESIGN_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\DESIGN_RULES.md",
+      "size_bytes": 7472,
+      "title": "Project Design Rules"
+    },
+    {
+      "modified": "2026-05-02T22:43:12",
+      "name": "EXAMPLE_ONLY_USB_C_CONNECTOR_MEMORY_UPDATE.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\EXAMPLE_ONLY_USB_C_CONNECTOR_MEMORY_UPDATE.md",
+      "size_bytes": 983,
+      "title": "EXAMPLE_ONLY Project Memory Update: USB-C Connector Footprint"
+    },
+    {
+      "modified": "2026-05-02T22:56:57",
+      "name": "EXAMPLE_ONLY_USB_C_GENERIC_FOOTPRINT_WARNING.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\EXAMPLE_ONLY_USB_C_GENERIC_FOOTPRINT_WARNING.md",
+      "size_bytes": 397,
+      "title": "EXAMPLE_ONLY Project Warning: Generic USB-C Footprints"
+    },
+    {
+      "modified": "2026-05-07T21:15:47",
+      "name": "FALSE_PASS_INCIDENTS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\FALSE_PASS_INCIDENTS.md",
+      "size_bytes": 12353,
+      "title": "False Pass Incidents"
+    },
+    {
+      "modified": "2026-05-06T16:40:52",
+      "name": "FOOTPRINT_DECISIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\FOOTPRINT_DECISIONS.md",
+      "size_bytes": 2166,
+      "title": "Footprint Decisions"
+    },
+    {
+      "modified": "2026-05-07T14:02:08",
+      "name": "J1_BARREL_JACK_ORIENTATION_LESSON.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\J1_BARREL_JACK_ORIENTATION_LESSON.md",
+      "size_bytes": 1069,
+      "title": "J1 Barrel Jack Orientation Lesson"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "MEMORY_UPDATE_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\MEMORY_UPDATE_RULES.md",
+      "size_bytes": 503,
+      "title": "Project Memory Update Rules"
+    },
+    {
+      "modified": "2026-05-08T13:04:23",
+      "name": "NEXT_ALLOWED_PHASE.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\NEXT_ALLOWED_PHASE.md",
+      "size_bytes": 175,
+      "title": "Next Allowed Phase"
+    },
+    {
+      "modified": "2026-05-06T16:47:34",
+      "name": "OPEN_DESIGN_RISKS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\OPEN_DESIGN_RISKS.md",
+      "size_bytes": 13294,
+      "title": "Open Design Risks"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "PROJECT_HALLUCINATION_RISKS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_HALLUCINATION_RISKS.md",
+      "size_bytes": 563,
+      "title": "Project Hallucination Risks"
+    },
+    {
+      "modified": "2026-05-08T13:18:07",
+      "name": "PROJECT_MEMORY.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_MEMORY.md",
+      "size_bytes": 8114,
+      "title": "ESP32_CSI_WIFI_NODE Project Memory"
+    },
+    {
+      "modified": "2026-05-07T21:15:47",
+      "name": "PROJECT_MEMORY_INDEX.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_MEMORY_INDEX.md",
+      "size_bytes": 2980,
+      "title": "Project Memory Index"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "PROJECT_QUALITY_GATE_RULES.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_QUALITY_GATE_RULES.md",
+      "size_bytes": 449,
+      "title": "Project Quality Gate Rules"
+    },
+    {
+      "modified": "2026-05-02T22:54:43",
+      "name": "PROJECT_UNVERIFIED_CLAIMS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_UNVERIFIED_CLAIMS.md",
+      "size_bytes": 530,
+      "title": "Project Unverified Claims"
+    },
+    {
+      "modified": "2026-05-08T13:18:17",
+      "name": "PROMPT_COUNTER.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROMPT_COUNTER.md",
+      "size_bytes": 644,
+      "title": "Prompt Counter"
+    },
+    {
+      "modified": "2026-05-07T21:15:47",
+      "name": "RESOLVED_BLOCKERS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\RESOLVED_BLOCKERS.md",
+      "size_bytes": 640,
+      "title": "Resolved Blockers"
+    },
+    {
+      "modified": "2026-05-07T21:15:47",
+      "name": "SUPERSEDED_REPORTS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\SUPERSEDED_REPORTS.md",
+      "size_bytes": 27565,
+      "title": "Superseded Reports"
+    },
+    {
+      "modified": "2026-05-02T22:42:31",
+      "name": "USER_CORRECTIONS.md",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\USER_CORRECTIONS.md",
+      "size_bytes": 474,
+      "title": "User Corrections"
+    }
+  ]
+}

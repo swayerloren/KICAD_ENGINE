@@ -1,0 +1,100 @@
+{
+  "bom_lock": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\PRE_SCHEMATIC_BOM_LOCK.md",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "JACK_5V_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "J1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "AO3401A_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "Q1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "SMAJ5V_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "D1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "AP63203_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "U1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "3.9uH_IND_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "L1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "RESET_EN_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "SW1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "BOOT_GPIO0_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "SW2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "USB-C_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "J2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "USB_ESD_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "U3",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "PWR_LED_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "D2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "STATUS_LED_REVIEW",
+      "message": "Unresolved review marker present: BLOCKED.",
+      "reference": "D3",
+      "status": "FAIL"
+    },
+    {
+      "code": "REVIEW_MARKERS_REQUIRE_GATE_BLOCKER",
+      "evidence": "11",
+      "message": "Any unresolved review marker must block schematic-to-PCB gate until resolved or explicitly accepted by human review.",
+      "reference": "",
+      "status": "WARN"
+    }
+  ],
+  "generated_at": "2026-05-06T16:44:06",
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 11,
+      "PASS": 0,
+      "WARN": 1
+    },
+    "result": "FAIL"
+  }
+}

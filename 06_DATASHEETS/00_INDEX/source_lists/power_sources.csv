@@ -1,0 +1,5 @@
+vendor,family,part_number,document_type,title,source_url,local_target_folder,public_redistribution_status,notes
+Texas Instruments,BUCK_REGULATOR,LM2596,DATASHEET,LM2596 product page and datasheet entry,https://www.ti.com/product/LM2596,06_DATASHEETS/03_POWER,LINK_ONLY_RECOMMENDED,Official product page; verify exact variant package and revision before direct PDF URL.
+Texas Instruments,POWER,Power management,REFERENCE_DOCUMENT,TI power management documentation entry point,https://www.ti.com/power-management/overview.html,06_DATASHEETS/03_POWER,LINK_ONLY_RECOMMENDED,Portal row for future part research.
+Generic,LINEAR_REGULATOR,AMS1117-3.3,DATASHEET,AMS1117-3.3 datasheet placeholder,,06_DATASHEETS/03_POWER,UNKNOWN,Vendor is not confirmed; replace generic row with exact manufacturer part.
+Analog Devices,POWER,Power management,REFERENCE_DOCUMENT,Analog Devices power management portal,https://www.analog.com/en/product-category/power-management.html,06_DATASHEETS/03_POWER,LINK_ONLY_RECOMMENDED,Portal row for future regulator research.

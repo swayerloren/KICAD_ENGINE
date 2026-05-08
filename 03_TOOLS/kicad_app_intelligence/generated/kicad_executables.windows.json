@@ -1,0 +1,223 @@
+{
+  "bin_dir": "C:\\Program Files\\KiCad\\9.0\\bin",
+  "command_behavior": {
+    "fp_help": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "fp",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Usage: fp [--help] {export,upgrade}\n\nFootprint and Footprint Libraries\n\nOptional arguments:\n  -h, --help  Shows help message and exits \n\nSubcommands:\n  export     Export utilities (svg)\n  upgrade    Upgrades the footprint library to the current kicad version format"
+    },
+    "help": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Usage: kicad-cli [--version] [--help] {fp,jobset,pcb,sch,sym,version}\n\nOptional arguments:\n  -v, --version  prints version information and exits \n  -h, --help     Shows help message and exits \n\nSubcommands:\n  fp            Footprint and Footprint Libraries\n  jobset        Jobset\n  pcb           PCB\n  sch           Schematics\n  sym           Symbol and Symbol Libraries\n  version       Reports the version info in various formats"
+    },
+    "jobset_help": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "jobset",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Usage: jobset [--help] {run}\n\nJobset\n\nOptional arguments:\n  -h, --help  Shows help message and exits \n\nSubcommands:\n  run        Runs a jobset file"
+    },
+    "pcb_help": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "pcb",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Usage: pcb [--help] {drc,export,render}\n\nPCB\n\nOptional arguments:\n  -h, --help  Shows help message and exits \n\nSubcommands:\n  drc        Runs the Design Rules Check (DRC) on the PCB and creates a report\n  export     Export utilities (Gerbers, drill, position files, etc)\n  render     Renders the PCB in 3D view to PNG or JPEG image"
+    },
+    "sch_help": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "sch",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Usage: sch [--help] {erc,export}\n\nSchematics\n\nOptional arguments:\n  -h, --help  Shows help message and exits \n\nSubcommands:\n  erc        Runs the Electrical Rules Check (ERC) on the schematic and creates a report\n  export     Export utilities (netlist, pdf, bom, etc)"
+    },
+    "sym_help": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "sym",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Usage: sym [--help] {export,upgrade}\n\nSymbol and Symbol Libraries\n\nOptional arguments:\n  -h, --help  Shows help message and exits \n\nSubcommands:\n  export     Export utilities (svg)\n  upgrade    Upgrades the symbol library to the current kicad version format"
+    },
+    "version": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "version"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "9.0.7"
+    },
+    "version_help": {
+      "command": [
+        "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+        "version",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Usage: version [--help] [--format VAR]\n\nReports the version info in various formats\n\nOptional arguments:\n  -h, --help  Shows help message and exits \n  --format    version info format (plain, commit, about) [nargs=0..1] [default: \"plain\"]"
+    }
+  },
+  "dll_count": 199,
+  "executables": [
+    {
+      "name": "_freeze_module.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\_freeze_module.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 2962272,
+      "suffix": ".exe"
+    },
+    {
+      "name": "bitmap2component.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\bitmap2component.exe",
+      "role_hint": "bitmap-to-component utility",
+      "size_bytes": 2608480,
+      "suffix": ".exe"
+    },
+    {
+      "name": "crashpad_handler.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\crashpad_handler.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 656736,
+      "suffix": ".exe"
+    },
+    {
+      "name": "dxf2idf.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\dxf2idf.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 145248,
+      "suffix": ".exe"
+    },
+    {
+      "name": "eeschema.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\eeschema.exe",
+      "role_hint": "schematic editor GUI",
+      "size_bytes": 994656,
+      "suffix": ".exe"
+    },
+    {
+      "name": "gerbview.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\gerbview.exe",
+      "role_hint": "Gerber viewer GUI",
+      "size_bytes": 383840,
+      "suffix": ".exe"
+    },
+    {
+      "name": "idf2vrml.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\idf2vrml.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 300896,
+      "suffix": ".exe"
+    },
+    {
+      "name": "idfcyl.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\idfcyl.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 63328,
+      "suffix": ".exe"
+    },
+    {
+      "name": "idfrect.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\idfrect.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 56672,
+      "suffix": ".exe"
+    },
+    {
+      "name": "kicad-cli.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+      "role_hint": "KiCad command-line automation entry point",
+      "size_bytes": 2629984,
+      "suffix": ".exe"
+    },
+    {
+      "name": "kicad-cmd.bat",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cmd.bat",
+      "role_hint": "Windows KiCad command prompt environment helper",
+      "size_bytes": 2694,
+      "suffix": ".bat"
+    },
+    {
+      "name": "kicad.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\kicad.exe",
+      "role_hint": "main KiCad project manager GUI",
+      "size_bytes": 6036832,
+      "suffix": ".exe"
+    },
+    {
+      "name": "pcb_calculator.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\pcb_calculator.exe",
+      "role_hint": "PCB calculator GUI",
+      "size_bytes": 384352,
+      "suffix": ".exe"
+    },
+    {
+      "name": "pcbnew.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\pcbnew.exe",
+      "role_hint": "PCB editor GUI",
+      "size_bytes": 994656,
+      "suffix": ".exe"
+    },
+    {
+      "name": "pl_editor.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\pl_editor.exe",
+      "role_hint": "page layout editor GUI",
+      "size_bytes": 689504,
+      "suffix": ".exe"
+    },
+    {
+      "name": "python.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\python.exe",
+      "role_hint": "bundled KiCad Python",
+      "size_bytes": 103776,
+      "suffix": ".exe"
+    },
+    {
+      "name": "pythonw.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\pythonw.exe",
+      "role_hint": "bundled KiCad Python without console",
+      "size_bytes": 102240,
+      "suffix": ".exe"
+    },
+    {
+      "name": "venvlauncher.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\venvlauncher.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 114016,
+      "suffix": ".exe"
+    },
+    {
+      "name": "venvwlauncher.exe",
+      "path": "C:\\Program Files\\KiCad\\9.0\\bin\\venvwlauncher.exe",
+      "role_hint": "runtime or helper executable",
+      "size_bytes": 111968,
+      "suffix": ".exe"
+    }
+  ],
+  "generated_at_utc": "2026-05-03T01:26:43.505042+00:00",
+  "kicad_cli": "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+  "kicad_root": "C:\\Program Files\\KiCad\\9.0",
+  "schema_version": "1.0"
+}

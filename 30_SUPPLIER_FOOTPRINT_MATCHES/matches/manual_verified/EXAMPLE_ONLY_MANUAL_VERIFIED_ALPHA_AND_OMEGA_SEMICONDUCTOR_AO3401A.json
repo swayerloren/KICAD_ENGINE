@@ -1,0 +1,29 @@
+{
+  "confidence_level": "MATCHED_BY_GENERIC_FOOTPRINT",
+  "connector_orientation_status": "NOT_APPLICABLE",
+  "created_at": "2026-05-03T14:37:53+00:00",
+  "datasheet_url": "UNKNOWN",
+  "evidence": [],
+  "footprint_status": "UNVERIFIED",
+  "high_risk_categories": [
+    "PMOS_OR_MOSFET"
+  ],
+  "human_review_required": true,
+  "jlc_lcsc_part_number": "UNKNOWN",
+  "kicad_3d_model_candidate": "UNKNOWN",
+  "kicad_footprint_candidate": "Package_TO_SOT_SMD:SOT-23 candidate only",
+  "kicad_symbol_candidate": "Transistor_FET:AO3401A candidate only",
+  "manufacturer": "Alpha and Omega Semiconductor",
+  "mpn": "AO3401A",
+  "notes": [
+    "EXAMPLE_ONLY. Do not trust SOT-23 package name alone; verify gate/source/drain pad mapping against exact datasheet."
+  ],
+  "package_drawing_source": "UNKNOWN",
+  "package_name_from_supplier": "SOT-23 example - requires exact AO3401A datasheet",
+  "pinout_status": "UNVERIFIED",
+  "record_id": "EXAMPLE_ONLY_MANUAL_VERIFIED_ALPHA_AND_OMEGA_SEMICONDUCTOR_AO3401A",
+  "record_type": "EXAMPLE_ONLY_SUPPLIER_FOOTPRINT_MATCH",
+  "supplier": "manual_verified",
+  "supplier_sku": "EXAMPLE_ONLY",
+  "updated_at": "2026-05-03T14:37:53+00:00"
+}

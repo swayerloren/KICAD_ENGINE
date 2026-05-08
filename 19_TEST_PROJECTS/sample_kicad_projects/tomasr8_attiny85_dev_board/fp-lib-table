@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "My footprints")(type "KiCad")(uri "${KIPRJMOD}/custom_footprints")(options "")(descr "Project-local custom footprints preserved from upstream sample import."))
+)

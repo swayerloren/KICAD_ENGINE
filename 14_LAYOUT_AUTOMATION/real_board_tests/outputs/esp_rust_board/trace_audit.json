@@ -1,0 +1,1099 @@
+{
+  "audit_complete": true,
+  "critical_trace_count": 0,
+  "flagged_count": 26,
+  "hard_fails": [],
+  "missing_trace_nets": [],
+  "project": "esp-rust-board",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "critical_trace_count": 0,
+    "flagged_count": 26,
+    "trace_count": 34
+  },
+  "tool": "trace_by_trace_audit",
+  "trace_count": 34,
+  "traces": [
+    {
+      "angles_deg": [
+        180.0,
+        135.0,
+        90.0,
+        135.0,
+        135.0,
+        135.0,
+        0.0,
+        90.0,
+        45.0,
+        135.0,
+        180.0,
+        90.0,
+        90.0,
+        45.0,
+        0.0,
+        135.0,
+        90.0,
+        45.0,
+        45.0,
+        45.0,
+        45.0,
+        90.0,
+        45.0,
+        135.0,
+        180.0,
+        180.0,
+        45.0,
+        135.0,
+        135.0,
+        180.0,
+        135.0,
+        45.0,
+        180.0,
+        45.0,
+        0.0,
+        45.0,
+        135.0,
+        45.0,
+        180.0,
+        45.0,
+        180.0,
+        45.0,
+        90.0,
+        0.0,
+        0.0,
+        180.0,
+        90.0,
+        90.0,
+        45.0,
+        180.0,
+        90.0,
+        90.0,
+        135.0,
+        45.0,
+        90.0,
+        0.0,
+        45.0,
+        45.0,
+        45.0,
+        45.0,
+        45.0,
+        135.0,
+        180.0,
+        135.0,
+        0.0,
+        135.0
+      ],
+      "critical": false,
+      "issues": [
+        "power_trace_too_narrow",
+        "right_angle_turn"
+      ],
+      "net": "+3V3",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 67,
+      "via_count": 11,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524,
+        0.25,
+        0.254,
+        0.4064,
+        0.508,
+        0.6096
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        135.0,
+        135.0,
+        0.0,
+        45.0,
+        135.0,
+        135.0,
+        90.0,
+        0.0,
+        45.0,
+        45.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "power_trace_too_narrow",
+        "right_angle_turn"
+      ],
+      "net": "+5V",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 13,
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524,
+        0.6096
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        0.0,
+        90.0,
+        45.0,
+        90.0,
+        0.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "+BATT",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 8,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.508
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        0.0,
+        45.0,
+        135.0,
+        0.0,
+        135.0,
+        180.0,
+        45.0,
+        45.0,
+        45.0,
+        135.0,
+        45.0,
+        135.0,
+        45.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "CHIP_PU",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 16,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        135.0,
+        135.0,
+        90.0,
+        180.0,
+        45.0,
+        90.0,
+        0.0,
+        45.0,
+        45.0,
+        135.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "ENABLE",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 13,
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        180.0,
+        180.0,
+        135.0,
+        90.0,
+        0.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "GND",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 11,
+      "via_count": 152,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.508,
+        0.762
+      ]
+    },
+    {
+      "angles_deg": [
+        135.0,
+        180.0,
+        135.0,
+        135.0,
+        0.0,
+        90.0,
+        135.0,
+        0.0,
+        45.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO0",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 11,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        0.0,
+        135.0,
+        135.0,
+        90.0,
+        135.0,
+        135.0,
+        45.0,
+        90.0,
+        135.0,
+        135.0,
+        90.0,
+        90.0,
+        135.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO1",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 16,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        135.0,
+        90.0,
+        180.0,
+        45.0,
+        90.0,
+        90.0,
+        45.0,
+        45.0,
+        180.0,
+        90.0,
+        135.0,
+        45.0,
+        90.0,
+        135.0,
+        0.0,
+        135.0,
+        90.0,
+        90.0,
+        180.0,
+        0.0,
+        180.0,
+        45.0,
+        90.0,
+        0.0,
+        0.0,
+        90.0,
+        45.0,
+        0.0,
+        90.0,
+        45.0,
+        0.0,
+        45.0,
+        90.0,
+        0.0,
+        135.0,
+        90.0,
+        45.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO10_SDA",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 39,
+      "via_count": 7,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        90.0,
+        90.0,
+        0.0,
+        180.0,
+        45.0,
+        45.0,
+        135.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO2",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 10,
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        45.0,
+        0.0,
+        45.0,
+        45.0,
+        90.0,
+        90.0,
+        90.0,
+        45.0,
+        90.0,
+        180.0,
+        135.0,
+        135.0,
+        90.0,
+        135.0,
+        0.0,
+        90.0,
+        90.0,
+        0.0,
+        45.0,
+        45.0,
+        90.0,
+        45.0,
+        45.0,
+        45.0,
+        45.0,
+        45.0,
+        90.0,
+        45.0,
+        135.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO20_RX",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 31,
+      "via_count": 5,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        90.0,
+        135.0,
+        90.0,
+        180.0,
+        45.0,
+        45.0,
+        90.0,
+        45.0,
+        45.0,
+        90.0,
+        135.0,
+        0.0,
+        90.0,
+        135.0,
+        180.0,
+        45.0,
+        45.0,
+        135.0,
+        135.0,
+        90.0,
+        90.0,
+        135.0,
+        45.0,
+        0.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO21_TX",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 27,
+      "via_count": 5,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        0.0,
+        180.0,
+        135.0,
+        90.0,
+        45.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO3",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 7,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        135.0,
+        45.0,
+        45.0,
+        135.0,
+        90.0,
+        45.0,
+        180.0,
+        0.0,
+        0.0,
+        45.0,
+        0.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO4",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 12,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        135.0,
+        45.0,
+        45.0,
+        0.0,
+        45.0,
+        45.0,
+        45.0,
+        0.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "IO5",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 10,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        180.0,
+        45.0,
+        90.0,
+        90.0,
+        45.0,
+        0.0,
+        0.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO6",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 10,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        135.0,
+        135.0,
+        0.0,
+        45.0,
+        45.0,
+        45.0,
+        90.0,
+        135.0,
+        90.0,
+        180.0,
+        135.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO7",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 13,
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        180.0,
+        45.0,
+        90.0,
+        45.0,
+        45.0,
+        0.0,
+        45.0,
+        135.0,
+        180.0,
+        90.0,
+        45.0,
+        0.0,
+        45.0,
+        90.0,
+        135.0,
+        180.0,
+        45.0,
+        0.0,
+        90.0,
+        180.0,
+        180.0,
+        45.0,
+        135.0,
+        90.0,
+        0.0,
+        135.0,
+        135.0,
+        180.0,
+        90.0,
+        135.0,
+        90.0,
+        135.0,
+        45.0,
+        90.0,
+        0.0,
+        45.0,
+        45.0,
+        180.0,
+        135.0,
+        135.0,
+        180.0,
+        45.0,
+        180.0,
+        0.0,
+        135.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO8_SCL",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 47,
+      "via_count": 4,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        90.0,
+        45.0,
+        90.0,
+        180.0,
+        135.0,
+        45.0,
+        45.0,
+        135.0,
+        0.0,
+        0.0,
+        135.0,
+        90.0,
+        135.0,
+        90.0,
+        45.0,
+        90.0,
+        45.0,
+        45.0,
+        135.0,
+        45.0,
+        135.0,
+        135.0,
+        90.0,
+        45.0,
+        45.0,
+        45.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "IO9_BOOT",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 29,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        90.0,
+        45.0,
+        45.0,
+        90.0,
+        0.0,
+        0.0,
+        45.0,
+        90.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "Net-(C6-Pad2)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 11,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "angles_deg": [],
+      "critical": false,
+      "issues": [],
+      "net": "Net-(D2-Pad2)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 1,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        45.0,
+        135.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "Net-(D3-Pad1)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 4,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        90.0,
+        45.0,
+        45.0,
+        90.0,
+        90.0,
+        45.0,
+        135.0,
+        135.0,
+        135.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "Net-(D6-Pad2)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 12,
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.508
+      ]
+    },
+    {
+      "angles_deg": [
+        90.0,
+        45.0,
+        0.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "Net-(D9-Pad4)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 4,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        135.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "Net-(J1-PadA5)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 4,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        90.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "Net-(J1-PadB5)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 4,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        45.0,
+        45.0,
+        45.0,
+        135.0,
+        0.0,
+        45.0,
+        0.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "Net-(J1-PadS1)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 9,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.254,
+        0.508
+      ]
+    },
+    {
+      "angles_deg": [
+        0.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "Net-(R14-Pad1)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 3,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        90.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "Net-(R7-Pad1)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 3,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        0.0,
+        45.0,
+        0.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "Net-(R9-Pad2)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 4,
+      "via_count": 0,
+      "via_reason": "",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [],
+      "net": "Net-(TP2-Pad1)",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 3,
+      "via_count": 1,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        45.0,
+        135.0,
+        0.0,
+        90.0,
+        135.0,
+        90.0,
+        45.0,
+        90.0,
+        90.0,
+        90.0,
+        45.0,
+        90.0,
+        180.0,
+        0.0,
+        135.0,
+        0.0,
+        90.0,
+        45.0,
+        135.0,
+        135.0,
+        0.0,
+        0.0,
+        45.0,
+        0.0,
+        45.0,
+        90.0,
+        135.0,
+        45.0,
+        45.0,
+        90.0,
+        90.0,
+        180.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "USB_D+",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 34,
+      "via_count": 3,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        135.0,
+        135.0,
+        90.0,
+        90.0,
+        90.0,
+        45.0,
+        90.0,
+        45.0,
+        90.0,
+        135.0,
+        90.0,
+        90.0,
+        45.0,
+        90.0,
+        45.0,
+        0.0,
+        45.0,
+        45.0,
+        45.0,
+        0.0,
+        45.0,
+        45.0,
+        45.0,
+        135.0,
+        0.0,
+        180.0,
+        135.0,
+        90.0,
+        135.0,
+        45.0,
+        90.0,
+        45.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "USB_D-",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 34,
+      "via_count": 2,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "angles_deg": [
+        135.0,
+        45.0,
+        45.0,
+        45.0,
+        180.0,
+        90.0,
+        135.0,
+        135.0,
+        0.0,
+        135.0,
+        0.0,
+        0.0,
+        90.0,
+        90.0,
+        180.0,
+        0.0,
+        90.0,
+        180.0,
+        45.0,
+        45.0,
+        90.0,
+        45.0
+      ],
+      "critical": false,
+      "issues": [
+        "right_angle_turn"
+      ],
+      "net": "VBUS",
+      "review_required": false,
+      "routing_status": "ROUTED",
+      "segment_count": 23,
+      "via_count": 7,
+      "via_reason": "NOT_EXTRACTED",
+      "widths_mm": [
+        0.508
+      ]
+    }
+  ]
+}

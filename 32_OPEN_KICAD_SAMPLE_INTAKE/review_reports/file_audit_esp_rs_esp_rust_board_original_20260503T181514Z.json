@@ -1,0 +1,35 @@
+{
+  "status": "FILE_AUDIT_FAIL",
+  "generated_at": "2026-05-03T18:15:14.117453+00:00",
+  "sample_id": "esp_rs_esp_rust_board_original",
+  "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\imported_originals\\esp_rs_esp_rust_board",
+  "errors": [],
+  "counts": {
+    "kicad_pro": 0,
+    "kicad_sch": 0,
+    "kicad_pcb": 0,
+    "kicad_sym": 0,
+    "kicad_mod": 0,
+    "gerber_like": 0,
+    "drill": 0,
+    "pick_and_place": 0,
+    "pdf": 0,
+    "step": 0
+  },
+  "examples": {
+    "kicad_pro": [],
+    "kicad_sch": [],
+    "kicad_pcb": [],
+    "kicad_sym": [],
+    "kicad_mod": [],
+    "gerber_like": [],
+    "drill": [],
+    "pick_and_place": [],
+    "pdf": [],
+    "step": []
+  },
+  "license_files": [],
+  "has_kicad_source": false,
+  "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+  "human_review_required": true
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Universal Pick And Place CSV Schema",
+  "type": "object",
+  "required_columns": ["Designator", "Mid X", "Mid Y", "Layer", "Rotation"],
+  "required_nonblank": ["Designator", "Mid X", "Mid Y", "Layer", "Rotation"],
+  "numeric_columns": ["Mid X", "Mid Y", "Rotation"],
+  "layer_column": "Layer",
+  "allowed_layers": ["Top", "Bottom"],
+  "notes": "Numeric validation is not rotation/orientation approval."
+}

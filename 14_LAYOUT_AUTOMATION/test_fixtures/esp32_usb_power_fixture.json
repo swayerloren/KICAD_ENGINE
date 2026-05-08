@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "project": "esp32_usb_power_fixture",
+  "board_outline": {
+    "shape": "asymmetric_dev_board",
+    "width_mm": 54.0,
+    "height_mm": 27.0,
+    "allowed_signal_layers": [
+      "F.Cu",
+      "B.Cu"
+    ]
+  },
+  "components": [
+    {"ref": "J1", "kind": "barrel_jack", "x_mm": 6.0, "y_mm": 24.0, "rotation_deg": 180, "side": "top", "fixed_mechanical": true},
+    {"ref": "J2", "kind": "usb_c", "x_mm": 33.0, "y_mm": 24.0, "rotation_deg": 180, "side": "top", "fixed_mechanical": true},
+    {"ref": "U1", "kind": "buck_regulator", "x_mm": 16.0, "y_mm": 17.0, "rotation_deg": 0, "side": "top"},
+    {"ref": "U2", "kind": "esp32_module", "x_mm": 40.0, "y_mm": 10.0, "rotation_deg": 0, "side": "top"},
+    {"ref": "U3", "kind": "usb_esd", "x_mm": 29.0, "y_mm": 18.0, "rotation_deg": 0, "side": "top"}
+  ],
+  "pads": [],
+  "net_classes": {
+    "POWER_5V": {"width_mm": 0.75, "clearance_mm": 0.25, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 1, "high_current": true},
+    "POWER_3V3": {"width_mm": 0.50, "clearance_mm": 0.20, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 1},
+    "USB_PAIR": {"width_mm": 0.25, "clearance_mm": 0.15, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 1, "pair_routing": "MATCHED_PAIR", "impedance_sensitive": true, "review_required": true},
+    "DEFAULT": {"width_mm": 0.20, "clearance_mm": 0.15, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 2}
+  },
+  "nets": [
+    {"name": "+5V_IN", "role": "POWER_INPUT", "net_class": "POWER_5V", "routing_priority": 100, "routing_status": "ROUTED", "critical": true, "power": true, "pads": ["J1.1", "F1.1"], "must_avoid_keepouts": ["U2_ANTENNA"], "via_rule": {"allowed": true, "reason_required": true, "max_count": 1}},
+    {"name": "+5V_FUSED", "role": "POWER_PROTECTION", "net_class": "POWER_5V", "routing_priority": 95, "routing_status": "ROUTED", "critical": true, "power": true, "pads": ["F1.2", "Q1.1"], "must_avoid_keepouts": ["U2_ANTENNA"]},
+    {"name": "+5V_PROTECTED", "role": "POWER_PROTECTION", "net_class": "POWER_5V", "routing_priority": 90, "routing_status": "ROUTED", "critical": true, "power": true, "pads": ["Q1.3", "U1.VIN"], "must_avoid_keepouts": ["U2_ANTENNA"]},
+    {"name": "BUCK_SW", "role": "BUCK_SW", "net_class": "POWER_3V3", "routing_priority": 88, "routing_status": "ROUTED", "critical": true, "power": true, "pads": ["U1.SW", "L1.1"], "must_avoid_keepouts": ["U2_ANTENNA"], "review_required": true},
+    {"name": "BUCK_BST", "role": "BUCK_BST", "net_class": "DEFAULT", "routing_priority": 87, "routing_status": "ROUTED", "critical": true, "pads": ["U1.BST", "C6.1"]},
+    {"name": "+3V3", "role": "RAIL_3V3", "net_class": "POWER_3V3", "routing_priority": 80, "routing_status": "ROUTED", "critical": true, "power": true, "pads": ["L1.2", "U2.3V3"]},
+    {"name": "USB_D+", "role": "USB_D+", "net_class": "USB_PAIR", "routing_priority": 70, "routing_status": "ROUTED", "critical": true, "usb": true, "paired_with": "USB_D-", "pads": ["J2.A6", "U2.DP"], "review_required": true},
+    {"name": "USB_D-", "role": "USB_D-", "net_class": "USB_PAIR", "routing_priority": 70, "routing_status": "ROUTED", "critical": true, "usb": true, "paired_with": "USB_D+", "pads": ["J2.A7", "U2.DM"], "review_required": true},
+    {"name": "USB_CC1", "role": "PROTECTION", "net_class": "DEFAULT", "routing_priority": 60, "routing_status": "ROUTED", "pads": ["J2.CC1", "R6.1"]},
+    {"name": "USB_CC2", "role": "PROTECTION", "net_class": "DEFAULT", "routing_priority": 60, "routing_status": "ROUTED", "pads": ["J2.CC2", "R7.1"]},
+    {"name": "EN", "role": "EN_BOOT", "net_class": "DEFAULT", "routing_priority": 40, "routing_status": "ROUTED", "critical": true, "pads": ["U2.EN", "SW1.1"]},
+    {"name": "GND", "role": "LOW_RISK", "net_class": "DEFAULT", "routing_priority": 10, "routing_status": "PLANNED", "ground": true}
+  ],
+  "keepouts": [
+    {"name": "U2_ANTENNA", "type": "ANTENNA_KEEPOUT", "xmin": 33.0, "ymin": 0.0, "xmax": 54.0, "ymax": 7.0},
+    {"name": "RF_SERVICE_ZONE", "type": "RF_KEEPOUT", "xmin": 42.0, "ymin": 0.0, "xmax": 54.0, "ymax": 12.0}
+  ],
+  "layer_rules": {
+    "available_layers": ["F.Cu", "B.Cu"],
+    "default_signal_layer": "F.Cu",
+    "usb_preferred_layers": ["F.Cu"],
+    "power_preferred_layers": ["F.Cu"]
+  },
+  "via_rules": {
+    "critical_reason_required": true,
+    "default_allowed": true,
+    "max_default_vias": 2
+  },
+  "trace_rules": {
+    "default_width_mm": 0.20,
+    "default_clearance_mm": 0.15,
+    "usb_target_width_mm": 0.25,
+    "power_target_widths_mm": {"POWER_5V": 0.75, "POWER_3V3": 0.50},
+    "avoid_right_angles": true
+  },
+  "ground_strategy": {
+    "present": true,
+    "strategy": "local_returns_plus_later_zone",
+    "stitching_regions": ["usb_entry", "rf_boundary"]
+  },
+  "routing_status": {
+    "phase": "fixture_planned_and_partially_routed",
+    "drc_risk": "LOW",
+    "all_critical_planned": true
+  },
+  "traces": [
+    {"id": "T1", "net": "+5V_IN", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 6.0, "y1": 24.0, "x2": 9.0, "y2": 21.0, "layer": "F.Cu", "width_mm": 0.75}]},
+    {"id": "T2", "net": "+5V_FUSED", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 9.0, "y1": 21.0, "x2": 12.0, "y2": 18.0, "layer": "F.Cu", "width_mm": 0.75}]},
+    {"id": "T3", "net": "+5V_PROTECTED", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 12.0, "y1": 18.0, "x2": 15.0, "y2": 17.0, "layer": "F.Cu", "width_mm": 0.75}]},
+    {"id": "T4", "net": "BUCK_SW", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "review_required": true, "segments": [{"x1": 15.0, "y1": 17.0, "x2": 18.0, "y2": 17.0, "layer": "F.Cu", "width_mm": 0.50}]},
+    {"id": "T5", "net": "BUCK_BST", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 16.0, "y1": 16.0, "x2": 17.0, "y2": 15.0, "layer": "F.Cu", "width_mm": 0.20}]},
+    {"id": "T6", "net": "+3V3", "routing_status": "ROUTED", "critical": true, "via_count": 1, "via_reason": "top_side_escape_to_module_feed", "segments": [{"x1": 18.0, "y1": 17.0, "x2": 24.0, "y2": 17.0, "layer": "F.Cu", "width_mm": 0.50}, {"x1": 24.0, "y1": 17.0, "x2": 27.0, "y2": 14.0, "layer": "B.Cu", "width_mm": 0.50}]},
+    {"id": "T7", "net": "USB_D+", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "review_required": true, "segments": [{"x1": 33.0, "y1": 24.0, "x2": 31.0, "y2": 22.0, "layer": "F.Cu", "width_mm": 0.25}, {"x1": 31.0, "y1": 22.0, "x2": 26.0, "y2": 17.0, "layer": "F.Cu", "width_mm": 0.25}]},
+    {"id": "T8", "net": "USB_D-", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "review_required": true, "segments": [{"x1": 34.0, "y1": 24.0, "x2": 32.0, "y2": 22.0, "layer": "F.Cu", "width_mm": 0.25}, {"x1": 32.0, "y1": 22.0, "x2": 27.0, "y2": 17.0, "layer": "F.Cu", "width_mm": 0.25}]},
+    {"id": "T9", "net": "USB_CC1", "routing_status": "ROUTED", "critical": false, "via_count": 0, "via_reason": "", "segments": [{"x1": 31.0, "y1": 23.0, "x2": 29.0, "y2": 20.0, "layer": "F.Cu", "width_mm": 0.20}]},
+    {"id": "T10", "net": "USB_CC2", "routing_status": "ROUTED", "critical": false, "via_count": 0, "via_reason": "", "segments": [{"x1": 35.0, "y1": 23.0, "x2": 30.0, "y2": 20.0, "layer": "F.Cu", "width_mm": 0.20}]},
+    {"id": "T11", "net": "EN", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 39.0, "y1": 15.0, "x2": 37.0, "y2": 13.0, "layer": "F.Cu", "width_mm": 0.20}]}
+  ]
+}

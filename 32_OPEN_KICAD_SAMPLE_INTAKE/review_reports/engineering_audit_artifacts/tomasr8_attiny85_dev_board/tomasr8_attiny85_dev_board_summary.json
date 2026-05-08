@@ -1,0 +1,167 @@
+{
+  "sample": "tomasr8_attiny85_dev_board",
+  "root": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board",
+  "project_dir": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board",
+  "pro": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/attiny85.kicad_pro",
+  "sch": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/attiny85.kicad_sch",
+  "pcb": "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/attiny85.kicad_pcb",
+  "title": "UNKNOWN",
+  "file_count": 32,
+  "directory_count": 5,
+  "license_present": true,
+  "readme_present": true,
+  "physical_ref_count": 13,
+  "unannotated_count": 0,
+  "duplicate_ref_count": 0,
+  "placed_symbol_count": 15,
+  "assigned_footprints_count": 13,
+  "schematic_footprint_property_count": 15,
+  "pcb_footprint_count": 14,
+  "missing_footprints": 1,
+  "no_prefix_footprints": 0,
+  "missing_models": 0,
+  "erc_exit_code": 5,
+  "drc_exit_code": 5,
+  "erc_signal": "ERC_MESSAGES_7_ERRORS_1_WARNINGS_6",
+  "drc_signal": "DRC_VIOLATIONS_16; FOOTPRINT_ERRORS_13; UNCONNECTED_0",
+  "sch_svg_exit_code": 0,
+  "pcb_top_svg_exit_code": 0,
+  "pcb_bottom_svg_exit_code": 0,
+  "unrouted_token_count": 1,
+  "complexity": "LOW",
+  "classification": "BROKEN_TEST_PROJECT",
+  "missing_footprint_rows": [
+    {
+      "footprint": "My footprints:MOLEX_48037-0001",
+      "official_mod_exists": false,
+      "project_table_mod_exists": false,
+      "status": "MISSING_OR_UNRESOLVED"
+    }
+  ],
+  "no_prefix_footprint_rows": [],
+  "missing_model_rows": [],
+  "existing_outputs": {
+    "gerber_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-B_Cu.gbl",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-B_Mask.gbs",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-B_Silkscreen.gbo",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-Edge_Cuts.gm1",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-F_Cu.gtl",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-F_Mask.gts",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-F_Silkscreen.gto",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-job.gbrjob"
+    ],
+    "drill_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-NPTH.drl",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/gerbers/attiny85-PTH.drl"
+    ],
+    "bom_like": [],
+    "position_like": [],
+    "step_stl_like": [],
+    "pdf_like": [
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/assets/digispark-schematic.pdf",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/bootloader/bootloader_tutorial.pdf",
+      "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/bootloader/bootloader_tutorial2.pdf"
+    ]
+  },
+  "commands": {
+    "erc": {
+      "args": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--format",
+        "report",
+        "--severity-all",
+        "--exit-code-violations",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_erc.rpt",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "exit_code": 5,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/erc.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/erc.stderr.txt",
+      "report_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/tomasr8_attiny85_dev_board_erc.rpt"
+    },
+    "drc": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--format",
+        "report",
+        "--severity-all",
+        "--schematic-parity",
+        "--exit-code-violations",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_drc.rpt",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "exit_code": 5,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/drc.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/drc.stderr.txt",
+      "report_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/tomasr8_attiny85_dev_board_drc.rpt"
+    },
+    "sch_svg": {
+      "args": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "svg",
+        "--black-and-white",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\schematic_svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/sch_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/sch_svg.stderr.txt"
+    },
+    "pcb_top_svg": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--page-size-mode",
+        "2",
+        "--fit-page-to-board",
+        "--layers",
+        "F.Cu,F.Mask,F.SilkS,Edge.Cuts",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_pcb_top.svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/pcb_top_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/pcb_top_svg.stderr.txt"
+    },
+    "pcb_bottom_svg": {
+      "args": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--page-size-mode",
+        "2",
+        "--fit-page-to-board",
+        "--mirror",
+        "--layers",
+        "B.Cu,B.Mask,B.SilkS,Edge.Cuts",
+        "--output",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\review_reports\\engineering_audit_artifacts\\tomasr8_attiny85_dev_board\\tomasr8_attiny85_dev_board_pcb_bottom.svg",
+        "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_pcb"
+      ],
+      "cwd": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "exit_code": 0,
+      "stdout_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/pcb_bottom_svg.stdout.txt",
+      "stderr_path": "32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/engineering_audit_artifacts/tomasr8_attiny85_dev_board/pcb_bottom_svg.stderr.txt"
+    }
+  }
+}

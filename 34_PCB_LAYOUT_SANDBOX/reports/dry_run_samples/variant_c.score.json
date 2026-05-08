@@ -1,0 +1,29 @@
+{
+  "blocked_reasons": [],
+  "category_scores": {
+    "antenna_rf_keepout_correctness": 15,
+    "component_grouping_quality": 9,
+    "connector_orientation_correctness": 19,
+    "mechanical_correctness": 19,
+    "power_path_quality": 14,
+    "routing_feasibility": 9,
+    "usb_data_routing_quality": 9
+  },
+  "category_subtotal": 94,
+  "drc_precheck_risk_level": "LOW",
+  "drc_precheck_risk_penalty": 3,
+  "eligible_for_selection": true,
+  "hard_fails": [],
+  "human_uncertainty_risk_level": "LOW",
+  "human_uncertainty_risk_penalty": 2,
+  "invalid_fields": [],
+  "missing_fields": [],
+  "notes": "Balanced routing and RF layout concept.",
+  "project": "SANDBOX_DRY_RUN",
+  "source": "34_PCB_LAYOUT_SANDBOX\\reports\\dry_run_samples\\variant_c.json",
+  "status": "PASS",
+  "total_penalty": 5,
+  "total_score": 89,
+  "uncertainty_notes": "Intended positive control.",
+  "variant_id": "VARIANT_C"
+}

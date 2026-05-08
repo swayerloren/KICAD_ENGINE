@@ -1,0 +1,4 @@
+Found 16 violations
+Found 0 unconnected items
+Found 13 schematic parity issues
+Saved DRC Report to C:\Users\LJ\GitHub\KICAD_ENGINE\32_OPEN_KICAD_SAMPLE_INTAKE\review_reports\engineering_audit_artifacts\tomasr8_attiny85_dev_board\tomasr8_attiny85_dev_board_drc.rpt

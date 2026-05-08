@@ -1,0 +1,37 @@
+{
+  "status_tags": [
+    "ACTIVE_EVIDENCE",
+    "ACTIVE_BLOCKER",
+    "RESOLVED_BLOCKER",
+    "SUPERSEDED",
+    "STALE",
+    "FALSE_PASS",
+    "HISTORICAL_ONLY",
+    "NEEDS_HUMAN_REVIEW"
+  ],
+  "relative_date_terms": [
+    "yesterday",
+    "today",
+    "tomorrow",
+    "recently",
+    "current",
+    "latest",
+    "last run",
+    "previous run",
+    "now"
+  ],
+  "never_edit_suffixes": [
+    ".kicad_sch",
+    ".kicad_pcb",
+    ".kicad_pro",
+    ".kicad_sym",
+    ".kicad_mod",
+    ".gbr",
+    ".drl",
+    ".step",
+    ".stp",
+    ".pos"
+  ],
+  "default_mode": "dry_run",
+  "delete_history": false
+}

@@ -1,0 +1,901 @@
+[
+  {
+    "ref": "C1",
+    "value": "1uF_EN",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "package": "C_0603_1608Metric",
+    "function": "EN/reset timing capacitor.",
+    "cluster": "RESET_BOOT",
+    "connected_nets": [
+      "/ESP_EN",
+      "GND"
+    ],
+    "must_be_near": [
+      "U2",
+      "SW2"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "C2",
+    "value": "10uF_IN",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "package": "C_0805_2012Metric",
+    "function": "Buck/input/output capacitor in power cluster.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "/+5V_PROTECTED",
+      "GND"
+    ],
+    "must_be_near": [
+      "U1",
+      "Q1",
+      "D3"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "C3",
+    "value": "10uF_MOD",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "package": "C_0805_2012Metric",
+    "function": "ESP32 module decoupling capacitor.",
+    "cluster": "ESP32_MODULE_RF",
+    "connected_nets": [
+      "+3V3",
+      "GND"
+    ],
+    "must_be_near": [
+      "U2"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "C4",
+    "value": "100nF_MOD",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "package": "C_0603_1608Metric",
+    "function": "ESP32 module decoupling capacitor.",
+    "cluster": "ESP32_MODULE_RF",
+    "connected_nets": [
+      "+3V3",
+      "GND"
+    ],
+    "must_be_near": [
+      "U2"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "C5",
+    "value": "47uF_16V",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "package": "C_1206_3216Metric",
+    "function": "Buck/input/output capacitor in power cluster.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "/+5V_PROTECTED",
+      "GND"
+    ],
+    "must_be_near": [
+      "U1",
+      "Q1",
+      "D3"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "C6",
+    "value": "100nF_CBST",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "package": "C_0603_1608Metric",
+    "function": "Buck/input/output capacitor in power cluster.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "/BUCK_BST",
+      "/BUCK_SW"
+    ],
+    "must_be_near": [
+      "U1"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "U1/C6/L1 must be adjacent with compact loop.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "C7",
+    "value": "22uF_OUT",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "package": "C_1206_3216Metric",
+    "function": "Buck/input/output capacitor in power cluster.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "+3V3",
+      "GND"
+    ],
+    "must_be_near": [
+      "L1",
+      "U1"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "C8",
+    "value": "22uF_OUT",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "package": "C_1206_3216Metric",
+    "function": "Buck/input/output capacitor in power cluster.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "+3V3",
+      "GND"
+    ],
+    "must_be_near": [
+      "L1",
+      "U1"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "D1",
+    "value": "PWR_LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "package": "LED_0603_1608Metric",
+    "function": "Power/status LED indicator.",
+    "cluster": "LED",
+    "connected_nets": [
+      "/PLED",
+      "GND"
+    ],
+    "must_be_near": [
+      "R3"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "HIGH: diode/LED polarity must be verified.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; LEDs at visible edge; resistors near LEDs.",
+    "production_risk": "MEDIUM: polarity and visibility review required.",
+    "human_review": false
+  },
+  {
+    "ref": "D2",
+    "value": "STATUS_LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "package": "LED_0603_1608Metric",
+    "function": "Status LED indicator.",
+    "cluster": "LED",
+    "connected_nets": [
+      "/SLED",
+      "GND"
+    ],
+    "must_be_near": [
+      "R4"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "HIGH: diode/LED polarity must be verified.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; LEDs at visible edge; resistors near LEDs.",
+    "production_risk": "MEDIUM: polarity and visibility review required.",
+    "human_review": false
+  },
+  {
+    "ref": "D3",
+    "value": "TVS_NEEDS_REVIEW",
+    "footprint": "Diode_SMD:D_SMA",
+    "package": "D_SMA",
+    "function": "Input TVS/protection diode; polarity/package human-review required.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "/+5V_PROTECTED",
+      "GND"
+    ],
+    "must_be_near": [
+      "Q1",
+      "C2",
+      "C5"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "HIGH: diode/LED polarity must be verified.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  },
+  {
+    "ref": "F1",
+    "value": "PTC_1206",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "package": "Fuse_1206_3216Metric",
+    "function": "PTC fuse in input power path.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "/+5V_FUSED",
+      "/+5V_IN"
+    ],
+    "must_be_near": [
+      "J1",
+      "Q1"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "J1",
+    "value": "JACK_5V",
+    "footprint": "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal",
+    "package": "BarrelJack_CUI_PJ-102AH_Horizontal",
+    "function": "External barrel-jack 5 V input connector; mechanical fit risk on pill board.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "/+5V_IN",
+      "GND"
+    ],
+    "must_be_near": [
+      "F1",
+      "Q1"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "HIGH: connector mouth/edge orientation and plug envelope must be verified.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  },
+  {
+    "ref": "J2",
+    "value": "USB-C_NEEDS_REVIEW",
+    "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "package": "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+    "function": "USB-C connector for USB data and connector shield; bottom-edge orientation required.",
+    "cluster": "USB",
+    "connected_nets": [
+      "/CC1",
+      "/CC2",
+      "/DM_C",
+      "/DP_C",
+      "/SHIELD",
+      "GND",
+      "unconnected-(J2-VBUS-PadA4)"
+    ],
+    "must_be_near": [
+      "U3",
+      "R6",
+      "R7"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "HIGH: connector mouth/edge orientation and plug envelope must be verified.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J2/U3/R8/R9/U2 must form short direct USB path; test pads are stub-risk.; No special placement beyond clean routing and service access.; R6/R7 close to J2 CC pins.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  },
+  {
+    "ref": "L1",
+    "value": "3.9uH_REV",
+    "footprint": "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm",
+    "package": "L_Vishay_IFSC-1515AH_4x4x1.8mm",
+    "function": "Buck regulator inductor.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "+3V3",
+      "/BUCK_SW"
+    ],
+    "must_be_near": [
+      "U1",
+      "C7",
+      "C8"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "U1/C6/L1 must be adjacent with compact loop.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  },
+  {
+    "ref": "MH1",
+    "value": "M2.5_NPTH",
+    "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+    "package": "MountingHole_2.7mm_M2.5",
+    "function": "M2.5 NPTH mounting hole footprint.",
+    "cluster": "MECHANICAL",
+    "connected_nets": [],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "",
+    "production_risk": "HIGH: mounting strategy not resolved for compact board.",
+    "human_review": true
+  },
+  {
+    "ref": "MH2",
+    "value": "M2.5_NPTH",
+    "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+    "package": "MountingHole_2.7mm_M2.5",
+    "function": "M2.5 NPTH mounting hole footprint.",
+    "cluster": "MECHANICAL",
+    "connected_nets": [],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "",
+    "production_risk": "HIGH: mounting strategy not resolved for compact board.",
+    "human_review": true
+  },
+  {
+    "ref": "MH3",
+    "value": "M2.5_NPTH",
+    "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+    "package": "MountingHole_2.7mm_M2.5",
+    "function": "M2.5 NPTH mounting hole footprint.",
+    "cluster": "MECHANICAL",
+    "connected_nets": [],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "",
+    "production_risk": "HIGH: mounting strategy not resolved for compact board.",
+    "human_review": true
+  },
+  {
+    "ref": "MH4",
+    "value": "M2.5_NPTH",
+    "footprint": "MountingHole:MountingHole_2.7mm_M2.5",
+    "package": "MountingHole_2.7mm_M2.5",
+    "function": "M2.5 NPTH mounting hole footprint.",
+    "cluster": "MECHANICAL",
+    "connected_nets": [],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "",
+    "production_risk": "HIGH: mounting strategy not resolved for compact board.",
+    "human_review": true
+  },
+  {
+    "ref": "Q1",
+    "value": "AO3401A_REV",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "package": "SOT-23",
+    "function": "AO3401A PMOS reverse-polarity/protection stage; pin mapping repaired.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "/+5V_FUSED",
+      "/+5V_PROTECTED",
+      "GND"
+    ],
+    "must_be_near": [
+      "F1",
+      "D3",
+      "C2",
+      "C5",
+      "U1"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "MEDIUM: AO3401A pin mapping repaired; verify orientation before production.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  },
+  {
+    "ref": "R1",
+    "value": "10k_EN",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "Reset/boot pull resistor.",
+    "cluster": "RESET_BOOT",
+    "connected_nets": [
+      "+3V3",
+      "/ESP_EN"
+    ],
+    "must_be_near": [
+      "U2",
+      "SW2"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R2",
+    "value": "10k_BOOT",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "Reset/boot pull resistor.",
+    "cluster": "RESET_BOOT",
+    "connected_nets": [
+      "+3V3",
+      "/BOOT0"
+    ],
+    "must_be_near": [
+      "U2",
+      "SW1"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R3",
+    "value": "2.2k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "LED current-limiting resistor.",
+    "cluster": "LED",
+    "connected_nets": [
+      "+3V3",
+      "/PLED"
+    ],
+    "must_be_near": [
+      "D1"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "LEDs at visible edge; resistors near LEDs.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R4",
+    "value": "2.2k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "LED current-limiting resistor.",
+    "cluster": "LED",
+    "connected_nets": [
+      "/SLED",
+      "/STATUS_LED"
+    ],
+    "must_be_near": [
+      "D2"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "LEDs at visible edge; resistors near LEDs.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R5",
+    "value": "0R_DNI",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "USB shield-to-ground policy resistor/link; DNI/review item.",
+    "cluster": "USB_SHIELD_POLICY",
+    "connected_nets": [
+      "/SHIELD",
+      "GND"
+    ],
+    "must_be_near": [
+      "J2",
+      "GND"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; No special placement beyond clean routing and service access.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R6",
+    "value": "5.1k_CC1",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "USB-C CC pull-down resistor.",
+    "cluster": "USB",
+    "connected_nets": [
+      "/CC1",
+      "GND"
+    ],
+    "must_be_near": [
+      "J2"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; R6/R7 close to J2 CC pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R7",
+    "value": "5.1k_CC2",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "USB-C CC pull-down resistor.",
+    "cluster": "USB",
+    "connected_nets": [
+      "/CC2",
+      "GND"
+    ],
+    "must_be_near": [
+      "J2"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; R6/R7 close to J2 CC pins.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R8",
+    "value": "22R_D-",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "USB D+/D- series resistor between connector/ESD and ESP32 side.",
+    "cluster": "USB",
+    "connected_nets": [
+      "/DM_C",
+      "/DM_E"
+    ],
+    "must_be_near": [
+      "U3",
+      "U2"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "J2/U3/R8/R9/U2 must form short direct USB path; test pads are stub-risk.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "R9",
+    "value": "22R_D+",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "package": "R_0603_1608Metric",
+    "function": "USB D+/D- series resistor between connector/ESD and ESP32 side.",
+    "cluster": "USB",
+    "connected_nets": [
+      "/DP_C",
+      "/DP_E"
+    ],
+    "must_be_near": [
+      "U3",
+      "U2"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "J2/U3/R8/R9/U2 must form short direct USB path; test pads are stub-risk.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "SW1",
+    "value": "BOOT_GPIO0_REVIEW",
+    "footprint": "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA",
+    "package": "Panasonic_EVQPUJ_EVQPUA",
+    "function": "BOOT button/control switch.",
+    "cluster": "RESET_BOOT",
+    "connected_nets": [
+      "/BOOT0",
+      "GND"
+    ],
+    "must_be_near": [
+      "U2",
+      "R2"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "MEDIUM: switch orientation must match intended access/action.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "SW2",
+    "value": "RESET_EN_REVIEW",
+    "footprint": "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA",
+    "package": "Panasonic_EVQPUJ_EVQPUA",
+    "function": "RESET/EN button/control switch.",
+    "cluster": "RESET_BOOT",
+    "connected_nets": [
+      "/ESP_EN",
+      "GND"
+    ],
+    "must_be_near": [
+      "U2",
+      "R1",
+      "C1"
+    ],
+    "placement_priority": 2,
+    "orientation_risk": "MEDIUM: switch orientation must match intended access/action.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.",
+    "production_risk": "MEDIUM: candidate footprint/package not production-verified unless separately documented.",
+    "human_review": false
+  },
+  {
+    "ref": "TP1",
+    "value": "TP_5V",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "/+5V_PROTECTED"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP2",
+    "value": "TP_EN",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "/ESP_EN"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP3",
+    "value": "TP_3V3",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "+3V3"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP4",
+    "value": "TP_BOOT",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "/BOOT0"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP5",
+    "value": "TP_GND",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "GND"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP6",
+    "value": "TP_U0TXD",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "/U0TXD"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "No special placement beyond clean routing and service access.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP7",
+    "value": "TP_U0RXD",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "/U0RXD"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "No special placement beyond clean routing and service access.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP8",
+    "value": "TP_D+_REV",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "/DP_E"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "J2/U3/R8/R9/U2 must form short direct USB path; test pads are stub-risk.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "TP9",
+    "value": "TP_D-_REV",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "package": "TestPoint_Pad_D1.5mm",
+    "function": "Test pad/service access point.",
+    "cluster": "TEST_PAD",
+    "connected_nets": [
+      "/DM_E"
+    ],
+    "must_be_near": [],
+    "placement_priority": 2,
+    "orientation_risk": "LOW unless footprint/package source review says otherwise.",
+    "routing_notes": "J2/U3/R8/R9/U2 must form short direct USB path; test pads are stub-risk.",
+    "production_risk": "MEDIUM: service access and USB stub risks need LJ review.",
+    "human_review": false
+  },
+  {
+    "ref": "U1",
+    "value": "AP63203_NEEDS_REVIEW",
+    "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+    "package": "TSOT-23-6",
+    "function": "AP63203 buck regulator candidate; converts protected input to +3V3.",
+    "cluster": "POWER_INPUT_BUCK",
+    "connected_nets": [
+      "+3V3",
+      "/+5V_PROTECTED",
+      "/BUCK_BST",
+      "/BUCK_SW",
+      "GND"
+    ],
+    "must_be_near": [
+      "C2",
+      "C5",
+      "C6",
+      "L1",
+      "C7",
+      "C8"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "MEDIUM: regulator pin 1/orientation must be verified.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J1/F1/Q1/D3/C2/C5/U1 must remain close in source-to-load order.; U1/C6/L1 must be adjacent with compact loop.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  },
+  {
+    "ref": "U2",
+    "value": "ESP32-S3-WROOM-1U",
+    "footprint": "RF_Module:ESP32-S3-WROOM-1",
+    "package": "ESP32-S3-WROOM-1",
+    "function": "ESP32-S3-WROOM-1U value on ESP32-S3-WROOM-1 footprint; RF/footprint review required.",
+    "cluster": "ESP32_MODULE_RF",
+    "connected_nets": [
+      "+3V3",
+      "/BOOT0",
+      "/DM_E",
+      "/DP_E",
+      "/ESP_EN",
+      "/STATUS_LED",
+      "/U0RXD",
+      "/U0TXD",
+      "GND",
+      "unconnected-(U2-IO1-Pad39)",
+      "unconnected-(U2-IO10-Pad18)",
+      "unconnected-(U2-IO11-Pad19)",
+      "unconnected-(U2-IO12-Pad20)",
+      "unconnected-(U2-IO13-Pad21)",
+      "unconnected-(U2-IO14-Pad22)",
+      "unconnected-(U2-IO15-Pad8)",
+      "unconnected-(U2-IO16-Pad9)",
+      "unconnected-(U2-IO17-Pad10)",
+      "unconnected-(U2-IO18-Pad11)",
+      "unconnected-(U2-IO21-Pad23)",
+      "unconnected-(U2-IO3-Pad15)",
+      "unconnected-(U2-IO35-Pad28)",
+      "unconnected-(U2-IO36-Pad29)",
+      "unconnected-(U2-IO37-Pad30)",
+      "unconnected-(U2-IO38-Pad31)",
+      "unconnected-(U2-IO39-Pad32)",
+      "unconnected-(U2-IO4-Pad4)",
+      "unconnected-(U2-IO40-Pad33)",
+      "unconnected-(U2-IO41-Pad34)",
+      "unconnected-(U2-IO42-Pad35)",
+      "unconnected-(U2-IO45-Pad26)",
+      "unconnected-(U2-IO46-Pad16)",
+      "unconnected-(U2-IO47-Pad24)",
+      "unconnected-(U2-IO48-Pad25)",
+      "unconnected-(U2-IO5-Pad5)",
+      "unconnected-(U2-IO6-Pad6)",
+      "unconnected-(U2-IO7-Pad7)",
+      "unconnected-(U2-IO8-Pad12)",
+      "unconnected-(U2-IO9-Pad17)"
+    ],
+    "must_be_near": [
+      "C3",
+      "C4",
+      "R8",
+      "R9",
+      "SW1",
+      "SW2"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "HIGH: ESP32 module antenna/U.FL orientation and footprint width must be reviewed.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J2/U3/R8/R9/U2 must form short direct USB path; test pads are stub-risk.; LEDs at visible edge; resistors near LEDs.; No special placement beyond clean routing and service access.; SW1/SW2 and R1/R2/C1/C3 close enough for clean routing while edge-accessible.; U1/L1/C7/C8 near regulator output; C3/C4 close to U2 3V3/GND pins.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  },
+  {
+    "ref": "U3",
+    "value": "USB_ESD_REV",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "package": "SOT-23-6",
+    "function": "USB ESD protection device near connector.",
+    "cluster": "USB",
+    "connected_nets": [
+      "/DM_C",
+      "/DP_C",
+      "GND"
+    ],
+    "must_be_near": [
+      "J2",
+      "R8",
+      "R9"
+    ],
+    "placement_priority": 1,
+    "orientation_risk": "HIGH: USB ESD pinout/orientation must be verified.",
+    "routing_notes": "Continuous return plane required; avoid splitting USB/power returns; no copper in RF keepout.; J2/U3/R8/R9/U2 must form short direct USB path; test pads are stub-risk.",
+    "production_risk": "HIGH: exact footprint/package/orientation/mechanical review required.",
+    "human_review": true
+  }
+]

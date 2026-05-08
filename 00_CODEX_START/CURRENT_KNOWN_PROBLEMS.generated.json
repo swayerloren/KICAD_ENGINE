@@ -1,0 +1,2946 @@
+{
+  "generated_at": "2026-05-07T21:20:11",
+  "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "sources": [
+    {
+      "path": "01_MEMORY\\AGENT_MISTAKES_TO_AVOID.md",
+      "title": "Agent Mistakes To Avoid",
+      "size_bytes": 8091,
+      "contains_example_only": true,
+      "contains_unresolved": true
+    },
+    {
+      "path": "01_MEMORY\\FAILED_WORKFLOWS.md",
+      "title": "Failed Workflows",
+      "size_bytes": 1245,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "01_MEMORY\\GLOBAL_HALLUCINATION_RISKS.md",
+      "title": "Global Hallucination Risks",
+      "size_bytes": 1708,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "01_MEMORY\\EXAMPLE_ONLY_UNVERIFIED_CONNECTOR_FOOTPRINT_WARNING.md",
+      "title": "EXAMPLE_ONLY Global Warning: Unverified Connector Footprints",
+      "size_bytes": 504,
+      "contains_example_only": true,
+      "contains_unresolved": true
+    },
+    {
+      "path": "01_MEMORY\\GLOBAL_UNVERIFIED_CLAIMS.md",
+      "title": "Global Unverified Claims",
+      "size_bytes": 778,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260502_224812_PowerShell_wildcard_py_compile_invocation_failed.md",
+      "title": "PowerShell wildcard py_compile invocation failed",
+      "size_bytes": 780,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_FAILED_COMMANDS.md",
+      "title": "Failed Attempts - ESP32_CSI_WIFI_NODE Real-World Failure Review",
+      "size_bytes": 954,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README.md",
+      "title": "AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README",
+      "size_bytes": 511,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\AUTO_SANDBOX_APPROVAL_RG_GLOB_SEARCH_ERROR.md",
+      "title": "Failed Attempt - Auto Sandbox Approval RG Glob Search Error",
+      "size_bytes": 322,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\AUTO_VARIANT_SCORING_ENGINE_PARALLEL_DRY_RUN_RACE.md",
+      "title": "Failed Attempt - Auto Variant Scoring Engine Parallel Dry Run Race",
+      "size_bytes": 471,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\AUTO_VARIANT_SCORING_ENGINE_PROJECT_BOOL_SCHEMA_BUG.md",
+      "title": "Failed Attempt - Auto Variant Scoring Engine Project Bool Schema Bug",
+      "size_bytes": 507,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\COMPONENT_DATABASE_CORE_SETUP_FAILED_ATTEMPTS.md",
+      "title": "Component Database Core Setup Failed Attempts",
+      "size_bytes": 941,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_ERC_PROJECT_PATH_ATTEMPT.md",
+      "title": "Failed Attempt: ERC Invoked With Project Path",
+      "size_bytes": 695,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_GIT_STATUS_UNAVAILABLE.md",
+      "title": "Failed Attempt: Git Status Unavailable During Emergency Annotation Repair",
+      "size_bytes": 640,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_FAILED_ATTEMPTS.md",
+      "title": "Failed Attempts - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair",
+      "size_bytes": 1145,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_MISSING_PROMPT_INPUT_FILES.md",
+      "title": "Failed Attempt - Missing Prompt Input Files",
+      "size_bytes": 1227,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_PCB_MECHANICAL_SETUP_NEW_ITEM_LITERALPATH_FAILED.md",
+      "title": "Failed Attempt - New-Item LiteralPath For PCB Visual Directory",
+      "size_bytes": 585,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_GIT_DIFF_UNAVAILABLE.md",
+      "title": "ESP32_CSI_WIFI_NODE PCB Routing Plan Git Diff Unavailable",
+      "size_bytes": 793,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_PCB_ROUTING_PLAN_SELECT_STRING_QUOTING.md",
+      "title": "ESP32_CSI_WIFI_NODE PCB Routing Plan Select-String Quoting",
+      "size_bytes": 601,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_PCB_UPDATE_FROM_SCHEMATIC_GIT_STATUS_UNAVAILABLE.md",
+      "title": "Failed Attempt - Git Status Unavailable During PCB Update Blocked Session",
+      "size_bytes": 523,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_PHASE2_PCBNEW_IMPORT_WITH_SYSTEM_PYTHON_FAILED.md",
+      "title": "Failed Attempt - ESP32_CSI_WIFI_NODE Phase 2 pcbnew Import With System Python Failed",
+      "size_bytes": 460,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_PHASE2_POWERSHELL_HEREDOC_FAILED.md",
+      "title": "Failed Attempt - ESP32_CSI_WIFI_NODE Phase 2 PowerShell Heredoc Failed",
+      "size_bytes": 311,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_PRECONDITION_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE Real Critical Routing Precondition Blocked",
+      "size_bytes": 523,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_PRECONDITION_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE Real Full Routing Precondition Blocked",
+      "size_bytes": 506,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH.md",
+      "title": "ESP32_CSI_WIFI_NODE_REAL_PCB_ROUTING_PLAN_DIRECT_REPORT_PATH_MISMATCH",
+      "size_bytes": 784,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_SCHEMATIC_GATE_CHECKER_OPTION_MISMATCH.md",
+      "title": "Failed Attempt: Schematic Gate Checker Option Mismatch",
+      "size_bytes": 1240,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_ENCODING_WRITE_ATTEMPT.md",
+      "title": "Failed Attempt: PowerShell Encoding Write Attempt",
+      "size_bytes": 557,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_BY_PHASE_GATE.md",
+      "title": "ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked By Phase Gate",
+      "size_bytes": 683,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\FOOTPRINT_GAP_ANALYSIS_SECRET_SCAN_FALSE_POSITIVES.md",
+      "title": "Footprint Gap Analysis Secret Scan False Positives",
+      "size_bytes": 676,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\FREEROUTING_FEASIBILITY_INTEGRATION_APPLYPATCH_CONTEXT_MISMATCH.md",
+      "title": "FreeRouting Feasibility Integration ApplyPatch Context Mismatch",
+      "size_bytes": 644,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\GOLDEN_PATH_SAMPLE_GATE_RUN_TOOLING_ATTEMPTS.md",
+      "title": "Failed Attempts - Golden Path Sample Gate Run",
+      "size_bytes": 946,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\GOLDEN_PATH_SAMPLE_PROMOTION_GIT_STATUS_UNAVAILABLE.md",
+      "title": "Failed Attempt - Git Status Unavailable During Golden Path Sample Promotion",
+      "size_bytes": 579,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\KICAD_AUTO_OPEN_PROJECT_DRY_RUN_REPORT_FORMAT_HICCUP.md",
+      "title": "Failed Attempt: Auto-Open Dry-Run Report Formatting Hiccup",
+      "size_bytes": 517,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\KICAD_ENGINE_ROOT_CAUSE_AUDIT_COMMAND_HICCUPS.md",
+      "title": "Failed Attempt: Root-Cause Audit Validation Command Hiccups",
+      "size_bytes": 572,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\KICAD_PHASE_GATE_PATCH_GIT_STATUS_UNAVAILABLE.md",
+      "title": "Failed Attempt - KiCad Phase Gate Patch Git Status Unavailable",
+      "size_bytes": 510,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_FAILED_ATTEMPTS.md",
+      "title": "Knowledge Base Reference Design Setup Failed Attempts",
+      "size_bytes": 984,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\MCU_TREE_UPGRADE_POWERSHELL_HEREDOC_FAILED.md",
+      "title": "Failed Attempt: PowerShell Heredoc Syntax",
+      "size_bytes": 531,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\MCU_TREE_UPGRADE_RG_DOLLAR_QUOTING.md",
+      "title": "Failed Attempt: rg Dollar Pattern Quoting",
+      "size_bytes": 601,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\OPEN_KICAD_SAMPLE_IMPORT_FAILED_ATTEMPTS.md",
+      "title": "Failed Attempts - Open KiCad Sample Import",
+      "size_bytes": 2048,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\P0_P1_REPAIR_VALIDATION_COMMAND_MISTAKES.md",
+      "title": "Failed Attempt: P0/P1 Repair Validation Command Mistakes",
+      "size_bytes": 1107,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\PCB_TRACE_ANGLE_RULE_PATCH_COMBINED_APPLYPATCH_CONTEXT_MISMATCH.md",
+      "title": "PCB Trace Angle Rule Patch Combined ApplyPatch Context Mismatch",
+      "size_bytes": 593,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\PLAYWRIGHT_BATCH_MARKDOWN_REPORT_GENERATION_QUOTING.md",
+      "title": "Failed Attempt: Playwright Batch Markdown Report Generation Quoting",
+      "size_bytes": 695,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\PLAYWRIGHT_LIVE_CAPTURE_BLOCKED_20260503.md",
+      "title": "Failed Attempt: Playwright Live Capture Blocked",
+      "size_bytes": 738,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\PLAYWRIGHT_RESEARCH_PIPELINE_LIVE_ARTIFACT_SCAN_QUOTING.md",
+      "title": "Failed Attempt: Playwright Live Artifact Scan Quoting",
+      "size_bytes": 945,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\POST_SAMPLE_P0_P1_REPAIR_COMMAND_HICCUPS.md",
+      "title": "Failed Attempt - Post Sample P0/P1 Repair Command Hiccups",
+      "size_bytes": 815,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_VALIDATION_HICCUPS.md",
+      "title": "Failed Attempt - Post Sample Audit Validation Hiccups",
+      "size_bytes": 918,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\README.md",
+      "title": "Failed Attempts",
+      "size_bytes": 205,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG.md",
+      "title": "REAL_KICAD_PCB_ROUTING_BRIDGE_GETRADIUS_HANG",
+      "size_bytes": 302,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER.md",
+      "title": "REAL_KICAD_PCB_ROUTING_BRIDGE_HASH_RECHECK_COMMAND_WRAPPER",
+      "size_bytes": 298,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT.md",
+      "title": "REAL_KICAD_PCB_ROUTING_BRIDGE_VIA_WIDTH_ASSERT",
+      "size_bytes": 316,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS.md",
+      "title": "REAL_PROJECT_ROUTING_WORKFLOW_AI_QUALITY_INDEX_PATH_MISS",
+      "size_bytes": 509,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH.md",
+      "title": "REAL_PROJECT_ROUTING_WORKFLOW_README_PATCH_CONTEXT_MISMATCH",
+      "size_bytes": 560,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\SAMPLE_PROJECT_PAYLOAD_RULES_VALIDATION_COMMAND_FAILURES.md",
+      "title": "Failed Attempt - Sample Payload Validation Command Syntax",
+      "size_bytes": 1113,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\SCHEMATIC_CHECKERS_VISUAL_WORKFLOW_FILE_MISSING.md",
+      "title": "Failed Attempt: Visual Verification Workflow File Missing",
+      "size_bytes": 709,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\SCHEMATIC_TO_PCB_GATE_GIT_DIFF_UNAVAILABLE.md",
+      "title": "Failed Attempt - Git Diff Unavailable",
+      "size_bytes": 1080,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\SCHEMATIC_VISUAL_AUTOCROP_SETUP_FAILED_ATTEMPTS.md",
+      "title": "Failed Attempts: Schematic Visual Autocrop Setup",
+      "size_bytes": 1064,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\STARTUP_CLOSEOUT_INDEX_WIRING_FAILED_ATTEMPTS.md",
+      "title": "Startup Closeout Index Wiring Failed Attempts",
+      "size_bytes": 812,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\STM32_SOURCE_LINK_RESEARCH_VALIDATION_COMMAND_FAILURE.md",
+      "title": "STM32 Source Link Research Validation Command Failure",
+      "size_bytes": 1130,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\STM32F1_PILOT_BAD_RG_QUOTING.md",
+      "title": "STM32F1 Pilot Bad rg Quoting",
+      "size_bytes": 678,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\STRUCTURE_EXPANSION_FAILED_ATTEMPTS.md",
+      "title": "Structure Expansion Failed Attempts",
+      "size_bytes": 1083,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\SUPPLIER_CONNECTOR_STUBS_GIT_DIFF_NOT_REPO.md",
+      "title": "Failed Attempt: Optional Git Diff Check",
+      "size_bytes": 553,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\SUPPLIER_INGESTION_SECRET_SCAN_QUOTING_FAILURE.md",
+      "title": "Failed Attempt: Supplier Ingestion Secret Scan Quoting Failure",
+      "size_bytes": 625,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\TEST_EXAMPLES_BENCHMARKS_SETUP_FAILED_ATTEMPTS.md",
+      "title": "Test Examples Benchmarks Setup Failed Attempts",
+      "size_bytes": 903,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN.md",
+      "title": "AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN",
+      "size_bytes": 804,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md",
+      "title": "AUTO_PLACEMENT_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN",
+      "size_bytes": 635,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN.md",
+      "title": "AUTO_ROUTING_ENGINE_NEEDS_FIRST_LIVE_DATASET_RUN",
+      "size_bytes": 652,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS.md",
+      "title": "AUTO_ROUTING_ENGINE_REAL_KICAD_BOARD_TEST_BLOCKERS",
+      "size_bytes": 1037,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\AUTO_VARIANT_SCORING_ENGINE_NEEDS_FIRST_LIVE_PROJECT_RUN.md",
+      "title": "Auto Variant Scoring Engine Needs First Live Project Run",
+      "size_bytes": 464,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE Auto Layout Sandbox Run Blocked",
+      "size_bytes": 1094,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE Auto PCB Start Blocked",
+      "size_bytes": 1027,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS.md",
+      "title": "ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_ENGINE_BLOCKERS",
+      "size_bytes": 885,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED",
+      "size_bytes": 517,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_LAYOUT_SANDBOX_SELECTION_PENDING_LJ_REVIEW.md",
+      "title": "ESP32_CSI_WIFI_NODE Layout Sandbox Selection Pending LJ Review",
+      "size_bytes": 851,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_PCB_LAYOUT_SANDBOX_GATE_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE PCB Layout Sandbox Gate Blocked",
+      "size_bytes": 817,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_PASS_1_BLOCKED",
+      "size_bytes": 586,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE Real Critical Routing Blocked",
+      "size_bytes": 936,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE Real Full Routing Blocked",
+      "size_bytes": 920,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_BLOCKED",
+      "size_bytes": 767,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_ROUTING_GATE_CONFLICT_REMAINS_OPEN.md",
+      "title": "Issue Log - ESP32_CSI_WIFI_NODE Routing Gate Conflict Remains Open",
+      "size_bytes": 783,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_SANDBOX_AUTO_APPROVAL_BLOCKED.md",
+      "title": "ESP32_CSI_WIFI_NODE Sandbox Auto Approval Blocked",
+      "size_bytes": 555,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_REMAIN_OPEN.md",
+      "title": "Issue Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers Remain Open",
+      "size_bytes": 1268,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\ESP32_DEV_BOARD_PLACEMENT_INTELLIGENCE_NEEDS_FIRST_PROJECT_ADOPTION.md",
+      "title": "ESP32 Dev Board Placement Intelligence Needs First Project Adoption",
+      "size_bytes": 680,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\FINAL_PRODUCTION_STRUCTURE_PUBLIC_RELEASE_BLOCKERS.md",
+      "title": "Issue Log: Final Production Structure Public Release Blockers",
+      "size_bytes": 1250,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\FOOTPRINT_GAP_ANALYSIS_VERIFICATION_BACKLOG_OPEN.md",
+      "title": "Issue Log - Footprint Gap Analysis Verification Backlog",
+      "size_bytes": 930,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\FREEROUTING_FEASIBILITY_INTEGRATION_NEEDS_FIRST_LIVE_DRY_RUN.md",
+      "title": "FreeRouting Feasibility Integration Needs First Live Dry Run",
+      "size_bytes": 837,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\GOLDEN_PATH_SAMPLE_FIXTURE_REMAINS_BLOCKED.md",
+      "title": "Issue Log - Golden Path Sample Fixture Remains Blocked",
+      "size_bytes": 775,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\GOLDEN_PATH_SAMPLE_REMAINING_BLOCKERS.md",
+      "title": "Issue Log - Golden Path Sample Remaining Blockers",
+      "size_bytes": 985,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\KICAD_ENGINE_VISUAL_GATE_REPAIR_REMAINING.md",
+      "title": "Issue Log: KiCad Engine Visual Gate Repair Remaining",
+      "size_bytes": 1116,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\KICAD_PHASE_SKIPPING_DOWNSTREAM_REVIEWS_BEFORE_PCB.md",
+      "title": "Issue Log - KiCad Phase Skipping Downstream Reviews Before PCB",
+      "size_bytes": 1272,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\MCU_DATASHEET_SUPPORT_FOLDERS_REMAIN_WEAK.md",
+      "title": "Issue Log: MCU Datasheet Support Folders Remain Weak",
+      "size_bytes": 1194,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\MISSING_VISUAL_VERIFICATION_WORKFLOW_DOC.md",
+      "title": "Issue: Missing Visual Verification Workflow Document",
+      "size_bytes": 856,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\OPEN_KICAD_SAMPLE_IMPORT_REVIEW_BACKLOG.md",
+      "title": "Issue Log - Open KiCad Sample Import Review Backlog",
+      "size_bytes": 1117,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_BLOCKERS.md",
+      "title": "Issue Log - Open KiCad Sample Projects Audit Blockers",
+      "size_bytes": 1525,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\PCB_LAYOUT_SANDBOX_REQUIRES_PROJECT_LEVEL_ADOPTION.md",
+      "title": "PCB Layout Sandbox Requires Project-Level Adoption",
+      "size_bytes": 922,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\PCB_VARIANT_SCORING_SYSTEM_NEEDS_FIRST_LIVE_PROJECT_RUN.md",
+      "title": "PCB Variant Scoring System Needs First Live Project Run",
+      "size_bytes": 623,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md",
+      "title": "Issue Log: Playwright Batch Live Capture Blocked",
+      "size_bytes": 568,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\PLAYWRIGHT_RESEARCH_PIPELINE_LIVE_MODE_UNTESTED.md",
+      "title": "Issue: Playwright Research Pipeline Live Mode Untested",
+      "size_bytes": 790,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_BLOCKERS.md",
+      "title": "Issue Log - Post Sample Project Production Audit Blockers",
+      "size_bytes": 1083,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\POST_SAMPLE_PUBLIC_RELEASE_BLOCKERS_AFTER_P0_P1_REPAIR.md",
+      "title": "Issue Log - Post Sample Public Release Blockers After P0/P1 Repair",
+      "size_bytes": 778,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\PROJECT_GATE_RUNNER_SAMPLE_BLOCKERS.md",
+      "title": "Issue Log - ATtiny85 Sample Gate Blockers",
+      "size_bytes": 951,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\README.md",
+      "title": "Issue Logs",
+      "size_bytes": 165,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS.md",
+      "title": "REAL_KICAD_PCB_ROUTING_BRIDGE_REMAINING_BLOCKERS",
+      "size_bytes": 609,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN.md",
+      "title": "REAL_PROJECT_ROUTING_ENGINE_BLOCKERS_REMAIN",
+      "size_bytes": 838,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\SAMPLE_PROJECT_PUBLIC_PAYLOAD_BLOCKED_PENDING_REVIEW.md",
+      "title": "Issue Log - Sample Project Public Payload Blocked Pending Review",
+      "size_bytes": 1508,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\SCHEMATIC_TO_PCB_GATE_BLOCKED_ESP32_CSI_WIFI_NODE.md",
+      "title": "Issue Log - ESP32_CSI_WIFI_NODE Schematic To PCB Gate Blocked",
+      "size_bytes": 5123,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\STARTUP_CLOSEOUT_INDEX_WIRING_GIT_METADATA_UNAVAILABLE.md",
+      "title": "Issue Log: Git Metadata Unavailable During Startup Wiring",
+      "size_bytes": 891,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\STM32F1_PILOT_REMAINING_VERIFICATION_BACKLOG.md",
+      "title": "STM32F1 Pilot Remaining Verification Backlog",
+      "size_bytes": 1066,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\SUPPLIER_CONNECTOR_LIVE_API_IMPLEMENTATION_PENDING.md",
+      "title": "Issue: Supplier Connector Live API Implementation Pending",
+      "size_bytes": 1163,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\issue_logs\\SUPPLIER_DATASHEET_FOOTPRINT_PUBLIC_RELEASE_BLOCKERS.md",
+      "title": "Supplier Datasheet Footprint Public Release Blockers",
+      "size_bytes": 1343,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\known_agent_mistakes\\BARREL_JACK_ORIENTATION_CONFUSION.md",
+      "title": "Barrel Jack Orientation Confusion",
+      "size_bytes": 938,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\known_agent_mistakes\\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md",
+      "title": "Crude 90-Degree Scripted Routing",
+      "size_bytes": 1123,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\known_agent_mistakes\\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md",
+      "title": "EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint",
+      "size_bytes": 802,
+      "contains_example_only": true,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\known_agent_mistakes\\README.md",
+      "title": "Known Agent Mistakes",
+      "size_bytes": 159,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Schematic Annotation/Completeness Checkers",
+      "size_bytes": 1006,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Schematic Visual Autocrop Setup",
+      "size_bytes": 1000,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_170057_Risk_of_confusing_automated_visual_artifacts_with_human_readable_schematic_appro.md",
+      "title": "Risk of confusing automated visual artifacts with human-readable schematic approval",
+      "size_bytes": 1085,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_RISK_LOG.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit",
+      "size_bytes": 946,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_RISK_LOG.md",
+      "title": "Hallucination Risk Log: KiCad Engine Schematic Failure Root-Cause",
+      "size_bytes": 841,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI Emergency Annotation Repair",
+      "size_bytes": 820,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_RISK.md",
+      "title": "Hallucination Risk Log: ESP32 CSI Actual KiCad Annotation Repair",
+      "size_bytes": 978,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_RISK.md",
+      "title": "Hallucination Risk Log: ESP32 CSI GUI Annotation Diagnosis",
+      "size_bytes": 865,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_RISK.md",
+      "title": "Hallucination Risk Log: KiCad GUI Automation Layer",
+      "size_bytes": 782,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt",
+      "size_bytes": 452,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Hallucination_Risk_Log.md",
+      "title": "PCB Layout Sandbox Layer Setup Hallucination Risk Log",
+      "size_bytes": 1368,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_172119_PCB_Variant_Scoring_System_Hallucination_Risk_Log.md",
+      "title": "PCB Variant Scoring System Hallucination Risk Log",
+      "size_bytes": 1257,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Hallucination_Risk_Log.md",
+      "title": "ESP32 Dev Board Layout Intelligence Hallucination Risk Log",
+      "size_bytes": 1356,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Hallucination_Risk_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Layout Sandbox Variants Hallucination Risk Log",
+      "size_bytes": 1423,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_175002_FreeRouting_Feasibility_Integration_Hallucination_Risk_Log.md",
+      "title": "FreeRouting Feasibility Integration Hallucination Risk Log",
+      "size_bytes": 1259,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Hallucination_Risk_Log.md",
+      "title": "PCB Layout Sandbox Gate Added Hallucination Risk Log",
+      "size_bytes": 1276,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Hallucination_Risk_Log.md",
+      "title": "Real KiCad PCB Routing Bridge Hallucination Risk Log",
+      "size_bytes": 1504,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Hallucination_Risk_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Hallucination Risk Log",
+      "size_bytes": 1416,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Hallucination_Risk_Lo.md",
+      "title": "ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Hallucination Risk Log",
+      "size_bytes": 1278,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Hallucination_Risk_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Hallucination Risk Log",
+      "size_bytes": 1303,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Hallucination_Risk_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Hallucination Risk Log",
+      "size_bytes": 1418,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Hallucination_Risk.md",
+      "title": "ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Hallucination Risk Log",
+      "size_bytes": 1348,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 234,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 234,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 370,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 333,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 280,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE BOM Sourcing Review",
+      "size_bytes": 479,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE Final Production Signoff",
+      "size_bytes": 479,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review",
+      "size_bytes": 518,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback",
+      "size_bytes": 335,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Mechanical 3D Review",
+      "size_bytes": 525,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export",
+      "size_bytes": 448,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE PCB Create From Schematic",
+      "size_bytes": 403,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Production Fix Pass",
+      "size_bytes": 460,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Real-World Failure Review",
+      "size_bytes": 565,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 665,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
+      "title": "Accuracy Engine And AI Quality Setup Hallucination Risk Log",
+      "size_bytes": 721,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md",
+      "title": "AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG",
+      "size_bytes": 466,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG.md",
+      "title": "AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG",
+      "size_bytes": 510,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG.md",
+      "title": "AUTO_ROUTING_ENGINE_HALLUCINATION_RISK_LOG",
+      "size_bytes": 535,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\AUTO_SANDBOX_APPROVAL_SYSTEM_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Auto Sandbox Approval System",
+      "size_bytes": 433,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\AUTO_VARIANT_SCORING_ENGINE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Auto Variant Scoring Engine",
+      "size_bytes": 367,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\COMPONENT_DATABASE_CORE_SETUP_HALLUCINATION_RISK_LOG.md",
+      "title": "Component Database Core Setup Hallucination Risk Log",
+      "size_bytes": 720,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\CORE_PLACEHOLDER_CONTENT_UPGRADE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Core Placeholder Content Upgrade",
+      "size_bytes": 1444,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Full Routing And Copper",
+      "size_bytes": 380,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair",
+      "size_bytes": 574,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE GUI Native Annotation",
+      "size_bytes": 485,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create",
+      "size_bytes": 429,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE Schematic Audit Only",
+      "size_bytes": 671,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers",
+      "size_bytes": 953,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log: ESP32_CSI_WIFI_NODE Schematic Safe Repair",
+      "size_bytes": 612,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked",
+      "size_bytes": 642,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\FINAL_PRODUCTION_STRUCTURE_AUDIT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Final Production Structure Audit",
+      "size_bytes": 585,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\FOOTPRINT_GAP_ANALYSIS_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Footprint Gap Analysis",
+      "size_bytes": 651,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\FULL_KICAD_PIPELINE_PROMPT_PACK_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Full KiCad Pipeline Prompt Pack",
+      "size_bytes": 946,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\FULL_REPO_PRODUCTION_QUALITY_AUDIT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Full Repo Production Quality Audit",
+      "size_bytes": 993,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\GOLDEN_PATH_SAMPLE_GATE_RUN_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Golden Path Sample Gate Run",
+      "size_bytes": 762,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\GOLDEN_PATH_SAMPLE_PROMOTION_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Golden Path Sample Promotion",
+      "size_bytes": 789,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: KiCad Auto-Open Project Workflow",
+      "size_bytes": 408,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: KiCad Native Annotation Workflow Documentation Update",
+      "size_bytes": 480,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\KICAD_PHASE_GATE_PATCH_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - KiCad Phase Gate Patch",
+      "size_bytes": 513,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Knowledge Base Reference Design Setup",
+      "size_bytes": 697,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\MCU_DATASHEET_TREE_UPGRADE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: MCU Datasheet Tree Upgrade",
+      "size_bytes": 788,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_HALLUCINATION_RISK_LOG.md",
+      "title": "Microcontroller Family Content Generator Hallucination Risk Log",
+      "size_bytes": 814,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Open KiCad Sample Candidate Discovery",
+      "size_bytes": 1051,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Open KiCad Sample Project Import",
+      "size_bytes": 943,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Open KiCad Sample Projects Audit",
+      "size_bytes": 1135,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\P0_P1_REPAIR_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: P0/P1 Repair",
+      "size_bytes": 815,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\PACKAGE_FAB_VENDOR_PROFILE_SETUP_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Package Fab Vendor Profile Setup",
+      "size_bytes": 816,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\PCB_TRACE_ANGLE_RULE_PATCH_HALLUCINATION_RISK_LOG.md",
+      "title": "PCB Trace Angle Rule Patch Hallucination Risk Log",
+      "size_bytes": 851,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Playwright Batch Research Expansion",
+      "size_bytes": 591,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\PLAYWRIGHT_PILOT_RESEARCH_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Playwright Pilot Research",
+      "size_bytes": 558,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\PLAYWRIGHT_RESEARCH_PIPELINE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Playwright Research Pipeline",
+      "size_bytes": 998,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\POST_SAMPLE_P0_P1_REPAIR_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Post Sample P0/P1 Repair",
+      "size_bytes": 614,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Post Sample Project Production Audit",
+      "size_bytes": 799,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\PROJECT_GATE_RUNNER_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Project Gate Runner",
+      "size_bytes": 568,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\PUBLIC_RELEASE_STRUCTURE_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Public Release Structure",
+      "size_bytes": 712,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\README.md",
+      "title": "Hallucination Risk Logs",
+      "size_bytes": 150,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SAMPLE_PROJECT_PAYLOAD_RULES_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Sample Project Payload Rules",
+      "size_bytes": 841,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SAMPLE_PROJECT_PUBLIC_DOCS_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Sample Project Public Docs",
+      "size_bytes": 633,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SCHEMATIC_TO_PCB_GATE_SYSTEM_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Schematic To PCB Gate System",
+      "size_bytes": 1257,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\STARTUP_CLOSEOUT_INDEX_WIRING_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Startup Closeout Index Wiring",
+      "size_bytes": 634,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\STM32_DATASHEET_TREE_CONTENT_COMPLETION_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - STM32 Datasheet Tree Content Completion",
+      "size_bytes": 839,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\STM32_SOURCE_LINK_RESEARCH_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - STM32 Source Link Research",
+      "size_bytes": 449,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\STM32F1_PILOT_CONTENT_COMPLETION_HALLUCINATION_RISK_LOG.md",
+      "title": "STM32F1 Pilot Content Completion Hallucination Risk Log",
+      "size_bytes": 908,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\STRUCTURE_EXPANSION_HALLUCINATION_RISK_LOG.md",
+      "title": "Structure Expansion Hallucination Risk Log",
+      "size_bytes": 783,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SUPPLIER_CONNECTOR_STUBS_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Supplier Connector Stubs",
+      "size_bytes": 1031,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Supplier Datasheet Footprint Final Audit",
+      "size_bytes": 1121,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SUPPLIER_FOOTPRINT_MATCH_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Supplier Footprint Match System",
+      "size_bytes": 683,
+      "contains_example_only": true,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SUPPLIER_INGESTION_SYSTEM_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Supplier Ingestion System",
+      "size_bytes": 770,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log: Supplier Ingestion System Revalidation",
+      "size_bytes": 470,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\TEST_EXAMPLES_BENCHMARKS_SETUP_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Test Examples Benchmarks Setup",
+      "size_bytes": 681,
+      "contains_example_only": true,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260503_0754_ESP32_CSI_WIFI_NODE_SCHEMATIC_CHECKERS_GATE_FAILURE.md",
+      "title": "Quality Gate Failure: ESP32_CSI_WIFI_NODE Schematic Checker Reports",
+      "size_bytes": 1119,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md",
+      "title": "Quality Gate Failure",
+      "size_bytes": 715,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_GATE_FAILURE.md",
+      "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE BOM Sourcing Review",
+      "size_bytes": 722,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_GATE_FAILURE.md",
+      "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review",
+      "size_bytes": 562,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_GATE_FAILURE.md",
+      "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE Mechanical 3D Review",
+      "size_bytes": 679,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md",
+      "title": "Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export",
+      "size_bytes": 653,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md",
+      "title": "Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic",
+      "size_bytes": 593,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_GATE_FAILURE.md",
+      "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE Production Fix Pass",
+      "size_bytes": 536,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_GATE_FAILURE.md",
+      "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE Real-World Failure Review",
+      "size_bytes": 656,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\ESP32_CSI_CODEX_FILE_EDIT_ANNOTATION_REJECTED.md",
+      "title": "Quality Gate Failure: Codex File-Edit Annotation Rejected",
+      "size_bytes": 882,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\ESP32_CSI_CODEX_TEXT_EDIT_ANNOTATION_FAILED.md",
+      "title": "Quality Gate Failure: Codex Text-Edit Annotation Did Not Resolve GUI State",
+      "size_bytes": 1707,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\ESP32_CSI_FALSE_ANNOTATION_PASS.md",
+      "title": "Quality Gate Failure: ESP32_CSI_FALSE_ANNOTATION_PASS",
+      "size_bytes": 1434,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\ESP32_CSI_PRIOR_FALSE_ANNOTATION_PASS_CONFIRMED.md",
+      "title": "Quality Gate Failure: Prior False Annotation Pass Confirmed",
+      "size_bytes": 2524,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\ESP32_CSI_WIFI_NODE_CLOSE_UP_VISUAL_REVIEW_FAIL.md",
+      "title": "Quality Gate Failure: ESP32_CSI_WIFI_NODE Close-Up Visual Review",
+      "size_bytes": 1034,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\ESP32_CSI_WIFI_NODE_SCHEMATIC_TO_PCB_GATE_FAIL_AFTER_ELECTRICAL_REPAIR.md",
+      "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE Schematic To PCB Gate",
+      "size_bytes": 921,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\GOLDEN_PATH_SAMPLE_FIXTURE_NOT_CLEAN_PASS.md",
+      "title": "Quality Gate Failure - Golden Path Sample Fixture Not Clean Pass",
+      "size_bytes": 769,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\GOLDEN_PATH_SAMPLE_GATE_RUN_BLOCKED.md",
+      "title": "Quality Gate Failure - Golden Path Sample Gate Run",
+      "size_bytes": 965,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\KICAD_ENGINE_VISUAL_GATE_ROOT_CAUSE_CONFIRMED.md",
+      "title": "Quality Gate Failure: Visual Gate Evidence Was Overclaimed",
+      "size_bytes": 759,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md",
+      "title": "Quality Gate Failure - Open KiCad Samples Not Promotion Ready",
+      "size_bytes": 1153,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md",
+      "title": "Quality Gate Failure: Public Release Remains Blocked",
+      "size_bytes": 950,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md",
+      "title": "Quality Gate Failure: Playwright Batch Live Capture Blocked",
+      "size_bytes": 574,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\POST_SAMPLE_P0_P1_REPAIR_PUBLIC_RELEASE_STILL_BLOCKED.md",
+      "title": "Quality Gate Failure - Public Release Still Blocked After P0/P1 Repair",
+      "size_bytes": 894,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\PROJECT_GATE_RUNNER_SAMPLE_BLOCKED.md",
+      "title": "Quality Gate Failure - ATtiny85 Gate Runner Sample",
+      "size_bytes": 898,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\README.md",
+      "title": "Quality Gate Failures",
+      "size_bytes": 148,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\SCHEMATIC_TO_PCB_GATE_BLOCKED_ESP32_CSI_WIFI_NODE.md",
+      "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE Schematic To PCB Gate",
+      "size_bytes": 1111,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\quality_gate_failures\\SUPPLIER_DATASHEET_FOOTPRINT_NOT_PRODUCTION_READY.md",
+      "title": "Quality Gate Failure: Supplier Datasheet Footprint Not Production Ready",
+      "size_bytes": 808,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260502_230004_AI_quality_scripts_not_real_project_proven.md",
+      "title": "AI quality scripts not real project proven",
+      "size_bytes": 952,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_UNCERTAINTY.md",
+      "title": "Uncertainty Log: Schematic Annotation/Completeness Checkers",
+      "size_bytes": 1136,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260503_0810_SCHEMATIC_VISUAL_AUTOCROP_UNCERTAINTY.md",
+      "title": "Uncertainty Log: Schematic Visual Autocrop Setup",
+      "size_bytes": 909,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_170057_Strict_visual_gate_patch_uncertainty_log.md",
+      "title": "Strict visual gate patch uncertainty log",
+      "size_bytes": 1057,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_173553_ESP32_CSI_STRICT_VISUAL_READABILITY_REAUDIT_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE Strict Visual Readability Re-Audit",
+      "size_bytes": 955,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_174108_KICAD_ENGINE_SCHEMATIC_FAILURE_ROOT_CAUSE_UNCERTAINTY.md",
+      "title": "Uncertainty Log: KiCad Engine Schematic Failure Root-Cause Audit",
+      "size_bytes": 809,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_1811_ESP32_CSI_EMERGENCY_ANNOTATION_REPAIR_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI Emergency Annotation Repair",
+      "size_bytes": 1109,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_1845_ESP32_CSI_ACTUAL_KICAD_ANNOTATION_REPAIR_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32 CSI Actual KiCad Annotation Repair",
+      "size_bytes": 1105,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_1855_ESP32_CSI_GUI_ANNOTATION_DIAGNOSIS_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32 CSI GUI Annotation Diagnosis",
+      "size_bytes": 986,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_194614_KICAD_GUI_AUTOMATION_LAYER_UNCERTAINTY.md",
+      "title": "Uncertainty Log: KiCad GUI Automation Layer",
+      "size_bytes": 1077,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260506_201148_ESP32_CSI_GUI_NATIVE_ANNOTATION_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE GUI Native Annotation Attempt",
+      "size_bytes": 695,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_171013_PCB_Layout_Sandbox_Layer_Setup_Uncertainty_Log.md",
+      "title": "PCB Layout Sandbox Layer Setup Uncertainty Log",
+      "size_bytes": 1494,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_172119_PCB_Variant_Scoring_System_Uncertainty_Log.md",
+      "title": "PCB Variant Scoring System Uncertainty Log",
+      "size_bytes": 1266,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_172733_ESP32_Dev_Board_Layout_Intelligence_Uncertainty_Log.md",
+      "title": "ESP32 Dev Board Layout Intelligence Uncertainty Log",
+      "size_bytes": 1350,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_173708_ESP32_CSI_WIFI_NODE_Layout_Sandbox_Variants_Uncertainty_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Layout Sandbox Variants Uncertainty Log",
+      "size_bytes": 1415,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_175002_FreeRouting_Feasibility_Integration_Uncertainty_Log.md",
+      "title": "FreeRouting Feasibility Integration Uncertainty Log",
+      "size_bytes": 1332,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_175826_PCB_Layout_Sandbox_Gate_Added_Uncertainty_Log.md",
+      "title": "PCB Layout Sandbox Gate Added Uncertainty Log",
+      "size_bytes": 1409,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_210012_Real_KiCad_PCB_Routing_Bridge_Uncertainty_Log.md",
+      "title": "Real KiCad PCB Routing Bridge Uncertainty Log",
+      "size_bytes": 1434,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_210537_ESP32_CSI_WIFI_NODE_Copied_Board_Routing_Engine_Live_Test_Uncertainty_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Copied Board Routing Engine Live Test Uncertainty Log",
+      "size_bytes": 1399,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_210742_ESP32_CSI_WIFI_NODE_Real_PCB_Update_From_Schematic_Blocked_Uncertainty_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Blocked Uncertainty Log",
+      "size_bytes": 1174,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_210932_ESP32_CSI_WIFI_NODE_PCB_Placement_Pass_1_Blocked_Uncertainty_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE PCB Placement Pass 1 Blocked Uncertainty Log",
+      "size_bytes": 1160,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_211347_ESP32_CSI_WIFI_NODE_Real_PCB_Routing_Plan_Blocker_Audit_Uncertainty_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Real PCB Routing Plan Blocker Audit Uncertainty Log",
+      "size_bytes": 1349,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_211535_ESP32_CSI_WIFI_NODE_Copied_Critical_Routing_Rehearsal_Blocked_Uncertainty_Log.md",
+      "title": "ESP32_CSI_WIFI_NODE Copied Critical Routing Rehearsal Blocked Uncertainty Log",
+      "size_bytes": 1219,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_211741_ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 264,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_211923_ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 264,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_AUTO_ROUTING_ENGINE_FIXTURE_UPGRADE_UNCERTAINTY.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 602,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_AUTO_LAYOUT_SANDBOX_RUN_BLOCKED_UNCERTAINTY.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 468,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_AUTO_PCB_START_BLOCKED_UNCERTAINTY.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 384,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_BOM_SOURCING_REVIEW_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE BOM Sourcing Review",
+      "size_bytes": 577,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_FINAL_PRODUCTION_SIGNOFF_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE Final Production Signoff",
+      "size_bytes": 633,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_DFM_DFA_REVIEW_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE JLCPCB DFM/DFA Review",
+      "size_bytes": 658,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_JLCPCB_UPLOAD_FEEDBACK_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE JLCPCB Upload Feedback",
+      "size_bytes": 622,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_MECHANICAL_3D_REVIEW_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Mechanical 3D Review",
+      "size_bytes": 539,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export",
+      "size_bytes": 609,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE PCB Create From Schematic",
+      "size_bytes": 648,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Production Fix Pass",
+      "size_bytes": 447,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Real-World Failure Review",
+      "size_bytes": 736,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_UNCERTAINTY.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 538,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Accuracy Engine And AI Quality Setup Uncertainty Log",
+      "size_bytes": 724,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md",
+      "title": "AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG",
+      "size_bytes": 546,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG.md",
+      "title": "AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG",
+      "size_bytes": 419,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG.md",
+      "title": "AUTO_ROUTING_ENGINE_UNCERTAINTY_LOG",
+      "size_bytes": 418,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\AUTO_SANDBOX_APPROVAL_SYSTEM_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Auto Sandbox Approval System",
+      "size_bytes": 463,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\AUTO_VARIANT_SCORING_ENGINE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Auto Variant Scoring Engine",
+      "size_bytes": 445,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\COMPONENT_DATABASE_CORE_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Component Database Core Setup Uncertainty Log",
+      "size_bytes": 822,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\CORE_PLACEHOLDER_CONTENT_UPGRADE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Core Placeholder Content Upgrade",
+      "size_bytes": 1103,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Full Routing And Copper",
+      "size_bytes": 572,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair",
+      "size_bytes": 576,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE GUI Native Annotation",
+      "size_bytes": 671,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_PHASE2_PCB_CREATE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Phase 2 PCB Create",
+      "size_bytes": 574,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_SCHEMATIC_AUDIT_ONLY_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE Schematic Audit Only",
+      "size_bytes": 1148,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_SCHEMATIC_ELECTRICAL_BLOCKERS_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Schematic Electrical Blockers",
+      "size_bytes": 1399,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_SCHEMATIC_SAFE_REPAIR_UNCERTAINTY.md",
+      "title": "Uncertainty Log: ESP32_CSI_WIFI_NODE Schematic Safe Repair",
+      "size_bytes": 857,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\ESP32_CSI_WIFI_NODE_STAGE1_2_ROUTING_REPAIR_BLOCKED_UNCERTAINTY.md",
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Stage 1/2 Routing Repair Blocked",
+      "size_bytes": 559,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\FINAL_PRODUCTION_STRUCTURE_AUDIT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Final Production Structure Audit",
+      "size_bytes": 697,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\FOOTPRINT_GAP_ANALYSIS_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Footprint Gap Analysis",
+      "size_bytes": 726,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\FULL_KICAD_PIPELINE_PROMPT_PACK_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Full KiCad Pipeline Prompt Pack",
+      "size_bytes": 876,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\FULL_REPO_PRODUCTION_QUALITY_AUDIT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Full Repo Production Quality Audit",
+      "size_bytes": 1299,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\GOLDEN_PATH_SAMPLE_GATE_RUN_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Golden Path Sample Gate Run",
+      "size_bytes": 978,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\GOLDEN_PATH_SAMPLE_PROMOTION_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Golden Path Sample Promotion",
+      "size_bytes": 1152,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\KICAD_AUTO_OPEN_PROJECT_WORKFLOW_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: KiCad Auto-Open Project Workflow",
+      "size_bytes": 813,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\KICAD_NATIVE_ANNOTATION_WORKFLOW_DOC_UPDATE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: KiCad Native Annotation Workflow Documentation Update",
+      "size_bytes": 742,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\KICAD_PHASE_GATE_PATCH_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - KiCad Phase Gate Patch",
+      "size_bytes": 593,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\KNOWLEDGE_BASE_REFERENCE_DESIGN_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Knowledge Base Reference Design Setup",
+      "size_bytes": 825,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\LIBRARY_FACTORY_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Library Factory Setup",
+      "size_bytes": 803,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\MCU_DATASHEET_TREE_UPGRADE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: MCU Datasheet Tree Upgrade",
+      "size_bytes": 825,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\MICROCONTROLLER_FAMILY_CONTENT_GENERATOR_UNCERTAINTY_LOG.md",
+      "title": "Microcontroller Family Content Generator Uncertainty Log",
+      "size_bytes": 909,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\OPEN_KICAD_SAMPLE_CANDIDATE_DISCOVERY_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Open KiCad Sample Candidate Discovery",
+      "size_bytes": 1077,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\OPEN_KICAD_SAMPLE_INTAKE_SYSTEM_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Open KiCad Sample Intake System",
+      "size_bytes": 1054,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\OPEN_KICAD_SAMPLE_PROJECT_IMPORT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Open KiCad Sample Project Import",
+      "size_bytes": 1127,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Open KiCad Sample Projects Audit",
+      "size_bytes": 1453,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\P0_P1_REPAIR_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: P0/P1 Repair",
+      "size_bytes": 965,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\PACKAGE_FAB_VENDOR_PROFILE_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Package Fab Vendor Profile Setup",
+      "size_bytes": 786,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\PCB_TRACE_ANGLE_RULE_PATCH_UNCERTAINTY_LOG.md",
+      "title": "PCB Trace Angle Rule Patch Uncertainty Log",
+      "size_bytes": 1255,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Playwright Batch Research Expansion",
+      "size_bytes": 732,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\PLAYWRIGHT_PILOT_RESEARCH_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Playwright Pilot Research",
+      "size_bytes": 841,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\PLAYWRIGHT_RESEARCH_PIPELINE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Playwright Research Pipeline",
+      "size_bytes": 759,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\POST_SAMPLE_P0_P1_REPAIR_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Post Sample P0/P1 Repair",
+      "size_bytes": 935,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\POST_SAMPLE_PROJECT_PRODUCTION_AUDIT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Post Sample Project Production Audit",
+      "size_bytes": 873,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\PROJECT_GATE_RUNNER_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Project Gate Runner",
+      "size_bytes": 821,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\PUBLIC_RELEASE_STRUCTURE_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Public Release Structure",
+      "size_bytes": 690,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\README.md",
+      "title": "Uncertainty Logs",
+      "size_bytes": 129,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SAMPLE_PROJECT_PAYLOAD_RULES_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Sample Project Payload Rules",
+      "size_bytes": 880,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SAMPLE_PROJECT_PUBLIC_DOCS_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Sample Project Public Docs",
+      "size_bytes": 737,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SCHEMATIC_TO_PCB_GATE_SYSTEM_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Schematic To PCB Gate System",
+      "size_bytes": 1643,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\STARTUP_CLOSEOUT_INDEX_WIRING_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Startup Closeout Index Wiring",
+      "size_bytes": 562,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\STM32_DATASHEET_TREE_CONTENT_COMPLETION_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - STM32 Datasheet Tree Content Completion",
+      "size_bytes": 912,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\STM32_SOURCE_LINK_RESEARCH_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - STM32 Source Link Research",
+      "size_bytes": 428,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\STM32F1_PILOT_CONTENT_COMPLETION_UNCERTAINTY_LOG.md",
+      "title": "STM32F1 Pilot Content Completion Uncertainty Log",
+      "size_bytes": 1086,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\STRUCTURE_EXPANSION_UNCERTAINTY_LOG.md",
+      "title": "Structure Expansion Uncertainty Log",
+      "size_bytes": 1087,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SUPPLIER_CONNECTOR_STUBS_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Supplier Connector Stubs",
+      "size_bytes": 1227,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SUPPLIER_DATASHEET_FOOTPRINT_FINAL_AUDIT_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Supplier Datasheet Footprint Final Audit",
+      "size_bytes": 843,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SUPPLIER_FOOTPRINT_MATCH_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Supplier Footprint Match System",
+      "size_bytes": 529,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Supplier Ingestion System Revalidation",
+      "size_bytes": 628,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\SUPPLIER_INGESTION_SYSTEM_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log: Supplier Ingestion System",
+      "size_bytes": 826,
+      "contains_example_only": true,
+      "contains_unresolved": false
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\TEST_EXAMPLES_BENCHMARKS_SETUP_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Test Examples Benchmarks Setup",
+      "size_bytes": 731,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\OPEN_DESIGN_RISKS.md",
+      "title": "Open Design Risks",
+      "size_bytes": 386,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\OPEN_DESIGN_RISKS.md",
+      "title": "Open Design Risks",
+      "size_bytes": 13294,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_HALLUCINATION_RISKS.md",
+      "title": "Project Hallucination Risks",
+      "size_bytes": 338,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_HALLUCINATION_RISKS.md",
+      "title": "Project Hallucination Risks",
+      "size_bytes": 563,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_UNVERIFIED_CLAIMS.md",
+      "title": "Project Unverified Claims",
+      "size_bytes": 331,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_UNVERIFIED_CLAIMS.md",
+      "title": "Project Unverified Claims",
+      "size_bytes": 530,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md",
+      "title": "COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB",
+      "size_bytes": 982,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_REVIEW.md",
+      "title": "EXAMPLE_ONLY Open Issue: Verify USB-C Connector Footprint",
+      "size_bytes": 1162,
+      "contains_example_only": true,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\EXAMPLE_ONLY_USB_C_EXACT_FOOTPRINT_REVIEW_REQUIRED.md",
+      "title": "EXAMPLE_ONLY Open Issue: USB-C Exact Footprint Review Required",
+      "size_bytes": 585,
+      "contains_example_only": true,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md",
+      "title": "FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED",
+      "size_bytes": 1030,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\FOOTPRINT_PACKAGE_AUDIT_OPEN_ISSUES.md",
+      "title": "FOOTPRINT_PACKAGE_AUDIT_OPEN_ISSUES",
+      "size_bytes": 1222,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md",
+      "title": "HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB",
+      "size_bytes": 1082,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\NOT_FINAL_FAB_EXPORT_BLOCKED.md",
+      "title": "NOT_FINAL_FAB_EXPORT_BLOCKED",
+      "size_bytes": 837,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md",
+      "title": "PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB",
+      "size_bytes": 772,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md",
+      "title": "PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL",
+      "size_bytes": 694,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE.md",
+      "title": "PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE",
+      "size_bytes": 789,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md",
+      "title": "PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB",
+      "size_bytes": 665,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md",
+      "title": "PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB",
+      "size_bytes": 869,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md",
+      "title": "PCB_ROUTING_PLAN_BLOCKED_NO_PCB",
+      "size_bytes": 861,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_SYNC_BLOCKED_Q1_PIN_MAPPING.md",
+      "title": "PCB Sync Blocked - Q1 Pin Mapping",
+      "size_bytes": 733,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE.md",
+      "title": "PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE",
+      "size_bytes": 755,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\ROUTING_STAGE_1_2_BUCK_SW_BST_CROSSING_REMAINS.md",
+      "title": "Routing Stage 1/2 - Buck SW/BST Crossing Remains",
+      "size_bytes": 655,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\SCHEMATIC_AUDIT_ONLY_BLOCKERS_REMAIN_OPEN.md",
+      "title": "Issue Log: Schematic Audit-Only Blockers Remain Open",
+      "size_bytes": 1446,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\SCHEMATIC_ELECTRICAL_BLOCKERS_REMAIN_OPEN.md",
+      "title": "Issue Log - Schematic Electrical Blockers Remain Open",
+      "size_bytes": 1221,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\SCHEMATIC_SAFE_REPAIR_BLOCKERS_REMAIN_OPEN.md",
+      "title": "Issue Log: Schematic Safe Repair Blockers Remain Open",
+      "size_bytes": 1131,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\SCHEMATIC_TO_PCB_GATE_BLOCKED.md",
+      "title": "Issue Log - Schematic To PCB Gate Blocked",
+      "size_bytes": 930,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\user_corrections\\2026-05-07_routing_quality_correction.md",
+      "title": "User Correction - Routing Quality",
+      "size_bytes": 542,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\user_corrections\\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md",
+      "title": "EXAMPLE_ONLY User Correction: USB-C Connector Footprint",
+      "size_bytes": 1040,
+      "contains_example_only": true,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\quality_gate_failures\\README.md",
+      "title": "Quality Gate Failures",
+      "size_bytes": 104,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\2026-05-06_critical_routing_blocked.md",
+      "title": "Quality Gate Failure - Critical Routing Blocked",
+      "size_bytes": 339,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\2026-05-06_final_pcb_audit_blocked.md",
+      "title": "Quality Gate Failure - Final PCB Audit Blocked",
+      "size_bytes": 465,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\2026-05-06_full_routing_blocked.md",
+      "title": "Quality Gate Failure - Full Routing Blocked",
+      "size_bytes": 300,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\2026-05-06_pcb_placement_pass_1_blocked.md",
+      "title": "Quality Gate Failure - PCB Placement Pass 1 Blocked",
+      "size_bytes": 505,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\2026-05-06_pcb_placement_strict_audit_blocked.md",
+      "title": "Quality Gate Failure - PCB Placement Strict Audit Blocked",
+      "size_bytes": 336,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\2026-05-06_pcb_zone_setup_blocked.md",
+      "title": "Quality Gate Failure - PCB Zone Setup Blocked",
+      "size_bytes": 374,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260506_154747_ESP32_CSI_schematic_to_PCB_gate_remains_failed_after_electrical_footprint_gate.md",
+      "title": "ESP32 CSI schematic to PCB gate remains failed after electrical footprint gate",
+      "size_bytes": 1060,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260506_160734_Emergency_schematic_truth_audit_gate_failure.md",
+      "title": "Emergency schematic truth audit gate failure",
+      "size_bytes": 923,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260506_161816_Footprint_assignment_gate_remains_blocked.md",
+      "title": "Footprint assignment gate remains blocked",
+      "size_bytes": 989,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260506_164153_ESP32_schematic_to_PCB_gate_remains_blocked_after_real_repair.md",
+      "title": "ESP32 schematic to PCB gate remains blocked after real repair",
+      "size_bytes": 858,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260506_164822_ESP32_final_schematic_readiness_audit_gate_failure.md",
+      "title": "ESP32 final schematic readiness audit gate failure",
+      "size_bytes": 903,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260506_220744_PCB_update_blocked_gate_fail.md",
+      "title": "PCB Update Blocked By Schematic-To-PCB Gate",
+      "size_bytes": 934,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260506_221529_PCB_mechanical_setup_blocked_no_pcb.md",
+      "title": "PCB Mechanical Setup Blocked - No PCB",
+      "size_bytes": 796,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\20260507_pcb_sync_blocked_q1_pin_mapping.md",
+      "title": "Quality Gate Failure - PCB Sync Blocked By Q1 Pin Mapping",
+      "size_bytes": 522,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md",
+      "title": "COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB",
+      "size_bytes": 701,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_GATE_FAILURE.md",
+      "title": "EXAMPLE_ONLY Quality Gate Failure: USB-C Footprint",
+      "size_bytes": 431,
+      "contains_example_only": true,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md",
+      "title": "FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED",
+      "size_bytes": 648,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\FOOTPRINT_PACKAGE_AUDIT_QUALITY_GATE_FAILURE.md",
+      "title": "FOOTPRINT_PACKAGE_AUDIT_QUALITY_GATE_FAILURE",
+      "size_bytes": 862,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md",
+      "title": "HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB",
+      "size_bytes": 688,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\NOT_FINAL_FAB_EXPORT_BLOCKED.md",
+      "title": "NOT_FINAL_FAB_EXPORT_BLOCKED",
+      "size_bytes": 491,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md",
+      "title": "PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB",
+      "size_bytes": 915,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL.md",
+      "title": "PCB_FULL_ROUTING_BLOCKED_CRITICAL_ROUTING_FAIL",
+      "size_bytes": 654,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE.md",
+      "title": "PCB_MECHANICAL_SETUP_BLOCKED_BY_NO_BOARD_SIZE",
+      "size_bytes": 636,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB.md",
+      "title": "PCB_PLACEMENT_PASS_1_BLOCKED_NO_PCB",
+      "size_bytes": 585,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md",
+      "title": "PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB",
+      "size_bytes": 640,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md",
+      "title": "PCB_ROUTING_PLAN_BLOCKED_NO_PCB",
+      "size_bytes": 719,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE.md",
+      "title": "PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_BY_GATE",
+      "size_bytes": 634,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\README.md",
+      "title": "Quality Gate Failures",
+      "size_bytes": 92,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\SCHEMATIC_SAFE_REPAIR_GATE_STILL_BLOCKED.md",
+      "title": "Quality Gate Failure: Schematic Safe Repair Gate Still Blocked",
+      "size_bytes": 559,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\uncertainty_logs\\README.md",
+      "title": "Uncertainty Logs",
+      "size_bytes": 94,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-06_critical_routing_uncertainty.md",
+      "title": "Uncertainty Log - Critical Routing",
+      "size_bytes": 390,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-06_final_pcb_audit_uncertainty.md",
+      "title": "Uncertainty Log - Final PCB Audit",
+      "size_bytes": 419,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-06_full_routing_uncertainty.md",
+      "title": "Uncertainty Log - Full Routing",
+      "size_bytes": 297,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-06_pcb_placement_pass_1_uncertainty.md",
+      "title": "Uncertainty Log - PCB Placement Pass 1",
+      "size_bytes": 735,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-06_pcb_placement_strict_audit_uncertainty.md",
+      "title": "Uncertainty Log - PCB Placement Strict Audit",
+      "size_bytes": 565,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-06_pcb_zone_setup_uncertainty.md",
+      "title": "Uncertainty Log - PCB Zone Setup",
+      "size_bytes": 421,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-07_stage_1_2_cleanup_uncertainty.md",
+      "title": "Uncertainty Log - Stage 1/2 Cleanup",
+      "size_bytes": 603,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-07_stage_3_usb_blocked_uncertainty.md",
+      "title": "Uncertainty Log - Stage 3 USB Blocked",
+      "size_bytes": 349,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_uncertainty_log.md",
+      "title": "ESP32 CSI schematic electrical footprint gate uncertainty log",
+      "size_bytes": 1044,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_155328_ESP32_CSI_schematic_human_review_packet_uncertainty_log.md",
+      "title": "ESP32 CSI schematic human review packet uncertainty log",
+      "size_bytes": 1037,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_160734_Emergency_schematic_truth_audit_uncertainty_log.md",
+      "title": "Emergency schematic truth audit uncertainty log",
+      "size_bytes": 1044,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_161816_BOM_and_footprint_lock_uncertainty_log.md",
+      "title": "BOM and footprint lock uncertainty log",
+      "size_bytes": 1178,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_164134_ESP32_schematic_real_repair_uncertainty_log.md",
+      "title": "ESP32 schematic real repair uncertainty log",
+      "size_bytes": 1025,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_164758_ESP32_final_schematic_readiness_audit_uncertainty_log.md",
+      "title": "ESP32 final schematic readiness audit uncertainty log",
+      "size_bytes": 1058,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_173126_Human_readable_schematic_repair_uncertainty_log.md",
+      "title": "Human-readable schematic repair uncertainty log",
+      "size_bytes": 1004,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_220744_PCB_update_blocked_uncertainty_log.md",
+      "title": "PCB Update Blocked Uncertainty Log",
+      "size_bytes": 865,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_221131_PCB_layout_plan_uncertainty_log.md",
+      "title": "PCB Layout Plan Uncertainty Log",
+      "size_bytes": 939,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\20260506_221529_PCB_mechanical_setup_uncertainty_log.md",
+      "title": "PCB Mechanical Setup Uncertainty Log",
+      "size_bytes": 783,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG",
+      "size_bytes": 1155,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_UNCERTAINTY.md",
+      "title": "EXAMPLE_ONLY Uncertainty Log: USB-C Footprint",
+      "size_bytes": 475,
+      "contains_example_only": true,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\FINAL_PCB_VERIFICATION_UNCERTAINTY_LOG.md",
+      "title": "Final PCB Verification Uncertainty Log",
+      "size_bytes": 786,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\FOOTPRINT_PACKAGE_AUDIT_UNCERTAINTY_LOG.md",
+      "title": "FOOTPRINT_PACKAGE_AUDIT_UNCERTAINTY_LOG",
+      "size_bytes": 1444,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\HOLE_PAD_VIA_STRATEGY_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "HOLE_PAD_VIA_STRATEGY_BLOCKED_UNCERTAINTY_LOG",
+      "size_bytes": 1270,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\NOT_FINAL_FAB_EXPORT_UNCERTAINTY_LOG.md",
+      "title": "NOT_FINAL Fab Export Uncertainty Log",
+      "size_bytes": 508,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\PCB_CRITICAL_NETS_ROUTING_UNCERTAINTY_LOG.md",
+      "title": "PCB Critical Nets Routing Uncertainty Log",
+      "size_bytes": 1170,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\PCB_FULL_ROUTING_UNCERTAINTY_LOG.md",
+      "title": "PCB Full Routing Uncertainty Log",
+      "size_bytes": 1010,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\PCB_MECHANICAL_SETUP_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "PCB_MECHANICAL_SETUP_BLOCKED_UNCERTAINTY_LOG",
+      "size_bytes": 1027,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\PCB_PLACEMENT_PASS_1_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "PCB_PLACEMENT_PASS_1_BLOCKED_UNCERTAINTY_LOG",
+      "size_bytes": 866,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\PCB_PLACEMENT_PASS_2_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "PCB_PLACEMENT_PASS_2_BLOCKED_UNCERTAINTY_LOG",
+      "size_bytes": 895,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\PCB_ROUTING_PLAN_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "PCB Routing Plan Uncertainty Log",
+      "size_bytes": 1152,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_UNCERTAINTY_LOG.md",
+      "title": "PCB_UPDATE_FROM_SCHEMATIC_BLOCKED_UNCERTAINTY_LOG",
+      "size_bytes": 922,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\README.md",
+      "title": "Uncertainty Logs",
+      "size_bytes": 82,
+      "contains_example_only": false,
+      "contains_unresolved": false
+    },
+    {
+      "path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\STAGE_1_2_PROFESSIONAL_CLEANUP_UNCERTAINTY_LOG.md",
+      "title": "Stage 1/2 Professional Cleanup Uncertainty Log",
+      "size_bytes": 557,
+      "contains_example_only": false,
+      "contains_unresolved": true
+    }
+  ]
+}

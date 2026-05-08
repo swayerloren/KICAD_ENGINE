@@ -1,0 +1,65 @@
+{
+  "board_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\sample_inputs\\ESP32_CSI_WIFI_NODE_20260507_210220\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "layer_rules": {
+    "available_layers": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "critical_net_layer_bias": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "default_signal_layer": "F.Cu",
+    "power_preferred_layers": [
+      "F.Cu",
+      "B.Cu"
+    ],
+    "usb_preferred_layers": [
+      "F.Cu",
+      "B.Cu"
+    ]
+  },
+  "net_classes": {
+    "Default": {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.2,
+      "high_current": false,
+      "impedance_sensitive": false,
+      "max_vias": 2,
+      "pair_routing": "",
+      "review_required": false,
+      "via_allowed": true,
+      "width_mm": 0.2
+    }
+  },
+  "not_extracted": [
+    "per-net ratsnest extraction not implemented; only total unconnected count is extracted",
+    "zone polygon outlines not extracted"
+  ],
+  "project": "ESP32_CSI_WIFI_NODE",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "net_class_count": 1
+  },
+  "tool": "extract_kicad_net_classes",
+  "trace_rules": {
+    "avoid_right_angles": true,
+    "default_clearance_mm": 0.2,
+    "default_width_mm": 0.2,
+    "power_target_widths_mm": {
+      "POWER_INPUT": 0.75,
+      "RAIL_3V3": 0.5
+    },
+    "usb_target_width_mm": 0.25
+  },
+  "via_rules": {
+    "critical_reason_required": true,
+    "default_allowed": true,
+    "max_default_vias": 2,
+    "notes": "Per-via engineering intent is not stored in KiCad; reasons remain NOT_EXTRACTED."
+  }
+}

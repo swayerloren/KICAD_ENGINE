@@ -1,0 +1,102 @@
+{
+  "ranked_results": [
+    {
+      "blocked_reasons": [],
+      "category_scores": {
+        "antenna_rf_keepout_correctness": 15,
+        "component_grouping_quality": 9,
+        "connector_orientation_correctness": 19,
+        "mechanical_correctness": 19,
+        "power_path_quality": 14,
+        "routing_feasibility": 9,
+        "usb_data_routing_quality": 9
+      },
+      "category_subtotal": 94,
+      "drc_precheck_risk_level": "LOW",
+      "drc_precheck_risk_penalty": 3,
+      "eligible_for_selection": true,
+      "hard_fails": [],
+      "human_uncertainty_risk_level": "LOW",
+      "human_uncertainty_risk_penalty": 2,
+      "invalid_fields": [],
+      "missing_fields": [],
+      "notes": "Balanced routing and RF layout concept.",
+      "project": "SANDBOX_DRY_RUN",
+      "source": "34_PCB_LAYOUT_SANDBOX\\reports\\dry_run_samples\\variant_c.json",
+      "status": "PASS",
+      "total_penalty": 5,
+      "total_score": 89,
+      "uncertainty_notes": "Intended positive control.",
+      "variant_id": "VARIANT_C"
+    },
+    {
+      "blocked_reasons": [
+        "Total score 71 is below the PASS threshold 80."
+      ],
+      "category_scores": {
+        "antenna_rf_keepout_correctness": 12,
+        "component_grouping_quality": 8,
+        "connector_orientation_correctness": 15,
+        "mechanical_correctness": 15,
+        "power_path_quality": 12,
+        "routing_feasibility": 7,
+        "usb_data_routing_quality": 7
+      },
+      "category_subtotal": 76,
+      "drc_precheck_risk_level": "LOW",
+      "drc_precheck_risk_penalty": 3,
+      "eligible_for_selection": true,
+      "hard_fails": [],
+      "human_uncertainty_risk_level": "LOW",
+      "human_uncertainty_risk_penalty": 2,
+      "invalid_fields": [],
+      "missing_fields": [],
+      "notes": "Compact concept with some crowding.",
+      "project": "SANDBOX_DRY_RUN",
+      "source": "34_PCB_LAYOUT_SANDBOX\\reports\\dry_run_samples\\variant_a.json",
+      "status": "AUTO_BLOCKED_BAD_LAYOUT",
+      "total_penalty": 5,
+      "total_score": 71,
+      "uncertainty_notes": "No hard fail, but score should stay below pass threshold.",
+      "variant_id": "VARIANT_A"
+    },
+    {
+      "blocked_reasons": [],
+      "category_scores": {
+        "antenna_rf_keepout_correctness": 6,
+        "component_grouping_quality": 8,
+        "connector_orientation_correctness": 18,
+        "mechanical_correctness": 17,
+        "power_path_quality": 10,
+        "routing_feasibility": 3,
+        "usb_data_routing_quality": 6
+      },
+      "category_subtotal": 68,
+      "drc_precheck_risk_level": "HIGH",
+      "drc_precheck_risk_penalty": 10,
+      "eligible_for_selection": false,
+      "hard_fails": [
+        "ESP32 antenna keepout is blocked.",
+        "Projected traces cross the antenna keepout."
+      ],
+      "human_uncertainty_risk_level": "MEDIUM",
+      "human_uncertainty_risk_penalty": 5,
+      "invalid_fields": [],
+      "missing_fields": [],
+      "notes": "Mechanically decent but RF keepout is broken.",
+      "project": "SANDBOX_DRY_RUN",
+      "source": "34_PCB_LAYOUT_SANDBOX\\reports\\dry_run_samples\\variant_b.json",
+      "status": "FAIL",
+      "total_penalty": 15,
+      "total_score": 53,
+      "uncertainty_notes": "Should hard fail on keepout.",
+      "variant_id": "VARIANT_B"
+    }
+  ],
+  "selected_total_score": 89,
+  "selected_variant_id": "VARIANT_C",
+  "selected_variant_status": "PASS",
+  "selection_reason": "VARIANT_C was selected because it is the highest-ranked non-failed variant at score 89.",
+  "selection_status": "AUTO_SELECTED",
+  "variant_count": 3
+}

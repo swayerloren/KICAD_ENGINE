@@ -1,0 +1,38 @@
+{
+  "blocked_reasons": [
+    "26 trace audit entries flagged",
+    "regulator critical loop not planned",
+    "routing plan did not pass"
+  ],
+  "hard_fails": [
+    "regulator critical loop not planned"
+  ],
+  "project": "esp-rust-board",
+  "readiness": {
+    "exact_blockers": [
+      "26 trace audit entries flagged",
+      "regulator critical loop not planned",
+      "routing plan did not pass"
+    ],
+    "ready_for_real_kicad_test": false
+  },
+  "schema_version": "1.0",
+  "scores": {
+    "critical_net_completeness": 20,
+    "drc_risk": 4,
+    "human_review_risk": 5,
+    "power_path_quality": 5,
+    "rf_keepout_compliance": 15,
+    "trace_audit_completeness": 0,
+    "unrouted_net_count": 10,
+    "usb_path_quality": 8,
+    "via_count_reasonableness": 0
+  },
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "hard_fail_count": 1,
+    "total_score": 57
+  },
+  "tool": "score_routing_plan",
+  "total_score": 57
+}

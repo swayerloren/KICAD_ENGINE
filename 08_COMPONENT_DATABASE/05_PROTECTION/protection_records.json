@@ -1,0 +1,114 @@
+[
+  {
+    "record_id": "PROTECTION_USB_ESD_DIODE_ARRAY_GENERIC",
+    "part_number": "USB ESD diode array generic",
+    "vendor": "Generic",
+    "family": "USB_ESD_PROTECTION",
+    "category": "05_PROTECTION",
+    "package": "Unknown - requires source verification",
+    "kicad_symbol_candidates": ["Device:D_TVS", "Device:D_TVS_Bidir", "Unknown - requires source verification"],
+    "kicad_footprint_candidates": ["Package_TO_SOT_SMD:SOT-23-6", "Package_TO_SOT_SMD:SOT-23-5", "Unknown - requires source verification"],
+    "kicad_3d_model_candidates": ["Unknown - requires source verification"],
+    "datasheet_local_path": "06_DATASHEETS/06_PROTECTION/99_UNSORTED_INBOX",
+    "datasheet_source_url": "Unknown - requires source verification",
+    "verified_status": "UNVERIFIED_PLACEHOLDER",
+    "verification_flags": ["UNVERIFIED_PLACEHOLDER"],
+    "pinout_status": "Unknown - requires source verification",
+    "footprint_status": "Unknown - requires source verification",
+    "layout_notes": [
+      "Place close to the USB connector or board entry point.",
+      "Keep D+/D- or other protected data traces from creating long stubs.",
+      "Provide a short, low-inductance return path to the intended ground or chassis strategy."
+    ],
+    "power_notes": [
+      "Verify reverse working voltage for the protected line.",
+      "Do not use for VBUS surge protection unless the exact part is rated for the power path."
+    ],
+    "communication_notes": [
+      "Verify line capacitance and insertion-loss suitability for the exact USB speed and CC/SBU/data use.",
+      "USB 2.0, USB 3.x, CC, SBU, and VBUS protection are not interchangeable."
+    ],
+    "common_mistakes": [
+      "Using a high-capacitance ESD part on high-speed USB data lines.",
+      "Assuming package pinout from another ESD array.",
+      "Placing protection far from the connector."
+    ],
+    "ai_warnings": [
+      "Generic ESD array records are not approved footprints.",
+      "Do not claim USB compliance or ESD compliance from this placeholder."
+    ],
+    "suitable_use_cases": [
+      "Early schematic placeholder for USB data-line protection.",
+      "Design review reminder near external connectors."
+    ],
+    "not_suitable_use_cases": [
+      "Final BOM entry.",
+      "High-speed USB design without capacitance and layout verification.",
+      "Power-input surge protection without power TVS selection."
+    ],
+    "required_external_parts": ["Unknown - requires source verification"],
+    "reference_circuits": ["USB connector ESD reference circuit - requires source verification"],
+    "known_errata": "Unknown - requires source verification",
+    "source_confidence": "Low - generic placeholder only",
+    "last_updated": "2026-05-02",
+    "notes": "Select an exact manufacturer part and verify capacitance, clamp behavior, package, and pinout before use.",
+    "electrical_parameters_to_verify": ["working standoff voltage", "capacitance", "clamping behavior", "leakage", "IEC rating", "channel topology"],
+    "footprint_verification_checklist": ["package drawing", "pin numbering", "thermal/ground pad if present", "courtyard and placement near connector"]
+  },
+  {
+    "record_id": "PROTECTION_CAN_TVS_DIODE_GENERIC",
+    "part_number": "CAN TVS diode generic",
+    "vendor": "Generic",
+    "family": "CAN_TVS_PROTECTION",
+    "category": "05_PROTECTION",
+    "package": "Unknown - requires source verification",
+    "kicad_symbol_candidates": ["Device:D_TVS_Bidir", "Device:D_TVS", "Unknown - requires source verification"],
+    "kicad_footprint_candidates": ["Diode_SMD:D_SOD-323", "Diode_SMD:D_SOD-123", "Diode_SMD:D_SMA", "Unknown - requires source verification"],
+    "kicad_3d_model_candidates": ["Unknown - requires source verification"],
+    "datasheet_local_path": "06_DATASHEETS/06_PROTECTION/99_UNSORTED_INBOX",
+    "datasheet_source_url": "Unknown - requires source verification",
+    "verified_status": "UNVERIFIED_PLACEHOLDER",
+    "verification_flags": ["UNVERIFIED_PLACEHOLDER"],
+    "pinout_status": "Unknown - requires source verification",
+    "footprint_status": "Unknown - requires source verification",
+    "layout_notes": [
+      "Place near the CAN connector or board entry point.",
+      "Keep CAN_H and CAN_L routing balanced and avoid long protection stubs.",
+      "Use a short, intentional transient return path."
+    ],
+    "power_notes": [
+      "Verify standoff voltage against normal CAN common-mode and fault conditions.",
+      "Coordinate surge handling with connector exposure, shield/chassis plan, and power-input protection."
+    ],
+    "communication_notes": [
+      "Verify capacitance is acceptable for target CAN or CAN FD data rate.",
+      "Do not confuse termination requirements with TVS protection."
+    ],
+    "common_mistakes": [
+      "Using a power-input TVS on CAN data lines without capacitance review.",
+      "Omitting termination while adding protection.",
+      "Routing CAN through long ESD stubs."
+    ],
+    "ai_warnings": [
+      "Generic CAN TVS records are not approved BOM parts.",
+      "Automotive CAN requires product-level surge and EMC requirements, not a generic placeholder."
+    ],
+    "suitable_use_cases": [
+      "Early schematic placeholder for CAN connector protection.",
+      "Review checklist item for external CAN bus exposure."
+    ],
+    "not_suitable_use_cases": [
+      "Final automotive qualification claim.",
+      "CAN FD design without capacitance and layout verification.",
+      "Power input load-dump protection."
+    ],
+    "required_external_parts": ["CAN termination network - requires topology verification", "Common mode choke if required by EMC plan"],
+    "reference_circuits": ["CAN transceiver vendor reference circuit - requires source verification"],
+    "known_errata": "Unknown - requires source verification",
+    "source_confidence": "Low - generic placeholder only",
+    "last_updated": "2026-05-02",
+    "notes": "Select an exact CAN TVS or ESD array and verify standoff, clamp, capacitance, surge rating, and package before use.",
+    "electrical_parameters_to_verify": ["working standoff voltage", "surge rating", "capacitance", "bidirectional behavior", "leakage", "package power rating"],
+    "footprint_verification_checklist": ["package drawing", "pin numbering", "polarity/directionality", "ground or return path placement"]
+  }
+]

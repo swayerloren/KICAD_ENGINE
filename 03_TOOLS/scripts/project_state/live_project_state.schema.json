@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KiCad Engine Live Project State",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "project",
+    "source_files",
+    "pcb",
+    "drc",
+    "classification",
+    "current_real_phase",
+    "next_action"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "project": {
+      "type": "object",
+      "required": [
+        "name",
+        "path",
+        "reports_path"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "reports_path": {
+          "type": "string"
+        }
+      }
+    },
+    "source_files": {
+      "type": "object",
+      "required": [
+        "kicad_pro",
+        "kicad_sch",
+        "kicad_pcb"
+      ]
+    },
+    "pcb": {
+      "type": "object",
+      "required": [
+        "exists",
+        "board_outline_exists",
+        "board_width_mm",
+        "board_height_mm",
+        "footprint_count",
+        "mounting_hole_count",
+        "track_count",
+        "via_count",
+        "zone_count",
+        "net_count",
+        "placement_exists",
+        "routing_exists",
+        "unrouted_net_count"
+      ]
+    },
+    "drc": {
+      "type": "object",
+      "required": [
+        "runnable",
+        "result",
+        "violation_count",
+        "unconnected_count"
+      ]
+    },
+    "classification": {
+      "type": "string"
+    },
+    "current_real_phase": {
+      "type": "object"
+    },
+    "next_action": {
+      "type": "string"
+    }
+  }
+}

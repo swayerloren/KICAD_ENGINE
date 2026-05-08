@@ -1,0 +1,141 @@
+{
+  "autorouting_policy": "REVIEW_ONLY",
+  "critical_net_count": 4,
+  "critical_nets": [
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.25,
+      "critical": true,
+      "ground": false,
+      "max_vias": 1,
+      "must_avoid_keepouts": [],
+      "name": "+12V_IN",
+      "net_class": "POWER_IN",
+      "notes": "",
+      "paired_with": "",
+      "power": true,
+      "preferred_layers": [
+        "F.Cu"
+      ],
+      "review_required": false,
+      "role": "POWER_INPUT",
+      "routing_priority": 100,
+      "routing_status": "ROUTED",
+      "stage_index": 0,
+      "stage_name": "POWER_INPUT_PROTECTION",
+      "trace_count": 1,
+      "trace_length_mm": 7.211,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.75
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.2,
+      "critical": true,
+      "ground": false,
+      "max_vias": 1,
+      "must_avoid_keepouts": [],
+      "name": "REG_SW",
+      "net_class": "POWER_3V3",
+      "notes": "",
+      "paired_with": "",
+      "power": true,
+      "preferred_layers": [
+        "F.Cu"
+      ],
+      "review_required": true,
+      "role": "REGULATOR_LOOP",
+      "routing_priority": 90,
+      "routing_status": "ROUTED",
+      "stage_index": 1,
+      "stage_name": "REGULATOR_CRITICAL_LOOP",
+      "trace_count": 1,
+      "trace_length_mm": 3.0,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.5
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.2,
+      "critical": true,
+      "ground": false,
+      "max_vias": 1,
+      "must_avoid_keepouts": [],
+      "name": "+3V3",
+      "net_class": "POWER_3V3",
+      "notes": "",
+      "paired_with": "",
+      "power": true,
+      "preferred_layers": [
+        "F.Cu"
+      ],
+      "review_required": false,
+      "role": "RAIL_3V3",
+      "routing_priority": 80,
+      "routing_status": "ROUTED",
+      "stage_index": 2,
+      "stage_name": "RAIL_3V3",
+      "trace_count": 1,
+      "trace_length_mm": 8.0,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.5
+    },
+    {
+      "allowed_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "clearance_mm": 0.15,
+      "critical": true,
+      "ground": false,
+      "max_vias": 2,
+      "must_avoid_keepouts": [],
+      "name": "EN",
+      "net_class": "DEFAULT",
+      "notes": "",
+      "paired_with": "",
+      "power": false,
+      "preferred_layers": "F.Cu",
+      "review_required": false,
+      "role": "EN_BOOT",
+      "routing_priority": 40,
+      "routing_status": "ROUTED",
+      "stage_index": 5,
+      "stage_name": "ESP32_EN_BOOT",
+      "trace_count": 1,
+      "trace_length_mm": 4.243,
+      "usb": false,
+      "via_reason_required": true,
+      "vias_allowed": true,
+      "width_mm": 0.2
+    }
+  ],
+  "hard_fails": [],
+  "missing_critical_nets": [],
+  "project": "can_node_fixture",
+  "review_required": [
+    "REG_SW"
+  ],
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "critical_net_count": 4,
+    "missing_critical_count": 0
+  },
+  "tool": "route_critical_nets_plan"
+}

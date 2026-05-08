@@ -1,0 +1,1686 @@
+{
+  "track_count": 74,
+  "via_count": 32,
+  "zone_count": 3,
+  "tracks": [
+    {
+      "net": "+3V3",
+      "start_mm": [
+        38.475,
+        66.55
+      ],
+      "end_mm": [
+        42.0,
+        63.025
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 4.985103
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        27.863,
+        68.55
+      ],
+      "end_mm": [
+        26.113,
+        66.8
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 2.474874
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        38.475,
+        66.55
+      ],
+      "end_mm": [
+        38.475,
+        69.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 2.95
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        42.0,
+        63.025
+      ],
+      "end_mm": [
+        48.0,
+        63.025
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 6.0
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        57.0,
+        46.0
+      ],
+      "end_mm": [
+        57.0,
+        48.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.45,
+      "length_mm": 2.0
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        26.113,
+        66.8
+      ],
+      "end_mm": [
+        38.475,
+        66.55
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.5,
+      "length_mm": 12.364528
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        21.25,
+        43.05
+      ],
+      "end_mm": [
+        21.5,
+        43.05
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 0.25
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        39.825,
+        63.025
+      ],
+      "end_mm": [
+        42.0,
+        63.025
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 2.175
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        21.5,
+        43.05
+      ],
+      "end_mm": [
+        13.825,
+        43.05
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 7.675
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        13.825,
+        53.0
+      ],
+      "end_mm": [
+        13.825,
+        64.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 11.0
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        48.0,
+        46.0
+      ],
+      "end_mm": [
+        57.0,
+        46.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.45,
+      "length_mm": 9.0
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        38.475,
+        69.5
+      ],
+      "end_mm": [
+        38.475,
+        63.025
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.45,
+      "length_mm": 6.475
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        38.475,
+        64.0
+      ],
+      "end_mm": [
+        38.475,
+        63.025
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 0.975
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        38.475,
+        63.025
+      ],
+      "end_mm": [
+        42.0,
+        63.025
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.45,
+      "length_mm": 3.525
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        13.825,
+        64.0
+      ],
+      "end_mm": [
+        38.475,
+        64.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 24.65
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        21.5,
+        43.05
+      ],
+      "end_mm": [
+        26.5,
+        43.225
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 5.003062
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        42.0,
+        63.025
+      ],
+      "end_mm": [
+        48.0,
+        63.025
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.45,
+      "length_mm": 6.0
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        21.25,
+        24.01
+      ],
+      "end_mm": [
+        21.25,
+        43.05
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 19.04
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        39.825,
+        58.0
+      ],
+      "end_mm": [
+        39.825,
+        63.025
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 5.025
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        48.0,
+        63.025
+      ],
+      "end_mm": [
+        48.0,
+        46.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.45,
+      "length_mm": 17.025
+    },
+    {
+      "net": "+3V3",
+      "start_mm": [
+        13.825,
+        43.05
+      ],
+      "end_mm": [
+        13.825,
+        53.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.35,
+      "length_mm": 9.95
+    },
+    {
+      "net": "/+5V_FUSED",
+      "start_mm": [
+        16.399999,
+        77.5
+      ],
+      "end_mm": [
+        21.562,
+        77.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 5.162001
+    },
+    {
+      "net": "/+5V_FUSED",
+      "start_mm": [
+        21.562,
+        77.5
+      ],
+      "end_mm": [
+        22.062,
+        78.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 0.707107
+    },
+    {
+      "net": "/+5V_IN",
+      "start_mm": [
+        11.8,
+        84.6
+      ],
+      "end_mm": [
+        11.8,
+        79.3
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 5.3
+    },
+    {
+      "net": "/+5V_IN",
+      "start_mm": [
+        14.0,
+        86.8
+      ],
+      "end_mm": [
+        11.8,
+        84.6
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 3.11127
+    },
+    {
+      "net": "/+5V_IN",
+      "start_mm": [
+        11.8,
+        79.3
+      ],
+      "end_mm": [
+        13.6,
+        77.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 2.545584
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        21.5,
+        71.0
+      ],
+      "end_mm": [
+        22.475,
+        70.025
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 1.378858
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        22.475,
+        70.025
+      ],
+      "end_mm": [
+        22.475,
+        69.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 0.525
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        23.938,
+        75.463
+      ],
+      "end_mm": [
+        23.938,
+        77.05
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 1.587
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        17.5,
+        71.0
+      ],
+      "end_mm": [
+        21.5,
+        71.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 4.0
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        22.475,
+        74.0
+      ],
+      "end_mm": [
+        23.938,
+        75.463
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 2.068994
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        14.0,
+        67.5
+      ],
+      "end_mm": [
+        17.5,
+        71.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 4.949747
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        27.863,
+        69.5
+      ],
+      "end_mm": [
+        27.863,
+        70.45
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 0.95
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        22.475,
+        69.5
+      ],
+      "end_mm": [
+        26.4,
+        69.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 3.925
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        22.475,
+        70.025
+      ],
+      "end_mm": [
+        22.475,
+        74.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.75,
+      "length_mm": 3.975
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "start_mm": [
+        26.4,
+        69.5
+      ],
+      "end_mm": [
+        27.863,
+        69.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 1.463
+    },
+    {
+      "net": "/BOOT0",
+      "start_mm": [
+        12.175,
+        64.0
+      ],
+      "end_mm": [
+        12.175,
+        68.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.0
+    },
+    {
+      "net": "/BOOT0",
+      "start_mm": [
+        12.175,
+        68.0
+      ],
+      "end_mm": [
+        5.15,
+        68.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 7.025
+    },
+    {
+      "net": "/BOOT0",
+      "start_mm": [
+        5.15,
+        68.0
+      ],
+      "end_mm": [
+        5.15,
+        66.625
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.375
+    },
+    {
+      "net": "/BUCK_BST",
+      "start_mm": [
+        30.737,
+        67.95
+      ],
+      "end_mm": [
+        32.4,
+        67.95
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 1.663
+    },
+    {
+      "net": "/BUCK_BST",
+      "start_mm": [
+        30.137,
+        68.55
+      ],
+      "end_mm": [
+        30.737,
+        67.95
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.848528
+    },
+    {
+      "net": "/BUCK_SW",
+      "start_mm": [
+        32.4,
+        69.5
+      ],
+      "end_mm": [
+        35.525,
+        69.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 3.125
+    },
+    {
+      "net": "/BUCK_SW",
+      "start_mm": [
+        30.137,
+        69.5
+      ],
+      "end_mm": [
+        32.4,
+        69.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 2.263
+    },
+    {
+      "net": "/CC1",
+      "start_mm": [
+        37.75,
+        84.8
+      ],
+      "end_mm": [
+        32.325,
+        81.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 6.349852
+    },
+    {
+      "net": "/CC1",
+      "start_mm": [
+        37.75,
+        87.645
+      ],
+      "end_mm": [
+        37.75,
+        84.8
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.845
+    },
+    {
+      "net": "/CC2",
+      "start_mm": [
+        40.75,
+        84.0
+      ],
+      "end_mm": [
+        46.825,
+        84.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 6.075
+    },
+    {
+      "net": "/CC2",
+      "start_mm": [
+        46.825,
+        84.0
+      ],
+      "end_mm": [
+        46.825,
+        81.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.5
+    },
+    {
+      "net": "/CC2",
+      "start_mm": [
+        40.75,
+        87.645
+      ],
+      "end_mm": [
+        40.75,
+        84.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.645
+    },
+    {
+      "net": "/ESP_EN",
+      "start_mm": [
+        13.775,
+        58.5
+      ],
+      "end_mm": [
+        5.15,
+        58.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 8.625
+    },
+    {
+      "net": "/ESP_EN",
+      "start_mm": [
+        5.15,
+        58.5
+      ],
+      "end_mm": [
+        5.15,
+        56.625
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.875
+    },
+    {
+      "net": "/ESP_EN",
+      "start_mm": [
+        13.775,
+        54.6
+      ],
+      "end_mm": [
+        13.775,
+        58.5
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.9
+    },
+    {
+      "net": "/ESP_EN",
+      "start_mm": [
+        12.175,
+        53.0
+      ],
+      "end_mm": [
+        13.775,
+        54.6
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.262742
+    },
+    {
+      "net": "/PLED",
+      "start_mm": [
+        38.175,
+        58.0
+      ],
+      "end_mm": [
+        39.788,
+        55.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.406137
+    },
+    {
+      "net": "/SHIELD",
+      "start_mm": [
+        43.32,
+        92.4
+      ],
+      "end_mm": [
+        43.32,
+        88.22
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.18
+    },
+    {
+      "net": "/SHIELD",
+      "start_mm": [
+        34.68,
+        92.4
+      ],
+      "end_mm": [
+        43.32,
+        92.4
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 8.64
+    },
+    {
+      "net": "/SHIELD",
+      "start_mm": [
+        43.32,
+        88.22
+      ],
+      "end_mm": [
+        51.825,
+        78.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 13.295993
+    },
+    {
+      "net": "/SHIELD",
+      "start_mm": [
+        34.68,
+        88.22
+      ],
+      "end_mm": [
+        34.68,
+        92.4
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.18
+    },
+    {
+      "net": "/SLED",
+      "start_mm": [
+        44.175,
+        58.0
+      ],
+      "end_mm": [
+        45.788,
+        55.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.406137
+    },
+    {
+      "net": "/STATUS_LED",
+      "start_mm": [
+        38.75,
+        25.28
+      ],
+      "end_mm": [
+        40.8,
+        25.28
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.05
+    },
+    {
+      "net": "/STATUS_LED",
+      "start_mm": [
+        46.8,
+        59.0
+      ],
+      "end_mm": [
+        45.825,
+        58.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.396648
+    },
+    {
+      "net": "/STATUS_LED",
+      "start_mm": [
+        41.0,
+        25.28
+      ],
+      "end_mm": [
+        41.0,
+        59.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 33.72
+    },
+    {
+      "net": "/STATUS_LED",
+      "start_mm": [
+        40.8,
+        25.28
+      ],
+      "end_mm": [
+        41.0,
+        25.28
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2
+    },
+    {
+      "net": "/STATUS_LED",
+      "start_mm": [
+        41.0,
+        59.0
+      ],
+      "end_mm": [
+        46.8,
+        59.0
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 5.8
+    },
+    {
+      "net": "/U0RXD",
+      "start_mm": [
+        55.0,
+        64.0
+      ],
+      "end_mm": [
+        57.0,
+        64.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.0
+    },
+    {
+      "net": "/U0RXD",
+      "start_mm": [
+        38.75,
+        27.82
+      ],
+      "end_mm": [
+        42.0,
+        27.82
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.25
+    },
+    {
+      "net": "/U0RXD",
+      "start_mm": [
+        42.0,
+        61.0
+      ],
+      "end_mm": [
+        55.0,
+        61.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 13.0
+    },
+    {
+      "net": "/U0RXD",
+      "start_mm": [
+        42.0,
+        27.82
+      ],
+      "end_mm": [
+        42.0,
+        61.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 33.18
+    },
+    {
+      "net": "/U0RXD",
+      "start_mm": [
+        55.0,
+        61.0
+      ],
+      "end_mm": [
+        55.0,
+        64.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.0
+    },
+    {
+      "net": "/U0TXD",
+      "start_mm": [
+        38.75,
+        26.55
+      ],
+      "end_mm": [
+        49.0,
+        26.55
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 10.25
+    },
+    {
+      "net": "/U0TXD",
+      "start_mm": [
+        49.0,
+        60.0
+      ],
+      "end_mm": [
+        57.0,
+        60.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 8.0
+    },
+    {
+      "net": "/U0TXD",
+      "start_mm": [
+        49.0,
+        26.55
+      ],
+      "end_mm": [
+        49.0,
+        60.0
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 33.45
+    },
+    {
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "start_mm": [
+        36.6,
+        86.8
+      ],
+      "end_mm": [
+        41.4,
+        86.8
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.8
+    },
+    {
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "start_mm": [
+        36.6,
+        87.645
+      ],
+      "end_mm": [
+        36.6,
+        86.8
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.845
+    },
+    {
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "start_mm": [
+        41.4,
+        86.8
+      ],
+      "end_mm": [
+        41.4,
+        87.645
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.845
+    }
+  ],
+  "vias": [
+    {
+      "net": "+3V3",
+      "position_mm": [
+        26.5,
+        43.225
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        13.825,
+        64.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        13.825,
+        53.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        26.113,
+        66.8
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        38.475,
+        69.5
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        38.475,
+        66.55
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        39.825,
+        58.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        21.5,
+        43.05
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        57.0,
+        48.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "+3V3",
+      "position_mm": [
+        21.25,
+        24.01
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "/SHIELD",
+      "position_mm": [
+        34.68,
+        88.22
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "/SHIELD",
+      "position_mm": [
+        43.32,
+        88.22
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "/SHIELD",
+      "position_mm": [
+        51.825,
+        78.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "/STATUS_LED",
+      "position_mm": [
+        46.8,
+        59.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "/STATUS_LED",
+      "position_mm": [
+        40.8,
+        25.28
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        12.225,
+        57.0
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        6.85,
+        51.375
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        50.0,
+        75.0
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        21.5,
+        44.95
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        6.85,
+        61.375
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        38.75,
+        22.74
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        26.5,
+        44.775
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        10.0,
+        75.0
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        21.25,
+        22.74
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        10.0,
+        50.0
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        6.85,
+        56.625
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        6.85,
+        66.625
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        50.0,
+        50.0
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        50.0,
+        30.0
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "position_mm": [
+        10.0,
+        30.0
+      ],
+      "diameter_mm": 0.65,
+      "drill_mm": 0.3,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "position_mm": [
+        36.6,
+        87.645
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    },
+    {
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "position_mm": [
+        41.4,
+        87.645
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.2,
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "net": "",
+      "layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "is_keepout": true
+    },
+    {
+      "net": "GND",
+      "layers": [
+        "F.Cu"
+      ],
+      "is_keepout": false
+    },
+    {
+      "net": "GND",
+      "layers": [
+        "B.Cu"
+      ],
+      "is_keepout": false
+    }
+  ],
+  "net_summary": {
+    "+3V3": {
+      "segments": 21,
+      "vias": 10,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.35,
+        0.45,
+        0.5
+      ],
+      "total_track_length_mm": 158.542567
+    },
+    "/+5V_FUSED": {
+      "segments": 2,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.75
+      ],
+      "total_track_length_mm": 5.869108
+    },
+    "/+5V_IN": {
+      "segments": 3,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.75
+      ],
+      "total_track_length_mm": 10.956854
+    },
+    "/+5V_PROTECTED": {
+      "segments": 10,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.5,
+        0.75
+      ],
+      "total_track_length_mm": 24.822599
+    },
+    "/BOOT0": {
+      "segments": 3,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 12.4
+    },
+    "/BUCK_BST": {
+      "segments": 2,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.25
+      ],
+      "total_track_length_mm": 2.511528
+    },
+    "/BUCK_SW": {
+      "segments": 2,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.5
+      ],
+      "total_track_length_mm": 5.388
+    },
+    "/CC1": {
+      "segments": 2,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 9.194852
+    },
+    "/CC2": {
+      "segments": 3,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 12.22
+    },
+    "/ESP_EN": {
+      "segments": 4,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 16.662742
+    },
+    "/PLED": {
+      "segments": 1,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 3.406137
+    },
+    "/SHIELD": {
+      "segments": 4,
+      "vias": 3,
+      "layers": [
+        "B.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 30.295993
+    },
+    "/SLED": {
+      "segments": 1,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 3.406137
+    },
+    "/STATUS_LED": {
+      "segments": 5,
+      "vias": 2,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 43.166648
+    },
+    "/U0RXD": {
+      "segments": 5,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 54.43
+    },
+    "/U0TXD": {
+      "segments": 3,
+      "vias": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 51.7
+    },
+    "GND": {
+      "segments": 0,
+      "vias": 15,
+      "layers": [],
+      "widths_mm": [],
+      "total_track_length_mm": 0.0
+    },
+    "unconnected-(J2-VBUS-PadA4)": {
+      "segments": 3,
+      "vias": 2,
+      "layers": [
+        "B.Cu"
+      ],
+      "widths_mm": [
+        0.2
+      ],
+      "total_track_length_mm": 6.49
+    }
+  }
+}

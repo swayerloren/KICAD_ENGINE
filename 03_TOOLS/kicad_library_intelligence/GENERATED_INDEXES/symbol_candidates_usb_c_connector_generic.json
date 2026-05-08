@@ -1,0 +1,327 @@
+{
+  "candidate_type": "symbol",
+  "candidates": [
+    {
+      "description": "USB Type-C, SBU 3:1 multiplexer, 500MHz bandwidth, UQFN-16",
+      "extends": "",
+      "footprint_field": "Package_DFN_QFN:UQFN-16_1.8x2.6mm_P0.4mm",
+      "keywords": "Texas usb-c mux i2c aux analog audio microphone uart debug",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 40,
+      "symbol": "TS3USBCA410",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Type-C, SBU 4:1 multiplexer, 500MHz bandwidth, UQFN-16",
+      "extends": "",
+      "footprint_field": "Package_DFN_QFN:UQFN-16_1.8x2.6mm_P0.4mm",
+      "keywords": "Texas usb-c mux i2c aux analog audio microphone uart debug",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 40,
+      "symbol": "TS3USBCA420",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Type-C Plug connector",
+      "extends": "",
+      "footprint_field": "",
+      "keywords": "usb universal serial bus",
+      "library": "Connector",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Connector.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "USB_C_Plug",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB 2.0-only Type-C Plug connector",
+      "extends": "",
+      "footprint_field": "",
+      "keywords": "usb universal serial bus type-C USB2.0",
+      "library": "Connector",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Connector.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "USB_C_Plug_USB2.0",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Full-Featured Type-C Receptacle connector",
+      "extends": "",
+      "footprint_field": "",
+      "keywords": "usb universal serial bus type-C full-featured",
+      "library": "Connector",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Connector.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "USB_C_Receptacle",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Power-Only 24P Type-C Receptacle connector",
+      "extends": "",
+      "footprint_field": "",
+      "keywords": "usb universal serial bus type-C power-only charging-only 24P 24C",
+      "library": "Connector",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Connector.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "USB_C_Receptacle_PowerOnly_24P",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Power-Only 6P Type-C Receptacle connector",
+      "extends": "",
+      "footprint_field": "",
+      "keywords": "usb universal serial bus type-C power-only charging-only 6P 6C",
+      "library": "Connector",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Connector.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "USB_C_Receptacle_PowerOnly_6P",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB 2.0-only 14P Type-C Receptacle connector",
+      "extends": "",
+      "footprint_field": "",
+      "keywords": "usb universal serial bus type-C USB2.0",
+      "library": "Connector",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Connector.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "USB_C_Receptacle_USB2.0_14P",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB 2.0-only 16P Type-C Receptacle connector",
+      "extends": "",
+      "footprint_field": "",
+      "keywords": "usb universal serial bus type-C USB2.0",
+      "library": "Connector",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Connector.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "USB_C_Receptacle_USB2.0_16P",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "100W USB Type-C PD3.0/2.0, BC1.2 Sink Controller, SSOP-10",
+      "extends": "",
+      "footprint_field": "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm",
+      "keywords": "USB-C WCH powered-device",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "CH224K",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Type-C port controller, Cortex\u00ae-M0 processor, UFP CC bootloader, QFN-24",
+      "extends": "",
+      "footprint_field": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm",
+      "keywords": "USBPD Quickcharge",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "CYPD3171-24LQXQ",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Type-C port controller, Cortex\u00ae-M0 processor, DFP CC with opto coupler feedback bootloader, SOIC-16",
+      "extends": "",
+      "footprint_field": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "keywords": "USBPD quickcharge",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "CYPD3174-16SXQ",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Type-C port controller, Cortex\u00ae-M0 processor, DFP CC with opto coupler feedback bootloader, QFN-24",
+      "extends": "CYPD3171-24LQXQ",
+      "footprint_field": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm",
+      "keywords": "USBPD Quickcharge",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "CYPD3174-24LQXQ",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Type-C port controller, Cortex\u00ae-M0 processor, DFP CC with direct feedback bootloader, QFN-24",
+      "extends": "CYPD3171-24LQXQ",
+      "footprint_field": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm",
+      "keywords": "USBPD Quickcharge",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "CYPD3175-24LQXQ",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24",
+      "extends": "",
+      "footprint_field": "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.75x2.75mm",
+      "keywords": "usb pd type csink",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "CYPD3177-24LQ",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "Programmable USB Type-C Controller w/PD, I2C address 0x23, WQFN-14",
+      "extends": "FUSB302BMPX",
+      "footprint_field": "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm",
+      "keywords": "USB USB-C PD Power Delivery PHY",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "FUSB302B01MPX",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "Programmable USB Type-C Controller w/PD, I2C address 0x24, WQFN-14",
+      "extends": "FUSB302BMPX",
+      "footprint_field": "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm",
+      "keywords": "USB USB-C PD Power Delivery PHY",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "FUSB302B10MPX",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "Programmable USB Type-C Controller w/PD, I2C address 0x25, WQFN-14",
+      "extends": "FUSB302BMPX",
+      "footprint_field": "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm",
+      "keywords": "USB USB-C PD Power Delivery PHY",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "FUSB302B11MPX",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "Programmable USB Type-C Controller w/PD, I2C address 0x22, WQFN-14",
+      "extends": "",
+      "footprint_field": "Package_DFN_QFN:WQFN-14-1EP_2.5x2.5mm_P0.5mm_EP1.45x1.45mm",
+      "keywords": "USB USB-C PD Power Delivery PHY",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "FUSB302BMPX",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    },
+    {
+      "description": "USB Type-C Port Controller with USB-PD, WQFN-16",
+      "extends": "",
+      "footprint_field": "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm",
+      "keywords": "USB USB-C PD Power Delivery PHY TCPC",
+      "library": "Interface_USB",
+      "library_file": "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\Interface_USB.kicad_sym",
+      "matched_tokens": [
+        "usb",
+        "usbc",
+        "typec"
+      ],
+      "score": 38,
+      "symbol": "FUSB307BMPX",
+      "verification_warning": "Candidate only. Verify pins, units, power pins, aliases, and footprint field against datasheet."
+    }
+  ],
+  "query": "USB-C connector generic",
+  "verification_policy": "Do not assert correctness until verified against exact datasheet and project requirements."
+}

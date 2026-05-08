@@ -1,0 +1,555 @@
+{
+  "generated_at": "2026-05-07T21:00:22",
+  "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "top_level_entries": [
+    {
+      "name": ".codex",
+      "path": ".codex",
+      "type": "directory",
+      "item_count": 5,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": ".github",
+      "path": ".github",
+      "type": "directory",
+      "item_count": 4,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "type": "file",
+      "size_bytes": 1403
+    },
+    {
+      "name": ".prompts",
+      "path": ".prompts",
+      "type": "directory",
+      "item_count": 6,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": ".vscode",
+      "path": ".vscode",
+      "type": "directory",
+      "item_count": 6,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "00_CODEX_START",
+      "path": "00_CODEX_START",
+      "type": "directory",
+      "item_count": 49,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "01_MEMORY",
+      "path": "01_MEMORY",
+      "type": "directory",
+      "item_count": 20,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "02_HISTORY",
+      "path": "02_HISTORY",
+      "type": "directory",
+      "item_count": 21,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "03_TOOLS",
+      "path": "03_TOOLS",
+      "type": "directory",
+      "item_count": 14,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "04_KICAD_PROJECTS",
+      "path": "04_KICAD_PROJECTS",
+      "type": "directory",
+      "item_count": 5,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "05_OUTPUTS",
+      "path": "05_OUTPUTS",
+      "type": "directory",
+      "item_count": 26,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "06_DATASHEETS",
+      "path": "06_DATASHEETS",
+      "type": "directory",
+      "item_count": 23,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "07_REFERENCE_DESIGNS",
+      "path": "07_REFERENCE_DESIGNS",
+      "type": "directory",
+      "item_count": 2,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "08_COMPONENT_DATABASE",
+      "path": "08_COMPONENT_DATABASE",
+      "type": "directory",
+      "item_count": 20,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "09_ACCURACY_ENGINE",
+      "path": "09_ACCURACY_ENGINE",
+      "type": "directory",
+      "item_count": 7,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "10_KNOWLEDGE_BASE",
+      "path": "10_KNOWLEDGE_BASE",
+      "type": "directory",
+      "item_count": 10,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "11_LIBRARY_FACTORY",
+      "path": "11_LIBRARY_FACTORY",
+      "type": "directory",
+      "item_count": 8,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "12_REFERENCE_DESIGN_LIBRARY",
+      "path": "12_REFERENCE_DESIGN_LIBRARY",
+      "type": "directory",
+      "item_count": 11,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "13_PART_INGESTION",
+      "path": "13_PART_INGESTION",
+      "type": "directory",
+      "item_count": 12,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "14_LAYOUT_AUTOMATION",
+      "path": "14_LAYOUT_AUTOMATION",
+      "type": "directory",
+      "item_count": 43,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "15_BENCHMARKS",
+      "path": "15_BENCHMARKS",
+      "type": "directory",
+      "item_count": 7,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "16_INSTALLER",
+      "path": "16_INSTALLER",
+      "type": "directory",
+      "item_count": 10,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "17_RELEASE_BUILD",
+      "path": "17_RELEASE_BUILD",
+      "type": "directory",
+      "item_count": 15,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "18_PUBLIC_DOCS",
+      "path": "18_PUBLIC_DOCS",
+      "type": "directory",
+      "item_count": 15,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "19_TEST_PROJECTS",
+      "path": "19_TEST_PROJECTS",
+      "type": "directory",
+      "item_count": 9,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "20_CI_CD",
+      "path": "20_CI_CD",
+      "type": "directory",
+      "item_count": 6,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "21_LICENSE_ATTRIBUTION",
+      "path": "21_LICENSE_ATTRIBUTION",
+      "type": "directory",
+      "item_count": 7,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "22_SECURITY",
+      "path": "22_SECURITY",
+      "type": "directory",
+      "item_count": 7,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "23_PACKAGE_PROFILES",
+      "path": "23_PACKAGE_PROFILES",
+      "type": "directory",
+      "item_count": 13,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "24_FAB_PROFILES",
+      "path": "24_FAB_PROFILES",
+      "type": "directory",
+      "item_count": 14,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "25_VENDOR_DATABASE",
+      "path": "25_VENDOR_DATABASE",
+      "type": "directory",
+      "item_count": 15,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "26_AGENT_QUALITY",
+      "path": "26_AGENT_QUALITY",
+      "type": "directory",
+      "item_count": 8,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "27_EXAMPLES",
+      "path": "27_EXAMPLES",
+      "type": "directory",
+      "item_count": 8,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "28_SUPPLIER_INGESTION",
+      "path": "28_SUPPLIER_INGESTION",
+      "type": "directory",
+      "item_count": 17,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "29_FOOTPRINT_GAP_ANALYSIS",
+      "path": "29_FOOTPRINT_GAP_ANALYSIS",
+      "type": "directory",
+      "item_count": 13,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "30_SUPPLIER_FOOTPRINT_MATCHES",
+      "path": "30_SUPPLIER_FOOTPRINT_MATCHES",
+      "type": "directory",
+      "item_count": 8,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "31_PLAYWRIGHT_RESEARCH_PIPELINE",
+      "path": "31_PLAYWRIGHT_RESEARCH_PIPELINE",
+      "type": "directory",
+      "item_count": 23,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "32_OPEN_KICAD_SAMPLE_INTAKE",
+      "path": "32_OPEN_KICAD_SAMPLE_INTAKE",
+      "type": "directory",
+      "item_count": 19,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "33_KICAD_GUI_AUTOMATION",
+      "path": "33_KICAD_GUI_AUTOMATION",
+      "type": "directory",
+      "item_count": 14,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "34_PCB_LAYOUT_SANDBOX",
+      "path": "34_PCB_LAYOUT_SANDBOX",
+      "type": "directory",
+      "item_count": 22,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "99_BACKUPS",
+      "path": "99_BACKUPS",
+      "type": "directory",
+      "item_count": 5,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "AGENTS.md",
+      "path": "AGENTS.md",
+      "type": "file",
+      "size_bytes": 28957
+    },
+    {
+      "name": "CHANGELOG.md",
+      "path": "CHANGELOG.md",
+      "type": "file",
+      "size_bytes": 983
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "path": "CODE_OF_CONDUCT.md",
+      "type": "file",
+      "size_bytes": 1118
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "path": "CONTRIBUTING.md",
+      "type": "file",
+      "size_bytes": 2284
+    },
+    {
+      "name": "DATASHEET_REDISTRIBUTION_AUDIT.md",
+      "path": "DATASHEET_REDISTRIBUTION_AUDIT.md",
+      "type": "file",
+      "size_bytes": 5730
+    },
+    {
+      "name": "DISCLAIMER.md",
+      "path": "DISCLAIMER.md",
+      "type": "file",
+      "size_bytes": 1961
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "type": "directory",
+      "item_count": 18,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "FAQ.md",
+      "path": "FAQ.md",
+      "type": "file",
+      "size_bytes": 2174
+    },
+    {
+      "name": "FOR CHAT GPT.MD",
+      "path": "FOR CHAT GPT.MD",
+      "type": "file",
+      "size_bytes": 113705
+    },
+    {
+      "name": "health_check.ps1",
+      "path": "health_check.ps1",
+      "type": "file",
+      "size_bytes": 1286
+    },
+    {
+      "name": "health_check.py",
+      "path": "health_check.py",
+      "type": "file",
+      "size_bytes": 18536
+    },
+    {
+      "name": "HEALTH_CHECK_REPORT_TEMPLATE.md",
+      "path": "HEALTH_CHECK_REPORT_TEMPLATE.md",
+      "type": "file",
+      "size_bytes": 1512
+    },
+    {
+      "name": "installer",
+      "path": "installer",
+      "type": "directory",
+      "item_count": 18,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "INSTALLER_USER_GUIDE.md",
+      "path": "INSTALLER_USER_GUIDE.md",
+      "type": "file",
+      "size_bytes": 2098
+    },
+    {
+      "name": "KICAD_ENGINE_WORKSPACE.code-workspace",
+      "path": "KICAD_ENGINE_WORKSPACE.code-workspace",
+      "type": "file",
+      "size_bytes": 477
+    },
+    {
+      "name": "LEGAL_AND_LICENSE_AUDIT.md",
+      "path": "LEGAL_AND_LICENSE_AUDIT.md",
+      "type": "file",
+      "size_bytes": 9503
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "type": "file",
+      "size_bytes": 1059
+    },
+    {
+      "name": "PUBLIC_RELEASE_CHECKLIST.md",
+      "path": "PUBLIC_RELEASE_CHECKLIST.md",
+      "type": "file",
+      "size_bytes": 3088
+    },
+    {
+      "name": "PUBLIC_REPO_RISK_REGISTER.md",
+      "path": "PUBLIC_REPO_RISK_REGISTER.md",
+      "type": "file",
+      "size_bytes": 7576
+    },
+    {
+      "name": "QUICKSTART_LINUX.md",
+      "path": "QUICKSTART_LINUX.md",
+      "type": "file",
+      "size_bytes": 2507
+    },
+    {
+      "name": "QUICKSTART_MACOS.md",
+      "path": "QUICKSTART_MACOS.md",
+      "type": "file",
+      "size_bytes": 2187
+    },
+    {
+      "name": "QUICKSTART_WINDOWS.md",
+      "path": "QUICKSTART_WINDOWS.md",
+      "type": "file",
+      "size_bytes": 2784
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "type": "file",
+      "size_bytes": 15673
+    },
+    {
+      "name": "README_GPT.md",
+      "path": "README_GPT.md",
+      "type": "file",
+      "size_bytes": 110089
+    },
+    {
+      "name": "ROADMAP.md",
+      "path": "ROADMAP.md",
+      "type": "file",
+      "size_bytes": 1781
+    },
+    {
+      "name": "ROADMAP_FLUX_COMPETITOR.md",
+      "path": "ROADMAP_FLUX_COMPETITOR.md",
+      "type": "file",
+      "size_bytes": 6685
+    },
+    {
+      "name": "SECURITY.md",
+      "path": "SECURITY.md",
+      "type": "file",
+      "size_bytes": 2026
+    },
+    {
+      "name": "setup",
+      "path": "setup",
+      "type": "directory",
+      "item_count": 6,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
+      "name": "START_HERE_FOR_AI_AGENTS.md",
+      "path": "START_HERE_FOR_AI_AGENTS.md",
+      "type": "file",
+      "size_bytes": 8298
+    },
+    {
+      "name": "START_HERE_FOR_USERS.md",
+      "path": "START_HERE_FOR_USERS.md",
+      "type": "file",
+      "size_bytes": 3335
+    },
+    {
+      "name": "T_E_M_P",
+      "path": "T_E_M_P",
+      "type": "directory",
+      "item_count": 1,
+      "has_readme": false,
+      "has_index": false
+    },
+    {
+      "name": "THIRD_PARTY_TOOLS_ATTRIBUTION.md",
+      "path": "THIRD_PARTY_TOOLS_ATTRIBUTION.md",
+      "type": "file",
+      "size_bytes": 7648
+    },
+    {
+      "name": "TROUBLESHOOTING.md",
+      "path": "TROUBLESHOOTING.md",
+      "type": "file",
+      "size_bytes": 4426
+    },
+    {
+      "name": "USER_MANUAL.md",
+      "path": "USER_MANUAL.md",
+      "type": "file",
+      "size_bytes": 2527
+    }
+  ],
+  "generated_indexes": [
+    "00_CODEX_START\\AI_QUALITY_INDEX.generated.json",
+    "00_CODEX_START\\AI_QUALITY_INDEX.generated.md",
+    "00_CODEX_START\\CURRENT_KNOWN_PROBLEMS.generated.json",
+    "00_CODEX_START\\HISTORY_INDEX.generated.json",
+    "00_CODEX_START\\HISTORY_INDEX.generated.md",
+    "00_CODEX_START\\MEMORY_INDEX.generated.json",
+    "00_CODEX_START\\MEMORY_INDEX.generated.md",
+    "00_CODEX_START\\REPO_INDEX.generated.json",
+    "00_CODEX_START\\REPO_INDEX.generated.md"
+  ]
+}

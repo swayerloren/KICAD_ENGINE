@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "project": "bad_keepout_violation_fixture",
+  "board_outline": {
+    "shape": "rectangle",
+    "width_mm": 50.0,
+    "height_mm": 25.0,
+    "allowed_signal_layers": ["F.Cu", "B.Cu"]
+  },
+  "components": [
+    {"ref": "J1", "kind": "usb_c", "x_mm": 25.0, "y_mm": 22.0, "rotation_deg": 180, "side": "top", "fixed_mechanical": true},
+    {"ref": "U1", "kind": "esp32_module", "x_mm": 38.0, "y_mm": 8.0, "rotation_deg": 0, "side": "top"}
+  ],
+  "pads": [],
+  "net_classes": {
+    "POWER_5V": {"width_mm": 0.75, "clearance_mm": 0.25, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 1},
+    "USB_PAIR": {"width_mm": 0.25, "clearance_mm": 0.15, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 1, "pair_routing": "MATCHED_PAIR"},
+    "DEFAULT": {"width_mm": 0.20, "clearance_mm": 0.15, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 2}
+  },
+  "nets": [
+    {"name": "+5V_IN", "role": "POWER_INPUT", "net_class": "POWER_5V", "routing_priority": 100, "routing_status": "UNROUTED", "critical": true, "power": true},
+    {"name": "USB_D+", "role": "USB_D+", "net_class": "USB_PAIR", "routing_priority": 70, "routing_status": "ROUTED", "critical": true, "usb": true, "paired_with": "USB_D-"},
+    {"name": "EN", "role": "EN_BOOT", "net_class": "DEFAULT", "routing_priority": 40, "routing_status": "ROUTED", "critical": true}
+  ],
+  "keepouts": [
+    {"name": "U1_ANTENNA", "type": "ANTENNA_KEEPOUT", "xmin": 28.0, "ymin": 4.0, "xmax": 50.0, "ymax": 10.0}
+  ],
+  "layer_rules": {
+    "available_layers": ["F.Cu", "B.Cu"],
+    "default_signal_layer": "F.Cu",
+    "usb_preferred_layers": ["F.Cu"]
+  },
+  "via_rules": {
+    "critical_reason_required": true,
+    "default_allowed": true,
+    "max_default_vias": 1
+  },
+  "trace_rules": {
+    "default_width_mm": 0.20,
+    "default_clearance_mm": 0.15,
+    "usb_target_width_mm": 0.25,
+    "power_target_widths_mm": {"POWER_5V": 0.75},
+    "avoid_right_angles": true
+  },
+  "ground_strategy": {
+    "present": false,
+    "strategy": ""
+  },
+  "routing_status": {
+    "phase": "fixture_bad_case",
+    "drc_risk": "HIGH",
+    "all_critical_planned": false
+  },
+  "traces": [
+    {"id": "T1", "net": "USB_D+", "routing_status": "ROUTED", "critical": true, "via_count": 1, "via_reason": "", "segments": [{"x1": 25.0, "y1": 22.0, "x2": 32.0, "y2": 8.0, "layer": "F.Cu", "width_mm": 0.25}]},
+    {"id": "T2", "net": "EN", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 24.0, "y1": 16.0, "x2": 24.0, "y2": 10.0, "layer": "F.Cu", "width_mm": 0.20}, {"x1": 24.0, "y1": 10.0, "x2": 28.0, "y2": 10.0, "layer": "F.Cu", "width_mm": 0.20}]}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-05-03T09:47:30",
+  "gaps": [
+    {
+      "manufacturer_part_number": "EXAMPLE-MPN",
+      "supplier": "EXAMPLE_SUPPLIER",
+      "supplier_sku": "EXAMPLE-SKU",
+      "gaps": [
+        "missing_package_text",
+        "footprint_not_verified"
+      ],
+      "source_file": "28_SUPPLIER_INGESTION\\normalized\\manual_csv\\manual_supplier_csv_template.normalized.json"
+    }
+  ]
+}

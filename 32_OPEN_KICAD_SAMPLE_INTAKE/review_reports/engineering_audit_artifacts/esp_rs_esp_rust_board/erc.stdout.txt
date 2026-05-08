@@ -1,0 +1,2 @@
+Found 73 violations
+Saved ERC Report to C:\Users\LJ\GitHub\KICAD_ENGINE\32_OPEN_KICAD_SAMPLE_INTAKE\review_reports\engineering_audit_artifacts\esp_rs_esp_rust_board\esp_rs_esp_rust_board_erc.rpt

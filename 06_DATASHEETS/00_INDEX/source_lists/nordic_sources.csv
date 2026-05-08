@@ -1,0 +1,5 @@
+vendor,family,part_number,document_type,title,source_url,local_target_folder,public_redistribution_status,notes
+Nordic Semiconductor,nRF52,nRF52,REFERENCE_DOCUMENT,nRF52 documentation portal,https://docs.nordicsemi.com/,06_DATASHEETS/01_MICROCONTROLLERS/NORDIC,LINK_ONLY_RECOMMENDED,Use official Nordic docs portal to locate exact product specification and errata.
+Nordic Semiconductor,nRF53,nRF53,REFERENCE_DOCUMENT,nRF53 documentation portal,https://docs.nordicsemi.com/,06_DATASHEETS/01_MICROCONTROLLERS/NORDIC,LINK_ONLY_RECOMMENDED,Use official Nordic docs portal to locate exact product specification and errata.
+Nordic Semiconductor,nRF52,nRF52,DESIGN_GUIDE,Nordic hardware and RF design documentation,https://www.nordicsemi.com/Products,06_DATASHEETS/01_MICROCONTROLLERS/NORDIC,LINK_ONLY_RECOMMENDED,Find exact product page and reference layout before design use.
+Nordic Semiconductor,nRF53,nRF53,ERRATA,Nordic errata portal,https://docs.nordicsemi.com/,06_DATASHEETS/01_MICROCONTROLLERS/NORDIC,LINK_ONLY_RECOMMENDED,Errata must match exact silicon and revision.

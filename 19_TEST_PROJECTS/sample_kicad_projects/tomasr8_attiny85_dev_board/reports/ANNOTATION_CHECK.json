@@ -1,0 +1,317 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "66",
+      "message": "Value field is present.",
+      "reference": "R2",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "message": "Footprint field is populated.",
+      "reference": "R2",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:D_Zener",
+      "message": "Reference is present and annotated.",
+      "reference": "D1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "3.6 Zener",
+      "message": "Value field is present.",
+      "reference": "D1",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal",
+      "message": "Footprint field is populated.",
+      "reference": "D1",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "MCU_Microchip_ATtiny:ATtiny85-20P",
+      "message": "Reference is present and annotated.",
+      "reference": "U1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "ATtiny85-20P",
+      "message": "Value field is present.",
+      "reference": "U1",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Package_DIP:DIP-8_W7.62mm_Socket",
+      "message": "Footprint field is populated.",
+      "reference": "U1",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector_Generic:Conn_02x05_Odd_Even",
+      "message": "Reference is present and annotated.",
+      "reference": "J2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "Conn_02x05_Odd_Even",
+      "message": "Value field is present.",
+      "reference": "J2",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical",
+      "message": "Footprint field is populated.",
+      "reference": "J2",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R4",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "470",
+      "message": "Value field is present.",
+      "reference": "R4",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "message": "Footprint field is populated.",
+      "reference": "R4",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:PWR_FLAG",
+      "message": "Reference is present and annotated.",
+      "reference": "#FLG0101",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "PWR_FLAG",
+      "message": "Value field is present.",
+      "reference": "#FLG0101",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:D_Zener",
+      "message": "Reference is present and annotated.",
+      "reference": "D2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "3.6 Zener",
+      "message": "Value field is present.",
+      "reference": "D2",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal",
+      "message": "Footprint field is populated.",
+      "reference": "D2",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:LED",
+      "message": "Reference is present and annotated.",
+      "reference": "D4",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "LED",
+      "message": "Value field is present.",
+      "reference": "D4",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "message": "Footprint field is populated.",
+      "reference": "D4",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "66",
+      "message": "Value field is present.",
+      "reference": "R3",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "message": "Footprint field is populated.",
+      "reference": "R3",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Regulator_Linear:AMS1117-3.3",
+      "message": "Reference is present and annotated.",
+      "reference": "U2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "AMS1117-3.3",
+      "message": "Value field is present.",
+      "reference": "U2",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+      "message": "Footprint field is populated.",
+      "reference": "U2",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R5",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "470",
+      "message": "Value field is present.",
+      "reference": "R5",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "message": "Footprint field is populated.",
+      "reference": "R5",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:PWR_FLAG",
+      "message": "Reference is present and annotated.",
+      "reference": "#FLG0102",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "PWR_FLAG",
+      "message": "Value field is present.",
+      "reference": "#FLG0102",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:USB_A",
+      "message": "Reference is present and annotated.",
+      "reference": "J1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "USB_A",
+      "message": "Value field is present.",
+      "reference": "J1",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "My footprints:MOLEX_48037-0001",
+      "message": "Footprint field is populated.",
+      "reference": "J1",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "1K5",
+      "message": "Value field is present.",
+      "reference": "R1",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+      "message": "Footprint field is populated.",
+      "reference": "R1",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:LED",
+      "message": "Reference is present and annotated.",
+      "reference": "D3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "LED",
+      "message": "Value field is present.",
+      "reference": "D3",
+      "status": "PASS"
+    },
+    {
+      "code": "FOOTPRINT_ASSIGNED",
+      "evidence": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "message": "Footprint field is populated.",
+      "reference": "D3",
+      "status": "PASS"
+    }
+  ],
+  "generated_at": "2026-05-03T14:56:57",
+  "schematic": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\19_TEST_PROJECTS\\sample_kicad_projects\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 0,
+      "PASS": 43,
+      "WARN": 0
+    },
+    "result": "PASS"
+  }
+}

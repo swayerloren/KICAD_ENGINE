@@ -1,0 +1,19 @@
+# ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED_COMMANDS
+
+Date: `2026-05-07`
+
+## Commands Run
+
+```powershell
+python 03_TOOLS/scripts/memory_maintenance/check_maintenance_due.py --project 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE
+python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE --phase 8
+```
+
+```powershell
+Get-Content 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/REAL_PCB_ROUTING_PLAN.md -Raw
+Get-Content 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/ROUTING_PRECHECK_SCORECARD.md -Raw
+Get-Content 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/ROUTING_START_BLOCKERS.md -Raw
+Get-Content 14_LAYOUT_AUTOMATION/REAL_PROJECT_ROUTING_WORKFLOW.md -Raw
+Get-Content 14_LAYOUT_AUTOMATION/REAL_PROJECT_TRACE_BY_TRACE_REVIEW.md -Raw
+Get-Content 14_LAYOUT_AUTOMATION/REAL_PROJECT_ROUTING_STOP_CONDITIONS.md -Raw
+```

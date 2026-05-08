@@ -1,0 +1,150 @@
+{
+  "schema": "kicad_engine.pcb_visual_blocks.v1",
+  "coordinate_system": "normalized",
+  "notes": "ATtiny85 golden-path PCB review windows. Default block names are retained for compatibility with the shared crop generator.",
+  "blocks": [
+    {
+      "name": "input_power",
+      "title": "USB-A Connector And Board Edge",
+      "units": "normalized",
+      "x": 0.00,
+      "y": 0.00,
+      "width": 0.24,
+      "height": 1.0,
+      "review_required": true,
+      "notes": "Review J1 custom footprint position, silkscreen edge clearance, and shield/mechanical holes."
+    },
+    {
+      "name": "reverse_polarity",
+      "title": "USB Input Protection Not Present",
+      "units": "normalized",
+      "x": 0.18,
+      "y": 0.00,
+      "width": 0.18,
+      "height": 1.0,
+      "review_required": true,
+      "notes": "No explicit reverse-polarity protection is present; treat as sample scope limitation."
+    },
+    {
+      "name": "tvs_input_cap",
+      "title": "USB Zener Diodes",
+      "units": "normalized",
+      "x": 0.20,
+      "y": 0.42,
+      "width": 0.18,
+      "height": 0.48,
+      "review_required": true,
+      "notes": "Review D1/D2 orientation and parity warnings."
+    },
+    {
+      "name": "buck_regulator",
+      "title": "AMS1117 Regulator Placement",
+      "units": "normalized",
+      "x": 0.29,
+      "y": 0.35,
+      "width": 0.18,
+      "height": 0.50,
+      "review_required": true,
+      "notes": "Review U2 SOT-223 package and thermal/orientation assumptions."
+    },
+    {
+      "name": "esp32_module",
+      "title": "ATtiny85 DIP Area",
+      "units": "normalized",
+      "x": 0.36,
+      "y": 0.12,
+      "width": 0.22,
+      "height": 0.78,
+      "review_required": true,
+      "notes": "Review U1 DIP/socket footprint and orientation. Name retained for compatibility."
+    },
+    {
+      "name": "usb_c_connector",
+      "title": "USB-A Custom Footprint",
+      "units": "normalized",
+      "x": 0.00,
+      "y": 0.00,
+      "width": 0.25,
+      "height": 1.0,
+      "review_required": true,
+      "notes": "Review Molex 48037-0001 custom footprint against source drawing before any manufacturing claim."
+    },
+    {
+      "name": "usb_esd",
+      "title": "USB Data Protection Routing",
+      "units": "normalized",
+      "x": 0.17,
+      "y": 0.20,
+      "width": 0.25,
+      "height": 0.70,
+      "review_required": true,
+      "notes": "Review USB data routing through resistors/zener area."
+    },
+    {
+      "name": "cc_resistors",
+      "title": "USB Data Resistors",
+      "units": "normalized",
+      "x": 0.16,
+      "y": 0.10,
+      "width": 0.22,
+      "height": 0.70,
+      "review_required": true,
+      "notes": "Review R1/R2/R3 area."
+    },
+    {
+      "name": "reset_boot",
+      "title": "Programming Header",
+      "units": "normalized",
+      "x": 0.60,
+      "y": 0.00,
+      "width": 0.28,
+      "height": 0.72,
+      "review_required": true,
+      "notes": "Review J2 header placement, orientation, and accessibility."
+    },
+    {
+      "name": "leds",
+      "title": "LED Area",
+      "units": "normalized",
+      "x": 0.36,
+      "y": 0.00,
+      "width": 0.36,
+      "height": 0.52,
+      "review_required": true,
+      "notes": "Review D3/D4 LED orientation and associated resistors."
+    },
+    {
+      "name": "test_pads",
+      "title": "Programming Access Points",
+      "units": "normalized",
+      "x": 0.58,
+      "y": 0.00,
+      "width": 0.30,
+      "height": 0.78,
+      "review_required": true,
+      "notes": "The sample uses J2 rather than discrete test pads."
+    },
+    {
+      "name": "mounting_holes",
+      "title": "Mounting Hole Absence Review",
+      "units": "normalized",
+      "x": 0.00,
+      "y": 0.00,
+      "width": 1.0,
+      "height": 1.0,
+      "review_required": true,
+      "notes": "Review whole board for intentional absence of mounting holes."
+    },
+    {
+      "name": "mechanical_notes",
+      "title": "Whole Board Mechanical",
+      "units": "normalized",
+      "x": 0.00,
+      "y": 0.00,
+      "width": 1.0,
+      "height": 1.0,
+      "review_required": true,
+      "notes": "Review board outline, connector edge relationship, and silkscreen readability."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "kicad-engine-playwright-research-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dry-run-first Playwright-assisted research helpers for KiCad Engine.",
+  "type": "commonjs",
+  "scripts": {
+    "dry-run": "node dry_run_research_plan.js",
+    "build-report": "node build_research_report.js",
+    "check": "node --check dry_run_research_plan.js && node --check browser_research_public_page.js && node --check capture_source_evidence.js && node --check extract_part_metadata.js && node --check extract_datasheet_links.js && node --check normalize_research_output.js && node --check build_research_report.js && node --check update_component_database_stubs.js && node --check update_datasheet_source_indexes.js && node --check update_supplier_indexes.js"
+  },
+  "dependencies": {},
+  "optionalPeerDependenciesNote": "Live browser mode requires the user to install Playwright intentionally. Dry-run mode has no package dependency."
+}

@@ -1,0 +1,28 @@
+﻿{
+    "project_path":  "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\SAMPLE_KICAD_TEST_PROJECT",
+    "kicad_cli":  "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+    "project_files":  [
+                          "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\SAMPLE_KICAD_TEST_PROJECT\\kicad\\demo.kicad_pro"
+                      ],
+    "schematic_files":  [
+                            "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\SAMPLE_KICAD_TEST_PROJECT\\kicad\\demo.kicad_sch"
+                        ],
+    "pcb_files":  [
+                      "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\SAMPLE_KICAD_TEST_PROJECT\\kicad\\demo.kicad_pcb"
+                  ],
+    "symbol_libraries":  [
+
+                         ],
+    "symbol_tables":  [
+
+                      ],
+    "footprint_tables":  [
+
+                         ],
+    "footprint_libraries":  [
+
+                            ],
+    "local_footprint_files":  [
+
+                              ]
+}

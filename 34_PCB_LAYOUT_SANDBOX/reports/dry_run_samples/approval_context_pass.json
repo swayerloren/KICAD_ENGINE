@@ -1,0 +1,17 @@
+{
+  "project": "SANDBOX_DRY_RUN",
+  "schematic_gate_pass": true,
+  "erc_pass": true,
+  "kicad_native_annotation_verified": true,
+  "all_physical_components_have_footprints": true,
+  "high_risk_footprints_exact_or_safe_candidate": true,
+  "connector_orientation_known": true,
+  "board_shape_and_dimensions_defined": true,
+  "antenna_keepout_defined_if_required": true,
+  "variant_count_at_least_three": true,
+  "variant_scorecard_exists": true,
+  "routing_feasibility_pass": true,
+  "no_drc_precheck_blocker": true,
+  "mechanical_conflict_present": false,
+  "antenna_keepout_violation": false
+}

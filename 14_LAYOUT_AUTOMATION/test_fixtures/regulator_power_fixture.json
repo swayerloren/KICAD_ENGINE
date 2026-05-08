@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "project": "regulator_power_fixture",
+  "board_outline": {
+    "shape": "rectangle",
+    "width_mm": 28.0,
+    "height_mm": 22.0,
+    "allowed_signal_layers": ["F.Cu", "B.Cu"]
+  },
+  "components": [
+    {"ref": "J1", "kind": "power_input", "x_mm": 4.0, "y_mm": 19.0, "rotation_deg": 180, "side": "top", "fixed_mechanical": true},
+    {"ref": "U1", "kind": "buck_regulator", "x_mm": 12.0, "y_mm": 12.0, "rotation_deg": 0, "side": "top"},
+    {"ref": "L1", "kind": "inductor", "x_mm": 17.0, "y_mm": 12.0, "rotation_deg": 0, "side": "top"},
+    {"ref": "J2", "kind": "output_header", "x_mm": 24.0, "y_mm": 19.0, "rotation_deg": 180, "side": "top", "fixed_mechanical": true}
+  ],
+  "pads": [],
+  "net_classes": {
+    "VIN": {"width_mm": 0.75, "clearance_mm": 0.25, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 1},
+    "VOUT": {"width_mm": 0.50, "clearance_mm": 0.20, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 1},
+    "DEFAULT": {"width_mm": 0.20, "clearance_mm": 0.15, "allowed_layers": ["F.Cu", "B.Cu"], "via_allowed": true, "max_vias": 2}
+  },
+  "nets": [
+    {"name": "+VIN", "role": "POWER_INPUT", "net_class": "VIN", "routing_priority": 100, "routing_status": "ROUTED", "critical": true, "power": true},
+    {"name": "BUCK_SW", "role": "BUCK_SW", "net_class": "VOUT", "routing_priority": 90, "routing_status": "ROUTED", "critical": true, "power": true, "review_required": true},
+    {"name": "BUCK_BST", "role": "BUCK_BST", "net_class": "DEFAULT", "routing_priority": 88, "routing_status": "ROUTED", "critical": true},
+    {"name": "+3V3", "role": "RAIL_3V3", "net_class": "VOUT", "routing_priority": 80, "routing_status": "ROUTED", "critical": true, "power": true},
+    {"name": "FB", "role": "DECOUPLING", "net_class": "DEFAULT", "routing_priority": 50, "routing_status": "ROUTED", "critical": true},
+    {"name": "GND", "role": "LOW_RISK", "net_class": "DEFAULT", "routing_priority": 10, "routing_status": "PLANNED", "ground": true}
+  ],
+  "keepouts": [],
+  "layer_rules": {
+    "available_layers": ["F.Cu", "B.Cu"],
+    "default_signal_layer": "F.Cu",
+    "power_preferred_layers": ["F.Cu"]
+  },
+  "via_rules": {
+    "critical_reason_required": true,
+    "default_allowed": true,
+    "max_default_vias": 1
+  },
+  "trace_rules": {
+    "default_width_mm": 0.20,
+    "default_clearance_mm": 0.15,
+    "power_target_widths_mm": {"VIN": 0.75, "VOUT": 0.50},
+    "avoid_right_angles": true
+  },
+  "ground_strategy": {
+    "present": true,
+    "strategy": "local_ground_returns_before_zone_fill"
+  },
+  "routing_status": {
+    "phase": "fixture_planned_and_routed",
+    "drc_risk": "LOW",
+    "all_critical_planned": true
+  },
+  "traces": [
+    {"id": "T1", "net": "+VIN", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 4.0, "y1": 19.0, "x2": 10.0, "y2": 14.0, "layer": "F.Cu", "width_mm": 0.75}]},
+    {"id": "T2", "net": "BUCK_SW", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "review_required": true, "segments": [{"x1": 12.0, "y1": 12.0, "x2": 17.0, "y2": 12.0, "layer": "F.Cu", "width_mm": 0.50}]},
+    {"id": "T3", "net": "BUCK_BST", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 12.0, "y1": 11.0, "x2": 13.0, "y2": 10.0, "layer": "F.Cu", "width_mm": 0.20}]},
+    {"id": "T4", "net": "+3V3", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 17.0, "y1": 12.0, "x2": 24.0, "y2": 16.0, "layer": "F.Cu", "width_mm": 0.50}]},
+    {"id": "T5", "net": "FB", "routing_status": "ROUTED", "critical": true, "via_count": 0, "via_reason": "", "segments": [{"x1": 16.0, "y1": 10.0, "x2": 12.0, "y2": 9.0, "layer": "F.Cu", "width_mm": 0.20}]}
+  ]
+}

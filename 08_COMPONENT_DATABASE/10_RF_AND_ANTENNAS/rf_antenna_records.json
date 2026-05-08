@@ -1,0 +1,134 @@
+[
+  {
+    "record_id": "RF_ANTENNA_PIGTAIL_GENERIC",
+    "part_number": "RF antenna pigtail generic",
+    "vendor": "Generic",
+    "family": "RF_ANTENNA_CABLE",
+    "category": "10_RF_AND_ANTENNAS",
+    "package": "Cable assembly - exact connector and length require source verification",
+    "kicad_symbol_candidates": ["Connector:Conn_Coaxial", "Unknown - requires source verification"],
+    "kicad_footprint_candidates": ["No PCB footprint unless board-side connector is selected", "Unknown - requires source verification"],
+    "kicad_3d_model_candidates": ["Unknown - requires source verification"],
+    "datasheet_local_path": "06_DATASHEETS/12_RF_AND_ANTENNAS/99_UNSORTED_INBOX",
+    "datasheet_source_url": "Unknown - requires source verification",
+    "verified_status": "UNVERIFIED_PLACEHOLDER",
+    "verification_flags": ["UNVERIFIED_PLACEHOLDER"],
+    "pinout_status": "Not applicable to cable until exact connector selected",
+    "footprint_status": "Unknown - requires source verification",
+    "layout_notes": [
+      "Verify board-side RF connector and cable exit direction.",
+      "Review cable bend radius, height, strain relief, and enclosure clearance.",
+      "Keep RF feedline controlled and short between radio, matching network, and connector."
+    ],
+    "power_notes": ["Verify RF power handling if transmitter power is nontrivial."],
+    "communication_notes": [
+      "Verify frequency range, insertion loss, return loss, cable type, and connector family."
+    ],
+    "common_mistakes": [
+      "Assuming antenna pigtail defines the PCB connector footprint.",
+      "Mixing SMA and RP-SMA gender.",
+      "Ignoring cable loss at the target frequency."
+    ],
+    "ai_warnings": [
+      "This is not a purchasable part record.",
+      "Do not claim RF performance without exact cable and antenna data."
+    ],
+    "suitable_use_cases": ["Early RF architecture placeholder", "Mechanical review reminder"],
+    "not_suitable_use_cases": ["Final BOM", "PCB footprint selection", "RF compliance claim"],
+    "required_external_parts": ["Exact board-side RF connector", "Exact antenna or external connector"],
+    "reference_circuits": ["Radio/module reference RF output network - requires source verification"],
+    "known_errata": "Unknown - requires source verification",
+    "source_confidence": "Low - generic placeholder only",
+    "last_updated": "2026-05-02",
+    "notes": "Promote only after exact cable assembly, connectors, and RF requirements are selected.",
+    "rf_parameters_to_verify": ["frequency range", "insertion loss", "return loss", "connector series", "gender", "cable length", "bend radius"]
+  },
+  {
+    "record_id": "RF_PCB_ANTENNA_KEEPOUT_GENERIC",
+    "part_number": "PCB antenna keepout generic",
+    "vendor": "Generic",
+    "family": "PCB_ANTENNA_LAYOUT_KEEPOUT",
+    "category": "10_RF_AND_ANTENNAS",
+    "package": "Layout keepout - not a component package",
+    "kicad_symbol_candidates": ["No schematic symbol required unless represented as a design note"],
+    "kicad_footprint_candidates": ["KiCad keepout zone or mechanical drawing - exact geometry requires source verification"],
+    "kicad_3d_model_candidates": ["Not applicable unless antenna/mechanical model is selected"],
+    "datasheet_local_path": "06_DATASHEETS/12_RF_AND_ANTENNAS/99_UNSORTED_INBOX",
+    "datasheet_source_url": "Unknown - requires source verification",
+    "verified_status": "UNVERIFIED_PLACEHOLDER",
+    "verification_flags": ["UNVERIFIED_PLACEHOLDER"],
+    "pinout_status": "Not applicable",
+    "footprint_status": "Unknown - requires source verification",
+    "layout_notes": [
+      "Use antenna or module vendor keepout geometry.",
+      "Restrict copper pours, vias, traces, components, mounting hardware, and enclosure metal as required by the source document.",
+      "Review board edge position and nearby connector/cable influence."
+    ],
+    "power_notes": ["Not applicable unless antenna includes active circuitry."],
+    "communication_notes": [
+      "Antenna performance depends on board stackup, ground plane, enclosure, and nearby objects."
+    ],
+    "common_mistakes": [
+      "Filling antenna keepout with copper pour.",
+      "Copying keepout dimensions from a different module.",
+      "Ignoring enclosure plastic, metal, batteries, or cables near the antenna."
+    ],
+    "ai_warnings": [
+      "Do not invent antenna keepout dimensions.",
+      "Do not claim antenna tuning is complete from a keepout placeholder."
+    ],
+    "suitable_use_cases": ["Early PCB placement planning", "Review checklist item for radio modules and PCB antennas"],
+    "not_suitable_use_cases": ["Final antenna design without vendor geometry", "RF certification claim"],
+    "required_external_parts": ["Exact antenna or module source document", "PCB stackup", "Matching network if required"],
+    "reference_circuits": ["Antenna/module hardware design guide - requires source verification"],
+    "known_errata": "Unknown - requires source verification",
+    "source_confidence": "Low - generic placeholder only",
+    "last_updated": "2026-05-02",
+    "notes": "Use this record to force keepout documentation before RF layout release.",
+    "rf_parameters_to_verify": ["keepout dimensions", "ground clearance", "board edge requirements", "matching network", "enclosure restrictions"]
+  },
+  {
+    "record_id": "RF_UFL_TO_SMA_PIGTAIL_GENERIC",
+    "part_number": "U.FL to SMA pigtail generic",
+    "vendor": "Generic",
+    "family": "UFL_SMA_RF_CABLE",
+    "category": "10_RF_AND_ANTENNAS",
+    "package": "Cable assembly - exact connector and length require source verification",
+    "kicad_symbol_candidates": ["Connector:Conn_Coaxial", "Unknown - requires source verification"],
+    "kicad_footprint_candidates": ["Connector_Coaxial:Hirose_U.FL-R-SMT-1_Vertical", "Unknown - requires exact board connector verification"],
+    "kicad_3d_model_candidates": ["Unknown - requires source verification"],
+    "datasheet_local_path": "06_DATASHEETS/12_RF_AND_ANTENNAS/99_UNSORTED_INBOX",
+    "datasheet_source_url": "Unknown - requires source verification",
+    "verified_status": "UNVERIFIED_PLACEHOLDER",
+    "verification_flags": ["UNVERIFIED_PLACEHOLDER"],
+    "pinout_status": "Connector polarity and gender require source verification",
+    "footprint_status": "Unknown - requires source verification",
+    "layout_notes": [
+      "Verify board-side connector series, height, footprint, and keepout.",
+      "Route controlled-impedance feedline to the connector using the actual stackup.",
+      "Review SMA/RP-SMA panel or enclosure orientation and cable strain relief."
+    ],
+    "power_notes": ["Verify RF power handling for transmitter applications."],
+    "communication_notes": [
+      "Verify frequency range, insertion loss, VSWR/return loss, cable length, and connector gender."
+    ],
+    "common_mistakes": [
+      "Treating U.FL, IPEX, MHF1, MHF3, and MHF4 as interchangeable.",
+      "Confusing SMA and RP-SMA gender.",
+      "Leaving no room for cable bend radius."
+    ],
+    "ai_warnings": [
+      "This record does not approve a U.FL footprint.",
+      "Do not use until exact pigtail and board connector are selected."
+    ],
+    "suitable_use_cases": ["Lab antenna transition placeholder", "Enclosure RF cable planning"],
+    "not_suitable_use_cases": ["Final BOM without exact cable", "Footprint approval without connector drawing", "RF certification claim"],
+    "required_external_parts": ["Exact board-side U.FL/IPEX connector", "Exact SMA or RP-SMA interface", "Antenna or test equipment connection plan"],
+    "reference_circuits": ["Radio/module RF reference design - requires source verification"],
+    "known_errata": "Unknown - requires source verification",
+    "source_confidence": "Low - generic placeholder only",
+    "last_updated": "2026-05-02",
+    "notes": "Promote only after the cable assembly, board connector, connector gender, and stackup are verified.",
+    "rf_parameters_to_verify": ["U.FL/IPEX series", "SMA or RP-SMA gender", "frequency range", "insertion loss", "cable length", "bend radius", "mating cycles"]
+  }
+]

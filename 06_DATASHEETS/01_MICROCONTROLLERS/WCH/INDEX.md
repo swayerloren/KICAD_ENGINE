@@ -1,0 +1,21 @@
+# WCH Index
+
+Date: 2026-05-03
+
+Generated AI-readable family index. Files are planning stubs until source-backed verification is complete.
+
+| Topic | Local File | Status |
+| --- | --- | --- |
+| Family overview | `WCH_AI_OVERVIEW.md` | `SCAFFOLDED_WITH_AI_SUMMARIES` |
+| Common part numbers | `WCH_COMMON_PART_NUMBERS.md` | `UNVERIFIED` |
+| Representative part record | `WCH_REPRESENTATIVE_PART_REQUIRES_SOURCE_PART_RECORD.md` | `UNVERIFIED_PLACEHOLDER` |
+| Schematic notes | `WCH_REPRESENTATIVE_PART_REQUIRES_SOURCE_SCHEMATIC_NOTES.md` | `NEEDS_HUMAN_REVIEW` |
+| PCB layout notes | `WCH_REPRESENTATIVE_PART_REQUIRES_SOURCE_PCB_LAYOUT_NOTES.md` | `NEEDS_HUMAN_REVIEW` |
+| Boot/debug notes | `WCH_REPRESENTATIVE_PART_REQUIRES_SOURCE_BOOT_DEBUG_NOTES.md` | `NEEDS_HUMAN_REVIEW` |
+| Power/clock notes | `WCH_REPRESENTATIVE_PART_REQUIRES_SOURCE_POWER_CLOCK_NOTES.md` | `NEEDS_HUMAN_REVIEW` |
+| Package/footprint notes | `WCH_REPRESENTATIVE_PART_REQUIRES_SOURCE_PACKAGE_FOOTPRINT_NOTES.md` | `NEEDS_HUMAN_REVIEW` |
+| Dev-board notes | `WCH_REPRESENTATIVE_PART_REQUIRES_SOURCE_DEV_BOARD_NOTES.md` | `LINK_FIRST_REFERENCE_NOTES` |
+| Common mistakes | `WCH_COMMON_MISTAKES.md` | `AI_REVIEW_CHECKLIST` |
+| KiCad candidate notes | `WCH_KICAD_SYMBOL_FOOTPRINT_NOTES.md` | `CANDIDATE_ONLY` |
+| Source links | `WCH_SOURCE_LINKS.md` | `SOURCE_LINK_STUB` |
+| Review backlog | `WCH_NEEDS_REVIEW.md` | `OPEN_REVIEW_BACKLOG` |

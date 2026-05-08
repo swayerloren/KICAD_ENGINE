@@ -1,0 +1,3 @@
+vendor,family,part_number,category,search_terms,preferred_sources,required_outputs,priority,notes
+Texas Instruments,USB ESD,TPD2EUSB30ADRTR,esd_array,"TPD2EUSB30ADRTR datasheet package drawing pinout","ti;digikey;mouser;kicad_official_libraries","datasheet_link;package_source;pinout_source;footprint_candidates",high,"ESD array pinout/flow-through layout is high risk."
+Generic,TVS,TVS diode generic,protection,"TVS diode datasheet SMA SMB SOD package footprint","digikey;mouser;kicad_official_libraries","manufacturer_part_candidates;package_candidates;human_review",medium,"Generic placeholder; exact voltage/package/MPN required."

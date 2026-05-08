@@ -1,0 +1,249 @@
+{
+  "block_count": 13,
+  "blocks": [
+    {
+      "field_risks": [
+        "Datasheet",
+        "footprint"
+      ],
+      "name": "input_power",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\input_power.png",
+      "rect": {
+        "height": 71.280528,
+        "width": 92.39757999999999,
+        "x": 8.39978,
+        "y": 17.820132
+      },
+      "status": "FAIL",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\input_power.svg",
+      "title": "Input Power",
+      "unannotated_refs": [],
+      "visible_text_count": 76
+    },
+    {
+      "field_risks": [
+        "Datasheet",
+        "footprint"
+      ],
+      "name": "reverse_polarity",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\reverse_polarity.png",
+      "rect": {
+        "height": 71.280528,
+        "width": 96.59747,
+        "x": 92.39757999999999,
+        "y": 17.820132
+      },
+      "status": "FAIL",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\reverse_polarity.svg",
+      "title": "Reverse Polarity",
+      "unannotated_refs": [],
+      "visible_text_count": 142
+    },
+    {
+      "field_risks": [],
+      "name": "tvs_input_cap",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\tvs_input_cap.png",
+      "rect": {
+        "height": 71.280528,
+        "width": 96.59747,
+        "x": 8.39978,
+        "y": 83.16061600000002
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\tvs_input_cap.svg",
+      "title": "TVS And Input Cap",
+      "unannotated_refs": [],
+      "visible_text_count": 73
+    },
+    {
+      "field_risks": [],
+      "name": "buck_regulator",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\buck_regulator.png",
+      "rect": {
+        "height": 77.220572,
+        "width": 113.39703,
+        "x": 100.79735999999998,
+        "y": 83.16061600000002
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\buck_regulator.svg",
+      "title": "Buck Regulator",
+      "unannotated_refs": [],
+      "visible_text_count": 188
+    },
+    {
+      "field_risks": [],
+      "name": "esp32_module",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\esp32_module.png",
+      "rect": {
+        "height": 124.740924,
+        "width": 125.99669999999999,
+        "x": 209.9945,
+        "y": 35.640264
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\esp32_module.svg",
+      "title": "ESP32 Module",
+      "unannotated_refs": [],
+      "visible_text_count": 123
+    },
+    {
+      "field_risks": [
+        "footprint"
+      ],
+      "name": "usb_c_connector",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\usb_c_connector.png",
+      "rect": {
+        "height": 71.280528,
+        "width": 92.39757999999999,
+        "x": 8.39978,
+        "y": 166.32123200000004
+      },
+      "status": "FAIL",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\usb_c_connector.svg",
+      "title": "USB-C Connector",
+      "unannotated_refs": [],
+      "visible_text_count": 15
+    },
+    {
+      "field_risks": [],
+      "name": "usb_esd",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\usb_esd.png",
+      "rect": {
+        "height": 65.340484,
+        "width": 75.59801999999999,
+        "x": 96.59747,
+        "y": 166.32123200000004
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\usb_esd.svg",
+      "title": "USB ESD",
+      "unannotated_refs": [],
+      "visible_text_count": 4
+    },
+    {
+      "field_risks": [],
+      "name": "cc_resistors",
+      "notes": "Default starter crop. Human may need to adjust coordinates. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\cc_resistors.png",
+      "rect": {
+        "height": 65.340484,
+        "width": 75.59801999999999,
+        "x": 163.79570999999999,
+        "y": 166.32123200000004
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\cc_resistors.svg",
+      "title": "CC Resistors",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "reset_boot",
+      "notes": "Default starter crop. Human may need to adjust coordinates. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\reset_boot.png",
+      "rect": {
+        "height": 65.340484,
+        "width": 92.39757999999999,
+        "x": 209.9945,
+        "y": 166.32123200000004
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\reset_boot.svg",
+      "title": "Reset And Boot",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "leds",
+      "notes": "Default starter crop. Human may need to adjust coordinates. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\leds.png",
+      "rect": {
+        "height": 65.340484,
+        "width": 96.59747,
+        "x": 298.19219,
+        "y": 166.32123200000004
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\leds.svg",
+      "title": "LEDs",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "test_pads",
+      "notes": "Default starter crop. Human may need to adjust coordinates. Text extraction found no visible text in this crop.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\test_pads.png",
+      "rect": {
+        "height": 53.460396,
+        "width": 92.39757999999999,
+        "x": 205.79460999999998,
+        "y": 225.721672
+      },
+      "status": "WARN",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\test_pads.svg",
+      "title": "Test Pads",
+      "unannotated_refs": [],
+      "visible_text_count": 0
+    },
+    {
+      "field_risks": [],
+      "name": "mounting_holes",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\mounting_holes.png",
+      "rect": {
+        "height": 53.460396,
+        "width": 100.79735999999998,
+        "x": 293.99229999999994,
+        "y": 225.721672
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\mounting_holes.svg",
+      "title": "Mounting Holes",
+      "unannotated_refs": [],
+      "visible_text_count": 6
+    },
+    {
+      "field_risks": [],
+      "name": "mechanical_notes",
+      "notes": "Default starter crop. Human may need to adjust coordinates.",
+      "png_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\mechanical_notes.png",
+      "rect": {
+        "height": 53.460396,
+        "width": 184.79515999999998,
+        "x": 8.39978,
+        "y": 231.661716
+      },
+      "status": "PASS",
+      "svg_crop": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops\\mechanical_notes.svg",
+      "title": "Mechanical Notes",
+      "unannotated_refs": [],
+      "visible_text_count": 1
+    }
+  ],
+  "blocks_with_field_risks": 3,
+  "blocks_with_unannotated_refs": 0,
+  "config_created": false,
+  "config_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_visual\\visual_blocks.json",
+  "crop_count": 13,
+  "crops_dir": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\crops",
+  "full_png": "",
+  "generated_at": "2026-05-06T15:17:24",
+  "missing_default_blocks": [],
+  "png_count": 13,
+  "renderer_status": "browser renderer completed",
+  "review_output": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\SCHEMATIC_AUDIT_ONLY_CLOSE_UP_REVIEW.md",
+  "source_svg": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_audit_only\\full_page\\ESP32_CSI_WIFI_NODE.svg",
+  "status": "FAIL",
+  "text_items_found": 645
+}

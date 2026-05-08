@@ -1,0 +1,556 @@
+{
+  "generated_at": "2026-05-08T13:04:23-04:00",
+  "project": "ESP32_CSI_WIFI_NODE",
+  "live_pcb_hash": "A90967ABC127674F7008562AAEE46744456F2421550E4B64AD71E91B5D3CF697",
+  "live_schematic_hash": "CBF1473DBCD18ED370B1E121B9BCE91F422C269A1FC9D6AF4B369E12476E52C5",
+  "rows": [
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\AUTO_PCB_START_REPORT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07T21:53:08-04:00",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\CURRENT_EXISTING_TRACE_AUDIT.md",
+      "status": "EXISTING_TRACE_AUDIT_ONLY",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "EXISTING_TRACE_AUDIT_ONLY",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\CURRENT_PCB_PLACEMENT_REJECTION_REPORT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED, footprints=43",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\LIVE_PCB_TRUTH_AUDIT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED, footprints=43",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_FILE_CURRENT_STATE.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED, tracks=24",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_DRC_REPORT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_PLACEMENT_REPAIR_REPORT.md",
+      "status": "ACTIVE_BLOCKER",
+      "report_timestamp": "2026-05-07T12:56:21-04:00",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "ACTIVE_BLOCKER",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_LAYOUT_SANDBOX_GATE_STATUS.md",
+      "status": "BLOCKED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "BLOCKED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_CURRENT_STATE_REPORT.md",
+      "status": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_ORIENTATION_REVIEW.md",
+      "status": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_PASS_1_REPORT.md",
+      "status": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PLACEMENT_EXISTS_NEEDS_REVIEW, footprints=43",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_SYNC_STATUS.md",
+      "status": "PCB_SYNCED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PCB_SYNCED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file",
+        "No schematic hash and report is older than live schematic file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_ROUTING_PLAN.md",
+      "status": "ROUTING_BLOCKED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "ROUTING_BLOCKED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_UPDATE_FROM_SCHEMATIC_REPORT.md",
+      "status": "LIVE_EVIDENCE_CONFIRMS_PHASE_2_ALREADY_OCCURRED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "LIVE_EVIDENCE_CONFIRMS_PHASE_2_ALREADY_OCCURRED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\ROUTING_CURRENT_STATE_REPORT.md",
+      "status": "PARTIAL_ROUTING_AUDITED_NOT_VERIFIED_FOR_NEW_ROUTING",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PARTIAL_ROUTING_AUDITED_NOT_VERIFIED_FOR_NEW_ROUTING, tracks=24",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\ROUTING_START_BLOCKERS.md",
+      "status": "ROUTING_BLOCKED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "ROUTING_BLOCKED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\SCHEMATIC_TO_PCB_GATE_STATUS.md",
+      "status": "FAIL",
+      "report_timestamp": "2026-05-06 18:45:00 -04:00",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "FAIL",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No schematic hash and report is older than live schematic file"
+      ]
+    }
+  ],
+  "stale_rows": [
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\AUTO_PCB_START_REPORT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07T21:53:08-04:00",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\CURRENT_EXISTING_TRACE_AUDIT.md",
+      "status": "EXISTING_TRACE_AUDIT_ONLY",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "EXISTING_TRACE_AUDIT_ONLY",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\CURRENT_PCB_PLACEMENT_REJECTION_REPORT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED, footprints=43",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\LIVE_PCB_TRUTH_AUDIT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED, footprints=43",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_FILE_CURRENT_STATE.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED, tracks=24",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_DRC_REPORT.md",
+      "status": "UNSPECIFIED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "UNSPECIFIED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_INTELLIGENCE_BASED_PLACEMENT_REPAIR_REPORT.md",
+      "status": "ACTIVE_BLOCKER",
+      "report_timestamp": "2026-05-07T12:56:21-04:00",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "ACTIVE_BLOCKER",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_LAYOUT_SANDBOX_GATE_STATUS.md",
+      "status": "BLOCKED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "BLOCKED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_CURRENT_STATE_REPORT.md",
+      "status": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_ORIENTATION_REVIEW.md",
+      "status": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_PASS_1_REPORT.md",
+      "status": "PLACEMENT_EXISTS_NEEDS_REVIEW",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PLACEMENT_EXISTS_NEEDS_REVIEW, footprints=43",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_SYNC_STATUS.md",
+      "status": "PCB_SYNCED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PCB_SYNCED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file",
+        "No schematic hash and report is older than live schematic file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_ROUTING_PLAN.md",
+      "status": "ROUTING_BLOCKED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "ROUTING_BLOCKED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\REAL_PCB_UPDATE_FROM_SCHEMATIC_REPORT.md",
+      "status": "LIVE_EVIDENCE_CONFIRMS_PHASE_2_ALREADY_OCCURRED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "LIVE_EVIDENCE_CONFIRMS_PHASE_2_ALREADY_OCCURRED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\ROUTING_CURRENT_STATE_REPORT.md",
+      "status": "PARTIAL_ROUTING_AUDITED_NOT_VERIFIED_FOR_NEW_ROUTING",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISMATCH",
+      "pcb_hash_in_report": "0CFE639213D3B0A111F5D06E728A3F7F34B55674DC27312B00D39F80235B2844",
+      "schematic_hash_in_report": "MISSING",
+      "says": "PARTIAL_ROUTING_AUDITED_NOT_VERIFIED_FOR_NEW_ROUTING, tracks=24",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "NO",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "PCB hash mismatch versus live board"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\ROUTING_START_BLOCKERS.md",
+      "status": "ROUTING_BLOCKED",
+      "report_timestamp": "2026-05-07",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "ROUTING_BLOCKED",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No PCB hash and report is older than live PCB file"
+      ]
+    },
+    {
+      "file": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\SCHEMATIC_TO_PCB_GATE_STATUS.md",
+      "status": "FAIL",
+      "report_timestamp": "2026-05-06 18:45:00 -04:00",
+      "source_hash_status": "MISSING",
+      "pcb_hash_in_report": "MISSING",
+      "schematic_hash_in_report": "MISSING",
+      "says": "FAIL",
+      "live_pcb_says": "PCB exists=True, footprints=43, tracks=74, vias=32, zones=2, placement=True, routing=True, unrouted=4, drc=FAIL",
+      "stale": "YES",
+      "weak_or_stale_prone": "YES",
+      "action_needed": "IGNORE_AS_BLOCKER_AND_REFRESH_FROM_LIVE_STATE",
+      "reasons": [
+        "No schematic hash and report is older than live schematic file"
+      ]
+    }
+  ]
+}

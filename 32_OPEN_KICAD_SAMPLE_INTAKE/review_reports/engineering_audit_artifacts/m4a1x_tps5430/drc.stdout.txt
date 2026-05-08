@@ -1,0 +1,4 @@
+Found 87 violations
+Found 0 unconnected items
+Found 30 schematic parity issues
+Saved DRC Report to C:\Users\LJ\GitHub\KICAD_ENGINE\32_OPEN_KICAD_SAMPLE_INTAKE\review_reports\engineering_audit_artifacts\m4a1x_tps5430\m4a1x_tps5430_drc.rpt

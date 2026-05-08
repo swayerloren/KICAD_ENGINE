@@ -1,0 +1,15 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "source": "dry_run_example",
+  "planned_url": "https://example.com",
+  "generated_at": "2026-05-03T16:04:46.383Z",
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "verification_status": "UNVERIFIED",
+  "human_review_required": true,
+  "notes": [
+    "No browser was launched.",
+    "Pass --live only for public pages and after source-profile review.",
+    "Stop on CAPTCHA, login, blocking, or unclear terms."
+  ]
+}

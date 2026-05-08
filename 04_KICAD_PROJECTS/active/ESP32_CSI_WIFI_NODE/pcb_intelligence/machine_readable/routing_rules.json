@@ -1,0 +1,109 @@
+{
+  "net_classes": [
+    {
+      "name": "POWER_5V_INPUT",
+      "nets": [
+        "/+5V_IN",
+        "/+5V_FUSED",
+        "/+5V_PROTECTED"
+      ],
+      "width_mm": 0.75,
+      "clearance_mm": 0.2,
+      "notes": "Use wider than signal where space allows."
+    },
+    {
+      "name": "POWER_3V3",
+      "nets": [
+        "+3V3"
+      ],
+      "width_mm": 0.5,
+      "clearance_mm": 0.2,
+      "notes": "Wider than low-speed signals; distribute after output caps."
+    },
+    {
+      "name": "USB_FS",
+      "nets": [
+        "/DP_C",
+        "/DM_C",
+        "/DP_E",
+        "/DM_E"
+      ],
+      "width_mm": 0.25,
+      "clearance_mm": 0.2,
+      "notes": "Short and parallel as practical; not an impedance-verified claim."
+    },
+    {
+      "name": "BUCK_LOCAL",
+      "nets": [
+        "/BUCK_SW",
+        "/BUCK_BST"
+      ],
+      "width_mm": 0.5,
+      "clearance_mm": 0.2,
+      "notes": "Shortest possible local routing; avoid USB/RF."
+    },
+    {
+      "name": "SIGNAL",
+      "nets": [
+        "/BOOT0",
+        "/ESP_EN",
+        "/STATUS_LED",
+        "/PLED",
+        "/SLED",
+        "/U0RXD",
+        "/U0TXD",
+        "/CC1",
+        "/CC2"
+      ],
+      "width_mm": 0.2,
+      "clearance_mm": 0.2,
+      "notes": "Low-speed/control/debug/CC routing."
+    },
+    {
+      "name": "GND",
+      "nets": [
+        "GND"
+      ],
+      "width_mm": null,
+      "clearance_mm": 0.2,
+      "notes": "Use zones and low-impedance returns."
+    }
+  ],
+  "route_order": [
+    "repair_placement",
+    "confirm_connector_orientation",
+    "confirm_J1_strategy",
+    "confirm_mounting_holes",
+    "confirm_U2_keepout",
+    "power_input",
+    "buck_loop",
+    "3V3_distribution",
+    "USB_DP_DM",
+    "USB_CC",
+    "reset_boot",
+    "LEDs",
+    "test_pads_debug",
+    "GND_zones",
+    "DRC",
+    "visual_trace_audit"
+  ],
+  "via_policy": {
+    "power": "Allowed when current/return path remains low impedance.",
+    "usb": "Avoid; symmetric if unavoidable.",
+    "buck_switch": "Avoid.",
+    "gnd": "Allowed for stitching and returns outside RF keepout.",
+    "rf_keepout": "No vias."
+  },
+  "keepout_zones": [
+    "ESP32 antenna/U.FL/RF keepout",
+    "USB-C shell/plug envelope",
+    "barrel jack plug envelope",
+    "mounting-hole clearance zones"
+  ],
+  "no_route_zones": [
+    "ESP32 RF keepout",
+    "connector mechanical overhang areas",
+    "mounting-hole clearance areas"
+  ],
+  "drc_expectations": "Current board is unrouted; unconnected items are expected, but placement/courtyard/silkscreen/clearance issues block routing."
+}

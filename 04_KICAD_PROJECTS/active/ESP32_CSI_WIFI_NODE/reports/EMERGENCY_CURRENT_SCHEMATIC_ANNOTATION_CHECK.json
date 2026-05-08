@@ -1,0 +1,1423 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:Barrel_Jack",
+      "message": "Reference is present and annotated.",
+      "reference": "J1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "J1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:Barrel_Jack",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "J1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR01",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR01",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:PWR_FLAG",
+      "message": "Reference is present and annotated.",
+      "reference": "#FLG01",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "PWR_FLAG",
+      "message": "Value field is present.",
+      "reference": "#FLG01",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:Polyfuse",
+      "message": "Reference is present and annotated.",
+      "reference": "F1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "F1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:Polyfuse",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "F1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:Q_PMOS",
+      "message": "Reference is present and annotated.",
+      "reference": "Q1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "Q1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:Q_PMOS",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "Q1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:PWR_FLAG",
+      "message": "Reference is present and annotated.",
+      "reference": "#FLG02",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "PWR_FLAG",
+      "message": "Value field is present.",
+      "reference": "#FLG02",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR03",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR03",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:D_TVS",
+      "message": "Reference is present and annotated.",
+      "reference": "D1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "5V_TVS_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "D1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:D_TVS",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "D1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR05",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR05",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "C1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR07",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR07",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Regulator_Switching:AP63203WU",
+      "message": "Reference is present and annotated.",
+      "reference": "U1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "AP63203WU-7_3V3_2A_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "U1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Regulator_Switching:AP63203WU",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "U1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR10",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR10",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR11",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR11",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:PWR_FLAG",
+      "message": "Reference is present and annotated.",
+      "reference": "#FLG03",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "PWR_FLAG",
+      "message": "Value field is present.",
+      "reference": "#FLG03",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:L",
+      "message": "Reference is present and annotated.",
+      "reference": "L1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "3.9uH_NEEDS_REVIEW_MPN",
+      "message": "Value field is present.",
+      "reference": "L1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:L",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "L1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR12",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR12",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "10uF_CIN",
+      "message": "Value field is present.",
+      "reference": "C2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR14",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR14",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "22uF_COUT",
+      "message": "Value field is present.",
+      "reference": "C3",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C3",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR15",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR15",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR16",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR16",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C4",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "22uF_COUT",
+      "message": "Value field is present.",
+      "reference": "C4",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C4",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR17",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR17",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR18",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR18",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C5",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "100nF_CBST",
+      "message": "Value field is present.",
+      "reference": "C5",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C5",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "RF_Module:ESP32-S3-WROOM-1",
+      "message": "Reference is present and annotated.",
+      "reference": "U2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "ESP32-S3-WROOM-1U-N16R8",
+      "message": "Value field is present.",
+      "reference": "U2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "RF_Module:ESP32-S3-WROOM-1",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "U2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR19",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR19",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR20",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR20",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C6",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "10uF_MODULE_DECOUPLING",
+      "message": "Value field is present.",
+      "reference": "C6",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C6",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR21",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR21",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR22",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR22",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C7",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "100nF_MODULE_DECOUPLING",
+      "message": "Value field is present.",
+      "reference": "C7",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C7",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR23",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR23",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR24",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR24",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "10k_EN_PULLUP",
+      "message": "Value field is present.",
+      "reference": "R1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR25",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR25",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:C",
+      "message": "Reference is present and annotated.",
+      "reference": "C8",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "1uF_EN_DELAY",
+      "message": "Value field is present.",
+      "reference": "C8",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:C",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "C8",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR26",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR26",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Switch:SW_Push",
+      "message": "Reference is present and annotated.",
+      "reference": "SW1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "RESET_EN",
+      "message": "Value field is present.",
+      "reference": "SW1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Switch:SW_Push",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "SW1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR27",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR27",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "10k_BOOT_PULLUP",
+      "message": "Value field is present.",
+      "reference": "R2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR28",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR28",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Switch:SW_Push",
+      "message": "Reference is present and annotated.",
+      "reference": "SW2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "BOOT_GPIO0",
+      "message": "Value field is present.",
+      "reference": "SW2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Switch:SW_Push",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "SW2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR29",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR29",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:USB_C_Receptacle_USB2.0_14P",
+      "message": "Reference is present and annotated.",
+      "reference": "J2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "J2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:USB_C_Receptacle_USB2.0_14P",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "J2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR30",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR30",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "R3",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R3",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR31",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR31",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R4",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "5.1k_CC1",
+      "message": "Value field is present.",
+      "reference": "R4",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R4",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR32",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR32",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R5",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "5.1k_CC2",
+      "message": "Value field is present.",
+      "reference": "R5",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R5",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR33",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR33",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Power_Protection:TPD2EUSB30",
+      "message": "Reference is present and annotated.",
+      "reference": "U3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "U3",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Power_Protection:TPD2EUSB30",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "U3",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR34",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR34",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R6",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "22R_USB_D-_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "R6",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R6",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R7",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "22R_USB_D+_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "R7",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R7",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R8",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "2.2k_PWR_LED",
+      "message": "Value field is present.",
+      "reference": "R8",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R8",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR35",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR35",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:LED",
+      "message": "Reference is present and annotated.",
+      "reference": "D2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "PWR_LED",
+      "message": "Value field is present.",
+      "reference": "D2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:LED",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "D2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR36",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR36",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:R",
+      "message": "Reference is present and annotated.",
+      "reference": "R9",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "2.2k_STATUS_LED",
+      "message": "Value field is present.",
+      "reference": "R9",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:R",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "R9",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Device:LED",
+      "message": "Reference is present and annotated.",
+      "reference": "D3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "STATUS_LED_SIMPLE",
+      "message": "Value field is present.",
+      "reference": "D3",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Device:LED",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "D3",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR37",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR37",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+5V_PROTECTED",
+      "message": "Value field is present.",
+      "reference": "TP1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "3V3",
+      "message": "Value field is present.",
+      "reference": "TP2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:+3V3",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR39",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "+3V3",
+      "message": "Value field is present.",
+      "reference": "#PWR39",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "TP3",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP3",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "power:GND",
+      "message": "Reference is present and annotated.",
+      "reference": "#PWR40",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "GND",
+      "message": "Value field is present.",
+      "reference": "#PWR40",
+      "status": "PASS"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP4",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "EN",
+      "message": "Value field is present.",
+      "reference": "TP4",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP4",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP5",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "BOOT_GPIO0",
+      "message": "Value field is present.",
+      "reference": "TP5",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP5",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP6",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "U0TXD_GPIO43",
+      "message": "Value field is present.",
+      "reference": "TP6",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP6",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP7",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "U0RXD_GPIO44",
+      "message": "Value field is present.",
+      "reference": "TP7",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP7",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP8",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "USB_D+_OPTIONAL_STUB_REVIEW",
+      "message": "Value field is present.",
+      "reference": "TP8",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP8",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Connector:TestPoint",
+      "message": "Reference is present and annotated.",
+      "reference": "TP9",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "USB_D-_OPTIONAL_STUB_REVIEW",
+      "message": "Value field is present.",
+      "reference": "TP9",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Connector:TestPoint",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "TP9",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Reference is present and annotated.",
+      "reference": "MH1",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "MH1",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "MH1",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Reference is present and annotated.",
+      "reference": "MH2",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "MH2",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "MH2",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Reference is present and annotated.",
+      "reference": "MH3",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "MH3",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "MH3",
+      "status": "FAIL"
+    },
+    {
+      "code": "REFERENCE_PRESENT",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Reference is present and annotated.",
+      "reference": "MH4",
+      "status": "PASS"
+    },
+    {
+      "code": "VALUE_PRESENT",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Value field is present.",
+      "reference": "MH4",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_FOOTPRINT_ASSIGNED",
+      "evidence": "Mechanical:MountingHole",
+      "message": "Physical symbol has no footprint assigned.",
+      "reference": "MH4",
+      "status": "FAIL"
+    }
+  ],
+  "generated_at": "2026-05-06T16:00:53",
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 43,
+      "PASS": 158,
+      "WARN": 0
+    },
+    "result": "FAIL"
+  }
+}

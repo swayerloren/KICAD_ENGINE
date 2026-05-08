@@ -1,0 +1,227 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:22:59.146Z",
+  "target_count": 10,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "Espressif",
+      "family": "ESP32",
+      "part_number": "ESP32-WROOM-32",
+      "category": "module",
+      "search_terms": "ESP32-WROOM-32 official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.espressif.com/en/products/modules",
+      "notes": "SOURCE_LINK_ONLY candidate; exact module revision, antenna keepout, and footprint drawing remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32",
+      "part_number": "ESP32-WROVER",
+      "category": "module",
+      "search_terms": "ESP32-WROVER official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.espressif.com/en/products/modules",
+      "notes": "SOURCE_LINK_ONLY candidate; exact module variant and footprint drawing remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-S3",
+      "part_number": "ESP32-S3-WROOM-1",
+      "category": "module",
+      "search_terms": "ESP32-S3-WROOM-1 official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+      "notes": "SOURCE_LINK_ONLY candidate; module footprint and keepout remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-S3",
+      "part_number": "ESP32-S3-WROOM-1U",
+      "category": "module",
+      "search_terms": "ESP32-S3-WROOM-1U official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "high",
+      "source_url": "https://www.espressif.com/en/products/modules/esp32-s3-wroom-1",
+      "notes": "SOURCE_LINK_ONLY candidate; external antenna connector/mechanical details remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-S3",
+      "part_number": "ESP32-S3-MINI-1",
+      "category": "module",
+      "search_terms": "ESP32-S3-MINI-1 official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.espressif.com/en/products/modules",
+      "notes": "SOURCE_LINK_ONLY candidate; exact footprint and keepout remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-C3",
+      "part_number": "ESP32-C3-MINI-1",
+      "category": "module",
+      "search_terms": "ESP32-C3-MINI-1 official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.espressif.com/en/products/modules",
+      "notes": "SOURCE_LINK_ONLY candidate; exact footprint and keepout remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-C6",
+      "part_number": "ESP32-C6-WROOM-1",
+      "category": "module",
+      "search_terms": "ESP32-C6-WROOM-1 official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.espressif.com/en/products/modules",
+      "notes": "SOURCE_LINK_ONLY candidate; exact footprint and keepout remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-H2",
+      "part_number": "ESP32-H2-MINI-1",
+      "category": "module",
+      "search_terms": "ESP32-H2-MINI-1 official module page datasheet footprint KiCad",
+      "preferred_sources": "espressif;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates;source_evidence",
+      "priority": "medium",
+      "source_url": "https://www.espressif.com/en/products/modules",
+      "notes": "SOURCE_LINK_ONLY candidate; exact footprint and keepout remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-S3",
+      "part_number": "ESP32-S3-DevKitC-1",
+      "category": "dev_board",
+      "search_terms": "ESP32-S3-DevKitC-1 official dev kit schematic source",
+      "preferred_sources": "espressif",
+      "required_outputs": "dev_board_record;schematic_link;source_evidence",
+      "priority": "medium",
+      "source_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/",
+      "notes": "SOURCE_LINK_ONLY candidate; board schematic/license and revision remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "dev_board_record",
+        "schematic_link",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-C3",
+      "part_number": "ESP32-C3-DevKitM-1",
+      "category": "dev_board",
+      "search_terms": "ESP32-C3-DevKitM-1 official dev kit schematic source",
+      "preferred_sources": "espressif",
+      "required_outputs": "dev_board_record;schematic_link;source_evidence",
+      "priority": "medium",
+      "source_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/",
+      "notes": "SOURCE_LINK_ONLY candidate; board schematic/license and revision remain UNVERIFIED.",
+      "target_file": "research_targets\\batch_001_esp32_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "dev_board_record",
+        "schematic_link",
+        "source_evidence"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

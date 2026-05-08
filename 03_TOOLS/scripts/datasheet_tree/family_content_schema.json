@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KiCad Engine Microcontroller Family Content Generator Config",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["vendor", "family", "representative_part"],
+  "properties": {
+    "vendor": {
+      "type": "string",
+      "description": "Stable vendor folder name, for example STMICRO_STM32, ESPRESSIF, MICROCHIP_PIC, MICROCHIP_AVR, NORDIC."
+    },
+    "family": {
+      "type": "string",
+      "description": "Stable family folder/name, for example STM32F0, STM32F4, ESP32_S3, PIC18, NRF52."
+    },
+    "representative_part": {
+      "type": "string",
+      "description": "Representative part used to create part-level stub files. This is not treated as verified."
+    },
+    "output_folder": {
+      "type": "string",
+      "description": "Optional explicit output folder. If omitted, the generator writes under 06_DATASHEETS/01_MICROCONTROLLERS/<vendor>/<family>."
+    },
+    "source_links": {
+      "type": "array",
+      "description": "Optional link-only seed sources. No downloads are performed.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "url"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "document_type": { "type": "string", "default": "UNKNOWN_REQUIRES_SOURCE" },
+          "verification_status": { "type": "string", "default": "VERIFIED_SOURCE_LINK" },
+          "notes": { "type": "string", "default": "Link-only seed source. Review before use." }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Optional generator notes to include in README output."
+    }
+  }
+}

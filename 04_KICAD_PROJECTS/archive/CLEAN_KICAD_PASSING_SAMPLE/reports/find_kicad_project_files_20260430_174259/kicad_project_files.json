@@ -1,0 +1,29 @@
+﻿{
+    "project_path":  "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE",
+    "kicad_cli":  "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli.exe",
+    "project_files":  [
+                          "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\test_pads_inside_pads.kicad_pro"
+                      ],
+    "schematic_files":  [
+                            "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\test_pads_inside_pads.kicad_sch"
+                        ],
+    "pcb_files":  [
+                      "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\test_pads_inside_pads.kicad_pcb"
+                  ],
+    "symbol_libraries":  [
+                             "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\test_pads_inside_pads_schlib.kicad_sym"
+                         ],
+    "symbol_tables":  [
+                          "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\sym-lib-table"
+                      ],
+    "footprint_tables":  [
+                             "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\fp-lib-table"
+                         ],
+    "footprint_libraries":  [
+                                "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\connect.pretty"
+                            ],
+    "local_footprint_files":  [
+                                  "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\connect.pretty\\1pin.kicad_mod",
+                                  "C:\\Users\\LJ\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\CLEAN_KICAD_PASSING_SAMPLE\\kicad\\connect.pretty\\1pin_thermal.kicad_mod"
+                              ]
+}

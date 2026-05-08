@@ -1,0 +1,76 @@
+{
+  "status": "FILE_AUDIT_PASS",
+  "generated_at": "2026-05-03T18:15:55.247955+00:00",
+  "sample_id": "esp_rs_esp_rust_board_normalized_populated",
+  "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board",
+  "errors": [],
+  "counts": {
+    "kicad_pro": 1,
+    "kicad_sch": 1,
+    "kicad_pcb": 1,
+    "kicad_sym": 1,
+    "kicad_mod": 9,
+    "gerber_like": 10,
+    "drill": 2,
+    "pick_and_place": 0,
+    "pdf": 2,
+    "step": 5
+  },
+  "examples": {
+    "kicad_pro": [
+      "hardware\\esp-rust-board\\esp-rust-board.kicad_pro"
+    ],
+    "kicad_sch": [
+      "hardware\\esp-rust-board\\esp-rust-board.kicad_sch"
+    ],
+    "kicad_pcb": [
+      "hardware\\esp-rust-board\\esp-rust-board.kicad_pcb"
+    ],
+    "kicad_sym": [
+      "kicad_libs\\Rust_Board.kicad_sym"
+    ],
+    "kicad_mod": [
+      "kicad_libs\\Rust_Board.pretty\\esp-rs_logo_4mm.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\esp-rs_logo_tiny.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\GCT_USB4105-GF-A.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\IC_ICM-42670-P.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\logo_HF.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\logo_PB.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\Rust_Board.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\Rust_Board_Shield.kicad_mod",
+      "kicad_libs\\Rust_Board.pretty\\SON100P200X200X80-5N.kicad_mod"
+    ],
+    "gerber_like": [
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Cu.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Mask.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Paste.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-B_Silkscreen.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-Edge_Cuts.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Cu.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Fab.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Mask.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Paste.gbr",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-F_Silkscreen.gbr"
+    ],
+    "drill": [
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-NPTH.drl",
+      "hardware\\esp-rust-board\\gerber\\esp-rust-board-PTH.drl"
+    ],
+    "pick_and_place": [],
+    "pdf": [
+      "hardware\\esp-rust-board\\schematic\\esp-rust-board-Assembly.pdf",
+      "hardware\\esp-rust-board\\schematic\\esp-rust-board.pdf"
+    ],
+    "step": [
+      "kicad_libs\\3d\\ICM-42670-P.step",
+      "kicad_libs\\3d\\PTS810SJK250SMTRLFS.step",
+      "kicad_libs\\3d\\SHTC3.step",
+      "kicad_libs\\3d\\USB4105-GF-A.step",
+      "kicad_libs\\3d\\WS2812B-MINI.step"
+    ]
+  },
+  "license_files": [],
+  "has_kicad_source": true,
+  "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+  "human_review_required": true
+}

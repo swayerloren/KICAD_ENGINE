@@ -1,0 +1,372 @@
+{
+  "schematic": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "physical_count": 43,
+  "blank_footprint_count": 43,
+  "datasheet_placeholder_count": 43,
+  "duplicate_references": [],
+  "labels": [
+    "+5V_FUSED",
+    "+5V_IN",
+    "+5V_PROTECTED",
+    "BUCK_BST",
+    "BUCK_SW",
+    "ESP_BOOT_GPIO0",
+    "ESP_EN",
+    "STATUS_LED_GPIO_NEEDS_REVIEW",
+    "U0RXD_GPIO44",
+    "U0TXD_GPIO43",
+    "USB_CC1",
+    "USB_CC2",
+    "USB_DN_CONN",
+    "USB_DN_ESP",
+    "USB_DP_CONN",
+    "USB_DP_ESP",
+    "USB_SHIELD"
+  ],
+  "physical": [
+    {
+      "reference": "J1",
+      "value": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "lib_id": "Connector:Barrel_Jack",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "F1",
+      "value": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "lib_id": "Device:Polyfuse",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "Q1",
+      "value": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "lib_id": "Device:Q_PMOS",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "D1",
+      "value": "5V_TVS_NEEDS_REVIEW",
+      "lib_id": "Device:D_TVS",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C1",
+      "value": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "U1",
+      "value": "AP63203WU-7_3V3_2A_NEEDS_REVIEW",
+      "lib_id": "Regulator_Switching:AP63203WU",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": "NEEDS_REVIEW_REGULATOR_PACKAGE_PASSIVES_LAYOUT"
+    },
+    {
+      "reference": "L1",
+      "value": "3.9uH_NEEDS_REVIEW_MPN",
+      "lib_id": "Device:L",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C2",
+      "value": "10uF_CIN",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C3",
+      "value": "22uF_COUT",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C4",
+      "value": "22uF_COUT",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C5",
+      "value": "100nF_CBST",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "U2",
+      "value": "ESP32-S3-WROOM-1U-N16R8",
+      "lib_id": "RF_Module:ESP32-S3-WROOM-1",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C6",
+      "value": "10uF_MODULE_DECOUPLING",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C7",
+      "value": "100nF_MODULE_DECOUPLING",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R1",
+      "value": "10k_EN_PULLUP",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "C8",
+      "value": "1uF_EN_DELAY",
+      "lib_id": "Device:C",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "SW1",
+      "value": "RESET_EN",
+      "lib_id": "Switch:SW_Push",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R2",
+      "value": "10k_BOOT_PULLUP",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "SW2",
+      "value": "BOOT_GPIO0",
+      "lib_id": "Switch:SW_Push",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "J2",
+      "value": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "lib_id": "Connector:USB_C_Receptacle_USB2.0_14P",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R3",
+      "value": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R4",
+      "value": "5.1k_CC1",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R5",
+      "value": "5.1k_CC2",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "U3",
+      "value": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "lib_id": "Power_Protection:TPD2EUSB30",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R6",
+      "value": "22R_USB_D-_NEEDS_REVIEW",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R7",
+      "value": "22R_USB_D+_NEEDS_REVIEW",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R8",
+      "value": "2.2k_PWR_LED",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "D2",
+      "value": "PWR_LED",
+      "lib_id": "Device:LED",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "R9",
+      "value": "2.2k_STATUS_LED",
+      "lib_id": "Device:R",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "D3",
+      "value": "STATUS_LED_SIMPLE",
+      "lib_id": "Device:LED",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP1",
+      "value": "+5V_PROTECTED",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP2",
+      "value": "3V3",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP3",
+      "value": "GND",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP4",
+      "value": "EN",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP5",
+      "value": "BOOT_GPIO0",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP6",
+      "value": "U0TXD_GPIO43",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP7",
+      "value": "U0RXD_GPIO44",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP8",
+      "value": "USB_D+_OPTIONAL_STUB_REVIEW",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "TP9",
+      "value": "USB_D-_OPTIONAL_STUB_REVIEW",
+      "lib_id": "Connector:TestPoint",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "MH1",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "MH2",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "MH3",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    },
+    {
+      "reference": "MH4",
+      "value": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "lib_id": "Mechanical:MountingHole",
+      "footprint": "",
+      "datasheet": "SOURCE_LINK_REQUIRED",
+      "verification_status": ""
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+** Drc report for TPS5430.kicad_pcb **
+** Created on 2026-05-03T14:36:32-0400 **
+
+** Found 87 DRC violations **
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(194.0000 mm, 87.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(193.7693 mm, 87.0183 mm): Polygon [<no net>] of REF** on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(192.0000 mm, 89.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(190.3666 mm, 88.6736 mm): Polygon [<no net>] of REF** on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(157.0000 mm, 88.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(160.1668 mm, 85.2535 mm): Polygon [<no net>] of LOGO1 on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(192.0000 mm, 87.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(190.3666 mm, 88.6736 mm): Polygon [<no net>] of REF** on B.Cu
+[shorting_items]: Items shorting two nets (nets GND and )
+    Local override; error
+    @(154.0000 mm, 88.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(160.1668 mm, 85.2535 mm): Polygon [<no net>] of LOGO1 on B.Cu
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(193.7710 mm, 89.7447 mm): Polygon [<no net>] of REF** on B.Cu
+    @(194.0000 mm, 89.0000 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(160.1668 mm, 85.2535 mm): Polygon [<no net>] of LOGO1 on B.Cu
+    @(154.0000 mm, 85.0000 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(190.9722 mm, 92.1865 mm): Polygon [<no net>] of REF** on B.Cu
+    @(192.0000 mm, 92.0000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0328 mm)
+    Rule: netclass 'Default'; error
+    @(151.8836 mm, 88.6868 mm): Polygon [<no net>] of LOGO1 on B.Cu
+    @(151.0000 mm, 88.0000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1400 mm)
+    Rule: netclass 'Default'; error
+    @(160.1668 mm, 85.2535 mm): Polygon [<no net>] of LOGO1 on B.Cu
+    @(154.0000 mm, 82.0000 mm): Via [GND] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets  and GND)
+    Local override; error
+    @(160.1668 mm, 85.2535 mm): Polygon [<no net>] of LOGO1 on B.Cu
+    @(160.0000 mm, 85.0000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1663 mm)
+    Rule: netclass 'Default'; error
+    @(160.1668 mm, 85.2535 mm): Polygon [<no net>] of LOGO1 on B.Cu
+    @(156.0000 mm, 91.0000 mm): Via [GND] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0 mm; actual < 0)
+    Rule: board setup constraints hole; error
+    @(151.9157 mm, 85.9722 mm): Polygon [<no net>] of LOGO1 on B.Cu
+    @(151.9000 mm, 86.0000 mm): NPTH pad of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0 mm; actual < 0)
+    Rule: board setup constraints hole; error
+    @(151.8966 mm, 84.7905 mm): Polygon [<no net>] of LOGO1 on B.Cu
+    @(151.9000 mm, 86.0000 mm): NPTH pad of J1
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    Local override; error
+    @(175.5000 mm, 90.0000 mm): Zone [Net-(C6-Pad2)] on F.Cu, priority 5
+    @(175.6000 mm, 90.0000 mm): Zone [Net-(C6-Pad2)] on F.Cu, priority 5
+[clearance]: Clearance violation (zone clearance 0.2540 mm; actual 0.2525 mm)
+    Local override; error
+    @(166.8000 mm, 83.7000 mm): Zone [Net-(C5-Pad1)] on F.Cu, priority 5
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.2540 mm; actual 0.2491 mm)
+    Local override; error
+    @(189.2000 mm, 79.6000 mm): Zone [VDD] on F.Cu, priority 5
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.2540 mm; actual 0.2514 mm)
+    Local override; error
+    @(175.5000 mm, 90.0000 mm): Zone [Net-(C6-Pad2)] on F.Cu, priority 5
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.2540 mm; actual 0.2538 mm)
+    Local override; error
+    @(173.7000 mm, 87.8000 mm): Zone [VCC] on F.Cu, priority 5
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(149.0000 mm, 78.0000 mm): Footprint H1
+    @(154.3000 mm, 86.0000 mm): Footprint J1
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(149.0000 mm, 94.0000 mm): Footprint H3
+    @(154.3000 mm, 86.0000 mm): Footprint J1
+[footprint_type_mismatch]: Footprint component type doesn't match footprint pads (expected 'Through hole'; actual 'SMD')
+    Local override; error
+    @(177.3000 mm, 87.5000 mm): Footprint U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(173.7000 mm, 87.8000 mm): Zone [VCC] on F.Cu, priority 5
+    @(174.6000 mm, 88.1350 mm): Pad 7 [VCC] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(176.7000 mm, 85.7000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(167.1800 mm, 92.6000 mm): Pad 2 [GND] of C8 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(176.7000 mm, 85.7000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(177.9000 mm, 89.3000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(176.7000 mm, 88.1000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(177.9000 mm, 89.3000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(176.7000 mm, 89.3000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(176.7000 mm, 89.3000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(177.9000 mm, 86.8000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(176.7000 mm, 86.8000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(177.9000 mm, 86.8000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(177.9000 mm, 88.1000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(177.9000 mm, 85.7000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(176.7000 mm, 86.8000 mm): PTH pad 9 [GND] of U1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(202.0000 mm, 96.0000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(177.9000 mm, 85.7000 mm): PTH pad 9 [GND] of U1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(200.0000 mm, 76.0000 mm): Segment on Edge.Cuts
+    @(186.3000 mm, 76.2500 mm): PCB text '+' on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(200.0000 mm, 76.0000 mm): Segment on Edge.Cuts
+    @(188.4000 mm, 76.2500 mm): PCB text '+' on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(147.0000 mm, 78.0000 mm): Segment on Edge.Cuts
+    @(149.4000 mm, 81.5000 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(147.0000 mm, 78.0000 mm): Segment on Edge.Cuts
+    @(146.9000 mm, 90.5000 mm): Segment of J1 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'D_SMA' does not match copy in library 'Diode_SMD'.
+    Local override; warning
+    @(177.0000 mm, 92.2000 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'CP_EIA-3528-21_Kemet-B' does not match copy in library 'Capacitor_Tantalum_SMD'.
+    Local override; warning
+    @(190.0000 mm, 78.3000 mm): Footprint C10
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(165.7000 mm, 87.5375 mm): Footprint Q1
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(168.7000 mm, 79.3000 mm): Footprint JP4
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(181.1000 mm, 92.2800 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(166.7000 mm, 92.6000 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'D_MiniMELF' does not match copy in library 'Diode_SMD'.
+    Local override; warning
+    @(165.7000 mm, 90.8000 mm): Footprint D2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(166.5000 mm, 84.6000 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(175.7000 mm, 79.3000 mm): Footprint JP2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(171.7000 mm, 82.1000 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(172.2000 mm, 86.6000 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(179.7000 mm, 82.1500 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(169.3000 mm, 82.1000 mm): Footprint R10
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(172.2000 mm, 79.3000 mm): Footprint JP1
+[lib_footprint_mismatch]: Footprint 'TI_SO-PowerPAD-8_ThermalVias' does not match copy in library 'Package_SO'.
+    Local override; warning
+    @(177.3000 mm, 87.5000 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(196.7000 mm, 81.0000 mm): Footprint R11
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(172.2000 mm, 91.3000 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(169.8000 mm, 86.6000 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'C_1206_3216Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(169.8000 mm, 91.3000 mm): Footprint C2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(172.8000 mm, 82.1000 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(164.6900 mm, 92.6000 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(178.6000 mm, 82.1500 mm): Footprint R8
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; warning
+    @(194.0000 mm, 81.0000 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(174.9000 mm, 82.7000 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(179.2000 mm, 79.3000 mm): Footprint JP3
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(194.5000 mm, 78.4000 mm): Footprint Q2
+[lib_footprint_mismatch]: Footprint 'TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal' does not match copy in library 'TerminalBlock_Phoenix'.
+    Local override; warning
+    @(196.7000 mm, 87.7500 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(181.5000 mm, 82.1500 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(168.2000 mm, 82.1000 mm): Footprint R9
+[lib_footprint_mismatch]: Footprint 'CP_EIA-3528-21_Kemet-B' does not match copy in library 'Capacitor_Tantalum_SMD'.
+    Local override; warning
+    @(184.8000 mm, 78.3000 mm): Footprint C9
+[lib_footprint_mismatch]: Footprint 'Fuse_1206_3216Metric' does not match copy in library 'Fuse'.
+    Local override; warning
+    @(165.7000 mm, 81.4000 mm): Footprint F1
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; warning
+    @(176.2000 mm, 82.7000 mm): Footprint R6
+[lib_footprint_mismatch]: Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.
+    Local override; warning
+    @(193.8000 mm, 91.7000 mm): Footprint D3
+[lib_footprint_mismatch]: Footprint 'KiCad-Logo2_5mm_Copper' does not match copy in library 'Symbol'.
+    Local override; warning
+    @(191.5000 mm, 86.0000 mm): Footprint REF**
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(167.3000 mm, 82.0000 mm): Reference field of R9
+    @(167.8200 mm, 81.9464 mm): Segment of R9 on F.Silkscreen
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(194.0000 mm, 87.0000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(192.0000 mm, 89.0000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(157.0000 mm, 88.0000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(154.0000 mm, 88.0000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(192.0000 mm, 92.0000 mm): Via [GND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning (excluded)
+    @(151.0000 mm, 88.0000 mm): Via [GND] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0934 mm)
+    Rule: netclass 'Default'; error (excluded)
+    @(195.0000 mm, 80.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(193.7691 mm, 79.8786 mm): Polygon [<no net>] of REF** on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1916 mm)
+    Rule: netclass 'Default'; error (excluded)
+    @(189.0000 mm, 87.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(189.4491 mm, 86.3284 mm): Polygon [<no net>] of REF** on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1326 mm)
+    Rule: netclass 'Default'; error (excluded)
+    @(195.0000 mm, 92.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(193.7745 mm, 92.2288 mm): Polygon [<no net>] of REF** on B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0459 mm)
+    Rule: netclass 'Default'; error (excluded)
+    @(160.0000 mm, 88.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(160.1668 mm, 85.2535 mm): Polygon [<no net>] of LOGO1 on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 30 Footprint errors **
+[net_conflict]: Pad net (Net-(C5-Pad1)) doesn't match net given by schematic (Net-(Q1-D)).
+    Local override; warning
+    @(165.7250 mm, 84.6000 mm): Pad 1 [Net-(C5-Pad1)] of C5 on F.Cu
+[net_conflict]: Pad net (Net-(C6-Pad1)) doesn't match net given by schematic (Net-(U1-BOOT)).
+    Local override; warning
+    @(181.1000 mm, 91.8000 mm): Pad 1 [Net-(C6-Pad1)] of C6 on F.Cu
+[net_conflict]: Pad net (Net-(C6-Pad2)) doesn't match net given by schematic (Net-(D1-K)).
+    Local override; warning
+    @(181.1000 mm, 92.7600 mm): Pad 2 [Net-(C6-Pad2)] of C6 on F.Cu
+[net_conflict]: Pad net (Net-(C8-Pad1)) doesn't match net given by schematic (Net-(D2-A)).
+    Local override; warning
+    @(166.2200 mm, 92.6000 mm): Pad 1 [Net-(C8-Pad1)] of C8 on F.Cu
+[net_conflict]: Pad net (Net-(C6-Pad2)) doesn't match net given by schematic (Net-(D1-K)).
+    Local override; warning
+    @(175.0000 mm, 92.2000 mm): Pad 1 [Net-(C6-Pad2)] of D1 on F.Cu
+[net_conflict]: Pad net (Net-(C8-Pad1)) doesn't match net given by schematic (Net-(D2-A)).
+    Local override; warning
+    @(163.9500 mm, 90.8000 mm): Pad 2 [Net-(C8-Pad1)] of D2 on F.Cu
+[net_conflict]: Pad net (Net-(D3-Pad1)) doesn't match net given by schematic (Net-(D3-K)).
+    Local override; warning
+    @(193.8000 mm, 90.9125 mm): Pad 1 [Net-(D3-Pad1)] of D3 on F.Cu
+[net_conflict]: Pad net (Net-(C5-Pad1)) doesn't match net given by schematic (Net-(Q1-D)).
+    Local override; warning
+    @(165.7000 mm, 82.8000 mm): Pad 2 [Net-(C5-Pad1)] of F1 on F.Cu
+[net_conflict]: Pad net (Net-(JP1-Pad1)) doesn't match net given by schematic (Net-(JP1-A)).
+    Local override; warning
+    @(172.2000 mm, 79.9500 mm): Pad 1 [Net-(JP1-Pad1)] of JP1 on F.Cu
+[net_conflict]: Pad net (Net-(JP2-Pad1)) doesn't match net given by schematic (Net-(JP2-A)).
+    Local override; warning
+    @(175.7000 mm, 79.9500 mm): Pad 1 [Net-(JP2-Pad1)] of JP2 on F.Cu
+[net_conflict]: Pad net (Net-(JP3-Pad1)) doesn't match net given by schematic (Net-(JP3-A)).
+    Local override; warning
+    @(179.2000 mm, 79.9500 mm): Pad 1 [Net-(JP3-Pad1)] of JP3 on F.Cu
+[net_conflict]: Pad net (Net-(JP4-Pad1)) doesn't match net given by schematic (Net-(JP4-A)).
+    Local override; warning
+    @(168.7000 mm, 79.9500 mm): Pad 1 [Net-(JP4-Pad1)] of JP4 on F.Cu
+[net_conflict]: Pad net (Net-(C6-Pad2)) doesn't match net given by schematic (Net-(D1-K)).
+    Local override; warning
+    @(187.4000 mm, 91.8500 mm): Pad 1 [Net-(C6-Pad2)] of L1 on F.Cu
+[net_conflict]: Pad net (Net-(C8-Pad1)) doesn't match net given by schematic (Net-(D2-A)).
+    Local override; warning
+    @(164.7500 mm, 88.4750 mm): Pad 1 [Net-(C8-Pad1)] of Q1 on F.Cu
+[net_conflict]: Pad net (Net-(C5-Pad1)) doesn't match net given by schematic (Net-(Q1-D)).
+    Local override; warning
+    @(165.7000 mm, 86.6000 mm): Pad 3 [Net-(C5-Pad1)] of Q1 on F.Cu
+[net_conflict]: Pad net (Net-(Q2-Pad2)) doesn't match net given by schematic (Net-(Q2-E)).
+    Local override; warning
+    @(193.5625 mm, 79.3500 mm): Pad 2 [Net-(Q2-Pad2)] of Q2 on F.Cu
+[net_conflict]: Pad net (Net-(D3-Pad1)) doesn't match net given by schematic (Net-(D3-K)).
+    Local override; warning
+    @(195.4375 mm, 78.4000 mm): Pad 3 [Net-(D3-Pad1)] of Q2 on F.Cu
+[net_conflict]: Pad net (Net-(C8-Pad1)) doesn't match net given by schematic (Net-(D2-A)).
+    Local override; warning
+    @(165.2000 mm, 92.6000 mm): Pad 1 [Net-(C8-Pad1)] of R1 on F.Cu
+[net_conflict]: Pad net (Net-(JP1-Pad1)) doesn't match net given by schematic (Net-(JP1-A)).
+    Local override; warning
+    @(171.7000 mm, 81.5900 mm): Pad 1 [Net-(JP1-Pad1)] of R3 on F.Cu
+[net_conflict]: Pad net (Net-(JP1-Pad1)) doesn't match net given by schematic (Net-(JP1-A)).
+    Local override; warning
+    @(172.8000 mm, 81.5900 mm): Pad 1 [Net-(JP1-Pad1)] of R4 on F.Cu
+[net_conflict]: Pad net (Net-(JP2-Pad1)) doesn't match net given by schematic (Net-(JP2-A)).
+    Local override; warning
+    @(174.9000 mm, 82.1900 mm): Pad 1 [Net-(JP2-Pad1)] of R5 on F.Cu
+[net_conflict]: Pad net (Net-(JP3-Pad1)) doesn't match net given by schematic (Net-(JP3-A)).
+    Local override; warning
+    @(179.7000 mm, 81.6400 mm): Pad 1 [Net-(JP3-Pad1)] of R7 on F.Cu
+[net_conflict]: Pad net (Net-(JP3-Pad1)) doesn't match net given by schematic (Net-(JP3-A)).
+    Local override; warning
+    @(178.6000 mm, 81.6400 mm): Pad 1 [Net-(JP3-Pad1)] of R8 on F.Cu
+[net_conflict]: Pad net (Net-(JP4-Pad1)) doesn't match net given by schematic (Net-(JP4-A)).
+    Local override; warning
+    @(168.2000 mm, 81.5900 mm): Pad 1 [Net-(JP4-Pad1)] of R9 on F.Cu
+[net_conflict]: Pad net (Net-(Q2-Pad2)) doesn't match net given by schematic (Net-(Q2-E)).
+    Local override; warning
+    @(195.8750 mm, 81.0000 mm): Pad 1 [Net-(Q2-Pad2)] of R11 on F.Cu
+[net_conflict]: Pad net (Net-(C6-Pad1)) doesn't match net given by schematic (Net-(U1-BOOT)).
+    Local override; warning
+    @(180.0000 mm, 89.4050 mm): Pad 1 [Net-(C6-Pad1)] of U1 on F.Cu
+[net_conflict]: Pad net (unconnected-(U1-Pad2)) doesn't match net given by schematic (unconnected-(U1-NC-Pad2)).
+    Local override; warning
+    @(180.0000 mm, 88.1350 mm): Pad 2 [unconnected-(U1-Pad2)] of U1 on F.Cu
+[net_conflict]: Pad net (unconnected-(U1-Pad3)) doesn't match net given by schematic (unconnected-(U1-NC-Pad3)).
+    Local override; warning
+    @(180.0000 mm, 86.8650 mm): Pad 3 [unconnected-(U1-Pad3)] of U1 on F.Cu
+[net_conflict]: Pad net (unconnected-(U1-Pad5)) doesn't match net given by schematic (unconnected-(U1-EN-Pad5)).
+    Local override; warning
+    @(174.6000 mm, 85.5950 mm): Pad 5 [unconnected-(U1-Pad5)] of U1 on F.Cu
+[net_conflict]: Pad net (Net-(C6-Pad2)) doesn't match net given by schematic (Net-(D1-K)).
+    Local override; warning
+    @(174.6000 mm, 89.4050 mm): Pad 8 [Net-(C6-Pad2)] of U1 on F.Cu
+
+** End of Report **

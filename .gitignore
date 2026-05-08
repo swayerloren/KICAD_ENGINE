@@ -1,0 +1,92 @@
+# KiCad Engine public-release hygiene
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.key
+*.token
+*.tmp
+*.temp
+*.log.tmp
+*.lck
+~*.lck
+secrets.*
+local_credentials.*
+api_keys.*
+private_config.*
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Local Python/Node environments and caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+node_modules/
+03_TOOLS/python_envs/
+03_TOOLS/node_envs/
+installer/node_modules/
+
+# Third-party cloned/tool repositories kept out of public payload by default
+03_TOOLS/repos/
+03_TOOLS/windows/repos/
+03_TOOLS/linux/repos/
+
+# Generated outputs, build products, smoke-test installs, and backups
+05_OUTPUTS/*
+!05_OUTPUTS/README.md
+!05_OUTPUTS/INDEX.md
+!05_OUTPUTS/release_readiness/
+!05_OUTPUTS/release_readiness/*.md
+!05_OUTPUTS/release_readiness/*.csv
+!05_OUTPUTS/release_readiness/*.json
+99_BACKUPS/
+T_E_M_P/
+installer/build/
+installer/dist/
+installer/payload/repo-template/
+installer/payload/payload.manifest.json
+installer/payload/PAYLOAD_BUILD_REPORT.md
+
+# Local logs and GUI captures
+03_TOOLS/tool_logs/
+03_TOOLS/windows/logs/
+03_TOOLS/linux/logs/
+*.log
+*.bak
+*.old
+.DS_Store
+Thumbs.db
+fp-info-cache
+
+# Local Codex config
+.codex/config.toml
+
+# Vendor documents and manufacturing-style artifacts require explicit review
+*.pdf
+*.zip
+*.7z
+*.rar
+*.gbr
+*.drl
+*.xln
+*.step
+*.stp
+
+# KiCad design/source files are not globally ignored because real projects may
+# intentionally live under 04_KICAD_PROJECTS. Public release payload rules decide
+# which project files are safe samples.
+
+# Copied-board rehearsal and raw import exclusions for safe GitHub publication
+04_KICAD_PROJECTS/active/*/routing_work/*/copied*/
+04_KICAD_PROJECTS/active/*/routing_rehearsals/
+14_LAYOUT_AUTOMATION/real_board_tests/sample_inputs/
+32_OPEN_KICAD_SAMPLE_INTAKE/imported_originals/

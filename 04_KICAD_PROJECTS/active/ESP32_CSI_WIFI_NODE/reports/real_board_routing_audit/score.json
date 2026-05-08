@@ -1,0 +1,46 @@
+{
+  "blocked_reasons": [
+    "16 unrouted nets remain",
+    "3 trace audit entries flagged",
+    "GND strategy missing",
+    "critical power net missing",
+    "routing plan did not pass",
+    "unrouted critical net"
+  ],
+  "hard_fails": [
+    "GND strategy missing",
+    "critical power net missing",
+    "unrouted critical net"
+  ],
+  "project": "ESP32_CSI_WIFI_NODE",
+  "readiness": {
+    "exact_blockers": [
+      "16 unrouted nets remain",
+      "3 trace audit entries flagged",
+      "GND strategy missing",
+      "critical power net missing",
+      "routing plan did not pass",
+      "unrouted critical net"
+    ],
+    "ready_for_real_kicad_test": false
+  },
+  "schema_version": "1.0",
+  "scores": {
+    "critical_net_completeness": 13,
+    "drc_risk": 4,
+    "human_review_risk": 5,
+    "power_path_quality": 15,
+    "rf_keepout_compliance": 15,
+    "trace_audit_completeness": 0,
+    "unrouted_net_count": 0,
+    "usb_path_quality": 10,
+    "via_count_reasonableness": 10
+  },
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "hard_fail_count": 3,
+    "total_score": 62
+  },
+  "tool": "score_routing_plan",
+  "total_score": 62
+}

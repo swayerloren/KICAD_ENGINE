@@ -1,0 +1,2 @@
+supplier,source_type,query,manufacturer,manufacturer_part_number,supplier_sku,source_url,source_file,approved_for_live_api,notes
+EXAMPLE_SUPPLIER,manual_source_link,EXAMPLE-MPN,EXAMPLE_MANUFACTURER,EXAMPLE-MPN,EXAMPLE-SKU,https://example.invalid,,false,EXAMPLE_ONLY

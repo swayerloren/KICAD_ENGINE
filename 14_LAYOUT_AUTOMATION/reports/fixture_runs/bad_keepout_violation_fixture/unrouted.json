@@ -1,0 +1,24 @@
+{
+  "hard_fails": [
+    "unrouted critical net",
+    "critical power net missing"
+  ],
+  "project": "bad_keepout_violation_fixture",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "unrouted_count": 1,
+    "unrouted_critical_count": 1
+  },
+  "tool": "detect_unrouted_nets",
+  "unrouted_count": 1,
+  "unrouted_critical_nets": [
+    "+5V_IN"
+  ],
+  "unrouted_nets": [
+    "+5V_IN"
+  ],
+  "unrouted_power_nets": [
+    "+5V_IN"
+  ]
+}

@@ -1,0 +1,113 @@
+ERC report (2026-05-03T14:36:29-0400, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'Barrel_Jack_Switch' doesn't match copy in library 'Connector'
+    ; warning
+    @(66.04 mm, 44.45 mm): Symbol J1 [Barrel_Jack_Switch]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(74.93 mm, 52.07 mm): Symbol #FLG01 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(86.36 mm, 53.34 mm): Symbol #PWR0120 [GND]
+[lib_symbol_mismatch]: Symbol 'VCC' doesn't match copy in library 'power'
+    ; warning
+    @(26.67 mm, 110.49 mm): Symbol #PWR0105 [VCC]
+[lib_symbol_mismatch]: Symbol 'AO3401A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(105.41 mm, 44.45 mm): Symbol Q1 [AO3401A]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(105.41 mm, 63.50 mm): Symbol #PWR0119 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(116.84 mm, 63.50 mm): Symbol #PWR0122 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(33.02 mm, 133.35 mm): Symbol #PWR0107 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(44.45 mm, 133.35 mm): Symbol #PWR0106 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(54.61 mm, 133.35 mm): Symbol #PWR0104 [GND]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(140.97 mm, 41.91 mm): Symbol #FLG0101 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(66.04 mm, 133.35 mm): Symbol #PWR0102 [GND]
+[lib_symbol_mismatch]: Symbol 'VCC' doesn't match copy in library 'power'
+    ; warning
+    @(147.32 mm, 39.37 mm): Symbol #PWR0121 [VCC]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(83.82 mm, 133.35 mm): Symbol #PWR0103 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(113.03 mm, 133.35 mm): Symbol #PWR0101 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(125.73 mm, 133.35 mm): Symbol #PWR0110 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(144.78 mm, 133.35 mm): Symbol #PWR0111 [GND]
+[lib_symbol_mismatch]: Symbol 'VDD' doesn't match copy in library 'power'
+    ; warning
+    @(191.77 mm, 46.99 mm): Symbol #PWR0118 [VDD]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(191.77 mm, 57.15 mm): Symbol #PWR0117 [GND]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(172.72 mm, 118.11 mm): Symbol #FLG0102 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(165.10 mm, 133.35 mm): Symbol #PWR0112 [GND]
+[lib_symbol_mismatch]: Symbol 'VDD' doesn't match copy in library 'power'
+    ; warning
+    @(179.07 mm, 114.30 mm): Symbol #PWR0108 [VDD]
+[lib_symbol_mismatch]: Symbol 'VDD' doesn't match copy in library 'power'
+    ; warning
+    @(213.36 mm, 102.87 mm): Symbol #PWR0116 [VDD]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'
+    ; warning
+    @(204.47 mm, 121.92 mm): Symbol JP4 [SolderJumper_2_Open]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(204.47 mm, 146.05 mm): Symbol #PWR0109 [GND]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'
+    ; warning
+    @(222.25 mm, 121.92 mm): Symbol JP1 [SolderJumper_2_Open]
+[lib_symbol_mismatch]: Symbol 'VCC' doesn't match copy in library 'power'
+    ; warning
+    @(256.54 mm, 38.10 mm): Symbol #PWR01 [VCC]
+[lib_symbol_mismatch]: Symbol 'MMBT3904' doesn't match copy in library 'Transistor_BJT'
+    ; warning
+    @(254.00 mm, 55.88 mm): Symbol Q2 [MMBT3904]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(256.54 mm, 44.45 mm): Symbol D3 [LED]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(222.25 mm, 146.05 mm): Symbol #PWR0114 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(256.54 mm, 72.39 mm): Symbol #PWR02 [GND]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'
+    ; warning
+    @(240.03 mm, 121.92 mm): Symbol JP2 [SolderJumper_2_Open]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(240.03 mm, 146.05 mm): Symbol #PWR0113 [GND]
+[lib_symbol_mismatch]: Symbol 'SolderJumper_2_Open' doesn't match copy in library 'Jumper'
+    ; warning
+    @(257.81 mm, 121.92 mm): Symbol JP3 [SolderJumper_2_Open]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(257.81 mm, 146.05 mm): Symbol #PWR0115 [GND]
+[lib_symbol_mismatch]: Symbol 'Logo_Open_Hardware_Small' doesn't match copy in library 'Graphic'
+    ; warning
+    @(276.86 mm, 173.99 mm): Symbol LOGO1 [Logo_Open_Hardware_Small]
+
+ ** ERC messages: 36  Errors 0  Warnings 36

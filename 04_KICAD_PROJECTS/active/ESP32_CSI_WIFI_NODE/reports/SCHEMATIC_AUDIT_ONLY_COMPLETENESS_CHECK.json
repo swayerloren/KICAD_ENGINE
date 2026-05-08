@@ -1,0 +1,94 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "POWER_INPUT_PRESENT",
+      "evidence": "5v_in, 5v input, vbus, barrel, jack, usb-c, +5v_in, 5v_raw",
+      "message": "power input appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "PROTECTION_PRESENT",
+      "evidence": "polyfuse, ptc, fuse, tvs, esd, reverse polarity, pmos, smaj",
+      "message": "input/protection appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "REGULATOR_PRESENT",
+      "evidence": "regulator, buck, ldo, +3v3, 3v3, ap63203, ams1117, mp1584",
+      "message": "regulator appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "MCU_OR_MODULE_PRESENT",
+      "evidence": "esp32, stm32, pic, rp2040, mcu, module",
+      "message": "MCU/module appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "ESD_PRESENT",
+      "evidence": "esd, tvs, tpd, usblc, protection diode",
+      "message": "ESD protection appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "BOOT_RESET_PRESENT",
+      "evidence": "boot, reset, en, gpio0, nrst, mclr",
+      "message": "boot/reset appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "TEST_PADS_PRESENT",
+      "evidence": "testpoint, test point, testpad, tp_",
+      "message": "test pads appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "MOUNTING_HOLES_PRESENT",
+      "evidence": "mountinghole, mounting hole, mh1, mh2",
+      "message": "mounting holes appears present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "USB_C_SECTION_PRESENT",
+      "evidence": "",
+      "message": "Project appears to require USB-C and USB-C-related schematic content was found.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "PROJECT_MECHANICAL_NOTES_PRESENT",
+      "evidence": "",
+      "message": "Mechanical/project notes appear present.",
+      "reference": "",
+      "status": "PASS"
+    },
+    {
+      "code": "NO_BOM_LOCK_PROVIDED",
+      "evidence": "",
+      "message": "No BOM lock path was provided; expected-items check was skipped.",
+      "reference": "",
+      "status": "WARN"
+    }
+  ],
+  "generated_at": "2026-05-06T15:16:24",
+  "project_root": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 0,
+      "PASS": 10,
+      "WARN": 1
+    },
+    "result": "WARN"
+  }
+}

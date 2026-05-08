@@ -1,0 +1,205 @@
+{
+  "bom_lock": "",
+  "bom_mpn_count": 0,
+  "checks": [
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "5.5x2.1_CENTER_POSITIVE_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "J1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "PTC_HOLD_CURRENT_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "F1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "AO3401A_CLASS_PMOS_PINMAP_BLOCKED_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW, BLOCKED.",
+      "reference": "Q1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "5V_TVS_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "D1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "47uF_>=16V_BULK_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "C1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "AP63203WU-7_3V3_2A_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "U1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "3.9uH_NEEDS_REVIEW_MPN",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "L1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "USB_C_RECEPTACLE_USB2_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "J2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "0R_DNI_SHIELD_BLOCKED_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW, BLOCKED.",
+      "reference": "R3",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "TPD2EUSB30_OR_EQ_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "U3",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "22R_USB_D-_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "R6",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "22R_USB_D+_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "R7",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "MH1",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "MH2",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "MH3",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_ON_SYMBOL",
+      "evidence": "M2.5_NPTH_2.7mm_NEEDS_REVIEW",
+      "message": "Unresolved review marker present: NEEDS_REVIEW.",
+      "reference": "MH4",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "J1 pinout/land-pattern, PTC derating, AO3401A-class PMOS pinmap/orientation, TVS MPN, and bulk capacitor MPN remain NEEDS_REVIEW before layout.",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "Exact inductor saturation current/DCR, MLCC voltage derating, thermal copper, and JLC/LCSC availability remain NEEDS_REVIEW.",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "ESP32-S3 MODULE - Preferred module ESP32-S3-WROOM-1U-N16R8. Symbol is KiCad ESP32-S3-WROOM-1; -1U module/land-pattern equivalence remains NEEDS_REVIEW.",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "Antenna: use WROOM-1U module U.FL/IPEX connector with U.FL/IPEX-to-SMA pigtail and enclosure 2.4 GHz antenna. Keepout/pigtail routing NEEDS_REVIEW.",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "STATUS_LED_GPIO_NEEDS_REVIEW",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "USB-C PROGRAMMING/DEBUG - native ESP32-S3 USB. CC1/CC2 each 5.1k to GND. VBUS and shield policy are BLOCKED_NEEDS_REVIEW.",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW, BLOCKED.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "LEDS - component report recommends simple GPIO LED over WS2812 for low cost/reliability. Status LED GPIO assignment remains NEEDS_REVIEW.",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "STATUS_LED_GPIO_NEEDS_REVIEW",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "Mount hole drill, board outline, connector overhang, standoff keepouts, and SMA/pigtail route are enclosure-driven and remain NEEDS_REVIEW.",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "UNRESOLVED_REVIEW_MARKER_IN_TEXT",
+      "evidence": "NEEDS_REVIEW before schematic freeze: exact MPNs/land-patterns, AO3401A pinmap/package orientation, USB VBUS/backfeed policy, USB shield EMC network, final LED ",
+      "message": "Unresolved review marker present in schematic note: NEEDS_REVIEW.",
+      "reference": "",
+      "status": "FAIL"
+    },
+    {
+      "code": "REVIEW_MARKERS_REQUIRE_GATE_BLOCKER",
+      "evidence": "26",
+      "message": "Any unresolved review marker must block schematic-to-PCB gate until resolved or explicitly accepted by human review.",
+      "reference": "",
+      "status": "WARN"
+    }
+  ],
+  "generated_at": "2026-05-06T15:42:16",
+  "schematic": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_sch",
+  "summary": {
+    "counts": {
+      "FAIL": 26,
+      "PASS": 0,
+      "WARN": 1
+    },
+    "result": "FAIL"
+  }
+}

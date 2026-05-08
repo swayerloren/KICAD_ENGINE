@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "04_KICAD_PROJECTS"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.kicad_pcb": "scheme",
+			"*.kicad_sch": "scheme",
+			"*.kicad_sym": "scheme",
+			"*.kicad_mod": "scheme",
+			"*.kicad_pro": "json",
+			"*.kicad_dru": "scheme"
+		},
+		"terminal.integrated.defaultProfile.windows": "PowerShell",
+		"json.validate.enable": true,
+		"powershell.cwd": "${workspaceFolder}",
+		"powershell.scriptAnalysis.enable": true
+	}
+}

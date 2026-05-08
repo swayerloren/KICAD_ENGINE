@@ -1,0 +1,19 @@
+{
+  "source": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\schematic_visual\\full_page\\ESP32_CSI_WIFI_NODE.svg",
+  "visible_text_items": 0,
+  "overlap_candidates_count": 0,
+  "overlap_candidates_sample": [],
+  "visible_field_risks": [],
+  "visible_question_refs": [],
+  "method_status": "NOT_RELIABLE_FOR_OVERLAP_APPROVAL",
+  "method_limit": "KiCad SVG text elements in this export are opacity-hidden glyph metadata; manual image review is required for visible overlap decisions.",
+  "manual_visual_spot_check": "FAIL_READABILITY",
+  "manual_visual_blockers": [
+    "input_power label/value overlaps",
+    "buck_regulator label/value overlaps",
+    "usb_c_connector label/net overlaps",
+    "esp32_module pin/value crowding",
+    "reset_boot label crowding",
+    "led label crowding"
+  ]
+}

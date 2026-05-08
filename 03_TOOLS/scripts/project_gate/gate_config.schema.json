@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KiCad Engine Project Gate Configuration",
+  "description": "Optional configuration shape for the read-only KiCad Engine project gate runner.",
+  "type": "object",
+  "properties": {
+    "project_path": {
+      "type": "string",
+      "description": "Absolute or repo-relative path to the project directory."
+    },
+    "output_dir": {
+      "type": "string",
+      "description": "Optional output directory. Default is 05_OUTPUTS/gate_runs/<timestamp>/."
+    },
+    "gates_to_run": {
+      "type": "array",
+      "description": "Optional gate IDs to run. If omitted, all gates run.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "SCHEMATIC_ANNOTATION_GATE",
+          "ERC_GATE",
+          "SCHEMATIC_VISUAL_GATE",
+          "FOOTPRINT_AUDIT_GATE",
+          "PCB_SYNC_GATE",
+          "DRC_GATE",
+          "PCB_VISUAL_GATE",
+          "UNROUTED_NETS_GATE",
+          "FAB_READINESS_GATE"
+        ]
+      }
+    },
+    "mode": {
+      "type": "string",
+      "const": "READ_ONLY_EVIDENCE_AGGREGATOR"
+    }
+  },
+  "required": [
+    "project_path"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,389 @@
+{
+  "status": "DRY_RUN_ONLY",
+  "generated_at": "2026-05-03T16:02:56.859Z",
+  "target_count": 19,
+  "live_web_used": false,
+  "pdfs_downloaded": false,
+  "records": [
+    {
+      "vendor": "STMicro",
+      "family": "STM32F1",
+      "part_number": "STM32F103C8T6",
+      "category": "microcontroller",
+      "search_terms": "STM32F103C8T6 supplier datasheet footprint",
+      "preferred_sources": "stmicro;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "Pilot supplier/component/footprint cross-link.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "STMicro",
+      "family": "STM32F4",
+      "part_number": "STM32F411CEU6",
+      "category": "microcontroller",
+      "search_terms": "STM32F411CEU6 supplier datasheet footprint",
+      "preferred_sources": "stmicro;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "Pilot supplier/component/footprint cross-link.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-S3",
+      "part_number": "ESP32-S3-WROOM-1",
+      "category": "module",
+      "search_terms": "ESP32-S3-WROOM-1 supplier datasheet footprint",
+      "preferred_sources": "espressif;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "Module keepout high-risk.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Espressif",
+      "family": "ESP32-S3",
+      "part_number": "ESP32-S3-WROOM-1U",
+      "category": "module",
+      "search_terms": "ESP32-S3-WROOM-1U supplier datasheet footprint",
+      "preferred_sources": "espressif;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "External antenna module high-risk.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "PIC16",
+      "part_number": "PIC16F877A",
+      "category": "microcontroller",
+      "search_terms": "PIC16F877A supplier datasheet package",
+      "preferred_sources": "microchip;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "medium",
+      "notes": "Exact package required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "PIC18",
+      "part_number": "PIC18F4550",
+      "category": "microcontroller",
+      "search_terms": "PIC18F4550 supplier datasheet package",
+      "preferred_sources": "microchip;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "medium",
+      "notes": "USB PIC exact package required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Raspberry Pi",
+      "family": "RP2040",
+      "part_number": "RP2040",
+      "category": "microcontroller",
+      "search_terms": "RP2040 datasheet package footprint",
+      "preferred_sources": "raspberry_pi;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "QFN footprint verification required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Microchip",
+      "family": "CAN FD",
+      "part_number": "MCP2562FD",
+      "category": "communication",
+      "search_terms": "MCP2562FD supplier datasheet footprint",
+      "preferred_sources": "microchip;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "Package variants must be reviewed.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Texas Instruments",
+      "family": "CAN",
+      "part_number": "SN65HVD230",
+      "category": "communication",
+      "search_terms": "SN65HVD230 supplier datasheet footprint",
+      "preferred_sources": "ti;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "medium",
+      "notes": "Verify package and source.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Diodes Inc",
+      "family": "AP63203",
+      "part_number": "AP63203",
+      "category": "power_regulator",
+      "search_terms": "AP63203 supplier datasheet footprint",
+      "preferred_sources": "digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "Regulator layout/package high-risk.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Texas Instruments",
+      "family": "LM2596",
+      "part_number": "LM2596",
+      "category": "power_regulator",
+      "search_terms": "LM2596 supplier datasheet footprint",
+      "preferred_sources": "ti;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "medium",
+      "notes": "Exact suffix/package required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Advanced Monolithic Systems",
+      "family": "AMS1117-3.3",
+      "part_number": "AMS1117-3.3",
+      "category": "ldo_regulator",
+      "search_terms": "AMS1117-3.3 supplier datasheet footprint",
+      "preferred_sources": "digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "medium",
+      "notes": "Vendor ambiguity risk.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Alpha and Omega Semiconductor",
+      "family": "AO3401A",
+      "part_number": "AO3401A",
+      "category": "pmos",
+      "search_terms": "AO3401A supplier datasheet SOT-23 pinout",
+      "preferred_sources": "digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "PMOS pin mapping high-risk.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Texas Instruments",
+      "family": "USB ESD",
+      "part_number": "TPD2EUSB30ADRTR",
+      "category": "esd_array",
+      "search_terms": "TPD2EUSB30ADRTR supplier datasheet footprint",
+      "preferred_sources": "ti;digikey;mouser;kicad_official_libraries",
+      "required_outputs": "normalized_part;datasheet_link;footprint_candidates",
+      "priority": "high",
+      "notes": "ESD pinout high-risk.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "normalized_part",
+        "datasheet_link",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "USB-C",
+      "part_number": "USB-C 16-pin receptacle generic",
+      "category": "connector",
+      "search_terms": "USB-C 16 pin receptacle supplier drawing footprint",
+      "preferred_sources": "digikey;mouser;jlcpcb;lcsc;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates",
+      "priority": "high",
+      "notes": "Exact manufacturer drawing required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "RF",
+      "part_number": "U.FL connector generic",
+      "category": "rf_connector",
+      "search_terms": "U.FL MHF1 supplier drawing footprint",
+      "preferred_sources": "digikey;mouser;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates",
+      "priority": "high",
+      "notes": "Exact connector drawing required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "RF",
+      "part_number": "SMA connector generic",
+      "category": "rf_connector",
+      "search_terms": "SMA connector edge launch supplier drawing footprint",
+      "preferred_sources": "digikey;mouser;kicad_official_libraries",
+      "required_outputs": "part_candidates;drawing_links;footprint_candidates",
+      "priority": "high",
+      "notes": "PCB thickness/orientation risk.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "drawing_links",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "resettable_polyfuse",
+      "part_number": "resettable polyfuse generic",
+      "category": "protection",
+      "search_terms": "resettable polyfuse supplier datasheet footprint",
+      "preferred_sources": "digikey;mouser;kicad_official_libraries",
+      "required_outputs": "part_candidates;datasheet_links;footprint_candidates",
+      "priority": "medium",
+      "notes": "Exact MPN required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "datasheet_links",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    },
+    {
+      "vendor": "Generic",
+      "family": "TVS",
+      "part_number": "TVS diode generic",
+      "category": "protection",
+      "search_terms": "TVS diode supplier datasheet footprint",
+      "preferred_sources": "digikey;mouser;kicad_official_libraries",
+      "required_outputs": "part_candidates;datasheet_links;footprint_candidates",
+      "priority": "medium",
+      "notes": "Exact voltage/package required.",
+      "target_file": "research_targets\\supplier_part_targets.csv",
+      "mode": "DRY_RUN",
+      "planned_outputs": [
+        "part_candidates",
+        "datasheet_links",
+        "footprint_candidates"
+      ],
+      "verification_status": "UNVERIFIED",
+      "human_review_required": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+name: Build Installer - Linux
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  build-linux:
+    name: Build Linux installers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: "installer/package-lock.json"
+
+      - name: Build clean payload
+        run: |
+          mkdir -p installer/build/linux
+          python installer/payload/build_payload.py --source-root . --payload-root installer/payload --max-file-size-mb 5
+          python health_check.py --repo-root installer/payload/repo-template --no-write 2>&1 | tee installer/build/linux/payload-health-linux.log
+
+      - name: Secret scan if ripgrep is available
+        run: |
+          if command -v rg >/dev/null 2>&1; then
+            set +e
+            rg -n 'api[_-]?key\s*[:=]|access[_-]?token\s*[:=]|password\s*[:=]|BEGIN (RSA |DSA |EC |OPENSSH |PGP )?PRIVATE KEY|sk-[A-Za-z0-9]{20,}' installer/payload/repo-template installer/payload/payload.manifest.json installer/payload/PAYLOAD_BUILD_REPORT.md
+            status=$?
+            set -e
+            if [ "$status" -eq 0 ]; then
+              echo "Secret scan found potential secret material." >&2
+              exit 1
+            fi
+            if [ "$status" -gt 1 ]; then
+              echo "Secret scan failed with exit code $status." >&2
+              exit "$status"
+            fi
+            echo "Secret scan completed with no matches."
+          else
+            echo "ripgrep is not available on this runner; skipping optional secret scan."
+          fi
+
+      - name: Install installer npm dependencies
+        working-directory: installer
+        run: npm ci
+
+      - name: Build Linux AppImage and DEB
+        working-directory: installer
+        run: |
+          set -o pipefail
+          npm run build:linux 2>&1 | tee build/linux/build-installer-linux.log
+
+      - name: Stage Linux release artifacts
+        working-directory: installer
+        run: |
+          mkdir -p release-artifacts
+          appimage="$(find build/linux -type f -name '*.AppImage' | sort | tail -n 1)"
+          deb="$(find build/linux -type f -name '*.deb' | sort | tail -n 1)"
+          if [ -z "$appimage" ]; then
+            echo "Linux AppImage was not found." >&2
+            exit 1
+          fi
+          if [ -z "$deb" ]; then
+            echo "Linux DEB was not found." >&2
+            exit 1
+          fi
+          cp "$appimage" release-artifacts/KiCad-Engine-Setup-Linux-x64.AppImage
+          cp "$deb" release-artifacts/KiCad-Engine-Setup-Linux-amd64.deb
+          python -m zipfile -c release-artifacts/KICAD_ENGINE_PAYLOAD.zip payload/repo-template
+          cp payload/PAYLOAD_BUILD_REPORT.md release-artifacts/PAYLOAD_BUILD_REPORT-Linux.md
+          cp build/linux/build-installer-linux.log release-artifacts/build-installer-linux.log
+          cp build/linux/payload-health-linux.log release-artifacts/payload-health-linux.log
+          (
+            cd release-artifacts
+            find . -maxdepth 1 -type f ! -name SHA256SUMS.txt -print0 |
+              sort -z |
+              xargs -0 sha256sum |
+              sed 's#  \./#  #' > SHA256SUMS.txt
+          )
+
+      - name: Upload Linux artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-engine-linux-artifacts
+          path: installer/release-artifacts/**
+          if-no-files-found: error

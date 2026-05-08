@@ -1,0 +1,7095 @@
+{
+  "board_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\14_LAYOUT_AUTOMATION\\real_board_tests\\sample_inputs\\ESP32_CSI_WIFI_NODE_20260507_210220\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "components": [
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0603_1608Metric",
+      "kind": "C_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "1uF_EN",
+      "x_mm": 13.0,
+      "y_mm": 57.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0805_2012Metric",
+      "kind": "C_0805_2012Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "10uF_IN",
+      "x_mm": 21.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0805_2012Metric",
+      "kind": "C_0805_2012Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C3",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "10uF_MOD",
+      "x_mm": 21.5,
+      "y_mm": 44.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0603_1608Metric",
+      "kind": "C_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C4",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "100nF_MOD",
+      "x_mm": 26.5,
+      "y_mm": 44.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_1206_3216Metric",
+      "kind": "C_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C5",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "47uF_16V",
+      "x_mm": 21.0,
+      "y_mm": 74.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0603_1608Metric",
+      "kind": "C_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C6",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "100nF_CBST",
+      "x_mm": 32.4,
+      "y_mm": 68.725
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_1206_3216Metric",
+      "kind": "C_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C7",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "22uF_OUT",
+      "x_mm": 42.0,
+      "y_mm": 64.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_1206_3216Metric",
+      "kind": "C_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C8",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "22uF_OUT",
+      "x_mm": 48.0,
+      "y_mm": 64.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "LED_SMD",
+      "footprint_name": "LED_0603_1608Metric",
+      "kind": "LED_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "D1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "PWR_LED",
+      "x_mm": 39.0,
+      "y_mm": 55.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "LED_SMD",
+      "footprint_name": "LED_0603_1608Metric",
+      "kind": "LED_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "D2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "STATUS_LED",
+      "x_mm": 45.0,
+      "y_mm": 55.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Diode_SMD",
+      "footprint_name": "D_SMA",
+      "kind": "D_SMA",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "D3",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TVS_NEEDS_REVIEW",
+      "x_mm": 14.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Fuse",
+      "footprint_name": "Fuse_1206_3216Metric",
+      "kind": "Fuse_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "F1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "PTC_1206",
+      "x_mm": 15.0,
+      "y_mm": 77.5
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "Connector_BarrelJack",
+      "footprint_name": "BarrelJack_CUI_PJ-102AH_Horizontal",
+      "kind": "BarrelJack_CUI_PJ-102AH_Horizontal",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "J1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "JACK_5V",
+      "x_mm": 14.0,
+      "y_mm": 80.8
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "Connector_USB",
+      "footprint_name": "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "kind": "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "J2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "USB-C_NEEDS_REVIEW",
+      "x_mm": 39.0,
+      "y_mm": 91.325
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Inductor_SMD",
+      "footprint_name": "L_Vishay_IFSC-1515AH_4x4x1.8mm",
+      "kind": "L_Vishay_IFSC-1515AH_4x4x1.8mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "L1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "3.9uH_REV",
+      "x_mm": 37.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 4.0,
+      "y_mm": 91.0
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 56.0,
+      "y_mm": 91.0
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH3",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 4.0,
+      "y_mm": 45.0
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH4",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 56.0,
+      "y_mm": 35.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Package_TO_SOT_SMD",
+      "footprint_name": "SOT-23",
+      "kind": "SOT-23",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "Q1",
+      "rotation_deg": 180.0,
+      "side": "F",
+      "value": "AO3401A_REV",
+      "x_mm": 23.0,
+      "y_mm": 78.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "10k_EN",
+      "x_mm": 13.0,
+      "y_mm": 53.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "10k_BOOT",
+      "x_mm": 13.0,
+      "y_mm": 64.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R3",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "2.2k",
+      "x_mm": 39.0,
+      "y_mm": 58.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R4",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "2.2k",
+      "x_mm": 45.0,
+      "y_mm": 58.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R5",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "0R_DNI",
+      "x_mm": 51.0,
+      "y_mm": 78.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R6",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "5.1k_CC1",
+      "x_mm": 31.5,
+      "y_mm": 81.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R7",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "5.1k_CC2",
+      "x_mm": 46.0,
+      "y_mm": 81.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R8",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "22R_D-",
+      "x_mm": 33.0,
+      "y_mm": 75.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R9",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "22R_D+",
+      "x_mm": 45.0,
+      "y_mm": 75.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Button_Switch_SMD",
+      "footprint_name": "Panasonic_EVQPUJ_EVQPUA",
+      "kind": "Panasonic_EVQPUJ_EVQPUA",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "SW1",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "BOOT_GPIO0_REVIEW",
+      "x_mm": 6.0,
+      "y_mm": 64.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Button_Switch_SMD",
+      "footprint_name": "Panasonic_EVQPUJ_EVQPUA",
+      "kind": "Panasonic_EVQPUJ_EVQPUA",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "SW2",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "RESET_EN_REVIEW",
+      "x_mm": 6.0,
+      "y_mm": 54.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP1",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_5V",
+      "x_mm": 57.0,
+      "y_mm": 40.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP2",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_EN",
+      "x_mm": 57.0,
+      "y_mm": 44.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP3",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_3V3",
+      "x_mm": 57.0,
+      "y_mm": 48.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP4",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_BOOT",
+      "x_mm": 57.0,
+      "y_mm": 52.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP5",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_GND",
+      "x_mm": 57.0,
+      "y_mm": 56.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP6",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_U0TXD",
+      "x_mm": 57.0,
+      "y_mm": 60.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP7",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_U0RXD",
+      "x_mm": 57.0,
+      "y_mm": 64.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP8",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_D+_REV",
+      "x_mm": 57.0,
+      "y_mm": 68.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP9",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_D-_REV",
+      "x_mm": 57.0,
+      "y_mm": 72.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Package_TO_SOT_SMD",
+      "footprint_name": "TSOT-23-6",
+      "kind": "TSOT-23-6",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "U1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "AP63203_NEEDS_REVIEW",
+      "x_mm": 29.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "RF_Module",
+      "footprint_name": "ESP32-S3-WROOM-1",
+      "kind": "ESP32-S3-WROOM-1",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "U2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "ESP32-S3-WROOM-1U",
+      "x_mm": 30.0,
+      "y_mm": 28.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Package_TO_SOT_SMD",
+      "footprint_name": "SOT-23-6",
+      "kind": "SOT-23-6",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "U3",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "USB_ESD_REV",
+      "x_mm": 39.0,
+      "y_mm": 78.0
+    }
+  ],
+  "footprints": [
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0603_1608Metric",
+      "kind": "C_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "1uF_EN",
+      "x_mm": 13.0,
+      "y_mm": 57.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0805_2012Metric",
+      "kind": "C_0805_2012Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "10uF_IN",
+      "x_mm": 21.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0805_2012Metric",
+      "kind": "C_0805_2012Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C3",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "10uF_MOD",
+      "x_mm": 21.5,
+      "y_mm": 44.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0603_1608Metric",
+      "kind": "C_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C4",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "100nF_MOD",
+      "x_mm": 26.5,
+      "y_mm": 44.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_1206_3216Metric",
+      "kind": "C_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C5",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "47uF_16V",
+      "x_mm": 21.0,
+      "y_mm": 74.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_0603_1608Metric",
+      "kind": "C_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C6",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "100nF_CBST",
+      "x_mm": 32.4,
+      "y_mm": 68.725
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_1206_3216Metric",
+      "kind": "C_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C7",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "22uF_OUT",
+      "x_mm": 42.0,
+      "y_mm": 64.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Capacitor_SMD",
+      "footprint_name": "C_1206_3216Metric",
+      "kind": "C_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "C8",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "22uF_OUT",
+      "x_mm": 48.0,
+      "y_mm": 64.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "LED_SMD",
+      "footprint_name": "LED_0603_1608Metric",
+      "kind": "LED_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "D1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "PWR_LED",
+      "x_mm": 39.0,
+      "y_mm": 55.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "LED_SMD",
+      "footprint_name": "LED_0603_1608Metric",
+      "kind": "LED_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "D2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "STATUS_LED",
+      "x_mm": 45.0,
+      "y_mm": 55.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Diode_SMD",
+      "footprint_name": "D_SMA",
+      "kind": "D_SMA",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "D3",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TVS_NEEDS_REVIEW",
+      "x_mm": 14.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Fuse",
+      "footprint_name": "Fuse_1206_3216Metric",
+      "kind": "Fuse_1206_3216Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "F1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "PTC_1206",
+      "x_mm": 15.0,
+      "y_mm": 77.5
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "Connector_BarrelJack",
+      "footprint_name": "BarrelJack_CUI_PJ-102AH_Horizontal",
+      "kind": "BarrelJack_CUI_PJ-102AH_Horizontal",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "J1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "JACK_5V",
+      "x_mm": 14.0,
+      "y_mm": 80.8
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "Connector_USB",
+      "footprint_name": "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "kind": "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "J2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "USB-C_NEEDS_REVIEW",
+      "x_mm": 39.0,
+      "y_mm": 91.325
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Inductor_SMD",
+      "footprint_name": "L_Vishay_IFSC-1515AH_4x4x1.8mm",
+      "kind": "L_Vishay_IFSC-1515AH_4x4x1.8mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "L1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "3.9uH_REV",
+      "x_mm": 37.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 4.0,
+      "y_mm": 91.0
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 56.0,
+      "y_mm": 91.0
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH3",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 4.0,
+      "y_mm": 45.0
+    },
+    {
+      "fixed_mechanical": true,
+      "footprint_library": "MountingHole",
+      "footprint_name": "MountingHole_2.7mm_M2.5",
+      "kind": "MountingHole_2.7mm_M2.5",
+      "layer": "F.Cu",
+      "mounting_hole": true,
+      "ref": "MH4",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "M2.5_NPTH",
+      "x_mm": 56.0,
+      "y_mm": 35.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Package_TO_SOT_SMD",
+      "footprint_name": "SOT-23",
+      "kind": "SOT-23",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "Q1",
+      "rotation_deg": 180.0,
+      "side": "F",
+      "value": "AO3401A_REV",
+      "x_mm": 23.0,
+      "y_mm": 78.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "10k_EN",
+      "x_mm": 13.0,
+      "y_mm": 53.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "10k_BOOT",
+      "x_mm": 13.0,
+      "y_mm": 64.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R3",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "2.2k",
+      "x_mm": 39.0,
+      "y_mm": 58.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R4",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "2.2k",
+      "x_mm": 45.0,
+      "y_mm": 58.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R5",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "0R_DNI",
+      "x_mm": 51.0,
+      "y_mm": 78.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R6",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "5.1k_CC1",
+      "x_mm": 31.5,
+      "y_mm": 81.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R7",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "5.1k_CC2",
+      "x_mm": 46.0,
+      "y_mm": 81.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R8",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "22R_D-",
+      "x_mm": 33.0,
+      "y_mm": 75.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Resistor_SMD",
+      "footprint_name": "R_0603_1608Metric",
+      "kind": "R_0603_1608Metric",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "R9",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "22R_D+",
+      "x_mm": 45.0,
+      "y_mm": 75.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Button_Switch_SMD",
+      "footprint_name": "Panasonic_EVQPUJ_EVQPUA",
+      "kind": "Panasonic_EVQPUJ_EVQPUA",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "SW1",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "BOOT_GPIO0_REVIEW",
+      "x_mm": 6.0,
+      "y_mm": 64.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Button_Switch_SMD",
+      "footprint_name": "Panasonic_EVQPUJ_EVQPUA",
+      "kind": "Panasonic_EVQPUJ_EVQPUA",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "SW2",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "RESET_EN_REVIEW",
+      "x_mm": 6.0,
+      "y_mm": 54.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP1",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_5V",
+      "x_mm": 57.0,
+      "y_mm": 40.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP2",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_EN",
+      "x_mm": 57.0,
+      "y_mm": 44.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP3",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_3V3",
+      "x_mm": 57.0,
+      "y_mm": 48.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP4",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_BOOT",
+      "x_mm": 57.0,
+      "y_mm": 52.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP5",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_GND",
+      "x_mm": 57.0,
+      "y_mm": 56.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP6",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_U0TXD",
+      "x_mm": 57.0,
+      "y_mm": 60.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP7",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_U0RXD",
+      "x_mm": 57.0,
+      "y_mm": 64.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP8",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_D+_REV",
+      "x_mm": 57.0,
+      "y_mm": 68.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "TestPoint",
+      "footprint_name": "TestPoint_Pad_D1.5mm",
+      "kind": "TestPoint_Pad_D1.5mm",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "TP9",
+      "rotation_deg": 90.0,
+      "side": "F",
+      "value": "TP_D-_REV",
+      "x_mm": 57.0,
+      "y_mm": 72.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Package_TO_SOT_SMD",
+      "footprint_name": "TSOT-23-6",
+      "kind": "TSOT-23-6",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "U1",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "AP63203_NEEDS_REVIEW",
+      "x_mm": 29.0,
+      "y_mm": 69.5
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "RF_Module",
+      "footprint_name": "ESP32-S3-WROOM-1",
+      "kind": "ESP32-S3-WROOM-1",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "U2",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "ESP32-S3-WROOM-1U",
+      "x_mm": 30.0,
+      "y_mm": 28.0
+    },
+    {
+      "fixed_mechanical": false,
+      "footprint_library": "Package_TO_SOT_SMD",
+      "footprint_name": "SOT-23-6",
+      "kind": "SOT-23-6",
+      "layer": "F.Cu",
+      "mounting_hole": false,
+      "ref": "U3",
+      "rotation_deg": 0.0,
+      "side": "F",
+      "value": "USB_ESD_REV",
+      "x_mm": 39.0,
+      "y_mm": 78.0
+    }
+  ],
+  "nets": [
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/+5V_FUSED",
+      "net_class": "Default",
+      "notes": "routing_status source: TRACK_OR_VIA_ITEMS",
+      "pads": [
+        "F1:2",
+        "Q1:3"
+      ],
+      "paired_with": "",
+      "power": true,
+      "review_required": true,
+      "role": "POWER_INPUT",
+      "routing_priority": 100,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/+5V_IN",
+      "net_class": "Default",
+      "notes": "routing_status source: TRACK_OR_VIA_ITEMS",
+      "pads": [
+        "F1:1",
+        "J1:2"
+      ],
+      "paired_with": "",
+      "power": true,
+      "review_required": true,
+      "role": "POWER_INPUT",
+      "routing_priority": 100,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "notes": "routing_status source: TRACK_OR_VIA_ITEMS",
+      "pads": [
+        "C2:2",
+        "C5:2",
+        "D3:2",
+        "Q1:2",
+        "TP1:1",
+        "U1:2",
+        "U1:3"
+      ],
+      "paired_with": "",
+      "power": true,
+      "review_required": true,
+      "role": "POWER_INPUT",
+      "routing_priority": 100,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(J2-VBUS-PadA4)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "J2:A4",
+        "J2:A9",
+        "J2:B4",
+        "J2:B9"
+      ],
+      "paired_with": "",
+      "power": true,
+      "review_required": true,
+      "role": "POWER_INPUT",
+      "routing_priority": 100,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/BUCK_BST",
+      "net_class": "Default",
+      "notes": "routing_status source: TRACK_OR_VIA_ITEMS",
+      "pads": [
+        "C6:2",
+        "U1:6"
+      ],
+      "paired_with": "",
+      "power": true,
+      "review_required": true,
+      "role": "BUCK_BST",
+      "routing_priority": 95,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/BUCK_SW",
+      "net_class": "Default",
+      "notes": "routing_status source: TRACK_OR_VIA_ITEMS",
+      "pads": [
+        "C6:1",
+        "L1:1",
+        "U1:5"
+      ],
+      "paired_with": "",
+      "power": true,
+      "review_required": true,
+      "role": "BUCK_SW",
+      "routing_priority": 95,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "+3V3",
+      "net_class": "Default",
+      "notes": "routing_status source: TRACK_OR_VIA_ITEMS",
+      "pads": [
+        "C3:2",
+        "C4:2",
+        "C7:2",
+        "C8:2",
+        "L1:2",
+        "R1:2",
+        "R2:2",
+        "R3:2",
+        "TP3:1",
+        "U1:1",
+        "U2:2"
+      ],
+      "paired_with": "",
+      "power": true,
+      "review_required": true,
+      "role": "RAIL_3V3",
+      "routing_priority": 90,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/BOOT0",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "R2:1",
+        "SW1:1",
+        "SW1:1",
+        "TP4:1",
+        "U2:27"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": true,
+      "role": "EN_BOOT",
+      "routing_priority": 70,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": true,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/ESP_EN",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "C1:2",
+        "R1:1",
+        "SW2:1",
+        "SW2:1",
+        "TP2:1",
+        "U2:3"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": true,
+      "role": "EN_BOOT",
+      "routing_priority": 70,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": true
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/PLED",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "D1:2",
+        "R3:1"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LEDS_BUTTONS",
+      "routing_priority": 15,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/SLED",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "D2:2",
+        "R4:1"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LEDS_BUTTONS",
+      "routing_priority": 15,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/STATUS_LED",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "R4:2",
+        "U2:38"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LEDS_BUTTONS",
+      "routing_priority": 15,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/CC1",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "J2:A5",
+        "R6:2"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/CC2",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "J2:B5",
+        "R7:2"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/DM_C",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "J2:A7",
+        "J2:B7",
+        "R8:1",
+        "U3:2"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/DM_E",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "R8:2",
+        "TP9:1",
+        "U2:13"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/DP_C",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "J2:A6",
+        "J2:B6",
+        "R9:1",
+        "U3:1"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/DP_E",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "R9:2",
+        "TP8:1",
+        "U2:14"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/SHIELD",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "J2:S1",
+        "J2:S1",
+        "J2:S1",
+        "J2:S1",
+        "R5:2"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/U0RXD",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "TP7:1",
+        "U2:36"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "/U0TXD",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "TP6:1",
+        "U2:37"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": true,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "GND",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_CONDUCTOR_ITEMS_FOUND",
+      "pads": [
+        "C1:1",
+        "C2:1",
+        "C3:1",
+        "C4:1",
+        "C5:1",
+        "C7:1",
+        "C8:1",
+        "D1:1",
+        "D2:1",
+        "D3:1",
+        "J1:1",
+        "J2:A1",
+        "J2:A12",
+        "J2:B1",
+        "J2:B12",
+        "Q1:1",
+        "R5:1",
+        "R6:1",
+        "R7:1",
+        "SW1:2",
+        "SW1:2",
+        "SW2:2",
+        "SW2:2",
+        "TP5:1",
+        "U1:4",
+        "U2:1",
+        "U2:40",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U2:41",
+        "U3:3"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "GROUND",
+      "routing_priority": 10,
+      "routing_status": "UNROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO1-Pad39)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:39"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO10-Pad18)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:18"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO11-Pad19)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:19"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO12-Pad20)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:20"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO13-Pad21)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:21"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO14-Pad22)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:22"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO15-Pad8)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:8"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO16-Pad9)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:9"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO17-Pad10)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:10"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO18-Pad11)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:11"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO21-Pad23)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:23"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO3-Pad15)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:15"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO35-Pad28)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:28"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO36-Pad29)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:29"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO37-Pad30)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:30"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO38-Pad31)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:31"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO39-Pad32)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:32"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO4-Pad4)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:4"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO40-Pad33)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:33"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO41-Pad34)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:34"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO42-Pad35)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:35"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO45-Pad26)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:26"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO46-Pad16)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:16"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO47-Pad24)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:24"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO48-Pad25)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:25"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO5-Pad5)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:5"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO6-Pad6)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:6"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO7-Pad7)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:7"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO8-Pad12)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:12"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    },
+    {
+      "clearance_rule": {
+        "mm": 0.2
+      },
+      "critical": false,
+      "ground": false,
+      "layer_rule": {
+        "allowed": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "preferred": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      "must_avoid_keepouts": [],
+      "name": "unconnected-(U2-IO9-Pad17)",
+      "net_class": "Default",
+      "notes": "routing_status source: NO_ROUTE_NEEDED_INFERENCE",
+      "pads": [
+        "U2:17"
+      ],
+      "paired_with": "",
+      "power": false,
+      "review_required": false,
+      "role": "LOW_RISK",
+      "routing_priority": 10,
+      "routing_status": "ROUTED",
+      "trace_width_rule": {
+        "target_mm": 0.2
+      },
+      "usb": false,
+      "via_rule": {
+        "allowed": true,
+        "max_count": 2,
+        "reason_required": false
+      }
+    }
+  ],
+  "not_extracted": [
+    "per-net ratsnest extraction not implemented; only total unconnected count is extracted",
+    "zone polygon outlines not extracted"
+  ],
+  "pads": [
+    {
+      "component": "C1",
+      "id": "C1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 12.225,
+      "y_mm": 57.0
+    },
+    {
+      "component": "C1",
+      "id": "C1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/ESP_EN",
+      "net_class": "Default",
+      "net_code": 14,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 13.775,
+      "y_mm": 57.0
+    },
+    {
+      "component": "C2",
+      "id": "C2:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 20.05,
+      "y_mm": 69.5
+    },
+    {
+      "component": "C2",
+      "id": "C2:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "net_code": 4,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.95,
+      "y_mm": 69.5
+    },
+    {
+      "component": "C3",
+      "id": "C3:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.5,
+      "y_mm": 44.95
+    },
+    {
+      "component": "C3",
+      "id": "C3:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.5,
+      "y_mm": 43.05
+    },
+    {
+      "component": "C4",
+      "id": "C4:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 26.5,
+      "y_mm": 44.775
+    },
+    {
+      "component": "C4",
+      "id": "C4:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 26.5,
+      "y_mm": 43.225
+    },
+    {
+      "component": "C5",
+      "id": "C5:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 19.525,
+      "y_mm": 74.0
+    },
+    {
+      "component": "C5",
+      "id": "C5:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "net_code": 4,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 22.475,
+      "y_mm": 74.0
+    },
+    {
+      "component": "C6",
+      "id": "C6:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BUCK_SW",
+      "net_class": "Default",
+      "net_code": 7,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 32.4,
+      "y_mm": 69.5
+    },
+    {
+      "component": "C6",
+      "id": "C6:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BUCK_BST",
+      "net_class": "Default",
+      "net_code": 6,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 32.4,
+      "y_mm": 67.95
+    },
+    {
+      "component": "C7",
+      "id": "C7:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 42.0,
+      "y_mm": 65.975
+    },
+    {
+      "component": "C7",
+      "id": "C7:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 42.0,
+      "y_mm": 63.025
+    },
+    {
+      "component": "C8",
+      "id": "C8:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 48.0,
+      "y_mm": 65.975
+    },
+    {
+      "component": "C8",
+      "id": "C8:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 48.0,
+      "y_mm": 63.025
+    },
+    {
+      "component": "D1",
+      "id": "D1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.2125,
+      "y_mm": 55.0
+    },
+    {
+      "component": "D1",
+      "id": "D1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/PLED",
+      "net_class": "Default",
+      "net_code": 15,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 39.7875,
+      "y_mm": 55.0
+    },
+    {
+      "component": "D2",
+      "id": "D2:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 44.2125,
+      "y_mm": 55.0
+    },
+    {
+      "component": "D2",
+      "id": "D2:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/SLED",
+      "net_class": "Default",
+      "net_code": 17,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 45.7875,
+      "y_mm": 55.0
+    },
+    {
+      "component": "D3",
+      "id": "D3:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 14.0,
+      "y_mm": 71.5
+    },
+    {
+      "component": "D3",
+      "id": "D3:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "net_code": 4,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 14.0,
+      "y_mm": 67.5
+    },
+    {
+      "component": "F1",
+      "id": "F1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_IN",
+      "net_class": "Default",
+      "net_code": 3,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 13.6,
+      "y_mm": 77.5
+    },
+    {
+      "component": "F1",
+      "id": "F1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_FUSED",
+      "net_class": "Default",
+      "net_code": 2,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 16.4,
+      "y_mm": 77.5
+    },
+    {
+      "component": "J1",
+      "id": "J1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 14.0,
+      "y_mm": 80.8
+    },
+    {
+      "component": "J1",
+      "id": "J1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "/+5V_IN",
+      "net_class": "Default",
+      "net_code": 3,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 14.0,
+      "y_mm": 86.8
+    },
+    {
+      "component": "J1",
+      "id": "J1:3",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "3",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 18.7,
+      "y_mm": 83.8
+    },
+    {
+      "component": "J2",
+      "id": "J2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 36.11,
+      "y_mm": 88.72
+    },
+    {
+      "component": "J2",
+      "id": "J2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 41.89,
+      "y_mm": 88.72
+    },
+    {
+      "component": "J2",
+      "id": "J2:A1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "A1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 35.8,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:A4",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "net_class": "Default",
+      "net_code": 22,
+      "pad_name": "A4",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 36.6,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:A5",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/CC1",
+      "net_class": "Default",
+      "net_code": 8,
+      "pad_name": "A5",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 37.75,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:A6",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DP_C",
+      "net_class": "Default",
+      "net_code": 12,
+      "pad_name": "A6",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:A7",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DM_C",
+      "net_class": "Default",
+      "net_code": 10,
+      "pad_name": "A7",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 39.25,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:A8",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "A8",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 40.25,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:A9",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "net_class": "Default",
+      "net_code": 22,
+      "pad_name": "A9",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 41.4,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:A12",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "A12",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 42.2,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "B1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 42.2,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B4",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "net_class": "Default",
+      "net_code": 22,
+      "pad_name": "B4",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 41.4,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B5",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/CC2",
+      "net_class": "Default",
+      "net_code": 9,
+      "pad_name": "B5",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 40.75,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B6",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DP_C",
+      "net_class": "Default",
+      "net_code": 12,
+      "pad_name": "B6",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 39.75,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B7",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DM_C",
+      "net_class": "Default",
+      "net_code": 10,
+      "pad_name": "B7",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.25,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B8",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "B8",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 37.25,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B9",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "net_class": "Default",
+      "net_code": 22,
+      "pad_name": "B9",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 36.6,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:B12",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "B12",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 35.8,
+      "y_mm": 87.645
+    },
+    {
+      "component": "J2",
+      "id": "J2:S1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "F.Paste",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "/SHIELD",
+      "net_class": "Default",
+      "net_code": 16,
+      "pad_name": "S1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 34.68,
+      "y_mm": 88.22
+    },
+    {
+      "component": "J2",
+      "id": "J2:S1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "F.Paste",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "/SHIELD",
+      "net_class": "Default",
+      "net_code": 16,
+      "pad_name": "S1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 34.68,
+      "y_mm": 92.4
+    },
+    {
+      "component": "J2",
+      "id": "J2:S1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "F.Paste",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "/SHIELD",
+      "net_class": "Default",
+      "net_code": 16,
+      "pad_name": "S1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 43.32,
+      "y_mm": 88.22
+    },
+    {
+      "component": "J2",
+      "id": "J2:S1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "F.Paste",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "/SHIELD",
+      "net_class": "Default",
+      "net_code": 16,
+      "pad_name": "S1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 43.32,
+      "y_mm": 92.4
+    },
+    {
+      "component": "L1",
+      "id": "L1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BUCK_SW",
+      "net_class": "Default",
+      "net_code": 7,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 35.525,
+      "y_mm": 69.5
+    },
+    {
+      "component": "L1",
+      "id": "L1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.475,
+      "y_mm": 69.5
+    },
+    {
+      "component": "MH1",
+      "id": "MH1:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 4.0,
+      "y_mm": 91.0
+    },
+    {
+      "component": "MH2",
+      "id": "MH2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 56.0,
+      "y_mm": 91.0
+    },
+    {
+      "component": "MH3",
+      "id": "MH3:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 4.0,
+      "y_mm": 45.0
+    },
+    {
+      "component": "MH4",
+      "id": "MH4:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "B.Mask",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 56.0,
+      "y_mm": 35.0
+    },
+    {
+      "component": "Q1",
+      "id": "Q1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 23.9375,
+      "y_mm": 78.95
+    },
+    {
+      "component": "Q1",
+      "id": "Q1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "net_code": 4,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 23.9375,
+      "y_mm": 77.05
+    },
+    {
+      "component": "Q1",
+      "id": "Q1:3",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_FUSED",
+      "net_class": "Default",
+      "net_code": 2,
+      "pad_name": "3",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 22.0625,
+      "y_mm": 78.0
+    },
+    {
+      "component": "R1",
+      "id": "R1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/ESP_EN",
+      "net_class": "Default",
+      "net_code": 14,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 12.175,
+      "y_mm": 53.0
+    },
+    {
+      "component": "R1",
+      "id": "R1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 13.825,
+      "y_mm": 53.0
+    },
+    {
+      "component": "R2",
+      "id": "R2:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BOOT0",
+      "net_class": "Default",
+      "net_code": 5,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 12.175,
+      "y_mm": 64.0
+    },
+    {
+      "component": "R2",
+      "id": "R2:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 13.825,
+      "y_mm": 64.0
+    },
+    {
+      "component": "R3",
+      "id": "R3:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/PLED",
+      "net_class": "Default",
+      "net_code": 15,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.175,
+      "y_mm": 58.0
+    },
+    {
+      "component": "R3",
+      "id": "R3:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 39.825,
+      "y_mm": 58.0
+    },
+    {
+      "component": "R4",
+      "id": "R4:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/SLED",
+      "net_class": "Default",
+      "net_code": 17,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 44.175,
+      "y_mm": 58.0
+    },
+    {
+      "component": "R4",
+      "id": "R4:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/STATUS_LED",
+      "net_class": "Default",
+      "net_code": 18,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 45.825,
+      "y_mm": 58.0
+    },
+    {
+      "component": "R5",
+      "id": "R5:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 50.175,
+      "y_mm": 78.0
+    },
+    {
+      "component": "R5",
+      "id": "R5:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/SHIELD",
+      "net_class": "Default",
+      "net_code": 16,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 51.825,
+      "y_mm": 78.0
+    },
+    {
+      "component": "R6",
+      "id": "R6:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 30.675,
+      "y_mm": 81.5
+    },
+    {
+      "component": "R6",
+      "id": "R6:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/CC1",
+      "net_class": "Default",
+      "net_code": 8,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 32.325,
+      "y_mm": 81.5
+    },
+    {
+      "component": "R7",
+      "id": "R7:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 45.175,
+      "y_mm": 81.5
+    },
+    {
+      "component": "R7",
+      "id": "R7:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/CC2",
+      "net_class": "Default",
+      "net_code": 9,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 46.825,
+      "y_mm": 81.5
+    },
+    {
+      "component": "R8",
+      "id": "R8:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DM_C",
+      "net_class": "Default",
+      "net_code": 10,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 32.175,
+      "y_mm": 75.0
+    },
+    {
+      "component": "R8",
+      "id": "R8:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DM_E",
+      "net_class": "Default",
+      "net_code": 11,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 33.825,
+      "y_mm": 75.0
+    },
+    {
+      "component": "R9",
+      "id": "R9:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DP_C",
+      "net_class": "Default",
+      "net_code": 12,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 44.175,
+      "y_mm": 75.0
+    },
+    {
+      "component": "R9",
+      "id": "R9:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DP_E",
+      "net_class": "Default",
+      "net_code": 13,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 45.825,
+      "y_mm": 75.0
+    },
+    {
+      "component": "SW1",
+      "id": "SW1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BOOT0",
+      "net_class": "Default",
+      "net_code": 5,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 5.15,
+      "y_mm": 66.625
+    },
+    {
+      "component": "SW1",
+      "id": "SW1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BOOT0",
+      "net_class": "Default",
+      "net_code": 5,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 5.15,
+      "y_mm": 61.375
+    },
+    {
+      "component": "SW1",
+      "id": "SW1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 6.85,
+      "y_mm": 66.625
+    },
+    {
+      "component": "SW1",
+      "id": "SW1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 6.85,
+      "y_mm": 61.375
+    },
+    {
+      "component": "SW2",
+      "id": "SW2:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/ESP_EN",
+      "net_class": "Default",
+      "net_code": 14,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 5.15,
+      "y_mm": 56.625
+    },
+    {
+      "component": "SW2",
+      "id": "SW2:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/ESP_EN",
+      "net_class": "Default",
+      "net_code": 14,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 5.15,
+      "y_mm": 51.375
+    },
+    {
+      "component": "SW2",
+      "id": "SW2:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 6.85,
+      "y_mm": 56.625
+    },
+    {
+      "component": "SW2",
+      "id": "SW2:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 6.85,
+      "y_mm": 51.375
+    },
+    {
+      "component": "TP1",
+      "id": "TP1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "net_code": 4,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 40.0
+    },
+    {
+      "component": "TP2",
+      "id": "TP2:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "/ESP_EN",
+      "net_class": "Default",
+      "net_code": 14,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 44.0
+    },
+    {
+      "component": "TP3",
+      "id": "TP3:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 48.0
+    },
+    {
+      "component": "TP4",
+      "id": "TP4:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "/BOOT0",
+      "net_class": "Default",
+      "net_code": 5,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 52.0
+    },
+    {
+      "component": "TP5",
+      "id": "TP5:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 56.0
+    },
+    {
+      "component": "TP6",
+      "id": "TP6:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "/U0TXD",
+      "net_class": "Default",
+      "net_code": 20,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 60.0
+    },
+    {
+      "component": "TP7",
+      "id": "TP7:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "/U0RXD",
+      "net_class": "Default",
+      "net_code": 19,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 64.0
+    },
+    {
+      "component": "TP8",
+      "id": "TP8:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "/DP_E",
+      "net_class": "Default",
+      "net_code": 13,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 68.0
+    },
+    {
+      "component": "TP9",
+      "id": "TP9:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "/DM_E",
+      "net_class": "Default",
+      "net_code": 11,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 57.0,
+      "y_mm": 72.0
+    },
+    {
+      "component": "U1",
+      "id": "U1:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.8625,
+      "y_mm": 68.55
+    },
+    {
+      "component": "U1",
+      "id": "U1:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "net_code": 4,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.8625,
+      "y_mm": 69.5
+    },
+    {
+      "component": "U1",
+      "id": "U1:3",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/+5V_PROTECTED",
+      "net_class": "Default",
+      "net_code": 4,
+      "pad_name": "3",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.8625,
+      "y_mm": 70.45
+    },
+    {
+      "component": "U1",
+      "id": "U1:4",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "4",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 30.1375,
+      "y_mm": 70.45
+    },
+    {
+      "component": "U1",
+      "id": "U1:5",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BUCK_SW",
+      "net_class": "Default",
+      "net_code": 7,
+      "pad_name": "5",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 30.1375,
+      "y_mm": 69.5
+    },
+    {
+      "component": "U1",
+      "id": "U1:6",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BUCK_BST",
+      "net_class": "Default",
+      "net_code": 6,
+      "pad_name": "6",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 30.1375,
+      "y_mm": 68.55
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.1,
+      "y_mm": 29.06
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.1,
+      "y_mm": 30.46
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.1,
+      "y_mm": 31.86
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 28.5,
+      "y_mm": 29.06
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 28.5,
+      "y_mm": 30.46
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 28.5,
+      "y_mm": 31.86
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.9,
+      "y_mm": 29.06
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.9,
+      "y_mm": 30.46
+    },
+    {
+      "component": "U2",
+      "id": "U2:",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.9,
+      "y_mm": 31.86
+    },
+    {
+      "component": "U2",
+      "id": "U2:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 22.74
+    },
+    {
+      "component": "U2",
+      "id": "U2:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "+3V3",
+      "net_class": "Default",
+      "net_code": 1,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 24.01
+    },
+    {
+      "component": "U2",
+      "id": "U2:3",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/ESP_EN",
+      "net_class": "Default",
+      "net_code": 14,
+      "pad_name": "3",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 25.28
+    },
+    {
+      "component": "U2",
+      "id": "U2:4",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO4-Pad4)",
+      "net_class": "Default",
+      "net_code": 25,
+      "pad_name": "4",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 26.55
+    },
+    {
+      "component": "U2",
+      "id": "U2:5",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO5-Pad5)",
+      "net_class": "Default",
+      "net_code": 26,
+      "pad_name": "5",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 27.82
+    },
+    {
+      "component": "U2",
+      "id": "U2:6",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO6-Pad6)",
+      "net_class": "Default",
+      "net_code": 27,
+      "pad_name": "6",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 29.09
+    },
+    {
+      "component": "U2",
+      "id": "U2:7",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO7-Pad7)",
+      "net_class": "Default",
+      "net_code": 28,
+      "pad_name": "7",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 30.36
+    },
+    {
+      "component": "U2",
+      "id": "U2:8",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO15-Pad8)",
+      "net_class": "Default",
+      "net_code": 36,
+      "pad_name": "8",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 31.63
+    },
+    {
+      "component": "U2",
+      "id": "U2:9",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO16-Pad9)",
+      "net_class": "Default",
+      "net_code": 37,
+      "pad_name": "9",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 32.9
+    },
+    {
+      "component": "U2",
+      "id": "U2:10",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO17-Pad10)",
+      "net_class": "Default",
+      "net_code": 38,
+      "pad_name": "10",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 34.17
+    },
+    {
+      "component": "U2",
+      "id": "U2:11",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO18-Pad11)",
+      "net_class": "Default",
+      "net_code": 39,
+      "pad_name": "11",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 35.44
+    },
+    {
+      "component": "U2",
+      "id": "U2:12",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO8-Pad12)",
+      "net_class": "Default",
+      "net_code": 29,
+      "pad_name": "12",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 36.71
+    },
+    {
+      "component": "U2",
+      "id": "U2:13",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DM_E",
+      "net_class": "Default",
+      "net_code": 11,
+      "pad_name": "13",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 37.98
+    },
+    {
+      "component": "U2",
+      "id": "U2:14",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DP_E",
+      "net_class": "Default",
+      "net_code": 13,
+      "pad_name": "14",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 21.25,
+      "y_mm": 39.25
+    },
+    {
+      "component": "U2",
+      "id": "U2:15",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO3-Pad15)",
+      "net_class": "Default",
+      "net_code": 24,
+      "pad_name": "15",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 23.015,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:16",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO46-Pad16)",
+      "net_class": "Default",
+      "net_code": 50,
+      "pad_name": "16",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 24.285,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:17",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO9-Pad17)",
+      "net_class": "Default",
+      "net_code": 30,
+      "pad_name": "17",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 25.555,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:18",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO10-Pad18)",
+      "net_class": "Default",
+      "net_code": 31,
+      "pad_name": "18",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 26.825,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:19",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO11-Pad19)",
+      "net_class": "Default",
+      "net_code": 32,
+      "pad_name": "19",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 28.095,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:20",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO12-Pad20)",
+      "net_class": "Default",
+      "net_code": 33,
+      "pad_name": "20",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.365,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:21",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO13-Pad21)",
+      "net_class": "Default",
+      "net_code": 34,
+      "pad_name": "21",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 30.635,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:22",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO14-Pad22)",
+      "net_class": "Default",
+      "net_code": 35,
+      "pad_name": "22",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 31.905,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:23",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO21-Pad23)",
+      "net_class": "Default",
+      "net_code": 40,
+      "pad_name": "23",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 33.175,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:24",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO47-Pad24)",
+      "net_class": "Default",
+      "net_code": 51,
+      "pad_name": "24",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 34.445,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:25",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO48-Pad25)",
+      "net_class": "Default",
+      "net_code": 52,
+      "pad_name": "25",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 35.715,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:26",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO45-Pad26)",
+      "net_class": "Default",
+      "net_code": 49,
+      "pad_name": "26",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 36.985,
+      "y_mm": 40.5
+    },
+    {
+      "component": "U2",
+      "id": "U2:27",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/BOOT0",
+      "net_class": "Default",
+      "net_code": 5,
+      "pad_name": "27",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 39.25
+    },
+    {
+      "component": "U2",
+      "id": "U2:28",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO35-Pad28)",
+      "net_class": "Default",
+      "net_code": 41,
+      "pad_name": "28",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 37.98
+    },
+    {
+      "component": "U2",
+      "id": "U2:29",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO36-Pad29)",
+      "net_class": "Default",
+      "net_code": 42,
+      "pad_name": "29",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 36.71
+    },
+    {
+      "component": "U2",
+      "id": "U2:30",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO37-Pad30)",
+      "net_class": "Default",
+      "net_code": 43,
+      "pad_name": "30",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 35.44
+    },
+    {
+      "component": "U2",
+      "id": "U2:31",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO38-Pad31)",
+      "net_class": "Default",
+      "net_code": 44,
+      "pad_name": "31",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 34.17
+    },
+    {
+      "component": "U2",
+      "id": "U2:32",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO39-Pad32)",
+      "net_class": "Default",
+      "net_code": 45,
+      "pad_name": "32",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 32.9
+    },
+    {
+      "component": "U2",
+      "id": "U2:33",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO40-Pad33)",
+      "net_class": "Default",
+      "net_code": 46,
+      "pad_name": "33",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 31.63
+    },
+    {
+      "component": "U2",
+      "id": "U2:34",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO41-Pad34)",
+      "net_class": "Default",
+      "net_code": 47,
+      "pad_name": "34",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 30.36
+    },
+    {
+      "component": "U2",
+      "id": "U2:35",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO42-Pad35)",
+      "net_class": "Default",
+      "net_code": 48,
+      "pad_name": "35",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 29.09
+    },
+    {
+      "component": "U2",
+      "id": "U2:36",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/U0RXD",
+      "net_class": "Default",
+      "net_code": 19,
+      "pad_name": "36",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 27.82
+    },
+    {
+      "component": "U2",
+      "id": "U2:37",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/U0TXD",
+      "net_class": "Default",
+      "net_code": 20,
+      "pad_name": "37",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 26.55
+    },
+    {
+      "component": "U2",
+      "id": "U2:38",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/STATUS_LED",
+      "net_class": "Default",
+      "net_code": 18,
+      "pad_name": "38",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 25.28
+    },
+    {
+      "component": "U2",
+      "id": "U2:39",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "unconnected-(U2-IO1-Pad39)",
+      "net_class": "Default",
+      "net_code": 23,
+      "pad_name": "39",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 24.01
+    },
+    {
+      "component": "U2",
+      "id": "U2:40",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "40",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 38.75,
+      "y_mm": 22.74
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.1,
+      "y_mm": 29.76
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.1,
+      "y_mm": 31.16
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.8,
+      "y_mm": 29.06
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.8,
+      "y_mm": 30.46
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 27.8,
+      "y_mm": 31.86
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 28.5,
+      "y_mm": 29.76
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 28.5,
+      "y_mm": 30.46
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 28.5,
+      "y_mm": 31.16
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.2,
+      "y_mm": 29.06
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.2,
+      "y_mm": 30.46
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.2,
+      "y_mm": 31.86
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.9,
+      "y_mm": 29.76
+    },
+    {
+      "component": "U2",
+      "id": "U2:41",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "In3.Cu",
+        "In4.Cu",
+        "In5.Cu",
+        "In6.Cu",
+        "In7.Cu",
+        "In8.Cu",
+        "In9.Cu",
+        "In10.Cu",
+        "In11.Cu",
+        "In12.Cu",
+        "In13.Cu",
+        "In14.Cu",
+        "In15.Cu",
+        "In16.Cu",
+        "In17.Cu",
+        "In18.Cu",
+        "In19.Cu",
+        "In20.Cu",
+        "In21.Cu",
+        "In22.Cu",
+        "In23.Cu",
+        "In24.Cu",
+        "In25.Cu",
+        "In26.Cu",
+        "In27.Cu",
+        "In28.Cu",
+        "In29.Cu",
+        "In30.Cu"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "41",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 29.9,
+      "y_mm": 31.16
+    },
+    {
+      "component": "U3",
+      "id": "U3:1",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DP_C",
+      "net_class": "Default",
+      "net_code": 12,
+      "pad_name": "1",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 37.8625,
+      "y_mm": 77.05
+    },
+    {
+      "component": "U3",
+      "id": "U3:2",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "/DM_C",
+      "net_class": "Default",
+      "net_code": 10,
+      "pad_name": "2",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 37.8625,
+      "y_mm": 78.0
+    },
+    {
+      "component": "U3",
+      "id": "U3:3",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "GND",
+      "net_class": "Default",
+      "net_code": 21,
+      "pad_name": "3",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 37.8625,
+      "y_mm": 78.95
+    },
+    {
+      "component": "U3",
+      "id": "U3:4",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "4",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 40.1375,
+      "y_mm": 78.95
+    },
+    {
+      "component": "U3",
+      "id": "U3:5",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "5",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 40.1375,
+      "y_mm": 78.0
+    },
+    {
+      "component": "U3",
+      "id": "U3:6",
+      "layer": "F.Cu",
+      "layers": [
+        "F.Cu",
+        "F.Mask",
+        "F.Paste"
+      ],
+      "net": "",
+      "net_class": "Default",
+      "net_code": 0,
+      "pad_name": "6",
+      "role": "PAD",
+      "shape": "Pad",
+      "x_mm": 40.1375,
+      "y_mm": 77.05
+    }
+  ],
+  "project": "ESP32_CSI_WIFI_NODE",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "component_count": 43,
+    "net_count": 52,
+    "pad_count": 167
+  },
+  "tool": "extract_kicad_nets_pads"
+}

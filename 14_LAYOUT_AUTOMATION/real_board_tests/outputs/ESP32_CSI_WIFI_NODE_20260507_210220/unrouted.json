@@ -1,0 +1,41 @@
+{
+  "hard_fails": [
+    "unrouted critical net",
+    "critical power net missing"
+  ],
+  "project": "ESP32_CSI_WIFI_NODE",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "unrouted_count": 16,
+    "unrouted_critical_count": 3
+  },
+  "tool": "detect_unrouted_nets",
+  "unrouted_count": 16,
+  "unrouted_critical_nets": [
+    "unconnected-(J2-VBUS-PadA4)",
+    "/BOOT0",
+    "/ESP_EN"
+  ],
+  "unrouted_nets": [
+    "unconnected-(J2-VBUS-PadA4)",
+    "/BOOT0",
+    "/ESP_EN",
+    "/PLED",
+    "/SLED",
+    "/STATUS_LED",
+    "/CC1",
+    "/CC2",
+    "/DM_C",
+    "/DM_E",
+    "/DP_C",
+    "/DP_E",
+    "/SHIELD",
+    "/U0RXD",
+    "/U0TXD",
+    "GND"
+  ],
+  "unrouted_power_nets": [
+    "unconnected-(J2-VBUS-PadA4)"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "hard_fails": [],
+  "project": "esp32_usb_power_fixture",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "unrouted_count": 0,
+    "unrouted_critical_count": 0
+  },
+  "tool": "detect_unrouted_nets",
+  "unrouted_count": 0,
+  "unrouted_critical_nets": [],
+  "unrouted_nets": [],
+  "unrouted_power_nets": []
+}
