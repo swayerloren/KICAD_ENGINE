@@ -1,84 +1,85 @@
 # Contributing
 
-Contributions are welcome if they improve KiCad Engine while preserving local-first safety and KiCad-native workflows.
+KiCad Engine accepts contributions that improve safety, clarity, repeatability, and honest engineering evidence. This repo is still an internal/private alpha, so the contribution bar is correctness first, convenience second.
 
-## Before Contributing
+## Read Before Opening A PR
 
-Read:
-
-1. `README.md`
-2. `AGENTS.md`
-3. `DISCLAIMER.md`
-4. `SECURITY.md`
-5. `PUBLIC_RELEASE_CHECKLIST.md`
+1. [README.md](README.md)
+2. [START_HERE.md](START_HERE.md)
+3. [REPO_INDEX.md](REPO_INDEX.md)
+4. [WORKFLOWS_INDEX.md](WORKFLOWS_INDEX.md)
+5. [SECURITY.md](SECURITY.md)
+6. [PUBLIC_RELEASE_STATUS.md](PUBLIC_RELEASE_STATUS.md)
+7. [PUBLIC_RELEASE_CHECKLIST.md](PUBLIC_RELEASE_CHECKLIST.md)
 
 ## Good Contributions
 
-- Safer validation scripts.
-- Better KiCad CLI workflows.
-- Better datasheet metadata and source links.
-- Verified component records with citations.
-- Clearer prompt packs.
-- Cross-platform setup improvements.
-- Public-release hygiene.
-- Documentation that reduces unsafe AI assumptions.
+- Safer validation scripts and wrappers
+- Better memory/history maintenance
+- Clearer repo navigation and documentation
+- Verified component, symbol, and footprint records with evidence
+- Better KiCad CLI or report-generation workflows
+- Clearer project state, stale-report, and gate-reconciliation tooling
+- Public-release hygiene improvements
 
 ## Do Not Contribute
 
-- Secrets, credentials, tokens, API keys, private license keys, or `.env` files.
-- Copyrighted datasheet PDFs unless redistribution permission is confirmed.
-- Fabrication outputs labeled final without full verification evidence.
-- Scripts that silently install tools.
-- Scripts that modify installed KiCad folders.
-- Unverified footprint approvals.
-- Fake datasheet values or unsupported component claims.
+- Secrets, tokens, passwords, API keys, `.env` files, or local credentials
+- KiCad lock files or temporary process locks
+- Raw caches, large local rehearsal artifacts, or backup folders
+- Fabrication files marked final without complete verification evidence
+- Unsupported engineering claims, guessed values, or fake benchmark results
+- Copyrighted datasheets or vendor documents unless redistribution rights are confirmed
 
-## Engineering Standards
+## KiCad Design File Policy
 
-- Keep scripts read-only by default.
-- Ask before installing anything.
-- Write reports under `02_HISTORY/` or `05_OUTPUTS/`.
-- Keep generated manufacturing-style outputs labeled `NOT_FINAL`.
-- Mark unknown specifications as `Unknown - requires source verification`.
-- Prefer official vendor sources for component research.
-- Treat connector orientation, package drawing, and footprint matching as high risk.
-
-## KiCad Project File Policy
-
-Do not edit KiCad project files unless the active project, target files, backup path, rollback plan, and verification plan are confirmed.
-
-Protected files include:
+Protected file classes include:
 
 - `.kicad_sch`
 - `.kicad_pcb`
 - `.kicad_pro`
-- `.kicad_sym`
-- `.kicad_mod`
-- Gerber, drill, pick-and-place, STEP, and other manufacturing output files
+- project libraries
+- generated fabrication outputs
+
+Do not edit those files unless:
+
+1. the active project is identified,
+2. the target files are inside that project,
+3. a backup exists,
+4. the relevant phase gates are satisfied or the exception is explicitly logged,
+5. verification evidence will be produced after the change.
+
+## Pull Request Expectations
+
+Every PR should state:
+
+- what changed
+- why it changed
+- what was tested
+- whether any KiCad design files were touched
+- whether any generated or local-only files were intentionally excluded
+- remaining risks, blockers, or human-review needs
+
+Use the repository issue and PR templates in `.github/`.
 
 ## Testing
 
-At minimum, run:
-
-```bash
-python health_check.py
-```
-
-On Windows, also run:
+At minimum, run the checks appropriate to your change:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\health_check.ps1
+python -m py_compile <changed_python_files>
+git status
 ```
 
-For script changes, run syntax or compile checks appropriate to the language.
+Useful repo-level validation entry points:
 
-## Pull Request Notes
+- `python 03_TOOLS/scripts/maintenance/run_maintenance_cycle.py --project <ACTIVE_PROJECT_PATH>`
+- `python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project <ACTIVE_PROJECT_PATH> --phase <PHASE>`
+- `python 03_TOOLS/scripts/project_state/build_live_project_state.py --project <ACTIVE_PROJECT_PATH> --apply`
 
-Describe:
+## Commit Scope
 
-- What changed.
-- Why it changed.
-- What was tested.
-- Any remaining warnings.
-- Whether any KiCad project files were touched.
-- Whether any datasheet or third-party redistribution rights are involved.
+- Stage safe files only.
+- Do not stage ignored or local-only content.
+- Do not force unrelated history cleanup into a feature PR.
+- Prefer small, reviewable documentation and tooling commits over mixed-purpose changes.

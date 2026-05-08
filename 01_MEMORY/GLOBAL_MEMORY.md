@@ -30,3 +30,4 @@ Durable workspace-wide rules for AI-assisted KiCad engineering.
 - Do not install tools, clone repositories, or configure MCP unless explicitly requested.
 - Private GitHub publication must use explicit ignore rules for local configs, env files, backups, copied-board rehearsal copies, raw imported originals, lock files, tool caches, and large local build artifacts before the first commit.
 - A successful private GitHub push is not evidence of public-release readiness; public publication stays blocked until the release checklist, license audit, and repo-hygiene review all pass.
+- After GitHub publication exists, the repo must maintain a GitHub-facing navigation layer that stays consistent with live project truth: `README.md`, `START_HERE.md`, `REPO_INDEX.md`, `FOLDER_MAP.md`, `PROJECTS_INDEX.md`, `TOOLS_INDEX.md`, `WORKFLOWS_INDEX.md`, `CURRENT_STATUS.md`, `PUBLIC_RELEASE_STATUS.md`, and the `.github/` templates.

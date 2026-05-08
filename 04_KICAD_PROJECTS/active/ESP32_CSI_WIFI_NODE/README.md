@@ -1,41 +1,42 @@
-﻿# ESP32_CSI_WIFI_NODE
+# ESP32_CSI_WIFI_NODE
 
-Standard KiCad project workspace.
+Active KiCad project workspace for an ESP32-based CSI/Wi-Fi node board.
 
 ## Status
 
 - Project name: `ESP32_CSI_WIFI_NODE`
-- Project path: `C:\Users\LJ\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE`
-- Active project: selected in `00_CODEX_START\CURRENT_PROJECT.md` on 2026-05-02
-- Design status: planning phase, no KiCad source files created yet
-- Fabrication status: not final
+- Project path: `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE`
+- Active project selected in: [00_CODEX_START/CURRENT_PROJECT.md](../../../00_CODEX_START/CURRENT_PROJECT.md)
+- Design status: `LIVE_PCB_EXISTS_NOT_FAB_READY`
+- Fabrication status: `NOT_FINAL`
 
-## Folder Map
+## Current Live PCB State
 
-- `kicad/`: KiCad project source files.
-- `datasheets/`: component datasheets and reference documents.
-- `bom/`: BOM exports, sourcing notes, and assembly review files.
-- `fabrication/`: Gerber, drill, pick/place, STEP, and fabrication package drafts.
-- `renders/`: board renders and visual review images.
-- `reports/`: ERC, DRC, design review, and verification reports.
-- `notes/`: project notes that are not durable memory.
-- `scripts/`: project-local helper scripts.
-- `memory/`: project-local durable design memory.
-- `history/`: project-local session and review history.
+- KiCad PCB exists: `YES`
+- Board outline exists: `YES`
+- Footprints: `43`
+- Tracks: `74`
+- Vias: `32`
+- Zones: `2`
+- DRC: `0` violations, `17` unconnected items
+- Detectable unrouted nets: `/DM_C`, `/DM_E`, `/DP_C`, `/DP_E`
 
-## Startup Rule
+## Primary Paths
 
-Before editing this project, read the root `KICAD_ENGINE/AGENTS.md`, root startup files, this project's `AGENTS.md`, and relevant memory/history.
+- KiCad source: `kicad/`
+- Reports: `reports/`
+- Visual review: `_verification/pcb_visual/`
+- Project memory: `memory/`
+- Project history: `history/`
+- Routing rehearsal work: `routing_work/`
 
-## Fabrication Rule
+## Current Review Entry Points
 
-Do not treat any output as final until the verify-before-fab workflow passes, including ERC, DRC, BOM, footprint, netlist, datasheet, connector, polarity/orientation, power/protection, mechanical, and visual review gates.
+- [memory/CURRENT_PROJECT_STATE.md](memory/CURRENT_PROJECT_STATE.md)
+- [memory/CURRENT_BLOCKERS.md](memory/CURRENT_BLOCKERS.md)
+- [reports/FINAL_PCB_VISUAL_REVIEW_PACKET.md](reports/FINAL_PCB_VISUAL_REVIEW_PACKET.md)
+- [reports/LJ_FINAL_PCB_REVIEW_CHECKLIST.md](reports/LJ_FINAL_PCB_REVIEW_CHECKLIST.md)
 
-## Next Steps
+## Warning
 
-1. Complete component research and schematic planning.
-2. Add component datasheets to `datasheets/`.
-3. Create KiCad project files only after the active project and backup plan are confirmed for that task.
-4. Record durable design decisions in project memory.
-5. Record session work and command results in project history.
-
+This project is not fabrication-ready. USB data routing and other connectivity review work remain open, and the current visual-review packet is for human inspection, not manufacturing approval.

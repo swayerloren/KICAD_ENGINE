@@ -1,68 +1,68 @@
 # Security Policy
 
+KiCad Engine is a local-first engineering repo. Security here mostly means preventing accidental publication of secrets, preventing unsafe automation, and keeping local-only artifacts out of GitHub.
+
 ## No Secrets In The Repo
 
-Do not store secrets in this repository.
+Never commit:
 
-Do not commit:
+- API keys
+- passwords
+- private tokens
+- GitHub auth codes
+- `.env` files with live values
+- license keys
+- distributor or vendor credentials
+- local credential snapshots
 
-- API keys.
-- Passwords.
-- Private tokens.
-- SSH private keys.
-- License keys.
-- AI service credentials.
-- Distributor or fab-house credentials.
-- `.env` files with real values.
+The current `.gitignore` protects the common classes, but contributors are still responsible for verifying what is staged.
 
-Users must log in to Codex, Claude, GitHub, package managers, and other tools through their own local setup. KiCad Engine must not capture or store those credentials.
+## Security Checks Before Push
 
-## Installer And Setup Script Safety
+Before pushing, verify:
 
-Setup and installer scripts must:
+1. `git status`
+2. no `.env` files are staged
+3. no `*.lck` files are staged
+4. no obvious secret strings are staged
+5. no local-only backups or copied-board rehearsal trees are staged
 
-- Ask before installing anything.
-- Show the package manager command before running it.
-- Use official package managers where possible.
-- Never silently install paid tools.
-- Never collect credentials.
-- Never write into installed KiCad application folders.
-- Never edit KiCad project files without explicit project-edit approval and backup.
+Reference records:
 
-## Reporting Unsafe Scripts
+- [05_OUTPUTS/release_readiness/GITHUB_PUSH_SECURITY_SCAN.md](05_OUTPUTS/release_readiness/GITHUB_PUSH_SECURITY_SCAN.md)
+- [05_OUTPUTS/release_readiness/GITHUB_PUSH_FILE_INCLUDE_EXCLUDE_AUDIT.md](05_OUTPUTS/release_readiness/GITHUB_PUSH_FILE_INCLUDE_EXCLUDE_AUDIT.md)
 
-Report scripts or workflows that:
+## Protected Content Classes
 
-- Delete files unexpectedly.
-- Modify KiCad project files without backup.
-- Modify installed KiCad folders.
-- Install tools silently.
-- Request or store credentials.
-- Download restricted datasheets without permission review.
-- Label fabrication outputs final without verification.
+Do not publish:
 
-Use GitHub issues or the repository's security reporting channel when available. If the issue involves a real secret, do not paste the secret into a public issue.
+- `99_BACKUPS/`
+- copied-board routing rehearsals
+- raw imported sample originals
+- caches and temp folders
+- local env or credentials files
+- manufacturing artifacts unless the release workflow explicitly approves them
 
-## Supported Security Checks
+## Unsafe Automation
 
-Run:
+Unsafe behaviors include:
 
-```bash
-python health_check.py
-```
+- silent tool installation
+- credential capture
+- editing KiCad design files without backup or phase confirmation
+- publishing final/fabrication-ready claims without verification evidence
+- GUI automation without the required safety gates
 
-The health check includes a heuristic scan for likely secret files and assignment-style secret patterns. It is not a substitute for a dedicated secret scanner before a public release.
+## Reporting
 
-## No Silent Credential Capture
+If you find a security problem:
 
-KiCad Engine must not capture:
+- do not paste secrets into an issue
+- rotate the credential first if a real secret is exposed
+- open a private report path if available, or a sanitized internal issue
 
-- OpenAI credentials.
-- Anthropic credentials.
-- Codex session tokens.
-- Claude session tokens.
-- GitHub tokens.
-- KiCad user configuration secrets.
-- Vendor or distributor API keys.
+Current policy references:
 
-Any future integration requiring authentication must keep credentials outside the repo and document the storage location and revocation path.
+- [22_SECURITY/SECURITY_POLICY.md](22_SECURITY/SECURITY_POLICY.md)
+- [AGENTS.md](AGENTS.md)
+- [PUBLIC_RELEASE_STATUS.md](PUBLIC_RELEASE_STATUS.md)

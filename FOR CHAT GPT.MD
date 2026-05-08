@@ -8,6 +8,18 @@ Current inspected workspace path:
 
 Some historical docs and tool configs still reference an older non-GitHub checkout path. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or `C:\Users\LJ\GitHub\KICAD_ENGINE`.
 
+## Latest GitHub repo indexing layer - 2026-05-08
+
+The repo now has a dedicated GitHub-facing navigation and status layer so future agents and humans do not need to infer structure from internal-only startup files alone.
+
+- root entry docs now include `README.md`, `START_HERE.md`, `REPO_INDEX.md`, `FOLDER_MAP.md`, `PROJECTS_INDEX.md`, `TOOLS_INDEX.md`, `WORKFLOWS_INDEX.md`, `CURRENT_STATUS.md`, `PUBLIC_RELEASE_STATUS.md`, `CONTRIBUTING.md`, and `SECURITY.md`
+- GitHub-specific metadata now includes `.github/README.md`, issue templates, and a pull-request template
+- startup-facing GitHub navigation now lives in `00_CODEX_START/GITHUB_REPO_INDEX.md`, `00_CODEX_START/GITHUB_NAVIGATION.md`, and `00_CODEX_START/CURRENT_GITHUB_STATUS.md`
+- folder-local indexes now exist under `03_TOOLS/`, `04_KICAD_PROJECTS/`, `09_ACCURACY_ENGINE/`, `14_LAYOUT_AUTOMATION/`, `34_PCB_LAYOUT_SANDBOX/`, `05_OUTPUTS/`, `01_MEMORY/`, and `02_HISTORY/`
+- the active project README at `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/README.md` now reflects the live PCB state instead of the old pre-PCB planning claim
+- the root docs intentionally say the repo is `PRIVATE`, `EXPERIMENTAL_INTERNAL_ALPHA`, and not public-release-ready; they also explicitly say `ESP32_CSI_WIFI_NODE` is not fabrication-ready
+- future repo-navigation or release-status updates should keep this GitHub-facing layer consistent with `05_OUTPUTS/release_readiness/`, `CURRENT_PROJECT_STATE.md`, and `CURRENT_BLOCKERS.md`
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:
