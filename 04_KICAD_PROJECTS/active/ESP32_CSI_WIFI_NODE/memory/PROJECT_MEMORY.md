@@ -52,6 +52,8 @@ Durable project-specific facts belong here. This local project memory supplement
 - The 2026-05-08 final LJ PCB visual review package was generated from fresh `kicad-cli pcb render` top and bottom board renders plus deterministic coordinate crops stored under `_verification/pcb_visual/`.
 - For this project, direct `kicad-cli pcb render` camera-pivot close-ups were not reliable enough for top-down human inspection; deterministic crops from fresh full-board renders are the preferred review-packet method.
 - The review packet is ready for LJ visual inspection, but the board itself remains `NOT_READY_NEEDS_MORE_PCB_REPAIR` while `17` unconnected items remain and `/DM_C`, `/DM_E`, `/DP_C`, and `/DP_E` are still explicitly unrouted.
+- The 2026-05-08 copied-board placement readiness scorecard rated the current placement `PLACEMENT_READY_FOR_ROUTING` at `98 / 100`, with no hard fails and one non-blocking warning about regulator-to-output-cluster spacing.
+- Routing for this project therefore remains blocked by live connectivity work, not by placement readiness, unless a future board revision changes the placement scorecard outcome.
 - The repo itself was initialized and pushed to a private GitHub repository on `2026-05-08`, but that publication event does not change the project's PCB readiness, routing blockers, or fabrication status.
 - The 2026-05-08 GitHub indexing pass added a repo-facing navigation layer and updated this project's README so GitHub users see the real live-board state instead of the old pre-PCB planning narrative.
 

@@ -71,6 +71,19 @@ KiCad Engine routing audits now hard-fail ugly geometry instead of treating it a
 - `REAL_PROJECT_ROUTING_WORKFLOW.md`, `REAL_PROJECT_ROUTING_STOP_CONDITIONS.md`, and `TRACE_BY_TRACE_VERIFICATION_RULES.md` now treat bad geometry as a stop condition even if DRC is otherwise clean
 - future routing work must not claim success with only DRC pass if the geometry checker or trace audit still reports hard-fail statuses
 
+## Latest placement readiness scoring layer - 2026-05-08
+
+KiCad Engine now has a real-board placement-readiness scorecard so routing cannot rely on vague placement PASS claims:
+
+- new rule file: `14_LAYOUT_AUTOMATION\PLACEMENT_READINESS_SCORECARD.md`
+- new scorer: `14_LAYOUT_AUTOMATION\scripts\score_placement_readiness.py`
+- new focused detectors: `detect_connector_orientation_risks.py`, `detect_power_path_placement_risks.py`, `detect_usb_cluster_placement_risks.py`, `detect_antenna_keepout_placement_risks.py`, and `detect_testpad_accessibility_risks.py`
+- the scorer reads a live or copied `.kicad_pcb` in read-only mode, infers board-fit, connector orientation, ESP32 antenna keepout, power-cluster adjacency, USB-cluster compactness, test-pad accessibility, clearance, and routing-feasibility risk
+- required output statuses are `PLACEMENT_READY_FOR_ROUTING`, `PLACEMENT_REPAIR_REQUIRED`, and `PLACEMENT_BLOCKED_HUMAN_REVIEW`
+- hard-fail statuses include connector-orientation unknown, antenna keepout blocked, scattered power path, spread USB cluster, inaccessible test pads, footprints outside board, courtyard/body overlap, and impossible-route placement
+- `REAL_PROJECT_ROUTING_PRECONDITIONS.md`, `REAL_PROJECT_ROUTING_WORKFLOW.md`, and `FULL_PIPELINE_GATE_CHECKLIST.md` now require a fresh placement readiness scorecard with exact result `PLACEMENT_READY_FOR_ROUTING` before routing is treated as eligible
+- copied-board validation on `ESP32_CSI_WIFI_NODE` scored the current placement `98 / 100` with exact status `PLACEMENT_READY_FOR_ROUTING`; routing is still blocked by live connectivity work, not by placement quality
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:

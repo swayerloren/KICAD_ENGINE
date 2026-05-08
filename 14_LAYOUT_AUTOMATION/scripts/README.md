@@ -18,6 +18,18 @@ They work on normalized JSON constraints, placement proposals, routing fixtures,
   - Detects overlap, keepout intrusion, and edge-clearance violations.
 - `score_component_placement.py`
   - Scores the resulting placement plan.
+- `score_placement_readiness.py`
+  - Scores a real or copied KiCad PCB placement before routing and emits hard-fail placement blockers.
+- `detect_connector_orientation_risks.py`
+  - Checks whether USB/power/edge connectors are placed close enough to the correct board edge with a mechanically obvious orientation.
+- `detect_power_path_placement_risks.py`
+  - Checks whether the input-to-regulator power cluster is compact and ordered by current flow.
+- `detect_usb_cluster_placement_risks.py`
+  - Checks whether the USB connector, ESD, CC, and series parts form a compact cluster.
+- `detect_antenna_keepout_placement_risks.py`
+  - Checks whether the inferred ESP32 antenna keepout is blocked by parts, tracks, or vias.
+- `detect_testpad_accessibility_risks.py`
+  - Checks whether test pads remain edge-accessible and probeable.
 - `_routing_common.py`
   - Shared helpers for routing-plan and trace-audit scripts.
 - `generate_routing_plan.py`
@@ -69,6 +81,7 @@ They work on normalized JSON constraints, placement proposals, routing fixtures,
 4. Run `place_component_groups.py`.
 5. Run `detect_placement_collisions.py`.
 6. Run `score_component_placement.py`.
+7. If routing is the next phase, run `score_placement_readiness.py` on a copied board and require `PLACEMENT_READY_FOR_ROUTING`.
 
 Routing flow:
 

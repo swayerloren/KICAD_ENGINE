@@ -17,8 +17,9 @@ Before the first trace is edited:
 5. run `python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>`
 6. run `python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project <ACTIVE_PROJECT_PATH> --phase 8`
 7. confirm routing preconditions are exact `PASS` by live-state authority, not by stale markdown alone
-8. confirm the normalized routing input export exists for the current board state
-9. generate:
+8. confirm a fresh placement readiness scorecard exists with exact result `PLACEMENT_READY_FOR_ROUTING`
+9. confirm the normalized routing input export exists for the current board state
+10. generate:
    - routing plan
    - critical-net plan
    - unrouted-net report
@@ -51,6 +52,10 @@ change, the required final status is
 `LIVE_PROJECT_STATE.json` is the top authority for whether routing may continue.
 Reports without source hashes are weak, and stale `NO_PCB`, `0 footprints`, or
 `no routing` narratives cannot override live board evidence.
+
+Placement is not considered approved for routing unless a fresh scorecard from
+`score_placement_readiness.py` returns exact status
+`PLACEMENT_READY_FOR_ROUTING`.
 
 ## Routing Pass Order
 
@@ -89,6 +94,7 @@ A routing pass is acceptable only when:
 - no new RF or antenna keepout crossing exists
 - no critical-net hard fail exists
 - no routing geometry hard-fail status exists
+- placement readiness scorecard remains `PLACEMENT_READY_FOR_ROUTING`
 - every new trace appears in the trace-by-trace review
 - DRC risk does not worsen without being recorded and justified
 
