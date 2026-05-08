@@ -1,0 +1,41 @@
+{
+  "blocked_reasons": [
+    "1 trace audit entries flagged",
+    "RIGHT_ANGLE_FOUND",
+    "routing geometry hard fails detected: RIGHT_ANGLE_FOUND"
+  ],
+  "geometry_hard_fails": [
+    "RIGHT_ANGLE_FOUND"
+  ],
+  "hard_fails": [
+    "RIGHT_ANGLE_FOUND"
+  ],
+  "project": "bad_90_degree_route",
+  "readiness": {
+    "exact_blockers": [
+      "1 trace audit entries flagged",
+      "RIGHT_ANGLE_FOUND",
+      "routing geometry hard fails detected: RIGHT_ANGLE_FOUND"
+    ],
+    "ready_for_real_kicad_test": false
+  },
+  "schema_version": "1.0",
+  "scores": {
+    "critical_net_completeness": 20,
+    "drc_risk": 0,
+    "human_review_risk": 1,
+    "power_path_quality": 15,
+    "rf_keepout_compliance": 15,
+    "trace_audit_completeness": 5,
+    "unrouted_net_count": 10,
+    "usb_path_quality": 10,
+    "via_count_reasonableness": 10
+  },
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "hard_fail_count": 1,
+    "total_score": 84
+  },
+  "tool": "score_routing_plan",
+  "total_score": 84
+}

@@ -1,0 +1,94 @@
+{
+  "finding_counts": {
+    "PAD_ENTRY_GEOMETRY_POOR": 1
+  },
+  "findings": [
+    {
+      "critical": true,
+      "issue_code": "poor_pad_entry_geometry",
+      "layer": "F.Cu",
+      "net": "BOOT0",
+      "reason": "Critical net bends after only 0.2 mm of pad runout.",
+      "recommended_fix": "Extend a straight pad exit to at least 0.75 mm before the first bend.",
+      "segment_coordinates": [
+        {
+          "x1_mm": 2.0,
+          "x2_mm": 2.2,
+          "y1_mm": 2.0,
+          "y2_mm": 2.0
+        },
+        {
+          "x1_mm": 2.2,
+          "x2_mm": 4.2,
+          "y1_mm": 2.0,
+          "y2_mm": 4.0
+        }
+      ],
+      "status": "PAD_ENTRY_GEOMETRY_POOR",
+      "trace_id": "T2"
+    }
+  ],
+  "hard_fail_statuses": [
+    "PAD_ENTRY_GEOMETRY_POOR"
+  ],
+  "project": "bad_pad_entry_route",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "finding_count": 1,
+    "hard_fail_status_count": 1,
+    "trace_count": 2
+  },
+  "tool": "routing_geometry_quality",
+  "trace_reports": [
+    {
+      "direct_length_mm": 3.0,
+      "findings": [],
+      "hard_fail_statuses": [],
+      "issue_codes": [],
+      "length_ratio": 1.0,
+      "net": "BUCK_SW",
+      "trace_id": "T1",
+      "trace_length_mm": 3.0
+    },
+    {
+      "direct_length_mm": 2.973,
+      "findings": [
+        {
+          "critical": true,
+          "issue_code": "poor_pad_entry_geometry",
+          "layer": "F.Cu",
+          "net": "BOOT0",
+          "reason": "Critical net bends after only 0.2 mm of pad runout.",
+          "recommended_fix": "Extend a straight pad exit to at least 0.75 mm before the first bend.",
+          "segment_coordinates": [
+            {
+              "x1_mm": 2.0,
+              "x2_mm": 2.2,
+              "y1_mm": 2.0,
+              "y2_mm": 2.0
+            },
+            {
+              "x1_mm": 2.2,
+              "x2_mm": 4.2,
+              "y1_mm": 2.0,
+              "y2_mm": 4.0
+            }
+          ],
+          "status": "PAD_ENTRY_GEOMETRY_POOR",
+          "trace_id": "T2"
+        }
+      ],
+      "hard_fail_statuses": [
+        "PAD_ENTRY_GEOMETRY_POOR"
+      ],
+      "issue_codes": [
+        "poor_pad_entry_geometry"
+      ],
+      "length_ratio": 1.018,
+      "net": "BOOT0",
+      "trace_id": "T2",
+      "trace_length_mm": 3.028
+    }
+  ]
+}

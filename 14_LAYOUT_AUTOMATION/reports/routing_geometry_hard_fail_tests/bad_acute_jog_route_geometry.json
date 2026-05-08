@@ -1,0 +1,94 @@
+{
+  "finding_counts": {
+    "ACUTE_JOG_FOUND": 1
+  },
+  "findings": [
+    {
+      "critical": true,
+      "issue_code": "acute_jog_found",
+      "layer": "F.Cu",
+      "net": "EN",
+      "reason": "Found a non-45 acute jog of 26.565 degrees.",
+      "recommended_fix": "Rebuild this bend as a 45-degree transition or a straight continuation without an acute jog.",
+      "segment_coordinates": [
+        {
+          "x1_mm": 2.0,
+          "x2_mm": 7.0,
+          "y1_mm": 2.0,
+          "y2_mm": 2.0
+        },
+        {
+          "x1_mm": 7.0,
+          "x2_mm": 9.0,
+          "y1_mm": 2.0,
+          "y2_mm": 3.0
+        }
+      ],
+      "status": "ACUTE_JOG_FOUND",
+      "trace_id": "T2"
+    }
+  ],
+  "hard_fail_statuses": [
+    "ACUTE_JOG_FOUND"
+  ],
+  "project": "bad_acute_jog_route",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "finding_count": 1,
+    "hard_fail_status_count": 1,
+    "trace_count": 2
+  },
+  "tool": "routing_geometry_quality",
+  "trace_reports": [
+    {
+      "direct_length_mm": 3.0,
+      "findings": [],
+      "hard_fail_statuses": [],
+      "issue_codes": [],
+      "length_ratio": 1.0,
+      "net": "BUCK_SW",
+      "trace_id": "T1",
+      "trace_length_mm": 3.0
+    },
+    {
+      "direct_length_mm": 7.071,
+      "findings": [
+        {
+          "critical": true,
+          "issue_code": "acute_jog_found",
+          "layer": "F.Cu",
+          "net": "EN",
+          "reason": "Found a non-45 acute jog of 26.565 degrees.",
+          "recommended_fix": "Rebuild this bend as a 45-degree transition or a straight continuation without an acute jog.",
+          "segment_coordinates": [
+            {
+              "x1_mm": 2.0,
+              "x2_mm": 7.0,
+              "y1_mm": 2.0,
+              "y2_mm": 2.0
+            },
+            {
+              "x1_mm": 7.0,
+              "x2_mm": 9.0,
+              "y1_mm": 2.0,
+              "y2_mm": 3.0
+            }
+          ],
+          "status": "ACUTE_JOG_FOUND",
+          "trace_id": "T2"
+        }
+      ],
+      "hard_fail_statuses": [
+        "ACUTE_JOG_FOUND"
+      ],
+      "issue_codes": [
+        "acute_jog_found"
+      ],
+      "length_ratio": 1.023,
+      "net": "EN",
+      "trace_id": "T2",
+      "trace_length_mm": 7.236
+    }
+  ]
+}

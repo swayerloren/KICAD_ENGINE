@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T15:16:25",
-  "record_count": 807,
+  "generated": "2026-05-08T15:33:34",
+  "record_count": 812,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -302,6 +302,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SELF_REVIEW.md",
       "size_bytes": 765,
       "title": "AI Self Review - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SELF_REVIEW.md",
+      "size_bytes": 642,
+      "title": "AI Self Review - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1012,6 +1019,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SCORECARD.md",
+      "size_bytes": 666,
+      "title": "AI Response Scorecard - Routing Geometry Hard Fail"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-02T23:43:58",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md",
       "size_bytes": 1101,
@@ -1712,6 +1726,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 440,
+      "title": "Hallucination Risk Log - Routing Geometry Hard Fail"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 721,
@@ -2402,6 +2423,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_LIVE_STATE_AUTHORITY_HARDENING_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1045,
       "title": "Claim / Evidence Matrix - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_ROUTING_GEOMETRY_HARD_FAIL_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1055,
+      "title": "Claim / Evidence Matrix - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3291,6 +3319,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
       "size_bytes": 565,
       "title": "Uncertainty Log - Live State Authority Hardening"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T15:31:49",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md",
+      "size_bytes": 525,
+      "title": "Uncertainty Log - Routing Geometry Hard Fail"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

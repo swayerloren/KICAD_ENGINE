@@ -30,6 +30,18 @@ They work on normalized JSON constraints, placement proposals, routing fixtures,
   - Detects trace segments that cross keepouts, with RF/antenna hard-fail awareness.
 - `trace_by_trace_audit.py`
   - Produces one audit entry per trace and flags geometry / via / keepout issues.
+- `route_quality_common.py`
+  - Shared geometry hard-fail helpers used by routing-audit and detector scripts.
+- `routing_geometry_quality.py`
+  - Runs the aggregate geometry hard-fail checker for right angles, acute jogs, poor pad entry, zigzags, detours, keepout crossings, unjustified vias, and width mismatches.
+- `detect_right_angle_traces.py`
+  - Detects right-angle trace geometry failures.
+- `detect_acute_jogs.py`
+  - Detects acute non-45 routing jogs.
+- `detect_bad_pad_entry.py`
+  - Detects poor critical-net pad-entry runout.
+- `detect_unnecessary_zigzags.py`
+  - Detects unnecessary zigzags and critical detours.
 - `score_routing_plan.py`
   - Scores routing intent and routing audit outputs with hard-fail rules.
 - `_kicad_pcb_bridge_common.py`
@@ -66,7 +78,8 @@ Routing flow:
 4. Run `detect_unrouted_nets.py <fixture.json> <unrouted.json> --markdown <unrouted.md>`.
 5. Run `detect_trace_keepout_violations.py <fixture.json> <keepouts.json> --markdown <keepouts.md>`.
 6. Run `trace_by_trace_audit.py <fixture.json> <trace_audit.json> --markdown <trace_audit.md>`.
-7. Run `score_routing_plan.py <fixture.json> <routing_plan.json> <critical_plan.json> <unrouted.json> <keepouts.json> <trace_audit.json> <score.json> --markdown <score.md>`.
+7. Run `routing_geometry_quality.py <fixture.json> <geometry.json> --markdown <geometry.md>`.
+8. Run `score_routing_plan.py <fixture.json> <routing_plan.json> <critical_plan.json> <unrouted.json> <keepouts.json> <trace_audit.json> <score.json> --markdown <score.md>`.
 
 Real-board bridge flow:
 
@@ -95,6 +108,11 @@ The routing scorecard hard-fails when any of these are true:
 - regulator critical loop not planned
 - via used without reason on critical net
 - trace-by-trace audit missing or incomplete
+- right-angle geometry found
+- acute non-45 jog found
+- poor critical-net pad entry found
+- unnecessary zigzag or critical detour found
+- trace width mismatch found
 
 ## Boundary
 

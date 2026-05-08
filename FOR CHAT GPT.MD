@@ -58,6 +58,19 @@ KiCad Engine now has a canonical live-state authority layer under `03_TOOLS\scri
 - gate output may now explicitly cite `TASK_CONTRACT_FAILURE` alongside `LIVE_FILE_EVIDENCE`, `FRESH_GATE_REPORT`, `STALE_REPORT_IGNORED`, and `HUMAN_REVIEW_REQUIRED`
 - before any future gate, routing-start, placement-start, or closeout status claim, run `python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>` first
 
+## Latest routing geometry hard-fail layer - 2026-05-08
+
+KiCad Engine routing audits now hard-fail ugly geometry instead of treating it as a soft comment:
+
+- new rule file: `14_LAYOUT_AUTOMATION\\ROUTING_GEOMETRY_HARD_FAIL_RULES.md`
+- new shared script: `14_LAYOUT_AUTOMATION\\scripts\\route_quality_common.py`
+- new aggregate checker: `14_LAYOUT_AUTOMATION\\scripts\\routing_geometry_quality.py`
+- new focused detectors: `detect_right_angle_traces.py`, `detect_acute_jogs.py`, `detect_bad_pad_entry.py`, and `detect_unnecessary_zigzags.py`
+- `trace_by_trace_audit.py` now carries detailed per-finding net name, segment coordinates, layer, reason, and recommended fix
+- `score_routing_plan.py` now blocks routing pass status when the trace audit contains `RIGHT_ANGLE_FOUND`, `ACUTE_JOG_FOUND`, `PAD_ENTRY_GEOMETRY_POOR`, `UNNECESSARY_ZIGZAG_FOUND`, `CRITICAL_LOOP_DETOUR_FOUND`, `KEEP_OUT_CROSSING_FOUND`, `UNJUSTIFIED_VIA_FOUND`, or `TRACE_WIDTH_MISMATCH_FOUND`
+- `REAL_PROJECT_ROUTING_WORKFLOW.md`, `REAL_PROJECT_ROUTING_STOP_CONDITIONS.md`, and `TRACE_BY_TRACE_VERIFICATION_RULES.md` now treat bad geometry as a stop condition even if DRC is otherwise clean
+- future routing work must not claim success with only DRC pass if the geometry checker or trace audit still reports hard-fail statuses
+
 ## Latest ESP32_CSI_WIFI_NODE final PCB visual review packet - 2026-05-08
 
 The active `ESP32_CSI_WIFI_NODE` board now has a dedicated LJ visual review packet built from the current live board hash:

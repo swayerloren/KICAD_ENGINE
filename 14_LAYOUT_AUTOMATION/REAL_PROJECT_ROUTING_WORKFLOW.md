@@ -24,6 +24,7 @@ Before the first trace is edited:
    - unrouted-net report
    - keepout-violation report
    - trace-by-trace review scaffold
+   - routing geometry hard-fail report
    - routing scorecard
 
 ## Execution Contract
@@ -75,9 +76,10 @@ For each pass:
 2. confirm width, clearance, layer, and via rules
 3. route only the current pass nets
 4. update the trace-by-trace review for every edited trace
-5. run DRC or targeted precheck after the pass when practical
-6. update unrouted-net and keepout reports
-7. update the routing scorecard
+5. run the routing geometry hard-fail checker after the pass
+6. run DRC or targeted precheck after the pass when practical
+7. update unrouted-net and keepout reports
+8. update the routing scorecard
 
 ## Per-Pass Acceptance
 
@@ -86,6 +88,7 @@ A routing pass is acceptable only when:
 - all nets in that pass are routed or explicitly deferred with reason
 - no new RF or antenna keepout crossing exists
 - no critical-net hard fail exists
+- no routing geometry hard-fail status exists
 - every new trace appears in the trace-by-trace review
 - DRC risk does not worsen without being recorded and justified
 

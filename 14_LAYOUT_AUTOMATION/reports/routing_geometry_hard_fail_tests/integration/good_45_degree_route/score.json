@@ -1,0 +1,29 @@
+{
+  "blocked_reasons": [],
+  "geometry_hard_fails": [],
+  "hard_fails": [],
+  "project": "good_45_degree_route",
+  "readiness": {
+    "exact_blockers": [],
+    "ready_for_real_kicad_test": true
+  },
+  "schema_version": "1.0",
+  "scores": {
+    "critical_net_completeness": 20,
+    "drc_risk": 10,
+    "human_review_risk": 1,
+    "power_path_quality": 15,
+    "rf_keepout_compliance": 15,
+    "trace_audit_completeness": 5,
+    "unrouted_net_count": 10,
+    "usb_path_quality": 10,
+    "via_count_reasonableness": 10
+  },
+  "status": "PASS",
+  "summary": {
+    "hard_fail_count": 0,
+    "total_score": 94
+  },
+  "tool": "score_routing_plan",
+  "total_score": 94
+}

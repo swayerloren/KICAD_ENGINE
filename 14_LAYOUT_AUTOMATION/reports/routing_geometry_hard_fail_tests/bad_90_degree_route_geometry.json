@@ -1,0 +1,94 @@
+{
+  "finding_counts": {
+    "RIGHT_ANGLE_FOUND": 1
+  },
+  "findings": [
+    {
+      "critical": true,
+      "issue_code": "right_angle_turn",
+      "layer": "F.Cu",
+      "net": "EN",
+      "reason": "Found a 90.0 degree bend. Routing requires 45-degree or smoother geometry.",
+      "recommended_fix": "Replace the 90-degree corner with a 45-degree bend or a smoother critical-net path.",
+      "segment_coordinates": [
+        {
+          "x1_mm": 2.0,
+          "x2_mm": 6.0,
+          "y1_mm": 2.0,
+          "y2_mm": 2.0
+        },
+        {
+          "x1_mm": 6.0,
+          "x2_mm": 6.0,
+          "y1_mm": 2.0,
+          "y2_mm": 6.0
+        }
+      ],
+      "status": "RIGHT_ANGLE_FOUND",
+      "trace_id": "T2"
+    }
+  ],
+  "hard_fail_statuses": [
+    "RIGHT_ANGLE_FOUND"
+  ],
+  "project": "bad_90_degree_route",
+  "schema_version": "1.0",
+  "status": "AUTO_BLOCKED_BAD_LAYOUT",
+  "summary": {
+    "finding_count": 1,
+    "hard_fail_status_count": 1,
+    "trace_count": 2
+  },
+  "tool": "routing_geometry_quality",
+  "trace_reports": [
+    {
+      "direct_length_mm": 3.0,
+      "findings": [],
+      "hard_fail_statuses": [],
+      "issue_codes": [],
+      "length_ratio": 1.0,
+      "net": "BUCK_SW",
+      "trace_id": "T1",
+      "trace_length_mm": 3.0
+    },
+    {
+      "direct_length_mm": 5.657,
+      "findings": [
+        {
+          "critical": true,
+          "issue_code": "right_angle_turn",
+          "layer": "F.Cu",
+          "net": "EN",
+          "reason": "Found a 90.0 degree bend. Routing requires 45-degree or smoother geometry.",
+          "recommended_fix": "Replace the 90-degree corner with a 45-degree bend or a smoother critical-net path.",
+          "segment_coordinates": [
+            {
+              "x1_mm": 2.0,
+              "x2_mm": 6.0,
+              "y1_mm": 2.0,
+              "y2_mm": 2.0
+            },
+            {
+              "x1_mm": 6.0,
+              "x2_mm": 6.0,
+              "y1_mm": 2.0,
+              "y2_mm": 6.0
+            }
+          ],
+          "status": "RIGHT_ANGLE_FOUND",
+          "trace_id": "T2"
+        }
+      ],
+      "hard_fail_statuses": [
+        "RIGHT_ANGLE_FOUND"
+      ],
+      "issue_codes": [
+        "right_angle_turn"
+      ],
+      "length_ratio": 1.414,
+      "net": "EN",
+      "trace_id": "T2",
+      "trace_length_mm": 8.0
+    }
+  ]
+}

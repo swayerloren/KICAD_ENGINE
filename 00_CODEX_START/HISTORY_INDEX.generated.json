@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T15:16:25",
+  "generated_at": "2026-05-08T15:33:34",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -300,6 +300,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_LIVE_STATE_AUTHORITY_HARDENING_SCORECARD.md",
       "title": "AI Response Scorecard - Live State Authority Hardening",
       "size_bytes": 696,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SCORECARD.md",
+      "title": "AI Response Scorecard - Routing Geometry Hard Fail",
+      "size_bytes": 666,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1011,6 +1018,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SELF_REVIEW.md",
+      "title": "AI Self Review - Routing Geometry Hard Fail",
+      "size_bytes": 642,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md",
       "title": "Accuracy Engine And AI Quality Setup AI Self-Review",
       "size_bytes": 752,
@@ -1714,6 +1728,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_LIVE_STATE_AUTHORITY_HARDENING_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim / Evidence Matrix - Live State Authority Hardening",
       "size_bytes": 1045,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260508_ROUTING_GEOMETRY_HARD_FAIL_CLAIM_EVIDENCE_MATRIX.md",
+      "title": "Claim / Evidence Matrix - Routing Geometry Hard Fail",
+      "size_bytes": 1055,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3307,6 +3328,13 @@
       "bucket": "command_logs"
     },
     {
+      "path": "02_HISTORY\\command_logs\\ROUTING_GEOMETRY_HARD_FAIL_COMMANDS.md",
+      "title": "Routing Geometry Hard Fail Commands",
+      "size_bytes": 3004,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
       "path": "02_HISTORY\\command_logs\\SAMPLE_PIPELINE_FIX_COMMANDS.md",
       "title": "Sample Pipeline Fix Commands",
       "size_bytes": 18322,
@@ -4154,6 +4182,13 @@
       "bucket": "design_reviews"
     },
     {
+      "path": "02_HISTORY\\design_reviews\\ROUTING_GEOMETRY_HARD_FAIL_AUDIT.md",
+      "title": "Routing Geometry Hard Fail Audit",
+      "size_bytes": 1777,
+      "scope": "global",
+      "bucket": "design_reviews"
+    },
+    {
       "path": "02_HISTORY\\design_reviews\\SAMPLE_KICAD_TEST_PROJECT_REVIEW.md",
       "title": "SAMPLE_KICAD_TEST_PROJECT Review",
       "size_bytes": 2001,
@@ -4374,6 +4409,13 @@
       "path": "02_HISTORY\\failed_attempts\\20260508_GITHUB_REPO_INDEXING_FOR_CHAT_GPT_PATH_QUOTING.md",
       "title": "Failed Attempt",
       "size_bytes": 364,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
+      "path": "02_HISTORY\\failed_attempts\\20260508_ROUTING_GEOMETRY_INTEGRATION_FIXTURE_CONTEXT_MISS.md",
+      "title": "Failed Attempt - Routing Geometry Integration Fixture Context Miss",
+      "size_bytes": 898,
       "scope": "global",
       "bucket": "failed_attempts"
     },
@@ -5102,6 +5144,13 @@
       "path": "02_HISTORY\\hallucination_risk_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md",
       "title": "Hallucination Risk Log - Live State Authority Hardening",
       "size_bytes": 567,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md",
+      "title": "Hallucination Risk Log - Routing Geometry Hard Fail",
+      "size_bytes": 440,
       "scope": "global",
       "bucket": "hallucination_risk_logs"
     },
@@ -5848,6 +5897,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\ROUTING_GEOMETRY_HARD_FAIL_LIMITATIONS.md",
+      "title": "Routing Geometry Hard Fail Limitations",
+      "size_bytes": 464,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\SAMPLE_PROJECT_PUBLIC_PAYLOAD_BLOCKED_PENDING_REVIEW.md",
       "title": "Issue Log - Sample Project Public Payload Blocked Pending Review",
       "size_bytes": 1508,
@@ -5941,7 +5997,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 227744,
+      "size_bytes": 230072,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -7682,6 +7738,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\ROUTING_GEOMETRY_HARD_FAIL_SESSION.md",
+      "title": "Routing Geometry Hard Fail Session",
+      "size_bytes": 1030,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\SAMPLE_PIPELINE_FIX_SESSION.md",
       "title": "Sample Pipeline Fix Session",
       "size_bytes": 2695,
@@ -8203,6 +8266,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log - Live State Authority Hardening",
       "size_bytes": 565,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md",
+      "title": "Uncertainty Log - Routing Geometry Hard Fail",
+      "size_bytes": 525,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

@@ -39,6 +39,23 @@ Hard fail if any of these are true:
 7. regulator critical loop not planned
 8. via used without reason on critical net
 9. trace-by-trace audit missing or incomplete
+10. right-angle geometry found
+11. acute non-45 jog found
+12. poor critical-net pad entry found
+13. unnecessary zigzag found
+14. critical detour found
+15. trace width mismatch found
+
+## Geometry Hard Fail Statuses
+
+- `RIGHT_ANGLE_FOUND`
+- `ACUTE_JOG_FOUND`
+- `PAD_ENTRY_GEOMETRY_POOR`
+- `UNNECESSARY_ZIGZAG_FOUND`
+- `CRITICAL_LOOP_DETOUR_FOUND`
+- `KEEP_OUT_CROSSING_FOUND`
+- `UNJUSTIFIED_VIA_FOUND`
+- `TRACE_WIDTH_MISMATCH_FOUND`
 
 ## Scoring Intent
 
