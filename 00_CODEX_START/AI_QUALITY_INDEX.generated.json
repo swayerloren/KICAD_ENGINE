@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T13:04:25",
-  "record_count": 783,
+  "generated": "2026-05-08T14:06:44",
+  "record_count": 787,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -266,6 +266,13 @@
       "modified": "2026-05-07T19:37:15",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_SELF_REVIEW.md",
       "size_bytes": 840,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-08T14:06:06",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_self_reviews\\20260508_140404_GITHUB_REPO_PUSH_SELF_REVIEW.md",
+      "size_bytes": 1099,
       "title": "AI Self Review"
     },
     {
@@ -942,6 +949,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-08T14:06:06",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\20260508_140404_GITHUB_REPO_PUSH_SCORECARD.md",
+      "size_bytes": 431,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-02T23:43:58",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\ai_scorecards\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md",
       "size_bytes": 1101,
@@ -1607,6 +1621,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-08T14:06:06",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\20260508_140404_GITHUB_REPO_PUSH_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 476,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\hallucination_risk_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 721,
@@ -2262,6 +2283,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1145,
       "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-08T14:06:06",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\claim_evidence_matrices\\20260508_140404_GITHUB_REPO_PUSH_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1301,
+      "title": "Claim Evidence Matrix"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3119,6 +3147,13 @@
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-08T14:06:06",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\20260508_140404_GITHUB_REPO_PUSH_UNCERTAINTY_LOG.md",
+      "size_bytes": 553,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\02_HISTORY\\uncertainty_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md",
       "size_bytes": 724,
@@ -3524,48 +3559,6 @@
       "title": "Uncertainty Log - Test Examples Benchmarks Setup"
     },
     {
-      "folder": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\ai_self_reviews",
-      "modified": "2026-05-02T22:54:43",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\ai_self_reviews\\README.md",
-      "size_bytes": 92,
-      "title": "AI Self Reviews"
-    },
-    {
-      "folder": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\ai_scorecards",
-      "modified": "2026-05-02T22:54:43",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\ai_scorecards\\README.md",
-      "size_bytes": 97,
-      "title": "AI Scorecards"
-    },
-    {
-      "folder": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\hallucination_risk_logs",
-      "modified": "2026-05-02T22:54:43",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\hallucination_risk_logs\\README.md",
-      "size_bytes": 108,
-      "title": "Hallucination Risk Logs"
-    },
-    {
-      "folder": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\claim_evidence_matrices",
-      "modified": "2026-05-02T22:54:43",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\claim_evidence_matrices\\README.md",
-      "size_bytes": 108,
-      "title": "Claim Evidence Matrices"
-    },
-    {
-      "folder": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\quality_gate_failures",
-      "modified": "2026-05-02T22:54:43",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\quality_gate_failures\\README.md",
-      "size_bytes": 104,
-      "title": "Quality Gate Failures"
-    },
-    {
-      "folder": "04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\uncertainty_logs",
-      "modified": "2026-05-02T22:54:43",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\history\\uncertainty_logs\\README.md",
-      "size_bytes": 94,
-      "title": "Uncertainty Logs"
-    },
-    {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews",
       "modified": "2026-05-06T22:28:44",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews\\2026-05-06_critical_routing_self_review.md",
@@ -3634,6 +3627,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews\\2026-05-07_stage_3_usb_blocked_self_review.md",
       "size_bytes": 298,
       "title": "AI Self Review - Stage 3 USB Blocked"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews",
+      "modified": "2026-05-08T13:18:07",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews\\2026-05-08_final_pcb_visual_review_package_ai_self_review.md",
+      "size_bytes": 880,
+      "title": "AI Self Review - Final PCB Visual Review Package"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews",
@@ -3973,6 +3973,13 @@
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards",
+      "modified": "2026-05-08T13:18:07",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards\\2026-05-08_final_pcb_visual_review_package_scorecard.md",
+      "size_bytes": 460,
+      "title": "AI Response Scorecard - Final PCB Visual Review Package"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards",
       "modified": "2026-05-08T13:04:11",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards\\2026-05-08_final_trace_by_trace_audit_scorecard.md",
       "size_bytes": 572,
@@ -4309,6 +4316,13 @@
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs",
+      "modified": "2026-05-08T13:18:07",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs\\2026-05-08_final_pcb_visual_review_package_hallucination_risk_log.md",
+      "size_bytes": 592,
+      "title": "Hallucination Risk Log - Final PCB Visual Review Package"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs",
       "modified": "2026-05-08T13:04:11",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs\\2026-05-08_final_trace_by_trace_audit_hallucination_risk_log.md",
       "size_bytes": 401,
@@ -4642,6 +4656,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices\\2026-05-07_stage_3_usb_blocked_claims.md",
       "size_bytes": 826,
       "title": "Claim Evidence Matrix - Stage 3 USB Blocked"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices",
+      "modified": "2026-05-08T13:18:07",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices\\2026-05-08_final_pcb_visual_review_package_claim_evidence_matrix.md",
+      "size_bytes": 1159,
+      "title": "Claim Evidence Matrix - Final PCB Visual Review Package"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices",
@@ -5209,6 +5230,13 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-07_stage_3_usb_blocked_uncertainty.md",
       "size_bytes": 349,
       "title": "Uncertainty Log - Stage 3 USB Blocked"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs",
+      "modified": "2026-05-08T13:18:07",
+      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-08_final_pcb_visual_review_package_uncertainty_log.md",
+      "size_bytes": 548,
+      "title": "Uncertainty Log - Final PCB Visual Review Package"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs",

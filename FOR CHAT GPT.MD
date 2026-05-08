@@ -1035,6 +1035,17 @@ COMMAND LINK lessons have been added to memory as evidence-backed observations o
 - `02_HISTORY\sessions\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT_SESSION.md`
 - `02_HISTORY\command_logs\COMMAND_LINK_FINAL_FAB_READINESS_AUDIT_COMMANDS.md`
 - `02_HISTORY\sessions\ESP32_CSI_WIFI_NODE_WORKSPACE_CREATED.md`
+- `05_OUTPUTS\release_readiness\GITHUB_PUSH_PLAN.md`
+- `05_OUTPUTS\release_readiness\GITHUB_PUSH_FILE_INCLUDE_EXCLUDE_AUDIT.md`
+- `05_OUTPUTS\release_readiness\GITHUB_PUSH_SECURITY_SCAN.md`
+- `05_OUTPUTS\release_readiness\GITHUB_PUSH_REPORT.md`
+- `02_HISTORY\sessions\GITHUB_REPO_PUSH_SESSION.md`
+- `02_HISTORY\command_logs\GITHUB_REPO_PUSH_COMMANDS.md`
+- Repo publication status:
+  - Local git initialized on `main`
+  - Private remote created at `https://github.com/swayerloren/KICAD_ENGINE.git`
+  - Initial workspace commit pushed on `2026-05-08`
+  - Public release remains blocked by `PUBLIC_RELEASE_CHECKLIST.md` and `21_LICENSE_ATTRIBUTION\LICENSE_AUDIT.md`
 
 ## When to update this file
 

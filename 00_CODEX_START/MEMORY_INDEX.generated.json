@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T13:18:17",
-  "record_count": 60,
+  "generated": "2026-05-08T14:06:43",
+  "record_count": 47,
   "records": [
     {
       "modified": "2026-05-03T00:29:49",
@@ -73,10 +73,10 @@
       "title": "Global Hallucination Risks"
     },
     {
-      "modified": "2026-04-30T14:41:21",
+      "modified": "2026-05-08T14:06:06",
       "name": "GLOBAL_MEMORY.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\GLOBAL_MEMORY.md",
-      "size_bytes": 1513,
+      "size_bytes": 1940,
       "title": "Global Memory"
     },
     {
@@ -162,97 +162,6 @@
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\01_MEMORY\\VERIFIED_WORKFLOWS.md",
       "size_bytes": 7200,
       "title": "Verified Workflows"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "AGENT_MISTAKES_TO_AVOID.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\AGENT_MISTAKES_TO_AVOID.md",
-      "size_bytes": 492,
-      "title": "Agent Mistakes To Avoid"
-    },
-    {
-      "modified": "2026-05-02T22:54:43",
-      "name": "AI_RELIABILITY_MEMORY.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\AI_RELIABILITY_MEMORY.md",
-      "size_bytes": 368,
-      "title": "AI Reliability Memory"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "COMPONENT_DECISIONS.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\COMPONENT_DECISIONS.md",
-      "size_bytes": 399,
-      "title": "Component Decisions"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "DATASHEET_DECISIONS.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\DATASHEET_DECISIONS.md",
-      "size_bytes": 372,
-      "title": "Datasheet Decisions"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "DESIGN_RULES.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\DESIGN_RULES.md",
-      "size_bytes": 387,
-      "title": "Project Design Rules"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "FOOTPRINT_DECISIONS.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\FOOTPRINT_DECISIONS.md",
-      "size_bytes": 384,
-      "title": "Footprint Decisions"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "MEMORY_UPDATE_RULES.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\MEMORY_UPDATE_RULES.md",
-      "size_bytes": 537,
-      "title": "Project Memory Update Rules"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "OPEN_DESIGN_RISKS.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\OPEN_DESIGN_RISKS.md",
-      "size_bytes": 386,
-      "title": "Open Design Risks"
-    },
-    {
-      "modified": "2026-05-02T22:54:43",
-      "name": "PROJECT_HALLUCINATION_RISKS.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_HALLUCINATION_RISKS.md",
-      "size_bytes": 338,
-      "title": "Project Hallucination Risks"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "PROJECT_MEMORY.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_MEMORY.md",
-      "size_bytes": 951,
-      "title": "COMMAND_LINK_VERIFIED_REFERENCE Project Memory"
-    },
-    {
-      "modified": "2026-05-02T22:54:43",
-      "name": "PROJECT_QUALITY_GATE_RULES.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_QUALITY_GATE_RULES.md",
-      "size_bytes": 359,
-      "title": "Project Quality Gate Rules"
-    },
-    {
-      "modified": "2026-05-02T22:54:43",
-      "name": "PROJECT_UNVERIFIED_CLAIMS.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\PROJECT_UNVERIFIED_CLAIMS.md",
-      "size_bytes": 331,
-      "title": "Project Unverified Claims"
-    },
-    {
-      "modified": "2026-05-02T22:42:31",
-      "name": "USER_CORRECTIONS.md",
-      "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\COMMAND_LINK_VERIFIED_REFERENCE\\memory\\USER_CORRECTIONS.md",
-      "size_bytes": 372,
-      "title": "User Corrections"
     },
     {
       "modified": "2026-05-02T22:42:31",
@@ -367,10 +276,10 @@
       "title": "Project Hallucination Risks"
     },
     {
-      "modified": "2026-05-08T13:18:07",
+      "modified": "2026-05-08T14:06:06",
       "name": "PROJECT_MEMORY.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROJECT_MEMORY.md",
-      "size_bytes": 8114,
+      "size_bytes": 8320,
       "title": "ESP32_CSI_WIFI_NODE Project Memory"
     },
     {
@@ -395,10 +304,10 @@
       "title": "Project Unverified Claims"
     },
     {
-      "modified": "2026-05-08T13:18:17",
+      "modified": "2026-05-08T14:06:43",
       "name": "PROMPT_COUNTER.md",
       "path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROMPT_COUNTER.md",
-      "size_bytes": 644,
+      "size_bytes": 656,
       "title": "Prompt Counter"
     },
     {

@@ -1,7 +1,7 @@
 # Generated AI Quality Index
 
-Generated: `2026-05-08T13:04:25`
-Record count: `783`
+Generated: `2026-05-08T14:06:44`
+Record count: `787`
 
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260502_230004_AI_quality_gate_setup_self_review.md` - AI quality gate setup self review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SELF_REVIEW.md` - AI Self-Review: Schematic Annotation/Completeness Checkers
@@ -41,6 +41,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Production Fix Pass
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE Real-World Failure Review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_SELF_REVIEW.md` - AI Self Review
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\20260508_140404_GITHUB_REPO_PUSH_SELF_REVIEW.md` - AI Self Review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md` - Accuracy Engine And AI Quality Setup AI Self-Review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\AUTO_PCB_START_WORKFLOW_SELF_REVIEW.md` - AUTO_PCB_START_WORKFLOW_SELF_REVIEW
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_self_reviews\AUTO_PLACEMENT_ENGINE_SELF_REVIEW.md` - AUTO_PLACEMENT_ENGINE_SELF_REVIEW
@@ -137,6 +138,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Production Fix Pass
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Real-World Failure Review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_SCORECARD.md` - AI Response Scorecard
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\20260508_140404_GITHUB_REPO_PUSH_SCORECARD.md` - AI Response Scorecard
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md` - Accuracy Engine And AI Quality Setup Scorecard
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD.md` - AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\ai_scorecards\AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD.md` - AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD
@@ -232,6 +234,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Production Fix Pass
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Real-World Failure Review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\20260508_140404_GITHUB_REPO_PUSH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md` - Accuracy Engine And AI Quality Setup Hallucination Risk Log
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md` - AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\hallucination_risk_logs\AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG
@@ -326,6 +329,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Production Fix Pass
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_CLAIMS.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Real-World Failure Review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\20260508_140404_GITHUB_REPO_PUSH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Accuracy Engine And AI Quality Setup Claim Evidence Matrix
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\claim_evidence_matrices\AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX
@@ -448,6 +452,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Production Fix Pass
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Real-World Failure Review
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260507_REAL_PROJECT_ROUTING_WORKFLOW_DEFINED_UNCERTAINTY.md` - Uncertainty Log
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\20260508_140404_GITHUB_REPO_PUSH_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md` - Accuracy Engine And AI Quality Setup Uncertainty Log
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md` - AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG.md` - AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG
@@ -506,12 +511,6 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SUPPLIER_INGESTION_SYSTEM_REVALIDATION_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Ingestion System Revalidation
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\SUPPLIER_INGESTION_SYSTEM_UNCERTAINTY_LOG.md` - Uncertainty Log: Supplier Ingestion System
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\02_HISTORY\uncertainty_logs\TEST_EXAMPLES_BENCHMARKS_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Test Examples Benchmarks Setup
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\ai_self_reviews\README.md` - AI Self Reviews
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\ai_scorecards\README.md` - AI Scorecards
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\hallucination_risk_logs\README.md` - Hallucination Risk Logs
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\claim_evidence_matrices\README.md` - Claim Evidence Matrices
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\quality_gate_failures\README.md` - Quality Gate Failures
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE\history\uncertainty_logs\README.md` - Uncertainty Logs
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_critical_routing_self_review.md` - AI Self Review - Critical Routing
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_final_pcb_audit_self_review.md` - AI Self Review - Final PCB Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-06_full_routing_self_review.md` - AI Self Review - Full Routing
@@ -522,6 +521,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_live_pcb_truth_audit_self_review.md` - AI Self Review - Live PCB Truth Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_stage_1_2_cleanup_self_review.md` - AI Self Review - Stage 1/2 Cleanup
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-07_stage_3_usb_blocked_self_review.md` - AI Self Review - Stage 3 USB Blocked
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_final_pcb_visual_review_package_ai_self_review.md` - AI Self Review - Final PCB Visual Review Package
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_final_trace_by_trace_audit_ai_self_review.md` - AI Self Review: Final Trace By Trace Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_03_usb_control_routing_self_review.md` - AI Self Review: PCB Batch 03 USB Control Routing
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_self_reviews\2026-05-08_pcb_batch_04_control_net_routing_self_review.md` - AI Self Review
@@ -570,6 +570,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_live_pcb_truth_audit_scorecard.md` - AI Response Scorecard - Live PCB Truth Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_stage_1_2_cleanup_scorecard.md` - AI Response Scorecard - Stage 1/2 Cleanup
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-07_stage_3_usb_blocked_scorecard.md` - AI Response Scorecard - Stage 3 USB Blocked
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_final_pcb_visual_review_package_scorecard.md` - AI Response Scorecard - Final PCB Visual Review Package
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_final_trace_by_trace_audit_scorecard.md` - AI Response Scorecard: Final Trace By Trace Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_03_usb_control_routing_scorecard.md` - AI Scorecard: PCB Batch 03 USB Control Routing
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\ai_scorecards\2026-05-08_pcb_batch_04_control_net_routing_scorecard.md` - AI Response Scorecard
@@ -618,6 +619,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_existing_trace_audit_hallucination_risk.md` - Hallucination Risk Log - Existing Trace Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_live_pcb_truth_audit_hallucination_risk.md` - Hallucination Risk Log - Live PCB Truth Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-07_stage_1_2_cleanup_hallucination_risk.md` - Hallucination Risk Log - Stage 1/2 Cleanup
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_final_pcb_visual_review_package_hallucination_risk_log.md` - Hallucination Risk Log - Final PCB Visual Review Package
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_final_trace_by_trace_audit_hallucination_risk_log.md` - Hallucination Risk Log: Final Trace By Trace Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_03_usb_control_routing_hallucination_risk.md` - Hallucination Risk Log: PCB Batch 03 USB Control Routing
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\hallucination_risk_logs\2026-05-08_pcb_batch_04_control_net_routing_hallucination_risk.md` - Hallucination Risk Log
@@ -666,6 +668,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_live_pcb_truth_audit_claims.md` - Claim Evidence Matrix - Live PCB Truth Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_stage_1_2_cleanup_claims.md` - Claim Evidence Matrix - Stage 1/2 Cleanup
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-07_stage_3_usb_blocked_claims.md` - Claim Evidence Matrix - Stage 3 USB Blocked
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_final_pcb_visual_review_package_claim_evidence_matrix.md` - Claim Evidence Matrix - Final PCB Visual Review Package
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_final_trace_by_trace_audit_claim_evidence_matrix.md` - Claim Evidence Matrix: Final Trace By Trace Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_03_usb_control_routing_claims.md` - Claim Evidence Matrix: PCB Batch 03 USB Control Routing
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\claim_evidence_matrices\2026-05-08_pcb_batch_04_control_net_routing_claims.md` - Claim Evidence Matrix
@@ -747,6 +750,7 @@ Record count: `783`
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_live_pcb_truth_audit_uncertainty.md` - Uncertainty Log - Live PCB Truth Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_1_2_cleanup_uncertainty.md` - Uncertainty Log - Stage 1/2 Cleanup
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_3_usb_blocked_uncertainty.md` - Uncertainty Log - Stage 3 USB Blocked
+- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_pcb_visual_review_package_uncertainty_log.md` - Uncertainty Log - Final PCB Visual Review Package
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_trace_by_trace_audit_uncertainty_log.md` - Uncertainty Log: Final Trace By Trace Audit
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_03_usb_control_routing_uncertainty.md` - Uncertainty Log: PCB Batch 03 USB Control Routing
 - `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_batch_04_control_net_routing_uncertainty.md` - Uncertainty Log

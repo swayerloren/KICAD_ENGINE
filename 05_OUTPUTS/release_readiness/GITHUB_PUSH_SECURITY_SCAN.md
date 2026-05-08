@@ -86,6 +86,7 @@ Ignored large-file examples:
 - Push blocked by `.env` files: `NO`
 - Push blocked by lock files: `NO`, because they are ignored
 - Push blocked by large files: `NO`, because they are ignored
+- Private push executed after scan: `YES`
 
 ## Remaining Caution
 

@@ -1,6 +1,6 @@
 # GitHub Push File Include Exclude Audit
 
-Status: `ACTIVE_AUDIT`
+Status: `COMPLETED_FOR_PRIVATE_PUSH`
 
 Date: `2026-05-08`
 
@@ -90,6 +90,7 @@ Existing ignored binary/manufacturing/document artifact extensions:
 
 - Untracked entries before staging: `272`
 - Ignored entries before staging: `199`
+- Files staged into the initial commit: `8981`
 
 ## Public Release Note
 
