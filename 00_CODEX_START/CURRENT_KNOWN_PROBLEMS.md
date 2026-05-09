@@ -2,7 +2,7 @@
 
 Status: `AUTO_BUILT`
 
-Generated: `2026-05-08T19:18:47`
+Generated: `2026-05-09T07:48:35`
 
 This startup file summarizes risk signals so the next AI agent sees what not to repeat.
 
@@ -56,7 +56,6 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\known_agent_mistakes\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint
 - `02_HISTORY\known_agent_mistakes\BARREL_JACK_ORIENTATION_CONFUSION.md` - Barrel Jack Orientation Confusion
 - `02_HISTORY\known_agent_mistakes\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md` - Crude 90-Degree Scripted Routing
-- `02_HISTORY\hallucination_risk_logs\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\20260508_155333_PLACEMENT_READINESS_SCORING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY\hallucination_risk_logs\20260508_161753_STAGED_ROUTING_RUNNER_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
@@ -76,6 +75,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\hallucination_risk_logs\20260508_190332_ZIP_portability_and_local_toolchain_setup_hallucination_risk_log.md` - ZIP portability and local toolchain setup hallucination risk log
 - `02_HISTORY\hallucination_risk_logs\20260508_191329_README_identity_rewrite_hallucination_risk_log.md` - README identity rewrite hallucination risk log
 - `02_HISTORY\hallucination_risk_logs\20260508_191746_README_front_page_refocus_hallucination_risk_log.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260509_074638_ROUTING_WORK_GIT_CLEANUP_HALLUCINATION_RISK.md` - Hallucination Risk Log
 - `02_HISTORY\quality_gate_failures\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Quality Gate Failure: Playwright Batch Live Capture Blocked
 - `02_HISTORY\quality_gate_failures\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md` - Quality Gate Failure: Public Release Remains Blocked
 - `02_HISTORY\quality_gate_failures\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md` - Quality Gate Failure - Open KiCad Samples Not Promotion Ready
@@ -96,7 +96,6 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
 - `02_HISTORY\quality_gate_failures\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md` - Quality Gate Failure
-- `02_HISTORY\uncertainty_logs\20260508_163500_GITHUB_REPO_INDEXING_TIGHTEN_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY\uncertainty_logs\20260508_150129_TASK_TYPE_EXECUTION_CONTRACT_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY\uncertainty_logs\20260508_155333_PLACEMENT_READINESS_SCORING_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `02_HISTORY\uncertainty_logs\20260508_161753_STAGED_ROUTING_RUNNER_UNCERTAINTY_LOG.md` - Uncertainty Log
@@ -116,6 +115,7 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\uncertainty_logs\20260508_190331_ZIP_portability_and_local_toolchain_setup_uncertainty_log.md` - ZIP portability and local toolchain setup uncertainty log
 - `02_HISTORY\uncertainty_logs\20260508_191329_README_identity_rewrite_uncertainty_log.md` - README identity rewrite uncertainty log
 - `02_HISTORY\uncertainty_logs\20260508_191746_README_front_page_refocus_uncertainty_log.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260509_074638_ROUTING_WORK_GIT_CLEANUP_UNCERTAINTY.md` - Uncertainty Log
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims

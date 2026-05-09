@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T19:18:39",
+  "generated_at": "2026-05-09T07:48:35",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -412,6 +412,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260508_ROUTING_GEOMETRY_HARD_FAIL_SCORECARD.md",
       "title": "AI Response Scorecard - Routing Geometry Hard Fail",
       "size_bytes": 679,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_SCORECARD.md",
+      "title": "AI Response Scorecard",
+      "size_bytes": 445,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1242,6 +1249,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_SELF_REVIEW.md",
+      "title": "AI Self Review",
+      "size_bytes": 885,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md",
       "title": "Accuracy Engine And AI Quality Setup AI Self-Review",
       "size_bytes": 752,
@@ -2064,6 +2078,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260508_ROUTING_GEOMETRY_HARD_FAIL_CLAIM_EVIDENCE_MATRIX.md",
       "title": "Claim / Evidence Matrix - Routing Geometry Hard Fail",
       "size_bytes": 1067,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_CLAIM_EVIDENCE.md",
+      "title": "Claim Evidence Matrix",
+      "size_bytes": 852,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3772,6 +3793,13 @@
       "path": "02_HISTORY\\command_logs\\ROUTING_GEOMETRY_HARD_FAIL_COMMANDS.md",
       "title": "Routing Geometry Hard Fail Commands",
       "size_bytes": 3040,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\ROUTING_WORK_GIT_CLEANUP_COMMANDS.md",
+      "title": "Routing Work Git Cleanup Commands",
+      "size_bytes": 1473,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -5785,6 +5813,13 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log",
+      "size_bytes": 376,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "title": "Accuracy Engine And AI Quality Setup Hallucination Risk Log",
       "size_bytes": 721,
@@ -6662,7 +6697,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 244400,
+      "size_bytes": 245202,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -8515,6 +8550,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\ROUTING_WORK_GIT_CLEANUP_SESSION.md",
+      "title": "Routing Work Git Cleanup Session",
+      "size_bytes": 1422,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\SAMPLE_PIPELINE_FIX_SESSION.md",
       "title": "Sample Pipeline Fix Session",
       "size_bytes": 2695,
@@ -9155,6 +9197,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md",
       "title": "Uncertainty Log - Routing Geometry Hard Fail",
       "size_bytes": 541,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_UNCERTAINTY.md",
+      "title": "Uncertainty Log",
+      "size_bytes": 337,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

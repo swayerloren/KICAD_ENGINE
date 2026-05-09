@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-08T19:18:44",
-  "record_count": 892,
+  "generated": "2026-05-09T07:48:37",
+  "record_count": 897,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -414,6 +414,13 @@
       "path": "02_HISTORY/ai_self_reviews/20260508_ROUTING_GEOMETRY_HARD_FAIL_SELF_REVIEW.md",
       "size_bytes": 663,
       "title": "AI Self Review - Routing Geometry Hard Fail"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-09T07:48:06",
+      "path": "02_HISTORY/ai_self_reviews/20260509_074638_ROUTING_WORK_GIT_CLEANUP_SELF_REVIEW.md",
+      "size_bytes": 885,
+      "title": "AI Self Review"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1243,6 +1250,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-09T07:48:06",
+      "path": "02_HISTORY/ai_scorecards/20260509_074638_ROUTING_WORK_GIT_CLEANUP_SCORECARD.md",
+      "size_bytes": 445,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-02T23:43:58",
       "path": "02_HISTORY/ai_scorecards/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md",
       "size_bytes": 1101,
@@ -2062,6 +2076,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-09T07:48:06",
+      "path": "02_HISTORY/hallucination_risk_logs/20260509_074638_ROUTING_WORK_GIT_CLEANUP_HALLUCINATION_RISK.md",
+      "size_bytes": 376,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/hallucination_risk_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 721,
@@ -2871,6 +2892,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/20260508_ROUTING_GEOMETRY_HARD_FAIL_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1067,
       "title": "Claim / Evidence Matrix - Routing Geometry Hard Fail"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-09T07:48:06",
+      "path": "02_HISTORY/claim_evidence_matrices/20260509_074638_ROUTING_WORK_GIT_CLEANUP_CLAIM_EVIDENCE.md",
+      "size_bytes": 852,
+      "title": "Claim Evidence Matrix"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3879,6 +3907,13 @@
       "path": "02_HISTORY/uncertainty_logs/20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md",
       "size_bytes": 541,
       "title": "Uncertainty Log - Routing Geometry Hard Fail"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-09T07:48:06",
+      "path": "02_HISTORY/uncertainty_logs/20260509_074638_ROUTING_WORK_GIT_CLEANUP_UNCERTAINTY.md",
+      "size_bytes": 337,
+      "title": "Uncertainty Log"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

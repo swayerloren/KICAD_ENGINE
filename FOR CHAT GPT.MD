@@ -8,6 +8,15 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Latest routing_work portability cleanup - 2026-05-09
+
+The large tracked scratch payload under `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/routing_work/20260508_091428` was removed from Git tracking so portable GitHub ZIP users do not inherit copied routing-trial boards and rehearsal DRC payloads.
+
+- `routing_work` is now placeholder-only in Git by policy
+- keep `routing_work/README.md` tracked
+- treat timestamped `routing_work` folders as local generated scratch space
+- do not recommit copied `.kicad_pcb`, `.kicad_pro`, `.kicad_prl`, DRC scratch JSON, or broad route-trial trees unless a small sanitized evidence subset is intentionally approved
+
 ## Latest GitHub front-page identity rewrite - 2026-05-08
 
 The GitHub-facing front-door docs now present `KiCad Engine` as the general product and workflow engine, not as a repo whose identity is the current `ESP32_CSI_WIFI_NODE` board.
