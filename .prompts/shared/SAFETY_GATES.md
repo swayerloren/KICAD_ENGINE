@@ -12,12 +12,13 @@ Read these before touching KiCad project files:
 4. `00_CODEX_START/WORKFLOW_RULES.md`
 5. `00_CODEX_START/SAFETY_RULES.md`
 6. `00_CODEX_START/CONTROL_PLANES.md`
-7. `00_CODEX_START/REPO_MAP.md`
-8. `00_CODEX_START/TOOL_INDEX.md`
-9. `00_CODEX_START/MEMORY_INDEX.md`
-10. `00_CODEX_START/HISTORY_INDEX.md`
-11. `00_CODEX_START/PROJECT_INDEX.md`
-12. `00_CODEX_START/CURRENT_PROJECT.md`
+7. `00_CODEX_START/PATH_PORTABILITY_RULES.md`
+8. `00_CODEX_START/REPO_MAP.md`
+9. `00_CODEX_START/TOOL_INDEX.md`
+10. `00_CODEX_START/MEMORY_INDEX.md`
+11. `00_CODEX_START/HISTORY_INDEX.md`
+12. `00_CODEX_START/PROJECT_INDEX.md`
+13. `00_CODEX_START/CURRENT_PROJECT.md`
 
 Then read relevant memory and history for the target project or task.
 
@@ -70,3 +71,5 @@ Use precise status language:
 - `FAB_READY_BY_USER_APPROVAL`
 
 Never collapse one passing check into full approval.
+
+Historical reports, generated indexes, and archived review packets may contain old absolute machine paths. Use repo-relative paths and live discovery for current work.

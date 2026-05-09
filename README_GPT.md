@@ -4,6 +4,8 @@ This file is the high-level context handoff for ChatGPT, Codex, and future AI ag
 
 Historical records may still mention an older non-GitHub checkout path. Treat older absolute paths as historical unless a current file explicitly proves the path exists and the user selects it. For new work, prefer repo-relative paths or the current checkout path above.
 
+Latest historical-path portability clarification, 2026-05-09: many tracked reports, review packets, sample-intake artifacts, and generated evidence files still preserve original machine-local absolute paths. Those records remain valuable as evidence, but they are not current setup truth. Future startup and onboarding must use repo-relative paths, `docs/PATH_PORTABILITY.md`, `00_CODEX_START/PATH_PORTABILITY_RULES.md`, `python health_check.py --no-write`, and live KiCad discovery on the current machine.
+
 Latest tool-index portability clarification, 2026-05-09: `00_CODEX_START\TOOL_INDEX.md` remains in place for internal/local inventory, but it is now explicitly labeled as machine-specific and must not be used as portable setup truth. Future startup and onboarding should treat root `TOOLS_INDEX.md`, `03_TOOLS\TOOLS_INDEX.md`, `EXTERNAL_DEPENDENCIES.md`, `LOCAL_SETUP_REQUIREMENTS.md`, `docs\HEALTH_CHECK.md`, and live results from `python health_check.py --no-write` as the portable tool source of truth.
 
 Latest KiCad library index portability cleanup, 2026-05-09: the generated payloads under `03_TOOLS\kicad_library_intelligence\GENERATED_INDEXES` are now placeholder-only in Git. The tracked JSON and Markdown inventories were removed from Git tracking because they capture machine-local KiCad install roots, library-table paths, and candidate outputs that are not portable repo truth. Keep only `GENERATED_INDEXES\README.md` tracked, regenerate the indexes locally on the current machine when needed, and do not treat old generated paths or counts as current library truth.
@@ -162,7 +164,7 @@ Exceptions must be logged with affected gate, user approval evidence, reason, ri
 - Purpose: Workspace-local Codex configuration and reusable prompt files.
 - Belongs there: `.codex\config.toml`, `.codex\prompts\*.md`.
 - Does not belong there: Secrets, project design files, generated manufacturing packages, third-party source repos.
-- Codex edit policy: Editable only when explicitly requested. Back up config before changing MCP settings. Do not change global `C:\Users\LJ\.codex\config.toml` unless explicitly requested.
+- Codex edit policy: Editable only when explicitly requested. Back up config before changing MCP settings. Do not change the user's global Codex config outside this repo unless explicitly requested.
 
 ### `.vscode`
 
@@ -811,16 +813,16 @@ The Linux scripts are read-only checks/listing scripts. They contain no `sudo`, 
 
 Workspace-local MCP configuration is in:
 
-`C:\Users\LJ\GitHub\KICAD_ENGINE\.codex\config.toml`
+`.codex\config.toml`
 
 Configured server:
 
 - Name: `kicad_mcp_pro_analysis`
-- Command: `C:\Users\LJ\GitHub\KICAD_ENGINE\03_TOOLS\python_envs\kicad-mcp-pro\Scripts\kicad-mcp-pro.exe`
+- Command: `03_TOOLS\python_envs\kicad-mcp-pro\Scripts\kicad-mcp-pro.exe`
 - Args: `serve --transport stdio --profile analysis`
-- Workspace root: `C:\Users\LJ\GitHub\KICAD_ENGINE`
-- Project dir: `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active`
-- Output dir: `C:\Users\LJ\GitHub\KICAD_ENGINE\05_OUTPUTS\kicad-mcp-pro-analysis`
+- Workspace root: `<LOCAL_CHECKOUT>\KICAD_ENGINE`
+- Project dir: `04_KICAD_PROJECTS\active`
+- Output dir: `05_OUTPUTS\kicad-mcp-pro-analysis`
 - KiCad CLI: `C:\Program Files\KiCad\9.0\bin\kicad-cli.exe`
 
 MCP is analysis/safe mode only. Do not enable write, destructive, or manufacturing/export authority unless LJ explicitly approves it for a specific active project after backups and verification plans are confirmed. Do not enable parallel MCP calls until shared KiCad project-state safety is validated.
@@ -829,7 +831,7 @@ No real project edits are allowed through MCP until active project and backup ga
 
 ## 9. Verification scripts
 
-Scripts are in `C:\Users\LJ\GitHub\KICAD_ENGINE\03_TOOLS\scripts`. They should use quoted paths, fail safely, create timestamped outputs, write logs, avoid deleting source files, and return non-zero exit codes on failure.
+Scripts are in `03_TOOLS\scripts`. They should use quoted paths, fail safely, create timestamped outputs, write logs, avoid deleting source files, and return non-zero exit codes on failure.
 
 ### `find_kicad_project_files.ps1`
 
@@ -912,20 +914,20 @@ Scripts are in `C:\Users\LJ\GitHub\KICAD_ENGINE\03_TOOLS\scripts`. They should u
 
 New projects go in:
 
-`C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active`
+`04_KICAD_PROJECTS\active`
 
 Standard templates live in:
 
-`C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\templates`
+`04_KICAD_PROJECTS\templates`
 
 Finished PCB reference review templates:
 
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\templates\FINISHED_PCB_REVIEW_CHECKLIST.md`
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\templates\REFERENCE_PROJECT_FOLDER_STANDARD.md`
+- `04_KICAD_PROJECTS\templates\FINISHED_PCB_REVIEW_CHECKLIST.md`
+- `04_KICAD_PROJECTS\templates\REFERENCE_PROJECT_FOLDER_STANDARD.md`
 
 Before creating a real project, use:
 
-`C:\Users\LJ\GitHub\KICAD_ENGINE\.prompts\codex\02_CREATE_NEW_PROJECT_WORKSPACE.md`
+`.prompts\codex\02_CREATE_NEW_PROJECT_WORKSPACE.md`
 
 Legacy prompt path, if still present:
 
@@ -971,7 +973,7 @@ Status:
 
 Copied review workspace:
 
-- `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE`
+- `04_KICAD_PROJECTS\active\COMMAND_LINK_VERIFIED_REFERENCE`
 - Created for read-only Codex review and learning.
 - Not an active design revision.
 - Any design changes must be made in a new revision copy, not in the original finished PCB folder or this reference copy.

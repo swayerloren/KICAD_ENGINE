@@ -4,18 +4,21 @@ You are working in your local `KICAD_ENGINE` repo root from VS Code.
 
 ## Read First
 
-Read `AGENTS.md`, `.prompts/shared/SAFETY_GATES.md`, `00_CODEX_START/START_HERE.md`, `00_CODEX_START/CONTROL_PLANES.md`, `00_CODEX_START/KICAD_SAFE_AUTOMATION_RULES.md`, and `03_TOOLS/kicad_app_intelligence/KICAD_DO_NOT_TOUCH_RULES.md`.
+Read `AGENTS.md`, `.prompts/shared/SAFETY_GATES.md`, `00_CODEX_START/START_HERE.md`, `00_CODEX_START/PATH_PORTABILITY_RULES.md`, `00_CODEX_START/CONTROL_PLANES.md`, `00_CODEX_START/KICAD_SAFE_AUTOMATION_RULES.md`, and `03_TOOLS/kicad_app_intelligence/KICAD_DO_NOT_TOUCH_RULES.md`.
 
 ## Goal
 
-Audit the installed KiCad app read-only so agents know what the user's local KiCad provides.
+Audit the installed KiCad app read-only so agents know what the current user's local KiCad provides.
+
+Run live discovery first:
+
+- `python health_check.py --no-write`
+- `python 03_TOOLS/scripts/kicad_discovery/find_kicad.py`
 
 Inspect only:
 
-- `C:\Program Files\KiCad\9.0\bin`
-- `C:\Program Files\KiCad\9.0\etc`
-- `C:\Program Files\KiCad\9.0\lib`
-- `C:\Program Files\KiCad\9.0\share`
+- the detected KiCad install root and its `bin`, `etc`, `lib`, and `share` subfolders when present
+- common Windows KiCad 9/8/7 paths under `C:\Program Files\KiCad` only as fallback examples if discovery needs confirmation
 - accessible user-global KiCad config paths, read-only
 
 ## Restrictions
@@ -24,6 +27,7 @@ Inspect only:
 - Do not modify `%APPDATA%\kicad`.
 - Do not edit KiCad project files.
 - Do not install tools.
+- Do not assume `C:\Users\LJ` or any other maintainer-machine path.
 
 ## Expected Work
 

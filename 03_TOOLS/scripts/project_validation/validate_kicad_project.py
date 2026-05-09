@@ -124,8 +124,7 @@ def detect_kicad_cli(explicit: str | None = None, explicit_root: str | None = No
     env_cli = os.environ.get("KICAD_CLI")
     if env_cli:
         candidates.append(Path(env_cli))
-    candidates.append(Path(r"C:\Program Files\KiCad\9.0\bin\kicad-cli.exe"))
-    install_root = Path(r"C:\Program Files\KiCad")
+    install_root = Path(os.environ.get("ProgramFiles", r"C:\Program Files")) / "KiCad"
     if install_root.exists():
         for child in sorted(install_root.iterdir(), key=lambda p: p.name, reverse=True):
             candidates.append(child / "bin" / "kicad-cli.exe")

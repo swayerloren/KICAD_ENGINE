@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-09T08:10:23",
-  "record_count": 907,
+  "generated": "2026-05-09T08:24:16",
+  "record_count": 912,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -435,6 +435,13 @@
       "path": "02_HISTORY/ai_self_reviews/20260509_080910_TOOL_INDEX_PORTABILITY_SELF_REVIEW.md",
       "size_bytes": 368,
       "title": "AI Self Review - Tool Index Portability Fix"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-09T08:23:54",
+      "path": "02_HISTORY/ai_self_reviews/20260509_082145_HISTORICAL_PATHS_PORTABILITY_SELF_REVIEW.md",
+      "size_bytes": 918,
+      "title": "AI Self Review - Historical Paths Portability"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1285,6 +1292,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-09T08:23:54",
+      "path": "02_HISTORY/ai_scorecards/20260509_082145_HISTORICAL_PATHS_PORTABILITY_SCORECARD.md",
+      "size_bytes": 632,
+      "title": "AI Response Scorecard - Historical Paths Portability"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-02T23:43:58",
       "path": "02_HISTORY/ai_scorecards/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md",
       "size_bytes": 1101,
@@ -2125,6 +2139,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-09T08:23:54",
+      "path": "02_HISTORY/hallucination_risk_logs/20260509_082145_HISTORICAL_PATHS_PORTABILITY_HALLUCINATION_RISK.md",
+      "size_bytes": 499,
+      "title": "Hallucination Risk Log - Historical Paths Portability"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/hallucination_risk_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 721,
@@ -2955,6 +2976,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/20260509_080910_TOOL_INDEX_PORTABILITY_CLAIM_EVIDENCE.md",
       "size_bytes": 847,
       "title": "Claim / Evidence Matrix - Tool Index Portability Fix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-09T08:23:54",
+      "path": "02_HISTORY/claim_evidence_matrices/20260509_082145_HISTORICAL_PATHS_PORTABILITY_CLAIM_EVIDENCE.md",
+      "size_bytes": 1127,
+      "title": "Claim Evidence Matrix - Historical Paths Portability"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3984,6 +4012,13 @@
       "path": "02_HISTORY/uncertainty_logs/20260509_080910_TOOL_INDEX_PORTABILITY_UNCERTAINTY.md",
       "size_bytes": 331,
       "title": "Uncertainty Log - Tool Index Portability Fix"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-09T08:23:54",
+      "path": "02_HISTORY/uncertainty_logs/20260509_082145_HISTORICAL_PATHS_PORTABILITY_UNCERTAINTY.md",
+      "size_bytes": 681,
+      "title": "Uncertainty Log - Historical Paths Portability"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",

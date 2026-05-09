@@ -10,17 +10,23 @@ Read these files before auditing:
 
 1. `AGENTS.md`
 2. `00_CODEX_START/START_HERE.md`
-3. `00_CODEX_START/SAFETY_RULES.md`
-4. `00_CODEX_START/CONTROL_PLANES.md`
-5. `00_CODEX_START/KICAD_AGENT_OPERATING_MANUAL.md`
-6. `03_TOOLS/kicad_app_intelligence/KICAD_9_WINDOWS_PATH_MAP.md`
-7. `03_TOOLS/kicad_app_intelligence/KICAD_DO_NOT_TOUCH_RULES.md`
-8. `.prompts/shared/SAFETY_GATES.md`
-9. `.prompts/shared/KICAD_VERIFICATION_STANDARD.md`
+3. `00_CODEX_START/PATH_PORTABILITY_RULES.md`
+4. `00_CODEX_START/SAFETY_RULES.md`
+5. `00_CODEX_START/CONTROL_PLANES.md`
+6. `00_CODEX_START/KICAD_AGENT_OPERATING_MANUAL.md`
+7. `03_TOOLS/kicad_app_intelligence/KICAD_9_WINDOWS_PATH_MAP.md`
+8. `03_TOOLS/kicad_app_intelligence/KICAD_DO_NOT_TOUCH_RULES.md`
+9. `.prompts/shared/SAFETY_GATES.md`
+10. `.prompts/shared/KICAD_VERIFICATION_STANDARD.md`
 
 ## Goal
 
 Audit the user's installed KiCad app with read-only inspection so agents can understand what KiCad provides from VS Code.
+
+Run live discovery first:
+
+- `python health_check.py --no-write`
+- `python 03_TOOLS/scripts/kicad_discovery/find_kicad.py`
 
 ## Universal Requirements
 
@@ -34,12 +40,9 @@ Audit the user's installed KiCad app with read-only inspection so agents can und
 
 ## Audit Targets
 
-Inspect likely KiCad install paths read-only:
+Inspect the detected KiCad install root read-only, including `bin`, `etc`, `lib`, and `share` when present.
 
-- `C:\Program Files\KiCad\9.0\bin`
-- `C:\Program Files\KiCad\9.0\etc`
-- `C:\Program Files\KiCad\9.0\lib`
-- `C:\Program Files\KiCad\9.0\share`
+If discovery needs fallback confirmation, common Windows KiCad roots under `C:\Program Files\KiCad` are examples only, not guaranteed current-machine truth.
 
 Also inspect known user/global KiCad config paths read-only if accessible.
 

@@ -1,0 +1,48 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Document that historical absolute local paths are preserved as evidence, harden current startup/docs/prompts for repo-relative work, and remove remaining fixed-path assumptions from live portability helpers.",
+  "project_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE",
+  "target_pcb": "",
+  "changed_files": [
+    "00_CODEX_START/PATH_PORTABILITY_RULES.md",
+    "00_CODEX_START/START_HERE.md",
+    "README.md",
+    "ONE_PROMPT_START.md",
+    "docs/PATH_PORTABILITY.md",
+    ".prompts/shared/SAFETY_GATES.md",
+    ".prompts/codex/01_AUDIT_KICAD_INSTALL.md",
+    ".prompts/claude/01_AUDIT_KICAD_INSTALL.md",
+    "03_TOOLS/scripts/kicad_discovery/README.md",
+    "03_TOOLS/scripts/kicad_app_audit/deep_kicad_folder_inventory.py",
+    "03_TOOLS/scripts/project_validation/validate_kicad_project.py",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "01_MEMORY/GLOBAL_MEMORY.md",
+    "05_OUTPUTS/release_readiness/HISTORICAL_PATHS_PORTABILITY_REPORT.md",
+    "02_HISTORY/sessions/HISTORICAL_PATHS_PORTABILITY_SESSION.md",
+    "02_HISTORY/command_logs/HISTORICAL_PATHS_PORTABILITY_COMMANDS.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": [
+    "No KiCad design files were edited.",
+    "Historical reports were preserved as evidence instead of being rewritten blindly.",
+    "Current startup and onboarding docs now explicitly require repo-relative paths and live discovery on the current machine."
+  ],
+  "evidence": {
+    "backup_created": false,
+    "backup_path": "",
+    "pcb_hash_before": "",
+    "pcb_hash_after": "",
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "drc_report_path": "",
+    "visual_export_attempted": false,
+    "visual_paths": [],
+    "unconnected_before": "",
+    "unconnected_after": "",
+    "unrouted_before": "",
+    "unrouted_after": "",
+    "trace_change_log_updated": false,
+    "placement_report_updated": false
+  }
+}

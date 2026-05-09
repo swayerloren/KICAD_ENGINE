@@ -2,6 +2,8 @@
 
 This is the fastest startup path for using KiCad Engine as a general AI-assisted KiCad workflow repo.
 
+Historical reports may still show original local paths; current work must use repo-relative paths and live discovery.
+
 ## Use It Like This
 
 1. Download the GitHub ZIP or clone the repo.
@@ -23,3 +25,4 @@ You are working inside the KICAD_ENGINE repo. Before doing any work, read README
 - the user may create or bring their own project under `04_KICAD_PROJECTS/active`
 - KiCad itself is installed locally when GUI schematic or PCB work is required
 - `00_CODEX_START/TOOL_INDEX.md` is machine-specific inventory, not portable setup truth
+- historical reports and generated evidence may contain old machine paths and are not current config

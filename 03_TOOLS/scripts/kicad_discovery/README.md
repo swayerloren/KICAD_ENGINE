@@ -38,6 +38,8 @@ Windows install roots currently checked include common KiCad 9, 8, and 7 locatio
 - `C:\Program Files\KiCad\8.0`
 - `C:\Program Files\KiCad\7.0`
 
+These are common discovery examples, not portable assumptions about every user's machine.
+
 ## CI And Codespaces
 
 These scripts do not require KiCad to exist. Missing KiCad should be treated as a warning for docs/script environments and as a failure only when a live KiCad workflow explicitly requires it.

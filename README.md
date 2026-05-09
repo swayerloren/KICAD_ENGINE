@@ -14,6 +14,8 @@ KiCad Engine is a repo you can download, open in VS Code, and give to Codex or C
 
 The repo is the AI-agent operating system for KiCad work. It gives the agent a repeatable workspace, startup rules, task contracts, validation gates, and project structure so it can help with real KiCad projects without depending on hidden local folders or improvised workflow assumptions.
 
+Historical reports may still show original local paths; current work must use repo-relative paths and live discovery on the user's machine.
+
 ## Fast Start: ZIP -> VS Code -> One Prompt
 
 1. Download the repo ZIP from GitHub.
@@ -38,6 +40,7 @@ Useful follow-up docs:
 - [03_TOOLS/TOOLS_INDEX.md](03_TOOLS/TOOLS_INDEX.md)
 - [EXTERNAL_DEPENDENCIES.md](EXTERNAL_DEPENDENCIES.md)
 - [LOCAL_SETUP_REQUIREMENTS.md](LOCAL_SETUP_REQUIREMENTS.md)
+- [docs/PATH_PORTABILITY.md](docs/PATH_PORTABILITY.md)
 - [docs/HEALTH_CHECK.md](docs/HEALTH_CHECK.md)
 
 ## What KiCad Engine Is

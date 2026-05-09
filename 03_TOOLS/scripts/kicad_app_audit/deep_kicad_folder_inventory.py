@@ -59,9 +59,6 @@ def default_platform_name() -> str:
 
 def find_default_kicad_root() -> Path | None:
     if platform.system().lower().startswith("windows"):
-        fixed = Path(r"C:\Program Files\KiCad\9.0")
-        if fixed.exists():
-            return fixed
         program_files = Path(os.environ.get("ProgramFiles", r"C:\Program Files"))
         kicad_root = program_files / "KiCad"
         if kicad_root.exists():

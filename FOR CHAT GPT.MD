@@ -8,6 +8,15 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Latest historical-path portability clarification - 2026-05-09
+
+Many tracked reports, review packets, sample-intake artifacts, and generated evidence files still preserve original machine-local absolute paths.
+
+- treat those paths as preserved evidence, not as current setup truth
+- use repo-relative paths for new work in this checkout
+- use `docs/PATH_PORTABILITY.md` and `00_CODEX_START/PATH_PORTABILITY_RULES.md` for the active rules
+- run `python health_check.py --no-write` and `python 03_TOOLS/scripts/kicad_discovery/find_kicad.py` before trusting local tool assumptions
+
 ## Latest tool-index portability clarification - 2026-05-09
 
 `00_CODEX_START/TOOL_INDEX.md` remains in the startup layer, but it is now explicitly marked as machine-specific local inventory and must not be treated as portable setup truth.
@@ -943,7 +952,7 @@ Tool selection rule: prefer CLI/API/MCP over GUI automation, prefer read-only in
 
 `kicad-mcp-pro` is configured in:
 
-`C:\Users\LJ\GitHub\KICAD_ENGINE\.codex\config.toml`
+`.codex\config.toml`
 
 Current server name: `kicad_mcp_pro_analysis`
 
@@ -954,7 +963,7 @@ Current authority: analysis/safe mode only. Do not enable write, destructive, pa
 From `00_CODEX_START\CURRENT_PROJECT.md`:
 
 - Active project name: `ESP32_CSI_WIFI_NODE`
-- Active project path: `C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE`
+- Active project path: `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE`
 - Current task mode: `ACTIVE_DESIGN_PROJECT_SCHEMATIC_ERC_CLEAN_GATE_FAIL`
 - Current priority: resolve remaining high-risk review blockers before any PCB update.
 
