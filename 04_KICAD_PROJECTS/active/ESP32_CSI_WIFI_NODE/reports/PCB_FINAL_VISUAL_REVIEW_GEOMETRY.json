@@ -1,0 +1,348 @@
+{
+  "right_angle_count": 33,
+  "right_angles": [
+    {
+      "net": "+3V3",
+      "layer": "F.Cu",
+      "point": [
+        38.475,
+        66.55
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        57.0,
+        46.0
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        38.475,
+        63.025
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        21.25,
+        43.05
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        39.825,
+        63.025
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        13.825,
+        43.05
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        13.825,
+        64.0
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        48.0,
+        46.0
+      ]
+    },
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "point": [
+        48.0,
+        63.025
+      ]
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "layer": "F.Cu",
+      "point": [
+        21.95,
+        69.5
+      ]
+    },
+    {
+      "net": "/+5V_PROTECTED",
+      "layer": "F.Cu",
+      "point": [
+        27.863,
+        69.5
+      ]
+    },
+    {
+      "net": "/BOOT0",
+      "layer": "F.Cu",
+      "point": [
+        12.175,
+        68.0
+      ]
+    },
+    {
+      "net": "/BOOT0",
+      "layer": "F.Cu",
+      "point": [
+        5.15,
+        68.0
+      ]
+    },
+    {
+      "net": "/CC2",
+      "layer": "F.Cu",
+      "point": [
+        40.75,
+        84.0
+      ]
+    },
+    {
+      "net": "/CC2",
+      "layer": "F.Cu",
+      "point": [
+        46.825,
+        84.0
+      ]
+    },
+    {
+      "net": "/DM_E",
+      "layer": "B.Cu",
+      "point": [
+        18.0,
+        41.0
+      ]
+    },
+    {
+      "net": "/DM_E",
+      "layer": "B.Cu",
+      "point": [
+        11.0,
+        41.0
+      ]
+    },
+    {
+      "net": "/DM_E",
+      "layer": "B.Cu",
+      "point": [
+        11.0,
+        74.0
+      ]
+    },
+    {
+      "net": "/DM_E",
+      "layer": "B.Cu",
+      "point": [
+        55.0,
+        74.0
+      ]
+    },
+    {
+      "net": "/ESP_EN",
+      "layer": "F.Cu",
+      "point": [
+        13.775,
+        58.5
+      ]
+    },
+    {
+      "net": "/ESP_EN",
+      "layer": "F.Cu",
+      "point": [
+        5.15,
+        58.5
+      ]
+    },
+    {
+      "net": "/SHIELD",
+      "layer": "B.Cu",
+      "point": [
+        43.32,
+        92.4
+      ]
+    },
+    {
+      "net": "/SHIELD",
+      "layer": "B.Cu",
+      "point": [
+        34.68,
+        92.4
+      ]
+    },
+    {
+      "net": "/STATUS_LED",
+      "layer": "B.Cu",
+      "point": [
+        41.0,
+        25.28
+      ]
+    },
+    {
+      "net": "/STATUS_LED",
+      "layer": "B.Cu",
+      "point": [
+        41.0,
+        59.0
+      ]
+    },
+    {
+      "net": "/U0RXD",
+      "layer": "F.Cu",
+      "point": [
+        55.0,
+        64.0
+      ]
+    },
+    {
+      "net": "/U0RXD",
+      "layer": "F.Cu",
+      "point": [
+        42.0,
+        27.82
+      ]
+    },
+    {
+      "net": "/U0RXD",
+      "layer": "F.Cu",
+      "point": [
+        42.0,
+        61.0
+      ]
+    },
+    {
+      "net": "/U0RXD",
+      "layer": "F.Cu",
+      "point": [
+        55.0,
+        61.0
+      ]
+    },
+    {
+      "net": "/U0TXD",
+      "layer": "F.Cu",
+      "point": [
+        49.0,
+        26.55
+      ]
+    },
+    {
+      "net": "/U0TXD",
+      "layer": "F.Cu",
+      "point": [
+        49.0,
+        60.0
+      ]
+    },
+    {
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "layer": "B.Cu",
+      "point": [
+        36.6,
+        86.8
+      ]
+    },
+    {
+      "net": "unconnected-(J2-VBUS-PadA4)",
+      "layer": "B.Cu",
+      "point": [
+        41.4,
+        86.8
+      ]
+    }
+  ],
+  "loop_like_nets": [
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "bbox": [
+        13.825,
+        24.01,
+        57.0,
+        66.55
+      ],
+      "orth_total": 120.84
+    },
+    {
+      "net": "/DM_E",
+      "layer": "B.Cu",
+      "bbox": [
+        11.0,
+        37.98,
+        55.0,
+        74.0
+      ],
+      "orth_total": 89.02
+    },
+    {
+      "net": "/U0RXD",
+      "layer": "F.Cu",
+      "bbox": [
+        38.75,
+        27.82,
+        57.0,
+        64.0
+      ],
+      "orth_total": 54.43
+    }
+  ],
+  "long_non_45_diagonals": [
+    {
+      "net": "+3V3",
+      "layer": "B.Cu",
+      "start": [
+        21.5,
+        43.05
+      ],
+      "end": [
+        26.5,
+        43.225
+      ],
+      "length": 5.003,
+      "angle": 2.0
+    },
+    {
+      "net": "/CC1",
+      "layer": "F.Cu",
+      "start": [
+        37.75,
+        84.8
+      ],
+      "end": [
+        32.325,
+        81.5
+      ],
+      "length": 6.35,
+      "angle": 148.69
+    },
+    {
+      "net": "/SHIELD",
+      "layer": "B.Cu",
+      "start": [
+        43.32,
+        88.22
+      ],
+      "end": [
+        51.825,
+        78.0
+      ],
+      "length": 13.296,
+      "angle": 50.23
+    }
+  ]
+}
