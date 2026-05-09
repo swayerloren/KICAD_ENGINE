@@ -8,6 +8,14 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Latest tool-index portability clarification - 2026-05-09
+
+`00_CODEX_START/TOOL_INDEX.md` remains in the startup layer, but it is now explicitly marked as machine-specific local inventory and must not be treated as portable setup truth.
+
+- portable tool truth lives in root `TOOLS_INDEX.md`, `03_TOOLS/TOOLS_INDEX.md`, `EXTERNAL_DEPENDENCIES.md`, `LOCAL_SETUP_REQUIREMENTS.md`, and `docs/HEALTH_CHECK.md`
+- future startup prompts should run `python health_check.py --no-write` and local discovery scripts before making tool assumptions
+- absolute paths, local venv paths, clone paths, and tool versions inside `00_CODEX_START/TOOL_INDEX.md` are inventory observations from one machine only
+
 ## Latest KiCad library index portability cleanup - 2026-05-09
 
 The generated payloads under `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES` were removed from Git tracking so portable GitHub ZIP users do not inherit machine-local KiCad install/library inventory as if it were portable repo truth.

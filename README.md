@@ -23,7 +23,7 @@ The repo is the AI-agent operating system for KiCad work. It gives the agent a r
 5. Paste this prompt:
 
 ```text
-You are working inside the KICAD_ENGINE repo. Before doing any work, read README.md, ONE_PROMPT_START.md if present, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, and 00_CODEX_START/START_HERE.md. Use repo-relative paths only. Do not assume the original author's local paths. Detect the local KiCad install if needed. Do not edit KiCad schematic or PCB files until you identify the active project, task type, live project state, and validation requirements. For PCB/routing work, obey the routing rules: no 90-degree bends, no acute angles, no ugly zig-zag traces, no bad pad-entry geometry, and no fabrication outputs without human review. Summarize the current repo/project status and ask what task to run next.
+You are working inside the KICAD_ENGINE repo. Before doing any work, read README.md, ONE_PROMPT_START.md if present, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, 03_TOOLS/TOOLS_INDEX.md, EXTERNAL_DEPENDENCIES.md, and 00_CODEX_START/START_HERE.md. Run python health_check.py --no-write if available. Use portable repo docs and live discovery scripts as tool truth. Treat 00_CODEX_START/TOOL_INDEX.md as machine-specific inventory only. Use repo-relative paths only. Do not assume the original author's local paths. Detect the local KiCad install if needed. Do not edit KiCad schematic or PCB files until you identify the active project, task type, live project state, and validation requirements. For PCB/routing work, obey the routing rules: no 90-degree bends, no acute angles, no ugly zig-zag traces, no bad pad-entry geometry, and no fabrication outputs without human review. Summarize the current repo/project status and ask what task to run next.
 ```
 
 Useful follow-up docs:
@@ -35,6 +35,10 @@ Useful follow-up docs:
 - [PROJECTS_INDEX.md](PROJECTS_INDEX.md)
 - [WORKFLOWS_INDEX.md](WORKFLOWS_INDEX.md)
 - [TOOLS_INDEX.md](TOOLS_INDEX.md)
+- [03_TOOLS/TOOLS_INDEX.md](03_TOOLS/TOOLS_INDEX.md)
+- [EXTERNAL_DEPENDENCIES.md](EXTERNAL_DEPENDENCIES.md)
+- [LOCAL_SETUP_REQUIREMENTS.md](LOCAL_SETUP_REQUIREMENTS.md)
+- [docs/HEALTH_CHECK.md](docs/HEALTH_CHECK.md)
 
 ## What KiCad Engine Is
 

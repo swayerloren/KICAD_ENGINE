@@ -44,6 +44,8 @@ Codex and Claude must complete this production startup sequence before touching 
 
 Then read task-specific files such as `CONTROL_PLANES.md`, `TOOL_INDEX.md`, `PROJECT_INDEX.md`, `CURRENT_PROJECT.md`, accuracy-engine files, component-database files, library-factory rules, or installer/release docs as needed.
 
+When reading `00_CODEX_START/TOOL_INDEX.md`, treat it as machine-specific local inventory only. Portable tool truth for startup and setup lives in root `TOOLS_INDEX.md`, `03_TOOLS/TOOLS_INDEX.md`, `EXTERNAL_DEPENDENCIES.md`, `LOCAL_SETUP_REQUIREMENTS.md`, and `docs/HEALTH_CHECK.md`, plus live results from `python health_check.py --no-write`.
+
 For active project work, check the project prompt counter before engineering work:
 
 `python 03_TOOLS/scripts/memory_maintenance/check_maintenance_due.py --project <ACTIVE_PROJECT_PATH>`

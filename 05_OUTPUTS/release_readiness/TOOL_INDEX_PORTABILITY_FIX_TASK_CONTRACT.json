@@ -1,0 +1,43 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Clarify that 00_CODEX_START/TOOL_INDEX.md is machine-specific inventory and point startup flows to portable tool truth and local health checks.",
+  "project_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE",
+  "target_pcb": "",
+  "changed_files": [
+    "00_CODEX_START/TOOL_INDEX.md",
+    "00_CODEX_START/START_HERE.md",
+    "TOOLS_INDEX.md",
+    "03_TOOLS/TOOLS_INDEX.md",
+    "README.md",
+    "ONE_PROMPT_START.md",
+    "01_MEMORY/GLOBAL_MEMORY.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "05_OUTPUTS/release_readiness/TOOL_INDEX_PORTABILITY_FIX_REPORT.md",
+    "02_HISTORY/sessions/TOOL_INDEX_PORTABILITY_FIX_SESSION.md",
+    "02_HISTORY/command_logs/TOOL_INDEX_PORTABILITY_FIX_COMMANDS.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": [
+    "No KiCad design files were edited.",
+    "The repo keeps 00_CODEX_START/TOOL_INDEX.md, but it is now explicitly labeled as machine-specific inventory.",
+    "Portable tool truth remains in root TOOLS_INDEX.md, 03_TOOLS/TOOLS_INDEX.md, EXTERNAL_DEPENDENCIES.md, LOCAL_SETUP_REQUIREMENTS.md, docs/HEALTH_CHECK.md, and live health-check/discovery commands."
+  ],
+  "evidence": {
+    "backup_created": false,
+    "backup_path": "",
+    "pcb_hash_before": "",
+    "pcb_hash_after": "",
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "drc_report_path": "",
+    "visual_export_attempted": false,
+    "visual_paths": [],
+    "unconnected_before": "",
+    "unconnected_after": "",
+    "unrouted_before": "",
+    "unrouted_after": "",
+    "trace_change_log_updated": false,
+    "placement_report_updated": false
+  }
+}

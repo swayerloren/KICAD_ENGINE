@@ -8,6 +8,8 @@ GitHub note: `03_TOOLS/node_envs`, `03_TOOLS/python_envs`, `03_TOOLS/repos`, and
 
 Portability note: a new user should be able to open this repo in VS Code, read the included startup docs, and use the included scripts without first cloning extra helper repos or restoring someone else's private env folders.
 
+Portable tool truth lives here and in the root [TOOLS_INDEX.md](../TOOLS_INDEX.md). Treat `00_CODEX_START/TOOL_INDEX.md` as machine-specific local inventory only.
+
 ## Portability And Setup Tools
 
 | Tool | Run | Effect |

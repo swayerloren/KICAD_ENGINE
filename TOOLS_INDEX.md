@@ -4,7 +4,9 @@ This is the GitHub-facing tool catalog for KiCad Engine.
 
 It describes the main tool layers the repo provides for AI-assisted KiCad work. It is not only an index of scripts for `ESP32_CSI_WIFI_NODE`.
 
-For the deeper internal inventory, see [03_TOOLS/TOOLS_INDEX.md](03_TOOLS/TOOLS_INDEX.md).
+Use this file and the linked setup docs as the portable tool source of truth for normal repo use. `00_CODEX_START/TOOL_INDEX.md` is a machine-specific local inventory record, not a portable setup contract.
+
+For the deeper portable internal catalog, see [03_TOOLS/TOOLS_INDEX.md](03_TOOLS/TOOLS_INDEX.md).
 
 ## Portable Setup Tools
 

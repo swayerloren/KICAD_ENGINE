@@ -1,8 +1,26 @@
 ﻿# Tool Index
 
+WARNING: MACHINE-SPECIFIC INVENTORY
+
+This file may reflect the original maintainer's local machine.
+
+Do not use it as portable truth.
+
+Run `python health_check.py --no-write`, `python 03_TOOLS/scripts/kicad_discovery/find_kicad.py`, and `python 03_TOOLS/scripts/python_env_check.py` on the current user machine before making tool assumptions.
+
+Portable tool truth for normal repo use lives in:
+
+- [README.md](../README.md)
+- [ONE_PROMPT_START.md](../ONE_PROMPT_START.md)
+- [TOOLS_INDEX.md](../TOOLS_INDEX.md)
+- [03_TOOLS/TOOLS_INDEX.md](../03_TOOLS/TOOLS_INDEX.md)
+- [EXTERNAL_DEPENDENCIES.md](../EXTERNAL_DEPENDENCIES.md)
+- [LOCAL_SETUP_REQUIREMENTS.md](../LOCAL_SETUP_REQUIREMENTS.md)
+- [docs/HEALTH_CHECK.md](../docs/HEALTH_CHECK.md)
+
 This file tracks intended and available KiCad-related tools. `CLONED_NOT_INSTALLED` means the source repository is present locally, but dependencies have not been installed and setup scripts have not been run.
 
-Portability note: when this file includes absolute Windows paths, treat them as one-machine inventory notes from a prior local audit. New docs, prompts, and day-to-day repo use should prefer repo-relative paths plus local tool discovery on the current machine.
+Portability note: when this file includes absolute Windows paths, versions, venv locations, clone locations, or local config paths, treat them as one-machine inventory notes only. New docs, prompts, and day-to-day repo use should prefer repo-relative guidance plus local tool discovery on the current machine.
 
 ## Startup Tooling Rule
 - Do not install tools unless explicitly requested.
