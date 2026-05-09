@@ -17,12 +17,16 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 DISCOVERY_DIR = SCRIPT_DIR / "03_TOOLS" / "scripts" / "kicad_discovery"
 TOOLS_DIR = SCRIPT_DIR / "03_TOOLS" / "scripts"
+KICAD_API_DIR = SCRIPT_DIR / "03_TOOLS" / "scripts" / "kicad_api"
 if str(DISCOVERY_DIR) not in sys.path:
     sys.path.insert(0, str(DISCOVERY_DIR))
 if str(TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(TOOLS_DIR))
+if str(KICAD_API_DIR) not in sys.path:
+    sys.path.insert(0, str(KICAD_API_DIR))
 
 from find_kicad import detect_kicad_environment  # type: ignore  # noqa: E402
+from kicad_python_context import build_kicad_python_context  # type: ignore  # noqa: E402
 from python_env_check import build_python_environment_report  # type: ignore  # noqa: E402
 
 
@@ -46,6 +50,7 @@ REQUIRED_DOCS = [
     "docs/GITHUB_SETUP.md",
     "docs/PYTHON_SETUP.md",
     "docs/HEALTH_CHECK.md",
+    "docs/KICAD_PYTHON_CONTEXT.md",
 ]
 
 KNOWN_LOCAL_ONLY_PLACEHOLDERS = [
@@ -61,6 +66,8 @@ KNOWN_LOCAL_ONLY_PLACEHOLDERS = [
 KEY_SCRIPT_COMMANDS = [
     ("KiCad discovery", ["python", "03_TOOLS/scripts/kicad_discovery/find_kicad.py", "--help"]),
     ("KiCad install validator", ["python", "03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py", "--help"]),
+    ("KiCad Python context", ["python", "03_TOOLS/scripts/kicad_api/kicad_python_context.py", "--help"]),
+    ("pcbnew import check", ["python", "03_TOOLS/scripts/kicad_api/pcbnew_import_check.py", "--help"]),
     ("Python environment check", ["python", "03_TOOLS/scripts/python_env_check.py", "--help"]),
     ("Task contract validator", ["python", "03_TOOLS/scripts/execution_contract/validate_task_contract.py", "--help"]),
     ("Routing geometry checker", ["python", "14_LAYOUT_AUTOMATION/scripts/routing_geometry_quality.py", "--help"]),
@@ -147,8 +154,10 @@ def user_actions(results: list[CheckResult]) -> list[str]:
             actions.append("Install KiCad locally if you need live schematic, PCB, or pcbnew workflows.")
         elif row.name == "kicad-cli detected" and row.status != "PASS":
             actions.append("Add the KiCad bin folder to PATH or pass an explicit KiCad CLI path when a workflow requires it.")
-        elif row.name == "pcbnew availability" and row.status != "PASS":
-            actions.append("Use docs/audit workflows for now, or install KiCad locally so pcbnew becomes available for board-aware scripts.")
+        elif row.name == "pcbnew workflow availability" and row.status != "PASS":
+            actions.append("Keep using docs or kicad-cli workflows until a KiCad-compatible pcbnew context is available.")
+        elif row.name == "pcbnew direct import" and row.status == "WARN":
+            actions.append("Board-aware scripts should re-enter through KiCad Python when normal Python cannot import pcbnew directly.")
         elif row.category == "Docs" and row.status == "FAIL":
             actions.append(f"Restore the required onboarding doc: {row.name}.")
         elif row.category == "Portability" and row.status == "FAIL":
@@ -219,6 +228,7 @@ def main() -> int:
     parser.add_argument("--fail-on-fail", action="store_true", help="Return non-zero if any FAIL result is present.")
     parser.add_argument("--fail-on-warn", action="store_true", help="Return non-zero if any WARN result is present.")
     parser.add_argument("--require-kicad", action="store_true", help="Treat missing KiCad and kicad-cli as FAIL instead of WARN.")
+    parser.add_argument("--require-pcbnew", action="store_true", help="Treat missing KiCad-compatible pcbnew workflow support as FAIL.")
     args = parser.parse_args()
 
     repo_root = repo_root_from_args(args.repo_root)
@@ -249,7 +259,8 @@ def main() -> int:
     git_path = first_path(["git"])
     add(results, "PASS" if git_path else "WARN", "Toolchain", "Git detected", git_path or "Git not found. ZIP users can still use the repo locally.")
 
-    kicad = detect_kicad_environment()
+    kicad = detect_kicad_environment(probe_pcbnew=False)
+    pcbnew_context = build_kicad_python_context(explicit_root=kicad["kicad_root"]["path"])
     kicad_required = args.require_kicad
     add(
         results,
@@ -267,10 +278,19 @@ def main() -> int:
     )
     add(
         results,
-        "PASS" if kicad["pcbnew"]["available"] else ("FAIL" if kicad_required else "WARN"),
+        "PASS" if pcbnew_context["pcbnew"]["available"] else ("FAIL" if args.require_pcbnew else "WARN"),
         "Toolchain",
-        "pcbnew availability",
-        str(kicad["pcbnew"]["message"]),
+        "pcbnew workflow availability",
+        str(pcbnew_context["pcbnew"]["message"]),
+    )
+    add(
+        results,
+        "PASS" if pcbnew_context["pcbnew"]["current_python_available"] else "WARN",
+        "Toolchain",
+        "pcbnew direct import",
+        "Current Python can import pcbnew directly."
+        if pcbnew_context["pcbnew"]["current_python_available"]
+        else "Current Python cannot import pcbnew directly; board-aware scripts should use KiCad Python context.",
     )
 
     missing_docs = [path for path in REQUIRED_DOCS if not (repo_root / path).exists()]

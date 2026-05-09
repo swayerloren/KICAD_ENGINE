@@ -71,6 +71,7 @@ def build_python_environment_report() -> dict:
             "Basic health checks and portability audits run with the Python standard library only.",
             "A hidden repo venv under 03_TOOLS/python_envs is not required for basic use.",
             "KiCad-provided pcbnew is only needed for board-aware workflows.",
+            "Normal Python may not import pcbnew directly; use 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py when board-aware work is requested.",
         ],
     }
 

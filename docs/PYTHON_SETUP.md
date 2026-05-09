@@ -42,6 +42,10 @@ Use the KiCad discovery layer to check it:
 ```powershell
 python 03_TOOLS/scripts/kicad_discovery/find_kicad.py
 python 03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py
+python 03_TOOLS/scripts/kicad_api/kicad_python_context.py
+python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py
 ```
 
-If `pcbnew` is unavailable, the repo can still do docs, audits, health checks, task-contract validation, and routing-geometry fixture tests. Board-aware scripts that inspect or edit real `.kicad_pcb` files will remain blocked until KiCad is installed locally.
+Normal Python may not import `pcbnew` directly when KiCad ships a different embedded Python version. In that case, board-aware scripts should switch to KiCad's own Python context instead of assuming the repo's base interpreter can load KiCad bindings.
+
+If `pcbnew` is unavailable, the repo can still do docs, audits, health checks, task-contract validation, and routing-geometry fixture tests. Board-aware scripts that inspect or edit real `.kicad_pcb` files will remain blocked until KiCad is installed locally or a KiCad-compatible Python context is available.

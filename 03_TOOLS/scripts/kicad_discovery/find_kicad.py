@@ -13,6 +13,13 @@ import sys
 from pathlib import Path
 from typing import Iterable
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+KICAD_API_DIR = SCRIPT_DIR.parent / "kicad_api"
+if str(KICAD_API_DIR) not in sys.path:
+    sys.path.insert(0, str(KICAD_API_DIR))
+
+from kicad_python_context import build_kicad_python_context  # type: ignore  # noqa: E402
+
 
 WINDOWS_VERSION_HINTS = ("9.0", "8.0", "7.0")
 WINDOWS_ROOTS = (
@@ -248,32 +255,19 @@ raise SystemExit(0 if payload["available"] else 1)
 
 
 def detect_pcbnew(root: Path | None) -> dict:
-    try:
-        import pcbnew  # type: ignore
-
-        return {
-            "available": True,
-            "status": "AVAILABLE_IN_CURRENT_PYTHON",
-            "python": sys.executable,
-            "message": getattr(pcbnew, "__file__", "pcbnew import succeeded"),
-            "pythonpath_candidates": [],
-        }
-    except Exception as exc:  # noqa: BLE001
-        failure_message = str(exc)
-
-    python_paths = candidate_python_paths(root)
-    if root and python_paths:
-        payload = pcbnew_probe_with_pythonpath(root, python_paths)
-        if payload["available"]:
-            return payload
-        failure_message = payload["message"]
-
+    context = build_kicad_python_context(explicit_root=str(root) if root else None)
+    pcbnew = context["pcbnew"]
     return {
-        "available": False,
-        "status": "MISSING_OR_NOT_IMPORTABLE",
-        "python": sys.executable,
-        "message": failure_message,
-        "pythonpath_candidates": [str(path) for path in python_paths],
+        "available": pcbnew["available"],
+        "status": pcbnew["status"],
+        "python": context["current_python"]["executable"],
+        "message": pcbnew["message"],
+        "pythonpath_candidates": context["discovered_python_paths"],
+        "current_python_available": pcbnew["current_python_available"],
+        "discovered_path_available": pcbnew["discovered_path_available"],
+        "kicad_python_available": pcbnew["kicad_python_available"],
+        "recommended_context": pcbnew["recommended_context"],
+        "kicad_python": context["kicad_python"]["path"],
     }
 
 

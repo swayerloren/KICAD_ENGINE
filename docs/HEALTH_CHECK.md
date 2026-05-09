@@ -23,7 +23,8 @@ powershell -ExecutionPolicy Bypass -File .\health_check.ps1 -NoWrite
 - Git detected
 - KiCad detected yes/no
 - `kicad-cli` detected yes/no
-- `pcbnew` availability yes/no
+- `pcbnew` workflow availability yes/no
+- whether the current Python interpreter can import `pcbnew` directly
 - required onboarding docs exist yes/no
 - active project exists yes/no
 - local-only folder placeholders documented yes/no
@@ -45,3 +46,22 @@ If a local workflow actually requires KiCad, use:
 ```powershell
 python health_check.py --require-kicad
 ```
+
+If a workflow specifically requires a board-aware `pcbnew` context, use:
+
+```powershell
+python health_check.py --require-pcbnew
+```
+
+## KiCad Python Context
+
+Normal Python may not be able to import `pcbnew` directly even when KiCad is installed.
+
+Use:
+
+```powershell
+python 03_TOOLS/scripts/kicad_api/kicad_python_context.py
+python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py
+```
+
+If direct import fails but KiCad Python is available, board-aware scripts should re-enter through KiCad's bundled `python.exe`.

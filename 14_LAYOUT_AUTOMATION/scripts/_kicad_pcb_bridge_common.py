@@ -4,28 +4,16 @@
 from __future__ import annotations
 
 import json
-import os
-import subprocess
 import sys
 from pathlib import Path
 from typing import Any
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DISCOVERY_DIR = SCRIPT_DIR.parents[1] / "03_TOOLS" / "scripts" / "kicad_discovery"
-if str(DISCOVERY_DIR) not in sys.path:
-    sys.path.insert(0, str(DISCOVERY_DIR))
+KICAD_API_DIR = SCRIPT_DIR.parents[1] / "03_TOOLS" / "scripts" / "kicad_api"
+if str(KICAD_API_DIR) not in sys.path:
+    sys.path.insert(0, str(KICAD_API_DIR))
 
-try:
-    from find_kicad import detect_kicad_environment  # type: ignore
-except Exception:  # noqa: BLE001
-    detect_kicad_environment = None
-
-
-REEXEC_ENV = "KICAD_ENGINE_PCB_BRIDGE_ACTIVE"
-KICAD_PYTHON_CANDIDATES = [
-    Path(r"C:\Program Files\KiCad\9.0\bin\python.exe"),
-    Path(r"C:\Program Files\KiCad\8.0\bin\python.exe"),
-]
+from kicad_python_context import build_kicad_python_context, require_pcbnew_module  # type: ignore  # noqa: E402
 
 
 def dump_json(path: str | Path, payload: dict[str, Any]) -> None:
@@ -47,37 +35,13 @@ def ensure_parent(path: str | Path) -> None:
 
 
 def find_kicad_python() -> Path | None:
-    if detect_kicad_environment is not None:
-        try:
-            payload = detect_kicad_environment(probe_pcbnew=False)
-            root = payload.get("kicad_root", {}).get("path")
-            if root:
-                candidate = Path(root) / "bin" / "python.exe"
-                if candidate.exists():
-                    return candidate.resolve()
-        except Exception:
-            pass
-    for candidate in KICAD_PYTHON_CANDIDATES:
-        if candidate.exists():
-            return candidate
-    return None
+    payload = build_kicad_python_context()
+    path = payload.get("kicad_python", {}).get("path")
+    return Path(path).resolve() if path else None
 
 
 def require_pcbnew_for_cli() -> Any:
-    try:
-        import pcbnew  # type: ignore
-
-        return pcbnew
-    except Exception:
-        if os.environ.get(REEXEC_ENV) == "1":
-            raise
-        kicad_python = find_kicad_python()
-        if not kicad_python:
-            raise RuntimeError("KiCad python.exe not found; cannot import pcbnew")
-        env = os.environ.copy()
-        env[REEXEC_ENV] = "1"
-        completed = subprocess.run([str(kicad_python), *sys.argv], env=env)
-        raise SystemExit(completed.returncode)
+    return require_pcbnew_module()
 
 
 def mm(pcbnew: Any, value: int | float) -> float:

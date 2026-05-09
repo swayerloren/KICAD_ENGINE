@@ -16,6 +16,10 @@ These scripts provide portable, read-only KiCad discovery for fresh ZIP or clone
   - emits JSON describing the detected KiCad root, CLI, GUI, and `pcbnew` status
 - `validate_kicad_install.py`
   - prints a human-readable PASS/WARN/FAIL summary and can hard-fail when KiCad is required
+- `../kicad_api/kicad_python_context.py`
+  - reports whether `pcbnew` works in the current Python runtime or only through KiCad-compatible Python
+- `../kicad_api/pcbnew_import_check.py`
+  - emits PASS/WARN/FAIL for `pcbnew` without requiring KiCad GUI
 
 ## Common Usage
 
@@ -23,6 +27,8 @@ These scripts provide portable, read-only KiCad discovery for fresh ZIP or clone
 python 03_TOOLS/scripts/kicad_discovery/find_kicad.py
 python 03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py
 python 03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py --require-kicad --require-cli
+python 03_TOOLS/scripts/kicad_api/kicad_python_context.py
+python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py
 ```
 
 ## Detection Order
@@ -42,4 +48,4 @@ These are common discovery examples, not portable assumptions about every user's
 
 ## CI And Codespaces
 
-These scripts do not require KiCad to exist. Missing KiCad should be treated as a warning for docs/script environments and as a failure only when a live KiCad workflow explicitly requires it.
+These scripts do not require KiCad to exist. Missing KiCad should be treated as a warning for docs/script environments and as a failure only when a live KiCad workflow explicitly requires it. Missing `pcbnew` should stay non-blocking unless a board-aware workflow explicitly requires it.

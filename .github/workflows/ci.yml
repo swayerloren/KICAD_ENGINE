@@ -26,6 +26,7 @@ jobs:
         run: |
           python health_check.py --no-write --fail-on-fail
           python 03_TOOLS/scripts/python_env_check.py
+          python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py --json
 
       - name: Compile tracked first-party Python scripts
         run: |
@@ -123,19 +124,21 @@ jobs:
           print("ROUTING_GEOMETRY_FIXTURE_PASS")
           PY
 
-      - name: Run placement readiness scoring in read-only mode when pcbnew is available
+      - name: Run placement readiness scoring in read-only mode when pcbnew workflow support is available
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p .ci/placement
 
+          python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py --json > .ci/placement/pcbnew_check.json
+
           set +e
           python - <<'PY'
-          try:
-              import pcbnew  # type: ignore
-          except Exception:
-              raise SystemExit(2)
-          raise SystemExit(0)
+          import json
+          from pathlib import Path
+
+          payload = json.loads(Path(".ci/placement/pcbnew_check.json").read_text(encoding="utf-8"))
+          raise SystemExit(0 if payload["pcbnew_available"] else 2)
           PY
           pcbnew_code=$?
           set -e

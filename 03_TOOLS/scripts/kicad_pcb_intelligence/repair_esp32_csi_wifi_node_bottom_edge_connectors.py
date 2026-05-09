@@ -9,9 +9,19 @@ Placement-only edit:
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
-import pcbnew
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = next((path for path in [SCRIPT_DIR, *SCRIPT_DIR.parents] if (path / "AGENTS.md").exists()), SCRIPT_DIR)
+LAYOUT_SCRIPTS = REPO_ROOT / "14_LAYOUT_AUTOMATION" / "scripts"
+if str(LAYOUT_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(LAYOUT_SCRIPTS))
+
+from _kicad_pcb_bridge_common import require_pcbnew_for_cli  # type: ignore  # noqa: E402
+
+
+pcbnew = require_pcbnew_for_cli()
 
 
 ROOT = Path(__file__).resolve().parents[3]

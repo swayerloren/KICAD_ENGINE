@@ -8,6 +8,17 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Latest KiCad Python context portability fix - 2026-05-09
+
+Normal repo Python and KiCad's embedded Python must now be treated as separate runtime contexts.
+
+- `python 03_TOOLS/scripts/kicad_api/kicad_python_context.py` reports the current Python version, KiCad Python version, embedded DLL version, and whether `pcbnew` is available directly or only through KiCad Python
+- `python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py` is the safe PASS/WARN/FAIL probe for board-aware `pcbnew` readiness
+- `health_check.py` now treats missing `pcbnew` workflow support as a warning by default and only hard-fails it when `--require-pcbnew` is requested
+- first-party board-aware scripts should use the shared bridge and re-enter through KiCad's bundled `python.exe` when normal Python cannot import `pcbnew`
+- GitHub Actions now run the `pcbnew` import probe in no-fail mode and skip read-only placement scoring when no `pcbnew` workflow context exists
+- on the current machine, normal Python `3.12` cannot import `pcbnew` directly, KiCad Python `3.11.5` can, and the discovered-path probe reproduces the expected `python311.dll` version conflict if forced into the wrong interpreter
+
 ## Latest historical-path portability clarification - 2026-05-09
 
 Many tracked reports, review packets, sample-intake artifacts, and generated evidence files still preserve original machine-local absolute paths.

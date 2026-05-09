@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T08:24:15",
+  "generated_at": "2026-05-09T08:48:28",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -440,6 +440,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260509_082145_HISTORICAL_PATHS_PORTABILITY_SCORECARD.md",
       "title": "AI Response Scorecard - Historical Paths Portability",
       "size_bytes": 632,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260509_084320_KICAD_PYTHON_CONTEXT_FIX_SCORECARD.md",
+      "title": "AI Response Scorecard - KiCad Python Context Fix",
+      "size_bytes": 751,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1298,6 +1305,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260509_084320_KICAD_PYTHON_CONTEXT_FIX_SELF_REVIEW.md",
+      "title": "AI Self Review - KiCad Python Context Fix",
+      "size_bytes": 956,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md",
       "title": "Accuracy Engine And AI Quality Setup AI Self-Review",
       "size_bytes": 752,
@@ -2148,6 +2162,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260509_082145_HISTORICAL_PATHS_PORTABILITY_CLAIM_EVIDENCE.md",
       "title": "Claim Evidence Matrix - Historical Paths Portability",
       "size_bytes": 1127,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260509_084320_KICAD_PYTHON_CONTEXT_FIX_CLAIM_EVIDENCE.md",
+      "title": "Claim Evidence Matrix - KiCad Python Context Fix",
+      "size_bytes": 1435,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3576,6 +3597,13 @@
       "path": "02_HISTORY\\command_logs\\KICAD_PHASE_GATE_PATCH_COMMANDS.md",
       "title": "Command Log - KiCad Phase Gate Patch",
       "size_bytes": 4643,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\KICAD_PYTHON_CONTEXT_FIX_COMMANDS.md",
+      "title": "KiCad Python Context Fix Commands",
+      "size_bytes": 3663,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -5932,6 +5960,13 @@
       "bucket": "hallucination_risk_logs"
     },
     {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260509_084320_KICAD_PYTHON_CONTEXT_FIX_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - KiCad Python Context Fix",
+      "size_bytes": 505,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
       "path": "02_HISTORY\\hallucination_risk_logs\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "title": "Accuracy Engine And AI Quality Setup Hallucination Risk Log",
       "size_bytes": 721,
@@ -6394,6 +6429,13 @@
       "bucket": "issue_logs"
     },
     {
+      "path": "02_HISTORY\\issue_logs\\20260509_kicad_python_context_edge_cases.md",
+      "title": "KiCad Python Context Edge Cases",
+      "size_bytes": 1249,
+      "scope": "global",
+      "bucket": "issue_logs"
+    },
+    {
       "path": "02_HISTORY\\issue_logs\\AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN.md",
       "title": "AUTO_PCB_START_WORKFLOW_NEEDS_FIRST_LIVE_PROJECT_RUN",
       "size_bytes": 804,
@@ -6816,7 +6858,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 248141,
+      "size_bytes": 250221,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -8305,6 +8347,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\KICAD_PYTHON_CONTEXT_FIX_SESSION.md",
+      "title": "KiCad Python Context Fix Session",
+      "size_bytes": 2114,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\KICAD_VERIFICATION_SCRIPTS_CREATED.md",
       "title": "KiCad Verification Scripts Created",
       "size_bytes": 2662,
@@ -9365,6 +9414,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260509_082145_HISTORICAL_PATHS_PORTABILITY_UNCERTAINTY.md",
       "title": "Uncertainty Log - Historical Paths Portability",
       "size_bytes": 681,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260509_084320_KICAD_PYTHON_CONTEXT_FIX_UNCERTAINTY.md",
+      "title": "Uncertainty Log - KiCad Python Context Fix",
+      "size_bytes": 715,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

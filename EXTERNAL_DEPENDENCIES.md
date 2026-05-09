@@ -3,6 +3,7 @@
 | Item | Class | Needed For Basic Use | Included In Repo | Install Needed | Notes |
 | --- | --- | --- | --- | --- | --- |
 | KiCad | REQUIRED | No for docs-only use; yes for live schematic/PCB GUI work | No | Yes | Required for actual schematic and PCB GUI work. |
+| KiCad-compatible Python context for `pcbnew` | OPTIONAL_INSTALL | No for basic onboarding; yes for some board-aware automation | Derived from local KiCad install | Usually no separate install | Usually provided by KiCad itself. Normal Python may not be able to import `pcbnew` directly. |
 | Python | REQUIRED | Yes | No | Yes | Required for repo scripts, validation, maintenance, and health checks. |
 | VS Code | RECOMMENDED | No, but strongly recommended | No | Optional | Recommended local workspace shell. |
 | Codex or Claude | RECOMMENDED | No, but strongly recommended for the AI workflow | No | Optional | Recommended AI agent interface for this repo workflow. |

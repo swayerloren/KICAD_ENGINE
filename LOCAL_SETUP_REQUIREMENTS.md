@@ -25,7 +25,12 @@
 python health_check.py --no-write
 python 03_TOOLS/scripts/python_env_check.py
 python 03_TOOLS/scripts/kicad_discovery/validate_kicad_install.py
+python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py
 ```
+
+## Board-Aware Note
+
+`kicad-cli` and KiCad GUI are enough for many tasks. Some board-aware scripts also need `pcbnew`, and normal Python may not be able to import it directly. When that happens, the repo should use KiCad's bundled Python context instead of any hidden repo-local venv.
 
 ## Not Required For First Use
 

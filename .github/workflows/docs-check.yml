@@ -43,6 +43,7 @@ jobs:
           test -f docs/LOCAL_DEV_SETUP.md
           test -f docs/PYTHON_SETUP.md
           test -f docs/HEALTH_CHECK.md
+          test -f docs/KICAD_PYTHON_CONTEXT.md
           test -f docs/BRANCH_AND_PR_WORKFLOW.md
           test -f docs/REPO_MAINTENANCE_WORKFLOW.md
           test -f .devcontainer/devcontainer.json

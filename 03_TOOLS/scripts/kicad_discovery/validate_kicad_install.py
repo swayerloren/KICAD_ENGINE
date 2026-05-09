@@ -30,6 +30,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--kicad-exe", help="Optional kicad GUI executable override.")
     parser.add_argument("--require-kicad", action="store_true", help="Fail if KiCad is not detected.")
     parser.add_argument("--require-cli", action="store_true", help="Fail if kicad-cli is not detected.")
+    parser.add_argument("--require-pcbnew", action="store_true", help="Fail if no KiCad-compatible pcbnew context is available.")
     parser.add_argument("--json", action="store_true", help="Emit JSON instead of a text summary.")
     return parser.parse_args()
 
@@ -59,7 +60,7 @@ def main() -> int:
             payload["kicad_cli"]["path"] or "kicad-cli not detected.",
         ),
         ValidationRow(
-            "PASS" if payload["pcbnew"]["available"] else "WARN",
+            status_for(bool(payload["pcbnew"]["available"]), required=args.require_pcbnew),
             "pcbnew",
             payload["pcbnew"]["message"],
         ),

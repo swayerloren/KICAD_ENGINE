@@ -6,7 +6,8 @@ param(
     [switch]$NoWrite,
     [switch]$FailOnFail,
     [switch]$FailOnWarn,
-    [switch]$RequireKiCad
+    [switch]$RequireKiCad,
+    [switch]$RequirePcbnew
 )
 
 Set-StrictMode -Version 2.0
@@ -49,6 +50,9 @@ if ($FailOnWarn) {
 }
 if ($RequireKiCad) {
     $argsList += '--require-kicad'
+}
+if ($RequirePcbnew) {
+    $argsList += '--require-pcbnew'
 }
 
 & $PythonPath @argsList

@@ -1,7 +1,7 @@
 # Generated AI Quality Index
 
-Generated: `2026-05-09T08:24:16`
-Record count: `912`
+Generated: `2026-05-09T08:48:29`
+Record count: `917`
 
 - `02_HISTORY/ai_self_reviews/20260502_230004_AI_quality_gate_setup_self_review.md` - AI quality gate setup self review
 - `02_HISTORY/ai_self_reviews/20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SELF_REVIEW.md` - AI Self-Review: Schematic Annotation/Completeness Checkers
@@ -66,6 +66,7 @@ Record count: `912`
 - `02_HISTORY/ai_self_reviews/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_SELF_REVIEW.md` - AI Self Review - KiCad Library Index Portability Cleanup
 - `02_HISTORY/ai_self_reviews/20260509_080910_TOOL_INDEX_PORTABILITY_SELF_REVIEW.md` - AI Self Review - Tool Index Portability Fix
 - `02_HISTORY/ai_self_reviews/20260509_082145_HISTORICAL_PATHS_PORTABILITY_SELF_REVIEW.md` - AI Self Review - Historical Paths Portability
+- `02_HISTORY/ai_self_reviews/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_SELF_REVIEW.md` - AI Self Review - KiCad Python Context Fix
 - `02_HISTORY/ai_self_reviews/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md` - Accuracy Engine And AI Quality Setup AI Self-Review
 - `02_HISTORY/ai_self_reviews/AUTO_PCB_START_WORKFLOW_SELF_REVIEW.md` - AUTO_PCB_START_WORKFLOW_SELF_REVIEW
 - `02_HISTORY/ai_self_reviews/AUTO_PLACEMENT_ENGINE_SELF_REVIEW.md` - AUTO_PLACEMENT_ENGINE_SELF_REVIEW
@@ -188,6 +189,7 @@ Record count: `912`
 - `02_HISTORY/ai_scorecards/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_SCORECARD.md` - AI Response Scorecard - KiCad Library Index Portability Cleanup
 - `02_HISTORY/ai_scorecards/20260509_080910_TOOL_INDEX_PORTABILITY_SCORECARD.md` - AI Response Scorecard - Tool Index Portability Fix
 - `02_HISTORY/ai_scorecards/20260509_082145_HISTORICAL_PATHS_PORTABILITY_SCORECARD.md` - AI Response Scorecard - Historical Paths Portability
+- `02_HISTORY/ai_scorecards/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_SCORECARD.md` - AI Response Scorecard - KiCad Python Context Fix
 - `02_HISTORY/ai_scorecards/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md` - Accuracy Engine And AI Quality Setup Scorecard
 - `02_HISTORY/ai_scorecards/AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD.md` - AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD
 - `02_HISTORY/ai_scorecards/AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD.md` - AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD
@@ -309,6 +311,7 @@ Record count: `912`
 - `02_HISTORY/hallucination_risk_logs/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_HALLUCINATION_RISK.md` - Hallucination Risk Log - KiCad Library Index Portability Cleanup
 - `02_HISTORY/hallucination_risk_logs/20260509_080910_TOOL_INDEX_PORTABILITY_HALLUCINATION_RISK.md` - Hallucination Risk Log - Tool Index Portability Fix
 - `02_HISTORY/hallucination_risk_logs/20260509_082145_HISTORICAL_PATHS_PORTABILITY_HALLUCINATION_RISK.md` - Hallucination Risk Log - Historical Paths Portability
+- `02_HISTORY/hallucination_risk_logs/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_HALLUCINATION_RISK.md` - Hallucination Risk Log - KiCad Python Context Fix
 - `02_HISTORY/hallucination_risk_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md` - Accuracy Engine And AI Quality Setup Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md` - AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG
 - `02_HISTORY/hallucination_risk_logs/AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG
@@ -429,6 +432,7 @@ Record count: `912`
 - `02_HISTORY/claim_evidence_matrices/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_CLAIM_EVIDENCE.md` - Claim / Evidence Matrix - KiCad Library Index Portability Cleanup
 - `02_HISTORY/claim_evidence_matrices/20260509_080910_TOOL_INDEX_PORTABILITY_CLAIM_EVIDENCE.md` - Claim / Evidence Matrix - Tool Index Portability Fix
 - `02_HISTORY/claim_evidence_matrices/20260509_082145_HISTORICAL_PATHS_PORTABILITY_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Historical Paths Portability
+- `02_HISTORY/claim_evidence_matrices/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - KiCad Python Context Fix
 - `02_HISTORY/claim_evidence_matrices/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Accuracy Engine And AI Quality Setup Claim Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX
 - `02_HISTORY/claim_evidence_matrices/AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX
@@ -577,6 +581,7 @@ Record count: `912`
 - `02_HISTORY/uncertainty_logs/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_UNCERTAINTY.md` - Uncertainty Log - KiCad Library Index Portability Cleanup
 - `02_HISTORY/uncertainty_logs/20260509_080910_TOOL_INDEX_PORTABILITY_UNCERTAINTY.md` - Uncertainty Log - Tool Index Portability Fix
 - `02_HISTORY/uncertainty_logs/20260509_082145_HISTORICAL_PATHS_PORTABILITY_UNCERTAINTY.md` - Uncertainty Log - Historical Paths Portability
+- `02_HISTORY/uncertainty_logs/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_UNCERTAINTY.md` - Uncertainty Log - KiCad Python Context Fix
 - `02_HISTORY/uncertainty_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md` - Accuracy Engine And AI Quality Setup Uncertainty Log
 - `02_HISTORY/uncertainty_logs/AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md` - AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG
 - `02_HISTORY/uncertainty_logs/AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG.md` - AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG
