@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-09T08:48:29",
-  "record_count": 917,
+  "generated": "2026-05-09T08:55:55",
+  "record_count": 922,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -449,6 +449,13 @@
       "path": "02_HISTORY/ai_self_reviews/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_SELF_REVIEW.md",
       "size_bytes": 956,
       "title": "AI Self Review - KiCad Python Context Fix"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-09T08:55:39",
+      "path": "02_HISTORY/ai_self_reviews/20260509_093500_FINAL_PORTABILITY_VERIFICATION_SELF_REVIEW.md",
+      "size_bytes": 806,
+      "title": "AI Self Review - Final Portability Verification"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1313,6 +1320,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-09T08:55:39",
+      "path": "02_HISTORY/ai_scorecards/20260509_093500_FINAL_PORTABILITY_VERIFICATION_SCORECARD.md",
+      "size_bytes": 707,
+      "title": "AI Response Scorecard - Final Portability Verification"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-02T23:43:58",
       "path": "02_HISTORY/ai_scorecards/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md",
       "size_bytes": 1101,
@@ -2167,6 +2181,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-09T08:55:39",
+      "path": "02_HISTORY/hallucination_risk_logs/20260509_093500_FINAL_PORTABILITY_VERIFICATION_HALLUCINATION_RISK.md",
+      "size_bytes": 474,
+      "title": "Hallucination Risk Log - Final Portability Verification"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/hallucination_risk_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 721,
@@ -3011,6 +3032,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_CLAIM_EVIDENCE.md",
       "size_bytes": 1435,
       "title": "Claim Evidence Matrix - KiCad Python Context Fix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-09T08:55:39",
+      "path": "02_HISTORY/claim_evidence_matrices/20260509_093500_FINAL_PORTABILITY_VERIFICATION_CLAIM_EVIDENCE.md",
+      "size_bytes": 1559,
+      "title": "Claim Evidence Matrix - Final Portability Verification"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -4054,6 +4082,13 @@
       "path": "02_HISTORY/uncertainty_logs/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_UNCERTAINTY.md",
       "size_bytes": 715,
       "title": "Uncertainty Log - KiCad Python Context Fix"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-09T08:55:39",
+      "path": "02_HISTORY/uncertainty_logs/20260509_093500_FINAL_PORTABILITY_VERIFICATION_UNCERTAINTY.md",
+      "size_bytes": 616,
+      "title": "Uncertainty Log - Final Portability Verification"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",
