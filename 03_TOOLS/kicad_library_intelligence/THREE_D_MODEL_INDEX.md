@@ -1,26 +1,23 @@
 # 3D Model Index
 
-Date: 2026-05-02
+Status: local-read-only 3D model inventory guidance.
 
-Status: generated from read-only inspection of the installed KiCad 9 app.
+## Local Generated Outputs
 
-## Observed Stock 3D Model Root
-
-`C:\Program Files\KiCad\9.0\share\kicad\3dmodels`
-
-Generated index:
+When regenerated on the current machine, 3D model outputs are written under:
 
 - `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/3d_model_summary.md`
 - `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/3d_model_index.json`
 
-## Current Counts
+These outputs are local-machine inventory only. They are not portable repo truth and are not meant to stay tracked in Git.
 
-| Item | Count |
-| --- | ---: |
-| `.3dshapes` folders indexed | 105 |
-| Model files indexed | 14,043 |
-| STEP files | 7,200 |
-| WRL files | 6,843 |
+## Regenerate
+
+```powershell
+python 03_TOOLS/scripts/kicad_libraries/index_3d_models.py
+```
+
+If needed, pass `--kicad-root` or `--output-dir`.
 
 ## AI Usage Rules
 
@@ -28,7 +25,7 @@ Generated index:
 - Use 3D models to review height, enclosure clearance, cable direction, connector mating, and visual orientation.
 - For connectors and modules, compare the 3D model to the exact manufacturer drawing.
 - Missing 3D models are not necessarily design errors, but they are mechanical-review gaps.
-- Do not edit stock 3D models under `C:\Program Files\KiCad`.
+- Do not edit stock 3D models in the detected KiCad install.
 
 ## Important Limits
 

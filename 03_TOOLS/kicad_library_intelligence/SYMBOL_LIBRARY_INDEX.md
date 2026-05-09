@@ -1,38 +1,35 @@
 # Symbol Library Index
 
-Date: 2026-05-02
+Status: local-read-only symbol inventory guidance.
 
-Status: generated from read-only inspection of the installed KiCad 9 app.
+## Local Generated Outputs
 
-## Observed Stock Symbol Root
-
-`C:\Program Files\KiCad\9.0\share\kicad\symbols`
-
-Generated index:
+When regenerated on the current machine, symbol outputs are written under:
 
 - `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/symbol_index_summary.md`
 - `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/symbol_index.json`
 
-## Current Counts
+These outputs are local-machine inventory only. They are not portable repo truth and are not meant to stay tracked in Git.
 
-| Item | Count |
-| --- | ---: |
-| Stock symbol library files indexed | 223 |
-| Symbol records indexed | 22,582 |
-| Symbol library table entries parsed from stock template plus user-global table | 450 |
+## Regenerate
 
-## Large Symbol Libraries Observed
+```powershell
+python 03_TOOLS/scripts/kicad_libraries/index_symbols.py
+python 03_TOOLS/scripts/kicad_libraries/find_symbol_candidates.py "ESP32-S3-WROOM-1"
+```
 
-| Library | Notes |
-| --- | --- |
-| `Regulator_Linear` | Large analog/power library; verify exact regulator pinout and package. |
-| `Regulator_Switching` | Switching regulators; symbol match does not verify layout or compensation. |
-| `Converter_DCDC` | DCDC converters and modules; verify pin functions and thermal notes. |
-| `Diode` | Diodes, TVS, ESD, Zener; package and polarity are high-risk. |
-| `Device` | Generic passives and primitives; useful placeholders, not BOM selections. |
-| `Connector` | USB and generic connectors; symbol pin naming must be matched to exact connector. |
-| `MCU_ST_STM32F1` and other MCU libraries | Family-style symbols use package-code wildcards such as `x`; verify exact part/package. |
-| `RF_Module` | Modules including ESP32 family entries; verify module variant and keepout. |
+If needed, pass `--kicad-root` or `--output-dir`.
+
+## What The Generated JSON Contains
+
+- symbol library names
+- symbol names
+- source library file paths
+- `extends` relationships
+- footprint field values
+- datasheet fields
+- keywords
+- descriptions
 
 ## Symbol Record Fields
 
@@ -58,14 +55,14 @@ The generated JSON records include:
 
 ## Candidate Samples
 
-Generated symbol candidate files include:
+When generated locally, symbol candidate files typically include:
 
 - `symbol_candidates_esp32_s3_wroom_1.md`
 - `symbol_candidates_stm32f103c8t6.md`
 - `symbol_candidates_usb_c_connector_generic.md`
 - `symbol_candidates_mcp2562fd.md`
 
-Important observed behavior:
+Typical candidate behavior:
 
 - `ESP32-S3-WROOM-1` finds a direct `RF_Module:ESP32-S3-WROOM-1` candidate.
 - `STM32F103C8T6` maps to wildcard-style STM32F1 symbols such as `STM32F103C8Tx`; this still requires datasheet/package verification.

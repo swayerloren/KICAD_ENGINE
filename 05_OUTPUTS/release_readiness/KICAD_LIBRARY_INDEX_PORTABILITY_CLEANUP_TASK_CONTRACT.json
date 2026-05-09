@@ -1,0 +1,44 @@
+{
+  "task_type": "AUDIT_ONLY",
+  "task_summary": "Remove machine-local generated KiCad library index payloads from Git tracking, keep a placeholder README, and document local regeneration.",
+  "project_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE",
+  "target_pcb": "",
+  "changed_files": [
+    ".gitignore",
+    "03_TOOLS/kicad_library_intelligence/README.md",
+    "03_TOOLS/kicad_library_intelligence/SYMBOL_LIBRARY_INDEX.md",
+    "03_TOOLS/kicad_library_intelligence/FOOTPRINT_LIBRARY_INDEX.md",
+    "03_TOOLS/kicad_library_intelligence/THREE_D_MODEL_INDEX.md",
+    "03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/README.md",
+    "03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/*",
+    "01_MEMORY/GLOBAL_MEMORY.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "05_OUTPUTS/release_readiness/KICAD_LIBRARY_INDEX_PORTABILITY_CLEANUP_REPORT.md",
+    "02_HISTORY/sessions/KICAD_LIBRARY_INDEX_PORTABILITY_CLEANUP_SESSION.md",
+    "02_HISTORY/command_logs/KICAD_LIBRARY_INDEX_PORTABILITY_CLEANUP_COMMANDS.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": [
+    "No KiCad design files were edited.",
+    "Generated JSON and Markdown payloads under GENERATED_INDEXES were removed from Git tracking only.",
+    "Local files remain on disk and are now ignored except for README.md."
+  ],
+  "evidence": {
+    "backup_created": false,
+    "backup_path": "",
+    "pcb_hash_before": "",
+    "pcb_hash_after": "",
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "drc_report_path": "",
+    "visual_export_attempted": false,
+    "visual_paths": [],
+    "unconnected_before": "",
+    "unconnected_after": "",
+    "unrouted_before": "",
+    "unrouted_after": "",
+    "trace_change_log_updated": false,
+    "placement_report_updated": false
+  }
+}

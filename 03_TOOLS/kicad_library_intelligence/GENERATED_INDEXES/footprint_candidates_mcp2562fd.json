@@ -1,6 +1,0 @@
-{
-  "candidate_type": "footprint",
-  "candidates": [],
-  "query": "MCP2562FD",
-  "verification_policy": "Do not assert correctness until verified against exact manufacturer package drawing."
-}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T07:48:35",
+  "generated_at": "2026-05-09T08:02:01",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "records": [
     {
@@ -419,6 +419,13 @@
       "path": "02_HISTORY\\ai_scorecards\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_SCORECARD.md",
       "title": "AI Response Scorecard",
       "size_bytes": 445,
+      "scope": "global",
+      "bucket": "ai_scorecards"
+    },
+    {
+      "path": "02_HISTORY\\ai_scorecards\\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_SCORECARD.md",
+      "title": "AI Response Scorecard - KiCad Library Index Portability Cleanup",
+      "size_bytes": 606,
       "scope": "global",
       "bucket": "ai_scorecards"
     },
@@ -1256,6 +1263,13 @@
       "bucket": "ai_self_reviews"
     },
     {
+      "path": "02_HISTORY\\ai_self_reviews\\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_SELF_REVIEW.md",
+      "title": "AI Self Review - KiCad Library Index Portability Cleanup",
+      "size_bytes": 462,
+      "scope": "global",
+      "bucket": "ai_self_reviews"
+    },
+    {
       "path": "02_HISTORY\\ai_self_reviews\\ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md",
       "title": "Accuracy Engine And AI Quality Setup AI Self-Review",
       "size_bytes": 752,
@@ -2085,6 +2099,13 @@
       "path": "02_HISTORY\\claim_evidence_matrices\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_CLAIM_EVIDENCE.md",
       "title": "Claim Evidence Matrix",
       "size_bytes": 852,
+      "scope": "global",
+      "bucket": "claim_evidence_matrices"
+    },
+    {
+      "path": "02_HISTORY\\claim_evidence_matrices\\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_CLAIM_EVIDENCE.md",
+      "title": "Claim / Evidence Matrix - KiCad Library Index Portability Cleanup",
+      "size_bytes": 954,
       "scope": "global",
       "bucket": "claim_evidence_matrices"
     },
@@ -3478,6 +3499,13 @@
       "path": "02_HISTORY\\command_logs\\KICAD_INSTALLED_APP_DEEP_AUDIT_COMMANDS.md",
       "title": "KiCad Installed App Deep Audit Commands",
       "size_bytes": 2565,
+      "scope": "global",
+      "bucket": "command_logs"
+    },
+    {
+      "path": "02_HISTORY\\command_logs\\KICAD_LIBRARY_INDEX_PORTABILITY_CLEANUP_COMMANDS.md",
+      "title": "Command Log - KiCad Library Index Portability Cleanup",
+      "size_bytes": 3097,
       "scope": "global",
       "bucket": "command_logs"
     },
@@ -4973,6 +5001,13 @@
       "bucket": "failed_attempts"
     },
     {
+      "path": "02_HISTORY\\failed_attempts\\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_TIMEOUT.md",
+      "title": "Failed Attempt - KiCad Library Index Portability Cleanup Timeout",
+      "size_bytes": 511,
+      "scope": "global",
+      "bucket": "failed_attempts"
+    },
+    {
       "path": "02_HISTORY\\failed_attempts\\AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README.md",
       "title": "AUTO_ROUTING_ENGINE_MISSING_PCB_ROUTING_README",
       "size_bytes": 511,
@@ -5816,6 +5851,13 @@
       "path": "02_HISTORY\\hallucination_risk_logs\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_HALLUCINATION_RISK.md",
       "title": "Hallucination Risk Log",
       "size_bytes": 376,
+      "scope": "global",
+      "bucket": "hallucination_risk_logs"
+    },
+    {
+      "path": "02_HISTORY\\hallucination_risk_logs\\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_HALLUCINATION_RISK.md",
+      "title": "Hallucination Risk Log - KiCad Library Index Portability Cleanup",
+      "size_bytes": 369,
       "scope": "global",
       "bucket": "hallucination_risk_logs"
     },
@@ -6697,7 +6739,7 @@
     {
       "path": "02_HISTORY\\MASTER_HISTORY_INDEX.md",
       "title": "Master History Index",
-      "size_bytes": 245202,
+      "size_bytes": 245971,
       "scope": "global",
       "bucket": "MASTER_HISTORY_INDEX.md"
     },
@@ -8137,6 +8179,13 @@
       "bucket": "sessions"
     },
     {
+      "path": "02_HISTORY\\sessions\\KICAD_LIBRARY_INDEX_PORTABILITY_CLEANUP_SESSION.md",
+      "title": "Session Log - KiCad Library Index Portability Cleanup",
+      "size_bytes": 1613,
+      "scope": "global",
+      "bucket": "sessions"
+    },
+    {
       "path": "02_HISTORY\\sessions\\KICAD_LIBRARY_INTELLIGENCE_SESSION.md",
       "title": "KiCad Library Intelligence Session",
       "size_bytes": 3166,
@@ -9204,6 +9253,13 @@
       "path": "02_HISTORY\\uncertainty_logs\\20260509_074638_ROUTING_WORK_GIT_CLEANUP_UNCERTAINTY.md",
       "title": "Uncertainty Log",
       "size_bytes": 337,
+      "scope": "global",
+      "bucket": "uncertainty_logs"
+    },
+    {
+      "path": "02_HISTORY\\uncertainty_logs\\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_UNCERTAINTY.md",
+      "title": "Uncertainty Log - KiCad Library Index Portability Cleanup",
+      "size_bytes": 399,
       "scope": "global",
       "bucket": "uncertainty_logs"
     },

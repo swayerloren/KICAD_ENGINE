@@ -8,6 +8,16 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Latest KiCad library index portability cleanup - 2026-05-09
+
+The generated payloads under `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES` were removed from Git tracking so portable GitHub ZIP users do not inherit machine-local KiCad install/library inventory as if it were portable repo truth.
+
+- `GENERATED_INDEXES` is now placeholder-only in Git by policy
+- keep `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/README.md` tracked
+- treat generated symbol, footprint, 3D model, and candidate files there as local-machine outputs
+- regenerate those indexes on the current user's machine before using them as evidence
+- do not recommit old generated KiCad install paths, user-global library-table paths, or candidate-search payloads from another machine
+
 ## Latest routing_work portability cleanup - 2026-05-09
 
 The large tracked scratch payload under `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/routing_work/20260508_091428` was removed from Git tracking so portable GitHub ZIP users do not inherit copied routing-trial boards and rehearsal DRC payloads.

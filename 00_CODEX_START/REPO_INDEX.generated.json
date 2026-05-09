@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T07:48:34",
+  "generated_at": "2026-05-09T08:02:01",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -30,7 +30,7 @@
       "name": ".gitignore",
       "path": ".gitignore",
       "type": "file",
-      "size_bytes": 2408
+      "size_bytes": 2640
     },
     {
       "name": ".prompts",
@@ -420,7 +420,7 @@
       "name": "FOR CHAT GPT.MD",
       "path": "FOR CHAT GPT.MD",
       "type": "file",
-      "size_bytes": 138599
+      "size_bytes": 139371
     },
     {
       "name": "health_check.ps1",
@@ -548,7 +548,7 @@
       "name": "README_GPT.md",
       "path": "README_GPT.md",
       "type": "file",
-      "size_bytes": 115066
+      "size_bytes": 115640
     },
     {
       "name": "REPO_INDEX.md",
@@ -616,7 +616,7 @@
       "name": "T_E_M_P",
       "path": "T_E_M_P",
       "type": "directory",
-      "item_count": 3,
+      "item_count": 4,
       "has_readme": false,
       "has_index": false
     },

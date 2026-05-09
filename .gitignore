@@ -73,6 +73,7 @@ installer/payload/PAYLOAD_BUILD_REPORT.md
 03_TOOLS/tool_logs/
 03_TOOLS/windows/logs/
 03_TOOLS/linux/logs/
+03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/
 *.log
 *.bak
 *.old
@@ -82,6 +83,9 @@ fp-info-cache
 !03_TOOLS/tool_logs/
 03_TOOLS/tool_logs/*
 !03_TOOLS/tool_logs/README.md
+!03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/
+03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/*
+!03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/README.md
 
 # Local Codex config
 .codex/config.toml

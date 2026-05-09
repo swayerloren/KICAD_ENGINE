@@ -1,39 +1,35 @@
 # Footprint Library Index
 
-Date: 2026-05-02
+Status: local-read-only footprint inventory guidance.
 
-Status: generated from read-only inspection of the installed KiCad 9 app.
+## Local Generated Outputs
 
-## Observed Stock Footprint Root
-
-`C:\Program Files\KiCad\9.0\share\kicad\footprints`
-
-Generated index:
+When regenerated on the current machine, footprint outputs are written under:
 
 - `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/footprint_index_summary.md`
 - `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES/footprint_index.json`
 
-## Current Counts
+These outputs are local-machine inventory only. They are not portable repo truth and are not meant to stay tracked in Git.
 
-| Item | Count |
-| --- | ---: |
-| Stock `.pretty` footprint libraries indexed | 155 |
-| Footprints indexed | 15,415 |
-| Footprints with 3D model references | 14,805 |
-| Footprint table entries parsed from stock template plus user-global table | 313 |
+## Regenerate
 
-## Large Footprint Libraries Observed
+```powershell
+python 03_TOOLS/scripts/kicad_libraries/index_footprints.py
+python 03_TOOLS/scripts/kicad_libraries/find_footprint_candidates.py "USB-C connector generic"
+```
 
-| Library | Notes |
-| --- | --- |
-| `Connector_Molex` | High mechanical and orientation risk. |
-| `Package_DFN_QFN` | Exposed-pad, paste, pin-1, and thermal-via risk. |
-| `Inductor_SMD` | Package names do not verify current rating or saturation. |
-| `Connector_JST` | Series, pitch, latch direction, and mating part are high-risk. |
-| `Package_SO` | Common IC packages; verify body width, pitch, pad style, and pin count. |
-| `Connector_USB` | USB-C and USB variants are high-risk and manufacturer-specific. |
-| `RF_Module` | Module keepouts, antenna region, and castellated pad numbering require source drawings. |
-| `Crystal` | Package names do not verify crystal electrical suitability. |
+If needed, pass `--kicad-root` or `--output-dir`.
+
+## What The Generated JSON Contains
+
+- footprint library names
+- footprint names
+- source `.kicad_mod` paths
+- descriptions
+- tags
+- pad counts
+- pad-name samples
+- 3D model path references
 
 ## Footprint Record Fields
 
@@ -59,14 +55,14 @@ The generated JSON records include:
 
 ## Candidate Samples
 
-Generated footprint candidate files include:
+When generated locally, footprint candidate files typically include:
 
 - `footprint_candidates_esp32_s3_wroom_1.md`
 - `footprint_candidates_stm32f103c8t6.md`
 - `footprint_candidates_usb_c_connector_generic.md`
 - `footprint_candidates_mcp2562fd.md`
 
-Important observed behavior:
+Typical candidate behavior:
 
 - `ESP32-S3-WROOM-1` finds direct RF module footprint candidates but still needs Espressif package drawing and keepout verification.
 - `USB-C connector generic` finds many `Connector_USB` candidates and marks them high-risk.

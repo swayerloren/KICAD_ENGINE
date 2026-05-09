@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-09T07:48:37",
-  "record_count": 897,
+  "generated": "2026-05-09T08:02:02",
+  "record_count": 902,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -421,6 +421,13 @@
       "path": "02_HISTORY/ai_self_reviews/20260509_074638_ROUTING_WORK_GIT_CLEANUP_SELF_REVIEW.md",
       "size_bytes": 885,
       "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-09T08:01:37",
+      "path": "02_HISTORY/ai_self_reviews/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_SELF_REVIEW.md",
+      "size_bytes": 462,
+      "title": "AI Self Review - KiCad Library Index Portability Cleanup"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1257,6 +1264,13 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-09T08:01:37",
+      "path": "02_HISTORY/ai_scorecards/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_SCORECARD.md",
+      "size_bytes": 606,
+      "title": "AI Response Scorecard - KiCad Library Index Portability Cleanup"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-02T23:43:58",
       "path": "02_HISTORY/ai_scorecards/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md",
       "size_bytes": 1101,
@@ -2083,6 +2097,13 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-09T08:01:37",
+      "path": "02_HISTORY/hallucination_risk_logs/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_HALLUCINATION_RISK.md",
+      "size_bytes": 369,
+      "title": "Hallucination Risk Log - KiCad Library Index Portability Cleanup"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/hallucination_risk_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 721,
@@ -2899,6 +2920,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/20260509_074638_ROUTING_WORK_GIT_CLEANUP_CLAIM_EVIDENCE.md",
       "size_bytes": 852,
       "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-09T08:01:37",
+      "path": "02_HISTORY/claim_evidence_matrices/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_CLAIM_EVIDENCE.md",
+      "size_bytes": 954,
+      "title": "Claim / Evidence Matrix - KiCad Library Index Portability Cleanup"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3914,6 +3942,13 @@
       "path": "02_HISTORY/uncertainty_logs/20260509_074638_ROUTING_WORK_GIT_CLEANUP_UNCERTAINTY.md",
       "size_bytes": 337,
       "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-09T08:01:37",
+      "path": "02_HISTORY/uncertainty_logs/20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_UNCERTAINTY.md",
+      "size_bytes": 399,
+      "title": "Uncertainty Log - KiCad Library Index Portability Cleanup"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",
