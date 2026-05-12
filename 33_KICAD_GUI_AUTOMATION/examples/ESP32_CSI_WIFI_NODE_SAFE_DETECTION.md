@@ -3,7 +3,8 @@
 Status: `EXAMPLE_ONLY`
 
 ```powershell
-$schematic = "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_sch"
+$repo = (Resolve-Path ".").Path
+$schematic = Join-Path $repo "04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_sch"
 
 .\33_KICAD_GUI_AUTOMATION\scripts\windows\detect_kicad_windows.ps1 -ExpectedSchematicPath $schematic -Json
 

@@ -126,6 +126,22 @@ Typical outputs:
 - manifests, checksums, BOM, CPL/PNP, Gerber, drill, STEP, and review reports
 - final export gate reports
 
+## KNOWLEDGE_RETRIEVAL
+
+Typical outputs:
+
+- repaired retrieval-index docs under `10_KNOWLEDGE_BASE/retrieval_indexes/`
+- short knowledge-path summaries in audit or release-readiness reports
+- source-registry and license-filter notes when trust/redistribution matters
+
+## GITHUB_PUSH_PUBLIC_RELEASE
+
+Typical outputs:
+
+- release-readiness reports under `05_OUTPUTS/release_readiness/`
+- updated startup/router/public-safety docs
+- include/exclude or blocker summaries for safe push/public-release review
+
 ## MEMORY_MAINTENANCE
 
 Typical outputs:

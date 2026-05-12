@@ -8,6 +8,28 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Canonical startup and routing - 2026-05-12
+
+Use this startup chain for future Codex/Claude work:
+
+- `START_HERE_FOR_AI_AGENTS.md`
+- `AGENTS.md`
+- `README_GPT.md`
+- `FOR CHAT GPT.MD`
+- `00_CODEX_START/START_HERE.md`
+- `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`
+- `00_CODEX_START/TASK_ROUTER.md`
+- `00_CODEX_START/CURRENT_PROJECT.md`
+- the `00_CODEX_START/TASK_TYPE_TO_{REQUIRED_DOCS,ALLOWED_ACTIONS,BLOCKERS,OUTPUTS,KNOWLEDGE,TOOL,RULE}_MAP.md` files
+
+Use `KNOWLEDGE_RETRIEVAL` for shortest trusted repo knowledge lookup.
+
+Use `GITHUB_PUSH_PUBLIC_RELEASE` for push/public-release readiness and safety.
+
+Historical entries below are context only. Live-state authority and current
+router docs outrank older report narratives, and raw structured-text annotation
+repair is not accepted as current annotation proof.
+
 ## Latest knowledge_scrape emptying completion - 2026-05-12
 
 The retired `knowledge_scrape/` source folder has now been backed up and
@@ -1316,7 +1338,9 @@ Then read task-specific files such as `CONTROL_PLANES.md`, `TOOL_INDEX.md`, `PRO
 - Verification scripts: present in `03_TOOLS\scripts`; clean sample success path was validated, but outputs are still review-only and `NOT_FINAL`.
 - Platform tool roots: `03_TOOLS\common`, `03_TOOLS\windows`, and `03_TOOLS\linux` exist for future organization. Legacy paths `03_TOOLS\repos`, `03_TOOLS\scripts`, `03_TOOLS\python_envs`, `03_TOOLS\node_envs`, and `03_TOOLS\tool_logs` remain valid until migration is explicitly approved.
 - Startup root now includes `00_CODEX_START\CONTROL_PLANES.md` as the authoritative startup summary for common, Windows GUI, and Linux/headless control-plane selection.
-- Health check: latest report shows PASS 72, WARN 5, FAIL 0, blockers none.
+- Health check: latest report shows PASS 18, WARN 2, FAIL 0; current warning
+  focus is KiCad-Python re-entry when normal Python cannot import `pcbnew`
+  directly.
 
 ## Control-plane model
 

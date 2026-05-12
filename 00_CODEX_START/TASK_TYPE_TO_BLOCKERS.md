@@ -146,6 +146,25 @@ Blocked when:
 - BOM, CPL/PNP, or package-validation checks are incomplete
 - outputs would be mislabeled as final without LJ approval
 
+## KNOWLEDGE_RETRIEVAL
+
+Blocked from fast trusted lookup when:
+
+- the canonical router maps and retrieval mirror maps disagree
+- source trust or license posture cannot be determined from the registry and
+  companion license notes
+- the task tries to use retired `knowledge_scrape` residue as an active source
+
+## GITHUB_PUSH_PUBLIC_RELEASE
+
+Blocked when:
+
+- `PUBLIC_RELEASE_STATUS.md` still says public release is not ready
+- license or attribution review still requires human decision
+- the payload scope is unclear for public distribution
+- the task would stage or push dirty KiCad design work implicitly
+- the recommendation would bypass release, security, or payload-review docs
+
 ## MEMORY_MAINTENANCE
 
 Blocked only when:

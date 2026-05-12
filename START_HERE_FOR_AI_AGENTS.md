@@ -20,9 +20,19 @@ Read these first:
 
 1. `START_HERE_FOR_AI_AGENTS.md`
 2. `AGENTS.md`
-3. `FOR CHAT GPT.MD`
-4. `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`
-5. `00_CODEX_START/TASK_ROUTER.md`
+3. `README_GPT.md`
+4. `FOR CHAT GPT.MD`
+5. `00_CODEX_START/START_HERE.md`
+6. `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`
+7. `00_CODEX_START/TASK_ROUTER.md`
+8. `00_CODEX_START/CURRENT_PROJECT.md`
+9. `00_CODEX_START/TASK_TYPE_TO_REQUIRED_DOCS.md`
+10. `00_CODEX_START/TASK_TYPE_TO_ALLOWED_ACTIONS.md`
+11. `00_CODEX_START/TASK_TYPE_TO_BLOCKERS.md`
+12. `00_CODEX_START/TASK_TYPE_TO_OUTPUTS.md`
+13. `00_CODEX_START/TASK_TYPE_TO_KNOWLEDGE_MAP.md`
+14. `00_CODEX_START/TASK_TYPE_TO_TOOL_MAP.md`
+15. `00_CODEX_START/TASK_TYPE_TO_RULE_MAP.md`
 
 Then follow `AGENTS.md` for the full startup chain before touching KiCad project files or making engineering claims.
 
@@ -67,6 +77,8 @@ The router currently covers:
 - `TRACE_GEOMETRY_AUDIT`
 - `PCB_COPPER_ZONES`
 - `FAB_EXPORT`
+- `KNOWLEDGE_RETRIEVAL`
+- `GITHUB_PUSH_PUBLIC_RELEASE`
 - `MEMORY_MAINTENANCE`
 - `OPEN_SOURCE_TOOL_USE`
 
@@ -119,6 +131,28 @@ Real routed-board acceptance now also uses:
 - `03_TOOLS/scripts/pcb_quality/`
 - active project `reports/pcb_quality_gate/`
 - the latest `PCB_QUALITY_GATE_REPORT.md`
+
+Knowledge-retrieval work must now also use:
+
+- `10_KNOWLEDGE_BASE/retrieval_indexes/MASTER_KNOWLEDGE_INDEX.md`
+- `10_KNOWLEDGE_BASE/retrieval_indexes/TASK_TO_KNOWLEDGE_MAP.md`
+- `10_KNOWLEDGE_BASE/retrieval_indexes/TASK_TO_TOOL_MAP.md`
+- `10_KNOWLEDGE_BASE/retrieval_indexes/TASK_TO_RULE_MAP.md`
+- `10_KNOWLEDGE_BASE/source_registry/SOURCE_REGISTRY.csv`
+- `10_KNOWLEDGE_BASE/source_registry/SOURCE_REGISTRY.json`
+- `10_KNOWLEDGE_BASE/source_registry/SOURCE_LICENSE_STATUS.md`
+
+GitHub push and public-release safety work must now also use:
+
+- `00_CODEX_START/GITHUB_NAVIGATION.md`
+- `00_CODEX_START/CURRENT_GITHUB_STATUS.md`
+- `PUBLIC_RELEASE_STATUS.md`
+- `PUBLIC_RELEASE_CHECKLIST.md`
+- `SECURITY.md`
+- `21_LICENSE_ATTRIBUTION/LICENSE_AUDIT.md`
+- `21_LICENSE_ATTRIBUTION/THIRD_PARTY_ATTRIBUTION.md`
+- `21_LICENSE_ATTRIBUTION/PUBLIC_REPO_RISK_REGISTER.md`
+- `05_OUTPUTS/release_readiness/GITHUB_PUSH_REPORT.md`
 
 Calculator and automation-result work must now also use:
 

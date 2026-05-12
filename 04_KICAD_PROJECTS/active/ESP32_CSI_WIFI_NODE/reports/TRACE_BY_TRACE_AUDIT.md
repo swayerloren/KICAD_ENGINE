@@ -6,6 +6,15 @@ Status: `NO_TRACES_TO_AUDIT`
 
 Final classification: `BLOCKED`
 
+## Historical Status Warning
+
+This report records a blocked audit from before the live PCB existed in its
+current state.
+
+Do not use this file to claim `NO_PCB`, `NOT_RUN_NO_PCB`, or absence of routed
+content on the current board. Use `reports/LIVE_PROJECT_STATE.md` and
+`reports/GATE_RECONCILIATION_REPORT.md` for live-board truth.
+
 ## Scope
 
 Audit routed traces after full remaining-net routing.

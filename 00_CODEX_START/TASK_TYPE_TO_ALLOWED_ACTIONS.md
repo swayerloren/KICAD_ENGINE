@@ -180,6 +180,39 @@ Not allowed:
 - call an export final without explicit LJ approval
 - treat package creation as proof of electrical or mechanical correctness
 
+## KNOWLEDGE_RETRIEVAL
+
+Allowed:
+
+- inspect canonical retrieval indexes, registry files, and topic folders
+- compare canonical startup maps against retrieval mirrors
+- repair broken route-to-knowledge, route-to-tool, or route-to-rule indexes
+- produce short task-specific source paths that avoid broad raw-data reads
+
+Not allowed:
+
+- treat historical migration provenance or retired `knowledge_scrape` residue
+  as live source-of-truth
+- claim source trust or redistribution status without the registry/license
+  evidence
+
+## GITHUB_PUSH_PUBLIC_RELEASE
+
+Allowed:
+
+- inspect release-readiness, license, attribution, security, and payload-scope
+  docs
+- run non-destructive health, status, and security-scope checks
+- update startup/router docs so push/public-release work is forced through the
+  correct safety surfaces
+- write release-readiness reports and blocker summaries
+
+Not allowed:
+
+- stage, commit, push, or publish without explicit user request
+- claim the repo is public-ready while license, attribution, or payload
+  blockers remain unresolved
+
 ## MEMORY_MAINTENANCE
 
 Allowed:

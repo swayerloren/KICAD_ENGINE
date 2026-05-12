@@ -1,65 +1,60 @@
 # GitHub Push Report
 
-Status: `PRIVATE_PUSH_COMPLETED`
+Generated: `2026-05-12`
 
-Date: `2026-05-08`
+Status: `PUSH_COMPLETED_SAFE_NON_DESIGN_SCOPE`
 
 ## Summary
 
-- GitHub auth verified for `swayerloren`
-- Local git repo initialized in this workspace: `YES`
-- Branch used: `main`
-- Repository created on GitHub: `YES`
-- Visibility: `private`
-- Initial workspace commit created and pushed successfully
+The requested safe non-design push completed successfully.
 
-## Required Results
+The precondition report classified the repo as:
 
-1. `gh auth status` result:
-   - authenticated to `github.com` as `swayerloren`
-   - token scopes included `gist`, `read:org`, `repo`, `workflow`
-2. Git repo initialized:
-   - `YES`
-3. Branch name:
-   - `main`
-4. Remote URL:
-   - `https://github.com/swayerloren/KICAD_ENGINE.git`
-5. Repo created:
-   - `YES`
-6. Visibility:
-   - `private`
-7. Files staged count:
-   - `8981`
-8. Files ignored count:
-   - `199`
-9. Secrets found:
-   - `NO`
-10. Large files found:
-    - `YES`, but all current `>50 MB` files were ignored and not pushed
-11. Initial workspace commit hash:
-    - `d6b881ff4bd62548235020949e63a3def1aa1bf2`
-12. Push result:
-    - `SUCCESS`
-13. GitHub repo URL:
-    - `https://github.com/swayerloren/KICAD_ENGINE`
-14. Remaining public-release blockers:
-    - `README.md` still declares public GitHub release `NOT_READY`
-    - `PUBLIC_RELEASE_CHECKLIST.md` is not complete
-    - `21_LICENSE_ATTRIBUTION/LICENSE_AUDIT.md` remains `REQUIRES_HUMAN_REVIEW`
-    - historical placeholder-token strings still exist in docs/logs and require hygiene review before a public release
-    - excluded backup, copied-board rehearsal, raw-import, cache, env, and large binary content remains intentionally out of Git
+- `REPO_READY_TO_COMMIT_AND_PUSH_EXCLUDING_DIRTY_KICAD_FILES`
 
-## Remote Verification
+The commit intentionally excluded:
 
-- `gh repo view swayerloren/KICAD_ENGINE --json nameWithOwner,url,visibility,defaultBranchRef`
-  - `nameWithOwner`: `swayerloren/KICAD_ENGINE`
-  - `url`: `https://github.com/swayerloren/KICAD_ENGINE`
-  - `visibility`: `PRIVATE`
-  - `defaultBranchRef.name`: `main`
+- all `.kicad_sch`, `.kicad_pcb`, and `.kicad_pro` files
+- all `04_KICAD_PROJECTS/` paths
+- `.sfdx/`
+- backups, envs, caches, installer outputs, and raw extraction captures
 
-## Scope Safety Notes
+## Push Execution
 
-- No `.kicad_sch` files were edited for this task.
-- No `.kicad_pcb` files were edited for this task.
-- No routing work was performed for this task.
-- No manufacturing outputs were generated for this task.
+- stage files: `COMPLETED`
+- commit: `COMPLETED`
+- push: `COMPLETED`
+
+## Results
+
+- branch: `main`
+- remote: `https://github.com/swayerloren/KICAD_ENGINE.git`
+- GitHub repo URL: `https://github.com/swayerloren/KICAD_ENGINE`
+- commit hash: `4fb74fbb178fcb78408c9a30c826281d4c4ffb73`
+- commit message:
+  `Update KiCad Engine knowledge base and migration indexes`
+- staged file count at commit time: `1009`
+- staged KiCad design files at commit time: `0`
+- staged files over `50 MB` at commit time: `0`
+
+## Security / Scope Notes
+
+- no high-confidence live secret was identified
+- `.env` files were not included
+- `.sfdx/` was not present in the working tree and was not staged
+- raw extraction captures under
+  `02_HISTORY/knowledge_scrape_migration/datasheet_extraction_logs/` were
+  explicitly removed from the staged set before commit
+
+## Remaining Local Dirtiness
+
+The push does not clean the entire working tree. Remaining unstaged local items
+still include:
+
+- the preexisting dirty project schematic and related project evidence under
+  `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/`
+- `14_LAYOUT_AUTOMATION/scripts/_placement_common.py`
+- `22_SECURITY/SECURITY_POLICY.md`
+- `KICAD_ENGINE_WORKSPACE.code-workspace`
+- this updated post-push report and its companion session/command files unless
+  they are committed later in a follow-up pass

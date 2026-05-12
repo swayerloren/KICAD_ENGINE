@@ -30,9 +30,11 @@ Read these first:
 
 1. `START_HERE_FOR_AI_AGENTS.md`
 2. `AGENTS.md`
-3. `FOR CHAT GPT.MD`
-4. `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`
-5. `00_CODEX_START/CURRENT_PROJECT.md`
+3. `README_GPT.md`
+4. `FOR CHAT GPT.MD`
+5. `00_CODEX_START/START_HERE.md`
+6. `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`
+7. `00_CODEX_START/CURRENT_PROJECT.md`
 
 Then follow `AGENTS.md` and the route-specific docs below.
 
@@ -72,6 +74,8 @@ Then follow `AGENTS.md` and the route-specific docs below.
 | `TRACE_GEOMETRY_AUDIT` | judge whether existing routing geometry is acceptable |
 | `PCB_COPPER_ZONES` | create, refill, or review copper pours/zones |
 | `FAB_EXPORT` | generate or approve fabrication/export packages |
+| `KNOWLEDGE_RETRIEVAL` | find the shortest trusted repo knowledge path for a topic, part, rule, datasheet family, API surface, or fab/process question |
+| `GITHUB_PUSH_PUBLIC_RELEASE` | evaluate GitHub push scope, public-release readiness, release blockers, security hygiene, and payload safety before recommending a push or publication step |
 | `MEMORY_MAINTENANCE` | update memory/history, run maintenance, rebuild indexes, or close out a session |
 | `OPEN_SOURCE_TOOL_USE` | use optional external KiCad-adjacent tools, local wrappers, tool-evaluation docs, sample projects, or browser-assisted research rules |
 
@@ -116,6 +120,12 @@ Apply these rules before acting:
   under `10_KNOWLEDGE_BASE/retrieval_indexes/`. Historical migration
   provenance belongs in repo history and release-readiness reports; it is not
   part of the live routing path.
+- When knowledge lookup is the actual task, route to `KNOWLEDGE_RETRIEVAL`
+  first instead of reading broad raw registries by default.
+- When the prompt mentions push, publish, GitHub release, public readiness,
+  public repo safety, or what may ship publicly, route to
+  `GITHUB_PUSH_PUBLIC_RELEASE` before any recommendation about staging,
+  committing, pushing, or release packaging.
 - If the prompt says `pcb_quality` but the folder
   `03_TOOLS/scripts/pcb_quality/` does not exist, use the current routing
   quality gate under `03_TOOLS/scripts/pcb_geometry/`.

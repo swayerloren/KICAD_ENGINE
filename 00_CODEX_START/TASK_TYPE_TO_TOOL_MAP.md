@@ -19,6 +19,7 @@ surface first.
 | `TRACE_GEOMETRY_AUDIT` | `03_TOOLS/scripts/pcb_geometry/`, `03_TOOLS/scripts/pcb_quality/check_trace_geometry.py`, `render_trace_quality_overlays.py` |
 | `PCB_COPPER_ZONES` | `03_TOOLS/scripts/pcb_quality/run_pcb_quality_gate.py`, `check_zone_and_gnd_stitching.py`, `kicad-cli pcb drc` |
 | `FAB_EXPORT` | `03_TOOLS/scripts/fabrication/`, `03_TOOLS/scripts/pcb_quality/`, `kicad-cli pcb render`, release validators under `17_RELEASE_BUILD/` |
+| `KNOWLEDGE_RETRIEVAL` | `03_TOOLS/scripts/knowledge_migration/rebuild_knowledge_indexes.py`, indexing scripts under `03_TOOLS/scripts/indexing/`, source-registry files under `10_KNOWLEDGE_BASE/source_registry/` |
+| `GITHUB_PUSH_PUBLIC_RELEASE` | `health_check.py`, local Git status/diff, release-readiness docs under `05_OUTPUTS/release_readiness/` |
 | `MEMORY_MAINTENANCE` | `03_TOOLS/scripts/maintenance/`, `03_TOOLS/scripts/knowledge_migration/rebuild_knowledge_indexes.py`, indexing scripts under `03_TOOLS/scripts/indexing/` |
 | `OPEN_SOURCE_TOOL_USE` | `setup/verify_optional_kicad_tools.py`, `03_TOOLS/open_source_integrations/`, `03_TOOLS/calculators/`, approved external-tool wrappers only |
-

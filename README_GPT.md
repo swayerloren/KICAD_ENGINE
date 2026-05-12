@@ -4,6 +4,18 @@ This file is the high-level context handoff for ChatGPT, Codex, and future AI ag
 
 Historical records may still mention an older non-GitHub checkout path. Treat older absolute paths as historical unless a current file explicitly proves the path exists and the user selects it. For new work, prefer repo-relative paths or the current checkout path above.
 
+Canonical startup and routing, 2026-05-12:
+Use `START_HERE_FOR_AI_AGENTS.md` plus `AGENTS.md` as the authoritative
+startup chain. Then read `README_GPT.md`, `FOR CHAT GPT.MD`,
+`00_CODEX_START/START_HERE.md`, `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`,
+`00_CODEX_START/TASK_ROUTER.md`, `00_CODEX_START/CURRENT_PROJECT.md`, and the
+`00_CODEX_START/TASK_TYPE_TO_{REQUIRED_DOCS,ALLOWED_ACTIONS,BLOCKERS,OUTPUTS,KNOWLEDGE,TOOL,RULE}_MAP.md`
+files. Use `KNOWLEDGE_RETRIEVAL` for shortest trusted repo knowledge lookup and
+`GITHUB_PUSH_PUBLIC_RELEASE` for push/public-release readiness work. Historical
+report text below is context only; live-state authority and current router docs
+outrank older summaries, and raw structured-text annotation repair is not
+accepted as current annotation proof.
+
 Latest knowledge_scrape emptying completion, 2026-05-12:
 The `knowledge_scrape/` source folder has now been backed up under
 `99_BACKUPS/knowledge_scrape_pre_empty/` and removed from the live repo tree
@@ -1266,9 +1278,10 @@ Final production structure audit:
 Latest health check:
 
 - Command: `python health_check.py --repo-root . --no-write`
-- Latest observed result on 2026-05-03: PASS 131, WARN 0, FAIL 0.
+- Latest observed result on 2026-05-12: PASS 18, WARN 2, FAIL 0.
 - Historical report file: `03_TOOLS\tool_logs\KICAD_ENGINE_HEALTH_CHECK.md`
-- Blockers: None.
+- Current warning focus: board-aware scripts should re-enter through KiCad
+  Python when normal Python cannot import `pcbnew` directly.
 
 Current installed/available basics:
 

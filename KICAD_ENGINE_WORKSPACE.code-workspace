@@ -19,6 +19,7 @@
 		"terminal.integrated.defaultProfile.windows": "PowerShell",
 		"json.validate.enable": true,
 		"powershell.cwd": "${workspaceFolder}",
-		"powershell.scriptAnalysis.enable": true
+		"powershell.scriptAnalysis.enable": true,
+		"xml.preferences.showSchemaDocumentationType": "none"
 	}
 }

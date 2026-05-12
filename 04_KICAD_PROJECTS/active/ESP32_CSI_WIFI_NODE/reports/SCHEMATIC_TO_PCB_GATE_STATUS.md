@@ -6,6 +6,16 @@ Gate result: `FAIL`
 
 PCB update allowed: `NO`
 
+## Historical Annotation Warning
+
+The annotation repair notes below are historical evidence only.
+
+Raw structured-text repair of a saved `.kicad_sch` is not accepted as current
+annotation proof under the active repo rules. Current authoritative annotation
+proof must come from the KiCad-native GUI workflow plus saved-file and ERC
+evidence, and live-state authority outranks older gate narratives when they
+conflict.
+
 ## GUI Annotation Mismatch Addendum
 
 Updated: `2026-05-06 18:55:00 -04:00`
@@ -30,7 +40,7 @@ The latest annotation-only repair updated the saved schematic at:
 
 `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_sch`
 
-Method: `STRUCTURED_S_EXPRESSION`
+Historical method attempt: `STRUCTURED_S_EXPRESSION`
 
 Reason: local `kicad-cli` does not expose a schematic annotation command, so the repair parsed placed-symbol S-expressions and updated actual placed-symbol `Reference` properties plus matching KiCad-style `instances` reference blocks.
 
@@ -43,7 +53,9 @@ Evidence:
 - `reports/ANNOTATION_REFERENCE_TABLE_FINAL.json`
 - `reports/ANNOTATION_REPAIR_ACTUAL_KICAD_CHANGES.json`
 
-Annotation-specific result: `PASS_BY_KICAD_CLI_ERC_AND_STRUCTURED_REFERENCE_TABLE`
+Historical annotation-attempt result: `PASS_BY_KICAD_CLI_ERC_AND_STRUCTURED_REFERENCE_TABLE`
+
+Current policy status: `NOT_ACCEPTED_AS_AUTHORITATIVE_ANNOTATION_PROOF`
 
 KiCad ERC annotation message `Schematic is not fully annotated`: `NOT_PRESENT` in the current local `kicad-cli` ERC output.
 

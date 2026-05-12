@@ -21,5 +21,7 @@ Historical migration provenance is part of repo history, not a routing input.
 | `TRACE_GEOMETRY_AUDIT` | `10_KNOWLEDGE_BASE/pcb_layout/`, `10_KNOWLEDGE_BASE/case_studies/`, `26_AGENT_QUALITY/` |
 | `PCB_COPPER_ZONES` | `10_KNOWLEDGE_BASE/power_integrity/`, `10_KNOWLEDGE_BASE/rf_wifi/`, `10_KNOWLEDGE_BASE/pcb_layout/` |
 | `FAB_EXPORT` | `24_FAB_PROFILES/`, `10_KNOWLEDGE_BASE/dfm_assembly/`, `10_KNOWLEDGE_BASE/compliance_emc_safety/`, `17_RELEASE_BUILD/` |
+| `KNOWLEDGE_RETRIEVAL` | `10_KNOWLEDGE_BASE/retrieval_indexes/`, `10_KNOWLEDGE_BASE/source_registry/`, `06_DATASHEETS/`, `08_COMPONENT_DATABASE/`, `24_FAB_PROFILES/`, `26_AGENT_QUALITY/` |
+| `GITHUB_PUSH_PUBLIC_RELEASE` | `21_LICENSE_ATTRIBUTION/`, `05_OUTPUTS/release_readiness/`, `22_SECURITY/`, `23_PACKAGE_PROFILES/` |
 | `MEMORY_MAINTENANCE` | `01_MEMORY/`, `02_HISTORY/`, `10_KNOWLEDGE_BASE/retrieval_indexes/`, `26_AGENT_QUALITY/` |
 | `OPEN_SOURCE_TOOL_USE` | `03_TOOLS/open_source_integrations/`, `10_KNOWLEDGE_BASE/retrieval_indexes/`, `10_KNOWLEDGE_BASE/kicad_core/`, `10_KNOWLEDGE_BASE/calculators/` |

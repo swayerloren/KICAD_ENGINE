@@ -11,13 +11,15 @@ correctly`, this file is part of the immediate follow-up.
 
 1. Read `START_HERE_FOR_AI_AGENTS.md`.
 2. Read `AGENTS.md`.
-3. Read `FOR CHAT GPT.MD`.
-4. Read `00_CODEX_START/TASK_ROUTER.md`.
-5. Read `00_CODEX_START/CURRENT_PROJECT.md`.
-6. Use `TASK_TYPE_TO_REQUIRED_DOCS.md`,
+3. Read `README_GPT.md`.
+4. Read `FOR CHAT GPT.MD`.
+5. Read `00_CODEX_START/START_HERE.md`.
+6. Read `00_CODEX_START/TASK_ROUTER.md`.
+7. Read `00_CODEX_START/CURRENT_PROJECT.md`.
+8. Use `TASK_TYPE_TO_REQUIRED_DOCS.md`,
    `TASK_TYPE_TO_ALLOWED_ACTIONS.md`,
    `TASK_TYPE_TO_BLOCKERS.md`, and `TASK_TYPE_TO_OUTPUTS.md`.
-7. Use `TASK_TYPE_TO_KNOWLEDGE_MAP.md`,
+9. Use `TASK_TYPE_TO_KNOWLEDGE_MAP.md`,
    `TASK_TYPE_TO_TOOL_MAP.md`, and `TASK_TYPE_TO_RULE_MAP.md`.
 
 ## Hard Truths
@@ -53,6 +55,8 @@ correctly`, this file is part of the immediate follow-up.
 - trace quality audit -> `TRACE_GEOMETRY_AUDIT`
 - copper pours -> `PCB_COPPER_ZONES`
 - fabrication outputs -> `FAB_EXPORT`
+- knowledge lookup / shortest trusted context path -> `KNOWLEDGE_RETRIEVAL`
+- GitHub push / public-release safety -> `GITHUB_PUSH_PUBLIC_RELEASE`
 - memory/history/index refresh -> `MEMORY_MAINTENANCE`
 - local tool or open-source workflow use -> `OPEN_SOURCE_TOOL_USE`
 - formula-sizing or calculator help -> `OPEN_SOURCE_TOOL_USE`, then

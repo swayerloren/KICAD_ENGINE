@@ -12,6 +12,15 @@ Real PCB placement allowed: `NO`
 
 Live board contradiction present: `YES`
 
+## Live-State Authority Warning
+
+This file is a historical permission-gate snapshot from `2026-05-07`.
+
+It must not be used as the authoritative source for current live routing,
+placement, or copper state. Use `reports/LIVE_PROJECT_STATE.md`,
+`reports/GATE_RECONCILIATION_REPORT.md`, and `reports/STALE_REPORTS_AUDIT.md`
+for current live-board truth and stale-report handling.
+
 ## Scope
 
 This file remains a permission gate.
@@ -44,8 +53,8 @@ It no longer serves as proof that no real PCB, no placement, or no routing exist
 2. The phase checker still blocks later PCB phases from the formal gate perspective.
 3. Live placement exists, but a refreshed live-board placement/orientation approval is still required.
 4. `12` DRC drill-rule violations remain on `U2 pad 41`.
-5. `16` detectable unrouted nets and `65` DRC unconnected items remain.
-6. No zones / accepted GND strategy exist on the current board.
+5. Historical counts below are stale against newer live-state evidence.
+6. Historical `no zones` language is stale against newer live-state evidence.
 
 ## What This File Must Not Be Used To Claim
 

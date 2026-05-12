@@ -95,6 +95,11 @@ fp-info-cache
 .sfdx/
 knowledge_scrape/
 
+# Local-only quarantine and extraction payloads that must not be staged into
+# the public repo by accident
+21_LICENSE_ATTRIBUTION/license_risk_reviews/
+02_HISTORY/knowledge_scrape_migration/datasheet_extraction_logs/
+
 # Project-local backup and temporary audit workspaces
 04_KICAD_PROJECTS/active/*/backups/
 04_KICAD_PROJECTS/active/*/reports/tmp_*/

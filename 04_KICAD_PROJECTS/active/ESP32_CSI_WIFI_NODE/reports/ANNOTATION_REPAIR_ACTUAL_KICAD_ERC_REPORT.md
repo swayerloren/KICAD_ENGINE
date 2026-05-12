@@ -10,9 +10,18 @@ Target schematic: `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_
 
 This was an annotation-only repair. No visual layout cleanup, value changes, footprint changes, PCB edits, PCB update, routing, zones, or manufacturing outputs were performed.
 
+## Historical Status Warning
+
+This file records a historical saved-file repair attempt.
+
+It is not authoritative annotation proof under the current repo rules because
+raw structured-text edits to `.kicad_sch` are no longer accepted as annotation
+proof by themselves. Use the KiCad-native GUI annotation workflow plus post-save
+ERC and duplicate/unresolved-reference scans instead.
+
 ## Method
 
-Method used: `STRUCTURED_S_EXPRESSION`
+Historical method used: `STRUCTURED_S_EXPRESSION`
 
 Reason: local `kicad-cli sch --help` exposes ERC/export commands but no schematic annotation command. The saved `.kicad_sch` was therefore repaired by parsing placed KiCad symbol S-expressions and updating actual placed-symbol `Reference` properties plus KiCad-style `instances` reference blocks.
 

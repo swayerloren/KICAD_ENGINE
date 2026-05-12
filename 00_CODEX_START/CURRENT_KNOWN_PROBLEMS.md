@@ -2,7 +2,7 @@
 
 Status: `AUTO_BUILT`
 
-Generated: `2026-05-12T16:14:37`
+Generated: `2026-05-12T18:14:10`
 
 This startup file summarizes risk signals so the next AI agent sees what not to repeat.
 

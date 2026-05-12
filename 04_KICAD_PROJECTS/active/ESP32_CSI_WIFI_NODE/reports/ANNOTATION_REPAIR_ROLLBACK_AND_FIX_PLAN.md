@@ -14,6 +14,13 @@ Backup path:
 
 The visual cleanup pass is stopped. No visual layout cleanup, symbol movement, footprint assignment, PCB update, routing, or manufacturing output is allowed in this task.
 
+## Historical Status Warning
+
+This plan is preserved as historical evidence only.
+
+It documents a saved-file structured-text recovery path that is no longer
+accepted as authoritative annotation proof under the current repo rules.
+
 ## Current Evidence Before This Repair
 
 Two local KiCad CLI ERC checks on the saved target schematic reported 0 violations:
@@ -29,7 +36,7 @@ KiCad 9.0.7 `kicad-cli sch` exposes `erc` and `export`; it does not expose a com
 
 Method used:
 
-`STRUCTURED_S_EXPRESSION_REPAIR`
+`STRUCTURED_S_EXPRESSION_REPAIR_HISTORICAL_ONLY`
 
 The repair will:
 

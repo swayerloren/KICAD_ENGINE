@@ -8,6 +8,16 @@ Project: `ESP32_CSI_WIFI_NODE`
 
 Date: 2026-05-03
 
+## Historical Status Warning
+
+This report records a blocked pre-PCB planning state from before the live board
+existed in its current form.
+
+Do not use this file to claim `NO_PCB`, missing outline, or missing holes on
+the current board. Use `reports/LIVE_PROJECT_STATE.md`,
+`reports/GATE_RECONCILIATION_REPORT.md`, and fresh board evidence for live
+mechanical/routing truth.
+
 ## Result
 
 Through-hole, mounting-hole, test-pad, and via strategy verification was not performed.
@@ -144,4 +154,3 @@ Do not:
 - create or modify zones;
 - generate manufacturing outputs;
 - claim hole, pad, or via strategy has passed.
-

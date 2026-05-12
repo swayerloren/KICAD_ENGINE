@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T16:14:35",
+  "generated_at": "2026-05-12T18:14:08",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -30,7 +30,7 @@
       "name": ".gitignore",
       "path": ".gitignore",
       "type": "file",
-      "size_bytes": 2835
+      "size_bytes": 3053
     },
     {
       "name": ".prompts",
@@ -382,7 +382,7 @@
       "name": "CLAUDE.md",
       "path": "CLAUDE.md",
       "type": "file",
-      "size_bytes": 776
+      "size_bytes": 1512
     },
     {
       "name": "CODE_OF_CONDUCT.md",
@@ -450,7 +450,7 @@
       "name": "FOR CHAT GPT.MD",
       "path": "FOR CHAT GPT.MD",
       "type": "file",
-      "size_bytes": 162486
+      "size_bytes": 163386
     },
     {
       "name": "health_check.ps1",
@@ -488,7 +488,7 @@
       "name": "KICAD_ENGINE_WORKSPACE.code-workspace",
       "path": "KICAD_ENGINE_WORKSPACE.code-workspace",
       "type": "file",
-      "size_bytes": 604
+      "size_bytes": 551
     },
     {
       "name": "LEGAL_AND_LICENSE_AUDIT.md",
@@ -578,7 +578,7 @@
       "name": "README_GPT.md",
       "path": "README_GPT.md",
       "type": "file",
-      "size_bytes": 129299
+      "size_bytes": 130198
     },
     {
       "name": "REPO_INDEX.md",
@@ -652,7 +652,7 @@
       "name": "START_HERE_FOR_AI_AGENTS.md",
       "path": "START_HERE_FOR_AI_AGENTS.md",
       "type": "file",
-      "size_bytes": 11640
+      "size_bytes": 13035
     },
     {
       "name": "START_HERE_FOR_USERS.md",
@@ -664,7 +664,7 @@
       "name": "T_E_M_P",
       "path": "T_E_M_P",
       "type": "directory",
-      "item_count": 4,
+      "item_count": 5,
       "has_readme": false,
       "has_index": false
     },
