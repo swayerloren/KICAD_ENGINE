@@ -1,0 +1,40 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Upgrade startup and prompt-router docs so sessions can auto-route from START_HERE_FOR_AI_AGENTS.md.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [
+    "START_HERE_FOR_AI_AGENTS.md",
+    "AGENTS.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    ".prompts\\README.md",
+    ".prompts\\codex\\00_START_SESSION.md",
+    ".prompts\\claude\\00_START_SESSION.md",
+    "00_CODEX_START\\TASK_ROUTER.md",
+    "00_CODEX_START\\TASK_TYPE_TO_REQUIRED_DOCS.md",
+    "00_CODEX_START\\TASK_TYPE_TO_ALLOWED_ACTIONS.md",
+    "00_CODEX_START\\TASK_TYPE_TO_BLOCKERS.md",
+    "00_CODEX_START\\TASK_TYPE_TO_OUTPUTS.md",
+    "00_CODEX_START\\KICAD_ENGINE_CRITICAL_PATH.md",
+    "00_CODEX_START\\AI_AGENT_FAST_CONTEXT.md",
+    "01_MEMORY\\DESIGN_RULES_MEMORY.md",
+    "02_HISTORY\\design_reviews\\START_ROUTER_UPGRADE_AUDIT.md",
+    "02_HISTORY\\sessions\\START_ROUTER_UPGRADE_SESSION.md",
+    "02_HISTORY\\command_logs\\START_ROUTER_UPGRADE_COMMANDS.md",
+    "02_HISTORY\\ai_self_reviews\\20260510_START_ROUTER_UPGRADE_SELF_REVIEW.md",
+    "02_HISTORY\\ai_scorecards\\20260510_START_ROUTER_UPGRADE_SCORECARD.md",
+    "02_HISTORY\\claim_evidence_matrices\\20260510_START_ROUTER_UPGRADE_CLAIMS.md",
+    "02_HISTORY\\uncertainty_logs\\20260510_START_ROUTER_UPGRADE_UNCERTAINTY.md",
+    "02_HISTORY\\hallucination_risk_logs\\20260510_START_ROUTER_UPGRADE_RISK_LOG.md",
+    "02_HISTORY\\issue_logs\\20260510_START_ROUTER_FOLLOWUP_ITEMS.md",
+    "02_HISTORY\\sessions\\2026-05-10_start_router_upgrade_task_contract.json"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Documentation-only routing upgrade. No KiCad design files changed. Prompt-counter maintenance was triggered and completed during this run.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

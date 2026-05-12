@@ -1,0 +1,23 @@
+# circuit-synth
+
+- Tool name: `circuit-synth`
+- GitHub/source URL: `https://github.com/circuit-synth/circuit-synth`
+- License: `MIT`
+- Purpose: structured circuit design and schematic automation toolkit
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - structured circuit planning
+  - sandbox schematic generation
+  - design-review experiments that compare intended blocks
+- Exact commands if known:
+  - `pip install circuit-synth`
+  - `uv add circuit-synth`
+- Risks and limitations:
+  - generation-capable, so it must not bypass schematic gates
+  - not proof of KiCad-native annotation or GUI state
+- Can edit KiCad files: `yes`
+- Read-only safe: `yes, for sandbox reasoning or parse-only use`
+- Allowed in CI: `yes`
+- Allowed in ZIP release: `no`

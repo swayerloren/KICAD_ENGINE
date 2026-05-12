@@ -4,60 +4,75 @@
 
 Pass only if:
 
-- active project is selected in `00_CODEX_START/CURRENT_PROJECT.md`
-- expected schematic path is absolute and inside the active project
-- GUI process command line points to the same schematic
+- active project is confirmed
+- target `.kicad_pro` is exact
+- target `.kicad_sch` is exact
+- the target files are inside the active project
 
-If Eeschema is not open for an annotation task, automation may attempt to open the target `.kicad_pro` only after project identity is confirmed and the action is logged. If Eeschema is open with any different project, stop.
+If Eeschema is open with a different project, stop.
 
-## Gate 2 - Backup
+## Gate 2 - Window State
 
-Pass only if:
+Pass only if one of these is true:
+
+- exact target Eeschema is already open and clean
+- no Eeschema window is open and the workflow is still in dry-run or approved
+  open-only live mode
+- exact target Eeschema is dirty with `*` and that state was explicitly
+  allowed
+
+Fail if:
+
+- a different-project Eeschema window is open
+- multiple Eeschema windows make the target ambiguous
+- a dirty `*` target window exists and was not explicitly allowed
+
+## Gate 3 - Backup
+
+Pass only if, before any live annotation or live save:
 
 - backup exists under `99_BACKUPS/pre_codex_edits/`
-- backup includes `.kicad_sch` and `.kicad_pro`
 - backup path is recorded
+- the backup includes the target schematic and project file
 
-## Gate 3 - Unsaved State
+## Gate 4 - Screenshot Evidence
 
-Pass only if:
+Pass only if live workflow evidence includes:
 
-- title does not start with `*`, or
-- LJ explicitly approves keeping/saving the unsaved GUI state
+- before screenshot
+- after screenshot
 
-## Gate 4 - Screenshots
+## Gate 5 - Flag Safety
 
-Pass only if:
+Pass only if the live workflow uses explicit flags:
 
-- before screenshot exists
-- after screenshot exists for live actions
-- screenshot paths are recorded
+- `--live`
+- `--allow-annotation`
+- `--allow-save`
+- `--allow-gui-erc`
 
-## Gate 5 - Tool Capability
-
-Pass only if:
-
-- required GUI libraries are available
-- UI selection strategy is verified
-- automation can identify controls without random clicking
+Use `--allow-unsaved-existing` only when LJ explicitly wants to preserve/save
+an already-dirty matching GUI state.
 
 ## Gate 6 - Scope
 
-Pass only if action is limited to one approved native KiCad schematic action:
+Pass only if the workflow is limited to:
 
-- annotate schematic
-- save schematic
-- run GUI ERC
-- capture screenshot
+- opening the exact project/schematic
+- native annotation
+- GUI save
+- GUI ERC
+- screenshots
+- post-save CLI/reference verification
 
-PCB/layout/routing/manufacturing actions are out of scope.
+PCB update, routing, zones, and manufacturing outputs are out of scope.
 
-## Gate 7 - Post Action Verification
+## Gate 7 - Post-Save Verification
 
-Pass only if:
+Pass only if all of the following are recorded:
 
-- GUI state is checked after the action
-- saved-file state is checked after save
-- ERC/reference-table evidence is updated
-
-For annotation, post-action verification must include GUI ERC 0 violations when safely automatable, post-save `kicad-cli` ERC pass, 0 unresolved `?` references in the saved schematic, and duplicate-reference scan pass.
+- GUI save completed
+- GUI ERC shows `0` violations
+- post-save `kicad-cli sch erc` passes
+- saved schematic scan shows `0` unresolved `?` references
+- saved schematic scan shows `0` duplicate references

@@ -1,0 +1,51 @@
+{
+  "task_type": "AUDIT_ONLY",
+  "task_summary": "Upgrade the native KiCad GUI annotation workflow and closed-state auto-open path with explicit live flags, backup/screenshot/GUI-ERC/post-save verification gates, plus startup-router and prompt updates.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [
+    "START_HERE_FOR_AI_AGENTS.md",
+    "00_CODEX_START\\TASK_ROUTER.md",
+    "00_CODEX_START\\TASK_TYPE_TO_REQUIRED_DOCS.md",
+    "00_CODEX_START\\TASK_TYPE_TO_ALLOWED_ACTIONS.md",
+    "00_CODEX_START\\TASK_TYPE_TO_BLOCKERS.md",
+    "00_CODEX_START\\TASK_TYPE_TO_OUTPUTS.md",
+    "01_MEMORY\\DESIGN_RULES_MEMORY.md",
+    "33_KICAD_GUI_AUTOMATION\\README.md",
+    "33_KICAD_GUI_AUTOMATION\\KICAD_NATIVE_ANNOTATION_WORKFLOW.md",
+    "33_KICAD_GUI_AUTOMATION\\KICAD_AUTO_OPEN_PROJECT_WORKFLOW.md",
+    "33_KICAD_GUI_AUTOMATION\\KICAD_ANNOTATION_DO_AND_DO_NOT.md",
+    "33_KICAD_GUI_AUTOMATION\\KICAD_GUI_ACTION_MATRIX.md",
+    "33_KICAD_GUI_AUTOMATION\\KICAD_GUI_SAFETY_GATES.md",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\README.md",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\gui_workflow_common.py",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\ensure_eeschema_open.py",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\open_kicad_project.py",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\open_schematic_editor_gui.py",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\run_native_annotation_workflow.py",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\annotate_schematic_gui.py",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\run_erc_gui.py",
+    "33_KICAD_GUI_AUTOMATION\\scripts\\windows\\save_schematic_gui.py",
+    "34_SCHEMATIC_QUALITY_ENGINE\\SCHEMATIC_ANNOTATION_GATE.md",
+    ".prompts\\kicad_pipeline\\01_schematic_annotation_and_completeness.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "AGENTS.md",
+    "02_HISTORY\\design_reviews\\KICAD_NATIVE_ANNOTATION_AUTO_OPEN_AUDIT.md",
+    "02_HISTORY\\sessions\\KICAD_NATIVE_ANNOTATION_AUTO_OPEN_SESSION.md",
+    "02_HISTORY\\command_logs\\KICAD_NATIVE_ANNOTATION_AUTO_OPEN_COMMANDS.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Tooling/docs work only. Dry-run validation executed on ESP32_CSI_WIFI_NODE. No KiCad design files were edited.",
+  "evidence": {
+    "backup_created": false,
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "visual_export_attempted": false,
+    "visual_paths": [
+      "33_KICAD_GUI_AUTOMATION\\KICAD_NATIVE_ANNOTATION_WORKFLOW.md",
+      "33_KICAD_GUI_AUTOMATION\\KICAD_AUTO_OPEN_PROJECT_WORKFLOW.md",
+      "33_KICAD_GUI_AUTOMATION\\KICAD_GUI_ACTION_MATRIX.md"
+    ]
+  }
+}

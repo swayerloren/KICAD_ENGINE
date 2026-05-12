@@ -1,0 +1,23 @@
+# kicad-sch-api
+
+- Tool name: `kicad-sch-api`
+- GitHub/source URL: `https://github.com/circuit-synth/kicad-sch-api`
+- License: `Apache-2.0`
+- Purpose: Python API for KiCad schematic parsing and generation
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - parse schematics for structured review
+  - build lint or completeness checks
+  - generate controlled sandbox examples
+- Exact commands if known:
+  - `pip install kicad-sch-api`
+  - `uv add kicad-sch-api`
+- Risks and limitations:
+  - can generate or modify schematic content in some workflows
+  - does not replace native KiCad annotation or GUI proof
+- Can edit KiCad files: `yes`
+- Read-only safe: `yes, when used for parse-only workflows`
+- Allowed in CI: `yes`
+- Allowed in ZIP release: `no`, wrapper and requirements only

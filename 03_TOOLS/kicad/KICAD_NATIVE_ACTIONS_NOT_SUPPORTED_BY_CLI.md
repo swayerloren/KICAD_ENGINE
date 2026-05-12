@@ -23,6 +23,8 @@ For annotation tasks, Codex/Claude must use KiCad-native annotation via verified
 
 Raw `.kicad_sch` text edits are not sufficient proof of annotation success.
 
+Cross-reference: `10_KNOWLEDGE_BASE/kicad_core/KICAD_GUI_VS_CLI_ACTIONS.md`.
+
 ## Verified Native Annotation Success
 
 `ESP32_CSI_WIFI_NODE` proved the required native GUI workflow on `2026-05-06`:

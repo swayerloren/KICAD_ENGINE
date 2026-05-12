@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FootprintGateResult",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "generated_at",
+    "project",
+    "schematic",
+    "gate_status",
+    "physical_symbol_count",
+    "blank_footprint_count",
+    "lock_file_present",
+    "high_risk_symbol_count",
+    "blocking_findings",
+    "outputs"
+  ],
+  "properties": {
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project": {
+      "type": "string",
+      "minLength": 1
+    },
+    "schematic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gate_status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "WARN",
+        "FAIL",
+        "NEEDS_HUMAN_REVIEW"
+      ]
+    },
+    "physical_symbol_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "blank_footprint_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "lock_file_present": {
+      "type": "boolean"
+    },
+    "high_risk_symbol_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "blocking_findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status",
+          "code",
+          "message"
+        ],
+        "properties": {
+          "status": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "reference": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# InteractiveHtmlBom
+
+- Tool name: `InteractiveHtmlBom`
+- GitHub/source URL: `https://github.com/openscopeproject/InteractiveHtmlBom`
+- License: `MIT`
+- Purpose: interactive BOM review and assembly-side visualization
+- Install method: PyPI or KiCad plugin workflow
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - BOM review packages
+  - assembly visualization
+  - local inspection of reference designator placement and grouping
+- Exact commands if known:
+  - `python -m pip install interactivehtmlbom`
+  - `generate_interactive_bom --help`
+- Risks and limitations:
+  - can generate user-facing outputs that still require review
+  - output is assembly-aid evidence, not fabrication approval
+- Can edit KiCad files: `workflow-dependent`
+- Read-only safe: `yes, for review generation`
+- Allowed in CI: `yes with review`
+- Allowed in ZIP release: `no`

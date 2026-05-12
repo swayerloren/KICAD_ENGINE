@@ -1,0 +1,33 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Add a read-only PCB trace geometry audit toolchain and routing-quality rule updates without editing KiCad PCB or schematic files.",
+  "project_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE",
+  "target_pcb": null,
+  "changed_files": [
+    "03_TOOLS/scripts/pcb_geometry/_pcb_geometry_common.py",
+    "03_TOOLS/scripts/pcb_geometry/extract_tracks.py",
+    "03_TOOLS/scripts/pcb_geometry/audit_trace_angles.py",
+    "03_TOOLS/scripts/pcb_geometry/audit_trace_quality.py",
+    "03_TOOLS/scripts/pcb_geometry/audit_power_loop_geometry.py",
+    "03_TOOLS/scripts/pcb_geometry/audit_usb_pair_geometry.py",
+    "03_TOOLS/scripts/pcb_geometry/render_trace_quality_overlays.py",
+    "03_TOOLS/scripts/pcb_geometry/README.md",
+    "09_ACCURACY_ENGINE/pcb_rules/TRACE_ANGLE_ROUTING_RULES.md",
+    "09_ACCURACY_ENGINE/pcb_rules/PCB_ROUTING_QUALITY_RULES.md",
+    "09_ACCURACY_ENGINE/checklists/PCB_ROUTING_QUALITY_CHECKLIST.md",
+    "33_PCB_PRELAYOUT_ENGINE/TRACE_PROJECTION_RULES.md",
+    "START_HERE_FOR_AI_AGENTS.md",
+    "01_MEMORY/DESIGN_RULES_MEMORY.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/memory/PROJECT_MEMORY.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "This run must not edit .kicad_sch, .kicad_pcb, or .kicad_pro files. Validation may read the live board and write audit reports only.",
+  "evidence": {
+    "backup_created": false,
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

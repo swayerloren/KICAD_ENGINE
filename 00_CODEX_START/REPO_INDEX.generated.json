@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T08:55:54",
+  "generated_at": "2026-05-12T16:14:35",
   "repo_root": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
   "top_level_entries": [
     {
@@ -23,14 +23,14 @@
       "path": ".github",
       "type": "directory",
       "item_count": 8,
-      "has_readme": true,
+      "has_readme": false,
       "has_index": true
     },
     {
       "name": ".gitignore",
       "path": ".gitignore",
       "type": "file",
-      "size_bytes": 2640
+      "size_bytes": 2835
     },
     {
       "name": ".prompts",
@@ -52,7 +52,7 @@
       "name": "00_CODEX_START",
       "path": "00_CODEX_START",
       "type": "directory",
-      "item_count": 52,
+      "item_count": 62,
       "has_readme": true,
       "has_index": true
     },
@@ -76,7 +76,7 @@
       "name": "03_TOOLS",
       "path": "03_TOOLS",
       "type": "directory",
-      "item_count": 15,
+      "item_count": 17,
       "has_readme": true,
       "has_index": true
     },
@@ -84,7 +84,7 @@
       "name": "04_KICAD_PROJECTS",
       "path": "04_KICAD_PROJECTS",
       "type": "directory",
-      "item_count": 6,
+      "item_count": 7,
       "has_readme": true,
       "has_index": true
     },
@@ -100,7 +100,7 @@
       "name": "06_DATASHEETS",
       "path": "06_DATASHEETS",
       "type": "directory",
-      "item_count": 23,
+      "item_count": 28,
       "has_readme": true,
       "has_index": true
     },
@@ -108,7 +108,7 @@
       "name": "07_REFERENCE_DESIGNS",
       "path": "07_REFERENCE_DESIGNS",
       "type": "directory",
-      "item_count": 2,
+      "item_count": 7,
       "has_readme": true,
       "has_index": true
     },
@@ -116,7 +116,7 @@
       "name": "08_COMPONENT_DATABASE",
       "path": "08_COMPONENT_DATABASE",
       "type": "directory",
-      "item_count": 20,
+      "item_count": 21,
       "has_readme": true,
       "has_index": true
     },
@@ -132,7 +132,7 @@
       "name": "10_KNOWLEDGE_BASE",
       "path": "10_KNOWLEDGE_BASE",
       "type": "directory",
-      "item_count": 10,
+      "item_count": 28,
       "has_readme": true,
       "has_index": true
     },
@@ -220,7 +220,7 @@
       "name": "21_LICENSE_ATTRIBUTION",
       "path": "21_LICENSE_ATTRIBUTION",
       "type": "directory",
-      "item_count": 7,
+      "item_count": 8,
       "has_readme": true,
       "has_index": true
     },
@@ -252,7 +252,7 @@
       "name": "25_VENDOR_DATABASE",
       "path": "25_VENDOR_DATABASE",
       "type": "directory",
-      "item_count": 15,
+      "item_count": 21,
       "has_readme": true,
       "has_index": true
     },
@@ -260,7 +260,7 @@
       "name": "26_AGENT_QUALITY",
       "path": "26_AGENT_QUALITY",
       "type": "directory",
-      "item_count": 8,
+      "item_count": 12,
       "has_readme": true,
       "has_index": true
     },
@@ -284,7 +284,7 @@
       "name": "29_FOOTPRINT_GAP_ANALYSIS",
       "path": "29_FOOTPRINT_GAP_ANALYSIS",
       "type": "directory",
-      "item_count": 13,
+      "item_count": 17,
       "has_readme": true,
       "has_index": true
     },
@@ -292,7 +292,7 @@
       "name": "30_SUPPLIER_FOOTPRINT_MATCHES",
       "path": "30_SUPPLIER_FOOTPRINT_MATCHES",
       "type": "directory",
-      "item_count": 8,
+      "item_count": 11,
       "has_readme": true,
       "has_index": true
     },
@@ -308,7 +308,7 @@
       "name": "32_OPEN_KICAD_SAMPLE_INTAKE",
       "path": "32_OPEN_KICAD_SAMPLE_INTAKE",
       "type": "directory",
-      "item_count": 19,
+      "item_count": 24,
       "has_readme": true,
       "has_index": true
     },
@@ -321,18 +321,42 @@
       "has_index": true
     },
     {
+      "name": "33_PCB_PRELAYOUT_ENGINE",
+      "path": "33_PCB_PRELAYOUT_ENGINE",
+      "type": "directory",
+      "item_count": 11,
+      "has_readme": true,
+      "has_index": true
+    },
+    {
       "name": "34_PCB_LAYOUT_SANDBOX",
       "path": "34_PCB_LAYOUT_SANDBOX",
       "type": "directory",
-      "item_count": 23,
+      "item_count": 22,
       "has_readme": true,
       "has_index": true
+    },
+    {
+      "name": "34_SCHEMATIC_QUALITY_ENGINE",
+      "path": "34_SCHEMATIC_QUALITY_ENGINE",
+      "type": "directory",
+      "item_count": 15,
+      "has_readme": true,
+      "has_index": false
+    },
+    {
+      "name": "35_FOOTPRINT_PACKAGE_ENGINE",
+      "path": "35_FOOTPRINT_PACKAGE_ENGINE",
+      "type": "directory",
+      "item_count": 8,
+      "has_readme": true,
+      "has_index": false
     },
     {
       "name": "99_BACKUPS",
       "path": "99_BACKUPS",
       "type": "directory",
-      "item_count": 5,
+      "item_count": 6,
       "has_readme": true,
       "has_index": true
     },
@@ -346,13 +370,19 @@
       "name": "AGENTS.md",
       "path": "AGENTS.md",
       "type": "file",
-      "size_bytes": 30467
+      "size_bytes": 37921
     },
     {
       "name": "CHANGELOG.md",
       "path": "CHANGELOG.md",
       "type": "file",
       "size_bytes": 983
+    },
+    {
+      "name": "CLAUDE.md",
+      "path": "CLAUDE.md",
+      "type": "file",
+      "size_bytes": 776
     },
     {
       "name": "CODE_OF_CONDUCT.md",
@@ -420,7 +450,7 @@
       "name": "FOR CHAT GPT.MD",
       "path": "FOR CHAT GPT.MD",
       "type": "file",
-      "size_bytes": 141763
+      "size_bytes": 162486
     },
     {
       "name": "health_check.ps1",
@@ -458,7 +488,7 @@
       "name": "KICAD_ENGINE_WORKSPACE.code-workspace",
       "path": "KICAD_ENGINE_WORKSPACE.code-workspace",
       "type": "file",
-      "size_bytes": 477
+      "size_bytes": 604
     },
     {
       "name": "LEGAL_AND_LICENSE_AUDIT.md",
@@ -542,19 +572,37 @@
       "name": "README.md",
       "path": "README.md",
       "type": "file",
-      "size_bytes": 6710
+      "size_bytes": 6959
     },
     {
       "name": "README_GPT.md",
       "path": "README_GPT.md",
       "type": "file",
-      "size_bytes": 116930
+      "size_bytes": 129299
     },
     {
       "name": "REPO_INDEX.md",
       "path": "REPO_INDEX.md",
       "type": "file",
       "size_bytes": 7389
+    },
+    {
+      "name": "requirements-fab-tools.txt",
+      "path": "requirements-fab-tools.txt",
+      "type": "file",
+      "size_bytes": 134
+    },
+    {
+      "name": "requirements-kicad-tools.txt",
+      "path": "requirements-kicad-tools.txt",
+      "type": "file",
+      "size_bytes": 170
+    },
+    {
+      "name": "requirements-visual-tools.txt",
+      "path": "requirements-visual-tools.txt",
+      "type": "file",
+      "size_bytes": 78
     },
     {
       "name": "requirements.txt",
@@ -590,7 +638,7 @@
       "name": "setup",
       "path": "setup",
       "type": "directory",
-      "item_count": 6,
+      "item_count": 10,
       "has_readme": true,
       "has_index": true
     },
@@ -604,7 +652,7 @@
       "name": "START_HERE_FOR_AI_AGENTS.md",
       "path": "START_HERE_FOR_AI_AGENTS.md",
       "type": "file",
-      "size_bytes": 8298
+      "size_bytes": 11640
     },
     {
       "name": "START_HERE_FOR_USERS.md",
@@ -624,7 +672,7 @@
       "name": "THIRD_PARTY_TOOLS_ATTRIBUTION.md",
       "path": "THIRD_PARTY_TOOLS_ATTRIBUTION.md",
       "type": "file",
-      "size_bytes": 7648
+      "size_bytes": 8311
     },
     {
       "name": "TOOLS_INDEX.md",

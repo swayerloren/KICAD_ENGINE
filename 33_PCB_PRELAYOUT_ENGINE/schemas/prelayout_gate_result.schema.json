@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB Prelayout Gate Result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project",
+    "generated_at",
+    "placement_gate_status",
+    "placement_blocking_codes",
+    "placement_blocking_reasons",
+    "routing_gate_status",
+    "routing_blocking_codes",
+    "routing_blocking_reasons",
+    "gate_status",
+    "blocking_codes",
+    "blocking_reasons",
+    "variant_count",
+    "passing_variant_count",
+    "selected_variant_id",
+    "selected_variant_status",
+    "live_board_context",
+    "artifacts"
+  ],
+  "properties": {
+    "project": { "type": "string", "minLength": 1 },
+    "generated_at": { "type": "string", "minLength": 1 },
+    "placement_gate_status": { "type": "string", "enum": ["PASS", "BLOCKED"] },
+    "placement_blocking_codes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "placement_blocking_reasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "routing_gate_status": { "type": "string", "enum": ["PASS", "BLOCKED"] },
+    "routing_blocking_codes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "routing_blocking_reasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "gate_status": { "type": "string", "enum": ["PASS", "BLOCKED"] },
+    "blocking_codes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "blocking_reasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "variant_count": { "type": "integer", "minimum": 0 },
+    "passing_variant_count": { "type": "integer", "minimum": 0 },
+    "selected_variant_id": { "type": ["string", "null"] },
+    "selected_variant_status": { "type": ["string", "null"] },
+    "live_board_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "drc_result",
+        "violation_count",
+        "unconnected_count",
+        "detectable_unrouted_net_count"
+      ],
+      "properties": {
+        "drc_result": { "type": "string", "enum": ["PASS", "FAIL", "NOT_RUN"] },
+        "violation_count": { "type": "integer", "minimum": 0 },
+        "unconnected_count": { "type": "integer", "minimum": 0 },
+        "detectable_unrouted_net_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "digital_twin_json",
+        "variant_files",
+        "score_files",
+        "comparison_json"
+      ],
+      "properties": {
+        "digital_twin_json": { "type": "string", "minLength": 1 },
+        "variant_files": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "score_files": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "comparison_json": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PackageEvidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reference",
+    "datasheet_or_source_url",
+    "package_drawing_checked",
+    "pin_mapping_checked",
+    "three_d_model_available",
+    "human_review_required",
+    "verification_state"
+  ],
+  "properties": {
+    "reference": {
+      "type": "string",
+      "minLength": 1
+    },
+    "datasheet_or_source_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "package_drawing_checked": {
+      "type": "boolean"
+    },
+    "pin_mapping_checked": {
+      "type": "boolean"
+    },
+    "three_d_model_available": {
+      "type": "boolean"
+    },
+    "human_review_required": {
+      "type": "boolean"
+    },
+    "verification_state": {
+      "type": "string",
+      "enum": [
+        "VERIFIED",
+        "UNVERIFIED",
+        "BLOCKED_UNTIL_HUMAN_REVIEW"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

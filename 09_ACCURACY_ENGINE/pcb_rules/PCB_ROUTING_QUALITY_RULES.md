@@ -2,39 +2,52 @@
 
 ## Scope
 
-Use this file with `TRACE_ANGLE_ROUTING_RULES.md` for all PCB routing reviews, routing prompts, and routing automation plans.
+Use this file with `TRACE_ANGLE_ROUTING_RULES.md` for all routing prompts,
+rehearsals, quality gates, and final reviews.
 
 ## Geometry Rules
 
 - Follow `09_ACCURACY_ENGINE/pcb_rules/TRACE_ANGLE_ROUTING_RULES.md`.
-- Avoid obvious 90-degree corners and acute-angle bends.
-- Use clean pad entry and exit geometry.
 - Prefer short, direct routing over decorative or script-generated pathing.
-- Avoid giant U-shaped detours and long diagonal shortcuts through unrelated circuit areas.
-- Avoid unnecessary zigzags.
+- Zigzags, boxy perimeter routes, and rectangular loops are rejected.
+- Routed length above `2x` the direct span is an excessive-detour failure unless a waiver is recorded.
+- Test-point stubs longer than `5 mm` are rejected unless a measurement/programming need is documented.
+- Traces must not cross the board edge, RF keepouts, or obvious return-path blockers.
+- Plane-splitting routes that break GND return continuity are routing-quality failures.
 
 ## Power Rules
 
-- Wide power traces still need clean transitions and clean pad entry.
+- Power-input, fused, protected, regulator, and `+3V3` routes must stay compact and local.
+- `BUCK_SW` must stay short and away from USB, RF, and sensitive control nets.
 - Avoid skinny neckdowns unless the footprint geometry forces them.
-- Keep switching loops short and local.
-- `BUCK_SW` must remain short, compact, and away from USB and RF keepouts.
 
 ## Signal Rules
 
-- USB and other paired signals should remain short, clean, and parallel where practical.
-- Avoid long test-pad stubs on data nets.
-- Avoid unnecessary vias, especially on critical nets.
-- Keep traces out of RF keepouts, mounting-hole clearances, and connector mechanical keepouts.
-
-## Placement And Flow
-
-- Do not force ugly traces around bad local placement.
-- If local placement causes awkward routing, move only the local cluster needed to produce a clean route.
-- Do not route through unrelated functional areas just because space exists.
+- USB and other paired signals must remain short, clean, and paired where practical.
+- Avoid long USB stubs, long test-pad branches, and avoidable via count on critical nets.
+- Keep routing out of RF keepouts, mounting-hole clearance zones, and connector mechanical escape areas.
 
 ## Review Gate
 
-- DRC pass is required, but DRC pass alone is not routing-quality approval.
-- Visual routing review is mandatory before calling a routed region acceptable.
+- DRC pass is required.
+- Open-net pass is required.
+- Visual routing review is required.
+- The geometry audit is required:
+  - `python 03_TOOLS\scripts\pcb_geometry\audit_trace_quality.py --project <ACTIVE_PROJECT_PATH>`
+- Routing quality is `FAIL` on any of:
+  - `RIGHT_ANGLE_FOUND`
+  - `ACUTE_JOG_FOUND`
+  - `UNNECESSARY_ZIGZAG_FOUND`
+  - `RECTANGULAR_LOOP_FOUND`
+  - `PERIMETER_BOX_ROUTE_FOUND`
+  - `EXCESSIVE_DETOUR_RATIO`
+  - `TEST_POINT_STUB_TOO_LONG`
+  - `BOARD_EDGE_CROSSING`
+  - `KEEP_OUT_CROSSING_FOUND`
+  - `RETURN_PATH_SPLIT_RISK`
 
+## Source Registry References
+
+- `url_000005` - Nexperia switching / EMI application note
+- `url_004540` - JLCPCB PCB design-guideline reference
+- `url_006903` - Eurocircuits PCB design-guideline reference

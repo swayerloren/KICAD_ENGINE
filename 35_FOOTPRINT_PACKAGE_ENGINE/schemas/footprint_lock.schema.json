@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FootprintLockFile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project",
+    "rows"
+  ],
+  "properties": {
+    "project": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "reference",
+          "value",
+          "manufacturer_part_number",
+          "package",
+          "kicad_symbol",
+          "kicad_footprint",
+          "datasheet_or_source_url",
+          "package_drawing_checked",
+          "pin_mapping_checked",
+          "3d_model_available",
+          "risk",
+          "human_review_required",
+          "notes"
+        ],
+        "properties": {
+          "reference": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "type": "string"
+          },
+          "manufacturer_part_number": {
+            "type": "string"
+          },
+          "package": {
+            "type": "string"
+          },
+          "kicad_symbol": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kicad_footprint": {
+            "type": "string"
+          },
+          "datasheet_or_source_url": {
+            "type": "string"
+          },
+          "package_drawing_checked": {
+            "type": "string"
+          },
+          "pin_mapping_checked": {
+            "type": "string"
+          },
+          "3d_model_available": {
+            "type": "string"
+          },
+          "risk": {
+            "type": "string",
+            "enum": [
+              "LOW",
+              "MEDIUM",
+              "HIGH"
+            ]
+          },
+          "human_review_required": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

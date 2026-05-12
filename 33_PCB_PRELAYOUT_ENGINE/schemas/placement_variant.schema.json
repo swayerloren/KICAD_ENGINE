@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB Prelayout Placement Variant",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project",
+    "variant_id",
+    "variant_name",
+    "strategy_id",
+    "board_profile",
+    "components",
+    "connector_truths",
+    "projected_routes",
+    "projected_open_nets_count"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "minLength": 1 },
+    "project": { "type": "string", "minLength": 1 },
+    "variant_id": { "type": "string", "minLength": 1 },
+    "variant_name": { "type": "string", "minLength": 1 },
+    "strategy_id": { "type": "string", "minLength": 1 },
+    "board_profile": { "$ref": "board_profile.schema.json" },
+    "components": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "component_physical_model.schema.json" }
+    },
+    "connector_truths": {
+      "type": "array",
+      "items": { "$ref": "connector_orientation_truth.schema.json" }
+    },
+    "projected_routes": {
+      "type": "array",
+      "items": { "$ref": "projected_route.schema.json" }
+    },
+    "projected_open_nets_count": { "type": "integer", "minimum": 0 },
+    "notes": { "type": "string" },
+    "risk_tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

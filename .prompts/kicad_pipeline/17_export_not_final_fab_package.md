@@ -50,7 +50,7 @@ If `reports/FINAL_PCB_VERIFICATION_BEFORE_FAB.md` is not exactly `READY_FOR_NOT_
 11. Ensure every path and file name is marked `NOT_FINAL`.
 12. Run fabrication package audit and create `reports/NOT_FINAL_FAB_PACKAGE_AUDIT.md`.
 
-Block export if DRC, no-unrouted-net, connector orientation, polarity, assembly-note, or package-folder validation gates fail.
+Block export if DRC, no-unrouted-net, connector orientation, antenna orientation, polarity, assembly-note, or package-folder validation gates fail.
 
 ## Required Result
 

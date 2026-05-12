@@ -4,6 +4,19 @@ Status: `ACTIVE`
 
 ## Key Areas
 
+- `kicad_core/`: normalized KiCad project-manager, CLI, and ERC/DRC guidance.
+- `kicad_python_api/`: normalized `pcbnew` context and safe-usage guidance.
+- `kicad_file_formats/`: normalized s-expression format and connectivity notes.
+- `kicad_libraries/`: normalized KLC and library-usage guidance.
+- `summaries/`: normalized migration summaries for drained knowledge sources.
+- `pcb_layout/`: PCB routing/return-path summaries.
+- `usb_c/`: USB-C and USB ESD summaries.
+- `power_integrity/`: buck and decoupling summaries.
+- `rf_wifi/`: RF/Wi-Fi keepout summaries.
+- `thermal_mechanical/`: thermal, mounting, and test-access summaries.
+- `training/`: normalized training and lecture guidance with confidence rules.
+- `peer_review/`: forum and peer-review usage policy plus observation indexes.
+- `case_studies/`: good-board and bad-board pattern extraction summaries.
 - `circuits/`: reusable circuit block guidance.
 - `design_patterns/`: project and schematic organization patterns.
 - `checklists/`: pre-schematic, pre-PCB, pre-fab, and interface review checklists.
@@ -13,7 +26,12 @@ Status: `ACTIVE`
 
 ## Required Use
 
-Use this folder for planning guidance only. Exact values still require datasheet and source verification.
+Use this folder for planning guidance only. Exact values still require
+datasheet and source verification.
+
+The legacy `knowledge_scrape/` source folder has been retired and removed.
+Canonical knowledge lookup now starts here, in `09_ACCURACY_ENGINE/`, and in
+the related source-registry / retrieval-index surfaces.
 
 ## Core Circuit Files
 
@@ -31,49 +49,11 @@ Use this folder for planning guidance only. Exact values still require datasheet
 - `circuits/RF_ANTENNA_UFL_MODULE.md`
 - `circuits/STATUS_LED_BUTTON_RESET.md`
 
-## Core Common Mistake Files
-
-- `common_mistakes/ESP32_COMMON_MISTAKES.md`
-- `common_mistakes/STM32_COMMON_MISTAKES.md`
-- `common_mistakes/PIC_COMMON_MISTAKES.md`
-- `common_mistakes/USB_C_COMMON_MISTAKES.md`
-- `common_mistakes/CAN_COMMON_MISTAKES.md`
-- `common_mistakes/REGULATOR_COMMON_MISTAKES.md`
-- `common_mistakes/CONNECTOR_COMMON_MISTAKES.md`
-- `common_mistakes/FOOTPRINT_COMMON_MISTAKES.md`
-
 ## Verification Reminder
 
-Knowledge-base patterns are not approval. Use `09_ACCURACY_ENGINE/checklists/ACCURACY_GATE_CHECKLIST.md` before acting on any pattern.
+Knowledge-base patterns are not approval. Use
+`09_ACCURACY_ENGINE/checklists/ACCURACY_GATE_CHECKLIST.md` before acting on any
+pattern.
 
-
-## PURPOSE
-
-Store reusable circuit patterns, design patterns, checklists, common mistakes, and practical review guidance.
-
-## WHAT_BELONGS_HERE
-
-Circuit guides, design patterns, review checklists, manufacturing rules, and AI stop/verify guidance.
-
-## WHAT_DOES_NOT_BELONG_HERE
-
-Datasheet replacements, active KiCad projects, exact specs without sources, or generated outputs.
-
-## AI_AGENT_RULES
-
-- Read this folder's README.md and INDEX.md before adding or relying on content here.
-- Mark unverified engineering claims explicitly.
-- Keep source links, verification status, and human-review requirements visible.
-- Route generated logs and reports to 2_HISTORY/, 5_OUTPUTS/, or project history/ unless this folder explicitly calls for generated indexes.
-
-## SAFE_EDIT_RULES
-
-- Preserve existing user work.
-- Do not delete or overwrite files without explicit approval.
-- Do not edit KiCad design files from this folder.
-- Do not store secrets or credentials.
-
-## PUBLIC_RELEASE_NOTES
-
-- Review this folder for secrets, personal paths, copyrighted documents, unsupported claims, and large generated files before public release.
-- Folder existence is not a completeness or production-readiness claim.
+For the drained engineering-rule knowledge phase, use the canonical rule files
+under `09_ACCURACY_ENGINE/` before consulting the summary notes here.

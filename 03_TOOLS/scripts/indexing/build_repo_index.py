@@ -20,6 +20,7 @@ SKIP_DIRS = {
     ".venv",
     "venv",
     "env",
+    "knowledge_scrape",
 }
 
 

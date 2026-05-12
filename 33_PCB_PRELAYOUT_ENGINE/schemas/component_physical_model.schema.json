@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB Prelayout Component Physical Model",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ref",
+    "value",
+    "footprint_name",
+    "role",
+    "side",
+    "x_mm",
+    "y_mm",
+    "rotation_deg",
+    "body_bbox",
+    "courtyard_bbox",
+    "fixed_mechanical",
+    "mounting_hole",
+    "pad_nets"
+  ],
+  "properties": {
+    "ref": { "type": "string", "minLength": 1 },
+    "value": { "type": "string" },
+    "footprint_name": { "type": "string", "minLength": 1 },
+    "footprint_library": { "type": "string" },
+    "role": { "type": "string", "minLength": 1 },
+    "side": { "type": "string", "enum": ["F", "B"] },
+    "x_mm": { "type": "number" },
+    "y_mm": { "type": "number" },
+    "rotation_deg": { "type": "number" },
+    "body_bbox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["xmin", "xmax", "ymin", "ymax"],
+      "properties": {
+        "xmin": { "type": "number" },
+        "xmax": { "type": "number" },
+        "ymin": { "type": "number" },
+        "ymax": { "type": "number" }
+      }
+    },
+    "courtyard_bbox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["xmin", "xmax", "ymin", "ymax"],
+      "properties": {
+        "xmin": { "type": "number" },
+        "xmax": { "type": "number" },
+        "ymin": { "type": "number" },
+        "ymax": { "type": "number" }
+      }
+    },
+    "edge_proximity": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "edge": { "type": "string" },
+        "distance_mm": { "type": "number" }
+      }
+    },
+    "fixed_mechanical": { "type": "boolean" },
+    "mounting_hole": { "type": "boolean" },
+    "pad_nets": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "model_paths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "resolved_model_paths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "missing_model_paths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "unresolved_model_paths": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "has_3d_model_reference": { "type": "boolean" },
+    "has_resolved_3d_model": { "type": "boolean" },
+    "antenna_keepout": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

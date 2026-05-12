@@ -7,6 +7,11 @@ Last updated: `2026-05-03`
 | Area | File / Folder | Purpose | Status |
 | --- | --- | --- | --- |
 | System overview | `README.md` | Explains controlled intake rules and folder roles. | ACTIVE |
+| Workflow | `SAMPLE_INTAKE_WORKFLOW.md` | Dry-run-first candidate to reference-learning workflow. | ACTIVE |
+| License rules | `SAMPLE_LICENSE_RULES.md` | Public-bundle and license review rules for samples. | ACTIVE |
+| Normalization rules | `SAMPLE_NORMALIZATION_RULES.md` | Rules for preserved originals and working copies. | ACTIVE |
+| Quality scorecard | `SAMPLE_QUALITY_SCORECARD.md` | Scores whether a sample is useful as learning material. | ACTIVE |
+| Anti-copy rules | `SAMPLE_DO_NOT_COPY_RULES.md` | Prevents blind schematic/layout copying from samples. | ACTIVE |
 | Source rules | `SOURCE_SELECTION_RULES.md` | Defines acceptable public sample sources. | ACTIVE |
 | License screening | `LICENSE_SCREENING_RULES.md` | Defines license statuses and public-bundle gate. | ACTIVE |
 | Schema | `SAMPLE_PROJECT_SCHEMA.md` | Required fields for candidate/import/review records. | ACTIVE |
@@ -20,6 +25,12 @@ Last updated: `2026-05-03`
 | Reports | `review_reports/` | Audit outputs. | ACTIVE |
 | Scripts | `scripts/` | Safe dry-run-first helpers. | ACTIVE |
 | Templates | `templates/` | Record templates. | ACTIVE |
+
+## Learning System
+
+The intake layer now feeds a reference-learning system. Sample metrics may be
+promoted into `07_REFERENCE_DESIGNS/` as link-first style comparison rules
+after license and quality review.
 
 ## Agent Routing
 

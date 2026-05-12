@@ -2,7 +2,7 @@
 
 Status: `AUTO_BUILT`
 
-Generated: `2026-05-09T08:55:54`
+Generated: `2026-05-12T16:14:37`
 
 This startup file summarizes risk signals so the next AI agent sees what not to repeat.
 
@@ -12,15 +12,6 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `01_MEMORY\FAILED_WORKFLOWS.md` - Failed Workflows
 - `01_MEMORY\GLOBAL_HALLUCINATION_RISKS.md` - Global Hallucination Risks
 - `01_MEMORY\GLOBAL_UNVERIFIED_CLAIMS.md` - Global Unverified Claims
-- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_PRECONDITION_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Precondition Blocked
-- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_LIVE_PCB_TRUTH_AUDIT_GIT_STATUS_UNAVAILABLE.md` - Failed Attempt - ESP32_CSI_WIFI_NODE Live PCB Truth Audit Git Status Unavailable
-- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_ROUTING_WORK_PREP_BASELINE_EXTRACTION_RETRIES.md` - ESP32_CSI_WIFI_NODE Routing Work Prep Baseline Extraction Retries
-- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_BATCH_01_DETACHED_BOARD_DRC_REHEARSAL_RULE_MISMATCH.md` - ESP32_CSI_WIFI_NODE Batch 01 Detached Board DRC Rehearsal Rule Mismatch
-- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_CONNECTIVITY_CLEANUP_REJECTED_USB_LOCAL_REHEARSAL.md` - ESP32_CSI_WIFI_NODE Final Connectivity Cleanup Rejected USB Local Rehearsal
-- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_EXTRACTION_AND_TRIAL_MISPATH.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Extraction And Trial Mismatch
-- `02_HISTORY\failed_attempts\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_RENDER_PIVOT_FAILURE.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Render Pivot Failure
-- `02_HISTORY\failed_attempts\20260508_GITHUB_REPO_INDEXING_FOR_CHAT_GPT_PATH_QUOTING.md` - Failed Attempt
-- `02_HISTORY\failed_attempts\20260508_GITHUB_INDEXING_PATCH_CONTEXT_MISMATCH.md` - Failed Attempt
 - `02_HISTORY\failed_attempts\20260508_COMPILE_SCOPE_TOO_BROAD_FOR_DEV_INFRA_CI.md` - Failed Attempt - Compile Scope Too Broad For Dev Infra CI
 - `02_HISTORY\failed_attempts\20260508_PLACEMENT_READINESS_STAGING_ANDAND_POWERSHELL_ERROR.md` - Failed Attempt
 - `02_HISTORY\failed_attempts\20260508_POWERSHELL_YAML_VALIDATOR_NOT_AVAILABLE.md` - Failed Attempt - PowerShell YAML Validator Not Available
@@ -32,59 +23,62 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\failed_attempts\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_PR_ALREADY_MERGED.md` - Failed Attempt Log
 - `02_HISTORY\failed_attempts\20260508_portability_audit_minor_command_timeouts.md` - Portability Audit Minor Command Timeouts
 - `02_HISTORY\failed_attempts\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_TIMEOUT.md` - Failed Attempt - KiCad Library Index Portability Cleanup Timeout
-- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED.md` - ESP32_CSI_WIFI_NODE_COPIED_CRITICAL_ROUTING_REHEARSAL_BLOCKED
-- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_CRITICAL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Critical Routing Blocked
-- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REAL_FULL_ROUTING_BLOCKED.md` - ESP32_CSI_WIFI_NODE Real Full Routing Blocked
-- `02_HISTORY\issue_logs\STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK.md` - STALE_GATE_REPORTS_BLOCKED_REAL_PCB_WORK
-- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_CONTROL_NET_CRITICAL_ROUTING_DEFERRED_AFTER_COPIED_BOARD_DRC_CROSSINGS.md` - ESP32_CSI_WIFI_NODE Control-Net Critical Routing Deferred After Copied-Board DRC Crossings
-- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_REMAINING_CONNECTIVITY_BLOCKERS_AFTER_FINAL_CLEANUP.md` - ESP32_CSI_WIFI_NODE Remaining Connectivity Blockers After Final Cleanup
-- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_TRACE_AUDIT_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final Trace Audit Blockers
-- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_FINAL_PCB_VISUAL_REVIEW_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final PCB Visual Review Blockers
-- `02_HISTORY\issue_logs\KICAD_ENGINE_PUBLIC_RELEASE_BLOCKERS_20260508.md` - KICAD_ENGINE Public Release Blockers
-- `02_HISTORY\issue_logs\20260508_GITHUB_PUBLIC_RELEASE_BLOCKERS_REMAIN_OPEN.md` - Issue Log
-- `02_HISTORY\issue_logs\20260508_GITHUB_INDEXING_NORMALIZATION_GAPS_REMAIN.md` - Issue Log
-- `02_HISTORY\issue_logs\20260508_HARDENING_PR_FOLLOWUP_REMAINING.md` - Open Issue
-- `02_HISTORY\issue_logs\20260508_SCHEMATIC_EXECUTION_CONTRACT_GAP.md` - Issue Log - Schematic Execution Contract Gap
-- `02_HISTORY\issue_logs\20260508_STAGED_ROUTING_RUNNER_REPORT_SCHEMA_RISK.md` - Open Issue
-- `02_HISTORY\issue_logs\LIVE_STATE_AUTHORITY_HARDENING_RESIDUAL_GAPS.md` - Live State Authority Hardening Residual Gaps
-- `02_HISTORY\issue_logs\ROUTING_GEOMETRY_HARD_FAIL_LIMITATIONS.md` - Routing Geometry Hard Fail Limitations
-- `02_HISTORY\issue_logs\TASK_TYPE_EXECUTION_CONTRACT_RUNTIME_AUTOMATION_GAP.md` - Task Type Execution Contract Runtime Automation Gap
-- `02_HISTORY\issue_logs\20260508_portability_remaining_gaps.md` - Portability Remaining Gaps
-- `02_HISTORY\issue_logs\20260509_HISTORICAL_PATH_EVIDENCE_REMAINING.md` - Historical Path Evidence Remaining
-- `02_HISTORY\issue_logs\20260509_kicad_python_context_edge_cases.md` - KiCad Python Context Edge Cases
-- `02_HISTORY\known_agent_mistakes\README.md` - Known Agent Mistakes
+- `02_HISTORY\failed_attempts\20260510_PCB_PRELAYOUT_ENGINE_INITIAL_FALSE_BLOCK.md` - Failed Attempt - PCB Prelayout Engine Initial False Block
+- `02_HISTORY\failed_attempts\20260510_MECHANICAL_ORIENTATION_KICAD_REENTRY_PROBE.md` - Failed Attempt - Mechanical Orientation KiCad Re-entry Probe
+- `02_HISTORY\failed_attempts\20260510_SCHEMATIC_QUALITY_ENGINE_FALSE_POSITIVE_TUNING.md` - Schematic Quality Engine False-Positive Tuning
+- `02_HISTORY\failed_attempts\20260510_FOOTPRINT_PACKAGE_ENGINE_FAILED_ATTEMPTS.md` - Footprint Package Engine Failed Attempts
+- `02_HISTORY\failed_attempts\20260510_120345_knowledge_scrape_Closeout_Prep_Lookup_Misses.md` - knowledge_scrape Closeout Prep Lookup Misses
+- `02_HISTORY\failed_attempts\20260511_163153_Knowledge_Scrape_Ledger_Parallel_Classification_Race.md` - Knowledge Scrape Ledger Parallel Classification Race
+- `02_HISTORY\failed_attempts\20260511_164911_Knowledge_Scrape_Metadata_Normalizer_Initial_BOM_Parse_Failure.md` - Knowledge Scrape Metadata Normalizer Initial BOM Parse Failure
+- `02_HISTORY\failed_attempts\20260511_170717_KiCad_docs_move_closeout_argument_validation_mismatch.md` - KiCad docs move closeout argument validation mismatch
+- `02_HISTORY\failed_attempts\20260511_Engineering_rules_move_initial_large_patch_context_mismatch.md` - Engineering rules move initial large patch context mismatch
+- `02_HISTORY\issue_logs\20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_BLOCKERS.md` - ESP32_CSI_WIFI_NODE PCB Placement Application Blockers
+- `02_HISTORY\issue_logs\20260510_PCB_QUALITY_GATE_CREATION_FOLLOWUP.md` - PCB Quality Gate Creation Follow-Up
+- `02_HISTORY\issue_logs\ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal Blockers
+- `02_HISTORY\issue_logs\20260510_ESP32_CSI_WIFI_NODE_REAL_ROUTING_REQUEST_BLOCKED_BY_REHEARSAL.md` - ESP32_CSI_WIFI_NODE Real Routing Request Blocked By Rehearsal
+- `02_HISTORY\issue_logs\20260510_ESP32_CSI_WIFI_NODE_COPPER_POUR_REQUEST_BLOCKED.md` - ESP32_CSI_WIFI_NODE Copper Pour Request Blocked
+- `02_HISTORY\issue_logs\20260510_ESP32_CSI_WIFI_NODE_FINAL_PCB_REVIEW_BLOCKERS.md` - ESP32_CSI_WIFI_NODE Final PCB Review Blockers
+- `02_HISTORY\issue_logs\20260510_ESP32_CSI_WIFI_NODE_NOT_FINAL_EXPORT_BLOCKED.md` - ESP32_CSI_WIFI_NODE NOT_FINAL Export Blocked
+- `02_HISTORY\issue_logs\20260511_163153_Knowledge_Scrape_Migration_Execution_Pending.md` - Knowledge Scrape Migration Execution Pending
+- `02_HISTORY\issue_logs\20260511_164911_Knowledge_Scrape_Technical_Content_Migration_Pending.md` - Knowledge Scrape Technical Content Migration Pending
+- `02_HISTORY\issue_logs\20260511_170638_Remaining_knowledge_scrape_migration_after_KiCad_docs_move.md` - Remaining knowledge_scrape migration after KiCad docs move
+- `02_HISTORY\issue_logs\20260511_Remaining_knowledge_scrape_migration_after_engineering_rules_move.md` - Remaining knowledge_scrape migration after engineering-rules move
+- `02_HISTORY\issue_logs\20260511_Component_Datasheet_Vendor_Knowledge_Move_Open_Items.md` - Open Items
+- `02_HISTORY\issue_logs\20260511_Fab_DFM_Compliance_Knowledge_Move_Open_Items.md` - Open Items
+- `02_HISTORY\issue_logs\20260511_CASE_STUDY_TRAINING_FOLLOWUP_ITEMS.md` - Follow-Up Items
+- `02_HISTORY\issue_logs\20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_FOLLOWUP_ITEMS.md` - Follow-Up Items
+- `02_HISTORY\issue_logs\20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_FOLLOWUP_ITEMS.md` - Follow-Up Items
+- `02_HISTORY\issue_logs\20260512_post_migration_repo_push_blockers.md` - Post-Migration Repo Push Blockers
+- `02_HISTORY\issue_logs\20260512_github_push_blocked_by_repo_integrity_precondition.md` - GitHub Push Blocked By Repo Integrity Precondition
+- `02_HISTORY\issue_logs\20260512_dirty_kicad_file_requires_commit_scope_decision.md` - Dirty KiCad File Requires Commit-Scope Decision
+- `02_HISTORY\issue_logs\20260512_repo_commit_scope_requires_explicit_dirty_schematic_decision.md` - Repo Commit Scope Requires Explicit Dirty Schematic Decision
 - `02_HISTORY\known_agent_mistakes\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY Known Agent Mistake: USB-C Connector Footprint
 - `02_HISTORY\known_agent_mistakes\BARREL_JACK_ORIENTATION_CONFUSION.md` - Barrel Jack Orientation Confusion
 - `02_HISTORY\known_agent_mistakes\CRUDE_90_DEGREE_SCRIPTED_ROUTING.md` - Crude 90-Degree Scripted Routing
-- `02_HISTORY\hallucination_risk_logs\20260508_GITHUB_DEV_INFRA_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - GitHub Dev Infrastructure Setup
-- `02_HISTORY\hallucination_risk_logs\20260508_LIVE_STATE_AUTHORITY_HARDENING_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Live State Authority Hardening
-- `02_HISTORY\hallucination_risk_logs\20260508_PR_BRANCH_UPDATE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - PR Branch Update
-- `02_HISTORY\hallucination_risk_logs\20260508_README_WORKFLOW_REWRITE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - README Workflow Rewrite
-- `02_HISTORY\hallucination_risk_logs\20260508_ROUTING_GEOMETRY_HARD_FAIL_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Routing Geometry Hard Fail
-- `02_HISTORY\hallucination_risk_logs\20260508_DIRECT_MAIN_UPDATE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
-- `02_HISTORY\hallucination_risk_logs\20260508_GITHUB_RELEASE_V0_1_0_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
-- `02_HISTORY\hallucination_risk_logs\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
-- `02_HISTORY\hallucination_risk_logs\20260508_GITHUB_LOCAL_DOC_CLARITY_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
-- `02_HISTORY\hallucination_risk_logs\GITHUB_LOCAL_REMOTE_SYNC_AUDIT_HALLUCINATION_RISK.md` - GITHUB_LOCAL_REMOTE_SYNC_AUDIT_HALLUCINATION_RISK
-- `02_HISTORY\hallucination_risk_logs\20260508_portability_audit_hallucination_risk_log.md` - Portability Audit Hallucination Risk Log
-- `02_HISTORY\hallucination_risk_logs\20260508_190332_ZIP_portability_and_local_toolchain_setup_hallucination_risk_log.md` - ZIP portability and local toolchain setup hallucination risk log
-- `02_HISTORY\hallucination_risk_logs\20260508_191329_README_identity_rewrite_hallucination_risk_log.md` - README identity rewrite hallucination risk log
-- `02_HISTORY\hallucination_risk_logs\20260508_191746_README_front_page_refocus_hallucination_risk_log.md` - Hallucination Risk Log
-- `02_HISTORY\hallucination_risk_logs\20260509_074638_ROUTING_WORK_GIT_CLEANUP_HALLUCINATION_RISK.md` - Hallucination Risk Log
-- `02_HISTORY\hallucination_risk_logs\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_HALLUCINATION_RISK.md` - Hallucination Risk Log - KiCad Library Index Portability Cleanup
-- `02_HISTORY\hallucination_risk_logs\20260509_080910_TOOL_INDEX_PORTABILITY_HALLUCINATION_RISK.md` - Hallucination Risk Log - Tool Index Portability Fix
-- `02_HISTORY\hallucination_risk_logs\20260509_082145_HISTORICAL_PATHS_PORTABILITY_HALLUCINATION_RISK.md` - Hallucination Risk Log - Historical Paths Portability
-- `02_HISTORY\hallucination_risk_logs\20260509_084320_KICAD_PYTHON_CONTEXT_FIX_HALLUCINATION_RISK.md` - Hallucination Risk Log - KiCad Python Context Fix
-- `02_HISTORY\hallucination_risk_logs\20260509_093500_FINAL_PORTABILITY_VERIFICATION_HALLUCINATION_RISK.md` - Hallucination Risk Log - Final Portability Verification
-- `02_HISTORY\quality_gate_failures\PLAYWRIGHT_BATCH_LIVE_CAPTURE_BLOCKED.md` - Quality Gate Failure: Playwright Batch Live Capture Blocked
-- `02_HISTORY\quality_gate_failures\P0_P1_REPAIR_PUBLIC_RELEASE_REMAINS_BLOCKED.md` - Quality Gate Failure: Public Release Remains Blocked
-- `02_HISTORY\quality_gate_failures\OPEN_KICAD_SAMPLE_PROJECTS_NOT_PROMOTION_READY.md` - Quality Gate Failure - Open KiCad Samples Not Promotion Ready
-- `02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_FIXTURE_NOT_CLEAN_PASS.md` - Quality Gate Failure - Golden Path Sample Fixture Not Clean Pass
-- `02_HISTORY\quality_gate_failures\GOLDEN_PATH_SAMPLE_GATE_RUN_BLOCKED.md` - Quality Gate Failure - Golden Path Sample Gate Run
-- `02_HISTORY\quality_gate_failures\PROJECT_GATE_RUNNER_SAMPLE_BLOCKED.md` - Quality Gate Failure - ATtiny85 Gate Runner Sample
-- `02_HISTORY\quality_gate_failures\POST_SAMPLE_P0_P1_REPAIR_PUBLIC_RELEASE_STILL_BLOCKED.md` - Quality Gate Failure - Public Release Still Blocked After P0/P1 Repair
-- `02_HISTORY\quality_gate_failures\KICAD_ENGINE_VISUAL_GATE_ROOT_CAUSE_CONFIRMED.md` - Quality Gate Failure: Visual Gate Evidence Was Overclaimed
-- `02_HISTORY\quality_gate_failures\ESP32_CSI_FALSE_ANNOTATION_PASS.md` - Quality Gate Failure: ESP32_CSI_FALSE_ANNOTATION_PASS
+- `02_HISTORY\known_agent_mistakes\AI_PCB_ROUTING_FAILURE_PATTERNS.md` - AI PCB Routing Failure Patterns
+- `02_HISTORY\known_agent_mistakes\SCHEMATIC_READABILITY_FAILURE_PATTERNS.md` - Schematic Readability Failure Patterns
+- `02_HISTORY\known_agent_mistakes\CONNECTOR_ORIENTATION_FAILURE_PATTERNS.md` - Connector Orientation Failure Patterns
+- `02_HISTORY\known_agent_mistakes\README.md` - Known Agent Mistakes
+- `02_HISTORY\hallucination_risk_logs\20260510_REAL_ROUTING_APPLY_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log - Real Routing Apply Blocked
+- `02_HISTORY\hallucination_risk_logs\20260510_COPPER_POUR_REQUEST_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log - Copper Pour Request Blocked
+- `02_HISTORY\hallucination_risk_logs\20260510_FINAL_PCB_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260510_NOT_FINAL_EXPORT_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_163153_Knowledge_Scrape_Migration_Controller_Hallucination_Risk_Log.md` - Knowledge Scrape Migration Controller Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_164911_Knowledge_Scrape_Metadata_Move_Hallucination_Risk_Log.md` - Knowledge Scrape Metadata Move Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_170757_KiCad_Docs_Knowledge_Move_Hallucination_Risk_Log.md` - KiCad Docs Knowledge Move Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_Engineering_Rules_Knowledge_Move_Hallucination_Risk_Log.md` - Engineering Rules Knowledge Move Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_Component_Datasheet_Vendor_Knowledge_Move_Hallucination_Risk.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_Fab_DFM_Compliance_Knowledge_Move_Hallucination_Risk.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260512_KNOWLEDGE_SCRAPE_EMPTYING_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RISK_LOG.md` - Post-Knowledge-Migration Repo Integrity Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_RISK_LOG.md` - GitHub Post-Knowledge-Migration Push Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260512_REPO_PUSH_BLOCKER_REPAIR_RISK_LOG.md` - Repo Push Blocker Repair Hallucination Risk Log
+- `02_HISTORY\hallucination_risk_logs\20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_RISK_LOG.md` - Hallucination Risk Log
 - `02_HISTORY\quality_gate_failures\ESP32_CSI_PRIOR_FALSE_ANNOTATION_PASS_CONFIRMED.md` - Quality Gate Failure: Prior False Annotation Pass Confirmed
 - `02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_TEXT_EDIT_ANNOTATION_FAILED.md` - Quality Gate Failure: Codex Text-Edit Annotation Did Not Resolve GUI State
 - `02_HISTORY\quality_gate_failures\ESP32_CSI_CODEX_FILE_EDIT_ANNOTATION_REJECTED.md` - Quality Gate Failure: Codex File-Edit Annotation Rejected
@@ -96,31 +90,38 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_NOT_FINAL_JLCPCB_EXPORT_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE NOT_FINAL JLCPCB Export
 - `02_HISTORY\quality_gate_failures\20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
 - `02_HISTORY\quality_gate_failures\20260507_AUTO_ROUTING_ENGINE_REAL_BOARD_READINESS_BLOCKED.md` - Quality Gate Failure
-- `02_HISTORY\uncertainty_logs\20260508_GITHUB_DEV_INFRA_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - GitHub Dev Infrastructure Setup
-- `02_HISTORY\uncertainty_logs\20260508_LIVE_STATE_AUTHORITY_HARDENING_UNCERTAINTY_LOG.md` - Uncertainty Log - Live State Authority Hardening
-- `02_HISTORY\uncertainty_logs\20260508_PR_BRANCH_UPDATE_UNCERTAINTY_LOG.md` - Uncertainty Log - PR Branch Update
-- `02_HISTORY\uncertainty_logs\20260508_README_WORKFLOW_REWRITE_UNCERTAINTY_LOG.md` - Uncertainty Log - README Workflow Rewrite
-- `02_HISTORY\uncertainty_logs\20260508_ROUTING_GEOMETRY_HARD_FAIL_UNCERTAINTY_LOG.md` - Uncertainty Log - Routing Geometry Hard Fail
-- `02_HISTORY\uncertainty_logs\20260508_DIRECT_MAIN_UPDATE_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `02_HISTORY\uncertainty_logs\20260508_GITHUB_RELEASE_V0_1_0_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `02_HISTORY\uncertainty_logs\20260508_GITHUB_SIMPLE_MAIN_CLEANUP_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `02_HISTORY\uncertainty_logs\20260508_GITHUB_LOCAL_DOC_CLARITY_UNCERTAINTY_LOG.md` - Uncertainty Log
-- `02_HISTORY\uncertainty_logs\GITHUB_LOCAL_REMOTE_SYNC_AUDIT_UNCERTAINTY.md` - GITHUB_LOCAL_REMOTE_SYNC_AUDIT_UNCERTAINTY
-- `02_HISTORY\uncertainty_logs\20260508_portability_audit_uncertainty_log.md` - Portability Audit Uncertainty Log
-- `02_HISTORY\uncertainty_logs\20260508_190331_ZIP_portability_and_local_toolchain_setup_uncertainty_log.md` - ZIP portability and local toolchain setup uncertainty log
-- `02_HISTORY\uncertainty_logs\20260508_191329_README_identity_rewrite_uncertainty_log.md` - README identity rewrite uncertainty log
-- `02_HISTORY\uncertainty_logs\20260508_191746_README_front_page_refocus_uncertainty_log.md` - Uncertainty Log
-- `02_HISTORY\uncertainty_logs\20260509_074638_ROUTING_WORK_GIT_CLEANUP_UNCERTAINTY.md` - Uncertainty Log
-- `02_HISTORY\uncertainty_logs\20260509_080000_KICAD_LIBRARY_INDEX_PORTABILITY_UNCERTAINTY.md` - Uncertainty Log - KiCad Library Index Portability Cleanup
-- `02_HISTORY\uncertainty_logs\20260509_080910_TOOL_INDEX_PORTABILITY_UNCERTAINTY.md` - Uncertainty Log - Tool Index Portability Fix
-- `02_HISTORY\uncertainty_logs\20260509_082145_HISTORICAL_PATHS_PORTABILITY_UNCERTAINTY.md` - Uncertainty Log - Historical Paths Portability
-- `02_HISTORY\uncertainty_logs\20260509_084320_KICAD_PYTHON_CONTEXT_FIX_UNCERTAINTY.md` - Uncertainty Log - KiCad Python Context Fix
-- `02_HISTORY\uncertainty_logs\20260509_093500_FINAL_PORTABILITY_VERIFICATION_UNCERTAINTY.md` - Uncertainty Log - Final Portability Verification
+- `02_HISTORY\quality_gate_failures\20260510_PCB_TRACE_GEOMETRY_GATE_FAIL.md` - Quality Gate Failure - PCB Trace Geometry Gate
+- `02_HISTORY\quality_gate_failures\20260510_PCB_PRELAYOUT_VARIANT_PACKET_GATE_BLOCKED.md` - Quality Gate Failure - PCB Prelayout Variant Packet
+- `02_HISTORY\quality_gate_failures\20260510_STAGED_ROUTING_PRECONDITION_BLOCKED.md` - Quality Gate Failure - Staged Routing Request Blocked
+- `02_HISTORY\quality_gate_failures\20260510_113526_ESP32_CSI_WIFI_NODE_Schematic_Layout_Gate_Failure.md` - ESP32_CSI_WIFI_NODE Schematic Layout Gate Failure
+- `02_HISTORY\quality_gate_failures\20260510_142522_ESP32_CSI_WIFI_NODE_PCB_Quality_Gate_Failure.md` - ESP32_CSI_WIFI_NODE PCB Quality Gate Failure
+- `02_HISTORY\quality_gate_failures\20260510_REAL_ROUTING_APPLY_BLOCKED.md` - Real Routing Apply Blocked
+- `02_HISTORY\quality_gate_failures\20260510_COPPER_POUR_REQUEST_BLOCKED.md` - Copper Pour Request Blocked
+- `02_HISTORY\quality_gate_failures\20260510_FINAL_PCB_REVIEW_BLOCKED.md` - Final PCB Review Blocked
+- `02_HISTORY\quality_gate_failures\20260510_NOT_FINAL_EXPORT_BLOCKED.md` - NOT_FINAL Export Blocked
+- `02_HISTORY\uncertainty_logs\20260510_REAL_ROUTING_APPLY_BLOCKED_UNCERTAINTY.md` - Uncertainty Log - Real Routing Apply Blocked
+- `02_HISTORY\uncertainty_logs\20260510_COPPER_POUR_REQUEST_BLOCKED_UNCERTAINTY.md` - Uncertainty Log - Copper Pour Request Blocked
+- `02_HISTORY\uncertainty_logs\20260510_FINAL_PCB_REVIEW_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260510_NOT_FINAL_EXPORT_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_163153_Knowledge_Scrape_Migration_Controller_Uncertainty_Log.md` - Knowledge Scrape Migration Controller Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_164911_Knowledge_Scrape_Metadata_Move_Uncertainty_Log.md` - Knowledge Scrape Metadata Move Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_170757_KiCad_Docs_Knowledge_Move_Uncertainty_Log.md` - KiCad Docs Knowledge Move Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_Engineering_Rules_Knowledge_Move_Uncertainty_Log.md` - Engineering Rules Knowledge Move Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_Component_Datasheet_Vendor_Knowledge_Move_Uncertainty_Log.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_Fab_DFM_Compliance_Knowledge_Move_Uncertainty_Log.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260512_KNOWLEDGE_SCRAPE_EMPTYING_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_UNCERTAINTY_LOG.md` - Post-Knowledge-Migration Repo Integrity Uncertainty Log
+- `02_HISTORY\uncertainty_logs\20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_UNCERTAINTY.md` - GitHub Post-Knowledge-Migration Push Uncertainty
+- `02_HISTORY\uncertainty_logs\20260512_REPO_PUSH_BLOCKER_REPAIR_UNCERTAINTY.md` - Repo Push Blocker Repair Uncertainty
+- `02_HISTORY\uncertainty_logs\20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_UNCERTAINTY.md` - Uncertainty Log
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\OPEN_DESIGN_RISKS.md` - Open Design Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_HALLUCINATION_RISKS.md` - Project Hallucination Risks
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\memory\PROJECT_UNVERIFIED_CLAIMS.md` - Project Unverified Claims
-- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB.md` - PCB_PLACEMENT_PASS_2_BLOCKED_NO_PCB
-- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB.md` - HOLE_PAD_VIA_STRATEGY_BLOCKED_NO_PCB
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB.md` - COPPER_ZONE_STRATEGY_BLOCKED_NO_PCB
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_ROUTING_PLAN_BLOCKED_NO_PCB.md` - PCB_ROUTING_PLAN_BLOCKED_NO_PCB
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB.md` - PCB_CRITICAL_NETS_ROUTING_BLOCKED_NO_PCB
@@ -139,12 +140,11 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_04_control_net_remaining_blockers.md` - Remaining Blockers
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_pcb_batch_05_usb_data_blocked.md` - Remaining Blockers
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-08_final_pcb_visual_review_remaining_blockers.md` - Final PCB Visual Review Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\2026-05-09_pcb_routing_audit_plan_remaining_blockers.md` - PCB Routing Audit Plan Remaining Blockers
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\issue_logs\20260510_123329_Schematic_intelligence_confirms_PCB_update_remains_blocked.md` - Schematic intelligence confirms PCB update remains blocked
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\EXAMPLE_ONLY_USB_C_CONNECTOR_FOOTPRINT_WRONG.md` - EXAMPLE_ONLY User Correction: USB-C Connector Footprint
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_routing_quality_correction.md` - User Correction - Routing Quality
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\user_corrections\2026-05-07_live_pcb_truth_audit_user_correction.md` - User Correction - Live PCB Truth Audit
-- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED.md` - FINAL_PCB_VERIFICATION_BEFORE_FAB_BLOCKED
-- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\NOT_FINAL_FAB_EXPORT_BLOCKED.md` - NOT_FINAL_FAB_EXPORT_BLOCKED
-- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\SCHEMATIC_SAFE_REPAIR_GATE_STILL_BLOCKED.md` - Quality Gate Failure: Schematic Safe Repair Gate Still Blocked
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_154747_ESP32_CSI_schematic_to_PCB_gate_remains_failed_after_electrical_footprint_gate.md` - ESP32 CSI schematic to PCB gate remains failed after electrical footprint gate
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_160734_Emergency_schematic_truth_audit_gate_failure.md` - Emergency schematic truth audit gate failure
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\20260506_161816_Footprint_assignment_gate_remains_blocked.md` - Footprint assignment gate remains blocked
@@ -162,8 +162,9 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_live_pcb_truth_audit_blocked.md` - Quality Gate Failure - Live PCB Truth Audit
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-07_existing_trace_audit_blocked.md` - Quality Gate Failure - Existing Trace Audit
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-08_real_pcb_repair_pass_1_user_override_exception.md` - Quality Gate Exception - Real PCB Repair Pass 1
-- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_1_2_cleanup_uncertainty.md` - Uncertainty Log - Stage 1/2 Cleanup
-- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_stage_3_usb_blocked_uncertainty.md` - Uncertainty Log - Stage 3 USB Blocked
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-09_esp_routing_via_user_override_exception.md` - Quality Gate Exception - ESP Routing And Via Repair
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-09_pcb_routing_audit_plan_blocked.md` - PCB Routing Audit Plan Quality Gate Failure
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\quality_gate_failures\2026-05-09_power_routing_user_override_exception.md` - Quality Gate Exception - Power Routing Repair
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\STAGE_1_2_PROFESSIONAL_CLEANUP_UNCERTAINTY_LOG.md` - Stage 1/2 Professional Cleanup Uncertainty Log
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_live_pcb_truth_audit_uncertainty.md` - Uncertainty Log - Live PCB Truth Audit
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-07_existing_trace_audit_uncertainty.md` - Uncertainty Log - Existing Trace Audit
@@ -182,6 +183,8 @@ This startup file summarizes risk signals so the next AI agent sees what not to 
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_pcb_final_connectivity_cleanup_uncertainty_log.md` - Uncertainty Log: PCB Final Connectivity Cleanup
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_trace_by_trace_audit_uncertainty_log.md` - Uncertainty Log: Final Trace By Trace Audit
 - `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-08_final_pcb_visual_review_package_uncertainty_log.md` - Uncertainty Log - Final PCB Visual Review Package
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\2026-05-09_pcb_routing_audit_plan_uncertainty.md` - Uncertainty Log - PCB Routing Audit Plan
+- `04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\history\uncertainty_logs\20260510_123401_ESP32_schematic_intelligence_uncertainty_log.md` - ESP32 schematic intelligence uncertainty log
 
 ## Required Startup Behavior
 

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SchematicSymbolAudit",
+  "type": "object",
+  "required": [
+    "lib_id",
+    "reference",
+    "value",
+    "footprint",
+    "at",
+    "bbox",
+    "center",
+    "pin_points"
+  ],
+  "properties": {
+    "lib_id": { "type": "string" },
+    "reference": { "type": "string" },
+    "value": { "type": "string" },
+    "footprint": { "type": "string" },
+    "block_id": { "type": "string" },
+    "at": { "type": "object" },
+    "bbox": { "type": "object" },
+    "center": { "type": "object" },
+    "pin_points": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  }
+}

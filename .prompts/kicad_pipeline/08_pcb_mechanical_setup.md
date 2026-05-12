@@ -28,12 +28,15 @@ If the result is `BLOCKED`, stop and report the missing earlier phase. A missing
 6. `layout_sandbox/SELECTED_LAYOUT_PLAN.md`
 7. `09_ACCURACY_ENGINE/workflows/AUTO_PCB_START_WORKFLOW.md`
 8. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
+9. `08_COMPONENT_DATABASE/mechanical_orientation/README.md`
+10. `08_COMPONENT_DATABASE/mechanical_orientation/connector_orientation_truth.json`
 
 ## Preconditions
 
 - PCB exists and is synced.
 - Auto PCB start status is not blocked.
 - Board size, layer count, stackup, mounting holes, connector edge constraints, and antenna/mechanical constraints are source-backed or user-confirmed.
+- Connector and antenna orientation truth are source-backed or blocked.
 
 If board size is unknown, stop with `AUTO_PCB_START_BLOCKED` and create `reports/BOARD_SIZE_NEEDS_USER_REVIEW.md`.
 
@@ -41,9 +44,10 @@ If board size is unknown, stop with `AUTO_PCB_START_BLOCKED` and create `reports
 
 1. Create backup.
 2. Set board outline, layer/constraint setup, mounting holes, keepouts, antenna keepout, connector/mechanical areas, and board notes according to the auto-approved selected layout plan.
-3. Run DRC.
-4. Export board visual evidence.
-5. Create `reports/PCB_MECHANICAL_SETUP_REPORT.md`.
+3. Run connector-orientation and ESP32-antenna orientation audits in dry-run mode and attach the results to the mechanical setup report.
+4. Run DRC.
+5. Export board visual evidence.
+6. Create `reports/PCB_MECHANICAL_SETUP_REPORT.md`.
 
 ## Required Result
 

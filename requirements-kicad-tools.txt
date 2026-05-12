@@ -1,0 +1,7 @@
+# Optional lightweight KiCad-adjacent Python packages.
+# Install only into local optional envs such as .tools/venvs/kicad.
+
+kicad-sch-api
+skidl
+circuit-synth
+kicad-happy

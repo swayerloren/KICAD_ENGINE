@@ -8,19 +8,16 @@ your local `KICAD_ENGINE` repo root
 
 Read these files before doing any work:
 
-1. `AGENTS.md`
-2. `00_CODEX_START/START_HERE.md`
-3. `00_CODEX_START/SESSION_START_CHECKLIST.md`
-4. `00_CODEX_START/WORKFLOW_RULES.md`
-5. `00_CODEX_START/SAFETY_RULES.md`
-6. `00_CODEX_START/CONTROL_PLANES.md`
-7. `00_CODEX_START/REPO_MAP.md`
-8. `00_CODEX_START/TOOL_INDEX.md`
-9. `00_CODEX_START/MEMORY_INDEX.md`
-10. `00_CODEX_START/HISTORY_INDEX.md`
-11. `00_CODEX_START/PROJECT_INDEX.md`
-12. `00_CODEX_START/CURRENT_PROJECT.md`
-13. `.prompts/shared/SAFETY_GATES.md`
+1. `START_HERE_FOR_AI_AGENTS.md`
+2. `AGENTS.md`
+3. `FOR CHAT GPT.MD`
+4. `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`
+5. `00_CODEX_START/TASK_ROUTER.md`
+6. `.prompts/shared/SAFETY_GATES.md`
+
+Then follow the full `AGENTS.md` startup chain automatically and use
+`TASK_ROUTER.md` plus its companion task tables to derive the route-specific
+docs for the current task.
 
 ## Goal
 

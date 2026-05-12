@@ -1,0 +1,27 @@
+{
+  "generated_on": "2026-05-11",
+  "status": "SOURCE_BACKED_GAP_INDEX",
+  "candidate_source_registry_ids": [
+    "url_004562",
+    "url_004601",
+    "url_008215",
+    "url_008216",
+    "url_008217",
+    "url_008282"
+  ],
+  "hard_rules": [
+    "vendor_part_number_is_not_footprint_proof",
+    "supplier_cad_model_not_auto_trusted",
+    "exact_package_drawing_required_for_high_risk_parts"
+  ],
+  "high_risk_groups": [
+    "esp32_modules",
+    "usb_c_connectors",
+    "barrel_jacks",
+    "pmos_fets",
+    "regulators",
+    "esd_tvs_devices",
+    "test_pads",
+    "mounting_holes"
+  ]
+}

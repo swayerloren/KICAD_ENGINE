@@ -80,6 +80,14 @@ Use this compact map during startup before routing new files:
 | `25_VENDOR_DATABASE/` | Vendor source priority, official document links, lifecycle, and sourcing metadata. |
 | `26_AGENT_QUALITY/` | AI scoring, evidence, hallucination-risk, and quality-gate support. |
 | `27_EXAMPLES/` | EXAMPLE_ONLY prompt, report, record, datasheet, and scorecard examples. |
+| `28_SUPPLIER_INGESTION/` | Supplier API/CSV ingestion policies, connectors, normalized supplier metadata, and sourcing gap reports. |
+| `29_FOOTPRINT_GAP_ANALYSIS/` | Installed KiCad footprint inventory, candidate matching, and missing-footprint backlog evidence. |
+| `30_SUPPLIER_FOOTPRINT_MATCHES/` | Supplier SKU/MPN to KiCad footprint match records, confidence rules, and review requirements. |
+| `31_PLAYWRIGHT_RESEARCH_PIPELINE/` | Controlled public-page research policies, source profiles, dry-run browser evidence, and normalized captures. |
+| `32_OPEN_KICAD_SAMPLE_INTAKE/` | Controlled open KiCad sample project intake, license screening, normalized review copies, and promotion rules. |
+| `33_KICAD_GUI_AUTOMATION/` | Safety-gated KiCad GUI/native schematic workflows and evidence rules. |
+| `33_PCB_PRELAYOUT_ENGINE/` | PCB digital-twin, variant-planning, projected-route, and pre-placement/pre-routing gate rules. |
+| `34_PCB_LAYOUT_SANDBOX/` | Mandatory pre-PCB-edit sandbox rules, selected-variant reasoning, and auto-approval workflows. |
 | `99_BACKUPS/` | Pre-edit backups and recovery snapshots; do not delete. |
 | `docs/` | Current public/end-user docs implementation root. |
 | `installer/` | Current Electron installer source and payload builder implementation root. |

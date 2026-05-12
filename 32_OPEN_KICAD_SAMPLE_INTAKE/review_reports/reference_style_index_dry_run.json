@@ -1,0 +1,1797 @@
+{
+  "aggregate": {
+    "average_board_height_mm": 33.367,
+    "average_board_width_mm": 40.82,
+    "average_connector_edge_alignment_rate": 0.0,
+    "average_wire_to_label_ratio": 16.156,
+    "pcb_metric_count": 3,
+    "sample_count": 3,
+    "schematic_metric_count": 3
+  },
+  "generated_at": "2026-05-10T16:13:03.970002+00:00",
+  "read_only_mode": true,
+  "samples": [
+    {
+      "kicad_file_summary": {
+        "kicad_pcb": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/esp-rust-board.kicad_pcb"
+        ],
+        "kicad_pcb_count": 1,
+        "kicad_pro": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/esp-rust-board.kicad_pro"
+        ],
+        "kicad_pro_count": 1,
+        "kicad_sch": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/hardware/esp-rust-board/esp-rust-board.kicad_sch"
+        ],
+        "kicad_sch_count": 1
+      },
+      "pcb_error": "",
+      "pcb_metrics": {
+        "generated_at": "2026-05-10T16:13:03.663147+00:00",
+        "metrics": {
+          "board_size_mm": {
+            "height_mm": 63.5,
+            "width_mm": 22.86
+          },
+          "component_clustering": {
+            "connectors": 1,
+            "leds": 9,
+            "logic_or_modules": 6,
+            "other": 79,
+            "test_points": 1
+          },
+          "connector_edge_placement": {
+            "connector_count": 1,
+            "details": [
+              {
+                "distance_to_edge_mm": 2.54,
+                "edge_aligned": false,
+                "footprint_name": "GCT_USB4105-GF-A",
+                "reference": "J1",
+                "value": "USB4105-GF-A"
+              }
+            ],
+            "edge_aligned_count": 0
+          },
+          "drc_result": {
+            "message": "DRC was not requested.",
+            "status": "NOT_RUN",
+            "unconnected_items": null,
+            "violations": null
+          },
+          "footprint_count": 96,
+          "mounting_hole_count": 0,
+          "power_layout_quality": {
+            "finding_count": 0,
+            "status": "PASS"
+          },
+          "routing_angle_patterns": {
+            "ACUTE_JOG_FOUND": 4,
+            "RIGHT_ANGLE_FOUND": 12,
+            "UNNECESSARY_ZIGZAG_FOUND": 23
+          },
+          "routing_status": {
+            "all_critical_planned": true,
+            "drc_risk": "NOT_EXTRACTED",
+            "notes": "Real-board routing extraction completed in read-only mode.",
+            "phase": "REAL_BOARD_EXTRACTED",
+            "ratsnest_status": "CONNECTED",
+            "unconnected_count": 0
+          },
+          "usb_routing_quality": {
+            "finding_count": 7,
+            "status": "FAIL"
+          },
+          "via_count": 216,
+          "zone_usage": {
+            "gnd_zone_count": 2,
+            "ground_strategy": "GND_ZONES_PRESENT",
+            "zone_count": 8
+          }
+        },
+        "pcb_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_pcb",
+        "read_only_mode": true,
+        "sample_id": "esp-rust-board",
+        "schema_version": "1.0",
+        "status": "METRICS_EXTRACTED",
+        "tool": "extract_sample_pcb_metrics"
+      },
+      "sample_id": "esp_rs_esp_rust_board",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board",
+      "schematic_error": "",
+      "schematic_metrics": {
+        "block_summary": [
+          {
+            "block_id": "input_power_protection",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "Input Power / Protection"
+          },
+          {
+            "block_id": "buck_regulator",
+            "heading_text": "",
+            "symbol_count": 1,
+            "title": "Buck Regulator"
+          },
+          {
+            "block_id": "esp32_module",
+            "heading_text": "ESP32-C3-MINI-1 Module",
+            "symbol_count": 6,
+            "title": "ESP32 Module"
+          },
+          {
+            "block_id": "usb_c_data",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "USB-C / ESD / CC / Data"
+          },
+          {
+            "block_id": "reset_boot",
+            "heading_text": "Buttons (Reset & Boot)",
+            "symbol_count": 12,
+            "title": "Reset / Boot"
+          },
+          {
+            "block_id": "leds",
+            "heading_text": "LED\nRegular on GPIO7\nAddressable on GPIO2",
+            "symbol_count": 35,
+            "title": "LEDs"
+          },
+          {
+            "block_id": "test_debug",
+            "heading_text": "",
+            "symbol_count": 1,
+            "title": "Test Pads / Debug"
+          },
+          {
+            "block_id": "mechanical_notes",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "Mounting / Mechanical Notes"
+          }
+        ],
+        "generated_at": "2026-05-10T16:13:02.949798+00:00",
+        "metrics": {
+          "annotation_completeness": {
+            "duplicate_reference_count": 0,
+            "duplicate_references": [],
+            "status": "PASS",
+            "unresolved_reference_count": 0
+          },
+          "block_titles": [
+            "ESP32-C3-MINI-1 Module",
+            "Buttons (Reset & Boot)",
+            "LED\nRegular on GPIO7\nAddressable on GPIO2"
+          ],
+          "erc_result": {
+            "message": "ERC was not requested for this metrics extraction.",
+            "status": "NOT_RUN"
+          },
+          "footprint_completeness": {
+            "missing_footprint_count": 0,
+            "missing_footprint_references": [],
+            "status": "PASS"
+          },
+          "label_count": 48,
+          "physical_symbol_count": 55,
+          "sheet_count": 1,
+          "symbol_count": 115,
+          "visual_overlap_estimate": {
+            "overlap_count": 261,
+            "overlapping_items": [
+              {
+                "kind": "text",
+                "owner_reference": "",
+                "symbol_hits": [
+                  "#PWR01"
+                ],
+                "text": "LED\nRegular on GPIO7\nAddressable on GPIO2",
+                "wire_hits": 1
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "Buck_Coil",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO8_SCL",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO8_SCL",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "USB_D+",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO7",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "USB_D-",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "USB_D-",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO5",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO20_RX",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO20_RX",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO8_SCL",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO21_TX",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO8_SCL",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO0",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO3",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO7",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO9_BOOT",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO8_SCL",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "CHIP_PU",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO10_SDA",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO6",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO6",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO7",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO9_BOOT",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "USB_D+",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "USB_D+",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO4",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO1",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO1",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO2",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO0",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO0",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO3",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO9_BOOT",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO10_SDA",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO2",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "ENABLE",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "CHIP_PU",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "CHIP_PU",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO10_SDA",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO4",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO21_TX",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO1",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO10_SDA",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO5",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "USB_D-",
+                "wire_hits": 1
+              },
+              {
+                "kind": "global_label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "IO2",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Reference",
+                "owner_reference": "U2",
+                "symbol_hits": [
+                  "U2"
+                ],
+                "text": "U2",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Value",
+                "owner_reference": "U2",
+                "symbol_hits": [
+                  "U2"
+                ],
+                "text": "ICM-42670-P",
+                "wire_hits": 0
+              }
+            ],
+            "status": "FAIL"
+          },
+          "wire_count": 248,
+          "wire_to_label_ratio": 5.167
+        },
+        "read_only_mode": true,
+        "sample_id": "esp-rust-board",
+        "schema_version": "1.0",
+        "schematic_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\esp_rs_esp_rust_board\\hardware\\esp-rust-board\\esp-rust-board.kicad_sch",
+        "status": "METRICS_EXTRACTED",
+        "tool": "extract_sample_schematic_metrics",
+        "unassigned_symbol_count": 0
+      },
+      "source_kind": "normalized"
+    },
+    {
+      "kicad_file_summary": {
+        "kicad_pcb": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/TPS5430.kicad_pcb"
+        ],
+        "kicad_pcb_count": 1,
+        "kicad_pro": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/TPS5430.kicad_pro"
+        ],
+        "kicad_pro_count": 1,
+        "kicad_sch": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/m4a1x_tps5430/TPS5430.kicad_sch"
+        ],
+        "kicad_sch_count": 1
+      },
+      "pcb_error": "",
+      "pcb_metrics": {
+        "generated_at": "2026-05-10T16:13:03.888399+00:00",
+        "metrics": {
+          "board_size_mm": {
+            "height_mm": 20.0,
+            "width_mm": 55.0
+          },
+          "component_clustering": {
+            "connectors": 6,
+            "leds": 3,
+            "logic_or_modules": 1,
+            "other": 32,
+            "power_cluster": 1,
+            "test_points": 1
+          },
+          "connector_edge_placement": {
+            "connector_count": 6,
+            "details": [
+              {
+                "distance_to_edge_mm": 7.3,
+                "edge_aligned": false,
+                "footprint_name": "DC-005-5A-2.0-SMT",
+                "reference": "J1",
+                "value": "Barrel_Jack"
+              },
+              {
+                "distance_to_edge_mm": 5.3,
+                "edge_aligned": false,
+                "footprint_name": "TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+                "reference": "J2",
+                "value": "Screw_Terminal_01x02"
+              },
+              {
+                "distance_to_edge_mm": 3.3,
+                "edge_aligned": false,
+                "footprint_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+                "reference": "JP1",
+                "value": "SolderJumper"
+              },
+              {
+                "distance_to_edge_mm": 3.3,
+                "edge_aligned": false,
+                "footprint_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+                "reference": "JP2",
+                "value": "SolderJumper"
+              },
+              {
+                "distance_to_edge_mm": 3.3,
+                "edge_aligned": false,
+                "footprint_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+                "reference": "JP3",
+                "value": "SolderJumper"
+              },
+              {
+                "distance_to_edge_mm": 3.3,
+                "edge_aligned": false,
+                "footprint_name": "SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+                "reference": "JP4",
+                "value": "SolderJumper"
+              }
+            ],
+            "edge_aligned_count": 0
+          },
+          "drc_result": {
+            "message": "DRC was not requested.",
+            "status": "NOT_RUN",
+            "unconnected_items": null,
+            "violations": null
+          },
+          "footprint_count": 44,
+          "mounting_hole_count": 7,
+          "power_layout_quality": {
+            "finding_count": 0,
+            "status": "PASS"
+          },
+          "routing_angle_patterns": {
+            "RETURN_PATH_SPLIT_RISK": 1,
+            "RIGHT_ANGLE_FOUND": 3,
+            "UNNECESSARY_ZIGZAG_FOUND": 4
+          },
+          "routing_status": {
+            "all_critical_planned": true,
+            "drc_risk": "NOT_EXTRACTED",
+            "notes": "Real-board routing extraction completed in read-only mode.",
+            "phase": "REAL_BOARD_EXTRACTED",
+            "ratsnest_status": "CONNECTED",
+            "unconnected_count": 0
+          },
+          "usb_routing_quality": {
+            "finding_count": 0,
+            "status": "PASS"
+          },
+          "via_count": 113,
+          "zone_usage": {
+            "gnd_zone_count": 1,
+            "ground_strategy": "GND_ZONES_PRESENT",
+            "zone_count": 8
+          }
+        },
+        "pcb_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_pcb",
+        "read_only_mode": true,
+        "sample_id": "m4a1x_tps5430",
+        "schema_version": "1.0",
+        "status": "METRICS_EXTRACTED",
+        "tool": "extract_sample_pcb_metrics"
+      },
+      "sample_id": "m4a1x_tps5430",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430",
+      "schematic_error": "",
+      "schematic_metrics": {
+        "block_summary": [
+          {
+            "block_id": "input_power_protection",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "Input Power / Protection"
+          },
+          {
+            "block_id": "buck_regulator",
+            "heading_text": "+12V/+5V/+3V3/+1V8 3A DC-DC Step-Down Regulator",
+            "symbol_count": 33,
+            "title": "Buck Regulator"
+          },
+          {
+            "block_id": "esp32_module",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "ESP32 Module"
+          },
+          {
+            "block_id": "usb_c_data",
+            "heading_text": "",
+            "symbol_count": 1,
+            "title": "USB-C / ESD / CC / Data"
+          },
+          {
+            "block_id": "reset_boot",
+            "heading_text": "",
+            "symbol_count": 1,
+            "title": "Reset / Boot"
+          },
+          {
+            "block_id": "leds",
+            "heading_text": "",
+            "symbol_count": 1,
+            "title": "LEDs"
+          },
+          {
+            "block_id": "test_debug",
+            "heading_text": "",
+            "symbol_count": 1,
+            "title": "Test Pads / Debug"
+          },
+          {
+            "block_id": "mechanical_notes",
+            "heading_text": "",
+            "symbol_count": 4,
+            "title": "Mounting / Mechanical Notes"
+          }
+        ],
+        "generated_at": "2026-05-10T16:13:03.727293+00:00",
+        "metrics": {
+          "annotation_completeness": {
+            "duplicate_reference_count": 0,
+            "duplicate_references": [],
+            "status": "PASS",
+            "unresolved_reference_count": 0
+          },
+          "block_titles": [
+            "+12V/+5V/+3V3/+1V8 3A DC-DC Step-Down Regulator"
+          ],
+          "erc_result": {
+            "message": "ERC was not requested for this metrics extraction.",
+            "status": "NOT_RUN"
+          },
+          "footprint_completeness": {
+            "missing_footprint_count": 0,
+            "missing_footprint_references": [],
+            "status": "PASS"
+          },
+          "label_count": 3,
+          "physical_symbol_count": 41,
+          "sheet_count": 1,
+          "symbol_count": 68,
+          "visual_overlap_estimate": {
+            "overlap_count": 253,
+            "overlapping_items": [
+              {
+                "kind": "text",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "Fit only one jumper!",
+                "wire_hits": 3
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "Feedback",
+                "wire_hits": 1
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "Feedback",
+                "wire_hits": 1
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "Feedback",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Reference",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "D3",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Value",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "LED",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "LED_SMD:LED_0603_1608Metric",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:MPN",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "19-217/GHC-YR1S2/3T",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Manufacturer",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "Everlight Elec",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Notes",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "Green 520~535nm 0603 Light Emitting Diodes (LED) RoHS",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:LCSC",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "C72043",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:JLC",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "LED_0603",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Reference",
+                "owner_reference": "#PWR0116",
+                "symbol_hits": [
+                  "R2"
+                ],
+                "text": "#PWR0116",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "H1",
+                "symbol_hits": [
+                  "H1"
+                ],
+                "text": "MountingHole:MountingHole_2.2mm_M2_ISO7380",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "H1",
+                "symbol_hits": [
+                  "H1"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "R7",
+                "symbol_hits": [
+                  "R8"
+                ],
+                "text": "Resistor_SMD:R_0402_1005Metric",
+                "wire_hits": 4
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R7",
+                "symbol_hits": [
+                  "R7",
+                  "R8"
+                ],
+                "text": "https://datasheet.lcsc.com/lcsc/1810301311_UNI-ROYAL-Uniroyal-Elec-0402WGF2202TCE_C25768.pdf",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:MPN",
+                "owner_reference": "R7",
+                "symbol_hits": [
+                  "R7",
+                  "R8"
+                ],
+                "text": "0402WGF2202TCE",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Manufacturer",
+                "owner_reference": "R7",
+                "symbol_hits": [
+                  "R7",
+                  "R8"
+                ],
+                "text": "UNI-ROYAL(Uniroyal Elec)",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Notes",
+                "owner_reference": "R7",
+                "symbol_hits": [
+                  "R7",
+                  "R8"
+                ],
+                "text": "22k\u03a9 \u00b11% 1/16W \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount RoHS",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:LCSC",
+                "owner_reference": "R7",
+                "symbol_hits": [
+                  "R7"
+                ],
+                "text": "C25768",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:JLC",
+                "owner_reference": "R7",
+                "symbol_hits": [
+                  "R7"
+                ],
+                "text": "0402",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "C3",
+                "symbol_hits": [
+                  "C3",
+                  "C4"
+                ],
+                "text": "Capacitor_SMD:C_1206_3216Metric",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "C3",
+                "symbol_hits": [
+                  "C3",
+                  "U1",
+                  "C4",
+                  "C7",
+                  "D1"
+                ],
+                "text": "https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:MPN",
+                "owner_reference": "C3",
+                "symbol_hits": [
+                  "C3",
+                  "C4"
+                ],
+                "text": "CL31A106KBHNNNE",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Manufacturer",
+                "owner_reference": "C3",
+                "symbol_hits": [
+                  "C3",
+                  "C4"
+                ],
+                "text": "Samsung Electro-Mechanics",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Notes",
+                "owner_reference": "C3",
+                "symbol_hits": [
+                  "C3",
+                  "U1",
+                  "C4"
+                ],
+                "text": "10uF \u00b110% 50V X5R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:LCSC",
+                "owner_reference": "C3",
+                "symbol_hits": [
+                  "C3"
+                ],
+                "text": "C13585",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:JLC",
+                "owner_reference": "C3",
+                "symbol_hits": [
+                  "C3"
+                ],
+                "text": "1206",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R5",
+                "symbol_hits": [
+                  "R5"
+                ],
+                "text": "https://datasheet.lcsc.com/lcsc/1810301112_UNI-ROYAL-Uniroyal-Elec-0402WGF5601TCE_C25908.pdf",
+                "wire_hits": 4
+              },
+              {
+                "kind": "property:MPN",
+                "owner_reference": "R5",
+                "symbol_hits": [
+                  "R5"
+                ],
+                "text": "0402WGF5601TCE",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Manufacturer",
+                "owner_reference": "R5",
+                "symbol_hits": [
+                  "R5"
+                ],
+                "text": "UNI-ROYAL(Uniroyal Elec)",
+                "wire_hits": 3
+              },
+              {
+                "kind": "property:Notes",
+                "owner_reference": "R5",
+                "symbol_hits": [
+                  "R5"
+                ],
+                "text": "5.6k\u03a9 \u00b11% 1/16W \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount RoHS",
+                "wire_hits": 4
+              },
+              {
+                "kind": "property:LCSC",
+                "owner_reference": "R5",
+                "symbol_hits": [
+                  "R5"
+                ],
+                "text": "C25908",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:JLC",
+                "owner_reference": "R5",
+                "symbol_hits": [
+                  "R5"
+                ],
+                "text": "0402",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2",
+                  "Q2"
+                ],
+                "text": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2",
+                  "Q2"
+                ],
+                "text": "https://datasheet.lcsc.com/szlcsc/2009191134_Ningbo-Xinlaiya-Elec-XY302V-3-5-2P_C784940.pdf",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:LCSC",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "C784940",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:MPN",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "XY302V-3.5-2P",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Manufacturer",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "Ningbo Xinlaiya Elec.",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Notes",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "P=3.5mm Screw terminal RoHS, CONN-TH_XY302V-3.5-2P",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:JLC",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "CONN-TH_XY302V-3.5-2P",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R4"
+                ],
+                "text": "Resistor_SMD:R_0402_1005Metric",
+                "wire_hits": 4
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R7",
+                  "R3",
+                  "R4",
+                  "R8"
+                ],
+                "text": "https://datasheet.lcsc.com/lcsc/1810301320_UNI-ROYAL-Uniroyal-Elec-0402WGF3301TCE_C25890.pdf",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:MPN",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R3",
+                  "R4"
+                ],
+                "text": "0402WGF3301TCE",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Manufacturer",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R3",
+                  "R4"
+                ],
+                "text": "UNI-ROYAL(Uniroyal Elec)",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Notes",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R7",
+                  "R3",
+                  "R4",
+                  "R8"
+                ],
+                "text": "3.3k\u03a9 \u00b11% 1/16W \u00b1100ppm/\u2103 0402 Chip Resistor - Surface Mount RoHS",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:LCSC",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R3"
+                ],
+                "text": "C25890",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:JLC",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R3"
+                ],
+                "text": "0402",
+                "wire_hits": 0
+              }
+            ],
+            "status": "FAIL"
+          },
+          "wire_count": 105,
+          "wire_to_label_ratio": 35.0
+        },
+        "read_only_mode": true,
+        "sample_id": "m4a1x_tps5430",
+        "schema_version": "1.0",
+        "schematic_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\m4a1x_tps5430\\TPS5430.kicad_sch",
+        "status": "METRICS_EXTRACTED",
+        "tool": "extract_sample_schematic_metrics",
+        "unassigned_symbol_count": 0
+      },
+      "source_kind": "normalized"
+    },
+    {
+      "kicad_file_summary": {
+        "kicad_pcb": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/attiny85.kicad_pcb"
+        ],
+        "kicad_pcb_count": 1,
+        "kicad_pro": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/attiny85.kicad_pro"
+        ],
+        "kicad_pro_count": 1,
+        "kicad_sch": [
+          "32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/tomasr8_attiny85_dev_board/attiny85.kicad_sch"
+        ],
+        "kicad_sch_count": 1
+      },
+      "pcb_error": "",
+      "pcb_metrics": {
+        "generated_at": "2026-05-10T16:13:03.968999+00:00",
+        "metrics": {
+          "board_size_mm": {
+            "height_mm": 16.6,
+            "width_mm": 44.6
+          },
+          "component_clustering": {
+            "connectors": 2,
+            "leds": 4,
+            "logic_or_modules": 2,
+            "other": 6
+          },
+          "connector_edge_placement": {
+            "connector_count": 2,
+            "details": [
+              {
+                "distance_to_edge_mm": 2.537,
+                "edge_aligned": false,
+                "footprint_name": "MOLEX_48037-0001",
+                "reference": "J1",
+                "value": "USB_A"
+              },
+              {
+                "distance_to_edge_mm": 2.61,
+                "edge_aligned": false,
+                "footprint_name": "PinSocket_2x05_P2.54mm_Vertical",
+                "reference": "J2",
+                "value": "Conn_02x05_Odd_Even"
+              }
+            ],
+            "edge_aligned_count": 0
+          },
+          "drc_result": {
+            "message": "DRC was not requested.",
+            "status": "NOT_RUN",
+            "unconnected_items": null,
+            "violations": null
+          },
+          "footprint_count": 14,
+          "mounting_hole_count": 0,
+          "power_layout_quality": {
+            "finding_count": 0,
+            "status": "PASS"
+          },
+          "routing_angle_patterns": {
+            "RIGHT_ANGLE_FOUND": 4,
+            "UNNECESSARY_ZIGZAG_FOUND": 8
+          },
+          "routing_status": {
+            "all_critical_planned": true,
+            "drc_risk": "NOT_EXTRACTED",
+            "notes": "Real-board routing extraction completed in read-only mode.",
+            "phase": "REAL_BOARD_EXTRACTED",
+            "ratsnest_status": "CONNECTED",
+            "unconnected_count": 0
+          },
+          "usb_routing_quality": {
+            "finding_count": 0,
+            "status": "PASS"
+          },
+          "via_count": 0,
+          "zone_usage": {
+            "gnd_zone_count": 0,
+            "ground_strategy": "NOT_EXTRACTED",
+            "zone_count": 0
+          }
+        },
+        "pcb_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_pcb",
+        "read_only_mode": true,
+        "sample_id": "tomasr8_attiny85_dev_board",
+        "schema_version": "1.0",
+        "status": "METRICS_EXTRACTED",
+        "tool": "extract_sample_pcb_metrics"
+      },
+      "sample_id": "tomasr8_attiny85_dev_board",
+      "sample_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board",
+      "schematic_error": "",
+      "schematic_metrics": {
+        "block_summary": [
+          {
+            "block_id": "input_power_protection",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "Input Power / Protection"
+          },
+          {
+            "block_id": "buck_regulator",
+            "heading_text": "",
+            "symbol_count": 1,
+            "title": "Buck Regulator"
+          },
+          {
+            "block_id": "esp32_module",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "ESP32 Module"
+          },
+          {
+            "block_id": "usb_c_data",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "USB-C / ESD / CC / Data"
+          },
+          {
+            "block_id": "reset_boot",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "Reset / Boot"
+          },
+          {
+            "block_id": "leds",
+            "heading_text": "",
+            "symbol_count": 2,
+            "title": "LEDs"
+          },
+          {
+            "block_id": "test_debug",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "Test Pads / Debug"
+          },
+          {
+            "block_id": "mechanical_notes",
+            "heading_text": "",
+            "symbol_count": 0,
+            "title": "Mounting / Mechanical Notes"
+          }
+        ],
+        "generated_at": "2026-05-10T16:13:03.920383+00:00",
+        "metrics": {
+          "annotation_completeness": {
+            "duplicate_reference_count": 0,
+            "duplicate_references": [],
+            "status": "PASS",
+            "unresolved_reference_count": 0
+          },
+          "block_titles": [],
+          "erc_result": {
+            "message": "ERC was not requested for this metrics extraction.",
+            "status": "NOT_RUN"
+          },
+          "footprint_completeness": {
+            "missing_footprint_count": 0,
+            "missing_footprint_references": [],
+            "status": "PASS"
+          },
+          "label_count": 10,
+          "physical_symbol_count": 13,
+          "sheet_count": 1,
+          "symbol_count": 15,
+          "visual_overlap_estimate": {
+            "overlap_count": 41,
+            "overlapping_items": [
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "PB1",
+                "wire_hits": 0
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "GND",
+                "wire_hits": 1
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "GND",
+                "wire_hits": 1
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "PB0",
+                "wire_hits": 0
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "PB2",
+                "wire_hits": 0
+              },
+              {
+                "kind": "label",
+                "owner_reference": "",
+                "symbol_hits": [],
+                "text": "5V",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "R2",
+                "symbol_hits": [
+                  "U1"
+                ],
+                "text": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+                "wire_hits": 3
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R2",
+                "symbol_hits": [
+                  "R2"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "D1",
+                "symbol_hits": [
+                  "D1",
+                  "D2"
+                ],
+                "text": "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "D1",
+                "symbol_hits": [
+                  "D1"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Reference",
+                "owner_reference": "U1",
+                "symbol_hits": [
+                  "U1"
+                ],
+                "text": "U1",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Value",
+                "owner_reference": "U1",
+                "symbol_hits": [
+                  "U1"
+                ],
+                "text": "ATtiny85-20P",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "U1",
+                "symbol_hits": [
+                  "U1"
+                ],
+                "text": "Package_DIP:DIP-8_W7.62mm_Socket",
+                "wire_hits": 4
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "U1",
+                "symbol_hits": [
+                  "U1",
+                  "J2"
+                ],
+                "text": "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf",
+                "wire_hits": 8
+              },
+              {
+                "kind": "property:Reference",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "J2",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Value",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "Conn_02x05_Odd_Even",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "J2",
+                "symbol_hits": [
+                  "J2"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "R4",
+                "symbol_hits": [
+                  "U1"
+                ],
+                "text": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+                "wire_hits": 4
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R4",
+                "symbol_hits": [
+                  "R4"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "#FLG0101",
+                "symbol_hits": [
+                  "#FLG0101"
+                ],
+                "text": "~",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Reference",
+                "owner_reference": "D2",
+                "symbol_hits": [],
+                "text": "D2",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "D2",
+                "symbol_hits": [
+                  "U1",
+                  "D2"
+                ],
+                "text": "Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "D2",
+                "symbol_hits": [
+                  "D2"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "D4",
+                "symbol_hits": [
+                  "D4"
+                ],
+                "text": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+                "wire_hits": 2
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "D4",
+                "symbol_hits": [
+                  "D4"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "U1"
+                ],
+                "text": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+                "wire_hits": 6
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R3",
+                "symbol_hits": [
+                  "R3"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Reference",
+                "owner_reference": "U2",
+                "symbol_hits": [
+                  "U2"
+                ],
+                "text": "U2",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Value",
+                "owner_reference": "U2",
+                "symbol_hits": [
+                  "U2"
+                ],
+                "text": "AMS1117-3.3",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "U2",
+                "symbol_hits": [
+                  "U2"
+                ],
+                "text": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R5",
+                "symbol_hits": [
+                  "R5"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "#FLG0102",
+                "symbol_hits": [
+                  "#FLG0102"
+                ],
+                "text": "~",
+                "wire_hits": 1
+              },
+              {
+                "kind": "property:Value",
+                "owner_reference": "J1",
+                "symbol_hits": [
+                  "J1"
+                ],
+                "text": "USB_A",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "J1",
+                "symbol_hits": [
+                  "J1"
+                ],
+                "text": "My footprints:MOLEX_48037-0001",
+                "wire_hits": 2
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "J1",
+                "symbol_hits": [
+                  "J1"
+                ],
+                "text": " ~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Value",
+                "owner_reference": "R1",
+                "symbol_hits": [
+                  "R1"
+                ],
+                "text": "1K5",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "R1",
+                "symbol_hits": [
+                  "R3"
+                ],
+                "text": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal",
+                "wire_hits": 3
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "R1",
+                "symbol_hits": [
+                  "R1"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              },
+              {
+                "kind": "property:Footprint",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+                "wire_hits": 2
+              },
+              {
+                "kind": "property:Datasheet",
+                "owner_reference": "D3",
+                "symbol_hits": [
+                  "D3"
+                ],
+                "text": "~",
+                "wire_hits": 0
+              }
+            ],
+            "status": "FAIL"
+          },
+          "wire_count": 83,
+          "wire_to_label_ratio": 8.3
+        },
+        "read_only_mode": true,
+        "sample_id": "tomasr8_attiny85_dev_board",
+        "schema_version": "1.0",
+        "schematic_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\32_OPEN_KICAD_SAMPLE_INTAKE\\normalized_samples\\tomasr8_attiny85_dev_board\\attiny85.kicad_sch",
+        "status": "METRICS_EXTRACTED",
+        "tool": "extract_sample_schematic_metrics",
+        "unassigned_symbol_count": 10
+      },
+      "source_kind": "normalized"
+    }
+  ],
+  "schema_version": "1.0",
+  "status": "REFERENCE_STYLE_INDEX_DRY_RUN",
+  "tool": "build_reference_style_index"
+}

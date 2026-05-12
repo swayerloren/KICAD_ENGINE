@@ -12,6 +12,7 @@ Available now:
 - capture screenshots when run with `--capture` and the `windows_gui` Python environment
 - provide manual fallback instructions for native annotation, GUI save, and GUI ERC
 - run a gated live native annotation/save/GUI ERC workflow when the exact Eeschema target is detected and the task explicitly approves it
+- run a gated full workflow that also captures before/after screenshots, creates a backup before live save, runs post-save `kicad-cli` ERC, and scans the saved schematic for unresolved `?` and duplicate references
 - dry-run-first helpers to open the exact `.kicad_pro`, open/focus Eeschema, verify the `.kicad_sch`, and then hand off to native annotation
 
 Verified live control:
@@ -45,6 +46,18 @@ Dry-run native annotation from closed state:
 ```
 
 Live mode requires explicit `--live`; native annotation also requires `--allow-annotation`; saving requires `--allow-save`.
+
+Exact future live workflow:
+
+```powershell
+.\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\run_native_annotation_workflow.py `
+  --project "C:\path\project.kicad_pro" `
+  --schematic "C:\path\project.kicad_sch" `
+  --live `
+  --allow-annotation `
+  --allow-save `
+  --allow-gui-erc
+```
 
 ## Recommended Python Environment
 

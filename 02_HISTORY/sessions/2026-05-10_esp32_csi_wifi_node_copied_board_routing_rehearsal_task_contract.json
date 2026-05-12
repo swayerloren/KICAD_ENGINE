@@ -1,0 +1,34 @@
+{
+  "task_type": "ROUTING_EDIT_REQUIRED",
+  "task_summary": "Run copied-board-only routing rehearsal on ESP32_CSI_WIFI_NODE and validate the best candidate with the enforceable PCB quality gate.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+  "target_pcb": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\routing_rehearsals\\20260510_143529\\candidate_C_targeted_local_repair\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "changed_files": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\routing_rehearsals\\20260510_143529\\candidate_C_targeted_local_repair\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\routing_rehearsals\\20260510_143529\\candidate_C_targeted_local_repair\\reports\\TRACE_CHANGE_LOG.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\COPIED_BOARD_ROUTING_REHEARSAL_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\COPIED_BOARD_ROUTING_CANDIDATE_COMPARISON.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\COPIED_BOARD_PCB_QUALITY_GATE_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\COPIED_BOARD_ROUTING_REHEARSAL_REVIEW.md"
+  ],
+  "declared_final_status": "ENGINEERING_ARTIFACT_CHANGE_PROVEN",
+  "notes": "Copied-board-only routing rehearsal. Real project PCB remained unchanged.",
+  "evidence": {
+    "backup_created": true,
+    "backup_path": "99_BACKUPS\\pre_codex_edits\\20260510_143529_ESP32_CSI_WIFI_NODE_copied_board_routing_rehearsal",
+    "pcb_hash_before": "ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1",
+    "pcb_hash_after": "E28138F7DA31D4D2BEE01EAE9C8038302E388B7B5039FB43907BB3C528BFA25F",
+    "drc_run": true,
+    "drc_report_path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\routing_rehearsals\\20260510_143529\\candidate_C_targeted_local_repair\\reports\\pcb_quality_gate\\PCB_QUALITY_GATE_REPORT.md",
+    "visual_export_attempted": true,
+    "visual_paths": [
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\copied_board_routing_rehearsal_best_top.png",
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\copied_board_routing_rehearsal_best_bottom.png"
+    ],
+    "unconnected_before": 13,
+    "unconnected_after": 4,
+    "unrouted_before": 3,
+    "unrouted_after": 0,
+    "trace_change_log_updated": true
+  }
+}

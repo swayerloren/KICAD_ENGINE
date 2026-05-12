@@ -24,6 +24,14 @@ Define when KiCad Engine agents must run, request, or explicitly defer ERC and D
 
 An agent must not claim ERC or DRC passed unless it has actual command output or report evidence from `kicad-cli`, KiCad, KiBot, or another documented verification workflow.
 
+Board-aware scripts must use a KiCad-compatible Python context when `pcbnew`
+object access is required. Normal repo Python is not proof that `pcbnew` is
+available.
+
+Saved-file parsing and third-party extraction are allowed for audit and
+triage, but native KiCad validation remains stronger evidence than parser-only
+results.
+
 Acceptable statuses:
 
 - `ERC_RUN_PASS`
@@ -45,3 +53,10 @@ If manufacturing-style outputs are involved, also mark:
 
 `NOT_FINAL`
 
+## KiCad-Specific Interpretation
+
+- prefer `kicad-cli sch erc` for saved-file ERC evidence
+- prefer `kicad-cli pcb drc --schematic-parity --severity-all --format report`
+  when parity-aware PCB gate evidence is required
+- use native KiCad GUI workflows for annotation and disputed live GUI state
+  because CLI alone cannot prove those states

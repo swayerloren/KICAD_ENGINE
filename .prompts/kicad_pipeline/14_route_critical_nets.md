@@ -27,6 +27,8 @@ Task: route only critical nets first. Do not route all remaining low-risk nets.
 - Routing plan is `ROUTING_PLAN_READY`.
 - Placement and zone setup pass.
 - Backup is created.
+- Connector-orientation audit is `PASS`.
+- ESP32 antenna-orientation audit is `PASS` when applicable.
 
 ## Do
 

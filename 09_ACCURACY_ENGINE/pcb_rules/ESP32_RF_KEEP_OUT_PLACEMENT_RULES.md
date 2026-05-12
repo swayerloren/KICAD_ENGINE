@@ -4,6 +4,8 @@ Status: `MANDATORY_FOR_ESP32_MODULE_LAYOUT`
 
 These rules apply to ESP32 module boards, especially WROOM, WROVER, MINI, and U.FL/pigtail variants.
 
+Use `08_COMPONENT_DATABASE/mechanical_orientation/esp32_module_antenna_orientation_rules.md` as the orientation truth reference for antenna-facing checks.
+
 ## Placement Rule
 
 For ESP32 module boards, place the module near the top edge with the antenna/U.FL/RF keepout facing the top edge unless there is a documented reason not to.

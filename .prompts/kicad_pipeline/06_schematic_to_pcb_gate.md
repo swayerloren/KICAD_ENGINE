@@ -23,11 +23,15 @@ Task: evaluate the schematic-to-PCB gate. Do not update PCB.
 9. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
 10. `33_KICAD_GUI_AUTOMATION/KICAD_NATIVE_ANNOTATION_WORKFLOW.md`
 11. `33_KICAD_GUI_AUTOMATION/KICAD_NATIVE_ANNOTATION_SUCCESS_RECORD.md`
+12. `34_SCHEMATIC_QUALITY_ENGINE/README.md`
+13. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_TO_PCB_READY_GATE.md`
+14. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_VISUAL_AUDIT_RULES.md`
+15. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_FOOTPRINT_GATE.md`
 12. All prior project reports from prompts 01 through 05.
 
 ## Do
 
-1. Verify annotation/completeness, ERC, visual close-ups, human-readable rendered-image inspection, electrical audit, BOM lock, footprint/package audit, connector orientation, polarity review, and high-risk `NEEDS_REVIEW` closure.
+1. Verify annotation/completeness, ERC, visual close-ups, human-readable rendered-image inspection, electrical audit, BOM lock, footprint/package audit, connector orientation, polarity review, high-risk `NEEDS_REVIEW` closure, and the schematic quality gate.
 2. Create or update `reports/SCHEMATIC_TO_PCB_GATE_STATUS.md`.
 3. Gate result must be exactly `PASS` before PCB update, placement, routing, zones, or fab export can proceed.
 
@@ -47,6 +51,12 @@ Passing annotation only allows a separate visual cleanup task. It does not autho
 ## Mandatory Visual Gate Rule
 
 Do not pass this gate from `AUTOMATED_CROP_PASS_ONLY`, `CLOSE_UP_REVIEW.md` existence, ERC pass, annotation pass, footprint field population, or no `?` references. The visual row must be `VISUAL_PASS` with rendered full-page and crop evidence inspected block by block.
+
+## Mandatory Schematic Quality Rule
+
+Do not pass this gate if `03_TOOLS/scripts/schematic_quality/run_schematic_quality_gate.py`
+reports failing readability, block-layout, text-overlap, wire-vs-label, native
+annotation, footprint, ERC, or human-visual evidence.
 
 ## Required Result
 

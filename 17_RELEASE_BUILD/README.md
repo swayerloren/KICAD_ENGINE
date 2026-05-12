@@ -36,6 +36,8 @@ Stage release-build plans, manifests, checklists, and artifact review records.
 - Do not publish releases automatically.
 - Do not label artifacts final without verification evidence.
 - Keep generated manufacturing-style outputs `NOT_FINAL`.
+- Do not place copied IPC/UL/paid-standards text into public release payloads
+  unless redistribution rights are explicitly documented.
 
 ## SAFE_EDIT_RULES
 

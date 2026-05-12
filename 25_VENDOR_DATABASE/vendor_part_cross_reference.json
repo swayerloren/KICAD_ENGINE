@@ -1,0 +1,44 @@
+{
+  "generated_on": "2026-05-11",
+  "status": "LINK_FIRST_VENDOR_CROSS_REFERENCE",
+  "vendors": [
+    {
+      "vendor_id": "jlcpcb",
+      "display_name": "JLCPCB",
+      "source_registry_ids": [
+        "url_004550"
+      ],
+      "evidence_status": "SOURCE_LINK_ONLY",
+      "footprint_proof": false
+    },
+    {
+      "vendor_id": "lcsc",
+      "display_name": "LCSC",
+      "source_registry_ids": [
+        "url_007040",
+        "url_007041"
+      ],
+      "evidence_status": "SOURCE_LINK_ONLY",
+      "footprint_proof": false
+    },
+    {
+      "vendor_id": "mouser",
+      "display_name": "Mouser",
+      "source_registry_ids": [
+        "url_007972",
+        "url_007973",
+        "url_007974",
+        "url_007975"
+      ],
+      "evidence_status": "SOURCE_LINK_ONLY",
+      "footprint_proof": false
+    },
+    {
+      "vendor_id": "digikey",
+      "display_name": "Digi-Key",
+      "source_registry_ids": [],
+      "evidence_status": "NO_DIRECT_MIGRATED_SOURCE_IN_THIS_PHASE",
+      "footprint_proof": false
+    }
+  ]
+}

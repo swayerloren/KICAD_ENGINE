@@ -26,3 +26,8 @@ Use a new revision folder for every export attempt. If an export is regenerated 
 
 All files remain `NOT_FINAL` until LJ approves upload.
 
+## Additional Rule
+
+Revision folders are for review and traceability. Their existence is not proof
+that the contained package passed final DRC, parity, orientation, polarity, or
+assembly review.

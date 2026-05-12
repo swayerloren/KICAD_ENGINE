@@ -28,3 +28,7 @@ Block export/package readiness if any of these are missing or failed:
 
 Agents must not call files `production-ready`, `fab-ready`, or `upload-ready` unless the full export gate passes and LJ approves.
 
+## Standards / Compliance Note
+
+Do not include copied IPC, UL, or other restricted standards text in export
+review packages unless redistribution rights are explicitly documented.

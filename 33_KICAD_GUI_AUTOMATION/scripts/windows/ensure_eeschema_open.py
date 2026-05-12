@@ -1,120 +1,110 @@
-#!/usr/bin/env python
-"""Ensure Eeschema is open for the target schematic, dry-run by default."""
+#!/usr/bin/env python3
+"""Ensure Eeschema is open for the exact target schematic, dry-run by default."""
 
 from __future__ import annotations
 
 import argparse
 import json
-import subprocess
-from datetime import datetime
 from pathlib import Path
 
-
-def run_json(args: list[str]):
-    completed = subprocess.run(args, text=True, capture_output=True, check=False)
-    output = completed.stdout.strip()
-    data = json.loads(output) if output else {}
-    return completed.returncode, data, completed.stderr.strip()
-
-
-def ps_detect(expected_schematic: Path):
-    script = Path(__file__).with_name("detect_eeschema_window.ps1")
-    completed = subprocess.run(
-        ["powershell", "-NoProfile", "-Command", f"& '{script}' -ExpectedSchematicPath '{expected_schematic}' -Json"],
-        text=True,
-        capture_output=True,
-        check=False,
-    )
-    if completed.returncode != 0:
-        raise RuntimeError(completed.stderr.strip() or completed.stdout.strip())
-    text = completed.stdout.strip()
-    if not text:
-        return []
-    data = json.loads(text)
-    return data if isinstance(data, list) else [data]
+from gui_workflow_common import default_python, detect_window_state, now_iso, run_json_command
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--project", required=True)
     parser.add_argument("--schematic", required=True)
-    parser.add_argument("--live", action="store_true", help="Open KiCad/project/schematic if needed. Default is DRY_RUN.")
-    parser.add_argument("--python", default=None, help="Python executable for child scripts.")
+    parser.add_argument("--live", action="store_true", help="Actually open KiCad/project/schematic if needed. Default is dry-run.")
+    parser.add_argument("--allow-unsaved-existing", action="store_true", help="Allow a matching target Eeschema window that is already dirty with '*'.")
+    parser.add_argument("--python", default=default_python(), help="Python executable for child GUI scripts.")
     args = parser.parse_args()
 
     project = Path(args.project).resolve()
     schematic = Path(args.schematic).resolve()
-    python_exe = args.python or "python"
+    window_state = detect_window_state(schematic) if schematic.exists() else {"state": "MISSING_SCHEMATIC", "windows": []}
+
     result = {
-        "checked_at": datetime.now().isoformat(timespec="seconds"),
+        "checked_at": now_iso(),
         "mode": "LIVE" if args.live else "DRY_RUN",
         "project": str(project),
         "schematic": str(schematic),
+        "python": args.python,
+        "window_state": window_state.get("state"),
+        "windows": window_state.get("windows", []),
         "status": "UNKNOWN",
         "blockers": [],
         "actions": [],
-        "initial_eeschema_windows": [],
         "open_project_result": None,
         "open_schematic_result": None,
-        "final_eeschema_windows": [],
+        "final_window_state": None,
+        "final_windows": [],
         "did_edit_kicad_files": False,
     }
 
     if not project.exists() or project.suffix != ".kicad_pro":
-        result["blockers"].append("Project path missing or not .kicad_pro.")
+        result["blockers"].append("Project path is missing or is not a .kicad_pro file.")
     if not schematic.exists() or schematic.suffix != ".kicad_sch":
-        result["blockers"].append("Schematic path missing or not .kicad_sch.")
+        result["blockers"].append("Schematic path is missing or is not a .kicad_sch file.")
 
-    if schematic.exists():
-        windows = ps_detect(schematic)
-        result["initial_eeschema_windows"] = windows
-        if any(w.get("path_match") and not w.get("unsaved_gui_state") for w in windows):
-            result["status"] = "EESCHEMA_READY_FOR_TARGET"
+    state = str(window_state.get("state"))
+    if state == "PATH_MATCH_CLEAN_TITLE":
+        result["status"] = "EESCHEMA_READY_FOR_TARGET"
+        result["actions"].append("Exact target Eeschema window is already open and clean.")
+        print(json.dumps(result, indent=2))
+        return 0
+    if state == "UNSAVED_GUI_STATE":
+        if args.allow_unsaved_existing:
+            result["status"] = "EESCHEMA_READY_FOR_TARGET_UNSAVED_ALLOWED"
+            result["actions"].append("Exact target Eeschema window is already open with '*' and was explicitly allowed.")
             print(json.dumps(result, indent=2))
             return 0
-        if any(w.get("path_match") and w.get("unsaved_gui_state") for w in windows):
-            result["status"] = "BLOCKED_UNSAVED_TARGET_EESCHEMA"
-            result["blockers"].append("Target Eeschema is open but has unsaved '*' state.")
-            print(json.dumps(result, indent=2))
-            return 2
-        if windows:
-            result["status"] = "BLOCKED_DIFFERENT_EESCHEMA_OPEN"
-            result["blockers"].append("An Eeschema window is open for a different project/schematic.")
-            print(json.dumps(result, indent=2))
-            return 2
+        result["blockers"].append("Exact target Eeschema window is open but has unsaved '*' state.")
+    elif state == "PATH_MISMATCH":
+        result["blockers"].append("An Eeschema window is open for a different project; stop.")
+    elif state == "MULTIPLE_EESCHEMA_WINDOWS":
+        result["blockers"].append("Multiple Eeschema windows are open; target is ambiguous.")
+
+    if not args.live:
+        result["status"] = "DRY_RUN_READY_TO_OPEN_PROJECT_AND_EESCHEMA" if not result["blockers"] else "DRY_RUN_BLOCKED"
+        result["actions"].append("Would launch the exact .kicad_pro, then open or focus the schematic editor, then verify the exact .kicad_sch path.")
+        print(json.dumps(result, indent=2))
+        return 0 if not result["blockers"] else 2
 
     if result["blockers"]:
         result["status"] = "BLOCKED_PRECHECK_FAILED"
         print(json.dumps(result, indent=2))
         return 2
 
-    if not args.live:
-        result["status"] = "DRY_RUN_READY_TO_OPEN_PROJECT_AND_EESCHEMA"
-        result["actions"].append("Would launch target .kicad_pro, then open/focus schematic editor, then verify path.")
-        print(json.dumps(result, indent=2))
-        return 0
-
     open_project = Path(__file__).with_name("open_kicad_project.py")
-    code, data, err = run_json([python_exe, str(open_project), "--project", str(project), "--schematic", str(schematic), "--live"])
-    result["open_project_result"] = data or {"stderr": err, "exit_code": code}
+    code, data, stdout, stderr = run_json_command(
+        [args.python, str(open_project), "--project", str(project), "--schematic", str(schematic), "--live"]
+    )
+    result["open_project_result"] = data or {"stdout": stdout, "stderr": stderr, "exit_code": code}
     if code != 0:
         result["status"] = "BLOCKED_OPEN_PROJECT_FAILED"
         print(json.dumps(result, indent=2))
         return 2
 
     open_schematic = Path(__file__).with_name("open_schematic_editor_gui.py")
-    code, data, err = run_json([python_exe, str(open_schematic), "--project", str(project), "--schematic", str(schematic), "--live"])
-    result["open_schematic_result"] = data or {"stderr": err, "exit_code": code}
-    result["final_eeschema_windows"] = ps_detect(schematic)
-    if code == 0 and any(w.get("path_match") and not w.get("unsaved_gui_state") for w in result["final_eeschema_windows"]):
+    code, data, stdout, stderr = run_json_command(
+        [args.python, str(open_schematic), "--project", str(project), "--schematic", str(schematic), "--live"]
+    )
+    result["open_schematic_result"] = data or {"stdout": stdout, "stderr": stderr, "exit_code": code}
+    final_state = detect_window_state(schematic)
+    result["final_window_state"] = final_state.get("state")
+    result["final_windows"] = final_state.get("windows", [])
+    if code == 0 and final_state.get("state") == "PATH_MATCH_CLEAN_TITLE":
         result["status"] = "EESCHEMA_READY_FOR_TARGET"
         print(json.dumps(result, indent=2))
         return 0
     result["status"] = "BLOCKED_EESCHEMA_NOT_READY"
+    if final_state.get("state") == "UNSAVED_GUI_STATE" and args.allow_unsaved_existing:
+        result["status"] = "EESCHEMA_READY_FOR_TARGET_UNSAVED_ALLOWED"
+        print(json.dumps(result, indent=2))
+        return 0
     print(json.dumps(result, indent=2))
     return 2
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -38,6 +38,8 @@ If the result is `BLOCKED`, stop and report the missing earlier phase. Do not pr
 16. `09_ACCURACY_ENGINE/pcb_rules/POLARITY_ORIENTATION_RULES.md`
 17. `11_LIBRARY_FACTORY/footprints/FOOTPRINT_QA_CHECKLIST.md`
 18. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
+19. `08_COMPONENT_DATABASE/mechanical_orientation/README.md`
+20. `08_COMPONENT_DATABASE/mechanical_orientation/connector_orientation_truth.json`
 
 ## Do
 
@@ -59,14 +61,15 @@ The placement audit must explicitly answer:
 6. For any barrel jack, does the female opening/front face off-board and does the 3-pin solder/backside face inward?
 7. For bottom-edge J1, does the female opening face down/off-board and the 3-pin solder side face up/inward?
 8. Are connector orientations proven by footprint geometry and 3D screenshot evidence where available, not coordinates alone?
-9. Are test pads in clean rows and clear of USB-C, connector shells, and component clusters?
-10. Are reset/boot buttons accessible?
-11. Are LEDs visible and not buried in dense placement?
-12. Are mounting holes outside RF keepouts and connector mechanical areas?
-13. Is four-hole mounting proven practical on narrow boards?
-14. Are all component/courtyard/text/pad overlaps repaired?
-15. Is the ESP32 RF keepout at the board edge and clear?
-16. Has LJ visually approved placement before routing?
+9. Does any required connector still remain `NEEDS_HUMAN_REVIEW` because the 3D model is missing or unresolved?
+10. Are test pads in clean rows and clear of USB-C, connector shells, and component clusters?
+11. Are reset/boot buttons accessible?
+12. Are LEDs visible and not buried in dense placement?
+13. Are mounting holes outside RF keepouts and connector mechanical areas?
+14. Is four-hole mounting proven practical on narrow boards?
+15. Are all component/courtyard/text/pad overlaps repaired?
+16. Is the ESP32 RF keepout at the board edge and clear?
+17. Has LJ visually approved placement before routing?
 
 If any answer is `NO`, do not classify placement as routing-ready.
 
@@ -86,6 +89,6 @@ For pill-style/dev-board placement audits, use one:
 
 Routing remains blocked unless the audit says `PLACEMENT_READY_FOR_LJ_REVIEW` and LJ approves.
 
-Connector-orientation warning: barrel jack female opening/front must face off-board and the 3-pin solder/backside must face inward. USB-C receptacle mouth must face off-board and the footprint `PCB Edge` line must align with the board edge. Do not route until connector orientation is visually/proof-audited.
+Connector-orientation warning: barrel jack female opening/front must face off-board and the 3-pin solder/backside must face inward. USB-C receptacle mouth must face off-board and the footprint `PCB Edge` line must align with the board edge. Do not route until connector orientation is visually/proof-audited, and treat missing 3D-model proof as `NEEDS_HUMAN_REVIEW`.
 
 AI quality closeout is required.

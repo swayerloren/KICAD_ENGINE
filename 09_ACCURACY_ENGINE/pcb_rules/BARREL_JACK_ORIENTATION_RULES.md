@@ -6,6 +6,8 @@ Generated: `2026-05-07`
 
 These rules prevent confusion between the physical mating side of a horizontal DC barrel jack and the rear solder-leg side.
 
+The machine-readable truth source for audits is `08_COMPONENT_DATABASE/mechanical_orientation/connector_orientation_truth.json`.
+
 ## Physical Front/Back Rule
 
 For CUI/PJ-102AH-style and similar horizontal DC barrel jacks:
@@ -42,6 +44,8 @@ If 2D footprint geometry is clear but the exact 3D model is missing, classify th
 
 `3D_PROOF_MISSING`
 
+For routing-gate purposes, `3D_PROOF_MISSING` means the connector remains `NEEDS_HUMAN_REVIEW`.
+
 ## Compact Dev-Board Rule
 
 Barrel jacks are often too bulky for pill-style dev boards. If the barrel jack forces excessive board size, service-access problems, connector conflicts, or dead area, mark:
@@ -49,4 +53,3 @@ Barrel jacks are often too bulky for pill-style dev boards. If the barrel jack f
 `BARREL_JACK_NOT_PILL_BOARD_FRIENDLY`
 
 Then recommend a smaller verified power input connector or require LJ mechanical approval.
-

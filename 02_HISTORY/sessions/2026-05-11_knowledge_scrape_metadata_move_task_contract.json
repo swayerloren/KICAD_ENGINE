@@ -1,0 +1,37 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Move knowledge_scrape metadata, manifests, source-registry files, raw inventory, scrape logs, and source logs into canonical repo locations, then normalize the canonical source registry and retrieval indexes.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [
+    "03_TOOLS\\scripts\\knowledge_migration\\knowledge_migration_config.json",
+    "10_KNOWLEDGE_BASE\\source_registry\\SOURCE_REGISTRY.csv",
+    "10_KNOWLEDGE_BASE\\source_registry\\SOURCE_REGISTRY.json",
+    "10_KNOWLEDGE_BASE\\source_registry\\SOURCE_LICENSE_STATUS.md",
+    "10_KNOWLEDGE_BASE\\retrieval_indexes\\MASTER_KNOWLEDGE_INDEX.md",
+    "10_KNOWLEDGE_BASE\\retrieval_indexes\\KNOWLEDGE_SOURCE_INDEX.md",
+    "02_HISTORY\\knowledge_scrape_migration\\METADATA_MIGRATION_RECORD.md",
+    "02_HISTORY\\knowledge_scrape_migration\\original_metadata\\URL_INDEX.csv",
+    "02_HISTORY\\knowledge_scrape_migration\\source_logs\\ingest_v2_import\\root_registry\\URL_INDEX.csv",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_LEDGER.csv",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_DESTINATION_MAP.md",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_STATUS.md",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_METADATA_MOVE_REPORT.md",
+    "02_HISTORY\\sessions\\KNOWLEDGE_SCRAPE_METADATA_MOVE_SESSION.md",
+    "02_HISTORY\\command_logs\\KNOWLEDGE_SCRAPE_METADATA_MOVE_COMMANDS.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "01_MEMORY\\DESIGN_RULES_MEMORY.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Metadata/source-registry/history migration only. No KiCad design files were edited.",
+  "evidence": {
+    "backup_created": false,
+    "backup_path": "N/A",
+    "pcb_hash_before": "N/A",
+    "pcb_hash_after": "N/A",
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

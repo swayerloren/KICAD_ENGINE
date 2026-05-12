@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SchematicQualityResult",
+  "type": "object",
+  "required": [
+    "generated_at",
+    "project",
+    "schematic",
+    "gate_status",
+    "readability_status",
+    "native_annotation",
+    "erc",
+    "human_visual",
+    "audits",
+    "gate_findings",
+    "output_files"
+  ],
+  "properties": {
+    "generated_at": { "type": "string" },
+    "project": { "type": "string" },
+    "schematic": { "type": "string" },
+    "gate_status": { "type": "string" },
+    "readability_status": { "type": "string" },
+    "native_annotation": { "type": "object" },
+    "erc": { "type": "object" },
+    "human_visual": { "type": "object" },
+    "audits": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "gate_findings": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "output_files": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  }
+}

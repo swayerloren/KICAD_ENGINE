@@ -1,97 +1,91 @@
-# GitHub Push File Include Exclude Audit
+# GitHub Push File Include / Exclude Audit
 
-Status: `COMPLETED_FOR_PRIVATE_PUSH`
+Generated: `2026-05-12`
 
-Date: `2026-05-08`
+Status: `SAFE_STAGE_SCOPE_DEFINED`
 
-## Scope Decision
+## Branch / Remote
 
-The user requested the current KiCad Engine workspace be committed and pushed to a private GitHub repository. The working assumption for staging is:
+- branch: `main`
+- remote: `https://github.com/swayerloren/KICAD_ENGINE.git`
 
-- include the safe current workspace
-- exclude secrets, local configs, lock files, caches, backups, copied-board rehearsal copies, and raw import/source preservation folders
+## Hard Exclusions
 
-## Included By Default
+These must not be staged:
 
-- Root repo documentation and policy files
-- `00_CODEX_START/`
-- `01_MEMORY/`
-- `02_HISTORY/`
-- `03_TOOLS/` except ignored envs, third-party repo clones, caches, and logs
-- `04_KICAD_PROJECTS/` except ignored copied rehearsal and lock/temp artifacts
-- `05_OUTPUTS/release_readiness/`
-- `06_DATASHEETS/` link/metadata structure that is not excluded by current ignore rules
-- `07_REFERENCE_DESIGNS/` through `34_PCB_LAYOUT_SANDBOX/` except ignored paths and ignored artifact extensions
-- `.github/`, `.prompts/`, `.vscode/`, and safe `.codex/` prompt/docs files
-
-## Excluded By .gitignore
-
-Required credential/temp exclusions added or confirmed:
-
-- `.env`
-- `.env.*`
-- `*.key`
-- `*.token`
-- `secrets.*`
-- `api_keys.*`
-- `local_credentials.*`
-- `private_config.*`
-- `*.tmp`
-- `*.temp`
-- `*.log.tmp`
-- `*.lck`
-- `~*.lck`
-- `__pycache__/`
-- `*.pyc`
-- `node_modules/`
-- `.DS_Store`
-- `Thumbs.db`
-- `fp-info-cache`
-- `*.bak`
-- `*.old`
-
-Repo-local safe-publication exclusions added or confirmed:
-
+- `*.kicad_sch`
+- `*.kicad_pcb`
+- `*.kicad_pro`
+- `.sfdx/`
 - `99_BACKUPS/`
-- `04_KICAD_PROJECTS/active/*/routing_work/*/copied*/`
-- `04_KICAD_PROJECTS/active/*/routing_rehearsals/`
-- `14_LAYOUT_AUTOMATION/real_board_tests/sample_inputs/`
-- `32_OPEN_KICAD_SAMPLE_INTAKE/imported_originals/`
-- `.codex/config.toml`
-- `T_E_M_P/`
-- `03_TOOLS/repos/`
-- `03_TOOLS/windows/repos/`
-- `03_TOOLS/linux/repos/`
+- `knowledge_scrape/`
+- `node_modules/`
+- `.venv/`
+- `venv/`
+- `__pycache__/`
+- `installer/build/`
+- `installer/node_modules/`
 - `03_TOOLS/python_envs/`
 - `03_TOOLS/node_envs/`
-- `05_OUTPUTS/*` except the allowlisted release-readiness files
+- `03_TOOLS/repos/`
+- `21_LICENSE_ATTRIBUTION/license_risk_reviews/`
+- files over `50 MB`
 
-Existing ignored binary/manufacturing/document artifact extensions:
+## Explicit Safe Scope
 
-- `*.pdf`
-- `*.zip`
-- `*.7z`
-- `*.rar`
-- `*.gbr`
-- `*.drl`
-- `*.xln`
-- `*.step`
-- `*.stp`
+The safe push scope for this task is limited to non-design repo content such as:
 
-## Decision Notes
+- startup/router docs and indexes
+- memory/history docs and audit records
+- tooling scripts and script READMEs
+- release-readiness reports
+- knowledge-base and accuracy-engine docs
+- canonical source-registry/index files
+- non-design documentation and workflow files
 
-- `routing_work` is included in general because its markdown logs are part of the project history, but copied-board rehearsal directories under that tree are excluded.
-- `32_OPEN_KICAD_SAMPLE_INTAKE/imported_originals/` is excluded because it is raw preservation evidence, not safe first-push content.
-- `14_LAYOUT_AUTOMATION/real_board_tests/sample_inputs/` is excluded because it is copied-board sample input material, not core workspace logic.
-- `.codex/config.toml` is excluded as a local machine config file, while `.codex/prompts/` and docs remain included.
-- `T_E_M_P/` is excluded as a temp workspace folder.
+## Working-Tree Exclusions Applied
 
-## Pre-Stage Working Tree Snapshot
+Explicitly excluded from staging in this task:
 
-- Untracked entries before staging: `272`
-- Ignored entries before staging: `199`
-- Files staged into the initial commit: `8981`
+- all `04_KICAD_PROJECTS/` paths
+- the preexisting dirty schematic file
+- project reports, project memory, project verification assets, and project templates
+- quarantine/raw copied payload trees
+- `02_HISTORY/knowledge_scrape_migration/datasheet_extraction_logs/`
+- `*.body.txt`
+- `*.raw.txt`
+- post-push-only files:
+  `05_OUTPUTS/release_readiness/GITHUB_PUSH_REPORT.md`,
+  `02_HISTORY/sessions/GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_SESSION.md`,
+  `02_HISTORY/command_logs/GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_COMMANDS.md`
+- local environments and generated installers
 
-## Public Release Note
+## Final Safe Stage Set
 
-This audit is for a private GitHub push. It does not mean the repo is safe for public release as-is.
+- candidate selected files during first filtering pass: `695`
+- final staged files after direct staging cleanup: `1009`
+- staged raw extraction captures after cleanup: `0`
+- staged post-push placeholder/report files after cleanup: `0`
+
+Representative rejected reasons:
+
+- `EXCLUDE_PREFIX`: project paths, local envs, repos, quarantine, backups
+- `EXCLUDE_EXT`: KiCad design files and heavy binary extensions
+- `NOT_IN_SAFE_SCOPE`: root/workspace items outside the approved push scope
+
+## KiCad Design File Protection
+
+Required result for this task:
+
+- staged `.kicad_sch`: `0`
+- staged `.kicad_pcb`: `0`
+- staged `.kicad_pro`: `0`
+
+The preexisting dirty design file remains out of scope:
+
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_sch`
+
+## Conclusion
+
+The include/exclude rules are tight enough for a safe non-design push, provided
+the final staged set is checked again before commit.

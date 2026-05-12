@@ -46,6 +46,9 @@ Use `Unknown - requires source verification` when an exact value is not verified
 - `common_mistakes/`: recurring errors agents must watch for.
 - `manufacturing/`: fab and assembly package rules.
 - `ai_agent_guidance/`: anti-hallucination and human-review decision rules.
+- `training/`: confidence-scored training and lecture summaries.
+- `peer_review/`: forum and video usage policy plus observations.
+- `case_studies/`: good-board and bad-board pattern-extraction summaries.
 
 ## Agent Workflow
 
@@ -100,6 +103,9 @@ The reusable engineering knowledge base includes:
 - Review checklists under `checklists/`.
 - Manufacturing rules under `manufacturing/`.
 - AI-agent source and anti-hallucination guidance under `ai_agent_guidance/`.
+- Training guidance under `training/`.
+- Low-confidence forum and video policy under `peer_review/`.
+- Pattern-extraction summaries under `case_studies/`.
 
 All circuit patterns are `AI_GUIDANCE_ONLY`. They are not datasheet replacements and must not be used to approve schematics, footprints, BOMs, or fab outputs without the `09_ACCURACY_ENGINE` gate.
 

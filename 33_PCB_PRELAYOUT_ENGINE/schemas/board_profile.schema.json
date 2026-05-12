@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB Prelayout Board Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project",
+    "source_pcb",
+    "source_sha256",
+    "board_shape",
+    "board_width_mm",
+    "board_height_mm",
+    "outline_bbox",
+    "mounting_hole_count",
+    "rf_module_present",
+    "live_board_context"
+  ],
+  "properties": {
+    "project": { "type": "string", "minLength": 1 },
+    "source_pcb": { "type": "string", "minLength": 1 },
+    "source_sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+    "board_shape": { "type": "string", "minLength": 1 },
+    "board_width_mm": { "type": "number", "exclusiveMinimum": 0 },
+    "board_height_mm": { "type": "number", "exclusiveMinimum": 0 },
+    "outline_bbox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["xmin", "xmax", "ymin", "ymax"],
+      "properties": {
+        "xmin": { "type": "number" },
+        "xmax": { "type": "number" },
+        "ymin": { "type": "number" },
+        "ymax": { "type": "number" }
+      }
+    },
+    "mounting_hole_count": { "type": "integer", "minimum": 0 },
+    "rf_module_present": { "type": "boolean" },
+    "live_board_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "drc_result",
+        "violation_count",
+        "unconnected_count",
+        "detectable_unrouted_net_count"
+      ],
+      "properties": {
+        "drc_result": { "type": "string", "enum": ["PASS", "FAIL", "NOT_RUN"] },
+        "violation_count": { "type": "integer", "minimum": 0 },
+        "unconnected_count": { "type": "integer", "minimum": 0 },
+        "detectable_unrouted_net_count": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

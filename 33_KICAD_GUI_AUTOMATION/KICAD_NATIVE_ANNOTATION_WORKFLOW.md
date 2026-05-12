@@ -1,85 +1,121 @@
 # KiCad Native Annotation Workflow
 
+Status: `DRY_RUN_DEFAULT_LIVE_GATED`
+
 ## Purpose
 
-Use this workflow when schematic annotation must be proven in the KiCad GUI, not only in the saved `.kicad_sch` file.
+Use this workflow when annotation must be proven by KiCad's native GUI state,
+not by raw `.kicad_sch` text edits.
 
-Verified success model: `ESP32_CSI_WIFI_NODE` on `2026-05-06`. Evidence is recorded in `KICAD_NATIVE_ANNOTATION_SUCCESS_RECORD.md` and project reports under `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/`.
+Native KiCad GUI annotation is authoritative.
 
-## Mandatory Startup
+## Hard Rules
 
-1. Read `AGENTS.md`.
-2. Read `33_KICAD_GUI_AUTOMATION/KICAD_GUI_AUTOMATION_RULES.md`.
-3. Read `33_KICAD_GUI_AUTOMATION/KICAD_WINDOW_STATE_RULES.md`.
-4. Read the active project's current annotation/gate reports.
+1. Raw `.kicad_sch` text edits are not accepted as annotation proof.
+2. Default mode is dry-run only.
+3. Live GUI opening/control requires `--live`.
+4. Native annotation requires `--allow-annotation`.
+5. GUI save requires `--allow-save`.
+6. GUI ERC requires `--allow-gui-erc`.
+7. If Eeschema is open for a different project, stop.
+8. If the Eeschema title starts with `*`, stop unless the workflow was
+   explicitly allowed to preserve/save that dirty GUI state.
+9. Before any live annotation/save, create a backup.
+10. After annotation, save from KiCad GUI, run GUI ERC, run post-save
+    `kicad-cli` ERC, then scan the saved schematic for unresolved `?` and
+    duplicate references.
 
-## Safe Workflow
+## Required Inputs
 
-1. Detect Eeschema:
+- exact target `.kicad_pro`
+- exact target `.kicad_sch`
+- active project confirmation
+- backup path for live actions
+
+## Workflow
+
+1. Detect the current Eeschema state.
+2. If the exact target schematic is already open and clean, continue.
+3. If Eeschema is not open, use the auto-open workflow to dry-run or live-open
+   the exact target `.kicad_pro`, then open/focus the schematic editor.
+4. If Eeschema is open with a different project, stop.
+5. If the matching Eeschema window is dirty with `*`, stop unless explicitly
+   allowed.
+6. Capture a before screenshot.
+7. Run KiCad native `Tools -> Annotate Schematic...`.
+8. Save from KiCad GUI.
+9. Run GUI ERC when safely automatable.
+10. Capture an after screenshot.
+11. Run post-save `kicad-cli sch erc`.
+12. Scan the saved schematic for unresolved `?` references.
+13. Scan the saved schematic for duplicate references.
+
+## Dry-Run Command
 
 ```powershell
-.\33_KICAD_GUI_AUTOMATION\scripts\windows\detect_eeschema_window.ps1 -ExpectedSchematicPath "<active .kicad_sch>" -Json
+.\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\run_native_annotation_workflow.py `
+  --project "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_pro" `
+  --schematic "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_sch"
 ```
 
-2. Detect unsaved state:
+## Exact Future Live Command
 
 ```powershell
-.\33_KICAD_GUI_AUTOMATION\scripts\windows\detect_unsaved_kicad_state.ps1 -ExpectedSchematicPath "<active .kicad_sch>" -Json
+.\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\run_native_annotation_workflow.py `
+  --project "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_pro" `
+  --schematic "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_sch" `
+  --live `
+  --allow-annotation `
+  --allow-save `
+  --allow-gui-erc
 ```
 
-3. If no Eeschema window is open, use `KICAD_AUTO_OPEN_PROJECT_WORKFLOW.md` and `ensure_eeschema_open.py`. Auto-open must launch only the exact target `.kicad_pro`, open/focus the schematic editor, and verify the exact target `.kicad_sch` before annotation. If Eeschema is open with a different project, stop.
-4. If the title starts with `*`, stop and ask LJ whether the unsaved GUI state should be kept.
-5. Create or confirm backup.
-6. Capture before screenshot.
-7. Run KiCad native annotation only through verified GUI automation or manually:
-
-```text
-Tools -> Annotate Schematic... -> Re-annotate all symbols -> Confirm
-```
-
-8. Save only after LJ approval if the GUI state was dirty.
-9. Run ERC in the same GUI state, or have LJ run it manually if GUI automation is not verified.
-10. Capture after screenshot.
-11. Re-run saved-file parse and CLI ERC after saving.
-
-## Closed-State Workflow
-
-If Eeschema is closed and the task explicitly allows opening KiCad:
+If the already-open matching Eeschema window is dirty and LJ explicitly wants
+that GUI state preserved/saved, add:
 
 ```powershell
-.\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\run_native_annotation_workflow.py --project "<active .kicad_pro>" --schematic "<active .kicad_sch>" --live --allow-annotation --allow-save --allow-gui-erc
+--allow-unsaved-existing
 ```
 
-This command remains dry-run unless `--live` is present. Annotation remains blocked unless `--allow-annotation` is present. Save remains blocked unless `--allow-save` is present.
+## Pass Criteria
+
+The authoritative annotation gate passes only when all of the following exist:
+
+- exact open schematic path match
+- backup path
+- before screenshot
+- native annotation action evidence
+- schematic saved from KiCad GUI
+- after screenshot
+- GUI ERC 0 violations
+- post-save `kicad-cli` ERC pass
+- saved schematic scan with `0` unresolved `?` references
+- saved schematic scan with `0` duplicate references
+
+## Failure Criteria
+
+Fail if:
+
+- no Eeschema window is open and live open was not allowed
+- a wrong-project Eeschema window is open
+- the title starts with `*` and that state was not explicitly allowed
+- backup is missing for live actions
+- before or after screenshot capture fails
+- native annotation dialog/action fails
+- GUI save fails
+- GUI ERC fails
+- post-save `kicad-cli` ERC fails
+- unresolved `?` references remain
+- duplicate references remain
 
 ## Manual Fallback
 
-If automation is unsafe or not selector-verified, tell LJ:
+If GUI automation is unsafe, tell LJ exactly:
 
 ```text
 In KiCad: Tools -> Annotate Schematic -> Re-annotate all symbols -> Save -> Run ERC.
 Then confirm the GUI no longer shows question-mark references.
 ```
 
-## Pass Criteria
-
-The annotation gate can pass only when:
-
-- KiCad native `Annotate Schematic` was applied through verified GUI automation or LJ-confirmed manual action.
-- The schematic was saved from KiCad GUI.
-- GUI ERC shows 0 violations when safely automatable.
-- `kicad-cli` ERC passes after GUI save.
-- Saved schematic scan shows 0 unresolved `?` references.
-- Duplicate-reference scan passes.
-- The project report records screenshots, backup path, command log, and reference table.
-
-Passing annotation does not pass visual readability, footprint/package, electrical, or schematic-to-PCB gates.
-
-## Failure Criteria
-
-Fail if:
-
-- GUI path does not match the expected schematic.
-- the GUI is unsaved and LJ has not approved save/overwrite.
-- native annotation cannot be run safely.
-- the GUI still shows question-mark references.
+After LJ confirms, still run post-save `kicad-cli` ERC and saved-schematic
+reference scans.

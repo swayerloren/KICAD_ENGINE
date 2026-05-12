@@ -21,9 +21,13 @@ Never treat these as a real pass:
 - Annotation `PASS` from regex or text scan alone.
 - Visual `PASS` from crop generation alone.
 - Placement `PASS` because footprints are merely on the board.
+- Placement `PASS` because a forum, video, or case study seems to agree.
 - JLCPCB, mechanical, BOM, production, export, upload feedback, or signoff review before a PCB exists.
 - Routing before placement audit and LJ placement approval.
+- Routing `PASS` because an autorouter connected things with poor geometry.
 - Production-ready claims before DRC pass, no-unrouted proof, JLCPCB review, BOM/CPL review, and human approval.
+- Footprint `PASS` because a vendor page, case study, or tutorial used a
+  similar package name.
 
 ## Required Status
 

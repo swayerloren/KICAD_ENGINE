@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-09T08:55:55",
-  "record_count": 922,
+  "generated": "2026-05-12T16:14:37",
+  "record_count": 1149,
   "records": [
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -459,6 +459,279 @@
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T10:54:53",
+      "path": "02_HISTORY/ai_self_reviews/20260510_105453_Schematic_Quality_Engine_Creation_Self_Review.md",
+      "size_bytes": 1372,
+      "title": "Schematic Quality Engine Creation Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T11:11:32",
+      "path": "02_HISTORY/ai_self_reviews/20260510_111132_KiCad_Native_Annotation_Auto_Open_Self_Review.md",
+      "size_bytes": 1343,
+      "title": "KiCad Native Annotation Auto-Open Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T11:35:04",
+      "path": "02_HISTORY/ai_self_reviews/20260510_113504_Schematic_Layout_Engine_Self_Review.md",
+      "size_bytes": 1315,
+      "title": "Schematic Layout Engine Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T11:56:21",
+      "path": "02_HISTORY/ai_self_reviews/20260510_115621_Footprint_Package_Engine_Self_Review.md",
+      "size_bytes": 1420,
+      "title": "Footprint Package Engine Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T12:03:31",
+      "path": "02_HISTORY/ai_self_reviews/20260510_120331_Knowledge_Scrape_Structure_Improvement_Self_Review.md",
+      "size_bytes": 1484,
+      "title": "Knowledge Scrape Structure Improvement Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T12:15:46",
+      "path": "02_HISTORY/ai_self_reviews/20260510_121328_Reference_Sample_System_Self_Review.md",
+      "size_bytes": 746,
+      "title": "Reference Sample System Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T14:25:22",
+      "path": "02_HISTORY/ai_self_reviews/20260510_142522_PCB_Quality_Gate_Creation_Self_Review.md",
+      "size_bytes": 1489,
+      "title": "PCB Quality Gate Creation Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T15:06:32",
+      "path": "02_HISTORY/ai_self_reviews/20260510_COPPER_POUR_REQUEST_BLOCKED_SELF_REVIEW.md",
+      "size_bytes": 401,
+      "title": "AI Self Review - Copper Pour Request Blocked"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T13:35:07",
+      "path": "02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_SELF_REVIEW.md",
+      "size_bytes": 512,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T14:03:47",
+      "path": "02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_SELF_REVIEW.md",
+      "size_bytes": 358,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T14:00:23",
+      "path": "02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_SELF_REVIEW.md",
+      "size_bytes": 604,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T13:45:18",
+      "path": "02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SELF_REVIEW.md",
+      "size_bytes": 708,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T13:20:22",
+      "path": "02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_SELF_REVIEW.md",
+      "size_bytes": 873,
+      "title": "Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T15:18:58",
+      "path": "02_HISTORY/ai_self_reviews/20260510_FINAL_PCB_REVIEW_SELF_REVIEW.md",
+      "size_bytes": 656,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T09:08:17",
+      "path": "02_HISTORY/ai_self_reviews/20260510_MECHANICAL_ORIENTATION_TRUTH_SELF_REVIEW.md",
+      "size_bytes": 928,
+      "title": "AI Self Review - Mechanical Orientation Truth"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T15:24:28",
+      "path": "02_HISTORY/ai_self_reviews/20260510_NOT_FINAL_EXPORT_SELF_REVIEW.md",
+      "size_bytes": 498,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T10:30:16",
+      "path": "02_HISTORY/ai_self_reviews/20260510_OPEN_SOURCE_TOOL_INTEGRATION_SELF_REVIEW.md",
+      "size_bytes": 482,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T08:42:49",
+      "path": "02_HISTORY/ai_self_reviews/20260510_PCB_PRELAYOUT_ENGINE_SELF_REVIEW.md",
+      "size_bytes": 968,
+      "title": "AI Self Review - PCB Prelayout Engine"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T09:31:19",
+      "path": "02_HISTORY/ai_self_reviews/20260510_PCB_TRACE_GEOMETRY_AUDIT_SELF_REVIEW.md",
+      "size_bytes": 1026,
+      "title": "AI Self Review - PCB Trace Geometry Audit"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T09:49:25",
+      "path": "02_HISTORY/ai_self_reviews/20260510_PRELAYOUT_VARIANT_GENERATION_SELF_REVIEW.md",
+      "size_bytes": 634,
+      "title": "AI Self Review - Prelayout Variant Generation"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T15:00:58",
+      "path": "02_HISTORY/ai_self_reviews/20260510_REAL_ROUTING_APPLY_BLOCKED_SELF_REVIEW.md",
+      "size_bytes": 454,
+      "title": "AI Self Review - Real Routing Apply Blocked"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T09:52:25",
+      "path": "02_HISTORY/ai_self_reviews/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_SELF_REVIEW.md",
+      "size_bytes": 399,
+      "title": "AI Self Review - Staged Routing Precondition Blocked"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T10:10:30",
+      "path": "02_HISTORY/ai_self_reviews/20260510_START_ROUTER_UPGRADE_SELF_REVIEW.md",
+      "size_bytes": 825,
+      "title": "Start Router Upgrade Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T16:31:53",
+      "path": "02_HISTORY/ai_self_reviews/20260511_163153_Knowledge_Scrape_Migration_Controller_Self_Review.md",
+      "size_bytes": 1386,
+      "title": "Knowledge Scrape Migration Controller Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T16:49:11",
+      "path": "02_HISTORY/ai_self_reviews/20260511_164911_Knowledge_Scrape_Metadata_Move_Self_Review.md",
+      "size_bytes": 1566,
+      "title": "Knowledge Scrape Metadata Move Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T17:07:57",
+      "path": "02_HISTORY/ai_self_reviews/20260511_170757_KiCad_Docs_Knowledge_Move_Self_Review.md",
+      "size_bytes": 1097,
+      "title": "KiCad Docs Knowledge Move Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T18:38:30",
+      "path": "02_HISTORY/ai_self_reviews/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_SELF_REVIEW.md",
+      "size_bytes": 613,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T18:20:52",
+      "path": "02_HISTORY/ai_self_reviews/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_SELF_REVIEW.md",
+      "size_bytes": 777,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T17:55:09",
+      "path": "02_HISTORY/ai_self_reviews/20260511_Component_Datasheet_Vendor_Knowledge_Move_Self_Review.md",
+      "size_bytes": 231,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T17:35:15",
+      "path": "02_HISTORY/ai_self_reviews/20260511_Engineering_Rules_Knowledge_Move_Self_Review.md",
+      "size_bytes": 781,
+      "title": "Engineering Rules Knowledge Move Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T18:05:41",
+      "path": "02_HISTORY/ai_self_reviews/20260511_Fab_DFM_Compliance_Knowledge_Move_Self_Review.md",
+      "size_bytes": 240,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-11T18:49:41",
+      "path": "02_HISTORY/ai_self_reviews/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_SELF_REVIEW.md",
+      "size_bytes": 646,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-12T15:33:54",
+      "path": "02_HISTORY/ai_self_reviews/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_SELF_REVIEW.md",
+      "size_bytes": 478,
+      "title": "GitHub Post-Knowledge-Migration Push Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-12T15:05:35",
+      "path": "02_HISTORY/ai_self_reviews/20260512_KNOWLEDGE_SCRAPE_EMPTYING_SELF_REVIEW.md",
+      "size_bytes": 693,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-12T14:55:46",
+      "path": "02_HISTORY/ai_self_reviews/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_SELF_REVIEW.md",
+      "size_bytes": 672,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-12T14:43:53",
+      "path": "02_HISTORY/ai_self_reviews/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_SELF_REVIEW.md",
+      "size_bytes": 586,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-12T16:13:27",
+      "path": "02_HISTORY/ai_self_reviews/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_SELF_REVIEW.md",
+      "size_bytes": 524,
+      "title": "AI Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-12T15:27:12",
+      "path": "02_HISTORY/ai_self_reviews/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_SELF_REVIEW.md",
+      "size_bytes": 826,
+      "title": "Post-Knowledge-Migration Repo Integrity Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-12T15:59:40",
+      "path": "02_HISTORY/ai_self_reviews/20260512_REPO_PUSH_BLOCKER_REPAIR_SELF_REVIEW.md",
+      "size_bytes": 409,
+      "title": "Repo Push Blocker Repair Self Review"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/ai_self_reviews/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md",
       "size_bytes": 752,
@@ -512,6 +785,13 @@
       "path": "02_HISTORY/ai_self_reviews/CORE_PLACEHOLDER_CONTENT_UPGRADE_SELF_REVIEW.md",
       "size_bytes": 1897,
       "title": "AI Self-Review: Core Placeholder Content Upgrade"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-10T14:54:47",
+      "path": "02_HISTORY/ai_self_reviews/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_SELF_REVIEW.md",
+      "size_bytes": 773,
+      "title": "AI Self Review - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -708,6 +988,13 @@
       "path": "02_HISTORY/ai_self_reviews/PACKAGE_FAB_VENDOR_PROFILE_SETUP_AI_SELF_REVIEW.md",
       "size_bytes": 1514,
       "title": "AI Self Review - Package Fab Vendor Profile Setup"
+    },
+    {
+      "folder": "02_HISTORY/ai_self_reviews",
+      "modified": "2026-05-09T17:18:52",
+      "path": "02_HISTORY/ai_self_reviews/PCB_FINAL_VISUAL_REVIEW_SELF_REVIEW.md",
+      "size_bytes": 1295,
+      "title": "PCB Final Visual Review Self Review"
     },
     {
       "folder": "02_HISTORY/ai_self_reviews",
@@ -1327,6 +1614,279 @@
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T10:54:53",
+      "path": "02_HISTORY/ai_scorecards/20260510_105453_Schematic_Quality_Engine_Creation_Scorecard.md",
+      "size_bytes": 1085,
+      "title": "Schematic Quality Engine Creation Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T11:11:32",
+      "path": "02_HISTORY/ai_scorecards/20260510_111132_KiCad_Native_Annotation_Auto_Open_Scorecard.md",
+      "size_bytes": 1130,
+      "title": "KiCad Native Annotation Auto-Open Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T11:35:04",
+      "path": "02_HISTORY/ai_scorecards/20260510_113504_Schematic_Layout_Engine_Scorecard.md",
+      "size_bytes": 1005,
+      "title": "Schematic Layout Engine Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T11:56:21",
+      "path": "02_HISTORY/ai_scorecards/20260510_115621_Footprint_Package_Engine_Scorecard.md",
+      "size_bytes": 1073,
+      "title": "Footprint Package Engine Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T12:03:31",
+      "path": "02_HISTORY/ai_scorecards/20260510_120331_Knowledge_Scrape_Structure_Improvement_Scorecard.md",
+      "size_bytes": 1081,
+      "title": "Knowledge Scrape Structure Improvement Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T12:15:46",
+      "path": "02_HISTORY/ai_scorecards/20260510_121328_Reference_Sample_System_Scorecard.md",
+      "size_bytes": 600,
+      "title": "Reference Sample System Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T14:25:22",
+      "path": "02_HISTORY/ai_scorecards/20260510_142522_PCB_Quality_Gate_Creation_Scorecard.md",
+      "size_bytes": 1109,
+      "title": "PCB Quality Gate Creation Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T15:06:32",
+      "path": "02_HISTORY/ai_scorecards/20260510_COPPER_POUR_REQUEST_BLOCKED_SCORECARD.md",
+      "size_bytes": 899,
+      "title": "AI Response Scorecard - Copper Pour Request Blocked"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T13:35:07",
+      "path": "02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_SCORECARD.md",
+      "size_bytes": 197,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T14:03:47",
+      "path": "02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_SCORECARD.md",
+      "size_bytes": 594,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T14:00:23",
+      "path": "02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_SCORECARD.md",
+      "size_bytes": 692,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T13:45:18",
+      "path": "02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SCORECARD.md",
+      "size_bytes": 616,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T13:20:22",
+      "path": "02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_SCORECARD.md",
+      "size_bytes": 652,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T15:18:58",
+      "path": "02_HISTORY/ai_scorecards/20260510_FINAL_PCB_REVIEW_SCORECARD.md",
+      "size_bytes": 591,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T09:08:17",
+      "path": "02_HISTORY/ai_scorecards/20260510_MECHANICAL_ORIENTATION_TRUTH_SCORECARD.md",
+      "size_bytes": 950,
+      "title": "AI Response Scorecard - Mechanical Orientation Truth"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T15:24:28",
+      "path": "02_HISTORY/ai_scorecards/20260510_NOT_FINAL_EXPORT_SCORECARD.md",
+      "size_bytes": 580,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T10:30:16",
+      "path": "02_HISTORY/ai_scorecards/20260510_OPEN_SOURCE_TOOL_INTEGRATION_SCORECARD.md",
+      "size_bytes": 603,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T08:42:49",
+      "path": "02_HISTORY/ai_scorecards/20260510_PCB_PRELAYOUT_ENGINE_SCORECARD.md",
+      "size_bytes": 886,
+      "title": "AI Response Scorecard - PCB Prelayout Engine"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T09:31:19",
+      "path": "02_HISTORY/ai_scorecards/20260510_PCB_TRACE_GEOMETRY_AUDIT_SCORECARD.md",
+      "size_bytes": 931,
+      "title": "AI Response Scorecard - PCB Trace Geometry Audit"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T09:49:25",
+      "path": "02_HISTORY/ai_scorecards/20260510_PRELAYOUT_VARIANT_GENERATION_SCORECARD.md",
+      "size_bytes": 656,
+      "title": "AI Response Scorecard - Prelayout Variant Generation"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T15:00:58",
+      "path": "02_HISTORY/ai_scorecards/20260510_REAL_ROUTING_APPLY_BLOCKED_SCORECARD.md",
+      "size_bytes": 901,
+      "title": "AI Response Scorecard - Real Routing Apply Blocked"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T09:52:25",
+      "path": "02_HISTORY/ai_scorecards/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_SCORECARD.md",
+      "size_bytes": 580,
+      "title": "AI Response Scorecard - Staged Routing Precondition Blocked"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T10:10:30",
+      "path": "02_HISTORY/ai_scorecards/20260510_START_ROUTER_UPGRADE_SCORECARD.md",
+      "size_bytes": 425,
+      "title": "Start Router Upgrade Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T16:31:53",
+      "path": "02_HISTORY/ai_scorecards/20260511_163153_Knowledge_Scrape_Migration_Controller_Scorecard.md",
+      "size_bytes": 1016,
+      "title": "Knowledge Scrape Migration Controller Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T16:49:11",
+      "path": "02_HISTORY/ai_scorecards/20260511_164911_Knowledge_Scrape_Metadata_Move_Scorecard.md",
+      "size_bytes": 994,
+      "title": "Knowledge Scrape Metadata Move Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T17:07:57",
+      "path": "02_HISTORY/ai_scorecards/20260511_170757_KiCad_Docs_Knowledge_Move_Scorecard.md",
+      "size_bytes": 895,
+      "title": "KiCad Docs Knowledge Move Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T18:38:30",
+      "path": "02_HISTORY/ai_scorecards/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_SCORECARD.md",
+      "size_bytes": 584,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T18:20:52",
+      "path": "02_HISTORY/ai_scorecards/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_SCORECARD.md",
+      "size_bytes": 554,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T17:55:09",
+      "path": "02_HISTORY/ai_scorecards/20260511_Component_Datasheet_Vendor_Knowledge_Move_Scorecard.md",
+      "size_bytes": 205,
+      "title": "AI Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T17:35:15",
+      "path": "02_HISTORY/ai_scorecards/20260511_Engineering_Rules_Knowledge_Move_Scorecard.md",
+      "size_bytes": 336,
+      "title": "Engineering Rules Knowledge Move Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T18:05:41",
+      "path": "02_HISTORY/ai_scorecards/20260511_Fab_DFM_Compliance_Knowledge_Move_Scorecard.md",
+      "size_bytes": 192,
+      "title": "AI Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-11T18:49:41",
+      "path": "02_HISTORY/ai_scorecards/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_SCORECARD.md",
+      "size_bytes": 600,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-12T15:33:54",
+      "path": "02_HISTORY/ai_scorecards/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_SCORECARD.md",
+      "size_bytes": 483,
+      "title": "GitHub Post-Knowledge-Migration Push Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-12T15:05:35",
+      "path": "02_HISTORY/ai_scorecards/20260512_KNOWLEDGE_SCRAPE_EMPTYING_SCORECARD.md",
+      "size_bytes": 581,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-12T14:55:46",
+      "path": "02_HISTORY/ai_scorecards/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_SCORECARD.md",
+      "size_bytes": 567,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-12T14:43:53",
+      "path": "02_HISTORY/ai_scorecards/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_SCORECARD.md",
+      "size_bytes": 583,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-12T16:13:27",
+      "path": "02_HISTORY/ai_scorecards/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_SCORECARD.md",
+      "size_bytes": 639,
+      "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-12T15:27:12",
+      "path": "02_HISTORY/ai_scorecards/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_SCORECARD.md",
+      "size_bytes": 600,
+      "title": "Post-Knowledge-Migration Repo Integrity Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-12T15:59:40",
+      "path": "02_HISTORY/ai_scorecards/20260512_REPO_PUSH_BLOCKER_REPAIR_SCORECARD.md",
+      "size_bytes": 434,
+      "title": "Repo Push Blocker Repair Scorecard"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
       "modified": "2026-05-02T23:43:58",
       "path": "02_HISTORY/ai_scorecards/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md",
       "size_bytes": 1101,
@@ -1380,6 +1940,13 @@
       "path": "02_HISTORY/ai_scorecards/CORE_PLACEHOLDER_CONTENT_UPGRADE_SCORECARD.md",
       "size_bytes": 1246,
       "title": "AI Response Scorecard: Core Placeholder Content Upgrade"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-10T14:54:47",
+      "path": "02_HISTORY/ai_scorecards/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_SCORECARD.md",
+      "size_bytes": 988,
+      "title": "AI Response Scorecard - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal"
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
@@ -1576,6 +2143,13 @@
       "path": "02_HISTORY/ai_scorecards/PACKAGE_FAB_VENDOR_PROFILE_SETUP_SCORECARD.md",
       "size_bytes": 953,
       "title": "AI Response Scorecard - Package Fab Vendor Profile Setup"
+    },
+    {
+      "folder": "02_HISTORY/ai_scorecards",
+      "modified": "2026-05-09T17:18:52",
+      "path": "02_HISTORY/ai_scorecards/PCB_FINAL_VISUAL_REVIEW_SCORECARD.md",
+      "size_bytes": 437,
+      "title": "PCB Final Visual Review Scorecard"
     },
     {
       "folder": "02_HISTORY/ai_scorecards",
@@ -2188,6 +2762,279 @@
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T10:54:53",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_105453_Schematic_Quality_Engine_Creation_Hallucination_Risk_Log.md",
+      "size_bytes": 1278,
+      "title": "Schematic Quality Engine Creation Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T11:11:32",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_111132_KiCad_Native_Annotation_Auto_Open_Hallucination_Risk_Log.md",
+      "size_bytes": 1233,
+      "title": "KiCad Native Annotation Auto-Open Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T11:35:04",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_113504_Schematic_Layout_Engine_Hallucination_Risk_Log.md",
+      "size_bytes": 1332,
+      "title": "Schematic Layout Engine Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T11:56:21",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_115621_Footprint_Package_Engine_Hallucination_Risk_Log.md",
+      "size_bytes": 1335,
+      "title": "Footprint Package Engine Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T12:03:31",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_120331_Knowledge_Scrape_Structure_Improvement_Hallucination_Risk_Log.md",
+      "size_bytes": 1272,
+      "title": "Knowledge Scrape Structure Improvement Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T12:15:46",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_121328_Reference_Sample_System_Hallucination_Risk_Log.md",
+      "size_bytes": 564,
+      "title": "Reference Sample System Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T14:25:22",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_142522_PCB_Quality_Gate_Creation_Hallucination_Risk_Log.md",
+      "size_bytes": 1400,
+      "title": "PCB Quality Gate Creation Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T15:06:32",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_COPPER_POUR_REQUEST_BLOCKED_HALLUCINATION_RISK.md",
+      "size_bytes": 434,
+      "title": "Hallucination Risk Log - Copper Pour Request Blocked"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T13:35:07",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_RISK_LOG.md",
+      "size_bytes": 582,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T14:03:47",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_RISK_LOG.md",
+      "size_bytes": 628,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T14:00:23",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_RISK_LOG.md",
+      "size_bytes": 604,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T13:45:18",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_RISK_LOG.md",
+      "size_bytes": 502,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T13:20:22",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_RISK_LOG.md",
+      "size_bytes": 501,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T15:18:58",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_FINAL_PCB_REVIEW_HALLUCINATION_RISK.md",
+      "size_bytes": 481,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T09:08:17",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_MECHANICAL_ORIENTATION_TRUTH_HALLUCINATION_RISK.md",
+      "size_bytes": 573,
+      "title": "Hallucination Risk Log - Mechanical Orientation Truth"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T15:24:28",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_NOT_FINAL_EXPORT_HALLUCINATION_RISK.md",
+      "size_bytes": 294,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T10:30:16",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_OPEN_SOURCE_TOOL_INTEGRATION_HALLUCINATION_RISK.md",
+      "size_bytes": 584,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T08:42:49",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_PCB_PRELAYOUT_ENGINE_HALLUCINATION_RISK.md",
+      "size_bytes": 515,
+      "title": "Hallucination Risk Log - PCB Prelayout Engine"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T09:31:19",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_PCB_TRACE_GEOMETRY_AUDIT_HALLUCINATION_RISK.md",
+      "size_bytes": 556,
+      "title": "Hallucination Risk Log - PCB Trace Geometry Audit"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T09:49:25",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_PRELAYOUT_VARIANT_GENERATION_HALLUCINATION_RISK.md",
+      "size_bytes": 590,
+      "title": "Hallucination Risk Log - Prelayout Variant Generation"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T15:00:58",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_REAL_ROUTING_APPLY_BLOCKED_HALLUCINATION_RISK.md",
+      "size_bytes": 434,
+      "title": "Hallucination Risk Log - Real Routing Apply Blocked"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T09:52:25",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_HALLUCINATION_RISK.md",
+      "size_bytes": 311,
+      "title": "Hallucination Risk Log - Staged Routing Precondition Blocked"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T10:10:30",
+      "path": "02_HISTORY/hallucination_risk_logs/20260510_START_ROUTER_UPGRADE_RISK_LOG.md",
+      "size_bytes": 730,
+      "title": "Start Router Upgrade Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T16:31:53",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_163153_Knowledge_Scrape_Migration_Controller_Hallucination_Risk_Log.md",
+      "size_bytes": 1339,
+      "title": "Knowledge Scrape Migration Controller Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T16:49:11",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_164911_Knowledge_Scrape_Metadata_Move_Hallucination_Risk_Log.md",
+      "size_bytes": 1382,
+      "title": "Knowledge Scrape Metadata Move Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T17:07:57",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_170757_KiCad_Docs_Knowledge_Move_Hallucination_Risk_Log.md",
+      "size_bytes": 1035,
+      "title": "KiCad Docs Knowledge Move Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T18:38:30",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_RISK_LOG.md",
+      "size_bytes": 452,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T18:20:52",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_RISK_LOG.md",
+      "size_bytes": 544,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T17:55:09",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_Component_Datasheet_Vendor_Knowledge_Move_Hallucination_Risk.md",
+      "size_bytes": 341,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T17:35:15",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_Engineering_Rules_Knowledge_Move_Hallucination_Risk_Log.md",
+      "size_bytes": 588,
+      "title": "Engineering Rules Knowledge Move Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T18:05:41",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_Fab_DFM_Compliance_Knowledge_Move_Hallucination_Risk.md",
+      "size_bytes": 343,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-11T18:49:41",
+      "path": "02_HISTORY/hallucination_risk_logs/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_RISK_LOG.md",
+      "size_bytes": 447,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-12T15:33:54",
+      "path": "02_HISTORY/hallucination_risk_logs/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_RISK_LOG.md",
+      "size_bytes": 397,
+      "title": "GitHub Post-Knowledge-Migration Push Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-12T15:05:35",
+      "path": "02_HISTORY/hallucination_risk_logs/20260512_KNOWLEDGE_SCRAPE_EMPTYING_RISK_LOG.md",
+      "size_bytes": 457,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-12T14:55:46",
+      "path": "02_HISTORY/hallucination_risk_logs/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_RISK_LOG.md",
+      "size_bytes": 545,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-12T14:43:53",
+      "path": "02_HISTORY/hallucination_risk_logs/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_RISK_LOG.md",
+      "size_bytes": 544,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-12T16:13:27",
+      "path": "02_HISTORY/hallucination_risk_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_RISK_LOG.md",
+      "size_bytes": 385,
+      "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-12T15:27:12",
+      "path": "02_HISTORY/hallucination_risk_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RISK_LOG.md",
+      "size_bytes": 642,
+      "title": "Post-Knowledge-Migration Repo Integrity Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-12T15:59:40",
+      "path": "02_HISTORY/hallucination_risk_logs/20260512_REPO_PUSH_BLOCKER_REPAIR_RISK_LOG.md",
+      "size_bytes": 347,
+      "title": "Repo Push Blocker Repair Hallucination Risk Log"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/hallucination_risk_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 721,
@@ -2241,6 +3088,13 @@
       "path": "02_HISTORY/hallucination_risk_logs/CORE_PLACEHOLDER_CONTENT_UPGRADE_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 1444,
       "title": "Hallucination Risk Log: Core Placeholder Content Upgrade"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-10T14:54:47",
+      "path": "02_HISTORY/hallucination_risk_logs/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_HALLUCINATION_RISK_LOG.md",
+      "size_bytes": 584,
+      "title": "Hallucination Risk Log - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal"
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
@@ -2423,6 +3277,13 @@
       "path": "02_HISTORY/hallucination_risk_logs/PACKAGE_FAB_VENDOR_PROFILE_SETUP_HALLUCINATION_RISK_LOG.md",
       "size_bytes": 816,
       "title": "Hallucination Risk Log - Package Fab Vendor Profile Setup"
+    },
+    {
+      "folder": "02_HISTORY/hallucination_risk_logs",
+      "modified": "2026-05-09T17:18:52",
+      "path": "02_HISTORY/hallucination_risk_logs/PCB_FINAL_VISUAL_REVIEW_HALLUCINATION_RISK.md",
+      "size_bytes": 580,
+      "title": "PCB Final Visual Review Hallucination Risk Log"
     },
     {
       "folder": "02_HISTORY/hallucination_risk_logs",
@@ -3042,6 +3903,279 @@
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T10:54:53",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_105453_Schematic_Quality_Engine_Creation_Claim_Evidence_Matrix.md",
+      "size_bytes": 1248,
+      "title": "Schematic Quality Engine Creation Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T11:11:32",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_111132_KiCad_Native_Annotation_Auto_Open_Claim_Evidence_Matrix.md",
+      "size_bytes": 1294,
+      "title": "KiCad Native Annotation Auto-Open Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T11:35:04",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_113504_Schematic_Layout_Engine_Claim_Evidence_Matrix.md",
+      "size_bytes": 1200,
+      "title": "Schematic Layout Engine Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T11:56:21",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_115621_Footprint_Package_Engine_Claim_Evidence_Matrix.md",
+      "size_bytes": 1256,
+      "title": "Footprint Package Engine Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T12:03:31",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_120331_Knowledge_Scrape_Structure_Improvement_Claim_Evidence_Matrix.md",
+      "size_bytes": 1288,
+      "title": "Knowledge Scrape Structure Improvement Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T12:15:46",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_121328_Reference_Sample_System_Claim_Evidence_Matrix.md",
+      "size_bytes": 839,
+      "title": "Reference Sample System Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T14:25:22",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_142522_PCB_Quality_Gate_Creation_Claim_Evidence_Matrix.md",
+      "size_bytes": 1389,
+      "title": "PCB Quality Gate Creation Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T15:06:32",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_COPPER_POUR_REQUEST_BLOCKED_CLAIM_EVIDENCE.md",
+      "size_bytes": 718,
+      "title": "Claim Evidence Matrix - Copper Pour Request Blocked"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T13:35:07",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_CLAIMS.md",
+      "size_bytes": 979,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T14:03:47",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_CLAIMS.md",
+      "size_bytes": 779,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T14:00:23",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_CLAIMS.md",
+      "size_bytes": 1404,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T13:45:18",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_CLAIMS.md",
+      "size_bytes": 1050,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T13:20:22",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_CLAIMS.md",
+      "size_bytes": 924,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T15:18:58",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_FINAL_PCB_REVIEW_CLAIM_EVIDENCE.md",
+      "size_bytes": 1044,
+      "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T09:08:17",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_MECHANICAL_ORIENTATION_TRUTH_CLAIM_EVIDENCE.md",
+      "size_bytes": 1606,
+      "title": "Claim Evidence Matrix - Mechanical Orientation Truth"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T15:24:28",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_NOT_FINAL_EXPORT_CLAIM_EVIDENCE.md",
+      "size_bytes": 596,
+      "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T10:30:16",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_OPEN_SOURCE_TOOL_INTEGRATION_CLAIM_EVIDENCE.md",
+      "size_bytes": 981,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T08:42:49",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_PCB_PRELAYOUT_ENGINE_CLAIM_EVIDENCE.md",
+      "size_bytes": 1913,
+      "title": "Claim Evidence Matrix - PCB Prelayout Engine"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T09:31:19",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_PCB_TRACE_GEOMETRY_AUDIT_CLAIM_EVIDENCE.md",
+      "size_bytes": 1465,
+      "title": "Claim Evidence Matrix - PCB Trace Geometry Audit"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T09:49:25",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_PRELAYOUT_VARIANT_GENERATION_CLAIM_EVIDENCE.md",
+      "size_bytes": 1662,
+      "title": "Claim Evidence Matrix - Prelayout Variant Generation"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T15:00:58",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_REAL_ROUTING_APPLY_BLOCKED_CLAIM_EVIDENCE.md",
+      "size_bytes": 688,
+      "title": "Claim Evidence Matrix - Real Routing Apply Blocked"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T09:52:25",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_CLAIM_EVIDENCE.md",
+      "size_bytes": 1008,
+      "title": "Claim Evidence Matrix - Staged Routing Precondition Blocked"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T10:10:30",
+      "path": "02_HISTORY/claim_evidence_matrices/20260510_START_ROUTER_UPGRADE_CLAIMS.md",
+      "size_bytes": 730,
+      "title": "Start Router Upgrade Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T16:31:53",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_163153_Knowledge_Scrape_Migration_Controller_Claim_Evidence_Matrix.md",
+      "size_bytes": 1448,
+      "title": "Knowledge Scrape Migration Controller Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T16:49:11",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_164911_Knowledge_Scrape_Metadata_Move_Claim_Evidence_Matrix.md",
+      "size_bytes": 1418,
+      "title": "Knowledge Scrape Metadata Move Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T17:07:57",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_170757_KiCad_Docs_Knowledge_Move_Claim_Evidence_Matrix.md",
+      "size_bytes": 1024,
+      "title": "KiCad Docs Knowledge Move Claim Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T18:38:30",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_CLAIMS.md",
+      "size_bytes": 591,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T18:20:52",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_CLAIMS.md",
+      "size_bytes": 909,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T17:55:09",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_Component_Datasheet_Vendor_Knowledge_Move_Claim_Evidence_Matrix.md",
+      "size_bytes": 704,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T17:35:15",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_Engineering_Rules_Knowledge_Move_Claim_Evidence_Matrix.md",
+      "size_bytes": 944,
+      "title": "Engineering Rules Knowledge Move Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T18:05:41",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_Fab_DFM_Compliance_Knowledge_Move_Claim_Evidence_Matrix.md",
+      "size_bytes": 624,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-11T18:49:41",
+      "path": "02_HISTORY/claim_evidence_matrices/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_CLAIMS.md",
+      "size_bytes": 1056,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-12T15:33:54",
+      "path": "02_HISTORY/claim_evidence_matrices/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_CLAIMS.md",
+      "size_bytes": 755,
+      "title": "GitHub Post-Knowledge-Migration Push Claim/Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-12T15:05:35",
+      "path": "02_HISTORY/claim_evidence_matrices/20260512_KNOWLEDGE_SCRAPE_EMPTYING_CLAIMS.md",
+      "size_bytes": 1617,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-12T14:55:46",
+      "path": "02_HISTORY/claim_evidence_matrices/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_CLAIMS.md",
+      "size_bytes": 1534,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-12T14:43:53",
+      "path": "02_HISTORY/claim_evidence_matrices/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_CLAIMS.md",
+      "size_bytes": 1248,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-12T15:27:12",
+      "path": "02_HISTORY/claim_evidence_matrices/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_CLAIM_EVIDENCE.md",
+      "size_bytes": 1532,
+      "title": "Post-Knowledge-Migration Repo Integrity Claim/Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-12T16:13:27",
+      "path": "02_HISTORY/claim_evidence_matrices/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_CLAIMS.md",
+      "size_bytes": 1052,
+      "title": "Claim / Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-12T15:59:40",
+      "path": "02_HISTORY/claim_evidence_matrices/20260512_REPO_PUSH_BLOCKER_REPAIR_CLAIMS.md",
+      "size_bytes": 785,
+      "title": "Repo Push Blocker Repair Claim/Evidence Matrix"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/claim_evidence_matrices/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1220,
@@ -3095,6 +4229,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/CORE_PLACEHOLDER_CONTENT_UPGRADE_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1236,
       "title": "Claim Evidence Matrix: Core Placeholder Content Upgrade"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-10T14:54:47",
+      "path": "02_HISTORY/claim_evidence_matrices/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 1075,
+      "title": "Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3291,6 +4432,13 @@
       "path": "02_HISTORY/claim_evidence_matrices/PACKAGE_FAB_VENDOR_PROFILE_SETUP_CLAIM_EVIDENCE_MATRIX.md",
       "size_bytes": 1069,
       "title": "Claim Evidence Matrix - Package Fab Vendor Profile Setup"
+    },
+    {
+      "folder": "02_HISTORY/claim_evidence_matrices",
+      "modified": "2026-05-09T17:18:52",
+      "path": "02_HISTORY/claim_evidence_matrices/PCB_FINAL_VISUAL_REVIEW_CLAIM_EVIDENCE_MATRIX.md",
+      "size_bytes": 969,
+      "title": "PCB Final Visual Review Claim / Evidence Matrix"
     },
     {
       "folder": "02_HISTORY/claim_evidence_matrices",
@@ -3515,6 +4663,69 @@
       "path": "02_HISTORY/quality_gate_failures/20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_GATE_FAILURE.md",
       "size_bytes": 656,
       "title": "Quality Gate Failure - ESP32_CSI_WIFI_NODE Real-World Failure Review"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T11:35:26",
+      "path": "02_HISTORY/quality_gate_failures/20260510_113526_ESP32_CSI_WIFI_NODE_Schematic_Layout_Gate_Failure.md",
+      "size_bytes": 1251,
+      "title": "ESP32_CSI_WIFI_NODE Schematic Layout Gate Failure"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T14:25:22",
+      "path": "02_HISTORY/quality_gate_failures/20260510_142522_ESP32_CSI_WIFI_NODE_PCB_Quality_Gate_Failure.md",
+      "size_bytes": 1348,
+      "title": "ESP32_CSI_WIFI_NODE PCB Quality Gate Failure"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T15:06:32",
+      "path": "02_HISTORY/quality_gate_failures/20260510_COPPER_POUR_REQUEST_BLOCKED.md",
+      "size_bytes": 449,
+      "title": "Copper Pour Request Blocked"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T15:18:58",
+      "path": "02_HISTORY/quality_gate_failures/20260510_FINAL_PCB_REVIEW_BLOCKED.md",
+      "size_bytes": 496,
+      "title": "Final PCB Review Blocked"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T15:24:28",
+      "path": "02_HISTORY/quality_gate_failures/20260510_NOT_FINAL_EXPORT_BLOCKED.md",
+      "size_bytes": 315,
+      "title": "NOT_FINAL Export Blocked"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T09:49:25",
+      "path": "02_HISTORY/quality_gate_failures/20260510_PCB_PRELAYOUT_VARIANT_PACKET_GATE_BLOCKED.md",
+      "size_bytes": 843,
+      "title": "Quality Gate Failure - PCB Prelayout Variant Packet"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T09:31:19",
+      "path": "02_HISTORY/quality_gate_failures/20260510_PCB_TRACE_GEOMETRY_GATE_FAIL.md",
+      "size_bytes": 600,
+      "title": "Quality Gate Failure - PCB Trace Geometry Gate"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T15:00:58",
+      "path": "02_HISTORY/quality_gate_failures/20260510_REAL_ROUTING_APPLY_BLOCKED.md",
+      "size_bytes": 423,
+      "title": "Real Routing Apply Blocked"
+    },
+    {
+      "folder": "02_HISTORY/quality_gate_failures",
+      "modified": "2026-05-10T09:52:25",
+      "path": "02_HISTORY/quality_gate_failures/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED.md",
+      "size_bytes": 608,
+      "title": "Quality Gate Failure - Staged Routing Request Blocked"
     },
     {
       "folder": "02_HISTORY/quality_gate_failures",
@@ -4092,6 +5303,279 @@
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T10:54:53",
+      "path": "02_HISTORY/uncertainty_logs/20260510_105453_Schematic_Quality_Engine_Creation_Uncertainty_Log.md",
+      "size_bytes": 1283,
+      "title": "Schematic Quality Engine Creation Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T11:11:32",
+      "path": "02_HISTORY/uncertainty_logs/20260510_111132_KiCad_Native_Annotation_Auto_Open_Uncertainty_Log.md",
+      "size_bytes": 1171,
+      "title": "KiCad Native Annotation Auto-Open Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T11:35:04",
+      "path": "02_HISTORY/uncertainty_logs/20260510_113504_Schematic_Layout_Engine_Uncertainty_Log.md",
+      "size_bytes": 1182,
+      "title": "Schematic Layout Engine Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T11:56:21",
+      "path": "02_HISTORY/uncertainty_logs/20260510_115621_Footprint_Package_Engine_Uncertainty_Log.md",
+      "size_bytes": 1325,
+      "title": "Footprint Package Engine Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T12:03:31",
+      "path": "02_HISTORY/uncertainty_logs/20260510_120331_Knowledge_Scrape_Structure_Improvement_Uncertainty_Log.md",
+      "size_bytes": 1325,
+      "title": "Knowledge Scrape Structure Improvement Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T12:15:46",
+      "path": "02_HISTORY/uncertainty_logs/20260510_121328_Reference_Sample_System_Uncertainty_Log.md",
+      "size_bytes": 488,
+      "title": "Reference Sample System Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T14:25:22",
+      "path": "02_HISTORY/uncertainty_logs/20260510_142522_PCB_Quality_Gate_Creation_Uncertainty_Log.md",
+      "size_bytes": 1454,
+      "title": "PCB Quality Gate Creation Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T15:06:32",
+      "path": "02_HISTORY/uncertainty_logs/20260510_COPPER_POUR_REQUEST_BLOCKED_UNCERTAINTY.md",
+      "size_bytes": 492,
+      "title": "Uncertainty Log - Copper Pour Request Blocked"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T13:35:07",
+      "path": "02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_UNCERTAINTY.md",
+      "size_bytes": 679,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T14:03:47",
+      "path": "02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_UNCERTAINTY.md",
+      "size_bytes": 428,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T14:00:23",
+      "path": "02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_UNCERTAINTY.md",
+      "size_bytes": 501,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T13:45:18",
+      "path": "02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_UNCERTAINTY.md",
+      "size_bytes": 486,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T13:20:22",
+      "path": "02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_UNCERTAINTY.md",
+      "size_bytes": 656,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T15:18:58",
+      "path": "02_HISTORY/uncertainty_logs/20260510_FINAL_PCB_REVIEW_UNCERTAINTY.md",
+      "size_bytes": 350,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T09:08:17",
+      "path": "02_HISTORY/uncertainty_logs/20260510_MECHANICAL_ORIENTATION_TRUTH_UNCERTAINTY.md",
+      "size_bytes": 757,
+      "title": "Uncertainty Log - Mechanical Orientation Truth"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T15:24:28",
+      "path": "02_HISTORY/uncertainty_logs/20260510_NOT_FINAL_EXPORT_UNCERTAINTY.md",
+      "size_bytes": 240,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T10:30:16",
+      "path": "02_HISTORY/uncertainty_logs/20260510_OPEN_SOURCE_TOOL_INTEGRATION_UNCERTAINTY.md",
+      "size_bytes": 513,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T08:42:49",
+      "path": "02_HISTORY/uncertainty_logs/20260510_PCB_PRELAYOUT_ENGINE_UNCERTAINTY.md",
+      "size_bytes": 734,
+      "title": "Uncertainty Log - PCB Prelayout Engine"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T09:31:19",
+      "path": "02_HISTORY/uncertainty_logs/20260510_PCB_TRACE_GEOMETRY_AUDIT_UNCERTAINTY.md",
+      "size_bytes": 762,
+      "title": "Uncertainty Log - PCB Trace Geometry Audit"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T09:49:25",
+      "path": "02_HISTORY/uncertainty_logs/20260510_PRELAYOUT_VARIANT_GENERATION_UNCERTAINTY.md",
+      "size_bytes": 937,
+      "title": "Uncertainty Log - Prelayout Variant Generation"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T15:00:58",
+      "path": "02_HISTORY/uncertainty_logs/20260510_REAL_ROUTING_APPLY_BLOCKED_UNCERTAINTY.md",
+      "size_bytes": 413,
+      "title": "Uncertainty Log - Real Routing Apply Blocked"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T09:52:25",
+      "path": "02_HISTORY/uncertainty_logs/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_UNCERTAINTY.md",
+      "size_bytes": 574,
+      "title": "Uncertainty Log - Staged Routing Precondition Blocked"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T10:10:30",
+      "path": "02_HISTORY/uncertainty_logs/20260510_START_ROUTER_UPGRADE_UNCERTAINTY.md",
+      "size_bytes": 520,
+      "title": "Start Router Upgrade Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T16:31:53",
+      "path": "02_HISTORY/uncertainty_logs/20260511_163153_Knowledge_Scrape_Migration_Controller_Uncertainty_Log.md",
+      "size_bytes": 1334,
+      "title": "Knowledge Scrape Migration Controller Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T16:49:11",
+      "path": "02_HISTORY/uncertainty_logs/20260511_164911_Knowledge_Scrape_Metadata_Move_Uncertainty_Log.md",
+      "size_bytes": 1323,
+      "title": "Knowledge Scrape Metadata Move Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T17:07:57",
+      "path": "02_HISTORY/uncertainty_logs/20260511_170757_KiCad_Docs_Knowledge_Move_Uncertainty_Log.md",
+      "size_bytes": 1077,
+      "title": "KiCad Docs Knowledge Move Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T18:38:30",
+      "path": "02_HISTORY/uncertainty_logs/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_UNCERTAINTY.md",
+      "size_bytes": 323,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T18:20:52",
+      "path": "02_HISTORY/uncertainty_logs/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_UNCERTAINTY.md",
+      "size_bytes": 543,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T17:55:09",
+      "path": "02_HISTORY/uncertainty_logs/20260511_Component_Datasheet_Vendor_Knowledge_Move_Uncertainty_Log.md",
+      "size_bytes": 302,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T17:35:15",
+      "path": "02_HISTORY/uncertainty_logs/20260511_Engineering_Rules_Knowledge_Move_Uncertainty_Log.md",
+      "size_bytes": 423,
+      "title": "Engineering Rules Knowledge Move Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T18:05:41",
+      "path": "02_HISTORY/uncertainty_logs/20260511_Fab_DFM_Compliance_Knowledge_Move_Uncertainty_Log.md",
+      "size_bytes": 223,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-11T18:49:41",
+      "path": "02_HISTORY/uncertainty_logs/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_UNCERTAINTY.md",
+      "size_bytes": 471,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-12T15:33:54",
+      "path": "02_HISTORY/uncertainty_logs/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_UNCERTAINTY.md",
+      "size_bytes": 312,
+      "title": "GitHub Post-Knowledge-Migration Push Uncertainty"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-12T15:05:35",
+      "path": "02_HISTORY/uncertainty_logs/20260512_KNOWLEDGE_SCRAPE_EMPTYING_UNCERTAINTY.md",
+      "size_bytes": 369,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-12T14:55:46",
+      "path": "02_HISTORY/uncertainty_logs/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_UNCERTAINTY.md",
+      "size_bytes": 433,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-12T14:43:53",
+      "path": "02_HISTORY/uncertainty_logs/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_UNCERTAINTY.md",
+      "size_bytes": 468,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-12T16:13:27",
+      "path": "02_HISTORY/uncertainty_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_UNCERTAINTY.md",
+      "size_bytes": 489,
+      "title": "Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-12T15:27:12",
+      "path": "02_HISTORY/uncertainty_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_UNCERTAINTY_LOG.md",
+      "size_bytes": 507,
+      "title": "Post-Knowledge-Migration Repo Integrity Uncertainty Log"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-12T15:59:40",
+      "path": "02_HISTORY/uncertainty_logs/20260512_REPO_PUSH_BLOCKER_REPAIR_UNCERTAINTY.md",
+      "size_bytes": 353,
+      "title": "Repo Push Blocker Repair Uncertainty"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
       "modified": "2026-05-02T23:42:55",
       "path": "02_HISTORY/uncertainty_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md",
       "size_bytes": 724,
@@ -4145,6 +5629,13 @@
       "path": "02_HISTORY/uncertainty_logs/CORE_PLACEHOLDER_CONTENT_UPGRADE_UNCERTAINTY_LOG.md",
       "size_bytes": 1103,
       "title": "Uncertainty Log: Core Placeholder Content Upgrade"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-10T14:54:47",
+      "path": "02_HISTORY/uncertainty_logs/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_UNCERTAINTY_LOG.md",
+      "size_bytes": 546,
+      "title": "Uncertainty Log - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",
@@ -4341,6 +5832,13 @@
       "path": "02_HISTORY/uncertainty_logs/PACKAGE_FAB_VENDOR_PROFILE_SETUP_UNCERTAINTY_LOG.md",
       "size_bytes": 786,
       "title": "Uncertainty Log - Package Fab Vendor Profile Setup"
+    },
+    {
+      "folder": "02_HISTORY/uncertainty_logs",
+      "modified": "2026-05-09T17:18:52",
+      "path": "02_HISTORY/uncertainty_logs/PCB_FINAL_VISUAL_REVIEW_UNCERTAINTY_LOG.md",
+      "size_bytes": 726,
+      "title": "PCB Final Visual Review Uncertainty Log"
     },
     {
       "folder": "02_HISTORY/uncertainty_logs",
@@ -4624,6 +6122,13 @@
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/2026-05-09_pcb_routing_audit_plan_self_review.md",
+      "size_bytes": 804,
+      "title": "AI Self-Review - PCB Routing Audit Plan"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews",
       "modified": "2026-05-06T15:47:35",
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_self_review.md",
       "size_bytes": 1063,
@@ -4733,6 +6238,13 @@
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260508_routing_work_prep_ai_self_review.md",
       "size_bytes": 575,
       "title": "AI Self Review"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews",
+      "modified": "2026-05-10T12:34:01",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260510_123401_ESP32_schematic_intelligence_self_review.md",
+      "size_bytes": 1292,
+      "title": "ESP32 schematic intelligence self review"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews",
@@ -4967,6 +6479,13 @@
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/2026-05-09_pcb_routing_audit_plan_scorecard.md",
+      "size_bytes": 635,
+      "title": "AI Response Scorecard - PCB Routing Audit Plan"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards",
       "modified": "2026-05-06T15:47:35",
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_scorecard.md",
       "size_bytes": 945,
@@ -5076,6 +6595,13 @@
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260508_routing_work_prep_scorecard.md",
       "size_bytes": 531,
       "title": "AI Response Scorecard"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards",
+      "modified": "2026-05-10T12:34:01",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260510_123401_ESP32_schematic_intelligence_scorecard.md",
+      "size_bytes": 1012,
+      "title": "ESP32 schematic intelligence scorecard"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards",
@@ -5310,6 +6836,13 @@
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/2026-05-09_pcb_routing_audit_plan_hallucination_risk.md",
+      "size_bytes": 827,
+      "title": "Hallucination Risk Log - PCB Routing Audit Plan"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs",
       "modified": "2026-05-06T15:47:47",
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260506_154747_ESP32_CSI_schematic_electrical_footprint_gate_hallucination_risk_log.md",
       "size_bytes": 1079,
@@ -5419,6 +6952,13 @@
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260508_routing_work_prep_hallucination_risk_log.md",
       "size_bytes": 421,
       "title": "Hallucination Risk Log"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs",
+      "modified": "2026-05-10T12:34:01",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260510_123401_ESP32_schematic_intelligence_hallucination_risk_log.md",
+      "size_bytes": 1285,
+      "title": "ESP32 schematic intelligence hallucination risk log"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs",
@@ -5653,6 +7193,13 @@
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/2026-05-09_pcb_routing_audit_plan_claims.md",
+      "size_bytes": 1738,
+      "title": "Claim Evidence Matrix - PCB Routing Audit Plan"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices",
       "modified": "2026-05-06T15:47:35",
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_claim_evidence_matrix.md",
       "size_bytes": 1003,
@@ -5762,6 +7309,13 @@
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260508_routing_work_prep_claim_evidence_matrix.md",
       "size_bytes": 1209,
       "title": "Claim Evidence Matrix"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices",
+      "modified": "2026-05-10T12:34:01",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260510_123401_ESP32_schematic_intelligence_claim_matrix.md",
+      "size_bytes": 1235,
+      "title": "ESP32 schematic intelligence claim matrix"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices",
@@ -5944,6 +7498,27 @@
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-08_real_pcb_repair_pass_1_user_override_exception.md",
       "size_bytes": 1288,
       "title": "Quality Gate Exception - Real PCB Repair Pass 1"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-09_esp_routing_via_user_override_exception.md",
+      "size_bytes": 1981,
+      "title": "Quality Gate Exception - ESP Routing And Via Repair"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-09_pcb_routing_audit_plan_blocked.md",
+      "size_bytes": 790,
+      "title": "PCB Routing Audit Plan Quality Gate Failure"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-09_power_routing_user_override_exception.md",
+      "size_bytes": 1960,
+      "title": "Quality Gate Exception - Power Routing Repair"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures",
@@ -6227,6 +7802,13 @@
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs",
+      "modified": "2026-05-09T17:19:03",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/2026-05-09_pcb_routing_audit_plan_uncertainty.md",
+      "size_bytes": 786,
+      "title": "Uncertainty Log - PCB Routing Audit Plan"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs",
       "modified": "2026-05-06T15:47:35",
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_uncertainty_log.md",
       "size_bytes": 1044,
@@ -6336,6 +7918,13 @@
       "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260508_routing_work_prep_uncertainty_log.md",
       "size_bytes": 470,
       "title": "Uncertainty Log"
+    },
+    {
+      "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs",
+      "modified": "2026-05-10T12:34:01",
+      "path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260510_123401_ESP32_schematic_intelligence_uncertainty_log.md",
+      "size_bytes": 1207,
+      "title": "ESP32 schematic intelligence uncertainty log"
     },
     {
       "folder": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs",

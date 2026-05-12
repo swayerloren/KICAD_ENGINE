@@ -4,6 +4,8 @@
 
 Every connector orientation requires human review unless exact drawing, footprint, mating connector, and mechanical evidence are verified.
 
+Read `08_COMPONENT_DATABASE/mechanical_orientation/README.md` and `connector_orientation_truth.json` before approving connector direction.
+
 ## Required Checks
 
 - Pin 1 location.
@@ -31,3 +33,4 @@ Every connector orientation requires human review unless exact drawing, footprin
 - `CONNECTOR_ORIENTATION_VERIFIED`
 - `MATING_CONNECTOR_UNKNOWN`
 - `FOOTPRINT_PIN_NUMBERING_UNVERIFIED`
+- `NEEDS_HUMAN_REVIEW` when the 3D model is missing or unresolved

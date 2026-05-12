@@ -1,99 +1,86 @@
 # GitHub Push Security Scan
 
-Status: `NO_LIVE_SECRET_BLOCKER_FOUND`
+Generated: `2026-05-12`
 
-Date: `2026-05-08`
+Status: `PASS_WITH_FALSE_POSITIVE_CONTEXT`
 
-## Commands Run
+## Preconditions
 
-- `gh auth status`
-- `git status --short --branch --ignored`
-- exact-token scans for:
-  - `ghp_...`
-  - `github_pat_...`
-  - `sk-...`
-- assignment-style credential scan for:
-  - `API_KEY`
-  - `SECRET`
-  - `TOKEN`
-  - `PASSWORD`
-- `.env` file discovery
-- `*.lck` discovery
-- large-file scan for files over `50 MB`
+- branch: `main`
+- remote: `https://github.com/swayerloren/KICAD_ENGINE.git`
+- `gh` installed: `YES`
+- `gh` authenticated: `YES`
 
-## Secret Scan Result
+## Checks Run
 
-- Exact GitHub/OpenAI-style token matches: `0`
-- Assignment-style credential matches: `0`
-- Real `.env` files found: `0`
-- `.env.example` files found: `1`
+1. requested broad token/secret scan
+2. `.env` / secret-like filename scan
+3. `.sfdx/` presence check
+4. staged-file count check
+5. staged KiCad-design-file check
 
-Observed `.env.example` path:
+## Results
 
-- `03_TOOLS/repos/kicad-mcp-pro/.env.example`
+### Requested broad token/secret scan
 
-This `.env.example` is inside an ignored third-party repo copy and does not block the push.
+Result: `FALSE_POSITIVE_HEAVY`
 
-## Placeholder / Reference Token Noise
+The required patterns:
 
-The broader text scan found placeholder or workflow-reference strings, not live credentials. Examples:
+- `ghp_`
+- `github_pat_`
+- `sk-`
+- `API_KEY`
+- `SECRET`
+- `TOKEN`
+- `PASSWORD`
+- `.env`
 
-- `.github/workflows/release-draft.yml`
-  - `GH_TOKEN: ${{ github.token }}`
-- `02_HISTORY/command_logs/KICAD_MCP_PRO_INSTALL_COMMANDS.md`
-  - placeholder strings such as `replace-with-your-kicad-ipc-token`
-- `02_HISTORY/command_logs/KICAD_HAPPY_INSTALL_COMMANDS.md`
-  - workflow-secret references such as `${{ secrets.OPENAI_API_KEY }}`
-- `32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/esp_rs_esp_rust_board/.github/workflows/issue_handler.yml`
-  - `github-token: ${{ secrets.PAT }}`
+still match many expected non-secret contexts, including:
 
-These strings are not evidence of a live credential in the workspace, but they remain public-release hygiene concerns.
+- security-policy docs
+- installer/build workflow docs
+- supplier connector environment-variable docs
+- masked historical audit summaries
+- migration/source-registry historical path metadata
+- command logs that mention placeholder token names
 
-## KiCad Lock File Result
+No high-confidence live credential was identified.
 
-- Lock files found: `8`
+### `.env` / secret-like filename scan
 
-Representative paths:
+Result: `PASS_WITH_LOCAL_TOOLING_CERT_FILES`
 
-- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/~ESP32_CSI_WIFI_NODE.kicad_pro.lck`
-- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/routing_work/20260508_091428/.../~ESP32_CSI_WIFI_NODE.kicad_pro.lck`
-- additional lock files inside `99_BACKUPS/`
+No committed `.env` files were found.
 
-Current disposition:
+Observed local files were:
 
-- ignored by `.gitignore`
-- do not stage
-- do not push
+- ignored local dev SSL key under `03_TOOLS/node_envs/...`
+- cert bundles under ignored Python environments
+- `.env.example` under `03_TOOLS/repos/kicad-mcp-pro/`
 
-## Large File Result
+These are outside the intended push scope.
 
-- Files over `50 MB` found: `7`
-- All current over-limit files are ignored by `.gitignore`
+### `.sfdx/`
 
-Ignored large-file examples:
+Result: `PASS`
 
-- `installer/build/windows/win-unpacked/KiCad Engine Installer.exe` — `212.79 MB`
-- `installer/node_modules/electron/dist/electron.exe` — `212.79 MB`
-- `03_TOOLS/windows/repos/SikuliX1/.git/objects/pack/...` — `171.50 MB`
-- `installer/build/windows/KiCad-Engine-Installer-0.1.0-win-x64.exe` — `95.59 MB`
-- `03_TOOLS/repos/KiBot/.git/objects/pack/...` — `75.61 MB`
-- `03_TOOLS/python_envs/windows_gui/Lib/site-packages/cv2/cv2.pyd` — `71.35 MB`
-- `05_OUTPUTS/clean_sample_candidate_tests/installed_demos_20260430_173955/.../vme-wren.kicad_pcb` — `68.24 MB`
+- `.sfdx/` exists on disk: `NO`
+- `.gitignore` rule present: `YES`
 
-## Security Decision
+### Staged-file status
 
-- Push blocked by live secrets: `NO`
-- Push blocked by `.env` files: `NO`
-- Push blocked by lock files: `NO`, because they are ignored
-- Push blocked by large files: `NO`, because they are ignored
-- Private push executed after scan: `YES`
+Result: `PASS`
 
-## Remaining Caution
+- staged file count after safe staging cleanup: `1009`
+- staged KiCad design files after safe staging cleanup: `0`
+- staged raw extraction capture files: `0`
+- staged `.sfdx/` paths: `0`
+- staged files over `50 MB`: `0`
 
-Private GitHub push may continue.
+## Conclusion
 
-Public release is still not safe without separate cleanup of:
+No high-confidence secrets were found for the intended push scope.
 
-- placeholder-token historical logs
-- license/redistribution review items
-- excluded binary/sample payload content
+Push may proceed only with explicit safe staging and with KiCad design files
+remaining unstaged.

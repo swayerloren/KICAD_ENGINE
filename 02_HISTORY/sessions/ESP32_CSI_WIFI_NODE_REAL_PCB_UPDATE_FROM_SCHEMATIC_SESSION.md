@@ -1,40 +1,44 @@
-# ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SESSION
+# ESP32_CSI_WIFI_NODE Real PCB Update From Schematic Session
 
-Date: `2026-05-07`
+Date: `2026-05-10`
 
-## Summary
-
-Attempted to begin a real PCB update from schematic for `ESP32_CSI_WIFI_NODE`, but stopped before backup or KiCad file edits because the authoritative schematic-to-PCB gate is still exact `FAIL`.
+Task: evaluate whether the real board may be updated from schematic and perform
+the update only if the schematic-to-PCB preconditions fully pass.
 
 ## Result
 
-- target project exists: `YES`
-- target schematic exists: `YES`
-- target PCB exists: `YES`
-- real PCB update performed: `NO`
-- backup created: `NO`
+- Final classification: `PCB_UPDATE_BLOCKED`
+- Real PCB update performed: `NO`
+- Backup created: `NO`
 - PCB modified: `NO`
+- Schematic modified: `NO`
 
-## Blocking Evidence
+## Why It Stopped
 
-- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/SCHEMATIC_TO_PCB_GATE_STATUS.md`
-  - generated `2026-05-06 18:45:00 -04:00`
-  - `Gate result: FAIL`
-  - `PCB update allowed: NO`
-- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/PCB_LAYOUT_SANDBOX_GATE_STATUS.md`
-  - `Gate result: BLOCKED`
-  - `Real PCB update from schematic allowed: NO`
-- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/layout_sandbox/AUTO_APPROVAL_REPORT.md`
-  - `AUTO_BLOCKED_SCHEMATIC_GATE_FAIL`
-- `03_TOOLS/scripts/project_gate/check_phase_allowed.py --phase 2`
-  - `PHASE_GATE_RESULT: BLOCKED`
+- Native annotation proof is still `FAIL_NOT_GUI_VERIFIED`.
+- Human visual schematic proof is still `FAIL`.
+- Footprint/package gate is still `NEEDS_HUMAN_REVIEW`.
+- Fresh live DRC also shows `13` unconnected items and `22` schematic parity
+  issues on the current board.
 
-## Reason For Stop
+## Important Context
 
-The repo operating rules for this workspace do not allow real PCB update from schematic unless the active project's schematic-to-PCB gate is exactly `PASS`.
+- The phase checker reports Phase 2 as already historically done because the
+  live PCB exists.
+- That does not authorize a fresh PCB sync under the current stricter task
+  preconditions.
 
-The user request asked to proceed even if routing was not ready, but the higher-priority workspace rules still block the real PCB update itself while the upstream gate remains `FAIL`.
+## Evidence Created
 
-## Safety
+- `reports/REAL_PCB_UPDATE_FROM_SCHEMATIC_REPORT.md`
+- `reports/PCB_FILE_CHANGE_PROOF.md`
+- `reports/PCB_UPDATE_DRC_REPORT.md`
+- `reports/PCB_FOOTPRINT_PARITY_REPORT.md`
+- `_verification/pcb_visual/PCB_AFTER_UPDATE_REVIEW.md`
+- `02_HISTORY/sessions/2026-05-10_esp32_csi_wifi_node_real_pcb_update_from_schematic_task_contract.json`
+- `02_HISTORY/sessions/2026-05-10_esp32_csi_wifi_node_real_pcb_update_from_schematic_task_contract_report.md`
 
-No `ESP32_CSI_WIFI_NODE` KiCad design files were modified.
+## Closeout
+
+- Execution contract validation: `PASS`
+- Repo, memory, history, AI-quality, and known-problem indexes rebuilt: `YES`

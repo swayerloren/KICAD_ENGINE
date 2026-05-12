@@ -54,3 +54,8 @@ Each revision must use a new folder such as `rev_A`, `rev_B`, or a dated revisio
 
 Validation scripts may report `PASS` for CSV structure. That does not approve assembly orientation, polarity, substitution, sourcing, or upload.
 
+## Additional Hard Rules
+
+- Fab package validation is not assembly approval.
+- Connector orientation must be verified before export.
+- All exports remain `NOT_FINAL` until final gates pass and LJ approves.

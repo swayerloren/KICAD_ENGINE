@@ -1,32 +1,38 @@
 # Trace Angle Routing Rules
 
-## Scope
+## Canonical Status
 
-These rules apply to all routed PCB copper unless a stricter project-specific rule exists.
+This file is the canonical angle-geometry rule surface for routed copper.
 
 ## Mandatory Rules
 
-- Avoid 90-degree trace corners where practical.
-- Never use acute-angle trace bends sharper than 90 degrees unless there is no alternative and the exception is documented.
-- Use 45-degree bends for normal routing.
-- Use rounded, filleted, or otherwise smooth routing where practical for high-speed, RF, or other sensitive signals.
-- USB `D+`/`D-` and other signal pairs should use clean, smooth, parallel routing where practical.
-- Power traces may be wide, but must still use clean 45-degree transitions instead of crude square turns.
-- `BUCK_SW` and regulator switching loops must be short, compact, and cleanly routed.
-- Do not keep bad routing just because DRC does not flag it.
-- A routed PCB is not ready for review if it visually has crude 90-degree, acute-angle, or awkward routing.
-- If component placement causes ugly routing, move the local components instead of forcing ugly traces.
+- 90-degree routed corners are rejected unless a waiver is explicitly recorded.
+- Acute trace bends are rejected.
+- Default normal routing uses 45-degree bends.
+- USB, RF, and other sensitive nets should use smooth entry, exit, and turning geometry.
+- Power traces may be wider than signal traces, but they still must avoid crude square corners.
+- `BUCK_SW` and other switching-node copper must stay short, compact, and visually clean.
+- If placement forces ugly geometry, fix the local placement instead of forcing bad routing.
+- KiCad DRC pass does not override trace-geometry failure.
 
-## Interpretation
+## Gate Behavior
 
-- Two 45-degree bends are the default best-practice turn for normal routing.
-- 90-degree turns may be manufacturable on modern processes, but they are still discouraged for professional routing quality.
-- Acute angles can create poor copper geometry, manufacturing risk, and signal-quality problems.
-- High-speed and high-frequency routing should prefer smoother geometry over blocky directional changes when the layout allows it.
+- Run `python 03_TOOLS\scripts\pcb_geometry\audit_trace_quality.py --project <ACTIVE_PROJECT_PATH>` before claiming routing quality.
+- A board fails this gate on any of:
+  - `RIGHT_ANGLE_FOUND`
+  - `ACUTE_JOG_FOUND`
+- The PCB quality gate must treat any of the above as blocking.
 
-## Required Review Flags
+## Review Flags
 
 - `TRACE_ANGLE_REVIEW_REQUIRED`
+- `NO_RIGHT_ANGLE_TRACE_CORNERS_REQUIRED`
 - `NO_ACUTE_TRACE_BENDS_REQUIRED`
+- `TRACE_GEOMETRY_AUDIT_REQUIRED`
 - `DRC_PASS_NOT_ROUTING_QUALITY_APPROVAL`
 
+## Source Registry References
+
+- `url_000005` - Nexperia switching-behavior / EMC app note context
+- `url_004540` - JLCPCB PCB design-guideline reference
+- `url_006903` - Eurocircuits PCB design-guideline reference

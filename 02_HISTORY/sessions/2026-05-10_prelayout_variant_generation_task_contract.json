@@ -1,0 +1,44 @@
+{
+  "task_type": "AUDIT_ONLY",
+  "task_summary": "Use the PCB prelayout engine in read-only mode on ESP32_CSI_WIFI_NODE to extract a digital twin, generate three planning variants, project major routes, score the variants, and write variant comparison/orientation/route-feasibility reports without editing KiCad design files.",
+  "project_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE",
+  "target_pcb": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "changed_files": [
+    "03_TOOLS/scripts/pcb_prelayout/_prelayout_common.py",
+    "03_TOOLS/scripts/pcb_prelayout/generate_placement_variants.py",
+    "03_TOOLS/scripts/pcb_prelayout/project_routes_45deg.py",
+    "03_TOOLS/scripts/pcb_prelayout/render_variant_preview.py",
+    "03_TOOLS/scripts/pcb_prelayout/compare_variants.py",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/memory/PROJECT_MEMORY.md",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/digital_twin.json",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/variant_A/placement_variant_with_routes.json",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/variant_B/placement_variant_with_routes.json",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/variant_C/placement_variant_with_routes.json",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/PCB_PRELAYOUT_VARIANT_COMPARISON_REPORT.md",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/PCB_PRELAYOUT_RECOMMENDED_VARIANT.md",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/PCB_PRELAYOUT_CONNECTOR_ORIENTATION_AUDIT.md",
+    "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/PCB_PRELAYOUT_ROUTE_FEASIBILITY_AUDIT.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "This run must remain read-only with respect to .kicad_pcb, .kicad_sch, and .kicad_pro files. Generated outputs belong under the active project's prelayout_variants and reports folders plus required history/quality closeout records.",
+  "evidence": {
+    "backup_created": false,
+    "no_design_change_needed": true,
+    "drc_run": true,
+    "visual_export_attempted": true,
+    "pcb_hash_before": "ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1",
+    "pcb_hash_after": "ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1",
+    "drc_report_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/reports/live_project_state/LIVE_PROJECT_STATE_DRC.json",
+    "visual_paths": [
+      "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/variant_B/preview_top.svg",
+      "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/variant_B/preview_bottom.svg",
+      "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_093811/live_trace_geometry/trace_quality_overlay.svg"
+    ],
+    "unconnected_before": 13,
+    "unconnected_after": 13,
+    "unrouted_before": 3,
+    "unrouted_after": 3
+  }
+}

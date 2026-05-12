@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "status_values": [
+    "PASS",
+    "FAIL",
+    "NEEDS_HUMAN_REVIEW",
+    "UNKNOWN",
+    "NOT_APPLICABLE"
+  ],
+  "hard_rules": [
+    "Connector orientation is not proven by XY position or rotation value alone.",
+    "Barrel jack pin side must not be mistaken for port opening.",
+    "USB-C mouth/opening must face off-board and align with Edge.Cuts.",
+    "Antenna keep-out must face outward.",
+    "If 3D model is missing, mark connector as NEEDS_HUMAN_REVIEW.",
+    "Do not proceed to routing if connector orientation is not proven."
+  ],
+  "rule_families": {
+    "BARREL_JACK": {
+      "family_id": "BARREL_JACK",
+      "front_meaning": "female circular port opening",
+      "rear_meaning": "solder-leg or pin side",
+      "default_rule": {
+        "rule_id": "BARREL_JACK_GENERIC_HORIZONTAL",
+        "zero_deg": {
+          "port_opening_direction": "bottom",
+          "pin_side_direction": "top",
+          "body_side_direction": "bottom",
+          "pcb_edge_marker_direction": "off_board_unknown"
+        },
+        "required_evidence": [
+          "mechanical_truth_catalog",
+          "component_geometry",
+          "3d_model_resolved"
+        ],
+        "notes": "For horizontal barrel jacks on the bottom edge, the female opening faces down/off-board and the solder-leg side faces up/inward."
+      },
+      "specific_footprints": [
+        {
+          "rule_id": "BARREL_JACK_CUI_PJ102AH_HORIZONTAL",
+          "match_any": [
+            "BarrelJack_CUI_PJ-102AH_Horizontal",
+            "PJ-102AH"
+          ],
+          "zero_deg": {
+            "port_opening_direction": "bottom",
+            "pin_side_direction": "top",
+            "body_side_direction": "bottom",
+            "pcb_edge_marker_direction": "off_board_unknown"
+          },
+          "required_evidence": [
+            "mechanical_truth_catalog",
+            "component_geometry",
+            "3d_model_resolved"
+          ],
+          "notes": "This footprint family is treated as bottom-edge/front-down at 0 degrees."
+        }
+      ]
+    },
+    "USB_C": {
+      "family_id": "USB_C",
+      "front_meaning": "receptacle mouth opening",
+      "rear_meaning": "inner pin field and support side",
+      "default_rule": {
+        "rule_id": "USB_C_GENERIC_HORIZONTAL_RECEPTACLE",
+        "zero_deg": {
+          "port_opening_direction": "bottom",
+          "pin_side_direction": "top",
+          "body_side_direction": "bottom",
+          "pcb_edge_marker_direction": "bottom"
+        },
+        "required_evidence": [
+          "mechanical_truth_catalog",
+          "component_geometry",
+          "3d_model_resolved"
+        ],
+        "notes": "USB-C orientation is acceptable only when the receptacle mouth faces off-board and the footprint PCB-edge direction aligns to the serving edge."
+      },
+      "specific_footprints": [
+        {
+          "rule_id": "USB_C_GCT_USB4105_TOPMNT_HORIZONTAL",
+          "match_any": [
+            "USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+            "USB4105"
+          ],
+          "zero_deg": {
+            "port_opening_direction": "bottom",
+            "pin_side_direction": "top",
+            "body_side_direction": "bottom",
+            "pcb_edge_marker_direction": "bottom"
+          },
+          "required_evidence": [
+            "mechanical_truth_catalog",
+            "component_geometry",
+            "3d_model_resolved"
+          ],
+          "notes": "This footprint family is treated as mouth-down/off-board at 0 degrees for bottom-edge use."
+        }
+      ]
+    },
+    "ESP32_MODULE_ANTENNA": {
+      "family_id": "ESP32_MODULE_ANTENNA",
+      "front_meaning": "antenna keepout side",
+      "rear_meaning": "module body side opposite the antenna keepout",
+      "default_rule": {
+        "rule_id": "ESP32_MODULE_GENERIC_TOP_EDGE",
+        "zero_deg": {
+          "antenna_keepout_direction": "top"
+        },
+        "required_evidence": [
+          "mechanical_truth_catalog",
+          "component_geometry"
+        ],
+        "notes": "ESP32 PCB-antenna modules are expected to keep the antenna side outward toward the board edge."
+      },
+      "specific_footprints": [
+        {
+          "rule_id": "ESP32_S3_WROOM_1",
+          "match_any": [
+            "ESP32-S3-WROOM-1"
+          ],
+          "zero_deg": {
+            "antenna_keepout_direction": "top"
+          },
+          "required_evidence": [
+            "mechanical_truth_catalog",
+            "component_geometry",
+            "3d_model_resolved"
+          ],
+          "notes": "The ESP32-S3-WROOM-1 family is treated as antenna-up at 0 degrees."
+        }
+      ]
+    }
+  }
+}

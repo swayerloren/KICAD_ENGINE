@@ -1,0 +1,88 @@
+﻿{
+    "name":  "knowledge_scrape",
+    "status":  "ingest_v2_import_completed",
+    "created_for":  "KiCad and PCB engineering local retrieval and source-traceable AI use",
+    "import_batch":  "ingest_v2",
+    "generated_at":  "2026-05-11T14:42:52.7672910-04:00",
+    "primary_builders":  [
+                             "_scripts/01_build_raw_inventory.ps1",
+                             "_scripts/02_build_url_registry.ps1",
+                             "_scripts/03_classify_copy_markdown.ps1",
+                             "_scripts/04_convert_pdfs_to_markdown.ps1",
+                             "_scripts/05_clean_markdown_for_ai.ps1",
+                             "_scripts/06_build_category_indexes.ps1",
+                             "_scripts/10_import_ingest_v2.ps1"
+                         ],
+    "url_index_csv":  "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\knowledge_scrape\\URL_INDEX.csv",
+    "pdf_index_csv":  "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\knowledge_scrape\\14_datasheets_pdf_markdown\\PDF_INDEX.csv",
+    "import_summary":  {
+                           "unsorted_count":  0,
+                           "rejected_count":  0,
+                           "url_index_rows_before":  10236,
+                           "source_logs_copied":  0,
+                           "url_index_rows_after":  10236,
+                           "review_files":  [
+
+                                            ],
+                           "imported_knowledge_files":  0,
+                           "validation_status":  "pending",
+                           "pdf_originals_copied":  2,
+                           "pdf_markdown_copied":  0,
+                           "warnings":  [
+                                            "Repaired missing or broken existing URL row: url_000004",
+                                            "Repaired missing or broken existing URL row: url_006891",
+                                            "Repaired missing or broken existing URL row: url_008230",
+                                            "Repaired missing or broken existing URL row: url_008231",
+                                            "Repaired missing or broken existing URL row: url_008233",
+                                            "Repaired missing or broken existing URL row: url_009919",
+                                            "Repaired missing or broken existing URL row: url_009920",
+                                            "Repaired missing or broken existing URL row: url_009921"
+                                        ],
+                           "skipped_duplicate_by_hash":  0,
+                           "skipped_duplicate_by_url":  379,
+                           "imported_domain_counts":  {
+                                                          "pcbway.com":  3,
+                                                          "assets.nexperia.com":  1,
+                                                          "ti.com":  3,
+                                                          "espressif.com":  1
+                                                      },
+                           "errors":  [
+
+                                      ]
+                       },
+    "category_counts":  {
+                            "91_rejected_low_value":  151,
+                            "23_rf_wifi_antenna_layout":  0,
+                            "03_kicad_file_formats":  0,
+                            "05_esp32_espressif":  31,
+                            "28_high_reliability_aerospace_workmanship":  2,
+                            "17_case_studies_bad_boards":  3,
+                            "31_compliance_safety_emc":  18,
+                            "04_kicad_libraries_symbols_footprints":  607,
+                            "13_vendor_parts_cad_models":  19,
+                            "20_manufacturer_layout_guides":  0,
+                            "27_test_debug_validation":  0,
+                            "08_power_buck_regulators":  66,
+                            "15_video_reference_index":  159,
+                            "29_standards_ipc_ul_safety":  22,
+                            "12_forums_peer_review":  474,
+                            "24_power_integrity_decoupling":  0,
+                            "07_usb_c_high_speed_esd":  8,
+                            "11_calculators_ipc_reference":  1,
+                            "16_ai_pcb_failure_modes":  8,
+                            "02_kicad_python_api":  10,
+                            "30_eda_automation_verification":  0,
+                            "26_thermal_mechanical_enclosure":  0,
+                            "10_dfm_fabrication_assembly":  5,
+                            "18_case_studies_good_boards":  31,
+                            "01_kicad_core":  5,
+                            "14_datasheets_pdf_markdown":  107,
+                            "25_signal_integrity_high_speed":  0,
+                            "06_microcontrollers":  9,
+                            "22_automotive_harsh_environment":  2,
+                            "09_pcb_layout_grounding_emi_si":  0,
+                            "21_component_package_land_patterns":  0,
+                            "90_unsorted_review":  5,
+                            "19_university_training":  139
+                        }
+}

@@ -1,0 +1,31 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Drain component, datasheet, vendor, CAD-model, and land-pattern knowledge from selected knowledge_scrape folders into canonical docs, indexes, migration history, and license quarantine without editing KiCad design files.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [
+    "03_TOOLS\\scripts\\knowledge_migration\\knowledge_migration_config.json",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_LEDGER.csv",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_DESTINATION_MAP.md",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_STATUS.md",
+    "05_OUTPUTS\\release_readiness\\COMPONENT_DATASHEET_VENDOR_KNOWLEDGE_MOVE_REPORT.md",
+    "06_DATASHEETS\\DATASHEET_INDEX.md",
+    "08_COMPONENT_DATABASE\\COMPONENT_SOURCE_INDEX.md",
+    "25_VENDOR_DATABASE\\VENDOR_PART_NUMBER_CROSS_REFERENCE.md",
+    "29_FOOTPRINT_GAP_ANALYSIS\\LAND_PATTERN_SOURCE_INDEX.md",
+    "30_SUPPLIER_FOOTPRINT_MATCHES\\CAD_MODEL_SOURCE_INDEX.md",
+    "02_HISTORY\\sessions\\COMPONENT_DATASHEET_VENDOR_KNOWLEDGE_MOVE_SESSION.md",
+    "02_HISTORY\\command_logs\\COMPONENT_DATASHEET_VENDOR_KNOWLEDGE_MOVE_COMMANDS.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "596 target source files were moved; 375 to license quarantine and 221 to migration history. No KiCad design files were edited by this task.",
+  "evidence": {
+    "backup_created": false,
+    "backup_path": "N/A",
+    "pcb_hash_before": "N/A",
+    "pcb_hash_after": "N/A",
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

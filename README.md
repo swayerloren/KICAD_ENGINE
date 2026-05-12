@@ -22,10 +22,10 @@ Historical reports may still show original local paths; current work must use re
 2. Extract it.
 3. Open the `KICAD_ENGINE` folder in VS Code.
 4. Open Codex or Claude in that workspace.
-5. Paste this prompt:
+5. Paste this minimal prompt:
 
 ```text
-You are working inside the KICAD_ENGINE repo. Before doing any work, read README.md, ONE_PROMPT_START.md if present, CURRENT_STATUS.md, WORKFLOWS_INDEX.md, TOOLS_INDEX.md, 03_TOOLS/TOOLS_INDEX.md, EXTERNAL_DEPENDENCIES.md, and 00_CODEX_START/START_HERE.md. Run python health_check.py --no-write if available. Use portable repo docs and live discovery scripts as tool truth. Treat 00_CODEX_START/TOOL_INDEX.md as machine-specific inventory only. Use repo-relative paths only. Do not assume the original author's local paths. Detect the local KiCad install if needed. Do not edit KiCad schematic or PCB files until you identify the active project, task type, live project state, and validation requirements. For PCB/routing work, obey the routing rules: no 90-degree bends, no acute angles, no ugly zig-zag traces, no bad pad-entry geometry, and no fabrication outputs without human review. Summarize the current repo/project status and ask what task to run next.
+Read START_HERE_FOR_AI_AGENTS.md and route yourself correctly. Use the task router automatically if I do not provide a giant read-first list. Do not edit KiCad schematic or PCB files until the active project, task type, and relevant gates are confirmed. Summarize the current repo/project status and ask what task to run next.
 ```
 
 Useful follow-up docs:
@@ -42,6 +42,23 @@ Useful follow-up docs:
 - [LOCAL_SETUP_REQUIREMENTS.md](LOCAL_SETUP_REQUIREMENTS.md)
 - [docs/PATH_PORTABILITY.md](docs/PATH_PORTABILITY.md)
 - [docs/HEALTH_CHECK.md](docs/HEALTH_CHECK.md)
+
+## Optional Open-Source Tool Integrations
+
+KiCad Engine now includes a first-party optional-tool integration layer under
+[`03_TOOLS/open_source_integrations`](03_TOOLS/open_source_integrations/README.md).
+
+- It documents approved upstream tools and their licenses.
+- It keeps the default ZIP download usable without large bundled payloads.
+- It provides dry-run install wrappers and a read-only verification script.
+- It does not vendor upstream repos, `node_modules`, virtual environments, or
+  large binaries by default.
+
+Useful entry points:
+
+- [`03_TOOLS/open_source_integrations/TOOL_REGISTRY.md`](03_TOOLS/open_source_integrations/TOOL_REGISTRY.md)
+- [`03_TOOLS/open_source_integrations/TOOLS_APPROVED_FOR_LOCAL_USE.md`](03_TOOLS/open_source_integrations/TOOLS_APPROVED_FOR_LOCAL_USE.md)
+- [`setup/verify_optional_kicad_tools.py`](setup/verify_optional_kicad_tools.py)
 
 ## What KiCad Engine Is
 

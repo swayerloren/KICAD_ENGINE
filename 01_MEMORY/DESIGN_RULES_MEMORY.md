@@ -2,6 +2,121 @@
 
 Durable design-rule preferences and placeholders for KiCad projects. Replace `TBD` values with project-specific or fab-specific values only after they are verified.
 
+## Startup Routing Rule
+
+- Future schematic, PCB, fab, memory/history, and open-source-tool prompts do
+  not require the user to paste a giant `READ FIRST` list.
+- If the prompt says `Read START_HERE_FOR_AI_AGENTS.md and route yourself
+  correctly`, the agent must use `00_CODEX_START/TASK_ROUTER.md` plus the
+  companion task-type tables to determine the correct docs automatically.
+- Router task routes are workflow categories only. They do not replace the
+  execution-contract task types that control whether KiCad design files may
+  change.
+- Optional upstream KiCad-adjacent tools must route through
+  `03_TOOLS/open_source_integrations/` before install suggestions, attribution
+  claims, or bundling decisions are made.
+- The old scrape-derived corpus is not a permanent canonical knowledge home.
+  Future migration work must start from the release-readiness migration ledger
+  plus destination/status files, and must drain content into existing
+  canonical repo areas instead of creating another parallel knowledge folder.
+- After the 2026-05-11 metadata move phase, canonical source-registry and
+  retrieval-index entry points are
+  `10_KNOWLEDGE_BASE/source_registry/` and
+  `10_KNOWLEDGE_BASE/retrieval_indexes/`.
+- After the 2026-05-11 unsorted/rejected drain phase, raw low-value copied
+  content must default to license-review quarantine when redistribution status
+  is unclear. Future agents must not revive public rejected-content payload
+  trees for raw copied captures unless rights are proven.
+- After the 2026-05-12 final `_scripts` drain phase, `knowledge_scrape/`
+  should no longer be treated as a live tool surface. The remaining legacy
+  PowerShell scrape scripts were moved to
+  `02_HISTORY\knowledge_scrape_migration\obsolete_scripts\` as provenance
+  only, and normal agent routing/tool use must continue through the canonical
+  Python migration, indexing, source-registry, and knowledge-base surfaces.
+- After the 2026-05-12 emptying step, the `knowledge_scrape/` folder itself was
+  backed up under `99_BACKUPS\knowledge_scrape_pre_empty\` and removed from
+  the live repo tree. Any later `knowledge_scrape` mention is historical
+  evidence only.
+- After the 2026-05-11 KiCad docs knowledge move phase, canonical guidance for
+  KiCad core workflows, `pcbnew` context rules, KiCad file formats, and KiCad
+  library conventions lives under `10_KNOWLEDGE_BASE/kicad_core/`,
+  `kicad_python_api/`, `kicad_file_formats/`, and `kicad_libraries/`. Raw
+  scraped pages from those categories are not canonical and must remain in
+  license-review quarantine.
+- After the 2026-05-11 component/datasheet/vendor knowledge move phase,
+  canonical source-backed part intelligence starts with `06_DATASHEETS/`,
+  `08_COMPONENT_DATABASE/`, `25_VENDOR_DATABASE/`,
+  `29_FOOTPRINT_GAP_ANALYSIS/`, and `30_SUPPLIER_FOOTPRINT_MATCHES/`. Raw
+  copied vendor pages, CAD portal pages, raw datasheet PDFs, and extracted PDF
+  markdown from legacy migrated sources are not canonical truth and must
+  remain in license-review quarantine.
+- Vendor part numbers are not footprint proof.
+- Supplier CAD models are not automatically trusted.
+- Datasheet PDF redistribution must be license-reviewed before public-path use.
+- After the 2026-05-11 fab/dfm/compliance knowledge move phase, canonical
+  fabrication and compliance guidance starts with
+  `10_KNOWLEDGE_BASE/dfm_assembly/`,
+  `10_KNOWLEDGE_BASE/compliance_emc_safety/`,
+  `24_FAB_PROFILES/`, and the related `09_ACCURACY_ENGINE` export/checklist
+  rules. Raw copied fab-house pages, standards-like captures, and compliance
+  captures from legacy migrated sources are not canonical truth and must
+  remain in license-review quarantine.
+- After the 2026-05-11 case-study/training move phase, forums, videos,
+  university training, and good-board/bad-board examples must be treated as
+  `GUIDANCE_ONLY`. Canonical usage policy now starts with
+  `10_KNOWLEDGE_BASE/training/`, `10_KNOWLEDGE_BASE/peer_review/`,
+  `10_KNOWLEDGE_BASE/case_studies/`, `26_AGENT_QUALITY/`, and
+  `09_ACCURACY_ENGINE/verification_rules/LOW_CONFIDENCE_SOURCE_USAGE_RULES.md`.
+- Low-confidence source material may feed failure-pattern checklists and style
+  scorecards, but it may not approve footprints, routing, connector
+  orientation, EMC, or fabrication readiness by itself.
+- Fab package validation is not assembly approval.
+- Pick-and-place rotations require visual/human review.
+- IPC, UL, and similar standards remain link-only unless redistribution rights
+  are explicitly documented.
+- Open-source KiCad sample learning work must route through
+  `32_OPEN_KICAD_SAMPLE_INTAKE/` first, then use
+  `07_REFERENCE_DESIGNS/` for link-first style comparison rules only after
+  license and quality review.
+- Sample metrics may support comparisons against human-made schematics and PCB
+  layouts, but they are not proof of correctness and must not override
+  datasheets, connector truth, project-specific gates, or DRC/ERC evidence.
+- Do not copy schematic blocks or PCB layouts from sample projects blindly,
+  even when the sample is open-source.
+- The default repo must stay ZIP-portable. Optional tools install into `.tools/`
+  or user-local caches only, and missing tools must fail gracefully.
+- Schematic readiness requires more than ERC. Use
+  `34_SCHEMATIC_QUALITY_ENGINE/` and
+  `03_TOOLS/scripts/schematic_quality/run_schematic_quality_gate.py` for
+  readability, native annotation, footprint readiness, and human visual proof
+  before PCB update claims.
+- Schematic visual cleanup should now route through
+  `03_TOOLS/scripts/schematic_layout/` plus
+  `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_LAYOUT_ALGORITHM.md`,
+  `FUNCTIONAL_BLOCK_TEMPLATES.md`, `LOCAL_WIRING_STYLE_GUIDE.md`, and
+  `VISUAL_READABILITY_SCORECARD.md`.
+- Do not accept label-heavy local blocks when short local wires would be
+  clearer. Repeated same-block labels are a readability blocker, not a style
+  preference.
+- Native KiCad annotation is authoritative. Use the dry-run-first workflow
+  under `33_KICAD_GUI_AUTOMATION/` with `--live`, `--allow-annotation`,
+  `--allow-save`, and `--allow-gui-erc` for full live proof; raw
+  `.kicad_sch` text edits are not annotation proof.
+- Footprint population is not enough for schematic-to-PCB readiness. Use
+  `35_FOOTPRINT_PACKAGE_ENGINE/` plus
+  `python 03_TOOLS/scripts/footprint_package/run_footprint_package_gate.py --project <ACTIVE_PROJECT_PATH> --no-fail`
+  and require `FOOTPRINT_LOCK.csv`, source evidence, package proof, risk
+  classification, and high-risk review evidence for every physical symbol.
+- If the live schematic already has `0` blank footprint fields, a footprint
+  assignment task becomes a proof-and-lock audit, not a blind rewrite task.
+  Do not overwrite high-risk saved footprints unless exact package evidence
+  proves the replacement; record mismatches like wrong module variant or wrong
+  package family as `NEEDS_HUMAN_REVIEW` blockers first.
+- Enforceable PCB quality-gate DRC/parity checks must use explicit KiCad
+  schematic-parity flags. Plain `kicad-cli pcb drc` is not authoritative for
+  parity gating; use `kicad-cli pcb drc --schematic-parity --severity-all
+  --format report` or an equivalent wrapper that proves parity counts.
+
 ## Default Board Layers
 - Default: TBD.
 - Notes: Confirm project requirements and fab stackup before layout.
@@ -19,12 +134,14 @@ Durable design-rule preferences and placeholders for KiCad projects. Replace `TB
 - Prefer smooth, rounded, or filleted routing where practical for high-speed, RF, and sensitive nets.
 - Wide power traces still require clean 45-degree-style transitions and clean pad entry.
 - DRC pass is required, but visual routing quality is a separate gate.
+- A routed region is not acceptable until the read-only geometry audit passes: `python 03_TOOLS\scripts\pcb_geometry\audit_trace_quality.py --project <ACTIVE_PROJECT_PATH>`.
 - If local placement causes ugly routing, move the local cluster instead of forcing crude copper.
 - Route critical nets first, not random low-risk nets.
 - Do not cross RF antenna keepouts.
 - Keep USB D+/D- clean and paired where practical.
 - Keep regulator switching loops short and compact.
 - Avoid unnecessary vias; vias on critical nets should have a reason.
+- Avoid rectangular perimeter routes, excessive detours above `2x` direct span, long TP stubs above `5 mm`, and return-path-splitting traces.
 - Every trace should appear in a trace-by-trace audit before the routing pass is called acceptable.
 - Autorouting output is review-only unless fully audited.
 - Real-board routing extraction must stay read-only by default. Extracted fields that KiCad does not expose cleanly should be marked `NOT_EXTRACTED`, not guessed.
@@ -61,9 +178,12 @@ Durable design-rule preferences and placeholders for KiCad projects. Replace `TB
 - Pin numbering verification: TBD.
 - Keying/polarization requirement: TBD.
 - Notes: Verify pinout, orientation, mating part, retention, current rating, and cable strain relief.
+- Connector orientation is not proven by XY position or rotation value alone.
+- Mechanical connector truth must distinguish the port opening, pin side, body side, and board-edge direction before routing is allowed to start.
 - Barrel jack orientation: for horizontal DC barrel jacks, the female circular opening is the front/mating side and the 3-pin solder-leg side is the rear/back side. For edge placement, the female opening must face off-board and the solder/back side must face inward. For bottom-edge placement, the female opening faces down/off-board and the 3-pin solder side faces up/inward.
 - Barrel jack evidence: do not approve from pad coordinates alone. Require exact 3D model when available, `F.Fab`/`F.SilkS`/`F.CrtYd` footprint geometry, and manufacturer drawing or product-image evidence. If geometry and 3D evidence are missing, classify `BLOCKED_BY_BARREL_JACK_ORIENTATION_EVIDENCE`.
 - USB-C edge orientation: receptacle mouth must face off-board, bottom-edge mouth faces down/off-board, footprint `PCB Edge` line must align to board `Edge.Cuts`, pads must remain on-board, and shell/body overhang must be expected by the footprint. Do not approve USB-C from coordinates alone.
+- If a required connector 3D model is missing or unresolved, keep the connector at `NEEDS_HUMAN_REVIEW` and block routing until human review resolves the proof gap.
 
 ## PCB Layout Sandbox Gate
 - Before any real `.kicad_pcb` edit, create or review a PCB Layout Sandbox report set.
@@ -84,6 +204,15 @@ Durable design-rule preferences and placeholders for KiCad projects. Replace `TB
 - Do not assume the board outline is rectangular; shape must be justified from mechanical, enclosure, connector, routing, and usability constraints.
 - Do not force routing around bad placement. Move the local cluster or reject the variant.
 - Do not claim a layout is professional until sandbox planning, routing feasibility, DRC, and visual review all pass.
+
+## PCB Prelayout Gate
+
+- Before real PCB placement or routing, generate a read-only board digital twin and score at least three placement variants with projected route evidence.
+- Real PCB placement is blocked until the latest `reports/prelayout_engine/*/prelayout_gate_result.json` records at least three generated variants, at least one passing variant, and `placement_gate_status = PASS`.
+- Real PCB routing is additionally blocked until the latest prelayout result records `routing_gate_status = PASS`.
+- A selected or live candidate with connector truth `NEEDS_HUMAN_REVIEW` is still blocking; do not treat plausible edge XY plus rotation as enough proof.
+- Wrong-facing connectors, projected open nets, projected keepout crossings, and false confidence from DRC-with-open-nets are prelayout blockers, not cleanup notes.
+- Treat the prelayout engine as additive to `34_PCB_LAYOUT_SANDBOX`, not as a replacement for sandbox, phase, DRC, or human-review gates.
 
 ## Mounting/Mechanical Rules
 - Mounting hole size: TBD.
@@ -215,3 +344,57 @@ These lessons come from the read-only review of `COMMAND_LINK_VERIFIED_REFERENCE
 - A DRC-clean trace can still fail the trace-by-trace audit if it creates a true acute corner on a power or protection net.
 - When an acute power-branch dogleg is found, prefer a copied-board-proven replacement that converts it to a short vertical-plus-horizontal or 45/135 geometry without increasing via count.
 - Do not churn the rest of the routed board for cosmetic reasons once the single clearly bad acute feature has been removed.
+
+## 2026-05-10: Project-Specific Schematic Intelligence Rule
+
+- Before more schematic repair or any schematic-to-PCB update on an active project, create or refresh a project-local `schematic_intelligence/` layer built from the saved `.kicad_sch` plus current audit/gate evidence.
+- The intelligence layer should document functional blocks, net inventory, footprint state, annotation state, visible review markers, readability defects, and a safe repair sequence.
+- Do not let future sessions infer block intent, review status, or PCB-readiness only from raw schematic text when the project-specific intelligence layer exists.
+
+## 2026-05-10: Schematic Tooling Import Rule
+
+- Any repo script that edits or inspects KiCad schematics through `kicad_sch_api`
+  must either run inside the repo-managed KiCad Python environment or add the
+  repo-local `03_TOOLS/python_envs/kicad-mcp-pro/Lib/site-packages` fallback to
+  `sys.path`.
+- Do not assume the default `python` interpreter on the machine can import
+  `kicad_sch_api` successfully.
+
+## 2026-05-10: Prelayout Variant Truth Rule
+
+- A projected route-angle `PASS` or even a perfect angle score does not make a
+  prelayout variant ready for real PCB use by itself.
+- Real placement remains blocked until connector orientation proof, footprint
+  proof, projected open-net checks, and the live-board gate all pass together.
+- Treat synthetic projected-route success as feasibility evidence only, not as
+  permission to touch the real `.kicad_pcb`.
+
+## 2026-05-10: Final PCB Visual Packet Freshness Rule
+
+- A final PCB visual review packet is not current proof unless its recorded PCB
+  hash matches the live `.kicad_pcb` hash being reviewed.
+- Stale top/bottom renders, close-up crops, or 3D screenshots may be useful for
+  comparison, but they do not satisfy final-review or export gates.
+- If the stored visual packet hash differs from the live PCB hash, classify the
+  visual gate as `STALE_OR_NOT_CURRENT`, not `PASS`.
+
+## 2026-05-11: Engineering Knowledge Migration Rule
+
+- Raw scraped engineering notes must not become a parallel rules system under
+  new scrape-import trees when canonical rule/checklist folders
+  already exist.
+- Normalize enforceable guidance into `09_ACCURACY_ENGINE/`,
+  `34_SCHEMATIC_QUALITY_ENGINE/`, `33_PCB_PRELAYOUT_ENGINE/`, and
+  `03_TOOLS/scripts/pcb_quality/` as appropriate.
+- Move raw scraped captures to migration history or license quarantine, not
+  into source-of-truth rule folders.
+## Latest Durable Rules - 2026-05-11
+
+- Future agents must route startup and knowledge lookup through
+  `START_HERE_FOR_AI_AGENTS.md`, `00_CODEX_START/TASK_ROUTER.md`, and the
+  canonical `TASK_TYPE_TO_*_MAP.md` files, not through drained legacy scrape
+  entrypoint concepts.
+- Calculator outputs are first-pass aids only. Record the source/formula and
+  validate the result independently before using it as engineering evidence.
+- Optional or first-party automation results are not proof by themselves; they
+  require KiCad ERC/DRC, parity, or another independent check.

@@ -1,0 +1,20 @@
+{
+  "sample_id": "example_sample_id",
+  "project_name": "Example KiCad Project",
+  "source_url": "https://example.com/upstream/project",
+  "source_host": "example.com",
+  "source_owner": "example-owner",
+  "license_name": "UNKNOWN",
+  "license_status": "NEEDS_HUMAN_LICENSE_REVIEW",
+  "public_bundle_status": "EXCLUDED_BY_DEFAULT",
+  "candidate_status": "CANDIDATE_LINK_ONLY",
+  "human_review_required": true,
+  "kicad_files_present": {
+    "kicad_pro": false,
+    "kicad_sch": false,
+    "kicad_pcb": false
+  },
+  "estimated_size_class": "UNKNOWN",
+  "notes": "Record the source, scope, and why the sample may be useful.",
+  "created_at": "2026-05-10T00:00:00Z"
+}

@@ -11,6 +11,7 @@ Status: read-only KiCad library inventory and unverified footprint backlog syste
 - Installed KiCad footprint and symbol inventory summaries.
 - Candidate footprint gap reports.
 - High-risk footprint warning lists.
+- Land-pattern source indexes and source-backed gap rules.
 - Connector, MCU/module, and power package gap reports.
 - Read-only scripts that inspect installed KiCad libraries and compare them to component database records.
 - Generated JSON and Markdown indexes under `GENERATED_INDEXES/`.
@@ -29,9 +30,17 @@ Status: read-only KiCad library inventory and unverified footprint backlog syste
 - Treat every footprint match as `UNVERIFIED` until checked against the exact manufacturer package drawing.
 - Treat connector, RF, USB-C, PMOS, ESD, regulator, mounting-hole, and test-pad footprints as high risk.
 - Use installed KiCad library inventory as candidate evidence only, not approval evidence.
+- Treat vendor CAD portals and supplier package text as candidate context only.
 - Do not modify `C:\Program Files\KiCad` or user global KiCad library tables.
 - Route exact verification evidence to `08_COMPONENT_DATABASE/16_VERIFICATION_RECORDS/` when a footprint is promoted beyond candidate status.
 - Use `31_PLAYWRIGHT_RESEARCH_PIPELINE` screenshot/source-link evidence only to support candidate investigation. Browser-captured package text does not verify a footprint.
+
+## Canonical Files
+
+- [FOOTPRINT_GAP_RULES.md](FOOTPRINT_GAP_RULES.md)
+- [LAND_PATTERN_SOURCE_INDEX.md](LAND_PATTERN_SOURCE_INDEX.md)
+- [HIGH_RISK_FOOTPRINT_GAPS.md](HIGH_RISK_FOOTPRINT_GAPS.md)
+- [footprint_gap_index.json](footprint_gap_index.json)
 
 ## SAFE_EDIT_RULES
 

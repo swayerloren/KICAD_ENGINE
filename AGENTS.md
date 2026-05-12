@@ -5,6 +5,11 @@ Strict operating rules for Codex and other AI agents in this KiCad engineering w
 ## Mandatory Startup Order
 At the start of every session, Codex must read this `AGENTS.md` file first.
 
+Exception: if the user explicitly says `Read START_HERE_FOR_AI_AGENTS.md first`,
+Codex may read that one short front-door router first, then must immediately
+read `AGENTS.md` and continue the full startup chain. `START_HERE_FOR_AI_AGENTS.md`
+does not replace `AGENTS.md`.
+
 After reading `AGENTS.md`, Codex must read the following files in this exact order before touching KiCad project files:
 1. `README_GPT.md`
 2. `FOR CHAT GPT.MD`
@@ -43,8 +48,47 @@ Before choosing tools, editing repo structure, making KiCad engineering claims, 
 - `00_CODEX_START/AI_CLOSEOUT_SCORECARD_RULES.md`
 - `00_CODEX_START/KICAD_PIPELINE_STARTUP_RULES.md`
 - `00_CODEX_START/KICAD_PHASE_ORDER.md`
+- `00_CODEX_START/TASK_ROUTER.md`
+- `00_CODEX_START/TASK_TYPE_TO_REQUIRED_DOCS.md`
+- `00_CODEX_START/TASK_TYPE_TO_ALLOWED_ACTIONS.md`
+- `00_CODEX_START/TASK_TYPE_TO_BLOCKERS.md`
+- `00_CODEX_START/TASK_TYPE_TO_OUTPUTS.md`
+- `00_CODEX_START/KICAD_ENGINE_CRITICAL_PATH.md`
+- `00_CODEX_START/AI_AGENT_FAST_CONTEXT.md`
 
 After startup files are read, Codex must review relevant global and project memory/history before touching KiCad files.
+
+## Automatic Task Routing
+
+If a user prompt asks for schematic, PCB, fabrication, memory/history, or
+open-source tool work and does not list read-first files, Codex must use:
+
+- `00_CODEX_START/TASK_ROUTER.md`
+- `00_CODEX_START/TASK_TYPE_TO_REQUIRED_DOCS.md`
+- `00_CODEX_START/TASK_TYPE_TO_ALLOWED_ACTIONS.md`
+- `00_CODEX_START/TASK_TYPE_TO_BLOCKERS.md`
+- `00_CODEX_START/TASK_TYPE_TO_OUTPUTS.md`
+
+to determine the required docs automatically.
+
+Do not ask the user to paste a giant startup list when the router can derive
+the correct one.
+
+## Legacy Migration Residue
+
+Legacy scrape-derived residue is not part of the normal startup or engineering
+routing path.
+
+- Use the canonical startup, rule, tool, and knowledge surfaces under
+  `00_CODEX_START/`, `09_ACCURACY_ENGINE/`, `10_KNOWLEDGE_BASE/`,
+  `06_DATASHEETS/`, `08_COMPONENT_DATABASE/`, and the related tool folders.
+- Treat historical migration provenance, quarantined copied content, and
+  release-readiness migration audits as history/evidence only.
+- The retired `knowledge_scrape/` source folder is not part of the live repo
+  workflow. Any remaining mentions of it are historical evidence only and must
+  not be used as a routing or storage destination.
+- Never modify active KiCad project files until the repo sandbox and
+  verification gates pass.
 
 ## Workspace Boundaries
 - Active KiCad projects belong under `04_KICAD_PROJECTS/active/`.
@@ -82,7 +126,14 @@ After startup files are read, Codex must review relevant global and project memo
 - Playwright-assisted public-page research policies, source profiles, screenshot evidence rules, controlled target lists, dry-run browser research scripts, and normalized evidence templates belong under `31_PLAYWRIGHT_RESEARCH_PIPELINE/`.
 - Open KiCad sample project intake records, license screening, imported-original evidence copies, normalized sample copies, review reports, attribution records, and benchmark-candidate promotion notes belong under `32_OPEN_KICAD_SAMPLE_INTAKE/`.
 - KiCad GUI automation policies, native schematic action workflows, Windows Eeschema detection scripts, screenshot helpers, and safety-gated GUI action wrappers belong under `33_KICAD_GUI_AUTOMATION/`.
+- PCB pre-layout, digital-twin extraction, connector mechanical truth, projected-route studies, and pre-placement/pre-routing gate rules belong under `33_PCB_PRELAYOUT_ENGINE/`.
+- Schematic readability, block-flow, annotation-proof, footprint-readiness, and schematic-to-PCB quality-gate rules belong under `34_SCHEMATIC_QUALITY_ENGINE/`.
+- Footprint assignment proof, package evidence, lock-file rules, and
+  footprint/package gate logic belong under `35_FOOTPRINT_PACKAGE_ENGINE/`.
 - PCB layout sandbox rules, variant planning, board-shape reasoning, projected routing studies, and pre-PCB-edit layout templates belong under `34_PCB_LAYOUT_SANDBOX/`.
+- Project lock/checklist/report templates belong under
+  `04_KICAD_PROJECTS/_templates/`; project-workspace templates remain under
+  `04_KICAD_PROJECTS/templates/`.
 - Backups before automated edits belong under `99_BACKUPS/pre_codex_edits/`.
 - MCP permission changes require explicit approval. The existing project-scoped `kicad-mcp-pro` configuration is analysis/safe mode only.
 
@@ -135,14 +186,30 @@ Rules:
 - Prefer read-only inspection before edits.
 - Prefer copied project workspaces over original projects.
 - Prefer `NOT_FINAL` outputs until the verification gate passes.
+- If the prompt omits route-specific read-first files, classify it with
+  `00_CODEX_START/TASK_ROUTER.md` before reading deeper task docs.
 - For full project progression from schematic checks through NOT_FINAL fabrication export, use `.prompts/kicad_pipeline/`, `00_CODEX_START/KICAD_PIPELINE_STARTUP_RULES.md`, `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`, and `09_ACCURACY_ENGINE/checklists/FULL_PIPELINE_GATE_CHECKLIST.md`.
 - For every PCB pipeline phase, apply `00_CODEX_START/KICAD_PHASE_ORDER.md`, `09_ACCURACY_ENGINE/workflows/MANDATORY_KICAD_PHASE_GATE.md`, `09_ACCURACY_ENGINE/verification_rules/NO_PHASE_SKIPPING_RULES.md`, and `09_ACCURACY_ENGINE/checklists/PCB_PHASE_GATE_CHECKLIST.md`. When possible, run `python 03_TOOLS/scripts/project_gate/check_phase_allowed.py --project <ACTIVE_PROJECT_PATH> --phase <PHASE>` before starting the phase. The phase checker must build or read `reports/LIVE_PROJECT_STATE.json`, detect stale operational reports, and ignore stale `NO_PCB` or `0 footprints` claims when live KiCad files prove otherwise.
 - For every meaningful repo task on an active project, apply `00_CODEX_START/PROMPT_COUNTER_RULES.md`. Increment the project `memory/PROMPT_COUNTER.md`; after 5 meaningful repo tasks, block new engineering work until `python 03_TOOLS/scripts/maintenance/run_maintenance_cycle.py --project <ACTIVE_PROJECT_PATH>` runs and the counter is reset.
 - For every meaningful repo task, declare exactly one task type using `03_TOOLS/scripts/execution_contract/README.md` and the task contract schema. Edit-required task types must prove engineering artifact change or fail explicitly.
 - Before any PCB update from schematic, placement, routing, zone creation, or PCB manufacturing-style output, read `09_ACCURACY_ENGINE/workflows/SCHEMATIC_TO_PCB_GATE_WORKFLOW.md`, `09_ACCURACY_ENGINE/workflows/AUTO_PCB_START_WORKFLOW.md`, `09_ACCURACY_ENGINE/checklists/SCHEMATIC_READY_FOR_PCB_CHECKLIST.md`, `09_ACCURACY_ENGINE/checklists/PCB_UPDATE_FROM_SCHEMATIC_CHECKLIST.md`, `09_ACCURACY_ENGINE/checklists/AUTO_PCB_START_CHECKLIST.md`, `09_ACCURACY_ENGINE/verification_rules/SCHEMATIC_TO_PCB_BLOCKERS.md`, and the active project's `reports/SCHEMATIC_TO_PCB_GATE_STATUS.md` plus `reports/PCB_LAYOUT_SANDBOX_GATE_STATUS.md`.
+- Before footprint assignment, package-proof review, or schematic-to-PCB
+  footprint readiness claims, read `35_FOOTPRINT_PACKAGE_ENGINE/README.md`,
+  `FOOTPRINT_ASSIGNMENT_WORKFLOW.md`, `FOOTPRINT_EVIDENCE_RULES.md`,
+  `HIGH_RISK_FOOTPRINT_RULES.md`, `FOOTPRINT_LOCK_FILE_RULES.md`,
+  `PACKAGE_DRAWING_PROOF_RULES.md`, and run or review
+  `python 03_TOOLS/scripts/footprint_package/run_footprint_package_gate.py --project <ACTIVE_PROJECT_PATH> --no-fail`.
 - Before PCB placement on compact ESP32/STM32-style dev boards, read `09_ACCURACY_ENGINE/pcb_rules/PILL_STYLE_DEV_BOARD_LAYOUT_RULES.md`, `CONNECTOR_EDGE_ORIENTATION_RULES.md`, `TEST_PAD_PLACEMENT_RULES.md`, `ESP32_RF_KEEP_OUT_PLACEMENT_RULES.md`, `PCB_MECHANICAL_CLEARANCE_RULES.md`, and `09_ACCURACY_ENGINE/checklists/PILL_STYLE_PLACEMENT_CHECKLIST.md`. Placement is not ready if connector mouths face the wrong edge, test pads are mixed into component clusters, RF keepouts are blocked, four holes are used on a narrow board without proven clearance, any component/courtyard/text/pad overlap exists, or the board has unexplained dead area. Routing remains blocked until LJ visually approves placement.
+- Before any real PCB placement or routing, read `33_PCB_PRELAYOUT_ENGINE/README.md`, `PCB_PRELAYOUT_ENGINE_WORKFLOW.md`, `PCB_VARIANT_PLANNING_RULES.md`, `PCB_VARIANT_SCORING_RULES.md`, `TRACE_PROJECTION_RULES.md`, `PLACEMENT_TO_ROUTING_FEASIBILITY_GATE.md`, and `README_FOR_CODEX_AND_CLAUDE.md`, then run or review `python 03_TOOLS/scripts/pcb_prelayout/run_prelayout_gate.py --project <ACTIVE_PROJECT_PATH>`. Real PCB placement is blocked until the latest prelayout result records at least three variants, at least one passing variant, and `placement_gate_status` exactly `PASS`. Real PCB routing is additionally blocked until the latest prelayout result records `routing_gate_status` exactly `PASS`.
 - Before any real `.kicad_pcb` edit, read `34_PCB_LAYOUT_SANDBOX/README.md`, `PCB_LAYOUT_SANDBOX_RULES.md`, `PCB_VARIANT_WORKFLOW.md`, `CONNECTOR_ORIENTATION_RULES.md`, `RF_ANTENNA_KEEP_OUT_RULES.md`, `BOARD_SHAPE_AND_MECHANICAL_RULES.md`, `ROUTING_FEASIBILITY_RULES.md`, `AUTO_SANDBOX_APPROVAL_RULES.md`, and `AUTO_APPROVAL_STATUS_CODES.md`. Create or review at least three layout variants, one variant scorecard, one selected layout plan, and one auto-approval or auto-blocked report before real PCB update, placement, or routing work.
 - Before treating a schematic as layout-ready, run or review current reports from `03_TOOLS/scripts/kicad_schematic_checks/check_schematic_annotation.py`, `check_schematic_completeness.py`, `check_bom_lock_alignment.py`, and `check_needs_review_markers.py`.
+- Before schematic creation, schematic readability cleanup, or schematic-to-PCB
+  readiness claims, read `34_SCHEMATIC_QUALITY_ENGINE/README.md`,
+  `SCHEMATIC_READABILITY_STANDARD.md`, `SCHEMATIC_BLOCK_LAYOUT_RULES.md`,
+  `SCHEMATIC_WIRING_VS_LABEL_RULES.md`, `SCHEMATIC_ANNOTATION_GATE.md`,
+  `SCHEMATIC_FOOTPRINT_GATE.md`, `SCHEMATIC_VISUAL_AUDIT_RULES.md`, and
+  `SCHEMATIC_TO_PCB_READY_GATE.md`, then run or review
+  `python 03_TOOLS/scripts/schematic_quality/run_schematic_quality_gate.py --project <ACTIVE_PROJECT_PATH> --no-fail`.
 - Before treating close-up visual review as complete, run or review `03_TOOLS/kicad/run_schematic_visual_check.ps1` outputs, including `_verification/schematic_visual/crops` and `reports/CLOSE_UP_REVIEW.md`. Automated crop `PASS` is not `VISUAL_PASS`; agents must also inspect rendered PNG/crop evidence against `09_ACCURACY_ENGINE/verification_rules/HUMAN_READABLE_SCHEMATIC_RULES.md`, `VISUAL_PASS_IS_NOT_AUTOMATED_PASS.md`, and `09_ACCURACY_ENGINE/checklists/SCHEMATIC_HUMAN_READABILITY_CHECKLIST.md`.
 - Read relevant `09_ACCURACY_ENGINE/` rules before creating schematics, selecting symbols, selecting footprints, creating PCBs, or preparing release packages.
 - Read relevant `26_AGENT_QUALITY/` quality-gate rules before making engineering claims about components, datasheets, symbols, footprints, schematics, PCBs, BOMs, or fab outputs.
@@ -151,6 +218,11 @@ Rules:
 - Read relevant `12_REFERENCE_DESIGN_LIBRARY/` records and public-source rules before using a reference design as evidence or adapting a reference pattern.
 - Read `13_PART_INGESTION/` before adding a new part from a datasheet, source URL, or user-provided local document.
 - Read `14_LAYOUT_AUTOMATION/` before suggesting placement automation, routing automation, FreeRouting integration, constraint extraction, or layout review workflows.
+- Read `03_TOOLS/open_source_integrations/README.md`,
+  `TOOL_REGISTRY.md`, `INSTALL_POLICY.md`, `PORTABLE_TOOL_POLICY.md`,
+  `LICENSE_AND_ATTRIBUTION_RULES.md`, `TOOLS_APPROVED_FOR_LOCAL_USE.md`, and
+  `TOOLS_NOT_BUNDLED_REASON.md` before evaluating, recommending, wrapping, or
+  documenting optional third-party KiCad-adjacent tools.
 - Read `15_BENCHMARKS/` before running, scoring, or comparing KiCad Engine benchmark tasks.
 - Read `28_SUPPLIER_INGESTION/SOURCE_POLICY.md`, `API_KEY_HANDLING.md`, and `SUPPLIER_CONNECTOR_STANDARD.md` before importing supplier, distributor, stock, pricing, SKU, lifecycle, or source-link data.
 - Read `29_FOOTPRINT_GAP_ANALYSIS/README.md` and `INDEX.md` before using installed KiCad footprint candidates, footprint gap reports, or missing-footprint backlog outputs.
@@ -158,6 +230,9 @@ Rules:
 - Read `31_PLAYWRIGHT_RESEARCH_PIPELINE/SOURCE_POLICY.md`, `TERMS_AND_RATE_LIMIT_RULES.md`, `PLAYWRIGHT_USAGE_RULES.md`, and the relevant `source_profiles/*.profile.md` before using browser-assisted supplier, datasheet, vendor, part-number, or footprint research.
 - Read `32_OPEN_KICAD_SAMPLE_INTAKE/README.md`, `SOURCE_SELECTION_RULES.md`, `LICENSE_SCREENING_RULES.md`, `SAMPLE_IMPORT_WORKFLOW.md`, `SAMPLE_REVIEW_WORKFLOW.md`, and `SAMPLE_PROMOTION_RULES.md` before finding, importing, copying, reviewing, or promoting open KiCad sample projects.
 - Read `33_KICAD_GUI_AUTOMATION/README.md`, `KICAD_GUI_AUTOMATION_RULES.md`, `KICAD_WINDOW_STATE_RULES.md`, `KICAD_NATIVE_ANNOTATION_WORKFLOW.md`, and `KICAD_GUI_SAFETY_GATES.md` before using GUI automation, native KiCad annotation, GUI save, GUI ERC, or screenshots as evidence.
+- For closed-state native annotation recovery, also read
+  `33_KICAD_GUI_AUTOMATION/KICAD_AUTO_OPEN_PROJECT_WORKFLOW.md`,
+  `KICAD_ANNOTATION_DO_AND_DO_NOT.md`, and `KICAD_GUI_ACTION_MATRIX.md`.
 - Read `03_TOOLS/kicad/KICAD_NATIVE_ACTIONS_NOT_SUPPORTED_BY_CLI.md` before using raw file edits for annotation, GUI-visible ERC state, screenshot evidence, or other native KiCad actions.
 - Read `00_CODEX_START/STRUCTURE_STANDARD.md`, `00_CODEX_START/FOLDER_ROUTING_RULES.md`, and `00_CODEX_START/REPO_STRUCTURE_INDEX.md` before creating, moving, or reorganizing top-level repo files.
 - Read `00_CODEX_START/CONTROL_PLANES.md` before choosing Windows GUI control or Linux/headless workflows.
@@ -166,8 +241,19 @@ Rules:
 - Do not install tools.
 - Do not clone repositories.
 - Do not configure MCP servers yet.
+- Do not vendor large optional-tool payloads, cloned repos, `node_modules`,
+  virtual environments, or downloaded binaries into tracked Git content unless
+  LJ explicitly approves that exact bundle.
 - Do not modify KiCad files unless the active project is identified in `00_CODEX_START/CURRENT_PROJECT.md`.
 - Do not edit `.kicad_sch`, `.kicad_pcb`, `.kicad_pro`, symbol libraries, footprint libraries, or manufacturing output files unless the active project is identified.
+- Do not skip the automatic task router when the user requests schematic, PCB,
+  fab, GUI annotation, memory/history, or open-source tool work without naming
+  the read-first docs.
+- Do not begin real PCB placement or routing until the active project's latest `reports/prelayout_engine/*/prelayout_gate_result.json` proves at least three generated variants, at least one passing variant, and `placement_gate_status` exactly `PASS`.
+- Do not begin real PCB routing until the active project's latest `reports/prelayout_engine/*/prelayout_gate_result.json` also records `routing_gate_status` exactly `PASS`.
+- Do not move from schematic to PCB until every physical symbol has a
+  non-blank footprint, a `FOOTPRINT_LOCK.csv` row, source evidence, package
+  proof, risk classification, and required high-risk review evidence.
 - Do not edit a real `.kicad_pcb` until the active project has a PCB Layout Sandbox report set with at least three variants, a variant scorecard, a selected layout plan, connector-orientation planning, antenna-keepout planning, board-shape/dimension planning, routing-feasibility evidence, and an auto-approval result of `AUTO_APPROVED_FOR_PCB_WORK` recorded in `reports/PCB_LAYOUT_SANDBOX_GATE_STATUS.md`.
 - Do not update PCB from schematic, create or update `.kicad_pcb`, apply board outline, place fixed mechanical components, place main component groups, route traces, create zones, or generate PCB manufacturing outputs unless the active project's `reports/SCHEMATIC_TO_PCB_GATE_STATUS.md` exists and its gate result is exactly `PASS`, `reports/PCB_LAYOUT_SANDBOX_GATE_STATUS.md` exists and its gate result is exactly `PASS`, and the `AUTO_PCB_START_WORKFLOW.md` preconditions are satisfied.
 - Do not skip KiCad PCB phases. Missing `.kicad_pcb` blocks every phase after PCB creation/update from schematic. Missing `reports/PCB_SYNC_STATUS.md` blocks placement, routing, JLCPCB review, production review, export, upload feedback, and signoff. Missing DRC or no-unrouted-net evidence blocks JLCPCB review, production review, export, upload feedback, and signoff.
@@ -186,6 +272,9 @@ Rules:
 - Do not download, clone, import, bundle, or promote open KiCad sample projects unless the source URL, attribution, license status, and public-bundle eligibility are recorded under `32_OPEN_KICAD_SAMPLE_INTAKE/`.
 - Do not edit `32_OPEN_KICAD_SAMPLE_INTAKE/imported_originals/` directly. Create a normalized copy under `32_OPEN_KICAD_SAMPLE_INTAKE/normalized_samples/` before analysis, repair, benchmark use, or generated review outputs.
 - Do not treat raw `.kicad_sch` text edits as proof of schematic annotation. For annotation tasks, use verified KiCad-native annotation through the GUI automation gate or stop and instruct LJ to run KiCad `Tools -> Annotate Schematic -> Re-annotate all symbols -> Save -> Run ERC` manually.
+- Do not run live KiCad GUI annotation/save/ERC unless the workflow uses the
+  explicit flag gates: `--live`, `--allow-annotation`, `--allow-save`, and
+  `--allow-gui-erc` as applicable.
 - Do not save, annotate, run GUI ERC, or otherwise control KiCad GUI when the Eeschema title begins with `*` unless LJ explicitly decides the unsaved GUI state should be kept, a backup exists, screenshots are captured, and the GUI path exactly matches the active project schematic.
 - Do not store passwords, API keys, license keys, private tokens, or credentials in memory or history.
 
@@ -196,6 +285,9 @@ Before editing KiCad project files, Codex must:
 - Create or confirm a backup in `99_BACKUPS/pre_codex_edits/`.
 - State the active project, path, files likely to change, verification plan, and rollback plan.
 - Check relevant memory and history for prior constraints, decisions, review notes, and open issues.
+- Confirm the user request has been routed through `00_CODEX_START/TASK_ROUTER.md`
+  and the route-specific required docs have been read.
+- For real PCB placement or routing, confirm the latest `reports/prelayout_engine/*/prelayout_gate_result.json` exists and records `variant_count >= 3`, `passing_variant_count >= 1`, and `placement_gate_status = PASS`; for routing, also confirm `routing_gate_status = PASS`.
 - For `.kicad_pcb` edits, confirm the active project has sandbox variant evidence, a variant scorecard, a selected layout plan, board dimensions, connector-orientation evidence, antenna-keepout evidence when required, routing-feasibility evidence, and an auto-approval result of `AUTO_APPROVED_FOR_PCB_WORK` in `reports/PCB_LAYOUT_SANDBOX_GATE_STATUS.md` before touching the board file.
 
 ## Verification Requirements
@@ -207,7 +299,17 @@ Before editing KiCad project files, Codex must:
 - Treat generated manufacturing-style outputs as `NOT_FINAL` until the full verification gate passes.
 - Treat the 17-stage pipeline in `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md` as mandatory for future KiCad projects unless the user approves a logged exception.
 - Treat schematic-to-PCB transition as blocked until annotation, ERC, full-page visual export, close-up visual review, electrical audit, BOM lock audit, footprint/package drawing audit, connector orientation review, polarity review, and all high-risk `NEEDS_REVIEW` checks pass in the active project's `SCHEMATIC_TO_PCB_GATE_STATUS.md`.
+- Treat footprint/package proof as a separate explicit gate. Blank footprints,
+  missing `FOOTPRINT_LOCK.csv`, missing source evidence, missing package proof,
+  missing PMOS pin-mapping proof, missing connector orientation proof, or
+  unresolved high-risk review status block PCB update.
+- Treat schematic quality as a separate explicit gate. ERC pass, crop
+  generation, or saved-file reference scans do not prove schematic readability.
+  Native annotation proof, footprint readiness, block-flow readability,
+  wire-vs-label balance, overlap audit, and human visual proof are all required
+  before PCB update may be treated as allowed.
 - Treat real PCB update from schematic and PCB placement as additionally blocked until the active project's `reports/PCB_LAYOUT_SANDBOX_GATE_STATUS.md` is exactly `PASS`, which requires at least three variants, a scorecard, a selected layout plan, connector-orientation planning, antenna-keepout planning, board-shape/dimension planning, routing-feasibility evidence, and sandbox auto-approval status `AUTO_APPROVED_FOR_PCB_WORK`.
+- Treat PCB prelayout as a separate explicit gate. Real PCB placement requires a fresh `reports/prelayout_engine/*/prelayout_gate_result.json` with `variant_count >= 3`, `passing_variant_count >= 1`, and `placement_gate_status` exactly `PASS`. Real PCB routing additionally requires `routing_gate_status` exactly `PASS`.
 - Treat `AUTO_APPROVED_FOR_PCB_WORK` as permission to enter only `AUTO_PCB_START_WORKFLOW.md`: PCB sync, board outline, fixed-mechanical placement, main-group placement, DRC, and placement-visual evidence. It is not permission for final routing, fab export, or fabrication-ready claims.
 - Treat schematic annotation and completeness as explicit evidence gates: unresolved placeholder references, duplicate references, missing reference fields, blank values, missing expected BOM-lock items, missing required functional blocks, unassigned physical footprints, and high-risk parts without verification status block PCB update.
 - Treat KiCad GUI annotation as a separate native-state gate when LJ reports GUI-visible question-mark references. Saved-file parsing, regex scans, or CLI ERC do not override what the open KiCad GUI shows when its state is unsaved or disputed.

@@ -1,0 +1,22 @@
+# SKiDL
+
+- Tool name: `SKiDL`
+- GitHub/source URL: `https://github.com/devbisme/skidl`
+- License: `MIT`
+- Purpose: Python-based circuit capture and circuit reasoning toolkit
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - reason about circuits in code
+  - prototype circuits outside production KiCad files
+  - lint or compare design intent in sandbox workflows
+- Exact commands if known:
+  - `pip install skidl`
+- Risks and limitations:
+  - can generate circuit content instead of only inspecting it
+  - not authoritative evidence for an existing KiCad schematic by itself
+- Can edit KiCad files: `yes, indirectly through generation workflows`
+- Read-only safe: `yes, for linting or reasoning workflows`
+- Allowed in CI: `yes`
+- Allowed in ZIP release: `no`

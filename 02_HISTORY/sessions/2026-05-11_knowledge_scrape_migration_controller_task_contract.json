@@ -1,0 +1,30 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Create a dry-run-first migration controller, inventory, ledger, and destination map for draining knowledge_scrape into canonical KiCad Engine repo folders without moving source files yet.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [
+    "03_TOOLS\\scripts\\knowledge_migration\\README.md",
+    "03_TOOLS\\scripts\\knowledge_migration\\inventory_knowledge_scrape.py",
+    "03_TOOLS\\scripts\\knowledge_migration\\classify_knowledge_scrape_items.py",
+    "03_TOOLS\\scripts\\knowledge_migration\\move_knowledge_item.py",
+    "03_TOOLS\\scripts\\knowledge_migration\\validate_knowledge_scrape_empty.py",
+    "03_TOOLS\\scripts\\knowledge_migration\\rebuild_knowledge_indexes.py",
+    "03_TOOLS\\scripts\\knowledge_migration\\knowledge_migration_config.json",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_FILE_INVENTORY_BEFORE.csv",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_LEDGER.csv",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_DESTINATION_MAP.md",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_STATUS.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "01_MEMORY\\DESIGN_RULES_MEMORY.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Repo tooling and migration-planning task only. Do not move knowledge_scrape source files yet, and do not modify KiCad design files.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": false,
+    "visual_export_attempted": false,
+    "no_design_change_needed": true
+  }
+}

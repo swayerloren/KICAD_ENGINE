@@ -1,0 +1,21 @@
+# kicad-happy
+
+- Tool name: `kicad-happy`
+- GitHub/source URL: `https://github.com/aklofas/kicad-happy`
+- License: `MIT`
+- Purpose: helper toolkit for KiCad data extraction and manipulation workflows
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - structured read-only data extraction
+  - helper tooling for KiCad audits
+  - small glue workflows where direct repo scripts are awkward
+- Exact commands if known:
+  - `pip install kicad-happy`
+- Risks and limitations:
+  - command surface should be reviewed before enabling write workflows
+- Can edit KiCad files: `yes or workflow-dependent`
+- Read-only safe: `yes for read-only scripts`
+- Allowed in CI: `yes`
+- Allowed in ZIP release: `no`

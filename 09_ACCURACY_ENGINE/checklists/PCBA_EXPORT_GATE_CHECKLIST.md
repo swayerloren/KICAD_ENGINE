@@ -16,6 +16,8 @@ Use this checklist before any JLCPCB or PCBWay NOT_FINAL manufacturing package i
 - [ ] No-unrouted-net proof exists.
 - [ ] Connector orientation proof exists.
 - [ ] Polarity/pin-1 proof exists.
+- [ ] DFM assembly review checklist passes.
+- [ ] EMC precompliance checklist reviewed when relevant.
 - [ ] Gerber/drill export settings are documented.
 - [ ] External Gerber viewer review is complete.
 - [ ] JLCPCB package validated if JLCPCB output is created.
@@ -27,4 +29,3 @@ Use this checklist before any JLCPCB or PCBWay NOT_FINAL manufacturing package i
 - [ ] No upload or order is performed by the agent.
 
 If any item fails, export readiness is blocked.
-

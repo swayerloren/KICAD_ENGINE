@@ -27,10 +27,13 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.tools/
+.tool_cache/
 .venv/
 venv/
 env/
 node_modules/
+external_repos/
 03_TOOLS/python_envs/
 03_TOOLS/node_envs/
 installer/node_modules/
@@ -89,6 +92,12 @@ fp-info-cache
 
 # Local Codex config
 .codex/config.toml
+.sfdx/
+knowledge_scrape/
+
+# Project-local backup and temporary audit workspaces
+04_KICAD_PROJECTS/active/*/backups/
+04_KICAD_PROJECTS/active/*/reports/tmp_*/
 
 # Vendor documents and manufacturing-style artifacts require explicit review
 *.pdf

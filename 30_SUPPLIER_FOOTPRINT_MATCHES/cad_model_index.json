@@ -1,0 +1,41 @@
+{
+  "generated_on": "2026-05-11",
+  "status": "CANDIDATE_ONLY_CAD_MODEL_INDEX",
+  "sources": [
+    {
+      "source_registry_id": "url_004562",
+      "vendor": "Nexar",
+      "trusted_as_final_footprint_proof": false
+    },
+    {
+      "source_registry_id": "url_004601",
+      "vendor": "Samacsys / Supplyframe",
+      "trusted_as_final_footprint_proof": false
+    },
+    {
+      "source_registry_id": "url_007974",
+      "vendor": "Mouser CAD Models",
+      "trusted_as_final_footprint_proof": false
+    },
+    {
+      "source_registry_id": "url_008215",
+      "vendor": "PCBLibraries",
+      "trusted_as_final_footprint_proof": false
+    },
+    {
+      "source_registry_id": "url_008216",
+      "vendor": "PCBLibraries Library Expert",
+      "trusted_as_final_footprint_proof": false
+    },
+    {
+      "source_registry_id": "url_008217",
+      "vendor": "PCBLibraries PCB Footprint Expert",
+      "trusted_as_final_footprint_proof": false
+    },
+    {
+      "source_registry_id": "url_008510",
+      "vendor": "SnapEDA",
+      "trusted_as_final_footprint_proof": false
+    }
+  ]
+}

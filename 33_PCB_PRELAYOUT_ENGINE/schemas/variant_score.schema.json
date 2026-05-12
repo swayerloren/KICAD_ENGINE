@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB Prelayout Variant Score",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project",
+    "variant_id",
+    "status",
+    "total_score",
+    "category_scores",
+    "hard_fail_codes",
+    "blocking_reasons",
+    "projected_open_nets_count",
+    "live_open_nets_count"
+  ],
+  "properties": {
+    "project": { "type": "string", "minLength": 1 },
+    "variant_id": { "type": "string", "minLength": 1 },
+    "status": {
+      "type": "string",
+      "enum": ["PASS", "FAIL", "AUTO_BLOCKED_MISSING_DATA", "AUTO_BLOCKED_BAD_LAYOUT"]
+    },
+    "total_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "category_scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mechanical_correctness",
+        "connector_truth_correctness",
+        "rf_keepout_correctness",
+        "power_path_logic",
+        "usb_data_path_logic",
+        "component_grouping",
+        "route_feasibility"
+      ],
+      "properties": {
+        "mechanical_correctness": { "type": "number", "minimum": 0, "maximum": 20 },
+        "connector_truth_correctness": { "type": "number", "minimum": 0, "maximum": 20 },
+        "rf_keepout_correctness": { "type": "number", "minimum": 0, "maximum": 15 },
+        "power_path_logic": { "type": "number", "minimum": 0, "maximum": 15 },
+        "usb_data_path_logic": { "type": "number", "minimum": 0, "maximum": 10 },
+        "component_grouping": { "type": "number", "minimum": 0, "maximum": 10 },
+        "route_feasibility": { "type": "number", "minimum": 0, "maximum": 10 }
+      }
+    },
+    "hard_fail_codes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "blocking_reasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "projected_open_nets_count": { "type": "integer", "minimum": 0 },
+    "live_open_nets_count": { "type": "integer", "minimum": 0 }
+  }
+}

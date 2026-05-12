@@ -42,6 +42,8 @@ If the result is `BLOCKED`, stop and report the missing earlier phase. A missing
 20. `09_ACCURACY_ENGINE/pcb_rules/PILL_STYLE_DEV_BOARD_LAYOUT_RULES.md` when this is a dev-board/pill-style layout
 21. `09_ACCURACY_ENGINE/checklists/PILL_STYLE_PLACEMENT_CHECKLIST.md` when this is a dev-board/pill-style layout
 22. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
+23. `08_COMPONENT_DATABASE/mechanical_orientation/README.md`
+24. `08_COMPONENT_DATABASE/mechanical_orientation/connector_orientation_truth.json`
 
 ## Preconditions
 
@@ -79,7 +81,7 @@ For ESP32/STM32-style narrow dev boards:
 12. Placement is not ready if any component, courtyard, text, pad, connector, hole, or RF keepout overlaps.
 13. Placement is not ready if connector ports do not face the intended board edge.
 14. Placement is not ready if the board has large unexplained dead areas.
-15. Do not route until connector orientation is visually/proof-audited.
+15. Do not route until connector orientation is visually/proof-audited with the mechanical-orientation truth layer.
 16. Routing remains blocked until placement gates pass and the placement evidence supports continuation.
 
 ## Required Result

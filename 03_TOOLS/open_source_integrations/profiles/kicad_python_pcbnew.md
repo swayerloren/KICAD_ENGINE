@@ -1,0 +1,29 @@
+# KiCad Python And pcbnew
+
+- Tool name: `kicad-python / pcbnew`
+- GitHub/source URL:
+  - `https://gitlab.com/kicad/code/kicad-python`
+  - `https://docs.kicad.org/doxygen-python-7.0/`
+- License: `MIT` for `kicad-python`; `pcbnew` runtime depends on installed KiCad
+- Purpose: native KiCad Python API access for board and library inspection
+- Install method:
+  - install KiCad locally
+  - use KiCad's bundled Python when normal repo Python cannot import `pcbnew`
+- Distribution mode: `external-only`
+- Supported OS: Windows, Linux, macOS with a matching KiCad install
+- Codex use cases:
+  - board extraction
+  - footprint/pad/net inspection
+  - DRC-adjacent board analysis
+  - read-only PCB intelligence scripts
+- Exact commands if known:
+  - `python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py`
+  - `python 03_TOOLS/scripts/kicad_api/kicad_python_context.py`
+- Risks and limitations:
+  - interpreter mismatch is common
+  - write-capable API, so scripts must be explicitly designed read-only
+  - not portable without KiCad installed
+- Can edit KiCad files: `yes`
+- Read-only safe: `yes, only with read-only script discipline`
+- Allowed in CI: `conditional`, only on runners with appropriate KiCad context
+- Allowed in ZIP release: `no`

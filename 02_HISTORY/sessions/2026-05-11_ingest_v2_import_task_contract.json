@@ -1,0 +1,14 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Import useful ingest_v2 knowledge into knowledge_scrape, avoid duplicates, update registries and indexes, and preserve source logs without modifying KiCad design files.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Knowledge-base ingestion and documentation task only. Do not modify active KiCad project files or delete anything from C:\\KICAD_SCRAPE or knowledge_scrape.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

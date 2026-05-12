@@ -2,6 +2,22 @@
 
 Purpose: inventory third-party tools currently present in the workspace and the attribution or release action needed before public GitHub release. This is a practical audit, not legal advice.
 
+## Optional Integration Layer
+
+The current default public-release posture is now:
+
+- keep first-party wrappers, requirements files, and tool profiles in Git
+- keep heavyweight upstream repos and install trees out of Git by default
+- route optional-tool evaluation through `03_TOOLS/open_source_integrations/`
+- treat mixed-license tools such as `MIT`, `Apache-2.0`, `GPL-3.0`, and
+  `AGPL-3.0` as documented integrations, not automatic bundling approval
+
+Primary docs:
+
+- `03_TOOLS/open_source_integrations/TOOL_REGISTRY.md`
+- `03_TOOLS/open_source_integrations/LICENSE_AND_ATTRIBUTION_RULES.md`
+- `03_TOOLS/open_source_integrations/TOOLS_NOT_BUNDLED_REASON.md`
+
 ## Release Recommendation
 
 Do not publish full cloned third-party repositories by default. Prefer one of these safer patterns:

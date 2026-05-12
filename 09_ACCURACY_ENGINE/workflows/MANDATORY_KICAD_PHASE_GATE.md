@@ -133,12 +133,14 @@ Required before final PCB review:
 - Remaining nets are routed second.
 - No unrouted nets remain.
 - DRC has been run.
+- The enforceable PCB quality gate passes.
 
 Required evidence files:
 
 - `reports/PCB_CRITICAL_NETS_ROUTING_REPORT.md`
 - `reports/PCB_FULL_ROUTING_REPORT.md`
 - `reports/TRACE_BY_TRACE_AUDIT.md`
+- `reports/PCB_QUALITY_GATE_REPORT.md` or the latest `reports/pcb_quality_gate/*/PCB_QUALITY_GATE_REPORT.md`
 
 ### Phase 9 - Final PCB Audit
 
@@ -148,6 +150,7 @@ Required before JLCPCB, mechanical production, BOM/CPL production, or export rev
 - No unrouted nets remain.
 - Board visuals are exported.
 - Trace-by-trace audit exists.
+- The enforceable PCB quality gate result is exactly `PASS_FINAL_ROUTING`.
 - LJ PCB review checklist exists.
 
 Required evidence files:
@@ -155,6 +158,7 @@ Required evidence files:
 - `reports/FINAL_PCB_AUDIT_BEFORE_FAB.md` or `reports/FINAL_PCB_VERIFICATION_BEFORE_FAB.md`
 - `reports/LJ_FINAL_PCB_REVIEW_CHECKLIST.md`
 - `reports/TRACE_BY_TRACE_AUDIT.md`
+- `reports/PCB_QUALITY_GATE_REPORT.md` or the latest `reports/pcb_quality_gate/*/PCB_QUALITY_GATE_REPORT.md`
 
 ### Phase 10 - JLCPCB / Production Review
 
@@ -219,3 +223,8 @@ If the result is `BLOCKED`, stop. State the missing earlier phase and required e
 
 Agents must not create downstream blocked review reports for future phases unless LJ specifically asks for a blocker audit. Documentation/report creation is not engineering progress and cannot substitute for PCB files, DRC results, unrouted-net evidence, production packages, or human approval.
 
+For routed-board acceptance, the authoritative command is now:
+
+`python 03_TOOLS/scripts/pcb_quality/run_pcb_quality_gate.py --project <ACTIVE_PROJECT_PATH>`
+
+If the quality gate does not return `PASS_FINAL_ROUTING`, routing is not acceptable regardless of any Codex summary.

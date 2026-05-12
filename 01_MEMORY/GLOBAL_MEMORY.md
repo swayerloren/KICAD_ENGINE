@@ -39,6 +39,10 @@ Durable workspace-wide rules for AI-assisted KiCad engineering.
 - The preferred baseline onboarding path is now: ZIP or clone -> open repo in VS Code -> run `python health_check.py --no-write` -> paste the starter prompt from `ONE_PROMPT_START.md`. Future doc changes should preserve that one-prompt local workflow.
 - The GitHub-facing front page and key root indexes should present `KiCad Engine` as the general AI-assisted KiCad workflow engine. Active projects, including `ESP32_CSI_WIFI_NODE`, are examples or current workspaces inside that engine, not the identity of the whole repo.
 - Local-only helper folders such as `03_TOOLS/node_envs`, `03_TOOLS/python_envs`, `03_TOOLS/repos`, `03_TOOLS/tool_logs`, `99_BACKUPS`, and future routing scratch folders should be documented with tracked placeholder docs instead of requiring users to inherit private local contents.
+- The old scrape-derived corpus is migration residue, not a routing surface.
+  Canonical knowledge access must now start from `00_CODEX_START/`,
+  `10_KNOWLEDGE_BASE/`, `09_ACCURACY_ENGINE/`, `06_DATASHEETS/`,
+  `08_COMPONENT_DATABASE/`, and the related tool folders.
 - Project-local `routing_work` folders are local generated routing scratch space. Future timestamped route-trial or copied-board payloads should stay ignored, and Git should keep only the placeholder `routing_work/README.md` unless a small sanitized evidence subset is intentionally promoted.
 - `03_TOOLS/kicad_library_intelligence/GENERATED_INDEXES` is local generated library inventory, not portable repo truth. Keep only `GENERATED_INDEXES/README.md` tracked; regenerate symbol, footprint, 3D model, and candidate outputs on the current machine when needed.
 - `00_CODEX_START/TOOL_INDEX.md` is machine-specific local inventory, not portable tool truth. Portable tool truth for normal repo use lives in root `TOOLS_INDEX.md`, `03_TOOLS/TOOLS_INDEX.md`, `EXTERNAL_DEPENDENCIES.md`, `LOCAL_SETUP_REQUIREMENTS.md`, `docs/HEALTH_CHECK.md`, and live results from `python health_check.py --no-write`.

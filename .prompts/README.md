@@ -7,10 +7,12 @@ Purpose: reusable prompts for users working with Codex, Claude, or similar AI co
 ## How To Use
 
 1. Open this repo in VS Code.
-2. Pick a prompt from `.prompts/codex` or `.prompts/claude`.
-3. Paste it into the agent chat.
-4. Replace bracketed placeholders such as `[PROJECT_PATH]`, `[PART_NUMBER]`, or `[TASK_GOAL]`.
-5. Keep generated reports in `02_HISTORY` or `05_OUTPUTS` unless a prompt explicitly requires another safe folder.
+2. Tell the agent to read `START_HERE_FOR_AI_AGENTS.md` and route itself correctly, or use one of the start-session prompts below.
+3. Let the agent use `00_CODEX_START/TASK_ROUTER.md` and its companion task tables to determine the route-specific docs automatically.
+4. Pick a prompt from `.prompts/codex` or `.prompts/claude`.
+5. Paste it into the agent chat.
+6. Replace bracketed placeholders such as `[PROJECT_PATH]`, `[PART_NUMBER]`, or `[TASK_GOAL]`.
+7. Keep generated reports in `02_HISTORY` or `05_OUTPUTS` unless a prompt explicitly requires another safe folder.
 
 ## Prompt Families
 
@@ -22,6 +24,7 @@ Purpose: reusable prompts for users working with Codex, Claude, or similar AI co
 ## Non-Negotiable Rules
 
 - Read `AGENTS.md` and required startup files first.
+- If a task prompt does not enumerate route-specific read-first files, use `START_HERE_FOR_AI_AGENTS.md` plus `00_CODEX_START/TASK_ROUTER.md` instead of asking the user for a larger list.
 - Do not edit KiCad project source files unless the active project, scope, backup, verification, and rollback gates are confirmed.
 - Do not install tools unless the user explicitly requests that separate task.
 - Do not modify installed KiCad files or user-global KiCad config.
@@ -45,6 +48,10 @@ Use:
 
 - `codex/00_START_SESSION.md` for Codex.
 - `claude/00_START_SESSION.md` for Claude.
+
+Those start prompts now route through `START_HERE_FOR_AI_AGENTS.md` and
+`00_CODEX_START/TASK_ROUTER.md` so the user does not need to paste a giant
+custom `READ FIRST` block.
 
 Then use the task-specific prompts for audits, component research, schematic planning, reviews, validation, exports, and memory/history updates.
 

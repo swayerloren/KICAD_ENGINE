@@ -5,6 +5,7 @@ Status: `MANDATORY_FOR_PCB_PLACEMENT`
 These rules define connector edge placement and orientation checks. They supplement `CONNECTOR_ORIENTATION_RULES.md`.
 
 Also read `BARREL_JACK_ORIENTATION_RULES.md` before approving any DC barrel jack placement.
+Also read `08_COMPONENT_DATABASE/mechanical_orientation/connector_orientation_truth.json` before approving barrel-jack, USB-C, or other edge-facing connector truth.
 
 ## Edge Connector Requirements
 
@@ -25,6 +26,7 @@ For pill/dev-board layouts:
 - The footprint `PCB Edge` indicator must align to board `Edge.Cuts` when the footprint provides one.
 - Pads must remain on the PCB; connector shell/body overhang must be mechanically expected by the footprint.
 - Do not approve USB-C orientation from coordinate position alone.
+- If the exact USB-C 3D model is missing or unresolved, classify `NEEDS_HUMAN_REVIEW`.
 - Require 2D footprint proof and 3D screenshot proof where available.
 - USB ESD, CC resistors, and series resistors must be behind the connector, not mixed into the test pad row.
 - Do not place test pads directly behind the USB-C shell or cable entry area.
@@ -44,6 +46,7 @@ If a barrel jack is retained:
 - Do not approve barrel jack orientation from pad coordinates alone.
 - Require evidence from exact 3D model when available, footprint `F.Fab`/`F.SilkS`/`F.CrtYd` geometry, and a manufacturer drawing or product image.
 - If no 3D model and no clear footprint geometry exist, classify `BLOCKED_BY_BARREL_JACK_ORIENTATION_EVIDENCE`.
+- If the footprint family is known but the exact 3D model is missing or unresolved, classify `NEEDS_HUMAN_REVIEW`.
 - The footprint and plug envelope must not force a large dead board area.
 - Do not side-mount `J1` unless LJ explicitly approves.
 - The placement report must classify it as one of:

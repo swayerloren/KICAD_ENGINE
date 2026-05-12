@@ -1,0 +1,22 @@
+# PcbDraw
+
+- Tool name: `PcbDraw`
+- GitHub/source URL: `https://github.com/yaqwsx/PcbDraw`
+- License: `MIT`
+- Purpose: board rendering for visual documentation and review
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - generate top/bottom board renders for review packets
+  - compare placement/routing visuals across variants
+  - support AI or human visual checks
+- Exact commands if known:
+  - `pip install pcbdraw`
+- Risks and limitations:
+  - visual aid only
+  - may need local dependencies for best output quality
+- Can edit KiCad files: `no`
+- Read-only safe: `yes`
+- Allowed in CI: `yes`
+- Allowed in ZIP release: `no`

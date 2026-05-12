@@ -20,6 +20,10 @@ Task: generate and review schematic full-page and close-up visual evidence. Do n
 6. `09_ACCURACY_ENGINE/verification_rules/VISUAL_PASS_IS_NOT_AUTOMATED_PASS.md`
 7. `09_ACCURACY_ENGINE/checklists/SCHEMATIC_HUMAN_READABILITY_CHECKLIST.md`
 8. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
+9. `34_SCHEMATIC_QUALITY_ENGINE/README.md`
+10. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_READABILITY_STANDARD.md`
+11. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_VISUAL_AUDIT_RULES.md`
+12. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_WIRING_VS_LABEL_RULES.md`
 
 ## Do
 
@@ -30,6 +34,7 @@ Task: generate and review schematic full-page and close-up visual evidence. Do n
 5. Create a block-by-block human-readable inspection table.
 6. Fail if crops are missing, block names are missing, references are visibly unannotated, or footprint/library/path fields are visible in normal schematic view.
 7. Fail if text, values, references, net labels, wires, pins, symbol bodies, power symbols, or review notes overlap, touch, cross, clip, crowd, or make any block unreadable.
+8. Run or review `python 03_TOOLS/scripts/schematic_quality/run_schematic_quality_gate.py --project <ACTIVE_PROJECT_PATH> --no-fail` and do not claim visual readiness if the readability audits still fail.
 
 ## Forbidden Shortcut
 

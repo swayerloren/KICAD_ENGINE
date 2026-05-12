@@ -17,6 +17,9 @@ Do not assume `pcbnew` should import inside every Python shell. Detect the curre
   - emits JSON describing the current Python runtime, the detected KiCad Python runtime, and whether `pcbnew` is usable directly or only through KiCad Python
 - `pcbnew_import_check.py`
   - emits PASS/WARN/FAIL without opening KiCad GUI windows or triggering wxWidgets popups
+- `safe_pcbnew_helpers.py`
+  - read-only wrappers for tolerant object access such as net names, layer
+    names, track widths, via drill sizes, and XY positions
 
 ## Common Usage
 
@@ -45,3 +48,5 @@ For board-aware workflows, agents should:
 2. run the import/context probe
 3. use `kicad-cli` when `pcbnew` is not required
 4. re-enter through KiCad Python when a real `pcbnew` workflow is required
+5. use `safe_pcbnew_helpers.py` for read-only object access instead of brittle
+   direct assumptions

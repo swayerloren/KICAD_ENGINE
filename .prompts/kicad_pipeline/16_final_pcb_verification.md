@@ -37,6 +37,8 @@ If the result is `BLOCKED`, stop and report the missing earlier phase. Missing D
 
 Check schematic-to-PCB sync, ERC, DRC, unrouted nets, footprints, connector orientation, polarity, mounting holes, board outline, copper zones, antenna keepout, USB routing, power routing, silkscreen, ref/value fields, 3D model gaps, BOM alignment, PNP risk, human-review list, and routing quality.
 
+Latest connector-orientation and ESP32-antenna orientation audit results must be cited directly; do not replace them with a prose-only summary.
+
 Check routing quality explicitly:
 
 - no obvious 90-degree bends where practical
@@ -51,6 +53,7 @@ Before returning `READY_FOR_NOT_FINAL_FAB_EXPORT`, confirm the PCBA export gate 
 - DRC and no-unrouted-net proof exist.
 - Routing-quality review passed separately from DRC.
 - Barrel jack, USB-C, and all connector orientations are proof-audited.
+- No required connector remains `NEEDS_HUMAN_REVIEW`.
 - IC pin 1, diode/LED polarity, and capacitor polarity are verified.
 - Pick-and-place rotation risk is documented as requiring visual review.
 - Future JLCPCB/PCBWay packages will remain `NOT_FINAL`.

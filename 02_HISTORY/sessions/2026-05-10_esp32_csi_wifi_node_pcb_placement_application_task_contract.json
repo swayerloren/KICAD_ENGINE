@@ -1,0 +1,34 @@
+{
+  "task_type": "AUDIT_ONLY",
+  "task_summary": "Check whether the active project's latest prelayout recommendation explicitly authorizes real PCB placement application, and if not, stop before any real board edit while recording current placement blockers and hashes.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+  "target_pcb": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "changed_files": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_APPLICATION_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_DRC_REPORT.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_PLACEMENT_ORIENTATION_PROOF.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\PCB_PLACEMENT_REVIEW.md",
+    "02_HISTORY\\sessions\\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_SESSION.md",
+    "02_HISTORY\\command_logs\\ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_COMMANDS.md",
+    "02_HISTORY\\ai_self_reviews\\20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_SELF_REVIEW.md",
+    "02_HISTORY\\ai_scorecards\\20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_SCORECARD.md",
+    "02_HISTORY\\claim_evidence_matrices\\20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_CLAIMS.md",
+    "02_HISTORY\\uncertainty_logs\\20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_UNCERTAINTY.md",
+    "02_HISTORY\\hallucination_risk_logs\\20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_RISK_LOG.md",
+    "02_HISTORY\\issue_logs\\20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_BLOCKERS.md",
+    "02_HISTORY\\sessions\\2026-05-10_esp32_csi_wifi_node_pcb_placement_application_task_contract.json"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "The run remained audit-only because the latest recommended prelayout variant explicitly says real placement may not be applied. No KiCad design file was edited in this task.",
+  "evidence": {
+    "backup_created": false,
+    "backup_path": null,
+    "pcb_hash_before": "ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1",
+    "pcb_hash_after": "ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1",
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "drc_report_path": null,
+    "visual_export_attempted": false,
+    "visual_paths": []
+  }
+}

@@ -11,6 +11,7 @@ This folder is the required first stop before any Gerber, drill, BOM, CPL, centr
 - Manufacturing outputs are `NOT_FINAL` until LJ explicitly approves release/upload.
 - Never overwrite an older manufacturing revision folder.
 - Do not export or package if DRC, no-unrouted-net proof, connector orientation, polarity, or final visual review gates fail.
+- Do not treat copied fab-house pages or standards-like text as canonical package approval evidence.
 - JLCPCB and PCBWay require separate upload-specific BOM and placement formats.
 - Universal BOM and pick-and-place files are allowed for internal review, but upload packages must match the selected fab house.
 - BOM/CPL validation is not assembly approval.
@@ -31,3 +32,9 @@ This folder is the required first stop before any Gerber, drill, BOM, CPL, centr
 
 Use validators under `03_TOOLS\scripts\fabrication\` before claiming a package is structurally ready. Validators check columns, required values, quantities, coordinates, layers, and package-folder presence. They never upload anything and never edit KiCad files.
 
+## Related Canonical Knowledge
+
+- `10_KNOWLEDGE_BASE/dfm_assembly/`
+- `10_KNOWLEDGE_BASE/compliance_emc_safety/`
+- `09_ACCURACY_ENGINE/verification_rules/DFM_ASSEMBLY_VALIDATION_RULES.md`
+- `09_ACCURACY_ENGINE/verification_rules/EMC_PRECOMPLIANCE_REVIEW_RULES.md`

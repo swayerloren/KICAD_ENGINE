@@ -1,0 +1,22 @@
+# PyGerber
+
+- Tool name: `PyGerber`
+- GitHub/source URL: `https://github.com/Argmaster/pygerber`
+- License: `MIT`
+- Purpose: Gerber parsing and rendering for visual review and analysis
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - render Gerbers for review
+  - compare generated manufacturing layers visually
+  - support CI or local validation of package contents
+- Exact commands if known:
+  - `pip install pygerber`
+  - `pip install pygerber[all]`
+- Risks and limitations:
+  - review aid only, not full design-proof by itself
+- Can edit KiCad files: `no`
+- Read-only safe: `yes`
+- Allowed in CI: `yes`
+- Allowed in ZIP release: `no`

@@ -8,6 +8,401 @@ Current inspected workspace path should be treated generically as:
 
 Some historical docs and tool configs still reference maintainer-machine checkout paths. Treat older absolute paths as historical unless a current task explicitly selects that path and it exists. For new work in this checkout, use repo-relative paths or the current local repo root.
 
+## Latest knowledge_scrape emptying completion - 2026-05-12
+
+The retired `knowledge_scrape/` source folder has now been backed up and
+removed from the live repo tree.
+
+- backup path:
+  `99_BACKUPS/knowledge_scrape_pre_empty/20260512_150034/knowledge_scrape`
+- the final `7` legacy PowerShell scrape scripts had already been moved to
+  `02_HISTORY/knowledge_scrape_migration/obsolete_scripts/`
+- all `2546` migration-ledger rows are now `MOVED_VALIDATED`
+- normal agent routing and tooling must not depend on `knowledge_scrape/`
+  anymore; treat any remaining mentions as migration history, quarantine,
+  release-readiness audit, or backup evidence only
+
+## Latest canonical routing cleanup - 2026-05-11
+
+Normal repo startup and task routing now begin with:
+
+- `START_HERE_FOR_AI_AGENTS.md`
+- `00_CODEX_START/TASK_ROUTER.md`
+- `00_CODEX_START/TASK_TYPE_TO_KNOWLEDGE_MAP.md`
+- `00_CODEX_START/TASK_TYPE_TO_TOOL_MAP.md`
+- `00_CODEX_START/TASK_TYPE_TO_RULE_MAP.md`
+- `10_KNOWLEDGE_BASE/retrieval_indexes/MASTER_KNOWLEDGE_INDEX.md`
+- `10_KNOWLEDGE_BASE/retrieval_indexes/TASK_TO_KNOWLEDGE_MAP.md`
+- `10_KNOWLEDGE_BASE/retrieval_indexes/TASK_TO_TOOL_MAP.md`
+- `10_KNOWLEDGE_BASE/retrieval_indexes/TASK_TO_RULE_MAP.md`
+
+Canonical domain knowledge now lives under:
+
+- `10_KNOWLEDGE_BASE/`
+- `09_ACCURACY_ENGINE/`
+- `06_DATASHEETS/`
+- `08_COMPONENT_DATABASE/`
+- `24_FAB_PROFILES/`
+- `26_AGENT_QUALITY/`
+- `03_TOOLS/calculators/`
+- `03_TOOLS/scripts/kicad_api/`
+- `03_TOOLS/open_source_integrations/`
+
+Migration provenance, quarantine records, and release-readiness ledgers remain
+valid historical evidence under:
+
+- `02_HISTORY/`
+- `05_OUTPUTS/release_readiness/`
+- `21_LICENSE_ATTRIBUTION/license_risk_reviews/`
+
+Those historical records are not part of normal agent routing.
+
+## Latest final PCB review blocker - 2026-05-10
+
+`ESP32_CSI_WIFI_NODE` still may not enter a `NOT_FINAL` export step.
+
+- the current final-review classification is
+  `BLOCKED_BEFORE_NOT_FINAL_EXPORT`
+- authoritative live blockers are:
+  - `22` schematic parity issues
+  - `13` unconnected items
+  - `3` detectable unrouted nets: `/DM_C`, `/DP_C`, `/DP_E`
+  - PCB quality gate `FAIL_DRC`
+  - `36` routed-geometry findings
+  - long TP stubs on `TP3`, `TP6`, and `TP7`
+  - failing power widths on `/+5V_IN`, `/+5V_FUSED`, `/+5V_PROTECTED`, and `+3V3`
+  - USB routing sanity still `FAIL_USB_ROUTING`
+  - J1 connector proof still `NEEDS_HUMAN_REVIEW`
+- `J2` USB-C orientation remains `PASS`
+- `U2` antenna keepout direction remains `PASS`
+- the current stored final PCB visual packet is stale for final proof because it
+  references older PCB hash
+  `A90967ABC127674F7008562AAEE46744456F2421550E4B64AD71E91B5D3CF697`, while
+  the current live PCB hash is
+  `ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1`
+- do not treat the existing `_verification/pcb_visual/` review images as
+  current final approval evidence until fresh images are generated from the
+  live repaired board
+
+## Latest NOT_FINAL export blocker - 2026-05-10
+
+`ESP32_CSI_WIFI_NODE` still may not create a JLCPCB or PCBWay `NOT_FINAL`
+manufacturing review package.
+
+- required precondition:
+  `reports/FINAL_ROUTED_PCB_REVIEW.md` must allow `NOT_FINAL` export
+- actual result:
+  `reports/FINAL_ROUTED_PCB_REVIEW.md` still says `NOT_FINAL` export allowed:
+  `NO`
+- therefore no `manufacturing/rev_A/` folder, no Gerbers/drills, no JLCPCB
+  BOM/CPL, no PCBWay BOM/centroid, and no review payload were created in that
+  task
+- current blocked-state reports are:
+  - `reports/NOT_FINAL_EXPORT_REPORT.md`
+  - `reports/BOM_CPL_VALIDATION_REPORT.md`
+  - `reports/ORIENTATION_POLARITY_REVIEW_REPORT.md`
+
+## Latest copper-pour blocker - 2026-05-10
+
+`ESP32_CSI_WIFI_NODE` still may not start GND pours or stitching on the real
+PCB.
+
+- required precondition:
+  `reports/REAL_PCB_STAGED_ROUTING_REPORT.md` must say
+  `REAL_ROUTING_READY_FOR_COPPER_POUR`
+- actual result:
+  `reports/REAL_PCB_STAGED_ROUTING_REPORT.md` still says `REAL_ROUTING_BLOCKED`
+- therefore no live `B.Cu` or `F.Cu` zones, no RF keepout copper edits, no
+  stitching vias, and no zone refill were started in that task
+- current authoritative live routing baseline still remains:
+  - gate status `FAIL_DRC`
+  - `13` unconnected items
+  - `3` detectable unrouted nets
+  - `36` trace-geometry findings
+- maintenance was run first because the project prompt counter had reached `5`;
+  after reset, the new copper-pour blocker audit incremented the counter to `1`
+
+## Latest real routing apply blocker - 2026-05-10
+
+`ESP32_CSI_WIFI_NODE` still may not apply copied-board routing to the real PCB.
+
+- the requested real-routing workflow was rechecked against
+  `reports/COPIED_BOARD_ROUTING_REHEARSAL_REPORT.md`
+- the required ready state `COPIED_ROUTING_READY_FOR_REAL_BOARD` is still not
+  present
+- the copied-board report still says `COPIED_ROUTING_BLOCKED`
+- therefore no real staged routing, save, DRC rerun, or visual export was
+  started in that task
+- the current authoritative live board baseline remains:
+  - gate status `FAIL_DRC`
+  - `13` unconnected items
+  - `3` detectable unrouted nets: `/DM_C`, `/DP_C`, `/DP_E`
+  - `36` geometry findings
+  - connector orientation still `NEEDS_HUMAN_REVIEW`
+- the project prompt counter also reached `5`, so maintenance is now due before
+  the next engineering task
+
+## Latest copied-board routing rehearsal - 2026-05-10
+
+`ESP32_CSI_WIFI_NODE` now has a copied-board-only routing rehearsal packet under
+`04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/routing_rehearsals/20260510_143529/`.
+
+- the run was allowed because the copied-board placement-readiness packet
+  classified the current placement as `PLACEMENT_READY_FOR_ROUTING`
+- four copied candidates were evaluated:
+  `candidate_A_baseline`,
+  `candidate_B_grid_planner`,
+  `candidate_C_targeted_local_repair`, and
+  `candidate_D_cluster_rework`
+- `candidate_A_baseline` remained the safest untouched control because it kept
+  `0` DRC violations, but it still had `13` unconnected items and `3`
+  detectable unrouted nets
+- `candidate_C_targeted_local_repair` is the current least-bad routed attempt
+  because it reduced the detectable unrouted-net count to `0` with the lowest
+  routed-candidate DRC damage (`49`), but it still fails the enforceable gate
+- current remaining copied-route blockers on that winner are:
+  - open nets `/BOOT0` and `/ESP_EN`
+  - `37` trace-geometry findings
+  - `4` power-width failures
+  - `2` USB routing issues
+  - connector orientation still `NEEDS_HUMAN_REVIEW` because `J1` remains unresolved
+- final classification is `COPIED_ROUTING_BLOCKED`
+- do not promote any copied routing to the real board yet
+
+## Latest reference sample learning system - 2026-05-10
+
+`32_OPEN_KICAD_SAMPLE_INTAKE` and `07_REFERENCE_DESIGNS` now define the repo's
+controlled open-source sample learning layer.
+
+- new intake docs live under `32_OPEN_KICAD_SAMPLE_INTAKE/`:
+  `SAMPLE_INTAKE_WORKFLOW.md`,
+  `SAMPLE_LICENSE_RULES.md`,
+  `SAMPLE_NORMALIZATION_RULES.md`,
+  `SAMPLE_QUALITY_SCORECARD.md`, and
+  `SAMPLE_DO_NOT_COPY_RULES.md`
+- new reference-style docs live under `07_REFERENCE_DESIGNS/`
+- new read-only scripts live under `03_TOOLS/scripts/sample_intake/`
+- future sample work should register a candidate, screen the license, preserve
+  the upstream original, create a normalized copy before risky analysis, and
+  extract schematic/PCB metrics in read-only mode
+- sample metrics may be used to compare generated schematics/layouts against
+  human-made examples, but they are supporting evidence only
+- do not treat a sample as proof of correctness, do not copy designs blindly,
+  and do not include unclear-license sample source in a public payload
+
+## Latest footprint/package assignment engine - 2026-05-10
+
+`35_FOOTPRINT_PACKAGE_ENGINE` is now the authoritative footprint proof layer
+before schematic-to-PCB progression.
+
+- new footprint docs live under `35_FOOTPRINT_PACKAGE_ENGINE/`
+- new read-only audit scripts live under `03_TOOLS/scripts/footprint_package/`
+- project starter templates now live under `04_KICAD_PROJECTS/_templates/`
+- future footprint/package work must use `FOOTPRINT_LOCK.csv`, not just the
+  schematic footprint field
+- blank footprints, missing lock rows, missing source evidence, missing PMOS
+  pin-mapping proof, and missing connector orientation proof now block PCB
+  update
+- canonical gate command:
+  `python 03_TOOLS/scripts/footprint_package/run_footprint_package_gate.py --project <ACTIVE_PROJECT_PATH> --no-fail`
+
+## Latest real PCB update blocker audit - 2026-05-10
+
+`ESP32_CSI_WIFI_NODE` was re-checked for a fresh real PCB update-from-schematic
+pass, but the run stayed blocked.
+
+- the live PCB already exists, so `check_phase_allowed.py --phase 2` now
+  reports `ALREADY_DONE_BY_LIVE_FILE_EVIDENCE`
+- that does not authorize a fresh schematic sync while upstream schematic gates
+  still fail
+- current blockers are:
+  - native annotation proof still `FAIL_NOT_GUI_VERIFIED`
+  - human visual schematic proof still `FAIL`
+  - footprint/package gate still `NEEDS_HUMAN_REVIEW`
+  - fresh read-only live DRC baseline now also shows `13` unconnected items and
+    `22` schematic parity issues
+- do not infer that PCB update may proceed just because the board already
+  exists on disk
+
+## Latest source-backed footprint-lock follow-up - 2026-05-10
+
+`ESP32_CSI_WIFI_NODE` now has a live `FOOTPRINT_LOCK.csv` covering all `43`
+physical symbols.
+
+- the saved schematic currently has `0` blank footprint fields
+- the active blocker is therefore no longer missing footprint population
+- the live footprint-package gate is now `NEEDS_HUMAN_REVIEW`, not `FAIL`
+- the current exact footprint-proof blockers are:
+  - `U2`: saved value `ESP32-S3-WROOM-1U` still paired with saved footprint
+    `RF_Module:ESP32-S3-WROOM-1`
+  - `U3`: `TPD2EUSB30` currently saved as
+    `Package_TO_SOT_SMD:SOT-23-6` while official TI package evidence points to
+    `Texas_DRT-3`
+- do not let older `0 footprints` or `lock missing` narratives override this
+  newer live-proof state
+
+## Latest schematic layout engine - 2026-05-10
+
+`03_TOOLS/scripts/schematic_layout` is now the dedicated schematic visual
+cleanup and layout-planning layer.
+
+- new layout docs live under `34_SCHEMATIC_QUALITY_ENGINE/`:
+  `SCHEMATIC_LAYOUT_ALGORITHM.md`,
+  `FUNCTIONAL_BLOCK_TEMPLATES.md`,
+  `LOCAL_WIRING_STYLE_GUIDE.md`, and
+  `VISUAL_READABILITY_SCORECARD.md`
+- new read-only scripts live under `03_TOOLS/scripts/schematic_layout/`
+- this layer extracts functional blocks, audits visual flow, audits local wire
+  usage, scores readability, plans cleaner block positions, and emits a safe
+  rewrite plan without editing `.kicad_sch` by default
+- canonical review command:
+  `python 03_TOOLS/scripts/schematic_layout/render_schematic_review_pages.py --project <ACTIVE_PROJECT_PATH> --no-fail`
+- canonical scoring command:
+  `python 03_TOOLS/scripts/schematic_layout/score_schematic_readability.py --project <ACTIVE_PROJECT_PATH> --no-fail`
+
+## Latest schematic quality engine - 2026-05-10
+
+`34_SCHEMATIC_QUALITY_ENGINE` is now the authoritative schematic readability
+and readiness layer before PCB update.
+
+- new schematic-quality docs live under `34_SCHEMATIC_QUALITY_ENGINE/`
+- new read-only audit scripts live under `03_TOOLS/scripts/schematic_quality/`
+- the engine now requires readable functional blocks, intentional flow, local
+  wiring where appropriate, controlled label use, native annotation proof,
+  footprint readiness, ERC proof, and human-readable visual proof
+- do not claim schematic-to-PCB readiness from ERC alone
+- canonical gate command:
+  `python 03_TOOLS/scripts/schematic_quality/run_schematic_quality_gate.py --project <ACTIVE_PROJECT_PATH> --no-fail`
+
+## Latest native KiCad annotation auto-open hardening - 2026-05-10
+
+`33_KICAD_GUI_AUTOMATION` now has a stricter closed-state annotation workflow.
+
+- authoritative docs are `KICAD_NATIVE_ANNOTATION_WORKFLOW.md`,
+  `KICAD_AUTO_OPEN_PROJECT_WORKFLOW.md`,
+  `KICAD_ANNOTATION_DO_AND_DO_NOT.md`,
+  `KICAD_GUI_ACTION_MATRIX.md`, and `KICAD_GUI_SAFETY_GATES.md`
+- future live native annotation must use the flag-gated workflow under
+  `33_KICAD_GUI_AUTOMATION/scripts/windows/run_native_annotation_workflow.py`
+- default mode is dry-run only
+- live GUI opening requires `--live`
+- native annotation requires `--allow-annotation`
+- GUI save requires `--allow-save`
+- GUI ERC requires `--allow-gui-erc`
+- the full workflow now creates a backup before live save, captures before and
+  after screenshots, runs post-save `kicad-cli` ERC, and scans the saved
+  schematic for unresolved `?` references and duplicate references
+- if Eeschema is open for a different project, stop
+- if the matching Eeschema title starts with `*`, stop unless that dirty GUI
+  state was explicitly allowed
+
+## Latest optional open-source tool integration layer - 2026-05-10
+
+`03_TOOLS/open_source_integrations` is now the authoritative repo layer for
+optional upstream KiCad-adjacent tool use.
+
+- new policy docs live under `03_TOOLS/open_source_integrations/`
+- new tool profiles cover KiParse, `pcbnew`, `kicad-sch-api`, `SKiDL`,
+  `circuit-synth`, `freerouting`, `kicad-routing-tools`,
+  `kicad-component-layout`, `KiKit`, `KiBot`, `gerbonara`, `PyGerber`,
+  `InteractiveHtmlBom`, `PcbDraw`, `kicad-happy`, and
+  `kicad-library-utils`
+- new wrappers live at `setup/install_optional_kicad_tools_windows.ps1`,
+  `setup/install_optional_kicad_tools_linux.sh`,
+  `setup/install_optional_kicad_tools_macos.sh`, and
+  `setup/verify_optional_kicad_tools.py`
+- default behavior remains ZIP-portable and dry-run-first
+- optional tools install only into `.tools/` or user-local caches
+- upstream repos, `node_modules`, virtual environments, and large binaries must
+  remain untracked unless LJ explicitly approves a different packaging decision
+- missing optional tools must fail gracefully instead of blocking unrelated
+  repo workflows
+
+## Latest enforceable PCB quality gate - 2026-05-10
+
+`03_TOOLS/scripts/pcb_quality` is now the authoritative routed-board acceptance
+layer.
+
+- new scripts live under `03_TOOLS/scripts/pcb_quality/`
+- the gate aggregates fresh or current KiCad DRC, unconnected-item count,
+  schematic parity, trace geometry, test-point topology, power-net widths, USB
+  routing sanity, connector orientation, RF keepout direction, zone/GND state,
+  and reference/value silkscreen overlap risk
+- canonical command:
+  `python 03_TOOLS/scripts/pcb_quality/run_pcb_quality_gate.py --project <ACTIVE_PROJECT_PATH>`
+- final allowed judge outputs are:
+  `PASS_FINAL_ROUTING`, `FAIL_DRC`, `FAIL_OPEN_NETS`,
+  `FAIL_TRACE_GEOMETRY`, `FAIL_TESTPOINT_TOPOLOGY`, `FAIL_POWER_WIDTHS`,
+  `FAIL_USB_ROUTING`, `FAIL_CONNECTOR_ORIENTATION`, `FAIL_RF_KEEPOUT`,
+  `FAIL_ZONE_GND`, and `NEEDS_HUMAN_REVIEW`
+- `03_TOOLS/scripts/pcb_geometry/` remains the lower-level geometry sub-audit
+  layer, not the final routed-board judge by itself
+- the new constraints template lives at
+  `04_KICAD_PROJECTS/_templates/pcb_routing_constraints.template.yaml`
+- the active `ESP32_CSI_WIFI_NODE` example config lives at
+  `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/config/pcb_routing_constraints.yaml`
+
+## Latest startup router upgrade - 2026-05-10
+
+`START_HERE_FOR_AI_AGENTS.md` now points to the new startup router layer under
+`00_CODEX_START/`.
+
+- new router files are `TASK_ROUTER.md`, `TASK_TYPE_TO_REQUIRED_DOCS.md`,
+  `TASK_TYPE_TO_ALLOWED_ACTIONS.md`, `TASK_TYPE_TO_BLOCKERS.md`,
+  `TASK_TYPE_TO_OUTPUTS.md`, `KICAD_ENGINE_CRITICAL_PATH.md`, and
+  `AI_AGENT_FAST_CONTEXT.md`
+- if a user asks for schematic, PCB, fab, GUI annotation, memory/history, or
+  open-source tool work and does not provide a big read-first list, the agent
+  must use the router automatically
+- supported routes now explicitly cover schematic creation/repair, schematic
+  visual cleanup, native annotation, footprint/package gate, PCB update from
+  schematic, PCB prelayout variants, placement, connector orientation, routing,
+  trace geometry audit, copper zones, fabrication export, memory maintenance,
+  and open-source tool use
+- the router now uses `03_TOOLS/scripts/pcb_quality/` as the primary routing
+  quality gate and keeps `03_TOOLS/scripts/pcb_geometry/` as the lower-level
+  geometry audit layer
+
+## Latest PCB trace-geometry audit layer - 2026-05-10
+
+`03_TOOLS/scripts/pcb_geometry` now provides the read-only geometry acceptance gate for routed boards.
+
+- new scripts live under `03_TOOLS/scripts/pcb_geometry/`
+- the geometry extractor now splits routed nets into real path branches instead of only net-wide segment buckets
+- DRC pass is still required, but it is not enough to call routing acceptable
+- the geometry audit now blocks right angles, acute jogs, zigzags, rectangular loops, perimeter-box detours, detour ratio above `2x`, long test-point stubs above `5 mm`, board-edge crossings, RF-keepout crossings, and return-path split risk
+- canonical command: `python 03_TOOLS/scripts/pcb_geometry/audit_trace_quality.py --project <ACTIVE_PROJECT_PATH>`
+
+## Latest mechanical-orientation truth layer - 2026-05-10
+
+`08_COMPONENT_DATABASE/mechanical_orientation` is now the authoritative connector/mechanical direction layer for edge-facing connectors and RF modules.
+
+- new orientation-truth files live under `08_COMPONENT_DATABASE/mechanical_orientation/`
+- new read-only audit scripts live under `03_TOOLS/scripts/mechanical_orientation/`
+- connector orientation is not proven by XY position or rotation value alone
+- future review must distinguish connector `port opening`, `pin side`, `body side`, `PCB edge` direction, and `mating face`
+- USB-C mouth/opening must face off-board and align to `Edge.Cuts`
+- barrel-jack pin side must not be confused with the mating opening
+- ESP32 antenna keepout must face outward
+- if the exact 3D model is missing or unresolved, required connectors remain `NEEDS_HUMAN_REVIEW`
+- do not proceed to routing unless the connector-orientation audit result is exactly `PASS`
+- current dry-run on `ESP32_CSI_WIFI_NODE`: `J2` USB-C `PASS`, `U2` antenna `PASS`, `J1` barrel jack `NEEDS_HUMAN_REVIEW` because its 3D model reference is unresolved on this machine
+
+## Latest PCB prelayout engine addition - 2026-05-10
+
+`33_PCB_PRELAYOUT_ENGINE` is now the mandatory pre-placement / pre-routing planning layer for real PCB work.
+
+- new authoritative docs live under `33_PCB_PRELAYOUT_ENGINE/`
+- new schemas live under `33_PCB_PRELAYOUT_ENGINE/schemas/`
+- new read-only scripts live under `03_TOOLS/scripts/pcb_prelayout/`
+- real PCB placement is additionally blocked until the latest `reports/prelayout_engine/*/prelayout_gate_result.json` proves at least `3` generated variants, at least `1` passing variant, and `placement_gate_status = PASS`
+- real PCB routing is additionally blocked until that same result records `routing_gate_status = PASS`
+- this layer is upstream of `34_PCB_LAYOUT_SANDBOX` and does not replace the existing sandbox, phase, DRC, or human-review gates
+- the initial dry-run on `ESP32_CSI_WIFI_NODE` produced `3` variants, `1` passing variant, selected `VARIANT_01`, and an overall blocked result because the live board still proves `13` unconnected items and `3` detectable unrouted nets
+- the latest read-only packet under `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/prelayout_variants/20260510_135250/` now emits named folders `variant_A`, `variant_B`, and `variant_C` for `Compact dev-board`, `Routing-first`, and `Mechanical-clearance-first`
+- the variant comparator now breaks equal-score ties by fewer projected open nets before falling back to variant ID
+- the latest selected planning candidate is `VARIANT_B` with projected angle audit `PASS` and `100 / 100` projected angle score, but the fresh packet still reports `0` passing variants and keeps real placement and routing blocked because `J1` remains `NEEDS_HUMAN_REVIEW`, the footprint/package gate is still not `PASS`, and the live board still has open-net evidence
+
 ## Latest KiCad Python context portability fix - 2026-05-09
 
 Normal repo Python and KiCad's embedded Python must now be treated as separate runtime contexts.
@@ -1115,6 +1510,7 @@ COMMAND LINK lessons have been added to memory as evidence-backed observations o
 - Prefer read-only inspection before edits.
 - Prefer copied project workspaces over original projects.
 - Prefer `NOT_FINAL` outputs until the verification gate passes.
+- Before real PCB placement or routing, run or review `python 03_TOOLS/scripts/pcb_prelayout/run_prelayout_gate.py --project <ACTIVE_PROJECT_PATH>` and require the latest `reports/prelayout_engine/*/prelayout_gate_result.json`.
 - Do not store passwords, API keys, license keys, private tokens, or credentials.
 - Read `AGENTS.md` and the required `00_CODEX_START` files before touching KiCad project files.
 - Keep durable global decisions in `01_MEMORY`, durable project decisions in project `memory/`, commands/results in `02_HISTORY` or project `history/`, and unresolved problems in issue logs.
@@ -1244,7 +1640,15 @@ COMMAND LINK lessons have been added to memory as evidence-backed observations o
   - Branch cleanup complete: only `main` remains on `origin`; `hardening/execution-contract` was deleted locally and remotely after merge
   - PR `#1` remains as a merged historical record and should no longer appear as an open PR
   - Root docs now explicitly support `Download ZIP` / local VS Code usage with Codex or Claude
-  - `.github/README.md` now explicitly says it documents only the `.github/` folder and is not the main project documentation
+- `.github/README.md` now explicitly says it documents only the `.github/` folder and is not the main project documentation
+- Canonical engineering-rule surfaces for USB-C, buck layout, decoupling,
+  grounding/return paths, ESP32 RF keepout, test pads, mounting holes, and
+  thermal/mechanical review now live under `09_ACCURACY_ENGINE/pcb_rules/`
+- Canonical readability/functional-block support rules now live under
+  `09_ACCURACY_ENGINE/schematic_rules/` and
+  `09_ACCURACY_ENGINE/checklists/SCHEMATIC_VISUAL_READABILITY_CHECKLIST.md`
+- Raw scraped engineering captures from migration phases now route to
+  license-risk quarantine or migration history, not to a new parallel rule tree
 
 ## When to update this file
 

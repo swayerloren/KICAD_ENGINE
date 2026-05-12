@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB Prelayout Projected Route",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project",
+    "variant_id",
+    "net_name",
+    "route_class",
+    "status",
+    "anchor_refs",
+    "segments",
+    "crosses_keepout",
+    "projected_open"
+  ],
+  "properties": {
+    "project": { "type": "string", "minLength": 1 },
+    "variant_id": { "type": "string", "minLength": 1 },
+    "net_name": { "type": "string", "minLength": 1 },
+    "route_class": { "type": "string", "minLength": 1 },
+    "status": {
+      "type": "string",
+      "enum": [
+        "PROJECTED_OK",
+        "PROJECTED_WARNING_LONG_PATH",
+        "BLOCKED_CONNECTOR_DIRECTION",
+        "BLOCKED_RF_KEEPOUT",
+        "BLOCKED_NO_CHANNEL",
+        "OPEN_REQUIRED"
+      ]
+    },
+    "anchor_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["start", "end", "angle_deg", "length_mm"],
+        "properties": {
+          "start": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["x_mm", "y_mm"],
+            "properties": {
+              "x_mm": { "type": "number" },
+              "y_mm": { "type": "number" }
+            }
+          },
+          "end": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["x_mm", "y_mm"],
+            "properties": {
+              "x_mm": { "type": "number" },
+              "y_mm": { "type": "number" }
+            }
+          },
+          "angle_deg": { "type": "number" },
+          "length_mm": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "crosses_keepout": { "type": "boolean" },
+    "projected_open": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}

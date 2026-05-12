@@ -22,6 +22,8 @@ A footprint is unverified until compared against the exact manufacturer package 
 - Exposed pad size and paste treatment.
 - Courtyard and fab outlines.
 - 3D model path and orientation, if available.
+- KiCad Library Convention consistency where it helps readability or
+  contribution hygiene.
 
 ## Status Labels
 
@@ -33,3 +35,6 @@ A footprint is unverified until compared against the exact manufacturer package 
 ## Required AI Quality Gate
 
 Any response that recommends a footprint must state package drawing status, footprint verification status, and whether human review is required. Generic connector and RF connector footprints are blocked until exact manufacturer drawing and orientation are reviewed.
+
+KLC guidance is useful, but it does not override exact manufacturer package
+drawing evidence or connector orientation proof.

@@ -36,13 +36,14 @@ Available:
 - Dry-run/manual fallback helpers for annotation, save, and GUI ERC.
 - Verified live native annotation workflow on `ESP32_CSI_WIFI_NODE` with dialog open, annotation apply, GUI save, GUI ERC `Violations (0)`, post-save `kicad-cli` ERC pass, 0 unresolved `?` references, and 0 duplicate references.
 - Dry-run-first auto-open workflow for launching the exact target `.kicad_pro`, opening/focusing Eeschema, confirming the target `.kicad_sch`, and then handing off to native annotation.
+- A stricter full workflow wrapper that now also captures before/after screenshots, creates a backup before live save, runs post-save `kicad-cli` ERC, and scans the saved schematic for unresolved `?` references plus duplicate references.
 
 Still limited:
 
 - The verified live flow is approved only for schematic annotation/save/ERC under the documented gates.
 - It does not approve schematic visual cleanup, footprint assignment, PCB update, layout, routing, zones, or manufacturing outputs.
 - New projects must still pass exact path, backup, screenshot, unsaved-state, and UI-control gates before any GUI action.
-- Auto-open from closed state is implemented in dry-run mode and requires explicit `--live` for any launch. Live open-from-closed-state has not been tested in this setup task.
+- Auto-open from closed state is implemented in dry-run mode and requires explicit `--live` for any launch. Live open-from-closed-state remains safety-gated and must still be treated as human-review-sensitive until a future explicit live validation is logged.
 
 Success record:
 
@@ -54,6 +55,18 @@ Success record:
 For annotation tasks, Codex/Claude must use KiCad-native annotation through verified GUI automation or stop and tell LJ exactly how to run KiCad's Annotate Schematic tool manually. Raw `.kicad_sch` text edits are not sufficient proof of annotation success.
 
 The accepted proof is the full annotation gate: native annotation applied, schematic saved from KiCad GUI, GUI ERC 0 violations when safely automatable, `kicad-cli` ERC pass after GUI save, saved schematic scan with 0 unresolved `?` references, and duplicate-reference scan pass.
+
+Exact future live command:
+
+```powershell
+.\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\run_native_annotation_workflow.py `
+  --project "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_pro" `
+  --schematic "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_sch" `
+  --live `
+  --allow-annotation `
+  --allow-save `
+  --allow-gui-erc
+```
 
 ## First Safe Command
 

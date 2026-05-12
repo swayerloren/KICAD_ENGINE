@@ -1,0 +1,22 @@
+# kicad-component-layout
+
+- Tool name: `kicad-component-layout`
+- GitHub/source URL: `https://github.com/asyafix/kicad-component-layout`
+- License: `GPL-3.0`
+- Purpose: auto-placement experimentation for KiCad boards
+- Install method: upstream source install
+- Distribution mode: `external-only`
+- Supported OS: Linux-first; compatibility should be verified per machine
+- Codex use cases:
+  - research for placement rehearsal only
+  - compare heuristic placement suggestions against first-party rules
+- Exact commands if known:
+  - `python setup.py install`
+- Risks and limitations:
+  - aging upstream project
+  - compatibility with current KiCad versions must be proven
+  - auto-placement suggestions are not proof of mechanical correctness
+- Can edit KiCad files: `yes`
+- Read-only safe: `not guaranteed`
+- Allowed in CI: `no by default`
+- Allowed in ZIP release: `no`

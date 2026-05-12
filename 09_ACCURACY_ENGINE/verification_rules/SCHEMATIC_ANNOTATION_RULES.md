@@ -14,6 +14,13 @@ python .\03_TOOLS\scripts\kicad_schematic_checks\check_schematic_annotation.py -
 
 The generated report must be linked from the active project's `reports/SCHEMATIC_TO_PCB_GATE_STATUS.md`.
 
+## Authoritative Proof Rule
+
+Saved-file scans and regex checks are useful blockers, but they are not by
+themselves authoritative proof that annotation happened correctly in the live
+KiCad GUI. When annotation is disputed or unfinished, use the native KiCad GUI
+workflow or LJ-confirmed manual annotation.
+
 ## Blocking Findings
 
 The schematic-to-PCB gate must remain blocked if any of these are present:

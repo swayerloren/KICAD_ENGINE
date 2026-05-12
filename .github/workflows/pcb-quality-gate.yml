@@ -1,0 +1,121 @@
+name: PCB quality gate
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "03_TOOLS/scripts/pcb_quality/**"
+      - "04_KICAD_PROJECTS/_templates/pcb_routing_constraints.template.yaml"
+      - "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/config/pcb_routing_constraints.yaml"
+      - "09_ACCURACY_ENGINE/workflows/MANDATORY_KICAD_PHASE_GATE.md"
+      - "20_CI_CD/README.md"
+      - ".github/workflows/pcb-quality-gate.yml"
+  push:
+    branches:
+      - main
+      - hardening/**
+      - github/**
+    paths:
+      - "03_TOOLS/scripts/pcb_quality/**"
+      - "04_KICAD_PROJECTS/_templates/pcb_routing_constraints.template.yaml"
+      - "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/config/pcb_routing_constraints.yaml"
+      - "09_ACCURACY_ENGINE/workflows/MANDATORY_KICAD_PHASE_GATE.md"
+      - "20_CI_CD/README.md"
+      - ".github/workflows/pcb-quality-gate.yml"
+
+jobs:
+  pcb-quality-gate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile pcb_quality scripts
+        run: |
+          python - <<'PY'
+          import py_compile
+          from pathlib import Path
+
+          root = Path("03_TOOLS/scripts/pcb_quality")
+          errors = []
+          for path in sorted(root.glob("*.py")):
+              try:
+                  py_compile.compile(str(path), doraise=True)
+              except Exception as exc:
+                  errors.append(f"{path}: {exc}")
+          if errors:
+              raise SystemExit("\n".join(errors))
+          print("PCB_QUALITY_COMPILE_PASS")
+          PY
+
+      - name: Probe KiCad availability
+        id: probe
+        shell: bash
+        run: |
+          set -euo pipefail
+          python 03_TOOLS/scripts/kicad_api/pcbnew_import_check.py --json > pcbnew_probe.json
+          if command -v kicad-cli >/dev/null 2>&1; then
+            echo "kicad_cli=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "kicad_cli=false" >> "$GITHUB_OUTPUT"
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path("pcbnew_probe.json").read_text(encoding="utf-8"))
+          print(f"PCBNEW_AVAILABLE={payload['pcbnew_available']}")
+          PY
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path("pcbnew_probe.json").read_text(encoding="utf-8"))
+          print(f"pcbnew={payload['pcbnew_available']}")
+          raise SystemExit(0 if payload["pcbnew_available"] else 2)
+          PY
+        continue-on-error: true
+
+      - name: Run dry-run quality gate when KiCad tooling exists
+        if: steps.probe.outputs.kicad_cli == 'true' && steps.probe.outcome == 'success'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .ci/pcb-quality
+          python 03_TOOLS/scripts/pcb_quality/run_pcb_quality_gate.py \
+            --project 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE \
+            --output-dir .ci/pcb-quality \
+            --no-fail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path(".ci/pcb-quality/pcb_quality_gate_result.json").read_text(encoding="utf-8"))
+          allowed = {
+              "PASS_FINAL_ROUTING",
+              "FAIL_DRC",
+              "FAIL_OPEN_NETS",
+              "FAIL_TRACE_GEOMETRY",
+              "FAIL_TESTPOINT_TOPOLOGY",
+              "FAIL_POWER_WIDTHS",
+              "FAIL_USB_ROUTING",
+              "FAIL_CONNECTOR_ORIENTATION",
+              "FAIL_RF_KEEPOUT",
+              "FAIL_ZONE_GND",
+              "NEEDS_HUMAN_REVIEW",
+          }
+          status = payload["status"]
+          if status not in allowed:
+              raise SystemExit(f"Unexpected PCB quality gate status: {status}")
+          if status == "PASS_FINAL_ROUTING":
+              raise SystemExit("Current tracked ESP32_CSI_WIFI_NODE board unexpectedly passed the quality gate.")
+          print(f"PCB_QUALITY_GATE_DRY_RUN_STATUS={status}")
+          PY
+
+      - name: Skip message when KiCad tooling is unavailable
+        if: steps.probe.outputs.kicad_cli != 'true' || steps.probe.outcome != 'success'
+        run: |
+          echo "PCB_QUALITY_GATE_SKIPPED_NO_KICAD"

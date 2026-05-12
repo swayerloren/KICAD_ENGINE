@@ -9,6 +9,7 @@ Status: `ACTIVE_SCAFFOLD`
 - `02_POWER/`: regulator, charger, fuse, TVS, and power-protection records.
 - `03_COMMUNICATION/`: CAN, LIN, USB, Ethernet, UART bridge, and level-shifter records.
 - `04_CONNECTORS/`: connector records and selection guide.
+- `mechanical_orientation/`: connector and antenna orientation truth rules, machine-readable front/back semantics, and audit examples.
 - `13_DESIGN_RULE_SNIPPETS/`: reusable design-rule notes.
 - `14_PART_SELECTION_GUIDES/`: selection guidance.
 - `15_PACKAGE_FOOTPRINT_DATABASE/`: exact package drawing and KiCad footprint verification records.

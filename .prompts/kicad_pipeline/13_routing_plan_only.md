@@ -19,6 +19,14 @@ Task: create a routing plan before any traces are routed. Do not edit PCB.
 5. `09_ACCURACY_ENGINE/pcb_rules/POWER_LAYOUT_RULES.md`
 6. `09_ACCURACY_ENGINE/pcb_rules/RF_LAYOUT_RULES.md`
 7. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
+8. Latest connector-orientation audit result
+9. Latest ESP32 antenna-orientation audit result when an ESP32 RF module is present
+
+## Preconditions
+
+- Placement orientation audit passed.
+- No required connector remains `NEEDS_HUMAN_REVIEW`.
+- ESP32 antenna orientation is proven or the project is blocked.
 
 ## Do
 
@@ -34,4 +42,3 @@ Return one result:
 - `ROUTING_PLAN_BLOCKED`
 
 AI quality closeout is required.
-

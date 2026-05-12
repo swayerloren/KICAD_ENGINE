@@ -12,6 +12,7 @@ This layer connects supplier metadata to KiCad library evidence without pretendi
 
 - Supplier-to-KiCad match schemas.
 - Confidence and human-review rules.
+- Supplier CAD model source indexes and distrust rules.
 - Match records keyed by supplier or manual verification workflow.
 - Reports for unmatched supplier parts and low-confidence footprint mappings.
 - Scripts that create, check, index, and report match records.
@@ -29,10 +30,17 @@ This layer connects supplier metadata to KiCad library evidence without pretendi
 
 - Use official supplier APIs, user CSV exports, or manual source-link records as input.
 - Treat supplier package names as candidate metadata, not proof.
+- Treat supplier CAD models as candidate geometry only until exact package proof exists.
 - Do not mark connector, PMOS, ESD array, MCU module, or regulator footprints verified from package name only.
 - Keep `human_review_required` set to `true` for high-risk parts until exact drawing, pad numbering, orientation, and mechanical review are complete.
 - Route exact footprint verification evidence to `08_COMPONENT_DATABASE/16_VERIFICATION_RECORDS/` when appropriate.
 - Playwright evidence from `31_PLAYWRIGHT_RESEARCH_PIPELINE` may provide source URLs, screenshots, and candidate package text, but it cannot verify a footprint by itself.
+
+## Canonical Files
+
+- [SUPPLIER_CAD_MODEL_RULES.md](SUPPLIER_CAD_MODEL_RULES.md)
+- [CAD_MODEL_SOURCE_INDEX.md](CAD_MODEL_SOURCE_INDEX.md)
+- [cad_model_index.json](cad_model_index.json)
 
 ## SAFE_EDIT_RULES
 

@@ -46,6 +46,7 @@ This index summarizes the current production-oriented KiCad Engine repository st
 | `30_SUPPLIER_FOOTPRINT_MATCHES/` | Added | Supplier SKU/MPN to KiCad footprint match records, confidence rules, and unmatched supplier-footprint reports. |
 | `31_PLAYWRIGHT_RESEARCH_PIPELINE/` | Added | Dry-run-first public-page evidence capture policies, source profiles, target lists, screenshots, normalized records, and reports. |
 | `32_OPEN_KICAD_SAMPLE_INTAKE/` | Added | Controlled open KiCad sample project intake, license screening, imported-original preservation, normalized sample copies, review reports, attribution, and benchmark-candidate promotion. |
+| `33_PCB_PRELAYOUT_ENGINE/` | Added | Mandatory PCB prelayout digital-twin, variant-planning, projected-route scoring, and pre-placement/pre-routing gate layer. |
 | `34_PCB_LAYOUT_SANDBOX/` | Added | Mandatory pre-PCB-edit layout sandbox layer for variant planning, board-shape reasoning, connector/mechanical review, projected routing, and human gate templates. |
 | `99_BACKUPS/` | Existing | Pre-edit backups and recovery snapshots. |
 

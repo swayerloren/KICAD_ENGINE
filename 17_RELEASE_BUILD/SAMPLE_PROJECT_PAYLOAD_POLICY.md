@@ -35,6 +35,7 @@ Include only after the sample has:
 | `32_OPEN_KICAD_SAMPLE_INTAKE/candidates/` | Allow source-link records and license screening notes. |
 | `32_OPEN_KICAD_SAMPLE_INTAKE/attribution/` | Allow attribution records if no copied restricted content is embedded. |
 | `32_OPEN_KICAD_SAMPLE_INTAKE/review_reports/` | Allow curated markdown summaries only when useful and reviewed. |
+| `07_REFERENCE_DESIGNS/` | Allow link-first notes, style summaries, and generated metric indexes that do not embed restricted sample source. |
 | `19_TEST_PROJECTS/sample_kicad_projects/` | Allow only controlled samples listed in `PAYLOAD_ALLOWLIST.md` and approved by human release review. |
 
 ## Required Sample Payload Fields
@@ -105,6 +106,11 @@ pending human review.
 3. It does not include restricted third-party content.
 4. It is listed in the allowlist or generated manifest.
 5. It cannot be mistaken for a manufacturing-ready package.
+
+Reference-style indexes and sample metric summaries are safer public payload
+candidates than copied sample source files, but they still require attribution,
+license-aware wording, and clear warning that comparison evidence is not
+engineering approval.
 
 ## FAB_READY Block
 

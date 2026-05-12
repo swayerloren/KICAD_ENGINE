@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB Prelayout Connector Orientation Truth",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ref",
+    "connector_type",
+    "intended_edge",
+    "mating_direction",
+    "rotation_deg",
+    "truth_status",
+    "off_board_facing",
+    "edge_alignment_required",
+    "edge_alignment_verified",
+    "mechanical_conflicts",
+    "proof_sources"
+  ],
+  "properties": {
+    "ref": { "type": "string", "minLength": 1 },
+    "connector_type": { "type": "string", "minLength": 1 },
+    "intended_edge": { "type": "string", "enum": ["top", "bottom", "left", "right"] },
+    "mating_direction": { "type": "string", "enum": ["top", "bottom", "left", "right", "off_board_unknown"] },
+    "rotation_deg": { "type": "number" },
+    "truth_status": { "type": "string", "enum": ["PASS", "FAIL", "UNKNOWN", "NEEDS_HUMAN_REVIEW"] },
+    "off_board_facing": { "type": "boolean" },
+    "edge_alignment_required": { "type": "boolean" },
+    "edge_alignment_verified": { "type": "boolean" },
+    "distance_to_edge_mm": { "type": "number" },
+    "port_opening_direction": { "type": "string", "enum": ["top", "bottom", "left", "right", "off_board_unknown"] },
+    "pin_side_direction": { "type": "string", "enum": ["top", "bottom", "left", "right", "off_board_unknown"] },
+    "body_side_direction": { "type": "string", "enum": ["top", "bottom", "left", "right", "off_board_unknown"] },
+    "pcb_edge_marker_direction": { "type": "string", "enum": ["top", "bottom", "left", "right", "off_board_unknown"] },
+    "three_d_model_status": {
+      "type": "string",
+      "enum": ["MODEL_PRESENT", "MODEL_REFERENCE_MISSING", "MODEL_FILE_MISSING_OR_UNRESOLVED"]
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "routing_blocked": { "type": "boolean" },
+    "hard_rule_hits": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "footprint_rule_id": { "type": "string" },
+    "mechanical_conflicts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "proof_sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "notes": { "type": "string" }
+  }
+}

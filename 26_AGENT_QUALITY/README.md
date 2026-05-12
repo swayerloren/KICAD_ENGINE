@@ -12,6 +12,7 @@ Store AI quality-gate summaries, scoring policy extensions, templates, and meta-
 - Quality-gate review plans.
 - Prompt quality checks.
 - Links to generated AI-quality records.
+- Failure-pattern summaries that help stop repeated KiCad AI mistakes.
 
 ## WHAT_DOES_NOT_BELONG_HERE
 
@@ -19,6 +20,7 @@ Store AI quality-gate summaries, scoring policy extensions, templates, and meta-
 - Project-specific engineering decisions.
 - Secrets or AI credentials.
 - Fabrication approval.
+- Forum, video, or case-study anecdotes promoted as source-of-truth evidence.
 
 ## AI_AGENT_RULES
 
@@ -63,6 +65,10 @@ Public quality docs should make clear that AI review is not certified engineerin
 - `AI_HALLUCINATION_RISK_RULES.md`
 - `AI_RESPONSE_QUALITY_GATE.md`
 - `AI_EVIDENCE_REQUIREMENTS.md`
+- `AI_PCB_FAILURE_MODES.md`
+- `CODEX_KICAD_FAILURE_PATTERNS.md`
+- `FALSE_PASS_PATTERNS.md`
+- `AI_AGENT_PCB_REVIEW_CHECKLIST.md`
 
 ## Templates
 

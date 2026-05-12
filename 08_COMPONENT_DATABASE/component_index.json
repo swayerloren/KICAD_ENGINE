@@ -1,0 +1,74 @@
+{
+  "generated_on": "2026-05-11",
+  "status": "NORMALIZED_FROM_COMPONENT_DATASHEET_VENDOR_MIGRATION",
+  "source_registry_reference": "10_KNOWLEDGE_BASE/source_registry/SOURCE_REGISTRY.csv",
+  "component_groups": [
+    {
+      "group_id": "esp32_espressif",
+      "title": "ESP32 and Espressif module references",
+      "source_file_count": 102,
+      "source_registry_id_count": 61,
+      "evidence_status": "LINK_FIRST_RAW_CAPTURES_QUARANTINED",
+      "high_risk": true,
+      "proof_requirements": [
+        "module_land_pattern",
+        "antenna_keepout",
+        "orientation_mechanical_review"
+      ],
+      "canonical_docs": [
+        "06_DATASHEETS/espressif/ESP32_SOURCE_INDEX.md",
+        "08_COMPONENT_DATABASE/HIGH_RISK_COMPONENTS_INDEX.md"
+      ]
+    },
+    {
+      "group_id": "microcontrollers_general",
+      "title": "General microcontroller package and application-note references",
+      "source_file_count": 15,
+      "source_registry_id_count": 6,
+      "evidence_status": "LINK_FIRST_RAW_CAPTURES_QUARANTINED",
+      "high_risk": true,
+      "proof_requirements": [
+        "exact_part_mapping",
+        "package_drawing",
+        "pin_mapping"
+      ],
+      "canonical_docs": [
+        "06_DATASHEETS/microcontrollers/MICROCONTROLLER_SOURCE_INDEX.md",
+        "08_COMPONENT_DATABASE/COMPONENT_EVIDENCE_RULES.md"
+      ]
+    },
+    {
+      "group_id": "vendor_cad_and_portals",
+      "title": "Supplier portal and CAD-model candidate sources",
+      "source_file_count": 20,
+      "source_registry_id_count": 13,
+      "evidence_status": "CANDIDATE_ONLY_NOT_FOOTPRINT_PROOF",
+      "high_risk": true,
+      "proof_requirements": [
+        "official_package_drawing",
+        "reviewed_supplier_match",
+        "human_review_for_connectors_and_modules"
+      ],
+      "canonical_docs": [
+        "25_VENDOR_DATABASE/VENDOR_PART_NUMBER_CROSS_REFERENCE.md",
+        "30_SUPPLIER_FOOTPRINT_MATCHES/SUPPLIER_CAD_MODEL_RULES.md"
+      ]
+    },
+    {
+      "group_id": "land_pattern_support",
+      "title": "Land-pattern and package-proof support surface",
+      "source_file_count": 1,
+      "source_registry_id_count": 0,
+      "evidence_status": "POLICY_ONLY_NO_DIRECT_REDIS_TRUSTED_SOURCE_CAPTURE",
+      "high_risk": true,
+      "proof_requirements": [
+        "exact_land_pattern_source",
+        "package_drawing_review"
+      ],
+      "canonical_docs": [
+        "29_FOOTPRINT_GAP_ANALYSIS/LAND_PATTERN_SOURCE_INDEX.md",
+        "35_FOOTPRINT_PACKAGE_ENGINE/FOOTPRINT_EVIDENCE_RULES.md"
+      ]
+    }
+  ]
+}

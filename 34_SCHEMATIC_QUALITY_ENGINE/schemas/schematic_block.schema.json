@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SchematicBlock",
+  "type": "object",
+  "required": [
+    "block_id",
+    "title",
+    "heading_text",
+    "heading_at",
+    "bbox",
+    "centroid",
+    "symbol_count"
+  ],
+  "properties": {
+    "block_id": { "type": "string" },
+    "title": { "type": "string" },
+    "heading_text": { "type": "string" },
+    "heading_at": { "type": "object" },
+    "bbox": { "type": "object" },
+    "centroid": { "type": "object" },
+    "symbol_count": { "type": "integer", "minimum": 0 }
+  }
+}

@@ -1,43 +1,24 @@
 # Vendor Database
 
-Status: `ACTIVE_SCAFFOLD`
+Status: `LINK_FIRST_VENDOR_PORTAL_SURFACE`
 
-## PURPOSE
+## Purpose
 
-Store vendor, manufacturer, distributor, and documentation-portal metadata for AI-assisted component research.
+Store vendor, manufacturer, distributor, and portal metadata used for sourcing,
+CAD lookup, and source-link normalization.
 
-## WHAT_BELONGS_HERE
+## Canonical Files
 
-- Vendor portal links.
-- Manufacturer naming conventions.
-- Distributor/source metadata.
-- Lifecycle and sourcing note templates.
-- Official document link rules.
-- Source priority and lifecycle-status rules.
+- [VENDOR_SOURCE_POLICY.md](VENDOR_SOURCE_POLICY.md)
+- [JLCPCB_LCSC_PARTS_INDEX.md](JLCPCB_LCSC_PARTS_INDEX.md)
+- [DIGIKEY_PARTS_INDEX.md](DIGIKEY_PARTS_INDEX.md)
+- [MOUSER_PARTS_INDEX.md](MOUSER_PARTS_INDEX.md)
+- [VENDOR_PART_NUMBER_CROSS_REFERENCE.md](VENDOR_PART_NUMBER_CROSS_REFERENCE.md)
+- [vendor_part_cross_reference.json](vendor_part_cross_reference.json)
 
-## WHAT_DOES_NOT_BELONG_HERE
+## Rules
 
-- API keys.
-- Distributor account credentials.
-- Private pricing.
-- Scraped vendor content.
-- Restricted PDFs without redistribution review.
-
-## AI_AGENT_RULES
-
-- Prefer official vendor sources.
-- Do not scrape aggressively.
-- Do not store credentials.
-- Mark availability and lifecycle data as time-sensitive.
-- Keep vendor records link-first unless redistribution rights are confirmed.
-- Do not claim lifecycle or availability status without source date and source link.
-
-## SAFE_EDIT_RULES
-
-- Add metadata and links.
-- Do not download datasheets unless explicitly approved.
-- Preserve source URLs.
-
-## PUBLIC_RELEASE_NOTES
-
-Public vendor records should be link-first and avoid private commercial data.
+- Vendor portals are source metadata, not footprint proof.
+- Supplier CAD downloads are candidate evidence only.
+- Availability, price, and lifecycle data are time-sensitive.
+- Keep vendor records link-first unless redistribution rights are explicitly reviewed.

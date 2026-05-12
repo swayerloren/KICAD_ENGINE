@@ -1,7 +1,7 @@
 # Generated AI Quality Index
 
-Generated: `2026-05-09T08:55:55`
-Record count: `922`
+Generated: `2026-05-12T16:14:37`
+Record count: `1149`
 
 - `02_HISTORY/ai_self_reviews/20260502_230004_AI_quality_gate_setup_self_review.md` - AI quality gate setup self review
 - `02_HISTORY/ai_self_reviews/20260503_0754_SCHEMATIC_ANNOTATION_COMPLETENESS_CHECKERS_SELF_REVIEW.md` - AI Self-Review: Schematic Annotation/Completeness Checkers
@@ -68,6 +68,45 @@ Record count: `922`
 - `02_HISTORY/ai_self_reviews/20260509_082145_HISTORICAL_PATHS_PORTABILITY_SELF_REVIEW.md` - AI Self Review - Historical Paths Portability
 - `02_HISTORY/ai_self_reviews/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_SELF_REVIEW.md` - AI Self Review - KiCad Python Context Fix
 - `02_HISTORY/ai_self_reviews/20260509_093500_FINAL_PORTABILITY_VERIFICATION_SELF_REVIEW.md` - AI Self Review - Final Portability Verification
+- `02_HISTORY/ai_self_reviews/20260510_105453_Schematic_Quality_Engine_Creation_Self_Review.md` - Schematic Quality Engine Creation Self Review
+- `02_HISTORY/ai_self_reviews/20260510_111132_KiCad_Native_Annotation_Auto_Open_Self_Review.md` - KiCad Native Annotation Auto-Open Self Review
+- `02_HISTORY/ai_self_reviews/20260510_113504_Schematic_Layout_Engine_Self_Review.md` - Schematic Layout Engine Self Review
+- `02_HISTORY/ai_self_reviews/20260510_115621_Footprint_Package_Engine_Self_Review.md` - Footprint Package Engine Self Review
+- `02_HISTORY/ai_self_reviews/20260510_120331_Knowledge_Scrape_Structure_Improvement_Self_Review.md` - Knowledge Scrape Structure Improvement Self Review
+- `02_HISTORY/ai_self_reviews/20260510_121328_Reference_Sample_System_Self_Review.md` - Reference Sample System Self Review
+- `02_HISTORY/ai_self_reviews/20260510_142522_PCB_Quality_Gate_Creation_Self_Review.md` - PCB Quality Gate Creation Self Review
+- `02_HISTORY/ai_self_reviews/20260510_COPPER_POUR_REQUEST_BLOCKED_SELF_REVIEW.md` - AI Self Review - Copper Pour Request Blocked
+- `02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_SELF_REVIEW.md` - Self Review
+- `02_HISTORY/ai_self_reviews/20260510_FINAL_PCB_REVIEW_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260510_MECHANICAL_ORIENTATION_TRUTH_SELF_REVIEW.md` - AI Self Review - Mechanical Orientation Truth
+- `02_HISTORY/ai_self_reviews/20260510_NOT_FINAL_EXPORT_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260510_OPEN_SOURCE_TOOL_INTEGRATION_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260510_PCB_PRELAYOUT_ENGINE_SELF_REVIEW.md` - AI Self Review - PCB Prelayout Engine
+- `02_HISTORY/ai_self_reviews/20260510_PCB_TRACE_GEOMETRY_AUDIT_SELF_REVIEW.md` - AI Self Review - PCB Trace Geometry Audit
+- `02_HISTORY/ai_self_reviews/20260510_PRELAYOUT_VARIANT_GENERATION_SELF_REVIEW.md` - AI Self Review - Prelayout Variant Generation
+- `02_HISTORY/ai_self_reviews/20260510_REAL_ROUTING_APPLY_BLOCKED_SELF_REVIEW.md` - AI Self Review - Real Routing Apply Blocked
+- `02_HISTORY/ai_self_reviews/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_SELF_REVIEW.md` - AI Self Review - Staged Routing Precondition Blocked
+- `02_HISTORY/ai_self_reviews/20260510_START_ROUTER_UPGRADE_SELF_REVIEW.md` - Start Router Upgrade Self Review
+- `02_HISTORY/ai_self_reviews/20260511_163153_Knowledge_Scrape_Migration_Controller_Self_Review.md` - Knowledge Scrape Migration Controller Self Review
+- `02_HISTORY/ai_self_reviews/20260511_164911_Knowledge_Scrape_Metadata_Move_Self_Review.md` - Knowledge Scrape Metadata Move Self Review
+- `02_HISTORY/ai_self_reviews/20260511_170757_KiCad_Docs_Knowledge_Move_Self_Review.md` - KiCad Docs Knowledge Move Self Review
+- `02_HISTORY/ai_self_reviews/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260511_Component_Datasheet_Vendor_Knowledge_Move_Self_Review.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260511_Engineering_Rules_Knowledge_Move_Self_Review.md` - Engineering Rules Knowledge Move Self Review
+- `02_HISTORY/ai_self_reviews/20260511_Fab_DFM_Compliance_Knowledge_Move_Self_Review.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_SELF_REVIEW.md` - GitHub Post-Knowledge-Migration Push Self Review
+- `02_HISTORY/ai_self_reviews/20260512_KNOWLEDGE_SCRAPE_EMPTYING_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_SELF_REVIEW.md` - AI Self Review
+- `02_HISTORY/ai_self_reviews/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_SELF_REVIEW.md` - Post-Knowledge-Migration Repo Integrity Self Review
+- `02_HISTORY/ai_self_reviews/20260512_REPO_PUSH_BLOCKER_REPAIR_SELF_REVIEW.md` - Repo Push Blocker Repair Self Review
 - `02_HISTORY/ai_self_reviews/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_AI_SELF_REVIEW.md` - Accuracy Engine And AI Quality Setup AI Self-Review
 - `02_HISTORY/ai_self_reviews/AUTO_PCB_START_WORKFLOW_SELF_REVIEW.md` - AUTO_PCB_START_WORKFLOW_SELF_REVIEW
 - `02_HISTORY/ai_self_reviews/AUTO_PLACEMENT_ENGINE_SELF_REVIEW.md` - AUTO_PLACEMENT_ENGINE_SELF_REVIEW
@@ -76,6 +115,7 @@ Record count: `922`
 - `02_HISTORY/ai_self_reviews/AUTO_VARIANT_SCORING_ENGINE_SELF_REVIEW.md` - AI Self Review - Auto Variant Scoring Engine
 - `02_HISTORY/ai_self_reviews/COMPONENT_DATABASE_CORE_SETUP_AI_SELF_REVIEW.md` - Component Database Core Setup AI Self-Review
 - `02_HISTORY/ai_self_reviews/CORE_PLACEHOLDER_CONTENT_UPGRADE_SELF_REVIEW.md` - AI Self-Review: Core Placeholder Content Upgrade
+- `02_HISTORY/ai_self_reviews/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal
 - `02_HISTORY/ai_self_reviews/ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SELF_REVIEW.md` - AI Self Review - ESP32_CSI_WIFI_NODE Full Routing And Copper
 - `02_HISTORY/ai_self_reviews/ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SELF_REVIEW.md` - AI Self-Review - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
 - `02_HISTORY/ai_self_reviews/ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SELF_REVIEW.md` - AI Self-Review: ESP32_CSI_WIFI_NODE GUI Native Annotation
@@ -104,6 +144,7 @@ Record count: `922`
 - `02_HISTORY/ai_self_reviews/OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_SELF_REVIEW.md` - AI Self-Review - Open KiCad Sample Projects Audit
 - `02_HISTORY/ai_self_reviews/P0_P1_REPAIR_SELF_REVIEW.md` - AI Self-Review: P0/P1 Repair
 - `02_HISTORY/ai_self_reviews/PACKAGE_FAB_VENDOR_PROFILE_SETUP_AI_SELF_REVIEW.md` - AI Self Review - Package Fab Vendor Profile Setup
+- `02_HISTORY/ai_self_reviews/PCB_FINAL_VISUAL_REVIEW_SELF_REVIEW.md` - PCB Final Visual Review Self Review
 - `02_HISTORY/ai_self_reviews/PCB_TRACE_ANGLE_RULE_PATCH_SELF_REVIEW.md` - PCB Trace Angle Rule Patch Self Review
 - `02_HISTORY/ai_self_reviews/PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_SELF_REVIEW.md` - AI Self Review: Playwright Batch Research Expansion
 - `02_HISTORY/ai_self_reviews/PLAYWRIGHT_PILOT_RESEARCH_SELF_REVIEW.md` - AI Self Review: Playwright Pilot Research
@@ -192,6 +233,45 @@ Record count: `922`
 - `02_HISTORY/ai_scorecards/20260509_082145_HISTORICAL_PATHS_PORTABILITY_SCORECARD.md` - AI Response Scorecard - Historical Paths Portability
 - `02_HISTORY/ai_scorecards/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_SCORECARD.md` - AI Response Scorecard - KiCad Python Context Fix
 - `02_HISTORY/ai_scorecards/20260509_093500_FINAL_PORTABILITY_VERIFICATION_SCORECARD.md` - AI Response Scorecard - Final Portability Verification
+- `02_HISTORY/ai_scorecards/20260510_105453_Schematic_Quality_Engine_Creation_Scorecard.md` - Schematic Quality Engine Creation Scorecard
+- `02_HISTORY/ai_scorecards/20260510_111132_KiCad_Native_Annotation_Auto_Open_Scorecard.md` - KiCad Native Annotation Auto-Open Scorecard
+- `02_HISTORY/ai_scorecards/20260510_113504_Schematic_Layout_Engine_Scorecard.md` - Schematic Layout Engine Scorecard
+- `02_HISTORY/ai_scorecards/20260510_115621_Footprint_Package_Engine_Scorecard.md` - Footprint Package Engine Scorecard
+- `02_HISTORY/ai_scorecards/20260510_120331_Knowledge_Scrape_Structure_Improvement_Scorecard.md` - Knowledge Scrape Structure Improvement Scorecard
+- `02_HISTORY/ai_scorecards/20260510_121328_Reference_Sample_System_Scorecard.md` - Reference Sample System Scorecard
+- `02_HISTORY/ai_scorecards/20260510_142522_PCB_Quality_Gate_Creation_Scorecard.md` - PCB Quality Gate Creation Scorecard
+- `02_HISTORY/ai_scorecards/20260510_COPPER_POUR_REQUEST_BLOCKED_SCORECARD.md` - AI Response Scorecard - Copper Pour Request Blocked
+- `02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_FINAL_PCB_REVIEW_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_MECHANICAL_ORIENTATION_TRUTH_SCORECARD.md` - AI Response Scorecard - Mechanical Orientation Truth
+- `02_HISTORY/ai_scorecards/20260510_NOT_FINAL_EXPORT_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_OPEN_SOURCE_TOOL_INTEGRATION_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260510_PCB_PRELAYOUT_ENGINE_SCORECARD.md` - AI Response Scorecard - PCB Prelayout Engine
+- `02_HISTORY/ai_scorecards/20260510_PCB_TRACE_GEOMETRY_AUDIT_SCORECARD.md` - AI Response Scorecard - PCB Trace Geometry Audit
+- `02_HISTORY/ai_scorecards/20260510_PRELAYOUT_VARIANT_GENERATION_SCORECARD.md` - AI Response Scorecard - Prelayout Variant Generation
+- `02_HISTORY/ai_scorecards/20260510_REAL_ROUTING_APPLY_BLOCKED_SCORECARD.md` - AI Response Scorecard - Real Routing Apply Blocked
+- `02_HISTORY/ai_scorecards/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_SCORECARD.md` - AI Response Scorecard - Staged Routing Precondition Blocked
+- `02_HISTORY/ai_scorecards/20260510_START_ROUTER_UPGRADE_SCORECARD.md` - Start Router Upgrade Scorecard
+- `02_HISTORY/ai_scorecards/20260511_163153_Knowledge_Scrape_Migration_Controller_Scorecard.md` - Knowledge Scrape Migration Controller Scorecard
+- `02_HISTORY/ai_scorecards/20260511_164911_Knowledge_Scrape_Metadata_Move_Scorecard.md` - Knowledge Scrape Metadata Move Scorecard
+- `02_HISTORY/ai_scorecards/20260511_170757_KiCad_Docs_Knowledge_Move_Scorecard.md` - KiCad Docs Knowledge Move Scorecard
+- `02_HISTORY/ai_scorecards/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260511_Component_Datasheet_Vendor_Knowledge_Move_Scorecard.md` - AI Scorecard
+- `02_HISTORY/ai_scorecards/20260511_Engineering_Rules_Knowledge_Move_Scorecard.md` - Engineering Rules Knowledge Move Scorecard
+- `02_HISTORY/ai_scorecards/20260511_Fab_DFM_Compliance_Knowledge_Move_Scorecard.md` - AI Scorecard
+- `02_HISTORY/ai_scorecards/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_SCORECARD.md` - GitHub Post-Knowledge-Migration Push Scorecard
+- `02_HISTORY/ai_scorecards/20260512_KNOWLEDGE_SCRAPE_EMPTYING_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_SCORECARD.md` - AI Response Scorecard
+- `02_HISTORY/ai_scorecards/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_SCORECARD.md` - Post-Knowledge-Migration Repo Integrity Scorecard
+- `02_HISTORY/ai_scorecards/20260512_REPO_PUSH_BLOCKER_REPAIR_SCORECARD.md` - Repo Push Blocker Repair Scorecard
 - `02_HISTORY/ai_scorecards/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_SCORECARD.md` - Accuracy Engine And AI Quality Setup Scorecard
 - `02_HISTORY/ai_scorecards/AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD.md` - AUTO_PCB_START_WORKFLOW_AI_RESPONSE_SCORECARD
 - `02_HISTORY/ai_scorecards/AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD.md` - AUTO_PLACEMENT_ENGINE_AI_RESPONSE_SCORECARD
@@ -200,6 +280,7 @@ Record count: `922`
 - `02_HISTORY/ai_scorecards/AUTO_VARIANT_SCORING_ENGINE_AI_RESPONSE_SCORECARD.md` - AI Response Scorecard - Auto Variant Scoring Engine
 - `02_HISTORY/ai_scorecards/COMPONENT_DATABASE_CORE_SETUP_AI_RESPONSE_SCORECARD.md` - Component Database Core Setup AI Response Scorecard
 - `02_HISTORY/ai_scorecards/CORE_PLACEHOLDER_CONTENT_UPGRADE_SCORECARD.md` - AI Response Scorecard: Core Placeholder Content Upgrade
+- `02_HISTORY/ai_scorecards/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal
 - `02_HISTORY/ai_scorecards/ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE Full Routing And Copper
 - `02_HISTORY/ai_scorecards/ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_SCORECARD.md` - AI Response Scorecard - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
 - `02_HISTORY/ai_scorecards/ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_SCORECARD.md` - AI Response Scorecard: ESP32_CSI_WIFI_NODE GUI Native Annotation
@@ -228,6 +309,7 @@ Record count: `922`
 - `02_HISTORY/ai_scorecards/OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_SCORECARD.md` - AI Response Scorecard - Open KiCad Sample Projects Audit
 - `02_HISTORY/ai_scorecards/P0_P1_REPAIR_SCORECARD.md` - AI Response Scorecard: P0/P1 Repair
 - `02_HISTORY/ai_scorecards/PACKAGE_FAB_VENDOR_PROFILE_SETUP_SCORECARD.md` - AI Response Scorecard - Package Fab Vendor Profile Setup
+- `02_HISTORY/ai_scorecards/PCB_FINAL_VISUAL_REVIEW_SCORECARD.md` - PCB Final Visual Review Scorecard
 - `02_HISTORY/ai_scorecards/PCB_TRACE_ANGLE_RULE_PATCH_AI_RESPONSE_SCORECARD.md` - PCB Trace Angle Rule Patch AI Response Scorecard
 - `02_HISTORY/ai_scorecards/PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_SCORECARD.md` - AI Response Scorecard: Playwright Batch Research Expansion
 - `02_HISTORY/ai_scorecards/PLAYWRIGHT_PILOT_RESEARCH_SCORECARD.md` - AI Response Scorecard: Playwright Pilot Research
@@ -315,6 +397,45 @@ Record count: `922`
 - `02_HISTORY/hallucination_risk_logs/20260509_082145_HISTORICAL_PATHS_PORTABILITY_HALLUCINATION_RISK.md` - Hallucination Risk Log - Historical Paths Portability
 - `02_HISTORY/hallucination_risk_logs/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_HALLUCINATION_RISK.md` - Hallucination Risk Log - KiCad Python Context Fix
 - `02_HISTORY/hallucination_risk_logs/20260509_093500_FINAL_PORTABILITY_VERIFICATION_HALLUCINATION_RISK.md` - Hallucination Risk Log - Final Portability Verification
+- `02_HISTORY/hallucination_risk_logs/20260510_105453_Schematic_Quality_Engine_Creation_Hallucination_Risk_Log.md` - Schematic Quality Engine Creation Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_111132_KiCad_Native_Annotation_Auto_Open_Hallucination_Risk_Log.md` - KiCad Native Annotation Auto-Open Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_113504_Schematic_Layout_Engine_Hallucination_Risk_Log.md` - Schematic Layout Engine Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_115621_Footprint_Package_Engine_Hallucination_Risk_Log.md` - Footprint Package Engine Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_120331_Knowledge_Scrape_Structure_Improvement_Hallucination_Risk_Log.md` - Knowledge Scrape Structure Improvement Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_121328_Reference_Sample_System_Hallucination_Risk_Log.md` - Reference Sample System Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_142522_PCB_Quality_Gate_Creation_Hallucination_Risk_Log.md` - PCB Quality Gate Creation Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_COPPER_POUR_REQUEST_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log - Copper Pour Request Blocked
+- `02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_FINAL_PCB_REVIEW_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_MECHANICAL_ORIENTATION_TRUTH_HALLUCINATION_RISK.md` - Hallucination Risk Log - Mechanical Orientation Truth
+- `02_HISTORY/hallucination_risk_logs/20260510_NOT_FINAL_EXPORT_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_OPEN_SOURCE_TOOL_INTEGRATION_HALLUCINATION_RISK.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260510_PCB_PRELAYOUT_ENGINE_HALLUCINATION_RISK.md` - Hallucination Risk Log - PCB Prelayout Engine
+- `02_HISTORY/hallucination_risk_logs/20260510_PCB_TRACE_GEOMETRY_AUDIT_HALLUCINATION_RISK.md` - Hallucination Risk Log - PCB Trace Geometry Audit
+- `02_HISTORY/hallucination_risk_logs/20260510_PRELAYOUT_VARIANT_GENERATION_HALLUCINATION_RISK.md` - Hallucination Risk Log - Prelayout Variant Generation
+- `02_HISTORY/hallucination_risk_logs/20260510_REAL_ROUTING_APPLY_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log - Real Routing Apply Blocked
+- `02_HISTORY/hallucination_risk_logs/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_HALLUCINATION_RISK.md` - Hallucination Risk Log - Staged Routing Precondition Blocked
+- `02_HISTORY/hallucination_risk_logs/20260510_START_ROUTER_UPGRADE_RISK_LOG.md` - Start Router Upgrade Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_163153_Knowledge_Scrape_Migration_Controller_Hallucination_Risk_Log.md` - Knowledge Scrape Migration Controller Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_164911_Knowledge_Scrape_Metadata_Move_Hallucination_Risk_Log.md` - Knowledge Scrape Metadata Move Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_170757_KiCad_Docs_Knowledge_Move_Hallucination_Risk_Log.md` - KiCad Docs Knowledge Move Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_Component_Datasheet_Vendor_Knowledge_Move_Hallucination_Risk.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_Engineering_Rules_Knowledge_Move_Hallucination_Risk_Log.md` - Engineering Rules Knowledge Move Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_Fab_DFM_Compliance_Knowledge_Move_Hallucination_Risk.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_RISK_LOG.md` - GitHub Post-Knowledge-Migration Push Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260512_KNOWLEDGE_SCRAPE_EMPTYING_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_RISK_LOG.md` - Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RISK_LOG.md` - Post-Knowledge-Migration Repo Integrity Hallucination Risk Log
+- `02_HISTORY/hallucination_risk_logs/20260512_REPO_PUSH_BLOCKER_REPAIR_RISK_LOG.md` - Repo Push Blocker Repair Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_HALLUCINATION_RISK_LOG.md` - Accuracy Engine And AI Quality Setup Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG.md` - AUTO_PCB_START_WORKFLOW_HALLUCINATION_RISK_LOG
 - `02_HISTORY/hallucination_risk_logs/AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG.md` - AUTO_PLACEMENT_ENGINE_HALLUCINATION_RISK_LOG
@@ -323,6 +444,7 @@ Record count: `922`
 - `02_HISTORY/hallucination_risk_logs/AUTO_VARIANT_SCORING_ENGINE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Auto Variant Scoring Engine
 - `02_HISTORY/hallucination_risk_logs/COMPONENT_DATABASE_CORE_SETUP_HALLUCINATION_RISK_LOG.md` - Component Database Core Setup Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/CORE_PLACEHOLDER_CONTENT_UPGRADE_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Core Placeholder Content Upgrade
+- `02_HISTORY/hallucination_risk_logs/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal
 - `02_HISTORY/hallucination_risk_logs/ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE Full Routing And Copper
 - `02_HISTORY/hallucination_risk_logs/ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_HALLUCINATION_RISK.md` - Hallucination Risk Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
 - `02_HISTORY/hallucination_risk_logs/ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: ESP32_CSI_WIFI_NODE GUI Native Annotation
@@ -349,6 +471,7 @@ Record count: `922`
 - `02_HISTORY/hallucination_risk_logs/OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Open KiCad Sample Projects Audit
 - `02_HISTORY/hallucination_risk_logs/P0_P1_REPAIR_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: P0/P1 Repair
 - `02_HISTORY/hallucination_risk_logs/PACKAGE_FAB_VENDOR_PROFILE_SETUP_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - Package Fab Vendor Profile Setup
+- `02_HISTORY/hallucination_risk_logs/PCB_FINAL_VISUAL_REVIEW_HALLUCINATION_RISK.md` - PCB Final Visual Review Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/PCB_TRACE_ANGLE_RULE_PATCH_HALLUCINATION_RISK_LOG.md` - PCB Trace Angle Rule Patch Hallucination Risk Log
 - `02_HISTORY/hallucination_risk_logs/PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Batch Research Expansion
 - `02_HISTORY/hallucination_risk_logs/PLAYWRIGHT_PILOT_RESEARCH_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log: Playwright Pilot Research
@@ -437,6 +560,45 @@ Record count: `922`
 - `02_HISTORY/claim_evidence_matrices/20260509_082145_HISTORICAL_PATHS_PORTABILITY_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Historical Paths Portability
 - `02_HISTORY/claim_evidence_matrices/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - KiCad Python Context Fix
 - `02_HISTORY/claim_evidence_matrices/20260509_093500_FINAL_PORTABILITY_VERIFICATION_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Final Portability Verification
+- `02_HISTORY/claim_evidence_matrices/20260510_105453_Schematic_Quality_Engine_Creation_Claim_Evidence_Matrix.md` - Schematic Quality Engine Creation Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_111132_KiCad_Native_Annotation_Auto_Open_Claim_Evidence_Matrix.md` - KiCad Native Annotation Auto-Open Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_113504_Schematic_Layout_Engine_Claim_Evidence_Matrix.md` - Schematic Layout Engine Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_115621_Footprint_Package_Engine_Claim_Evidence_Matrix.md` - Footprint Package Engine Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_120331_Knowledge_Scrape_Structure_Improvement_Claim_Evidence_Matrix.md` - Knowledge Scrape Structure Improvement Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_121328_Reference_Sample_System_Claim_Evidence_Matrix.md` - Reference Sample System Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_142522_PCB_Quality_Gate_Creation_Claim_Evidence_Matrix.md` - PCB Quality Gate Creation Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_COPPER_POUR_REQUEST_BLOCKED_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Copper Pour Request Blocked
+- `02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_FINAL_PCB_REVIEW_CLAIM_EVIDENCE.md` - Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_MECHANICAL_ORIENTATION_TRUTH_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Mechanical Orientation Truth
+- `02_HISTORY/claim_evidence_matrices/20260510_NOT_FINAL_EXPORT_CLAIM_EVIDENCE.md` - Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_OPEN_SOURCE_TOOL_INTEGRATION_CLAIM_EVIDENCE.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260510_PCB_PRELAYOUT_ENGINE_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - PCB Prelayout Engine
+- `02_HISTORY/claim_evidence_matrices/20260510_PCB_TRACE_GEOMETRY_AUDIT_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - PCB Trace Geometry Audit
+- `02_HISTORY/claim_evidence_matrices/20260510_PRELAYOUT_VARIANT_GENERATION_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Prelayout Variant Generation
+- `02_HISTORY/claim_evidence_matrices/20260510_REAL_ROUTING_APPLY_BLOCKED_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Real Routing Apply Blocked
+- `02_HISTORY/claim_evidence_matrices/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - Staged Routing Precondition Blocked
+- `02_HISTORY/claim_evidence_matrices/20260510_START_ROUTER_UPGRADE_CLAIMS.md` - Start Router Upgrade Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_163153_Knowledge_Scrape_Migration_Controller_Claim_Evidence_Matrix.md` - Knowledge Scrape Migration Controller Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_164911_Knowledge_Scrape_Metadata_Move_Claim_Evidence_Matrix.md` - Knowledge Scrape Metadata Move Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_170757_KiCad_Docs_Knowledge_Move_Claim_Evidence_Matrix.md` - KiCad Docs Knowledge Move Claim Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_Component_Datasheet_Vendor_Knowledge_Move_Claim_Evidence_Matrix.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_Engineering_Rules_Knowledge_Move_Claim_Evidence_Matrix.md` - Engineering Rules Knowledge Move Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_Fab_DFM_Compliance_Knowledge_Move_Claim_Evidence_Matrix.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_CLAIMS.md` - GitHub Post-Knowledge-Migration Push Claim/Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260512_KNOWLEDGE_SCRAPE_EMPTYING_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_CLAIM_EVIDENCE.md` - Post-Knowledge-Migration Repo Integrity Claim/Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_CLAIMS.md` - Claim / Evidence Matrix
+- `02_HISTORY/claim_evidence_matrices/20260512_REPO_PUSH_BLOCKER_REPAIR_CLAIMS.md` - Repo Push Blocker Repair Claim/Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Accuracy Engine And AI Quality Setup Claim Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PCB_START_WORKFLOW_CLAIM_EVIDENCE_MATRIX
 - `02_HISTORY/claim_evidence_matrices/AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - AUTO_PLACEMENT_ENGINE_CLAIM_EVIDENCE_MATRIX
@@ -445,6 +607,7 @@ Record count: `922`
 - `02_HISTORY/claim_evidence_matrices/AUTO_VARIANT_SCORING_ENGINE_CLAIM_EVIDENCE_MATRIX.md` - Claim / Evidence Matrix - Auto Variant Scoring Engine
 - `02_HISTORY/claim_evidence_matrices/COMPONENT_DATABASE_CORE_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Component Database Core Setup Claim Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/CORE_PLACEHOLDER_CONTENT_UPGRADE_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Core Placeholder Content Upgrade
+- `02_HISTORY/claim_evidence_matrices/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal
 - `02_HISTORY/claim_evidence_matrices/ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_CLAIM_EVIDENCE.md` - Claim Evidence Matrix - ESP32_CSI_WIFI_NODE Full Routing And Copper
 - `02_HISTORY/claim_evidence_matrices/ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_CLAIMS.md` - Claim/Evidence Matrix - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
 - `02_HISTORY/claim_evidence_matrices/ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: ESP32_CSI_WIFI_NODE GUI Native Annotation
@@ -473,6 +636,7 @@ Record count: `922`
 - `02_HISTORY/claim_evidence_matrices/OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Open KiCad Sample Projects Audit
 - `02_HISTORY/claim_evidence_matrices/P0_P1_REPAIR_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: P0/P1 Repair
 - `02_HISTORY/claim_evidence_matrices/PACKAGE_FAB_VENDOR_PROFILE_SETUP_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - Package Fab Vendor Profile Setup
+- `02_HISTORY/claim_evidence_matrices/PCB_FINAL_VISUAL_REVIEW_CLAIM_EVIDENCE_MATRIX.md` - PCB Final Visual Review Claim / Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/PCB_TRACE_ANGLE_RULE_PATCH_CLAIM_EVIDENCE_MATRIX.md` - PCB Trace Angle Rule Patch Claim Evidence Matrix
 - `02_HISTORY/claim_evidence_matrices/PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Batch Research Expansion
 - `02_HISTORY/claim_evidence_matrices/PLAYWRIGHT_PILOT_RESEARCH_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix: Playwright Pilot Research
@@ -505,6 +669,15 @@ Record count: `922`
 - `02_HISTORY/quality_gate_failures/20260507_ESP32_CSI_WIFI_NODE_PCB_CREATE_FROM_SCHEMATIC_GATE_FAILURE.md` - Quality Gate Failure: ESP32_CSI_WIFI_NODE PCB Create From Schematic
 - `02_HISTORY/quality_gate_failures/20260507_ESP32_CSI_WIFI_NODE_PRODUCTION_FIX_PASS_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Production Fix Pass
 - `02_HISTORY/quality_gate_failures/20260507_ESP32_CSI_WIFI_NODE_REAL_WORLD_FAILURE_REVIEW_GATE_FAILURE.md` - Quality Gate Failure - ESP32_CSI_WIFI_NODE Real-World Failure Review
+- `02_HISTORY/quality_gate_failures/20260510_113526_ESP32_CSI_WIFI_NODE_Schematic_Layout_Gate_Failure.md` - ESP32_CSI_WIFI_NODE Schematic Layout Gate Failure
+- `02_HISTORY/quality_gate_failures/20260510_142522_ESP32_CSI_WIFI_NODE_PCB_Quality_Gate_Failure.md` - ESP32_CSI_WIFI_NODE PCB Quality Gate Failure
+- `02_HISTORY/quality_gate_failures/20260510_COPPER_POUR_REQUEST_BLOCKED.md` - Copper Pour Request Blocked
+- `02_HISTORY/quality_gate_failures/20260510_FINAL_PCB_REVIEW_BLOCKED.md` - Final PCB Review Blocked
+- `02_HISTORY/quality_gate_failures/20260510_NOT_FINAL_EXPORT_BLOCKED.md` - NOT_FINAL Export Blocked
+- `02_HISTORY/quality_gate_failures/20260510_PCB_PRELAYOUT_VARIANT_PACKET_GATE_BLOCKED.md` - Quality Gate Failure - PCB Prelayout Variant Packet
+- `02_HISTORY/quality_gate_failures/20260510_PCB_TRACE_GEOMETRY_GATE_FAIL.md` - Quality Gate Failure - PCB Trace Geometry Gate
+- `02_HISTORY/quality_gate_failures/20260510_REAL_ROUTING_APPLY_BLOCKED.md` - Real Routing Apply Blocked
+- `02_HISTORY/quality_gate_failures/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED.md` - Quality Gate Failure - Staged Routing Request Blocked
 - `02_HISTORY/quality_gate_failures/ESP32_CSI_CODEX_FILE_EDIT_ANNOTATION_REJECTED.md` - Quality Gate Failure: Codex File-Edit Annotation Rejected
 - `02_HISTORY/quality_gate_failures/ESP32_CSI_CODEX_TEXT_EDIT_ANNOTATION_FAILED.md` - Quality Gate Failure: Codex Text-Edit Annotation Did Not Resolve GUI State
 - `02_HISTORY/quality_gate_failures/ESP32_CSI_FALSE_ANNOTATION_PASS.md` - Quality Gate Failure: ESP32_CSI_FALSE_ANNOTATION_PASS
@@ -587,6 +760,45 @@ Record count: `922`
 - `02_HISTORY/uncertainty_logs/20260509_082145_HISTORICAL_PATHS_PORTABILITY_UNCERTAINTY.md` - Uncertainty Log - Historical Paths Portability
 - `02_HISTORY/uncertainty_logs/20260509_084320_KICAD_PYTHON_CONTEXT_FIX_UNCERTAINTY.md` - Uncertainty Log - KiCad Python Context Fix
 - `02_HISTORY/uncertainty_logs/20260509_093500_FINAL_PORTABILITY_VERIFICATION_UNCERTAINTY.md` - Uncertainty Log - Final Portability Verification
+- `02_HISTORY/uncertainty_logs/20260510_105453_Schematic_Quality_Engine_Creation_Uncertainty_Log.md` - Schematic Quality Engine Creation Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_111132_KiCad_Native_Annotation_Auto_Open_Uncertainty_Log.md` - KiCad Native Annotation Auto-Open Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_113504_Schematic_Layout_Engine_Uncertainty_Log.md` - Schematic Layout Engine Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_115621_Footprint_Package_Engine_Uncertainty_Log.md` - Footprint Package Engine Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_120331_Knowledge_Scrape_Structure_Improvement_Uncertainty_Log.md` - Knowledge Scrape Structure Improvement Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_121328_Reference_Sample_System_Uncertainty_Log.md` - Reference Sample System Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_142522_PCB_Quality_Gate_Creation_Uncertainty_Log.md` - PCB Quality Gate Creation Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_COPPER_POUR_REQUEST_BLOCKED_UNCERTAINTY.md` - Uncertainty Log - Copper Pour Request Blocked
+- `02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_FOOTPRINT_ASSIGNMENT_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PLACEMENT_APPLICATION_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_PCB_PRELAYOUT_VARIANTS_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_REAL_PCB_UPDATE_FROM_SCHEMATIC_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_ESP32_CSI_WIFI_NODE_SCHEMATIC_VISUAL_CLEANUP_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_FINAL_PCB_REVIEW_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_MECHANICAL_ORIENTATION_TRUTH_UNCERTAINTY.md` - Uncertainty Log - Mechanical Orientation Truth
+- `02_HISTORY/uncertainty_logs/20260510_NOT_FINAL_EXPORT_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_OPEN_SOURCE_TOOL_INTEGRATION_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260510_PCB_PRELAYOUT_ENGINE_UNCERTAINTY.md` - Uncertainty Log - PCB Prelayout Engine
+- `02_HISTORY/uncertainty_logs/20260510_PCB_TRACE_GEOMETRY_AUDIT_UNCERTAINTY.md` - Uncertainty Log - PCB Trace Geometry Audit
+- `02_HISTORY/uncertainty_logs/20260510_PRELAYOUT_VARIANT_GENERATION_UNCERTAINTY.md` - Uncertainty Log - Prelayout Variant Generation
+- `02_HISTORY/uncertainty_logs/20260510_REAL_ROUTING_APPLY_BLOCKED_UNCERTAINTY.md` - Uncertainty Log - Real Routing Apply Blocked
+- `02_HISTORY/uncertainty_logs/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_UNCERTAINTY.md` - Uncertainty Log - Staged Routing Precondition Blocked
+- `02_HISTORY/uncertainty_logs/20260510_START_ROUTER_UPGRADE_UNCERTAINTY.md` - Start Router Upgrade Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_163153_Knowledge_Scrape_Migration_Controller_Uncertainty_Log.md` - Knowledge Scrape Migration Controller Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_164911_Knowledge_Scrape_Metadata_Move_Uncertainty_Log.md` - Knowledge Scrape Metadata Move Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_170757_KiCad_Docs_Knowledge_Move_Uncertainty_Log.md` - KiCad Docs Knowledge Move Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_AI_ENTRYPOINT_RETRIEVAL_TOOL_KNOWLEDGE_MOVE_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_CASE_STUDY_TRAINING_KNOWLEDGE_MOVE_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_Component_Datasheet_Vendor_Knowledge_Move_Uncertainty_Log.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_Engineering_Rules_Knowledge_Move_Uncertainty_Log.md` - Engineering Rules Knowledge Move Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_Fab_DFM_Compliance_Knowledge_Move_Uncertainty_Log.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260511_KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260512_GITHUB_POST_KNOWLEDGE_MIGRATION_PUSH_UNCERTAINTY.md` - GitHub Post-Knowledge-Migration Push Uncertainty
+- `02_HISTORY/uncertainty_logs/20260512_KNOWLEDGE_SCRAPE_EMPTYING_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260512_KNOWLEDGE_SCRAPE_FINAL_VALIDATION_RERUN_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260512_KNOWLEDGE_SCRAPE_SCRIPT_DRAIN_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_RERUN_UNCERTAINTY.md` - Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260512_POST_KNOWLEDGE_MIGRATION_REPO_INTEGRITY_UNCERTAINTY_LOG.md` - Post-Knowledge-Migration Repo Integrity Uncertainty Log
+- `02_HISTORY/uncertainty_logs/20260512_REPO_PUSH_BLOCKER_REPAIR_UNCERTAINTY.md` - Repo Push Blocker Repair Uncertainty
 - `02_HISTORY/uncertainty_logs/ACCURACY_ENGINE_AND_AI_QUALITY_SETUP_UNCERTAINTY_LOG.md` - Accuracy Engine And AI Quality Setup Uncertainty Log
 - `02_HISTORY/uncertainty_logs/AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG.md` - AUTO_PCB_START_WORKFLOW_UNCERTAINTY_LOG
 - `02_HISTORY/uncertainty_logs/AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG.md` - AUTO_PLACEMENT_ENGINE_UNCERTAINTY_LOG
@@ -595,6 +807,7 @@ Record count: `922`
 - `02_HISTORY/uncertainty_logs/AUTO_VARIANT_SCORING_ENGINE_UNCERTAINTY_LOG.md` - Uncertainty Log - Auto Variant Scoring Engine
 - `02_HISTORY/uncertainty_logs/COMPONENT_DATABASE_CORE_SETUP_UNCERTAINTY_LOG.md` - Component Database Core Setup Uncertainty Log
 - `02_HISTORY/uncertainty_logs/CORE_PLACEHOLDER_CONTENT_UPGRADE_UNCERTAINTY_LOG.md` - Uncertainty Log: Core Placeholder Content Upgrade
+- `02_HISTORY/uncertainty_logs/ESP32_CSI_WIFI_NODE_COPIED_BOARD_ROUTING_REHEARSAL_UNCERTAINTY_LOG.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Copied Board Routing Rehearsal
 - `02_HISTORY/uncertainty_logs/ESP32_CSI_WIFI_NODE_FULL_ROUTING_AND_COPPER_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE Full Routing And Copper
 - `02_HISTORY/uncertainty_logs/ESP32_CSI_WIFI_NODE_J1_J2_ORIENTATION_REPAIR_UNCERTAINTY.md` - Uncertainty Log - ESP32_CSI_WIFI_NODE J1/J2 Orientation Repair
 - `02_HISTORY/uncertainty_logs/ESP32_CSI_WIFI_NODE_KICAD_GUI_NATIVE_ANNOTATION_UNCERTAINTY_LOG.md` - Uncertainty Log: ESP32_CSI_WIFI_NODE GUI Native Annotation
@@ -623,6 +836,7 @@ Record count: `922`
 - `02_HISTORY/uncertainty_logs/OPEN_KICAD_SAMPLE_PROJECTS_AUDIT_UNCERTAINTY_LOG.md` - Uncertainty Log - Open KiCad Sample Projects Audit
 - `02_HISTORY/uncertainty_logs/P0_P1_REPAIR_UNCERTAINTY_LOG.md` - Uncertainty Log: P0/P1 Repair
 - `02_HISTORY/uncertainty_logs/PACKAGE_FAB_VENDOR_PROFILE_SETUP_UNCERTAINTY_LOG.md` - Uncertainty Log - Package Fab Vendor Profile Setup
+- `02_HISTORY/uncertainty_logs/PCB_FINAL_VISUAL_REVIEW_UNCERTAINTY_LOG.md` - PCB Final Visual Review Uncertainty Log
 - `02_HISTORY/uncertainty_logs/PCB_TRACE_ANGLE_RULE_PATCH_UNCERTAINTY_LOG.md` - PCB Trace Angle Rule Patch Uncertainty Log
 - `02_HISTORY/uncertainty_logs/PLAYWRIGHT_BATCH_RESEARCH_EXPANSION_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Batch Research Expansion
 - `02_HISTORY/uncertainty_logs/PLAYWRIGHT_PILOT_RESEARCH_UNCERTAINTY_LOG.md` - Uncertainty Log: Playwright Pilot Research
@@ -663,6 +877,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/2026-05-08_pcb_batch_04_replay_request_self_review.md` - AI Self Review
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/2026-05-08_pcb_batch_05_usb_data_routing_self_review.md` - AI Self Review
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/2026-05-08_pcb_final_connectivity_cleanup_ai_self_review.md` - AI Self Review: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/2026-05-09_pcb_routing_audit_plan_self_review.md` - AI Self-Review - PCB Routing Audit Plan
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_self_review.md` - ESP32 CSI schematic electrical footprint gate self-review
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260506_155328_ESP32_CSI_schematic_human_review_packet_self_review.md` - ESP32 CSI schematic human review packet self-review
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260506_160715_Emergency_schematic_truth_audit_self_review.md` - Emergency schematic truth audit self-review
@@ -679,6 +894,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_AI_SELF_REVIEW.md` - AI Self Review - REAL PCB Critical Routing Pass 1
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260508_real_pcb_repair_pass_1_ai_self_review.md` - Real PCB Repair Pass 1 AI Self Review
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260508_routing_work_prep_ai_self_review.md` - AI Self Review
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/20260510_123401_ESP32_schematic_intelligence_self_review.md` - ESP32 schematic intelligence self review
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/COPPER_ZONE_STRATEGY_BLOCKED_SELF_REVIEW.md` - COPPER_ZONE_STRATEGY_BLOCKED_SELF_REVIEW
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SELF_REVIEW.md` - AI Self Review
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_self_reviews/FINAL_PCB_VERIFICATION_SELF_REVIEW.md` - Final PCB Verification AI Self-Review
@@ -712,6 +928,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/2026-05-08_pcb_batch_04_replay_request_scorecard.md` - AI Response Scorecard
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/2026-05-08_pcb_batch_05_usb_data_routing_scorecard.md` - AI Response Scorecard
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/2026-05-08_pcb_final_connectivity_cleanup_scorecard.md` - AI Response Scorecard: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/2026-05-09_pcb_routing_audit_plan_scorecard.md` - AI Response Scorecard - PCB Routing Audit Plan
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_scorecard.md` - ESP32 CSI schematic electrical footprint gate scorecard
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260506_155328_ESP32_CSI_schematic_human_review_packet_scorecard.md` - ESP32 CSI schematic human review packet scorecard
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260506_160715_Emergency_schematic_truth_audit_scorecard.md` - Emergency schematic truth audit scorecard
@@ -728,6 +945,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_SCORECARD.md` - AI Response Scorecard - REAL PCB Critical Routing Pass 1
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260508_real_pcb_repair_pass_1_scorecard.md` - Real PCB Repair Pass 1 Response Scorecard
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260508_routing_work_prep_scorecard.md` - AI Response Scorecard
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/20260510_123401_ESP32_schematic_intelligence_scorecard.md` - ESP32 schematic intelligence scorecard
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/COPPER_ZONE_STRATEGY_BLOCKED_SCORECARD.md` - COPPER_ZONE_STRATEGY_BLOCKED_SCORECARD
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_SCORECARD.md` - AI Response Scorecard
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/ai_scorecards/EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_SCORECARD.md` - EXAMPLE_ONLY AI Response Scorecard: USB-C Footprint Recommended Without Drawing
@@ -761,6 +979,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/2026-05-08_pcb_batch_04_replay_request_hallucination_risk.md` - Hallucination Risk Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/2026-05-08_pcb_batch_05_usb_data_routing_hallucination_risk.md` - Hallucination Risk Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/2026-05-08_pcb_final_connectivity_cleanup_hallucination_risk_log.md` - Hallucination Risk Log: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/2026-05-09_pcb_routing_audit_plan_hallucination_risk.md` - Hallucination Risk Log - PCB Routing Audit Plan
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260506_154747_ESP32_CSI_schematic_electrical_footprint_gate_hallucination_risk_log.md` - ESP32 CSI schematic electrical footprint gate hallucination risk log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260506_155334_ESP32_CSI_schematic_human_review_packet_hallucination_risk_log.md` - ESP32 CSI schematic human review packet hallucination risk log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260506_160734_Prior_automated_visual_pass_overconfidence_risk.md` - Prior automated visual pass overconfidence risk
@@ -777,6 +996,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log - REAL PCB Critical Routing Pass 1
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260508_real_pcb_repair_pass_1_hallucination_risk_log.md` - Real PCB Repair Pass 1 Hallucination Risk Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260508_routing_work_prep_hallucination_risk_log.md` - Hallucination Risk Log
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/20260510_123401_ESP32_schematic_intelligence_hallucination_risk_log.md` - ESP32 schematic intelligence hallucination risk log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/COPPER_ZONE_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG.md` - COPPER_ZONE_STRATEGY_BLOCKED_HALLUCINATION_RISK_LOG
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_HALLUCINATION_RISK_LOG.md` - Hallucination Risk Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/hallucination_risk_logs/EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_RISK.md` - EXAMPLE_ONLY Hallucination Risk: USB-C Footprint
@@ -810,6 +1030,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/2026-05-08_pcb_batch_04_replay_request_claims.md` - Claim Evidence Matrix
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/2026-05-08_pcb_batch_05_usb_data_routing_claims.md` - Claim Evidence Matrix
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/2026-05-08_pcb_final_connectivity_cleanup_claim_evidence_matrix.md` - Claim Evidence Matrix: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/2026-05-09_pcb_routing_audit_plan_claims.md` - Claim Evidence Matrix - PCB Routing Audit Plan
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_claim_evidence_matrix.md` - ESP32 CSI schematic electrical footprint gate claim evidence matrix
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260506_155328_ESP32_CSI_schematic_human_review_packet_claim_evidence_matrix.md` - ESP32 CSI schematic human review packet claim evidence matrix
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260506_160715_Emergency_schematic_truth_audit_claim_evidence_matrix.md` - Emergency schematic truth audit claim evidence matrix
@@ -826,6 +1047,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix - REAL PCB Critical Routing Pass 1
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260508_real_pcb_repair_pass_1_claim_matrix.md` - Real PCB Repair Pass 1 Claim / Evidence Matrix
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260508_routing_work_prep_claim_evidence_matrix.md` - Claim Evidence Matrix
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/20260510_123401_ESP32_schematic_intelligence_claim_matrix.md` - ESP32 schematic intelligence claim matrix
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/COPPER_ZONE_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX.md` - COPPER_ZONE_STRATEGY_BLOCKED_CLAIM_EVIDENCE_MATRIX
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_CLAIM_EVIDENCE_MATRIX.md` - Claim Evidence Matrix
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/claim_evidence_matrices/EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_MATRIX.md` - EXAMPLE_ONLY Claim Evidence Matrix: USB-C Footprint
@@ -852,6 +1074,9 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-07_existing_trace_audit_blocked.md` - Quality Gate Failure - Existing Trace Audit
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-07_live_pcb_truth_audit_blocked.md` - Quality Gate Failure - Live PCB Truth Audit
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-08_real_pcb_repair_pass_1_user_override_exception.md` - Quality Gate Exception - Real PCB Repair Pass 1
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-09_esp_routing_via_user_override_exception.md` - Quality Gate Exception - ESP Routing And Via Repair
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-09_pcb_routing_audit_plan_blocked.md` - PCB Routing Audit Plan Quality Gate Failure
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/2026-05-09_power_routing_user_override_exception.md` - Quality Gate Exception - Power Routing Repair
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/20260506_154747_ESP32_CSI_schematic_to_PCB_gate_remains_failed_after_electrical_footprint_gate.md` - ESP32 CSI schematic to PCB gate remains failed after electrical footprint gate
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/20260506_160734_Emergency_schematic_truth_audit_gate_failure.md` - Emergency schematic truth audit gate failure
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/quality_gate_failures/20260506_161816_Footprint_assignment_gate_remains_blocked.md` - Footprint assignment gate remains blocked
@@ -892,6 +1117,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/2026-05-08_pcb_batch_04_replay_request_uncertainty.md` - Uncertainty Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/2026-05-08_pcb_batch_05_usb_data_routing_uncertainty.md` - Uncertainty Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/2026-05-08_pcb_final_connectivity_cleanup_uncertainty_log.md` - Uncertainty Log: PCB Final Connectivity Cleanup
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/2026-05-09_pcb_routing_audit_plan_uncertainty.md` - Uncertainty Log - PCB Routing Audit Plan
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260506_154735_ESP32_CSI_schematic_electrical_footprint_gate_uncertainty_log.md` - ESP32 CSI schematic electrical footprint gate uncertainty log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260506_155328_ESP32_CSI_schematic_human_review_packet_uncertainty_log.md` - ESP32 CSI schematic human review packet uncertainty log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260506_160734_Emergency_schematic_truth_audit_uncertainty_log.md` - Emergency schematic truth audit uncertainty log
@@ -908,6 +1134,7 @@ Record count: `922`
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260508_REAL_PCB_CRITICAL_ROUTING_PASS_1_UNCERTAINTY_LOG.md` - Uncertainty Log - REAL PCB Critical Routing Pass 1
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260508_real_pcb_repair_pass_1_uncertainty_log.md` - Real PCB Repair Pass 1 Uncertainty Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260508_routing_work_prep_uncertainty_log.md` - Uncertainty Log
+- `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/20260510_123401_ESP32_schematic_intelligence_uncertainty_log.md` - ESP32 schematic intelligence uncertainty log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG.md` - COPPER_ZONE_STRATEGY_BLOCKED_UNCERTAINTY_LOG
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/ESP32_CSI_WIFI_NODE_REAL_PCB_FULL_ROUTING_PASS_UNCERTAINTY_LOG.md` - Uncertainty Log
 - `04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/history/uncertainty_logs/EXAMPLE_ONLY_USB_C_UNVERIFIED_FOOTPRINT_UNCERTAINTY.md` - EXAMPLE_ONLY Uncertainty Log: USB-C Footprint

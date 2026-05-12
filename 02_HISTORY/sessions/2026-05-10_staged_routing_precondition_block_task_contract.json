@@ -1,0 +1,28 @@
+{
+  "task_type": "AUDIT_ONLY",
+  "task_summary": "Check whether ESP32_CSI_WIFI_NODE may enter real-board placement and staged routing by enforcing the precondition in PCB_PRELAYOUT_RECOMMENDED_VARIANT.md before any .kicad_pcb edit.",
+  "project_path": "04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE",
+  "target_pcb": null,
+  "changed_files": [
+    "02_HISTORY/sessions/2026-05-10_staged_routing_precondition_block_task_contract.json",
+    "02_HISTORY/sessions/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_SESSION.md",
+    "02_HISTORY/command_logs/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_COMMANDS.md",
+    "02_HISTORY/quality_gate_failures/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED.md",
+    "02_HISTORY/issue_logs/20260510_ESP32_CSI_WIFI_NODE_STAGED_ROUTING_REQUEST_BLOCKED_BY_PRELAYOUT.md",
+    "02_HISTORY/ai_self_reviews/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_SELF_REVIEW.md",
+    "02_HISTORY/ai_scorecards/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_SCORECARD.md",
+    "02_HISTORY/claim_evidence_matrices/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_CLAIM_EVIDENCE.md",
+    "02_HISTORY/uncertainty_logs/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_UNCERTAINTY.md",
+    "02_HISTORY/hallucination_risk_logs/20260510_STAGED_ROUTING_PRECONDITION_BLOCKED_HALLUCINATION_RISK.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "The user requested real-board placement and staged routing, but the run must stop unless the latest prelayout recommendation explicitly says PRELAYOUT_VARIANT_READY_FOR_REAL_PCB_APPLICATION. The current recommendation does not, so this run is a read-only gate check only.",
+  "evidence": {
+    "backup_created": false,
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "visual_export_attempted": false,
+    "pcb_hash_before": "ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1",
+    "pcb_hash_after": "ACA326C7B7C96AA67FED119E8DF54BDEBF80148C6B5F34F998780137C2BA1DD1"
+  }
+}

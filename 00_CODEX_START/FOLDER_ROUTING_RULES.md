@@ -46,6 +46,7 @@ This file tells AI agents where new KiCad Engine files belong. Use it before cre
 | `30_SUPPLIER_FOOTPRINT_MATCHES/` | Supplier SKU/MPN to KiCad symbol/footprint/3D candidate match records, confidence rules, and unmatched supplier reports. |
 | `31_PLAYWRIGHT_RESEARCH_PIPELINE/` | Playwright-assisted public-page research policies, source profiles, target lists, screenshot evidence, normalized evidence outputs, and dry-run-first browser research scripts. |
 | `32_OPEN_KICAD_SAMPLE_INTAKE/` | Controlled open KiCad sample project candidate records, license screening, imported-original evidence copies, normalized samples, review reports, attribution, and benchmark promotion notes. |
+| `33_PCB_PRELAYOUT_ENGINE/` | Reusable PCB digital-twin extraction, connector mechanical truth, projected-route planning, variant scoring, and pre-placement/pre-routing gate rules. |
 | `34_PCB_LAYOUT_SANDBOX/` | Pre-PCB-edit layout sandbox rules, variant-planning workflow, board-shape/mechanical reasoning, projected routing guidance, and sandbox templates. |
 | `99_BACKUPS/` | Pre-edit snapshots and recovery copies. Do not delete. |
 
@@ -83,6 +84,7 @@ Before creating a file, ask:
 - Use `30_SUPPLIER_FOOTPRINT_MATCHES/` when a supplier SKU, JLC/LCSC part number, or supplier package field needs to be tied to a KiCad footprint candidate with explicit confidence and human-review status.
 - Use `31_PLAYWRIGHT_RESEARCH_PIPELINE/` for controlled public-page browser evidence, screenshot capture, source profiles, and dry-run research plans; do not route captured browser output directly into verified component or footprint records.
 - Use `32_OPEN_KICAD_SAMPLE_INTAKE/` for open KiCad sample project discovery, source/license screening, imported-original preservation, normalized review copies, sample audits, attribution, and benchmark-candidate promotion. Do not put random downloads, edited originals, active user projects, or unlicensed public-payload samples there.
+- Use `33_PCB_PRELAYOUT_ENGINE/` for reusable digital-twin, connector-truth, projected-route, and pre-placement/pre-routing gate rules. Put project-specific prelayout outputs in the active project's `reports/prelayout_engine/` folder.
 - Use `34_PCB_LAYOUT_SANDBOX/` for reusable sandbox rules, variant-planning workflow, projected routing guidance, and pre-PCB-edit templates. Put project-specific sandbox outputs in the active project's `reports/` folder.
 - Use `99_BACKUPS/` for backups before edits.
 - Use `03_TOOLS/scripts/indexing/` for safe repo, memory, history, and known-problem index builders.

@@ -24,6 +24,10 @@ Task: route remaining nets only after critical routing is acceptable, then perfo
 
 If critical routing is not `CRITICAL_ROUTING_PASS` or explicitly acceptable with documented non-blocking warnings, stop.
 
+If any required connector-orientation audit is not `PASS`, stop.
+
+If the ESP32 antenna-orientation audit is not `PASS` when applicable, stop.
+
 ## Do
 
 1. Create backup.

@@ -126,6 +126,13 @@ For KiCad GUI/native schematic actions, annotation, GUI save, GUI ERC, Eeschema 
 
 For KiCad project work that moves from schematic review into PCB update, placement, routing, verification, or NOT_FINAL fabrication export, also read:
 
+- `../33_PCB_PRELAYOUT_ENGINE/README.md`
+- `../33_PCB_PRELAYOUT_ENGINE/PCB_PRELAYOUT_ENGINE_WORKFLOW.md`
+- `../33_PCB_PRELAYOUT_ENGINE/PCB_VARIANT_PLANNING_RULES.md`
+- `../33_PCB_PRELAYOUT_ENGINE/PCB_VARIANT_SCORING_RULES.md`
+- `../33_PCB_PRELAYOUT_ENGINE/TRACE_PROJECTION_RULES.md`
+- `../33_PCB_PRELAYOUT_ENGINE/PLACEMENT_TO_ROUTING_FEASIBILITY_GATE.md`
+- `../33_PCB_PRELAYOUT_ENGINE/README_FOR_CODEX_AND_CLAUDE.md`
 - `KICAD_PIPELINE_STARTUP_RULES.md`
 - `KICAD_PHASE_ORDER.md`
 - `../34_PCB_LAYOUT_SANDBOX/README.md`
@@ -145,6 +152,10 @@ For KiCad project work that moves from schematic review into PCB update, placeme
 Before starting the requested phase, run:
 
 `python 03_TOOLS/scripts/project_state/validate_live_state_before_gate.py --project <ACTIVE_PROJECT_PATH>`
+
+Before real PCB placement or routing, also run:
+
+`python 03_TOOLS/scripts/pcb_prelayout/run_prelayout_gate.py --project <ACTIVE_PROJECT_PATH>`
 
 Then run:
 
@@ -248,10 +259,13 @@ Before any PCB update from schematic, PCB creation, placement, routing, copper-z
 - `../09_ACCURACY_ENGINE/checklists/PCB_UPDATE_FROM_SCHEMATIC_CHECKLIST.md`
 - `../09_ACCURACY_ENGINE/verification_rules/SCHEMATIC_TO_PCB_BLOCKERS.md`
 - `../09_ACCURACY_ENGINE/verification_rules/NEEDS_REVIEW_BLOCKER_RULES.md`
+- The active project's latest `reports/prelayout_engine/*/prelayout_gate_result.json`
 - The active project's `reports/SCHEMATIC_TO_PCB_GATE_STATUS.md`
 - The active project's `reports/PCB_LAYOUT_SANDBOX_GATE_STATUS.md`
 
 Agents must not update PCB from schematic, import schematic changes into PCB, place parts, route traces, create zones, or generate PCB manufacturing outputs unless the active project's `SCHEMATIC_TO_PCB_GATE_STATUS.md` exists and is exactly `PASS`, and the active project's `PCB_LAYOUT_SANDBOX_GATE_STATUS.md` exists and is exactly `PASS`.
+
+Real PCB placement is additionally blocked until the latest prelayout result records `variant_count >= 3`, `passing_variant_count >= 1`, and `placement_gate_status = PASS`. Real PCB routing is additionally blocked until the latest prelayout result records `routing_gate_status = PASS`.
 
 If the sandbox status is `AUTO_APPROVED_FOR_PCB_WORK` and the `AUTO_PCB_START_WORKFLOW.md` preconditions pass, Codex/Claude may automatically continue only through PCB sync, real `.kicad_pcb` creation/update, board outline, fixed-mechanical placement, grouped placement, DRC, and placement visual evidence. If any auto-start precondition fails, stop with `AUTO_PCB_START_BLOCKED`.
 
@@ -307,6 +321,7 @@ Do not install tools, clone repositories, or configure MCP servers during startu
 - Confirm `STRUCTURE_STANDARD.md`, `FOLDER_ROUTING_RULES.md`, and `REPO_STRUCTURE_INDEX.md` have been read before changing repo structure.
 - If KiCad files are in scope, verify that backups and a rollback plan exist before edits.
 - If real PCB edits are in scope, verify that the PCB Layout Sandbox reports exist, that one selected variant is justified, that sandbox auto-approval status `AUTO_APPROVED_FOR_PCB_WORK` is recorded in `PCB_LAYOUT_SANDBOX_GATE_STATUS.md`, and that the `AUTO_PCB_START_WORKFLOW.md` preconditions pass before any real board edit starts.
+- If real PCB placement or routing is in scope, verify that the latest `reports/prelayout_engine/*/prelayout_gate_result.json` records at least three variants, at least one passing variant, and `placement_gate_status = PASS`; if routing is in scope, also verify `routing_gate_status = PASS`.
 - If PCB work is in scope, verify that both `SCHEMATIC_TO_PCB_GATE_STATUS.md` and `PCB_LAYOUT_SANDBOX_GATE_STATUS.md` are exactly `PASS` before any PCB update, placement, routing, zone, or manufacturing-output action.
 - If KiCad pipeline work is in scope, choose the correct `.prompts/kicad_pipeline/NN_*.md` prompt and verify all earlier gates before acting.
 - If supplier ingestion is in scope, use official APIs first, user-provided CSV exports second, and manual source-link records third. Do not scrape supplier websites or store credentials.

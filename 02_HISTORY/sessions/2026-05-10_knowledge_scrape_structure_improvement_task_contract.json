@@ -1,0 +1,14 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Reorganize knowledge_scrape, recover useful files from 91_rejected_low_value, create source-of-truth and routing docs, and refresh scrape indexes.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Documentation and knowledge-base structure task only. Do not modify KiCad design files or C:\\KICAD_SCRAPE.",
+  "evidence": {
+    "backup_created": false,
+    "drc_run": false,
+    "visual_export_attempted": false
+  }
+}

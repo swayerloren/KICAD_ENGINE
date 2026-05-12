@@ -1,49 +1,45 @@
 # Component Database
 
-## PURPOSE
+Status: `LINK_FIRST_COMPONENT_EVIDENCE_SURFACE`
 
-Store structured part intelligence for AI-assisted KiCad design beyond raw PDFs.
+## Purpose
 
-## WHAT_BELONGS_HERE
+Store structured part intelligence for AI-assisted KiCad design beyond raw PDFs
+or copied vendor pages.
 
-- Component records in Markdown and JSON.
-- KiCad symbol, footprint, and 3D model candidates.
-- Verification levels and source-confidence notes.
-- Design-rule snippets and part-selection guides.
+## Canonical Files
 
-## WHAT_DOES_NOT_BELONG_HERE
+- [COMPONENT_SOURCE_INDEX.md](COMPONENT_SOURCE_INDEX.md)
+- [COMPONENT_EVIDENCE_RULES.md](COMPONENT_EVIDENCE_RULES.md)
+- [HIGH_RISK_COMPONENTS_INDEX.md](HIGH_RISK_COMPONENTS_INDEX.md)
+- [component_index.json](component_index.json)
 
-- Datasheet PDFs.
-- Active KiCad project source files.
-- Fabrication outputs.
-- Fabricated electrical claims.
-- Secrets or distributor credentials.
+## What Belongs Here
 
-## AI_AGENT_RULES
+- component family records in Markdown and JSON
+- evidence rules and review-state notes
+- high-risk part guidance
+- source-registry backed summaries
+- footprint/package/orientation proof requirements
 
-- Do not treat placeholder records as verified.
-- Mark exact specs `Unknown - requires source verification` until sourced.
-- Do not approve footprints without exact package or connector drawing review.
-- Keep records link-first when document redistribution is unclear.
+## What Does Not Belong Here
 
-## SAFE_EDIT_RULES
+- raw scraped datasheet PDFs
+- copied vendor pages as public source-of-truth
+- active KiCad project source files
+- fabricated electrical claims
+- secrets or distributor credentials
 
-- Add new records as `UNVERIFIED_PLACEHOLDER` unless verified.
-- Preserve existing records.
-- Do not delete old component decisions.
+## Rules
 
-## PUBLIC_RELEASE_NOTES
+- Component records are link-first unless redistribution rights are confirmed.
+- Vendor part numbers are identifiers, not footprint proof.
+- Connector, RF, PMOS, regulator, ESD, TVS, and module records remain high risk
+  until mechanical, package, and pin-mapping proof exists.
+- If source license is unclear, keep the raw file in quarantine and store only
+  normalized evidence notes here.
 
-Public release records must avoid unsupported claims and must not bundle restricted datasheets.
+## Public Release Notes
 
-## CORE COMPONENT INTELLIGENCE UPDATE
-
-The strict core component-intelligence layer adds:
-
-- `00_INDEX/DO_NOT_GUESS_RULES.md`
-- `00_INDEX/templates/`
-- `15_PACKAGE_FOOTPRINT_DATABASE/`
-- `16_VERIFICATION_RECORDS/`
-- `99_UNVERIFIED_INBOX/core_starter_records/`
-
-Starter records in `99_UNVERIFIED_INBOX/core_starter_records/` are placeholders only. They must not be used as approved schematic, footprint, BOM, purchase, or manufacturing data.
+Public release records must avoid unsupported claims and must not bundle
+restricted datasheets or copied vendor content.

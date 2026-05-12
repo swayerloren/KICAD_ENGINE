@@ -36,6 +36,17 @@ Symbols and footprints must be driven by source evidence.
 7. Run KiCad ERC/DRC after project integration.
 8. Require human review for connector orientation, polarity, RF, high-current, mechanical fit, and manufacturing outputs.
 
+## KiCad Library Convention Routing
+
+Normalized KiCad library-convention summaries now live under:
+
+- `10_KNOWLEDGE_BASE/kicad_libraries/`
+
+Use those docs for concise routing guidance. Raw scraped KLC or GitLab library
+pages are not canonical here; they are drained by the knowledge-migration
+ledger into archive/quarantine paths unless and until a later prompt approves a
+safer promotion step.
+
 ## What This Folder Does Not Do
 
 - It does not replace KiCad.

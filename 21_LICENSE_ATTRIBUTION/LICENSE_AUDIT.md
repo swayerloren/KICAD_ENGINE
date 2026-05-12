@@ -10,6 +10,7 @@ Track license readiness before public release.
 
 - Root repository license.
 - Third-party scripts or copied code.
+- Optional-tool integration layer under `03_TOOLS/open_source_integrations/`.
 - Installer dependencies.
 - GitHub Actions actions.
 - KiCad references.
@@ -25,3 +26,10 @@ Do not treat this file as legal advice. Mark uncertain items `requires human rev
 
 Public release requires a fresh license audit before publishing.
 
+## Current Open-Source Tool Posture
+
+- Mixed-license optional tool profiles are now documented under
+  `03_TOOLS/open_source_integrations/`.
+- Default release posture is docs/wrappers only, not full upstream bundling.
+- `GPL-*` and `AGPL-*` tools remain `requires human review` for any bundling or
+  public redistribution decision.

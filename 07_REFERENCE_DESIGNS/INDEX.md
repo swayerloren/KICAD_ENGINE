@@ -9,6 +9,11 @@ This top-level folder is reserved for lightweight reference-design notes and pub
 ## Current Contents
 
 - `README.md`: folder routing, safety, and public-release rules.
+- `SCHEMATIC_STYLE_EXAMPLES.md`: comparison rules for schematic readability.
+- `PCB_LAYOUT_STYLE_EXAMPLES.md`: comparison rules for PCB layout quality.
+- `ESP32_DEV_BOARD_REFERENCE_RULES.md`: ESP32-style board comparison notes.
+- `USB_C_REFERENCE_RULES.md`: USB-C comparison notes.
+- `BUCK_REGULATOR_LAYOUT_REFERENCE_RULES.md`: buck-layout comparison notes.
 
 ## Use This Folder For
 
@@ -34,4 +39,6 @@ This top-level folder is reserved for lightweight reference-design notes and pub
 
 ## Current Gap
 
-No vetted reference-design records are present here yet. This is a known P2/P3 backlog item, not a public-release readiness claim.
+This folder now contains comparison rules, not a fully curated gold-standard
+sample corpus. Future promoted sample summaries still need license review,
+quality scoring, and human curation.

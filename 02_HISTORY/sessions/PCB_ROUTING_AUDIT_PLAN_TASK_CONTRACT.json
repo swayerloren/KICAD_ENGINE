@@ -1,0 +1,50 @@
+{
+  "task_type": "AUDIT_ONLY",
+  "task_summary": "Audit current PCB routing defects on ESP32_CSI_WIFI_NODE and write a repair plan without editing KiCad design files.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE",
+  "target_pcb": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE\\04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\kicad\\ESP32_CSI_WIFI_NODE.kicad_pcb",
+  "changed_files": [
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\PCB_ROUTING_AUDIT_PLAN.md",
+    "02_HISTORY\\sessions\\PCB_ROUTING_AUDIT_PLAN_SESSION.md",
+    "02_HISTORY\\command_logs\\PCB_ROUTING_AUDIT_PLAN_COMMANDS.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\sessions\\2026-05-09_pcb_routing_audit_plan_session.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\command_logs\\2026-05-09_pcb_routing_audit_plan_commands.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_self_reviews\\2026-05-09_pcb_routing_audit_plan_self_review.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\ai_scorecards\\2026-05-09_pcb_routing_audit_plan_scorecard.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\claim_evidence_matrices\\2026-05-09_pcb_routing_audit_plan_claims.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\uncertainty_logs\\2026-05-09_pcb_routing_audit_plan_uncertainty.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\hallucination_risk_logs\\2026-05-09_pcb_routing_audit_plan_hallucination_risk.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\quality_gate_failures\\2026-05-09_pcb_routing_audit_plan_blocked.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\issue_logs\\2026-05-09_pcb_routing_audit_plan_remaining_blockers.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\history\\failed_attempts\\2026-05-09_pcb_routing_audit_plan_failed_attempts.md",
+    "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\memory\\PROMPT_COUNTER.md",
+    "00_CODEX_START\\CURRENT_KNOWN_PROBLEMS.md",
+    "00_CODEX_START\\HISTORY_INDEX.generated.json",
+    "00_CODEX_START\\HISTORY_INDEX.generated.md",
+    "00_CODEX_START\\MEMORY_INDEX.generated.json",
+    "00_CODEX_START\\MEMORY_INDEX.generated.md",
+    "00_CODEX_START\\AI_QUALITY_INDEX.generated.json",
+    "00_CODEX_START\\AI_QUALITY_INDEX.generated.md",
+    "00_CODEX_START\\REPO_INDEX.generated.json",
+    "00_CODEX_START\\REPO_INDEX.generated.md",
+    "01_MEMORY\\MASTER_MEMORY_INDEX.md",
+    "02_HISTORY\\MASTER_HISTORY_INDEX.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Audit-only task. Report and history updates are allowed. No KiCad design file edits are allowed.",
+  "evidence": {
+    "backup_created": false,
+    "pcb_hash_before": "A90967ABC127674F7008562AAEE46744456F2421550E4B64AD71E91B5D3CF697",
+    "pcb_hash_after": "A90967ABC127674F7008562AAEE46744456F2421550E4B64AD71E91B5D3CF697",
+    "drc_run": true,
+    "drc_report_path": "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\reports\\tmp_real_board_audit\\drc.json",
+    "visual_export_attempted": true,
+    "visual_paths": [
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\final_pcb_review_full_top.png",
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\final_pcb_review_full_bottom.png",
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\final_pcb_review_usb_dp_dm_path.png",
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\final_pcb_review_test_pads.png",
+      "04_KICAD_PROJECTS\\active\\ESP32_CSI_WIFI_NODE\\_verification\\pcb_visual\\final_pcb_review_esp32_module.png"
+    ]
+  }
+}

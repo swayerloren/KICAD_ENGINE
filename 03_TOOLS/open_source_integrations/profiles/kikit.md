@@ -1,0 +1,24 @@
+# KiKit
+
+- Tool name: `KiKit`
+- GitHub/source URL: `https://github.com/yaqwsx/KiKit`
+- License: `GPL-3.0`
+- Purpose: panelization and fabrication-package helpers for KiCad
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - panelization rehearsal
+  - fab-profile research
+  - rule-driven package generation experiments
+- Exact commands if known:
+  - `pip install kikit --upgrade`
+  - `kikit panelize --help`
+  - `kikit fab jlcpcb --help`
+- Risks and limitations:
+  - broad output surface, so generated outputs remain `NOT_FINAL`
+  - GPL redistribution review still matters for bundling
+- Can edit KiCad files: `yes`
+- Read-only safe: `yes, for help or analysis-only invocations`
+- Allowed in CI: `yes with review`
+- Allowed in ZIP release: `no`

@@ -1,63 +1,85 @@
 # GitHub Push Plan
 
-Status: `COMPLETED_PRIVATE_PUSH`
+Generated: `2026-05-12`
 
-Date: `2026-05-08`
+## Intent
 
-Target repo name: `KICAD_ENGINE`
+Commit and push safe non-design `KICAD_ENGINE` repo changes only.
 
-Requested visibility: `private`
+KiCad design files are explicitly not approved in this prompt and must remain
+unstaged.
 
-## Current State
+## Preconditions Met
 
-- `gh auth status`: authenticated as `swayerloren`
-- Local folder was not a git repo at task start
-- Local git repo has now been initialized
-- Current branch: `main`
-- `origin` remote: not configured
-- Existing GitHub repo `swayerloren/KICAD_ENGINE`: not found
+- repo-integrity rerun classification:
+  `REPO_READY_TO_COMMIT_AND_PUSH_EXCLUDING_DIRTY_KICAD_FILES`
+- branch expected: `main`
+- remote expected: `https://github.com/swayerloren/KICAD_ENGINE.git`
+- `.sfdx/` removed and ignored
+- no high-confidence secrets found
 
-## Pre-Push Safety Outcome
+## Staging Strategy
 
-- Exact live secret formats found: `NO`
-- Assignment-style credential strings found: `NO`
-- `.env` files with real values found: `NO`
-- `.env.example` found only in an ignored third-party repo copy:
-  - `03_TOOLS/repos/kicad-mcp-pro/.env.example`
-- KiCad lock files found: `YES`, but all are local/ignored
-- Files over `50 MB` found: `YES`, but all are currently ignored
+Use explicit safe staging only.
 
-## Executed Flow
+Include only non-design repo/documentation/tooling changes from approved areas
+such as:
 
-1. Keep the repo on `main`.
-2. Stage the full safe workspace with ignore rules in force.
-3. Review staged summary and staged file count.
-4. Commit with message:
-   - `Initial KiCad Engine workspace commit`
-5. Create the GitHub repository with:
-   - `gh repo create KICAD_ENGINE --private --source . --remote origin`
-6. Push with:
-   - `git push -u origin main`
-7. Record the final push report and closeout history.
+- `.github/`
+- `.prompts/`
+- `00_CODEX_START/`
+- `01_MEMORY/`
+- `02_HISTORY/`
+- `03_TOOLS/` safe docs/scripts/calculators/integrations only
+- `05_OUTPUTS/release_readiness/`
+- `06_DATASHEETS/` indexes/docs only
+- `07_REFERENCE_DESIGNS/`
+- `08_COMPONENT_DATABASE/`
+- `09_ACCURACY_ENGINE/`
+- `10_KNOWLEDGE_BASE/`
+- `11_LIBRARY_FACTORY/`
+- `17_RELEASE_BUILD/`
+- `20_CI_CD/`
+- `21_LICENSE_ATTRIBUTION/` docs only
+- `24_FAB_PROFILES/`
+- `25_VENDOR_DATABASE/`
+- `26_AGENT_QUALITY/`
+- `29_FOOTPRINT_GAP_ANALYSIS/`
+- `30_SUPPLIER_FOOTPRINT_MATCHES/`
+- `32_OPEN_KICAD_SAMPLE_INTAKE/`
+- `33_KICAD_GUI_AUTOMATION/`
+- `33_PCB_PRELAYOUT_ENGINE/`
+- `34_SCHEMATIC_QUALITY_ENGINE/`
+- `35_FOOTPRINT_PACKAGE_ENGINE/`
+- root docs such as `README.md`, `README_GPT.md`, `AGENTS.md`, `START_HERE_FOR_AI_AGENTS.md`, `THIRD_PARTY_TOOLS_ATTRIBUTION.md`, `.gitignore`
 
-## Final Outcome
+Exclude:
 
-- Initial workspace commit created: `d6b881ff4bd62548235020949e63a3def1aa1bf2`
-- GitHub repository created: `YES`
-- Remote URL:
-  - `https://github.com/swayerloren/KICAD_ENGINE.git`
-- Visibility:
-  - `private`
-- Push result:
-  - `SUCCESS`
+- all `04_KICAD_PROJECTS/`
+- all KiCad design files
+- backups
+- local envs
+- tool caches
+- vendor repo copies
+- quarantine/raw copied payloads
+- large binaries
 
-## Important Boundaries
+## Commit / Push
 
-- No KiCad design files will be edited for this publication task.
-- No manufacturing outputs will be generated.
-- The repo may be pushed privately even though public-release readiness remains `NOT_READY`.
+Commit message:
 
-## Remaining Publication Risks
+`Update KiCad Engine knowledge base and migration indexes`
 
-- Public release is still blocked by the existing release-readiness documents, license review requirements, and payload exclusion rules.
-- Historical logs contain placeholder token strings and workflow-secret references. They are not live credentials, but they remain a public-release hygiene concern.
+Push command:
+
+`git push -u origin main`
+
+## Required Final Checks Before Commit
+
+1. staged KiCad design files = `0`
+2. staged file count = `1009`
+3. staged files over `50 MB` = `0`
+4. staged `.sfdx/` paths = `0`
+5. staged ignored/local-generated folders = `0`
+6. staged raw extraction captures = `0`
+7. post-push report/log placeholders excluded from commit = `YES`

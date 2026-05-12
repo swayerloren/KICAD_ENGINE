@@ -1,0 +1,795 @@
+{
+  "source_root": "knowledge_scrape",
+  "inventory_columns": [
+    "original_path",
+    "file_type",
+    "size_bytes",
+    "top_level_folder",
+    "parent_folder",
+    "extension",
+    "url_index_id"
+  ],
+  "ledger_columns": [
+    "original_path",
+    "file_type",
+    "size_bytes",
+    "content_category",
+    "license_risk",
+    "action",
+    "canonical_destination",
+    "moved_yes_no",
+    "migration_date",
+    "validation_status",
+    "notes"
+  ],
+  "allowed_actions": [
+    "MOVE_NORMALIZED",
+    "MOVE_AS_TOOL",
+    "MOVE_AS_RULE",
+    "MOVE_AS_SOURCE_REGISTRY",
+    "MOVE_AS_REFERENCE_INDEX",
+    "MOVE_AS_COMPONENT_DATA",
+    "MOVE_AS_DATASHEET_INDEX",
+    "MOVE_AS_FAB_RULE",
+    "MOVE_AS_HISTORY_ONLY",
+    "MOVE_TO_LICENSE_QUARANTINE",
+    "MOVE_TO_REJECTED_LOW_VALUE",
+    "DELETE_EMPTY_FOLDER",
+    "NEEDS_HUMAN_REVIEW"
+  ],
+  "root_file_rules": {
+    "README.md": {
+      "content_category": "knowledge_scrape_legacy_docs",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "INDEX.md": {
+      "content_category": "knowledge_scrape_legacy_docs",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "FINAL_KNOWLEDGE_SCRAPE_REPORT.md": {
+      "content_category": "knowledge_scrape_legacy_reports",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "STRUCTURE_IMPROVEMENT_REPORT.md": {
+      "content_category": "knowledge_scrape_legacy_reports",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "SOURCE_AUDIT.md": {
+      "content_category": "knowledge_scrape_legacy_reports",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "INGEST_V2_IMPORT_REPORT.md": {
+      "content_category": "knowledge_scrape_legacy_reports",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "RESCRAPE_QUEUE.csv": {
+      "content_category": "knowledge_scrape_rescrape_queue",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "URL_INDEX.csv": {
+      "content_category": "source_registry",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "URL_INDEX.json": {
+      "content_category": "source_registry",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "URL_INDEX.md": {
+      "content_category": "source_registry_docs",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    },
+    "MANIFEST.json": {
+      "content_category": "source_registry_manifest",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata"
+    }
+  },
+  "path_prefix_rules": [
+    {
+      "prefix": "_logs\\",
+      "content_category": "migration_logs",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata\\_logs"
+    },
+    {
+      "prefix": "_raw_inventory\\",
+      "content_category": "raw_inventory",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata\\_raw_inventory"
+    },
+    {
+      "prefix": "_scripts\\",
+      "content_category": "legacy_tooling_obsolete",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\obsolete_scripts"
+    },
+    {
+      "prefix": "_source_registry\\",
+      "content_category": "source_registry",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\original_metadata\\_source_registry"
+    },
+    {
+      "prefix": "00_ai_entrypoints\\",
+      "content_category": "entrypoint_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\entrypoint_metadata\\00_ai_entrypoints"
+    },
+    {
+      "prefix": "00_engineering_rules\\",
+      "content_category": "engineering_rule_note_archive",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_rules_archive\\00_engineering_rules"
+    },
+    {
+      "prefix": "00_retrieval_indexes\\",
+      "content_category": "retrieval_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\retrieval_metadata\\00_retrieval_indexes"
+    },
+    {
+      "prefix": "00_source_of_truth\\SOURCE_OF_TRUTH_INDEX.md",
+      "content_category": "source_of_truth_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\source_of_truth_metadata\\00_source_of_truth"
+    },
+    {
+      "prefix": "00_source_of_truth\\fabricator_rules\\",
+      "content_category": "fabricator_rules",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_AS_FAB_RULE",
+      "destination_root": "24_FAB_PROFILES\\knowledge_scrape_import"
+    },
+    {
+      "prefix": "00_source_of_truth\\kicad_official_docs\\",
+      "content_category": "kicad_official_docs",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_NORMALIZED",
+      "destination_root": "10_KNOWLEDGE_BASE\\kicad_official\\knowledge_scrape_normalized"
+    },
+    {
+      "prefix": "00_source_of_truth\\official_app_notes\\",
+      "content_category": "official_app_notes",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_NORMALIZED",
+      "destination_root": "10_KNOWLEDGE_BASE\\official_app_notes\\knowledge_scrape_normalized"
+    },
+    {
+      "prefix": "00_source_of_truth\\official_datasheets\\",
+      "content_category": "official_datasheet_refs",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_AS_DATASHEET_INDEX",
+      "destination_root": "06_DATASHEETS\\knowledge_scrape_import\\official_datasheets"
+    },
+    {
+      "prefix": "01_kicad_core\\_CATEGORY_INDEX.md",
+      "content_category": "kicad_core_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\01_kicad_core"
+    },
+    {
+      "prefix": "01_kicad_core\\.gitkeep",
+      "content_category": "kicad_core_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\01_kicad_core"
+    },
+    {
+      "prefix": "01_kicad_core\\",
+      "content_category": "kicad_core_reference",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\01_kicad_core"
+    },
+    {
+      "prefix": "02_kicad_python_api\\_CATEGORY_INDEX.md",
+      "content_category": "kicad_python_api_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\02_kicad_python_api"
+    },
+    {
+      "prefix": "02_kicad_python_api\\.gitkeep",
+      "content_category": "kicad_python_api_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\02_kicad_python_api"
+    },
+    {
+      "prefix": "02_kicad_python_api\\",
+      "content_category": "kicad_python_api_reference",
+      "license_risk": "LOW",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\02_kicad_python_api"
+    },
+    {
+      "prefix": "03_kicad_file_formats\\_CATEGORY_INDEX.md",
+      "content_category": "kicad_file_formats_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\03_kicad_file_formats"
+    },
+    {
+      "prefix": "03_kicad_file_formats\\.gitkeep",
+      "content_category": "kicad_file_formats_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\03_kicad_file_formats"
+    },
+    {
+      "prefix": "03_kicad_file_formats\\",
+      "content_category": "kicad_file_formats",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\03_kicad_file_formats"
+    },
+    {
+      "prefix": "04_kicad_libraries_symbols_footprints\\_CATEGORY_INDEX.md",
+      "content_category": "kicad_libraries_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\04_kicad_libraries_symbols_footprints"
+    },
+    {
+      "prefix": "04_kicad_libraries_symbols_footprints\\.gitkeep",
+      "content_category": "kicad_libraries_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\kicad_docs_import_metadata\\04_kicad_libraries_symbols_footprints"
+    },
+    {
+      "prefix": "04_kicad_libraries_symbols_footprints\\",
+      "content_category": "library_symbol_footprint_reference",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\04_kicad_libraries_symbols_footprints"
+    },
+    {
+      "prefix": "05_esp32_espressif\\_CATEGORY_INDEX.md",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\05_esp32_espressif"
+    },
+    {
+      "prefix": "05_esp32_espressif\\.gitkeep",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\05_esp32_espressif"
+    },
+    {
+      "prefix": "05_esp32_espressif\\",
+      "content_category": "esp32_component_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\05_esp32_espressif"
+    },
+    {
+      "prefix": "06_microcontrollers\\_CATEGORY_INDEX.md",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\06_microcontrollers"
+    },
+    {
+      "prefix": "06_microcontrollers\\.gitkeep",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\06_microcontrollers"
+    },
+    {
+      "prefix": "06_microcontrollers\\",
+      "content_category": "microcontroller_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\06_microcontrollers"
+    },
+    {
+      "prefix": "07_usb_c_high_speed_esd\\_CATEGORY_INDEX.md",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\07_usb_c_high_speed_esd"
+    },
+    {
+      "prefix": "07_usb_c_high_speed_esd\\.gitkeep",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\07_usb_c_high_speed_esd"
+    },
+    {
+      "prefix": "07_usb_c_high_speed_esd\\",
+      "content_category": "usb_c_esd_reference",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\07_usb_c_high_speed_esd"
+    },
+    {
+      "prefix": "08_power_buck_regulators\\_CATEGORY_INDEX.md",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\08_power_buck_regulators"
+    },
+    {
+      "prefix": "08_power_buck_regulators\\.gitkeep",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\08_power_buck_regulators"
+    },
+    {
+      "prefix": "08_power_buck_regulators\\",
+      "content_category": "buck_regulator_reference",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\08_power_buck_regulators"
+    },
+    {
+      "prefix": "09_pcb_layout_grounding_emi_si\\_CATEGORY_INDEX.md",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\09_pcb_layout_grounding_emi_si"
+    },
+    {
+      "prefix": "09_pcb_layout_grounding_emi_si\\.gitkeep",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\09_pcb_layout_grounding_emi_si"
+    },
+    {
+      "prefix": "09_pcb_layout_grounding_emi_si\\",
+      "content_category": "pcb_layout_emi_si_rules",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\09_pcb_layout_grounding_emi_si"
+    },
+    {
+      "prefix": "10_dfm_fabrication_assembly\\_CATEGORY_INDEX.md",
+      "content_category": "fab_dfm_compliance_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\fab_dfm_compliance_metadata\\10_dfm_fabrication_assembly"
+    },
+    {
+      "prefix": "10_dfm_fabrication_assembly\\.gitkeep",
+      "content_category": "fab_dfm_compliance_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\fab_dfm_compliance_metadata\\10_dfm_fabrication_assembly"
+    },
+    {
+      "prefix": "10_dfm_fabrication_assembly\\",
+      "content_category": "dfm_fabrication_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\10_dfm_fabrication_assembly"
+    },
+    {
+      "prefix": "11_calculators_ipc_reference\\_CATEGORY_INDEX.md",
+      "content_category": "calculator_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\calculator_metadata\\11_calculators_ipc_reference"
+    },
+    {
+      "prefix": "11_calculators_ipc_reference\\.gitkeep",
+      "content_category": "calculator_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\calculator_metadata\\11_calculators_ipc_reference"
+    },
+    {
+      "prefix": "11_calculators_ipc_reference\\",
+      "content_category": "calculator_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\11_calculators_ipc_reference"
+    },
+    {
+      "prefix": "12_forums_peer_review\\.gitkeep",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\12_forums_peer_review"
+    },
+    {
+      "prefix": "12_forums_peer_review\\_CATEGORY_INDEX.md",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\12_forums_peer_review"
+    },
+    {
+      "prefix": "12_forums_peer_review\\",
+      "content_category": "forums_peer_review_raw_capture",
+      "license_risk": "HIGH",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\12_forums_peer_review"
+    },
+    {
+      "prefix": "15_video_reference_index\\.gitkeep",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\15_video_reference_index"
+    },
+    {
+      "prefix": "15_video_reference_index\\_CATEGORY_INDEX.md",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\15_video_reference_index"
+    },
+    {
+      "prefix": "15_video_reference_index\\",
+      "content_category": "video_reference_capture",
+      "license_risk": "HIGH",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\15_video_reference_index"
+    },
+    {
+      "prefix": "16_ai_pcb_failure_modes\\.gitkeep",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\16_ai_pcb_failure_modes"
+    },
+    {
+      "prefix": "16_ai_pcb_failure_modes\\_CATEGORY_INDEX.md",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\16_ai_pcb_failure_modes"
+    },
+    {
+      "prefix": "16_ai_pcb_failure_modes\\",
+      "content_category": "ai_failure_mode_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\16_ai_pcb_failure_modes"
+    },
+    {
+      "prefix": "17_case_studies_bad_boards\\.gitkeep",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\17_case_studies_bad_boards"
+    },
+    {
+      "prefix": "17_case_studies_bad_boards\\_CATEGORY_INDEX.md",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\17_case_studies_bad_boards"
+    },
+    {
+      "prefix": "17_case_studies_bad_boards\\",
+      "content_category": "bad_board_case_study_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\17_case_studies_bad_boards"
+    },
+    {
+      "prefix": "18_case_studies_good_boards\\.gitkeep",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\18_case_studies_good_boards"
+    },
+    {
+      "prefix": "18_case_studies_good_boards\\_CATEGORY_INDEX.md",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\18_case_studies_good_boards"
+    },
+    {
+      "prefix": "18_case_studies_good_boards\\",
+      "content_category": "good_board_case_study_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\18_case_studies_good_boards"
+    },
+    {
+      "prefix": "19_university_training\\.gitkeep",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\19_university_training"
+    },
+    {
+      "prefix": "19_university_training\\_CATEGORY_INDEX.md",
+      "content_category": "case_study_training_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\case_study_training_metadata\\19_university_training"
+    },
+    {
+      "prefix": "19_university_training\\",
+      "content_category": "university_training_capture",
+      "license_risk": "HIGH",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\19_university_training"
+    },
+    {
+      "prefix": "13_vendor_parts_cad_models\\_CATEGORY_INDEX.md",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\13_vendor_parts_cad_models"
+    },
+    {
+      "prefix": "13_vendor_parts_cad_models\\.gitkeep",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\13_vendor_parts_cad_models"
+    },
+    {
+      "prefix": "13_vendor_parts_cad_models\\",
+      "content_category": "vendor_cad_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\13_vendor_parts_cad_models"
+    },
+    {
+      "prefix": "14_datasheets_pdf_markdown\\_CATEGORY_INDEX.md",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\14_datasheets_pdf_markdown"
+    },
+    {
+      "prefix": "14_datasheets_pdf_markdown\\PDF_INDEX.csv",
+      "content_category": "datasheet_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\14_datasheets_pdf_markdown"
+    },
+    {
+      "prefix": "14_datasheets_pdf_markdown\\PDF_INDEX.md",
+      "content_category": "datasheet_index_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\14_datasheets_pdf_markdown"
+    },
+    {
+      "prefix": "14_datasheets_pdf_markdown\\original_pdf\\",
+      "content_category": "original_datasheet_pdf",
+      "license_risk": "HIGH",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\14_datasheets_pdf_markdown\\original_pdf"
+    },
+    {
+      "prefix": "14_datasheets_pdf_markdown\\extracted_markdown\\",
+      "content_category": "extracted_datasheet_markdown",
+      "license_risk": "HIGH",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\14_datasheets_pdf_markdown\\extracted_markdown"
+    },
+    {
+      "prefix": "14_datasheets_pdf_markdown\\extraction_logs\\",
+      "content_category": "datasheet_extraction_logs",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\datasheet_extraction_logs\\14_datasheets_pdf_markdown"
+    },
+    {
+      "prefix": "20_manufacturer_layout_guides\\",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\20_manufacturer_layout_guides"
+    },
+    {
+      "prefix": "21_component_package_land_patterns\\_CATEGORY_INDEX.md",
+      "content_category": "component_datasheet_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\component_datasheet_metadata\\21_component_package_land_patterns"
+    },
+    {
+      "prefix": "21_component_package_land_patterns\\",
+      "content_category": "land_pattern_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\21_component_package_land_patterns"
+    },
+    {
+      "prefix": "22_automotive_harsh_environment\\_CATEGORY_INDEX.md",
+      "content_category": "fab_dfm_compliance_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\fab_dfm_compliance_metadata\\22_automotive_harsh_environment"
+    },
+    {
+      "prefix": "22_automotive_harsh_environment\\",
+      "content_category": "harsh_environment_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\22_automotive_harsh_environment"
+    },
+    {
+      "prefix": "23_rf_wifi_antenna_layout\\",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\23_rf_wifi_antenna_layout"
+    },
+    {
+      "prefix": "24_power_integrity_decoupling\\",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\24_power_integrity_decoupling"
+    },
+    {
+      "prefix": "25_signal_integrity_high_speed\\",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\25_signal_integrity_high_speed"
+    },
+    {
+      "prefix": "26_thermal_mechanical_enclosure\\",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\26_thermal_mechanical_enclosure"
+    },
+    {
+      "prefix": "27_test_debug_validation\\",
+      "content_category": "engineering_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\engineering_metadata\\27_test_debug_validation"
+    },
+    {
+      "prefix": "28_high_reliability_aerospace_workmanship\\_CATEGORY_INDEX.md",
+      "content_category": "fab_dfm_compliance_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\fab_dfm_compliance_metadata\\28_high_reliability_aerospace_workmanship"
+    },
+    {
+      "prefix": "28_high_reliability_aerospace_workmanship\\",
+      "content_category": "high_reliability_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\28_high_reliability_aerospace_workmanship"
+    },
+    {
+      "prefix": "29_standards_ipc_ul_safety\\_CATEGORY_INDEX.md",
+      "content_category": "fab_dfm_compliance_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\fab_dfm_compliance_metadata\\29_standards_ipc_ul_safety"
+    },
+    {
+      "prefix": "29_standards_ipc_ul_safety\\",
+      "content_category": "standards_ipc_ul_safety_capture",
+      "license_risk": "HIGH",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\29_standards_ipc_ul_safety"
+    },
+    {
+      "prefix": "30_eda_automation_verification\\_CATEGORY_INDEX.md",
+      "content_category": "automation_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\automation_metadata\\30_eda_automation_verification"
+    },
+    {
+      "prefix": "30_eda_automation_verification\\",
+      "content_category": "automation_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\automation_metadata\\30_eda_automation_verification"
+    },
+    {
+      "prefix": "31_compliance_safety_emc\\_CATEGORY_INDEX.md",
+      "content_category": "fab_dfm_compliance_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\fab_dfm_compliance_metadata\\31_compliance_safety_emc"
+    },
+    {
+      "prefix": "31_compliance_safety_emc\\",
+      "content_category": "compliance_emc_reference_capture",
+      "license_risk": "MEDIUM",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\31_compliance_safety_emc"
+    },
+    {
+      "prefix": "90_unsorted_review\\_CATEGORY_INDEX.md",
+      "content_category": "unsorted_review_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\unsorted_review\\90_unsorted_review"
+    },
+    {
+      "prefix": "90_unsorted_review\\.gitkeep",
+      "content_category": "unsorted_review_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\unsorted_review\\90_unsorted_review"
+    },
+    {
+      "prefix": "90_unsorted_review\\",
+      "content_category": "unsorted_review_capture",
+      "license_risk": "UNCLEAR",
+      "action": "NEEDS_HUMAN_REVIEW",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\90_unsorted_review"
+    },
+    {
+      "prefix": "91_rejected_low_value\\_CATEGORY_INDEX.md",
+      "content_category": "rejected_low_value_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\rejected_low_value\\91_rejected_low_value"
+    },
+    {
+      "prefix": "91_rejected_low_value\\.gitkeep",
+      "content_category": "rejected_low_value_metadata",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\rejected_low_value\\91_rejected_low_value"
+    },
+    {
+      "prefix": "91_rejected_low_value\\",
+      "content_category": "rejected_low_value_capture",
+      "license_risk": "HIGH",
+      "action": "MOVE_TO_LICENSE_QUARANTINE",
+      "destination_root": "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\knowledge_scrape_quarantine\\91_rejected_low_value"
+    },
+    {
+      "prefix": "99_source_logs\\",
+      "content_category": "source_logs",
+      "license_risk": "LOW",
+      "action": "MOVE_AS_HISTORY_ONLY",
+      "destination_root": "02_HISTORY\\knowledge_scrape_migration\\source_logs"
+    }
+  ],
+  "default_rule": {
+    "content_category": "unclassified",
+    "license_risk": "UNCLEAR",
+    "action": "NEEDS_HUMAN_REVIEW",
+    "destination_root": "02_HISTORY\\knowledge_scrape_review_queue"
+  }
+}

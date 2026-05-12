@@ -1,0 +1,21 @@
+# gerbonara
+
+- Tool name: `gerbonara`
+- GitHub/source URL: `https://github.com/jaseg/gerbonara`
+- License: `Apache-2.0`
+- Purpose: Gerber and Excellon parsing, inspection, and validation
+- Install method: PyPI
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - manufacturing package validation
+  - board/drill sanity checks
+  - geometry review outside KiCad
+- Exact commands if known:
+  - `pip install gerbonara`
+- Risks and limitations:
+  - validates generated fab data, not design intent by itself
+- Can edit KiCad files: `no`
+- Read-only safe: `yes`
+- Allowed in CI: `yes`
+- Allowed in ZIP release: `no`

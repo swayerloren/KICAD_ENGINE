@@ -1,0 +1,40 @@
+{
+  "task_type": "DOCS_ONLY",
+  "task_summary": "Drain knowledge_scrape/90_unsorted_review and 91_rejected_low_value into canonical history and license-quarantine destinations, then refresh the migration ledger and status surfaces.",
+  "project_path": "C:\\Users\\LJ\\GitHub\\KICAD_ENGINE",
+  "target_pcb": null,
+  "changed_files": [
+    "03_TOOLS\\scripts\\knowledge_migration\\knowledge_migration_config.json",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_LEDGER.csv",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_DESTINATION_MAP.md",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_MIGRATION_STATUS.md",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_REJECTED_ITEMS_REPORT.md",
+    "05_OUTPUTS\\release_readiness\\KNOWLEDGE_SCRAPE_REMAINING_UNSORTED_REPORT.md",
+    "02_HISTORY\\knowledge_scrape_migration\\UNSORTED_REVIEW_CLASSIFICATION.md",
+    "02_HISTORY\\knowledge_scrape_migration\\REJECTED_LOW_VALUE_CLASSIFICATION.md",
+    "21_LICENSE_ATTRIBUTION\\license_risk_reviews\\KNOWLEDGE_SCRAPE_LICENSE_QUARANTINE.md",
+    "10_KNOWLEDGE_BASE\\source_registry\\SOURCE_LICENSE_STATUS.md",
+    "01_MEMORY\\GLOBAL_MEMORY.md",
+    "01_MEMORY\\DESIGN_RULES_MEMORY.md",
+    "README_GPT.md",
+    "FOR CHAT GPT.MD",
+    "02_HISTORY\\sessions\\KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_SESSION.md",
+    "02_HISTORY\\command_logs\\KNOWLEDGE_SCRAPE_UNSORTED_REJECTED_DRAIN_COMMANDS.md"
+  ],
+  "declared_final_status": "VALID_TASK_CONTRACT",
+  "notes": "Docs/history/quarantine migration task only. No KiCad design files were edited.",
+  "evidence": {
+    "backup_created": false,
+    "backup_path": "",
+    "no_design_change_needed": true,
+    "drc_run": false,
+    "visual_export_attempted": false,
+    "knowledge_scrape_file_count_before": 791,
+    "knowledge_scrape_file_count_after": 7,
+    "unsorted_rejected_target_rows": 784,
+    "history_only_moves": 4,
+    "quarantine_moves": 780,
+    "target_folders_removed": true,
+    "kicad_design_files_changed": false
+  }
+}

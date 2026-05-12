@@ -1,55 +1,37 @@
 # KiCad Auto-Open Project Workflow
 
-Status: `DRY_RUN_IMPLEMENTED_LIVE_NOT_TESTED`
+Status: `DRY_RUN_IMPLEMENTED_LIVE_GATED`
 
 ## Purpose
 
-Allow future Codex/Claude sessions to recover from `NO_EESCHEMA_WINDOW` by safely opening the exact target KiCad project and schematic editor before running native GUI actions.
+Allow future Codex/Claude sessions to recover safely when Eeschema is closed by
+opening the exact target `.kicad_pro`, then opening or focusing the exact
+target schematic editor before native annotation.
 
-This workflow was created after native annotation succeeded on `ESP32_CSI_WIFI_NODE`, but an earlier attempt failed only because Eeschema was not open.
+## Hard Rules
 
-## Scope
-
-Allowed under this workflow:
-
-- detect KiCad/Eeschema windows
-- launch the exact target `.kicad_pro` when no Eeschema window is open
-- open or focus the schematic editor
-- confirm the active schematic path
-- capture screenshots
-- hand off to native annotation/save/ERC workflow
-
-Not allowed:
-
-- opening a different project
-- controlling PCB editor
-- updating PCB from schematic
-- placement, routing, zones, or manufacturing outputs
-- saving a dirty `*` GUI state without explicit approval and backup
-- blind clicking
-
-## Required Inputs
-
-- Target project path: `.kicad_pro`
-- Target schematic path: `.kicad_sch`
-- Active project confirmation
-- Backup plan before any annotation/save-capable action
+1. If Eeschema is not open, attempt the open path in dry-run first.
+2. Launch only the exact requested `.kicad_pro`.
+3. If Eeschema is open for a different project, stop.
+4. If the matching Eeschema title starts with `*`, stop unless explicitly
+   allowed.
+5. Opening the project/schematic does not grant permission to annotate, save,
+   run ERC, update PCB, route, or generate outputs.
 
 ## Workflow
 
-1. Detect Eeschema with `detect_eeschema_window.ps1`.
-2. If Eeschema is open for the exact target and title is clean, continue.
-3. If Eeschema is open for the exact target but title starts with `*`, stop unless LJ explicitly approves preserving/saving the GUI state.
-4. If Eeschema is open for a different project, stop.
-5. If no Eeschema window is open, run `open_kicad_project.py` in dry-run or live mode.
-6. After KiCad project manager opens, run `open_schematic_editor_gui.py` in dry-run or live mode.
-7. Verify Eeschema command line points to the exact target `.kicad_sch`.
-8. Capture screenshot.
-9. Only then continue to native annotation, save, and ERC gates.
+1. Detect Eeschema window state for the exact target `.kicad_sch`.
+2. If the target schematic is already open and clean, continue without opening
+   anything else.
+3. If a different-project Eeschema window is open, stop.
+4. If the matching target Eeschema window is dirty with `*`, stop unless
+   explicitly allowed.
+5. If no Eeschema window is open, dry-run or live-launch the exact
+   `.kicad_pro`.
+6. Open or focus the schematic editor from the KiCad project manager.
+7. Re-check that `eeschema.exe` now points to the exact target `.kicad_sch`.
 
-## Commands
-
-Dry-run:
+## Dry-Run Command
 
 ```powershell
 .\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\ensure_eeschema_open.py `
@@ -57,7 +39,7 @@ Dry-run:
   --schematic "C:\Users\LJ\GitHub\KICAD_ENGINE\04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\kicad\ESP32_CSI_WIFI_NODE.kicad_sch"
 ```
 
-Live open only:
+## Live Open Only
 
 ```powershell
 .\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\ensure_eeschema_open.py `
@@ -66,7 +48,16 @@ Live open only:
   --live
 ```
 
-Future native annotation from closed state:
+If the matching target Eeschema window is already dirty and LJ explicitly wants
+to preserve/save that GUI state, add:
+
+```powershell
+--allow-unsaved-existing
+```
+
+## Hand-Off To Native Annotation
+
+After the exact target schematic is open, use the native annotation workflow:
 
 ```powershell
 .\03_TOOLS\python_envs\windows_gui\Scripts\python.exe .\33_KICAD_GUI_AUTOMATION\scripts\windows\run_native_annotation_workflow.py `
@@ -78,11 +69,12 @@ Future native annotation from closed state:
   --allow-gui-erc
 ```
 
-## Current Validation
+## Expected Dry-Run Result
 
-- Python syntax validation: required before use.
-- PowerShell parser validation: required before use.
-- Dry-run validation: required and safe.
-- Live launch from closed state: not tested in this documentation task.
-- Live annotation from closed state: not tested in this documentation task.
+When Eeschema is closed and the target paths are valid, the dry-run result from
+`ensure_eeschema_open.py` should be:
 
+`DRY_RUN_READY_TO_OPEN_PROJECT_AND_EESCHEMA`
+
+That is the proof that Codex can safely attempt to open the schematic if it is
+closed, without touching the design in dry-run mode.

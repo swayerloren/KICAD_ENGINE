@@ -1,0 +1,22 @@
+# kicad-library-utils
+
+- Tool name: `kicad-library-utils`
+- GitHub/source URL: `https://gitlab.com/kicad/libraries/kicad-library-utils`
+- License: `GPL-3.0`
+- Purpose: official KiCad library maintenance and validation utilities
+- Install method: external upstream checkout
+- Distribution mode: `external-only`
+- Supported OS: Linux, macOS, Windows with compatible Python tooling
+- Codex use cases:
+  - library QA research
+  - compare first-party library checks against official utility scripts
+  - support future footprint/symbol audit workflows
+- Exact commands if known:
+  - no single canonical command pinned in this repo yet
+- Risks and limitations:
+  - oriented toward library maintenance rather than normal project flow
+  - external-only until specific wrapper use cases are proven
+- Can edit KiCad files: `yes`
+- Read-only safe: `conditional`
+- Allowed in CI: `conditional`
+- Allowed in ZIP release: `no`

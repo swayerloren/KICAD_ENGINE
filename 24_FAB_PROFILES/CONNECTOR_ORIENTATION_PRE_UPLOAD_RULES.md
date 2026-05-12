@@ -21,3 +21,7 @@ Connector orientation must be proven before any upload package is approved.
 - Connector body/courtyard collides with board edge, mounting holes, switches, test pads, or neighboring parts.
 - CPL rotation conflicts with visual/3D/footprint evidence.
 
+## Human Review Note
+
+Pick-and-place rotation is never approved from CSV values alone. Orientation
+and rotation still require visual/human review before upload.

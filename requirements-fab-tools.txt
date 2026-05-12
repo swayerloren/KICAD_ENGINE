@@ -1,0 +1,6 @@
+# Optional fabrication/package helpers.
+# Generated outputs remain NOT_FINAL until the normal repo gates pass.
+
+kibot
+kikit
+gerbonara

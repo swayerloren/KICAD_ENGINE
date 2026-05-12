@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FootprintAssignment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reference",
+    "value",
+    "kicad_symbol",
+    "kicad_footprint",
+    "package",
+    "risk",
+    "high_risk",
+    "recommended_action"
+  ],
+  "properties": {
+    "reference": {
+      "type": "string",
+      "minLength": 1
+    },
+    "value": {
+      "type": "string"
+    },
+    "manufacturer_part_number": {
+      "type": "string"
+    },
+    "kicad_symbol": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kicad_footprint": {
+      "type": "string"
+    },
+    "package": {
+      "type": "string"
+    },
+    "risk": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "high_risk": {
+      "type": "boolean"
+    },
+    "risk_reason": {
+      "type": "string"
+    },
+    "recommended_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

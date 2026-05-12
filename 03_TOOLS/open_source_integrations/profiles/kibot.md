@@ -1,0 +1,23 @@
+# KiBot
+
+- Tool name: `KiBot`
+- GitHub/source URL: `https://github.com/INTI-CMNB/KiBot`
+- License: `AGPL-3.0`
+- Purpose: automation around KiCad checks, outputs, and release-style tasks
+- Install method: PyPI or upstream packaging
+- Distribution mode: `optional`
+- Supported OS: Windows, Linux, macOS
+- Codex use cases:
+  - DRC/ERC wrapper automation
+  - BOM/CPL and package rehearsal
+  - CI validation of controlled read-only flows
+- Exact commands if known:
+  - `python3 -m pip install kibot`
+- Risks and limitations:
+  - AGPL obligations require deliberate review before bundling
+  - can generate outputs that users may misread as final
+  - should be tightly scoped by task route and release rules
+- Can edit KiCad files: `yes or workflow-dependent`
+- Read-only safe: `yes, for validation-focused runs`
+- Allowed in CI: `yes with review`
+- Allowed in ZIP release: `no`

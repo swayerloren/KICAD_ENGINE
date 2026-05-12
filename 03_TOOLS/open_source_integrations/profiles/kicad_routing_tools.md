@@ -1,0 +1,24 @@
+# kicad-routing-tools
+
+- Tool name: `kicad-routing-tools`
+- GitHub/source URL: `https://github.com/mcbridejc/kicad-routing-tools`
+- License: `MIT`
+- Purpose: upstream routing-related tooling and experiments for KiCad workflows
+- Install method: upstream repo checkout with `uv`
+- Distribution mode: `external-only`
+- Supported OS: Windows, Linux, macOS with Python and `uv`
+- Codex use cases:
+  - routing experiment comparison
+  - copied-board-only evaluation
+  - research input for future routing rehearsal wrappers
+- Exact commands if known:
+  - `uv sync`
+  - `uv run python main.py --help`
+- Risks and limitations:
+  - not a first-party stable KiCad Engine dependency
+  - can participate in write-capable workflows
+  - should remain external until workflow boundaries are tighter
+- Can edit KiCad files: `yes or workflow-dependent`
+- Read-only safe: `not guaranteed`
+- Allowed in CI: `conditional`
+- Allowed in ZIP release: `no`
