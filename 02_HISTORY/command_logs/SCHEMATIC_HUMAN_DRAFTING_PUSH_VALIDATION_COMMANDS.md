@@ -1,0 +1,52 @@
+# Schematic Human Drafting Push Validation Commands
+
+## Commands Run
+
+```powershell
+python 03_TOOLS/scripts/memory_maintenance/check_maintenance_due.py --project 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE
+git status --short
+git branch --show-current
+git remote -v
+git ls-files .prompts/shared/HUMAN_DRAFTING_MODE.md
+rg -n "HUMAN_DRAFTING_MODE" .prompts/codex .prompts/claude .prompts/kicad_pipeline
+git status --short -- .prompts/codex .prompts/claude .prompts/kicad_pipeline .prompts/shared 00_CODEX_START 03_TOOLS/scripts/schematic_quality 09_ACCURACY_ENGINE/schematic_rules 34_SCHEMATIC_QUALITY_ENGINE 05_OUTPUTS/release_readiness 02_HISTORY/sessions 02_HISTORY/command_logs
+Get-Content START_HERE_FOR_AI_AGENTS.md -TotalCount 200
+Get-Content 00_CODEX_START/START_HERE.md -TotalCount 220
+Get-Content 00_CODEX_START/TASK_ROUTER.md -TotalCount 260
+Get-Content 00_CODEX_START/TASK_TYPE_TO_REQUIRED_DOCS.md -TotalCount 260
+rg -n "PROMPT_COUNTER|increment_prompt|prompt counter" 00_CODEX_START 03_TOOLS -S
+Get-Content 00_CODEX_START/AI_AGENT_FAST_CONTEXT.md -TotalCount 220
+Get-Content 00_CODEX_START/CURRENT_PROJECT.md -TotalCount 220
+Select-String -Path 00_CODEX_START/TASK_TYPE_TO_REQUIRED_DOCS.md -Pattern "GITHUB_PUSH_PUBLIC_RELEASE" -Context 0,60
+Get-Content 00_CODEX_START/TASK_TYPE_TO_ALLOWED_ACTIONS.md -TotalCount 260
+Get-Content 00_CODEX_START/TASK_TYPE_TO_BLOCKERS.md -TotalCount 320
+Get-Content 00_CODEX_START/TASK_TYPE_TO_OUTPUTS.md -TotalCount 260
+Get-Content 00_CODEX_START/TASK_TYPE_TO_RULE_MAP.md -TotalCount 220
+Get-Content 03_TOOLS/scripts/execution_contract/README.md -TotalCount 220
+python 03_TOOLS/scripts/memory_maintenance/increment_prompt_counter.py --project 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE --apply
+Get-Content 00_CODEX_START/GITHUB_NAVIGATION.md -TotalCount 220
+Get-Content 00_CODEX_START/CURRENT_GITHUB_STATUS.md -TotalCount 220
+Get-Content PUBLIC_RELEASE_STATUS.md -TotalCount 220
+Get-Content PUBLIC_RELEASE_CHECKLIST.md -TotalCount 220
+Get-Content SECURITY.md -TotalCount 220
+Get-Content 21_LICENSE_ATTRIBUTION/LICENSE_AUDIT.md -TotalCount 220
+Get-Content 21_LICENSE_ATTRIBUTION/PUBLIC_REPO_RISK_REGISTER.md -TotalCount 220
+Get-Content 05_OUTPUTS/release_readiness/GITHUB_PUSH_REPORT.md -TotalCount 220
+git add -- 34_SCHEMATIC_QUALITY_ENGINE/LOCAL_WIRING_STYLE_GUIDE.md 34_SCHEMATIC_QUALITY_ENGINE/README.md 34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_BLOCK_LAYOUT_RULES.md 34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_READABILITY_STANDARD.md 34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_VISUAL_AUDIT_RULES.md 34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_WIRING_VS_LABEL_RULES.md 09_ACCURACY_ENGINE/schematic_rules/ESP32_BOOT_RESET_RULES.md 09_ACCURACY_ENGINE/schematic_rules/READABLE_SCHEMATIC_FLOW_RULES.md 09_ACCURACY_ENGINE/schematic_rules/REFERENCE_VALUE_TEXT_PLACEMENT_RULES.md 09_ACCURACY_ENGINE/schematic_rules/WIRE_VS_NET_LABEL_RULES.md 03_TOOLS/scripts/schematic_quality/README.md 03_TOOLS/scripts/schematic_quality/check_schematic_human_drafting_quality.py .prompts/codex/05_PLAN_SCHEMATIC.md .prompts/codex/06_REVIEW_SCHEMATIC.md .prompts/claude/05_PLAN_SCHEMATIC.md .prompts/claude/06_REVIEW_SCHEMATIC.md .prompts/kicad_pipeline/02_schematic_visual_cleanup.md .prompts/kicad_pipeline/02_schematic_visual_closeup_audit.md .prompts/kicad_pipeline/03_schematic_electrical_review.md .prompts/kicad_pipeline/03_schematic_visual_repair.md .prompts/kicad_pipeline/04_schematic_electrical_audit.md .prompts/kicad_pipeline/06_schematic_to_pcb_gate.md 00_CODEX_START/TASK_TYPE_TO_BLOCKERS.md 00_CODEX_START/TASK_TYPE_TO_REQUIRED_DOCS.md 00_CODEX_START/TASK_TYPE_TO_RULE_MAP.md 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_CHECKER_REPORT.md 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_CHECKER_TASK_CONTRACT.json 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_CHECKER_TASK_CONTRACT_REPORT.md 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_ROOT_CAUSE_AUDIT.md 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_ROOT_CAUSE_AUDIT_TASK_CONTRACT.json 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_ROOT_CAUSE_AUDIT_TASK_CONTRACT_REPORT.md 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_REPORT.md 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_TASK_CONTRACT.json 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_TASK_CONTRACT_REPORT.md 05_OUTPUTS/release_readiness/SCHEMATIC_PROMPT_HUMAN_DRAFTING_MODE_UPDATE.md 05_OUTPUTS/release_readiness/SCHEMATIC_PROMPT_HUMAN_DRAFTING_MODE_UPDATE_TASK_CONTRACT.json 05_OUTPUTS/release_readiness/SCHEMATIC_PROMPT_HUMAN_DRAFTING_MODE_UPDATE_TASK_CONTRACT_REPORT.md 05_OUTPUTS/release_readiness/SCHEMATIC_PROMPT_PACK_HUMAN_DRAFTING_UPDATE.md 02_HISTORY/sessions/POST_HUMAN_DRAFTING_RULE_UPDATE_REGRESSION_TEST_SESSION.md 02_HISTORY/sessions/SCHEMATIC_HUMAN_DRAFTING_CHECKER_SESSION.md 02_HISTORY/sessions/SCHEMATIC_HUMAN_DRAFTING_ROOT_CAUSE_AUDIT_SESSION.md 02_HISTORY/sessions/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_SESSION.md 02_HISTORY/sessions/SCHEMATIC_PROMPT_HUMAN_DRAFTING_MODE_UPDATE_SESSION.md 02_HISTORY/sessions/SCHEMATIC_PROMPT_PACK_HUMAN_DRAFTING_UPDATE_SESSION.md 02_HISTORY/command_logs/POST_HUMAN_DRAFTING_RULE_UPDATE_REGRESSION_TEST_COMMANDS.md 02_HISTORY/command_logs/SCHEMATIC_HUMAN_DRAFTING_CHECKER_COMMANDS.md 02_HISTORY/command_logs/SCHEMATIC_HUMAN_DRAFTING_ROOT_CAUSE_AUDIT_COMMANDS.md 02_HISTORY/command_logs/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_COMMANDS.md 02_HISTORY/command_logs/SCHEMATIC_PROMPT_HUMAN_DRAFTING_MODE_UPDATE_COMMANDS.md 02_HISTORY/command_logs/SCHEMATIC_PROMPT_PACK_HUMAN_DRAFTING_UPDATE_COMMANDS.md
+git diff --cached --name-only
+git status --short
+python health_check.py --repo-root . --no-write
+python 03_TOOLS/scripts/schematic_quality/check_schematic_human_drafting_quality.py --help
+python 03_TOOLS/scripts/schematic_quality/check_schematic_human_drafting_quality.py --schematic 04_KICAD_PROJECTS/active/ESP32_CSI_WIFI_NODE/kicad/ESP32_CSI_WIFI_NODE.kicad_sch --warn-only
+Get-Content 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_TASK_CONTRACT.json -TotalCount 220
+Get-Content 05_OUTPUTS/release_readiness/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_TASK_CONTRACT_REPORT.md -TotalCount 220
+Get-Content 02_HISTORY/sessions/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_SESSION.md -TotalCount 220
+Get-Content 02_HISTORY/command_logs/SCHEMATIC_HUMAN_DRAFTING_RULE_PATCH_COMMANDS.md -TotalCount 220
+```
+
+## Notes
+
+- The staged validation set was intentionally limited to the user's allowed
+  include paths.
+- Commit and push were intentionally not run after the prompt dependency
+  blocker was confirmed.

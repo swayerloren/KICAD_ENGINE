@@ -39,8 +39,26 @@ Purpose: reusable prompts for users working with Codex, Claude, or similar AI co
 - `shared/SAFETY_GATES.md`
 - `shared/COMPONENT_RESEARCH_STANDARD.md`
 - `shared/DATASHEET_SUMMARY_STANDARD.md`
+- `shared/HUMAN_DRAFTING_MODE.md`
 - `shared/KICAD_VERIFICATION_STANDARD.md`
 - `shared/GITHUB_RELEASE_STANDARD.md`
+
+Schematic create, repair, visual-cleanup, and schematic-readiness prompts must
+also use `shared/HUMAN_DRAFTING_MODE.md` so symbol orientation, local wiring,
+net-label restraint, and text ownership are judged before ERC-only or
+automation-only success language is used.
+
+Those schematic prompts must explicitly require:
+
+- orientation before labels
+- local wire before label
+- physical wiring for local MCU support circuits when close enough
+- graphic-line versus electrical-wire verification for emphasized rails
+- reset/boot topology sanity beyond ERC
+- visible text ownership
+- screenshot/rendered-image review that can block a pass even when ERC passes
+- report output that lists symbol moves, labels replaced, labels kept and why,
+  rail verification, topology sanity result, and ERC/text/unresolved results
 
 ## Recommended Starting Prompt
 

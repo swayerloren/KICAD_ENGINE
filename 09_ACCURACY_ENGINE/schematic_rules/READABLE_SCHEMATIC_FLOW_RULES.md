@@ -16,7 +16,14 @@
 6. Inputs generally belong left, outputs generally right, power generally top, and ground generally bottom unless a better readable layout is proven.
 7. Detached single parts or random clusters are a readability failure even if ERC still passes.
 8. Use real wires inside local blocks unless a wire would clearly reduce readability.
-9. ERC pass does not override bad flow.
+9. Ground and power rails should read as intentional rails or local return
+   paths. Common return lines must be real wires on the intended nets, not
+   graphics.
+10. Reset/boot and other local control topology must remain obvious; labels,
+    notes, or awkward routing must not hide switch behavior.
+11. Short local control paths should avoid unnecessary loopback or S-shaped
+    wiring when a direct orthogonal path exists.
+12. ERC pass does not override bad flow.
 
 ## Source Registry References
 

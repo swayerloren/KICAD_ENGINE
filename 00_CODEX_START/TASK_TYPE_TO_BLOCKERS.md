@@ -24,6 +24,12 @@ Blocked when:
 - native annotation proof is required but unresolved
 - the schematic quality/readability gate is failing and the request is really a
   cleanup or PCB-readiness task
+- critical local blocks still depend on avoidable labels because symbol
+  orientation or local wiring quality was not improved first
+- visually emphasized rails or return paths are being used as electrical proof
+  without object/net verification
+- reset/boot or other local control topology remains ambiguous or visually
+  misleading
 - the user actually asked for annotation proof, visual cleanup, or PCB work and
   the route should be different
 
@@ -36,6 +42,12 @@ Blocked when:
 - the schematic quality gate still shows unresolved readability blockers that
   are not being addressed by the task
 - the task tries to claim `VISUAL_PASS` without image inspection
+- the task tries to claim visual readiness while critical local labels are
+  still compensating for avoidable bad orientation or avoidable short wires
+- visually emphasized power, ground, or common-return rails are not proven as
+  real wires on the intended nets
+- reset/boot or other local control topology remains hidden, ambiguous, or
+  visually unsafe in the reviewed block
 
 ## NATIVE_ANNOTATION
 

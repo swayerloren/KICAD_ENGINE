@@ -13,21 +13,22 @@ Task: evaluate the schematic-to-PCB gate. Do not update PCB.
 ## Read First
 
 1. `AGENTS.md`
-2. `09_ACCURACY_ENGINE/workflows/SCHEMATIC_TO_PCB_GATE_WORKFLOW.md`
-3. `09_ACCURACY_ENGINE/checklists/SCHEMATIC_READY_FOR_PCB_CHECKLIST.md`
-4. `09_ACCURACY_ENGINE/verification_rules/SCHEMATIC_TO_PCB_BLOCKERS.md`
-5. `09_ACCURACY_ENGINE/verification_rules/NEEDS_REVIEW_BLOCKER_RULES.md`
-6. `09_ACCURACY_ENGINE/verification_rules/HUMAN_READABLE_SCHEMATIC_RULES.md`
-7. `09_ACCURACY_ENGINE/verification_rules/VISUAL_PASS_IS_NOT_AUTOMATED_PASS.md`
-8. `09_ACCURACY_ENGINE/checklists/SCHEMATIC_HUMAN_READABILITY_CHECKLIST.md`
-9. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
-10. `33_KICAD_GUI_AUTOMATION/KICAD_NATIVE_ANNOTATION_WORKFLOW.md`
-11. `33_KICAD_GUI_AUTOMATION/KICAD_NATIVE_ANNOTATION_SUCCESS_RECORD.md`
-12. `34_SCHEMATIC_QUALITY_ENGINE/README.md`
-13. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_TO_PCB_READY_GATE.md`
-14. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_VISUAL_AUDIT_RULES.md`
-15. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_FOOTPRINT_GATE.md`
-12. All prior project reports from prompts 01 through 05.
+2. `.prompts/shared/HUMAN_DRAFTING_MODE.md`
+3. `09_ACCURACY_ENGINE/workflows/SCHEMATIC_TO_PCB_GATE_WORKFLOW.md`
+4. `09_ACCURACY_ENGINE/checklists/SCHEMATIC_READY_FOR_PCB_CHECKLIST.md`
+5. `09_ACCURACY_ENGINE/verification_rules/SCHEMATIC_TO_PCB_BLOCKERS.md`
+6. `09_ACCURACY_ENGINE/verification_rules/NEEDS_REVIEW_BLOCKER_RULES.md`
+7. `09_ACCURACY_ENGINE/verification_rules/HUMAN_READABLE_SCHEMATIC_RULES.md`
+8. `09_ACCURACY_ENGINE/verification_rules/VISUAL_PASS_IS_NOT_AUTOMATED_PASS.md`
+9. `09_ACCURACY_ENGINE/checklists/SCHEMATIC_HUMAN_READABILITY_CHECKLIST.md`
+10. `09_ACCURACY_ENGINE/workflows/FULL_KICAD_PROJECT_PIPELINE.md`
+11. `33_KICAD_GUI_AUTOMATION/KICAD_NATIVE_ANNOTATION_WORKFLOW.md`
+12. `33_KICAD_GUI_AUTOMATION/KICAD_NATIVE_ANNOTATION_SUCCESS_RECORD.md`
+13. `34_SCHEMATIC_QUALITY_ENGINE/README.md`
+14. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_TO_PCB_READY_GATE.md`
+15. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_VISUAL_AUDIT_RULES.md`
+16. `34_SCHEMATIC_QUALITY_ENGINE/SCHEMATIC_FOOTPRINT_GATE.md`
+17. All prior project reports from prompts 01 through 05.
 
 ## Do
 
@@ -57,6 +58,19 @@ Do not pass this gate from `AUTOMATED_CROP_PASS_ONLY`, `CLOSE_UP_REVIEW.md` exis
 Do not pass this gate if `03_TOOLS/scripts/schematic_quality/run_schematic_quality_gate.py`
 reports failing readability, block-layout, text-overlap, wire-vs-label, native
 annotation, footprint, ERC, or human-visual evidence.
+
+## Mandatory Human Drafting Rule
+
+Do not pass this gate if the schematic still depends on bad symbol orientation,
+avoidable local labels, detached text ownership, or unreadable local MCU
+support circuits. A human-readable sheet must prove `LOCAL_WIRE_BEFORE_NET_LABEL`
+and `ORIENT_SYMBOLS_BEFORE_LABELS` behavior, not just acceptable ERC output.
+
+Do not pass this gate if the review record fails to state which symbols were
+rotated/flipped/repositioned, which labels were replaced with wires, which
+labels were kept and why, how emphasized rails were verified as electrical
+objects, how reset/boot topology sanity was proven, and what ERC/text/unresolved
+results were obtained.
 
 ## Required Result
 

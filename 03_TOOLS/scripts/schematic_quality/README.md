@@ -30,6 +30,7 @@ These scripts enforce more than ERC:
 - `audit_schematic_text_overlaps.py`
 - `audit_schematic_block_layout.py`
 - `audit_wire_vs_label_balance.py`
+- `check_schematic_human_drafting_quality.py`
 - `generate_schematic_quality_report.py`
 - `run_schematic_quality_gate.py`
 
@@ -39,6 +40,11 @@ These scripts enforce more than ERC:
 python 03_TOOLS\scripts\schematic_quality\run_schematic_quality_gate.py `
   --project 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE `
   --no-fail
+
+python 03_TOOLS\scripts\schematic_quality\check_schematic_human_drafting_quality.py `
+  --project 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE `
+  --output-dir 04_KICAD_PROJECTS\active\ESP32_CSI_WIFI_NODE\reports\schematic_quality\human_drafting `
+  --warn-only
 ```
 
 ## Output
@@ -47,3 +53,15 @@ The gate writes per-audit JSON and Markdown plus a combined quality report
 under:
 
 `reports/schematic_quality/<timestamp>/`
+
+The human-drafting checker writes paired JSON and Markdown reports and focuses
+on:
+
+- top-level graphic items near electrical nets
+- local label classification and avoidable label shortcuts
+- orientation-before-label heuristics
+- MCU local support physical-wiring review
+- reset/boot topology sanity beyond ERC
+- reference/value text ownership heuristics
+- suspicious local loopback or S-shaped wires
+- local return clusters that visually read like GND but are not on GND
